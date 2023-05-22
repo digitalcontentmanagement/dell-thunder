@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Direct Copper Cable  </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/>Dell De passieve Omni Path Fabric koperen kabels directe <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> meter
+    </product:name>
+    <product:longdesc>
+      <para>
+     De passieve Omni Path Fabric koperen kabels met directe verbinding bieden zeer betrouwbare communicatieverbindingen met superieure bitfoutfrequentie.
+	 Deze koperen kabels met laag vermogen zijn ontworpen als een voordelig alternatief voor optische kabels in verbindingen op korte afstand tussen actieve netwerkapparatuur.
+
+      </para>
+     </product:longdesc>
+	<product:highlights>
+<points>
+<point> Hot-pluggable <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/>-model </point>
+<point> Koperen kabels directe  </point>
+<point> Laag energieverbruik en lage overspraak </point> </points> </product:highlights>
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologie">
+        Twinaxial
+      </product:techspec>
+      <product:techspec id="2" name="Features">
+        Passive cable
+      </product:techspec>
+	   <product:techspec id="3" name="Lengte">
+        <textbox value="5" id="1"/> meter
+      </product:techspec>
+	   <product:techspec id="4" name="Netwerkkabeltype">
+        Directe verbindingskabel
+      </product:techspec>
+       <product:techspec id="5" name="Materiaal van omhulsel">
+        Materiaal
+      </product:techspec>
+	   <product:techspec id="6" name="Connector ">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Connector(Second End)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

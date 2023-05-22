@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Ummi Ruqaiyah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Den optiske Omni-Path Fabric Active-kabelen <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Den optiske Omni-Path Fabric Active-kabelen for direktetilkobling gir pålitelige kommunikasjonsforbindelser med svært lav bitfeilrate (BER). Kablene er laget for å støtte lange forbindelser mellom aktivt nettverksutstyr.
+      </para>
+     </product:longdesc>
+  <!-- Features and Benefit-->
+	<product:highlights>
+		<points>
+			<point>Optiske Active-kabelen</point>
+			<point><textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/>-formfaktor, kan kobles til under drift </point>
+	</points>
+	</product:highlights>
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Teknologi">
+        Fiberoptisk
+      </product:techspec>
+      <product:techspec id="2" name="Egenskaper">
+        Aktiv kabel (signalregenerasjon)
+      </product:techspec>
+	  <product:techspec id="3" name="Lengde">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	  <product:techspec id="4" name="Nettverkskabeltype">
+        Nettverkskabel
+      </product:techspec>
+      <product:techspec id="5" name="Kappemateriale">
+        Stoff
+      </product:techspec>
+	  <product:techspec id="6" name="Kontakt">
+        <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Kontakt (annen ende)">
+        <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	   
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

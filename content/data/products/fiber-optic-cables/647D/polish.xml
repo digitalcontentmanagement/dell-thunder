@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Direct Copper Cable  </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Omni Path Fabric pasywne kable miedziane <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> Metry
+    </product:name>
+    <product:longdesc>
+      <para>
+       Wielościeżkowe pasywne kable miedziane do podłączania bezpośredniego umożliwiają uzyskanie niezawodnych połączeń komunikacyjnych o bardzo niskiej stopie błędów (BER). 
+	   Te kable miedziane zostały opracowane jako ekonomiczna i energooszczędna alternatywa kabli optycznych dla krótkich połączeń aktywnych urządzeń sieciowych. 
+
+      </para>
+     </product:longdesc>
+
+	<product:highlights>
+<points>
+<point> <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> z możliwością wymiany bez wyłączania systemu </point>
+<point> Kable miedziane </point>
+<point> Małe zużycie energii i niski przesłuch </point> </points> </product:highlights>
+
+	
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologia">
+        Dwu-osiowy
+      </product:techspec>
+      <product:techspec id="2" name="Cechy">
+        Kabel pasywny
+      </product:techspec>
+	   <product:techspec id="3" name="Długość">
+        <textbox value="5" id="1"/> Metry
+      </product:techspec>
+	   <product:techspec id="4" name="Rodzaj kabla sieciowego">
+        Kabel połączenia bezpośredniego
+      </product:techspec>
+       <product:techspec id="5" name="Materiał powłoki">
+        Tkanina
+      </product:techspec>
+	   <product:techspec id="6" name="Złącze">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Złącze (Drugi Koniec)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

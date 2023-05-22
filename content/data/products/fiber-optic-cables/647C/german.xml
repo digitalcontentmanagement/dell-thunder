@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Das optische Kabel Omni-Path Fabric Active <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Die Das optische Kabel Omni-Path Fabric Active sorgen für höchst zuverlässige Kommunikationslinks mit herausragender Performance in Sachen Bitfehlerhäufigkeit (BFH). 
+	   Diese Kupferkabel sind eine kostengünstige und energiesparende Alternative zu optischen Kabeln für Verbindungen über kurze Länge zwischen aktiven Netzwerkkomponenten. 
+	   Die Kabel sind so konzipiert, dass sie lange Verbindungen zwischen aktiven Netzwerkkomponenten unterstützen.
+
+      </para>
+     </product:longdesc>
+	 
+	  <!-- Features and Benefit-->
+	<product:highlights>
+		<points>
+			<point>Optische Kabel Active</point>
+			<point>Hot-Plug-fähiger <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/>-Formfaktor </point>
+	</points>
+	</product:highlights>
+	
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologie">
+        Glasfaser
+      </product:techspec>
+      <product:techspec id="2" name="Leistungsmerkmale">
+        Aktives Kabel (Signal-Regeneration)
+      </product:techspec>
+	   <product:techspec id="3" name="Länge">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	   <product:techspec id="4" name="Typ des Netzwerkkabels">
+         Netzwerkkabel
+      </product:techspec>
+       <product:techspec id="5" name="Kabelmantelmaterial">
+        Stoff
+      </product:techspec>
+	   <product:techspec id="6" name="Anschluss">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Stecker (zweites Ende)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	 
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

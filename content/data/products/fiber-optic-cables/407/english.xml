@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fiber Optic Cable</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Networking <textbox value="SC" id="3"/> - <textbox value="LC" id="4"/> Fiber Optic Cable <dropdownlist id="optic-cable"/> - <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+      This Dell Networking Fiber Optic Cable is used to link your fiber networking devices for high-speed, long-distance connectivity. This <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/> cable features an <textbox value="SC" refid="3"/> connector at one end and <textbox value="LC" refid="4"/> connector at the other end.
+	  </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b> 
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+         Provides the necessary link between fiber networking devices for high-speed, long-distance connectivity 
+        </point>
+        <point>
+         Features an <textbox value="SC" refid="3"/> connector at one end and <textbox value="LC" refid="4"/> connector at the other end 
+        </point>
+        <point>
+         Measures <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/> in length
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Device Type">
+        Fiber Optic Cable
+      </product:techspec>
+      <product:techspec id="2" name="Cable included">
+       <textbox value="49.2" id="1"/><dropdownlist id="meter-feet-unit"/> Fiber Optic Cable
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

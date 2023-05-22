@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Omni-Path Fabric アクティブオプティカルケーブル <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Omni-Path Fabric アクティブオプティカルケーブルは、優れたビットエラーレート（BER）パフォーマンスで、非常に信頼性の高い通信リンクを実現します。このケーブルは、アクティブネットワーク機器間の長距離の相互接続をサポートするように設計されています。
+
+      </para>
+	    </product:longdesc>
+<product:highlights>
+  
+	 <points>
+      <point>アクティブオプティカルケーブル </point>
+	  <point> ホットプラグ対応 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> フォームファクタ  </point>
+     </points>
+
+    </product:highlights> 
+
+	
+  
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+     <product:techspec id="1" name="技術">
+        光ファイバー
+      </product:techspec>
+      <product:techspec id="2" name="特徴">
+        アクティブケーブル（信号再生）
+      </product:techspec>
+	   <product:techspec id="3" name="長さ">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	   <product:techspec id="4" name="ネットワークケーブルタイプ">
+        ネットワークケーブル
+      </product:techspec>
+       <product:techspec id="5" name="ジャケット材質">
+        Fabric
+      </product:techspec>
+	   <product:techspec id="6" name="コネクタ">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="コネクタ (第2端)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	   
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

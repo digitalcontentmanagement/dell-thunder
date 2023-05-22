@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Optical-Transceiver-647B</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="SFP+" id="1"/> 光學收發器 <textbox value="10" id="2"/><textbox value="GBase" id="3"/><textbox value="-LRM" id="4"/>-最大 <textbox value="200" id="8"/> <dropdownlist id="distance-unit"/>  
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Dell<tm/> <textbox value="SFP+" refid="1"/> 收發器具備光纖連線能力，可擴大網路範圍。 這款可熱插拔收發器的體積屬於 SFP (可插拔小機型)，配備雙工 LC 連接器。 Dell Networking
+	   <textbox value="10" refid="2"/><textbox value="GBase" refid="3"/><textbox value="-LRM" refid="4"/> <textbox value="SFP+" refid="1"/> 收發器具備 <textbox value="10" refid="2"/><textbox value="GbE" id="5"/> 
+	   連線能力，最大可達 <textbox value="200" refid="8"/> <dropdownlist refid="distance-unit"/> .
+	  </para>
+	  <para>
+	   此外，還提供獨特的增強型數位診斷監控介面，可即時存取裝置的作業參數，例如收發器溫度、雷射偏壓電流、傳輸的光學功率、接收的光學功率以及收發器電源電壓。
+	  </para>
+	  
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="裝置類型">
+         光學收發器
+      </product:techspec>
+      <product:techspec id="2" name="光學波長">
+       最大 <textbox value="220" id="6"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

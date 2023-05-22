@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Omni-Path Fabric 主動式光學纜線 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+      Omni-Path Fabric 主動式光學纜線提供了極為可靠的通訊連結，並具備卓越的位元錯誤率 (BER) 效能。纜線是專為支援使用中網路設備之間的長時間互連所設計。
+      </para>
+     </product:longdesc>
+	<product:highlights>
+	 
+	
+	<points>
+	<point> 主動式光學纜線  </point>
+	<point> 可熱插拔的 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> 外形規格  </point>
+	</points>
+  
+		</product:highlights>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="技術">
+        光纖
+      </product:techspec>
+      <product:techspec id="2" name="特徵">
+        有源線纜（信號再生）
+      </product:techspec>
+	   <product:techspec id="3" name="長度">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	   <product:techspec id="4" name="網絡線纜類型">
+        網絡線纜
+      </product:techspec>
+       <product:techspec id="5" name="護套材料">
+        Fabric
+      </product:techspec>
+	   <product:techspec id="6" name="接頭 ">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="連接器（二完）">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	 
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

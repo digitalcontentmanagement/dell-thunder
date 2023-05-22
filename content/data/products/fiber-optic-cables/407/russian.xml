@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fiber Optic Cable</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+       <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Сетевой <textbox value="SC" id="3"/> - <textbox value="LC" id="4"/> Волоконно-оптический кабель <dropdownlist id="optic-cable"/>:<textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+      Dell Сетевой Волоконно-оптический кабель используется для подключения волоконных сетевых устройств для обеспечения высокоскоростных подключений на большие расстояния. 
+	 Этот кабель <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/> оснащен разъемом <textbox value="SC" refid="3"/> на одном конце и разъемом <textbox value="LC" refid="4"/> на другом конце.
+	  </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+        Предоставление необходимой связи между волоконными сетевыми устройствами для обеспечения высокоскоростных подключений на большом расстоянии  
+        </point>
+        <point>
+        Оснащен разъемом <textbox value="SC" refid="3"/> на одном конце и разъемом <textbox value="LC" refid="4"/> на другом конце 
+        </point>
+        <point>
+         Длина:<textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип устройства">
+       Волоконно-оптический кабель
+      </product:techspec>
+      <product:techspec id="2" name="Кабель входит в комплект поставки">
+      Волоконно-оптический кабель <textbox value="49.2" id="1"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

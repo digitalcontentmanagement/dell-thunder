@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fiber Optic Cable</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Networking <textbox value="SC" id="3"/> - <textbox value="LC" id="4"/> fibra óptica cabo <dropdownlist id="optic-cable"/> - <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+         O Dell Networking de fibra óptica cabo de é usado para vincular dispositivos de rede de fibra para conectividade de alta velocidade e de longa distância. Esse cabo de <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/> tem um conector <textbox value="SC" refid="3"/>  em uma extremidade e um conector <textbox value="LC" refid="4"/>  na outra.
+      </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b> 
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Fornece o vínculo necessário entre os dispositivos de rede de fibra para conectividade de alta velocidade e de longa distância 
+        </point>
+        <point>
+         Tem um conector <textbox value="SC" refid="3"/> em uma extremidade e um conector <textbox value="LC" refid="4"/> na outra 
+        </point>
+        <point>
+         	Mede <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Cabo de fibra óptica
+      </product:techspec>
+      <product:techspec id="2" name="Cabo incluído">
+       Cabo de fibra óptica de <textbox value="49.2" id="1"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

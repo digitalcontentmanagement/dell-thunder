@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Del Το καλώδιο Omni-Path Fabric Active Optical <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+        Το καλώδιο Omni-Path Fabric Active Optical παρέχουν εξαιρετικά αξιόπιστες συνδέσεις επικοινωνίας με κορυφαία απόδοση συχνότητας σφαλμάτων bit (BER). Τα καλώδια έχουν σχεδιαστεί με γνώμονα τις μεγάλου μήκους διασυνδέσεις μεταξύ ενεργού δικτυακού εξοπλισμού.
+      </para>
+     </product:longdesc>
+	
+ <!-- Features and Benefit-->
+	<product:highlights>
+		<points>
+			<point>καλώδιο Active Optical</point>
+			<point>Συντελεστής μορφής <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> με δυνατότητα σύνδεσης εν ώρα λειτουργίας </point>
+	</points>
+	</product:highlights>
+	
+	
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τεχνολογία">
+       οπτική ίνα
+      </product:techspec>
+      <product:techspec id="2" name="Χαρακτηριστικά">
+        Ενεργό καλώδιο (Signal Αναγέννηση)
+      </product:techspec>
+	   <product:techspec id="3" name="Μήκος">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	   <product:techspec id="4" name="Δίκτυο καλωδίων Τύπος">
+        Καλώδιο δικτύου
+      </product:techspec>
+       <product:techspec id="5" name="Jacket Υλικό">
+        Ύφασμα
+      </product:techspec>
+	   <product:techspec id="6" name="Υποδοχή  ">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Υποδοχή (Δεύτερο τέλος)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+
+  </generic:content>
+</generic:root>

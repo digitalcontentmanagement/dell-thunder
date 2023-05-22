@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Direct Copper Cable  </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Câbles Cuivre de Raccordement Direct Passif Omni Path Fabric <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> Metres
+    </product:name>
+    <product:longdesc>
+      <para>
+     Les câbles en cuivre de raccordement direct passif Omni Path Fabric permettent d’établir des liaisons de communication extrêmement fiables avec des performances BER supérieures. Ces câbles en cuivre représentent une alternative économique et écoénergétique aux assemblages
+	 de câbles optiques pour les interconnexions courtes entre les équipements réseau actifs. 
+      </para>
+     </product:longdesc>
+	
+	<product:highlights>
+<points>
+<point> Format <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> enfichable à chaud </point>
+<point> Câbles Cuivre de Raccordement Direct </point>
+<point> Faible consommation d’énergie et faible diaphonie </point> </points> </product:highlights>
+
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologie">
+        Twinaxial
+      </product:techspec>
+      <product:techspec id="2" name="Caractéristiques">
+        Câble passif
+      </product:techspec>
+	   <product:techspec id="3" name="Longueur">
+        <textbox value="5" id="1"/> Metres
+      </product:techspec>
+	   <product:techspec id="4" name="Type de câble réseau">
+        Câble à attache directe
+      </product:techspec>
+       <product:techspec id="5" name="Matériau de la gaine">
+        Tissu
+      </product:techspec>
+	   <product:techspec id="6" name="Connecteur">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Connecteur (deuxième extrémité)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Optical-Transceiver-647B</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Émetteur-récepteur optique Dell <textbox value="SFP+" id="1"/> <textbox value="10" id="2"/><textbox value="GBase" id="3"/><textbox value="-LRM" id="4"/>: jusqu’à <textbox value="200" id="8"/><dropdownlist id="distance-unit"/>  
+    </product:name>
+    <product:longdesc>
+      <para>
+	   L’émetteur-récepteur Dell<tm/> <textbox value="SFP+" refid="1"/> fournit la connectivité par fibre optique pour élargir la portée de votre réseau. Cet émetteur-récepteur enfichable à chaud, avec empreinte SFP (Small Form Factor Pluggable), offre un connecteur LC duplex. L’émetteur-récepteur réseau Dell  
+	   <textbox value="10" refid="2"/><textbox value="GBase" refid="3"/><textbox value="-LRM" refid="4"/> <textbox value="SFP+" refid="1"/> offre une connectivité <textbox value="10" refid="2"/><textbox value="GbE" id="5"/> jusqu’à <textbox value="200" refid="8"/> <dropdownlist refid="distance-unit"/> .
+	  </para>
+	  <para>
+	  En outre, il est doté d’une interface de contrôle de diagnostic numérique unique améliorée, qui permet un accès en temps réel aux paramètres d’exploitation du dispositif tels que la température de l’émetteur-récepteur, le courant de polarisation laser, la puissance optique transmise, la puissance optique reçue et la tension d’alimentation de l’émetteur récepteur.
+	  </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b> 
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type d’appareil">
+        Émetteur-récepteur optique
+      </product:techspec>
+      <product:techspec id="2" name="Longueur d’onde optique">
+       Jusqu’à <textbox value="220" id="6"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

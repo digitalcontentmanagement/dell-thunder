@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Optical-Transceiver-647B</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin optinen <textbox value="SFP+" id="1"/> lähetin-vastaanotin <textbox value="10" id="2"/><textbox value="GBase" id="3"/><textbox value="-LRM" id="4"/>– jopa <textbox value="200" id="8"/> <dropdownlist id="distance-unit"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Dell<tm/> <textbox value="SFP+" refid="1"/> lähetin-vastaanotin tarjoaa kuituliitännän verkkoalueesi laajentamiseksi. Tässä käytön aikana vaihdettavassa lähetin-vastaanottimessa on pienikokoinen ja kytkettävä SFP-kaapeli kaksisuuntaisella LC-liittimellä. Dell Networking 
+	   <textbox value="10" refid="2"/><textbox value="GBase" refid="3"/><textbox value="-LRM" refid="4"/> <textbox value="SFP+" refid="1"/> lähetin-vastaanotin tarjoaa <textbox value="10" refid="2"/><textbox value="GbE" id="5"/>-liitännän jopa <textbox value="200" refid="8"/> <dropdownlist refid="distance-unit"/>.
+	  </para>
+	  <para>
+	     Sen ainutlaatuinen, parannettu digitaalinen vianmäärityksen valvontakäyttöliittymä mahdollistaa laitteiden toimintaparametrien reaaliaikaisen seurannan. Esimerkiksi lähetin-vastaanottimen lämpötilaa, laservälitteistä syöttövirtaa, lähetettyä optista tehoa, vastaanotettua optista tehoa ja virtalähteen jännitettä voidaan valvoa.
+	  </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b> 
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Laitetyyppi">
+        Optinen lähetin-vastaanotin
+      </product:techspec>
+      <product:techspec id="2" name="Optinen aallonpituus">
+       Jopa <textbox value="220" id="6"/> <dropdownlist id="meter-feet-unit"/>.
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

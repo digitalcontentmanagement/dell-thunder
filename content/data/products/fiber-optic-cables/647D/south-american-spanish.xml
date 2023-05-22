@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Passive Direct Attach Cable </meta:title>
+    <meta:date value="2016-10-18" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cable de cobre de direct attach pasivo de red Fabric de omnitrayecto Dell <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/>  <dropdownlist id="optic-cable"/> , <textbox value="5" refid="1"/> M
+    </product:name>
+    <product:longdesc>
+      <para>
+       Los cables de cobre de direct attach pasivo de red Fabric de omnitrayecto proporcionan enlaces de comunicación altamente confiables con un rendimiento superior en la tasa de error de bit (BER). Estos cables de cobre están diseñados como una alternativa rentable y de menor consumo de energía para los ensambles de cables ópticos en interconexiones de período corto entre el equipo de red activo.
+      </para>
+    </product:longdesc>
+	 
+	<!-- Features and Benefit for LATAM-->
+	<product:highlights>
+		<points>
+			<point>Factor de forma <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/>
+ conectable en caliente</point>
+			<point>Cables de cobre de direct attach</point>
+			<point>Bajo consumo de energía y la baja interferencia</point>
+		</points>
+	</product:highlights>
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tecnología">
+        Biaxial
+      </product:techspec>
+      <product:techspec id="2" name="Características">
+        Cable pasivo
+      </product:techspec>
+	  <product:techspec id="3" name="Longitud">
+        <textbox value="5" id="1"/> M
+      </product:techspec>
+	  <product:techspec id="4" name="Tipo de cables de red">
+        Cable de conexión directa
+      </product:techspec>
+      <product:techspec id="5" name="Material de revestimiento">
+        Tela
+      </product:techspec>
+	  <product:techspec id="6" name="Conector">
+        <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Conector (segundo extremo)">
+        <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

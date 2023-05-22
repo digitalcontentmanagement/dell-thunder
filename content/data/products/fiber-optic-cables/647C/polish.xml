@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Wielościeżkowy aktywny kabel optyczny <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Wielościeżkowy aktywny kabel optyczny do podłączania bezpośredniego umożliwiają uzyskanie niezawodnych połączeń komunikacyjnych o bardzo niskiej stopie błędów (BER).Kable te są przeznaczone do obsługi długich połączeń aktywnych urządzeń sieciowych.
+      </para>
+     </product:longdesc>
+	 
+	  <!-- Features and Benefit-->
+	<product:highlights>
+		<points>
+			<point>Aktywny kabel optyczny</point>
+			<point><textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> z możliwością wymiany bez wyłączania systemu </point>
+	</points>
+	</product:highlights>
+	 
+	 
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologia">
+        Światłowód
+      </product:techspec>
+      <product:techspec id="2" name="Cechy">
+        Kabel aktywny (regeneracja sygnału)
+      </product:techspec>
+	   <product:techspec id="3" name="Długość">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	   <product:techspec id="4" name="Rodzaj kabla sieciowego">
+        Kabel sieciowy
+      </product:techspec>
+       <product:techspec id="5" name="Materiał powłoki">
+        Tkanina
+      </product:techspec>
+	   <product:techspec id="6" name="Złącze">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Złącze (Drugi Koniec)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Omni-Path Fabric 액티브 옵티컬 케이블 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Omni-Path Fabric 액티브 옵티컬 케이블 은 탁월한 비트 오류율(BER) 성능으로 매우 안정적인 통신 링크를 제공합니다. 이 케이블은 거리가 먼 활성 네트워크 장치 간의 상호 연결을 지원할 수 있도록 설계되었습니다.
+      </para>
+     </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>액티브 옵티컬 케이블 </point>
+	<point> 핫 플러그 방식 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> 폼 팩터 </point>
+	</points>
+
+		</product:highlights>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="기술">
+        광섬유
+      </product:techspec>
+      <product:techspec id="2" name="기능">
+        Active Cable (Signal Regeneration)
+      </product:techspec>
+	   <product:techspec id="3" name="길이">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	   <product:techspec id="4" name="네트워크 케이블 종류">
+        네트워크 케이블
+      </product:techspec>
+       <product:techspec id="5" name="자켓 소재">
+        Fabric
+      </product:techspec>
+	   <product:techspec id="6" name="커넥터
+">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="커넥터 (두번째 말단)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	   
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

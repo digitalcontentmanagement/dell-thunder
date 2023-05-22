@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Direct Copper Cable  </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Suora Kiinnityskaapeli Omni Path Fabric Passive Kuparikaapelit <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> metriä
+    </product:name>
+    <product:longdesc>
+      <para>
+       Suoraan liitettävät Omni Path Fabric Passive -kuparikaapelit tarjoavat tietoliikenneyhteyksiin erittäin alhaisen virhetiheyden (BER). Nämä kuparikaapelit on suunniteltu edulliseksi ja vähävirtaiseksi 
+	   vaihtoehdoksi optisille kaapelikokonaisuuksille lyhyille etäisyyksille aktiivisten verkkolaitteiden välille. 
+      </para>
+     </product:longdesc>
+	
+	<product:highlights>
+<points>
+<point> Käytön aikana vaihdettava <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/>-malli </point>
+<point> Kiinnityskaapeli Fabric Kuparikaapelit </point>
+<point> Alhainen virrankulutus ja alhainen crosstalk-arvo </point> </points> </product:highlights>
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tekniikka">
+        Kaksoisakselinen
+      </product:techspec>
+      <product:techspec id="2" name="Ominaisuudet">
+        Passive cable
+      </product:techspec>
+	   <product:techspec id="3" name="Pituus">
+        <textbox value="5" id="1"/> metriä
+      </product:techspec>
+	   <product:techspec id="4" name="Verkkokaapelin tyyppi">
+        Suora kiinnityskaapeli
+      </product:techspec>
+       <product:techspec id="5" name="Vaippamateriaali">
+        Fabric
+      </product:techspec>
+	   <product:techspec id="6" name="Liitin">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Liitin (toinen pää)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

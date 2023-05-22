@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Passive Direct Attach Cable </meta:title>
+    <meta:date value="2016-10-18" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cabo de cobre <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> passivo com conexão direta de malha Omni-Path da Dell <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> Metros
+    </product:name>
+    <product:longdesc>
+      <para>
+       Os cabos de cobre passivos com conexão direta de malha Omni-Path fornecem links de comunicação altamente confiáveis com performance superior de taxa de erros de bits (BER). Esses cabos de cobre foram projetados como uma opção alternativa econômica e de menor consumo de energia aos conjuntos de cabos ópticos para interconexões de curta distância entre todos os equipamentos ativos da rede.
+      </para>
+    </product:longdesc>
+	
+	<!-- Features and Benefit for LATAM-->
+	<product:highlights>
+		<points>
+			<point>Formato <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> de conexão automática</point>
+			<point>Cabos de cobre de conexão direta</point>
+			<point>Baixo consumo de energia e menos linhas cruzadas</point>
+		</points>
+	</product:highlights>
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tecnologia">
+        Twinaxial
+      </product:techspec>
+      <product:techspec id="2" name="Características">
+        Cabo passivo
+      </product:techspec>
+	  <product:techspec id="3" name="Comprimento">
+        <textbox value="5" id="1"/> Metros
+      </product:techspec>
+	  <product:techspec id="4" name="Tipo de cabo de rede">
+        Cabo de ligação directa
+      </product:techspec>
+      <product:techspec id="5" name="Material de revestimento do cabo">
+        Tecido
+      </product:techspec>
+	  <product:techspec id="6" name="Conector">
+        <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Conector (Segunda Ponta)">
+        <textbox value="QSFP" id="3"/>
+      </product:techspec>   
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

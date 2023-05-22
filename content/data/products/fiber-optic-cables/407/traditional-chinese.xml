@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fiber Optic Cable</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 網路 <textbox value="SC" id="3"/> - <textbox value="LC" id="4"/> 光纖纜線 <dropdownlist id="optic-cable"/> - <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+      Dell 網路光纖纜線用於連結您的光纖網路裝置，為您提供高速的遠距連線能力。 
+	  這條 <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/> 纜線其中一端配置有 <textbox value="SC" refid="3"/> 接頭，而另一端則配置有 <textbox value="LC" refid="4"/> 接頭。
+	  
+      </para>
+	  <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+         在光纖網路裝置之間提供必要的連結，為您提供高速的遠距連線能力 
+        </point>
+        <point>
+         其中一端配置有 <textbox value="SC" refid="3"/> 接頭，而另一端則配置有 <textbox value="LC" refid="4"/> 接頭 
+        </point>
+        <point>
+         長度量測值為 <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="裝置類型">
+        光纖纜線
+      </product:techspec>
+      <product:techspec id="2" name="隨附纜線">
+       <textbox value="49.2" id="1"/><dropdownlist id="meter-feet-unit"/> 光纖纜線
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

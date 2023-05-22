@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fiber Optic Cable</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 网络  <textbox value="SC" id="3"/> - <textbox value="LC" id="4"/> 光纤电缆 <dropdownlist id="optic-cable"/> - <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+      此 戴尔 网络 光纤电缆用于连接您的光纤网络设备，以便实现高速、远距离连接。
+	 此<textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/> 英尺电缆一端采用 <textbox value="SC" id="3"/> 连接器，而另一端采用 <textbox value="LC" id="4"/> 连接器。
+    </para>
+	 <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          提供光纤网络设备之间必要的链路，从而实现高速、远距离连接 
+        </point>
+        <point>
+         一端采用 <textbox value="SC" refid="3"/> 连接器，而另一端采用 <textbox value="LC" refid="4"/> 连接器  
+        </point>
+        <point>
+         长度为 <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+       光纤电缆
+      </product:techspec>
+      <product:techspec id="2" name="随附电缆">
+       <textbox value="49.2" id="1"/><dropdownlist id="meter-feet-unit"/> 光纤电缆
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-10-18" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cable de cobre direct attach activo de red Fabric de omnitrayecto Dell <textbox value="QSFP" refid="2"/> <dropdownlist id="optic-cable"/> - <textbox value="QSFP" refid="3"/> , <textbox value="5" refid="1"/> M
+    </product:name>
+    <product:longdesc>
+      <para>
+       El cable de óptico activo de la red Fabric de omnitrayecto proporciona enlaces de comunicación altamente confiable con rendimiento superior en la tasa de error de bit (BER). Los cables están diseñados para admitir de largas interconexiones entre el equipo de red activo.
+      </para>
+    </product:longdesc>
+	 
+	<!-- Features and Benefit for LATAM-->
+	<product:highlights>
+		<points>
+			<point>Cable óptico activo</point>
+			<point>Factor de forma <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> conectable en caliente</point>
+		</points>
+	</product:highlights>
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tecnología">
+        Fibra óptica
+      </product:techspec>
+      <product:techspec id="2" name="Características">
+        Cable activo (regeneración de señal)
+      </product:techspec>
+	  <product:techspec id="3" name="Longitud">
+        <textbox value="5" id="1"/> M
+      </product:techspec>
+	  <product:techspec id="4" name="Tipo de cables de red">
+        Cable de red
+      </product:techspec>
+      <product:techspec id="5" name="Material de revestimiento">
+        Tela
+      </product:techspec>
+	  <product:techspec id="6" name="Conector">
+        <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Conector (segundo extremo)">
+        <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

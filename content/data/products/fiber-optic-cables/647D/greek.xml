@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Direct Copper Cable  </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Τα παθητικά καλώδια χαλκού απευθείας σύνδεσης Omni Path Fabric <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> μέτρο
+    </product:name>
+    <product:longdesc>
+      <para>
+      
+	 Τα παθητικά καλώδια χαλκού απευθείας σύνδεσης Omni Path Fabric παρέχουν εξαιρετικά αξιόπιστες συνδέσεις επικοινωνίας με κορυφαία απόδοση συχνότητας σφαλμάτων bit (BER).
+	  Αυτά τα καλώδια χαλκού έχουν σχεδιαστεί ως μια οικονομικά αποδοτική και χαμηλής κατανάλωσης εναλλακτική για διατάξεις καλωδίων οπτικών ινών για μικρού μήκους διασυνδέσεις μεταξύ ενεργού δικτυακού εξοπλισμού. 
+     </para>
+     
+	</product:longdesc>
+
+	<product:highlights>
+<points>
+<point> Συντελεστής μορφής <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> με δυνατότητα σύνδεσης εν ώρα λειτουργίας</point>
+<point> Τα παθητικά καλώδια χαλκού απευθείας σύνδεσης  </point>
+<point>Χαμηλή κατανάλωση ενέργειας και χαμηλή διομιλία </point> </points> </product:highlights>
+
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τεχνολογία">
+        διαξονικό 
+      </product:techspec>
+      <product:techspec id="2" name="Χαρακτηριστικά">
+        παθητική καλώδιο
+      </product:techspec>
+	   <product:techspec id="3" name="Μήκος">
+        <textbox value="5" id="1"/> μέτρο
+      </product:techspec>
+	   <product:techspec id="4" name="Δίκτυο καλωδίων Τύπος">
+        Απευθείας σύνδεση καλωδίου
+      </product:techspec>
+       <product:techspec id="5" name="Jacket Υλικό">
+        Ύφασμα
+      </product:techspec>
+	   <product:techspec id="6" name="Υποδοχή  ">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Υποδοχή (Δεύτερο τέλος)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

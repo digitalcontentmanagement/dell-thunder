@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Omni-Path Fabric Active Optical Cable <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       The Omni-Path Fabric Active Optical Cable provides highly reliable communication links with superior bit error rate (BER) performance. The cables are designed to support long length interconnects between active network equipment.
+      </para>
+     </product:longdesc>
+
+	 <!-- Features and Benefit-->
+	<product:highlights>
+		<points>
+			<point>Active Optical Cable</point>
+			<point>Hot Pluggable <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> Form Factor </point>
+	</points>
+	</product:highlights>
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technology">
+        Fibre Optic
+      </product:techspec>
+      <product:techspec id="2" name="Features">
+        Active Cable (Signal Regeneration)
+      </product:techspec>
+	   <product:techspec id="3" name="Length">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	   <product:techspec id="4" name="Network Cable Type">
+        Network Cable
+      </product:techspec>
+       <product:techspec id="5" name="Jacket Material">
+        Fabric
+      </product:techspec>
+	   <product:techspec id="6" name="Connector ">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Connector(Second End)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

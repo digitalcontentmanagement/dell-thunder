@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Direct Copper Cable  </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Omni-Path Fabric Passive 直接附加銅製纜線 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> m
+    </product:name>
+    <product:longdesc>
+      <para> 
+	 Omni-Path 網狀架構被動式直接附加銅製纜線提供了極為可靠的通訊連結，並具備卓越的位元錯誤率 (BER) 效能。這些銅製纜線是為了當做符合成本效益，且耗電量較少的光纖纜線組件替代方案所設計，
+	 以便在使用中的網路設備之間提供短程互連。
+
+	</para>
+     </product:longdesc>
+	 
+	 <product:highlights>
+<points>
+<point>可熱插拔的 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> 外形規格</point>
+<point> 直接附加銅製纜線 </point>
+<point> 低耗電量和低交互干擾 </point>
+</points></product:highlights>
+	
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="技術">
+        雙軸
+      </product:techspec>
+      <product:techspec id="2" name="特徵">
+       無源電纜
+      </product:techspec>
+	   <product:techspec id="3" name="長度">
+        <textbox value="5" id="1"/> m
+      </product:techspec>
+	   <product:techspec id="4" name="網絡線纜類型">
+       直接連接電線
+
+      </product:techspec>
+       <product:techspec id="5" name="護套材料">
+        Fabric
+      </product:techspec>
+	   <product:techspec id="6" name="接頭">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="連接器（二完）">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

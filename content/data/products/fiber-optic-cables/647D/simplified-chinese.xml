@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Direct Copper Cable  </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Omni-Path Fabric Passive 直接连接铜缆 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> meter
+    </product:name>
+    <product:longdesc>
+      <para> 
+	Omni-Path结构无源直接连接铜缆可提供高度可靠的通信连接和卓越的比特误码率(BER)性能。这些铜缆经济实惠且功耗低，可代替光纤线缆组件，在活动网络设备之间实现短距离互连。
+
+	</para>
+     </product:longdesc>
+	 
+	 <product:highlights>
+<points>
+<point>热插拔 <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> 的外形规格</point>
+<point> 直接连接铜缆 </point>
+<point> 低功耗和低串扰</point>
+</points></product:highlights>
+	
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="技术">
+        双轴电缆
+      </product:techspec>
+      <product:techspec id="2" name="特征">
+        无源线缆
+
+      </product:techspec>
+	   <product:techspec id="3" name="长度">
+        <textbox value="5" id="1"/> meter
+      </product:techspec>
+	   <product:techspec id="4" name="网络线缆类型">
+        直连线缆
+
+      </product:techspec>
+       <product:techspec id="5" name="护套材料">
+        Fabric
+      </product:techspec>
+	   <product:techspec id="6" name="接头">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="连接器（第二端口）">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

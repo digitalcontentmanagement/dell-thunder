@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Активный оптический кабель Omni-Path Fabric <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> <dropdownlist refid="meter-feet-unit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Активный оптический кабель Omni-Path Fabric обеспечивают надежное подключение и отличаются чрезвычайно низкими значениями коэффициента битовых ошибок (BER). 
+	   Кабели предназначены для соединения активных сетевых устройств, находящихся на значительном расстоянии друг от друга. 
+      </para>
+     </product:longdesc>
+	 
+	  <!-- Features and Benefit-->
+	<product:highlights>
+		<points>
+			<point>Активный оптический кабель</point>
+			<point>Форм-фактор модуля <textbox value="QSFP" refid="2"/> - <textbox value="QSFP" refid="3"/> с возможностью горячей замены </point>
+	</points>
+	</product:highlights>
+	
+	
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Технология">
+        Оптоволокно
+      </product:techspec>
+      <product:techspec id="2" name="Особенности">
+       Active cable (signal regeneration)
+      </product:techspec>
+	   <product:techspec id="3" name="Длина">
+        <textbox value="5" id="1"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+	   <product:techspec id="4" name="Тип сетевого кабеля">
+        Сетевой кабель
+      </product:techspec>
+       <product:techspec id="5" name="Материал оболочки">
+        Fabric
+      </product:techspec>
+	   <product:techspec id="6" name="Разъем ">
+         <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	    <product:techspec id="7" name="Разъем(Second End)">
+         <textbox value="QSFP" id="3"/>
+      </product:techspec>
+	   
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

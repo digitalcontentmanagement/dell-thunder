@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fiber Optic Cable</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Networking <textbox value="SC" id="3"/> - <textbox value="LC" id="4"/> 光ファイバケーブル <dropdownlist id="optic-cable"/> - <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/>
+	 </product:name>
+    <product:longdesc>
+      <para>
+      このDell Networking 光ファイバケーブルは、ファイバネットワークデバイスとの接続に使用され、高速かつ長距離の接続を可能にします。   
+	  この <textbox value="49,2" refid="1"/><dropdownlist refid="meter-feet-unit"/> のケーブルは、一端に <textbox value="SC" refid="3"/> コネクタ、もう一端に <textbox value="LC" refid="4"/> コネクタが付いています。
+	  </para>
+	  <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+        ファイバネットワークデバイスとの必要な接続を提供し、高速かつ長距離の接続を実現します。 
+        </point>
+        <point>
+		一端に <textbox value="SC" refid="3"/> コネクタ、もう一端に <textbox value="LC" refid="4"/> コネクタが付いています。 
+        </point>
+        <point>
+         長さは <textbox value="49.2" refid="1"/><dropdownlist refid="meter-feet-unit"/> ートです。
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="デバイスタイプ">
+        光ファイバケーブル
+      </product:techspec>
+      <product:techspec id="2" name="ケーブル付属">
+       <textbox value="49.2" id="1"/><dropdownlist id="meter-feet-unit"/> 光ファイバケーブル
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

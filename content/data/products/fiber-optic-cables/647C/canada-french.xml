@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Omni-Path Fabric Active Optical Cable </meta:title>
+    <meta:date value="2016-10-19" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Câble optique de connexion directe actif en cuivre pour matrice Omni-Path <textbox value="QSFP" refid="2"/> vers <textbox value="QSFP" refid="3"/> Dell <dropdownlist id="optic-cable"/> - <textbox value="5" refid="1"/> Metres
+    </product:name>
+    <product:longdesc>
+      <para>
+       Le câble optique de connexion directe actif en cuivre pour matrice Omni-Path procure des lignes de communication très fiables et un meilleur taux d’erreur binaire (TEB). Les câbles sont conçus pour permettre les interconnexions sur de longues distances entre les équipements réseau actifs.
+      </para>
+    </product:longdesc>
+	
+	<!-- Features and Benefit for CA-->
+	<product:highlights>
+		<points>
+			<point>Câble optique actif</point>
+			<point>Format <textbox value="QSFP" refid="2"/> vers <textbox value="QSFP" refid="3"/> enfichable à chaud</point>
+		</points>
+	</product:highlights>
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologie">
+        Fibre optique
+      </product:techspec>
+      <product:techspec id="2" name="Caractéristiques">
+        Câble actif (régénération de signal)
+      </product:techspec>
+	  <product:techspec id="3" name="Longueur">
+        <textbox value="5" id="1"/> Metres
+      </product:techspec>
+	  <product:techspec id="4" name="Type de câble réseau">
+        Câble de réseau
+      </product:techspec>
+      <product:techspec id="5" name="Matériau de la gaine">
+        Tissu
+      </product:techspec>
+	  <product:techspec id="6" name="Connecteur">
+        <textbox value="QSFP" id="2"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Connecteur (deuxième extrémité)">
+        <textbox value="QSFP" id="3"/>
+      </product:techspec>   
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
