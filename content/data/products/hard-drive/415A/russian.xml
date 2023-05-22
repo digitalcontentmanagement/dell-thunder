@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive (512e)</meta:title>
+    <meta:date value="2017-04-27" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> (<textbox value="10,000" refid="3"/> об/мин) <dropdownlist refid="512e-type"/> <textbox value="6" refid="4"/>Гбит/с <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="customer-kit"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Жесткий диск Dell емкостью <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> позволит расширить пространство хранения вашей системы. Этот диск со скоростью вращения <textbox value="10,000" refid="3"/> об/мин обеспечивает быстрый доступ к дискам. Благодаря интерфейсу <dropdownlist refid="512e-type"/> достигается повышенная скорость передачи данных жесткого диска.
+	  </para>
+	  <para>
+	  Обратите внимание на следующие ограничения: VMware не поддерживает жесткие диски 512e или 4Kn. Жесткие диски 4Kn поддерживаются только в Windows 2012, при загрузке с использованием UEFI, а также в некоторых версиях Linux. Жесткие диски 512e поддерживаются только в Win2008R2 и более поздних версиях, а также в некоторых версиях Linux.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Увеличение емкости на <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> для хранения больших объемов данных
+        </point>
+        <point>
+          Интерфейс <dropdownlist refid="512e-type"/> обеспечивает высокую скорость передачи данных
+        </point>
+        <point>
+		  Благодаря частоте вращения <textbox value="10,000" refid="3"/> об/мин достигается высочайшая производительность
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Форм-фактор">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Форматированная емкость">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Тип устройства">
+        Жесткий диск
+      </product:techspec>
+      <product:techspec id="4" name="Интерфейс">
+        <dropdownlist id="512e-type"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Шифрование">
+		<textbox value="10,000" id="3"/> об/мин
+      </product:techspec>
+	  <product:techspec id="6" name="Размер буфера">
+		<textbox value="6" id="4"/>Гбит/с
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

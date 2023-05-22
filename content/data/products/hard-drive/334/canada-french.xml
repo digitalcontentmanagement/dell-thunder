@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> disque dur externe portable de <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    le disque dur de sauvegarde portable Dell<tm/> vous permet de protéger vos fichiers, vos données et votre contenu multimédia de valeur. La capacité de <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> vous offre tout l’espace nécessaire pour enregistrer la totalité de vos photos, de vos vidéos, de votre musique et plus encore.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Léger et portable">
+        <point>
+          La conception légère du disque dur facilite son transport. Grâce à son format compact, il occupe très peu d’espace sur votre bureau. Comme il est alimenté par un port USB, il n’y a pas de câble d’alimentation distinct à brancher ou à transporter. C’est un compagnon idéal pour les portables et les tablettes compatibles USB lors des déplacements. 
+        </point>
+      </points>
+      <points title="Un logiciel de sauvegarde facile à utiliser est préinstallé">
+        <point>
+          Un logiciel de sauvegarde automatique de Seagate prêt à utiliser dès que vous branchez le disque dur est préinstallé sur ce dernier. Le logiciel vous permet de planifier des sauvegardes automatiques dans le convivial tableau de bord de sauvegarde Seagate. 
+        </point>
+      </points>
+	  <points title="USB 3.0 pour des transferts de données plus rapides">
+        <point>
+          Le disque dur portable Dell est doté d’un port USB 3.0, qui est jusqu’à dix fois plus rapide qu’un port USB 2.0. Cela signifie que les fichiers sont transférés plus rapidement entre le disque dur et votre appareil, et que les sauvegardes finissent plus vite. Il est aussi rétrocompatible avec USB 2.0 et USB 1.0 afin que les appareils plus anciens puissent encore être connectés à ce disque dur. 
+        </point>
+		<point>
+		  Le logiciel de sauvegarde automatique du disque dur est déjà installé et est facile à utiliser. 
+		</point>
+      </points>
+	  <points title="Fonctionne avec les sites de médias sociaux populaires">
+        <point>
+          Le disque dur portable Dell peut téléverser directement sur les meilleurs sites de médias sociaux, comme Facebook, Flickr et YouTube. Le disque peut aussi sauvegarder automatiquement les fichiers que vous avez partagés sur ces sites populaires. 
+        </point>
+      </points>
+	  <points title="Intégration facile avec Windows 7 et Windows 8">
+        <point>
+          Le disque dur portable Dell avec logiciel de sauvegarde automatique s’intègre facilement à Windows 7 et à Windows 8. Le logiciel Seagate inclus garantit que vos fichiers importants sont sauvegardés et protégés. Le disque dur nécessite un port USB libre.
+        </point>
+      </points>
+	  <points title="Contenu de la boîte">
+        <point>
+          Disque dur de sauvegarde portable Dell de <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          Câble USB 
+        </point>
+		<point>
+          Documentation
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de périphérique">
+        disque dur externe portable
+      </product:techspec>
+      <product:techspec id="2" name="Capacité après formatage">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Zewnętrzny przenośny dysk twardy Dell - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Przenośny dysk twardy firmy Dell<tm/> do tworzenia kopii zapasowych ułatwia ochronę cennych plików, danych i multimediów. Pojemność <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> zapewnia mnóstwo miejsca na zdjęcia, filmy, muzykę i inne dane. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Lekki i przenośny">
+        <point>
+          Dzięki niewielkim wymiarom możesz zabrać dysk wszędzie, gdzie tylko chcesz. Ze względu na małe gabaryty dysk twardy zajmuje minimalną ilość miejsca na biurku. Dysk jest zasilany przez port USB, zatem nie potrzebujesz oddzielnego kabla zasilającego. Jest to idealne uzupełnienie notebooka lub tabletu ze złączem USB. 
+        </point>
+      </points>
+      <points title="Fabrycznie zainstalowane, łatwe w obsłudze oprogramowanie do kopii zapasowych">
+        <point>
+          Dysk twardy zawiera fabrycznie zainstalowane oprogramowanie firmy Seagate do automatycznego tworzenia kopii zapasowych, które jest gotowe do pracy natychmiast po podłączeniu do komputera. Oprogramowanie pozwala zaplanować automatyczne tworzenie kopii zapasowych przy użyciu łatwego w obsłudze panelu administracyjnego firmy Seagate. 
+        </point>
+      </points>
+	  <points title="Złącze USB 3.0 gwarantujące szybsze przesyłanie danych">
+        <point>
+          Przenośny dysk twardy firmy Dell jest wyposażony w port USB 3.0, który jest nawet 10 razy szybszy niż złącze USB 2.0. Umożliwia to szybszy transfer plików między dyskiem i urządzeniem oraz szybsze tworzenie kopii zapasowych. Dysk jest również zgodny ze standardami USB 2.0 i USB 1.0, dzięki czemu można go podłączyć do starszych urządzeń. 
+        </point>
+		<point>
+		  Łatwe w obsłudze oprogramowanie do automatycznego tworzenia kopii zapasowych jest fabrycznie zainstalowane na przenośnym dysku twardym. 
+		</point>
+      </points>
+	  <points title="Obsługa popularnych serwisów społecznościowych">
+        <point>
+          Przenośny dysk twardy firmy Dell może przysyłać pliki bezpośrednio do najpopularniejszych witryn społecznościowych, takich jak Facebook, Flickr i YouTube. Dysk pozwala również automatycznie tworzyć kopie zapasowe plików udostępnionych przez Ciebie w tych serwisach. 
+        </point>
+      </points>
+	  <points title="Łatwa integracja z systemami Windows 7 i Windows 8">
+        <point>
+          Przenośny dysk twardy firmy Dell z oprogramowaniem do automatycznego tworzenia kopii zapasowych można łatwo zintegrować z systemami Windows 7 i Windows 8. Dołączone oprogramowanie firmy Seagate zapewnia stałą ochronę ważnych plików. Dysk wymaga jednego portu USB. 
+        </point>
+      </points>
+	  <points title="Elementy zestawu">
+        <point>
+          Przenośny dysk twardy firmy Dell do tworzenia kopii zapasowych - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          Kabel USB 
+        </point>
+		<point>
+          Dokumentacja
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ urządzenia">
+        Zewnętrzny przenośny dysk twardy Dell 
+      </product:techspec>
+      <product:techspec id="2" name="Pojemność po sformatowaniu">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

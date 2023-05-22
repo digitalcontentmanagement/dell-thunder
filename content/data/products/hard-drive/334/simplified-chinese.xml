@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 便携式外置硬盘 - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    戴尔<tm/>的便携式备份硬盘可以保护您的重要文件、数据和媒体内容。 <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>容量可提供充足的空间，轻松存放您的所有照片、视频和音乐等内容。 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="轻巧便携">
+        <point>
+          该硬盘采用轻巧的设计，便于您随身携带。 得益于其紧凑的外形，它所占用的桌面空间极为有限。 它采用USB端口供电，因此无需插入或携带单独的电源线。 它是笔记本电脑和兼容USB的平板电脑的理想移动伴侣。 
+        </point>
+      </points>
+      <points title="预装了易于使用的备份软件">
+        <point>
+          该硬盘预装了来自Seagate的自动备份软件，插入硬盘后即可随时使用。 借助该软件，您可以在便于使用的Seagate Backup Dashboard上安排自动备份。 
+        </point>
+      </points>
+	  <points title="USB 3.0可实现更快的数据传输">
+        <point>
+          戴尔的便携式硬盘配备USB 3.0，速度比USB 2.0提高了多达10倍。 这意味着硬盘和设备之间的文件传输速度更快，能够更迅速地完成备份。 它还向后兼容USB 2.0和USB 1.0，因此旧设备也可以连接到此硬盘。 
+        </point>
+		<point>
+		  该便携式硬盘预装了易于使用的自动备份软件。 
+		</point>
+      </points>
+	  <points title="与热门社交网站互动">
+        <point>
+          戴尔便携式硬盘可将内容直接上传到最热门的社交网站，包括Facebook、Flickr和YouTube。 该硬盘还可以自动备份您分享到这些热门网站的文件。 
+        </point>
+      </points>
+	  <points title="与Windows 7和Windows 8轻松集成">
+        <point>
+          具有自动备份软件的戴尔便携式硬盘可与Windows 7和Windows 8轻松集成。 随附的Seagate软件可确保您的重要文件得到备份和保护。 该硬盘需要一个可用的USB端口。 
+        </point>
+      </points>
+	  <points title="包装清单">
+        <point>
+          戴尔便携式备份硬盘 - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USB线缆 
+        </point>
+		<point>
+          说明文件
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+        便携式外置硬盘
+      </product:techspec>
+      <product:techspec id="2" name="格式化后的容量">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+  <meta:title>NVMe Express Flash Card</meta:title>
+    <meta:date value="2017-03-07" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 <textbox value="Intel" id="1"/> <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> NVMe <dropdownlist id="hard-drive-277-c"/> Express Flash <dropdownlist refid="formfactor-277a"/> <textbox value="HHHL" id="2"/> <dropdownlist id="card-277a"/> <textbox value=", U.2, P4500" id="5"/> <dropdownlist id="withcarrier-277a"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+       借助戴尔提供的 <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> 固态硬盘，可充分提高Dell<tm/>系统的存储容量。 这款硬盘具有最高可达 <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> 的存储容量，可帮助用户存储海量数据。
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          提供最高可达<textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>的存储容量
+        </point>
+        <point>
+          配备 NVMe 接口，可实现高速数据传输
+        </point>
+        <point>
+          固态设计可提供卓越的坚固耐用性和超快的数据访问速度
+        </point>
+      </points>
+
+      <points title="固态硬盘相对于旋转硬盘的优势:">
+        <point>
+          更坚固耐用：采用非机械设计，将NAND闪存安装在电路板上，具有更好的抗冲击性。
+        </point>
+        <point>
+          速度更快：提供更快的数据访问、系统启动和文件传输速度，以及与硬盘相比总体上更迅捷的计算体验。
+        </point>
+        <point>
+          噪音更低：与嗡嗡作响的硬盘不同，固态硬盘在运行时几乎完全静音。
+        </point>
+        <point>
+          重量更轻：基于闪存的固态硬盘的重量明显变轻。
+        </point>
+        <point>
+          散热更好：固态硬盘所需的运行功率更低，因此系统耗散的热量也大幅减少。
+        </point>
+        <point>
+          能效更高：即使在峰值负载期间，消耗的功率也显著变少。
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+        NVMe <dropdownlist refid="hard-drive-277-c"/> Express Flash <textbox value="HHHL" refid="2"/> <dropdownlist refid="card-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="外形规格">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="3" name="格式化后的容量">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="4" name="类型">
+        <dropdownlist id="type-277a"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> ulkoinen kannettava kiintolevy – <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Ulkoisen kannettavan Dell<tm/>-kiintolevyn avulla voit suojata arvokkaita tiedostoja, tietoja ja mediasisältöjä. <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> kapasiteetti on riittävä kaikille valokuville, videoille, musiikille ja muille tiedostoille. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Kevyt ja helposti kannettava">
+        <point>
+          Aseman kevyt rakenne helpottaa sen mukaan ottamista. Kompakti kotelo vie hyvin vähän tilaa työpöydältä. Koska se saa virtaa USB-liitännän kautta, et tarvitse erillistä virtajohtoa. Se on ihanteellinen matkakumppani kannettaville tietokoneille ja USB-yhteensopiville tablet-laitteille. 
+        </point>
+      </points>
+      <points title="Helppokäyttöinen varmuuskopiointiohjelmisto asennettu valmiiksi">
+        <point>
+          Levyllä on valmiina automaattinen Seagate-varmuuskopiointiohjelmisto, joka on heti käytettävissä, kun liität levyn. Ohjelmiston käyttäjäystävällisen Seagate Backup -ohjauspaneelin avulla voi ajoittaa automaattiset varmuuskopioinnit. 
+        </point>
+      </points>
+	  <points title="USB 3.0 nopeuttaa tiedonsiirtoa">
+        <point>
+          Dellin kannettavassa kiintolevyssä on USB 3.0, joka voi olla jopa kymmenen kertaa nopeampi kuin USB 2.0 -portit. Tämä tarkoittaa, että tiedostoja voi siirtää entistä nopeammin aseman ja laitteen välillä ja että varmuuskopioinnit valmistuvat nopeasti. Se on myös takautuvasti yhteensopiva USB 2.0- ja USB 1.0 -standardien kanssa, joten vanhat laitteet voi edelleen yhdistää tähän levyyn. 
+        </point>
+		<point>
+		  Kannettavan kiintolevyn helppokäyttöinen automaattinen varmuuskopiointiohjelmisto toimitetaan valmiiksi asennettuna. 
+		</point>
+      </points>
+	  <points title="Toimii suosituissa yhteisöpalveluissa">
+        <point>
+          Dellin kannettava kiintolevy voi ladata suoraan suosituimpiin yhteisöpalveluihin, kuten Facebookiin, Flickriin ja YouTubeen. Levy voi myös varmuuskopioida näissä suosituissa palveluissa jakamasi tiedostot.  
+        </point>
+      </points>
+	  <points title="Vaivaton Windows 7- ja Windows 8 -integrointi">
+        <point>
+          Automaattisella varmuuskopiointiohjelmistolla varustettu Dellin kannettava kiintolevy integroituu vaivattomasti sekä Windows 7:ään että Windows 8:aan. Toimitukseen sisältyvän Seagate-ohjelmiston avulla voit varmistaa, että tärkeät tiedostot on varmuuskopioitu ja suojattu. Levy tarvitsee yhden vapaan USB-portin. 
+        </point>
+      </points>
+	  <points title="Pakkauksen sisältö">
+        <point>
+          Dellin kannettava varmuuskopiolevy – <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USB-kaapeli 
+        </point>
+		<point>
+          Käyttöohjeet
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Laitetyyppi">
+        ulkoinen kannettava kiintolevy
+      </product:techspec>
+      <product:techspec id="2" name="Alustettu kapasiteetti">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

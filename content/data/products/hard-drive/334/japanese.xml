@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> ポータブル外付ハードドライブ - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    デル<tm/>製ポータブルバックアップハードドライブを使用すると、重要なファイル、データ、メディアを保護できます。 <textbox value="500" refid="1"/><dropdownlist refid="unit-byte"/> のストレージ容量を備えており、写真、動画、音楽など様々なデータを十分に保存できます。 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="軽量で優れた携帯性を実現">
+        <point>
+          このドライブは軽量なデザインのため、簡単に持ち運ぶことができます。 ドライブにはコンパクトなフォームファクタが採用されているため、デスクの上で場所を取りません。 また、電源はUSBポートから供給されるため、電源ケーブルを別にコンセントにつないだり持ち歩いたりする必要はありません。 本製品は、ノートパソコンやUSB対応のタブレットを持ち歩く場合に最適です。 
+        </point>
+      </points>
+      <points title="プレインストールされた、使いやすいバックアップソフトウェア">
+        <point>
+          このドライブには、ドライブに接続してすぐに使用できる、Seagate製の自動バックアップソフトウェアがプレインストールされています。 Seagate製ソフトウェアの使いやすいバックアップダッシュボードで、自動バックアップを簡単に計画できます。 
+        </point>
+      </points>
+	  <points title="USB 3.0 - 高速データ転送が可能">
+        <point>
+          デルのポータブルハードドライブにはUSB 3.0が搭載され、USB 2.0と比べて最大10倍の速さでデータ転送を行うことができます。 お使いのデバイスとドライブ間のデータ転送が高速に行われるため、バックアップにかかる時間を短縮できます。 また、USB 2.0およびUSB 1.0との後方互換性もあるため、それらに準拠したデバイスへの接続にも対応しています。 
+        </point>
+		<point>
+		  ポータブルハードドライブには、使いやすい自動バックアップソフトウェアがプレインストールされています。 
+		</point>
+      </points>
+	  <points title="人気のあるソーシャルメディアサイトを利用可能">
+        <point>
+          デル製ポータブルハードドライブを使用して、Facebook、Flickr、YouTubeなど、人気のあるソーシャルメディアサイトに直接アップロードできます。 これらのソーシャルメディアサイトにアップロードしたファイルを、自動的にバックアップすることもできます。 
+        </point>
+      </points>
+	  <points title="Windows 7およびWindows 8との簡単な統合">
+        <point>
+          自動バックアップソフトウェア搭載のデル製ポータブルハードドライブは、Windows 7およびWindows 8の両方に簡単に統合できます。 Seagate製ソフトウェアがインストールされているので、大切なファイルを確実にバックアップおよび保護できます。 ドライブを使用するには、お使いのデバイスのUSBポートが1つ空いている必要があります。 
+        </point>
+      </points>
+	  <points title="製品情報">
+        <point>
+          デル製ポータブルバックアップハードドライブ - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USBケーブル 
+        </point>
+		<point>
+          文書
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="デバイスタイプ">
+        ポータブル外付ハードドライブ 
+      </product:techspec>
+      <product:techspec id="2" name="容量（フォーマット済み）">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

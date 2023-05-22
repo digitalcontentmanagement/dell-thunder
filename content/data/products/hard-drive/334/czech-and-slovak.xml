@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> externí přenosný pevný disk - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Přenosný zálohovací pevný disk od společnosti Dell<tm/> vám umožňuje chránit důležité soubory, data i média. Kapacita <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> nabízí dostatek místa pro uložení všech fotografií, videosouborů, hudby i dalšího obsahu.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Lehký a přenosný">
+        <point>
+          Lehká konstrukce disku usnadňuje jeho přenášení. Díky kompaktnímu provedení zabere na stole jen velmi málo místa. Vzhledem k napájení přes port USB nemusíte nosit ani připojovat samostatný napájecí kabel. Ideální společník na cesty pro notebooky a tablety kompatibilní s rozhraním USB. 
+        </point>
+      </points>
+      <points title="Snadno ovladatelný software pro zálohování je již nainstalován">
+        <point>
+          Disk dodáváme s nainstalovaným softwarem společnosti Seagate pro automatické zálohování, který je připraven k použití ihned po zapojení jednotky. Tento software umožňuje naplánovat automatická zálohování v uživatelsky příjemném prostředí Seagate Backup Dashboard. 
+        </point>
+      </points>
+	  <points title="USB 3.0 pro rychlejší přenosy dat">
+        <point>
+          Přenosný pevný disk Dell je vybaven rozhraním USB 3.0, které je až desetkrát rychlejší než rozhraní USB 2.0. To znamená rychlejší přenášení souborů mezi diskem a zařízením a rychlejší dokončení zálohování. Také je zpětně kompatibilní s rozhraními USB 2.0 a USB 1.0, k disku je tedy možné připojit i starší zařízení. 
+        </point>
+		<point>
+		  Software pro automatické zálohování je na přenosném disku předem nainstalován a snadno se používá. 
+		</point>
+      </points>
+	  <points title="Spolupracuje s oblíbenými weby sociálních sítí">
+        <point>
+          Z přenosného pevného disku Dell můžete posílat obsah na nejpopulárnější weby sociálních sítí, včetně služeb Facebook, Flickr nebo YouTube. Disk dokáže automaticky zálohovat soubory, které jste sdíleli na tyto populární servery. 
+        </point>
+      </points>
+	  <points title="Jednoduchá integrace se systémy Windows 7 a Windows 8">
+        <point>
+          Přenosný pevný disk Dell se softwarem pro automatické zálohování lze snadno integrovat se systémy Windows 7 a Windows 8. Integrovaný software Seagate zajistí zálohování a ochranu důležitých souborů. Disk vyžaduje jeden volný port USB. 
+        </point>
+      </points>
+	  <points title="Obsah balení">
+        <point>
+          Přenosný zálohovací pevný disk Dell - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          Kabel USB 
+        </point>
+		<point>
+          Dokumentace
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ zařízení">
+        externí přenosný pevný disk
+      </product:techspec>
+      <product:techspec id="2" name="Formátovaná kapacita">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

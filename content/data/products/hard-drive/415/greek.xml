@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive</meta:title>
+    <meta:date value="2015-10-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> RPM SAS <dropdownlist id="hard-drive-277-b"/> <textbox value="6" refid="4"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Αυξήστε τη χωρητικότητα αποθήκευσης του συστήματός σας με τον σκληρό δίσκο <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> από την Dell. Με ταχύτητα περιστροφής <textbox value="10,000" refid="3"/> RPM, αυτή η μονάδα προσφέρει γρήγορη πρόσβαση σε δεδομένα του δίσκου. Με διασύνδεση Serial SAS, αυτός ο σκληρός δίσκος παρέχει ενισχυμένες ταχύτητες μεταφοράς δεδομένων.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Προσφέρει χωρητικότητα <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> για την αποθήκευση μεγάλων όγκων δεδομένων
+        </point>
+        <point>
+          Η διασύνδεση SAS προσφέρει υψηλές ταχύτητες μεταφοράς δεδομένων
+        </point>
+        <point>
+		  Η ταχύτητα περιστροφής  <textbox value="10,000" refid="3"/> RPM διασφαλίζει εξαιρετική απόδοση
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Συντελεστής μορφής">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Χωρητικότητα μετά από μορφοποίηση">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Τύπος συσκευής">
+        Σκληρός δίσκος
+      </product:techspec>
+      <product:techspec id="4" name="Τύπος διασύνδεσης">
+        SAS
+      </product:techspec>
+	  <product:techspec id="5" name="Κρυπτογράφηση">
+		<textbox value="10,000" id="3"/> RPM
+      </product:techspec>
+	  <product:techspec id="6" name="Μέγεθος προσωρινής αποθηκευτικής μνήμης">
+		<textbox value="6" id="4"/>Gbps
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

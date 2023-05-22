@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive (512e)</meta:title>
+    <meta:date value="2017-04-27" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> RPM <dropdownlist refid="512e-type"/> <textbox value="6" refid="4"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> 하드 드라이브를 추가하여 시스템 스토리지 용량을 늘려 보세요. 회전 속도가 <textbox value="10,000" refid="3"/> RPM에 달하는 이 드라이브를 사용하여 디스크에 빠르게 액세스할 수 있습니다. 이 하드 드라이브는 <dropdownlist refid="512e-type"/> 인터페이스를 사용하여 향상된 데이터 전송 속도를 제공합니다.
+	  </para>
+	  <para>
+	  다음 제한 사항에 유의하십시오. VMware는 512e 또는 4Kn 하드 드라이브를 지원하지 않습니다. 4Kn 하드 드라이브는 Win 2012와 UEFI 부팅 및 일부 Linux에서만 지원됩니다. 512e 하드 드라이브는 Win 2008 R2 이상과 일부 Linux에서만 지원됩니다.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> 의 대용량 데이터 저장 용량 제공
+        </point>
+        <point>
+          <dropdownlist refid="512e-type"/> 인터페이스를 통해 빠른 데이터 전송 속도 제공
+        </point>
+        <point>
+		  <textbox value="10,000" refid="3"/> RPM 스핀들 속도로 뛰어난 성능 보장
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="폼 팩터">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="포맷된 용량">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="장치 유형">
+        하드 드라이브
+      </product:techspec>
+      <product:techspec id="4" name="인터페이스 유형">
+       <dropdownlist id="512e-type"/>
+      </product:techspec>
+	  <product:techspec id="5" name="암호화">
+		<textbox value="10,000" id="3"/> RPM
+      </product:techspec>
+	  <product:techspec id="6" name="버퍼 크기">
+		<textbox value="6" id="4"/>Gbps
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

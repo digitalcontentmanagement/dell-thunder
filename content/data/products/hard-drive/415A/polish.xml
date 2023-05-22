@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive (512e)</meta:title>
+    <meta:date value="2017-04-27" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> obr./min  <dropdownlist refid="512e-type"/> <textbox value="6" refid="4"/>Gb/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Zwiększ pojemność pamięci masowej swojego systemu Dell za pomocą dysku twardego firmy Dell o pojemności <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/>. Ze względu na prędkość <textbox value="10,000" refid="3"/> obr./min dysk oferuje szybki dostęp do danych. Dzięki interfejsowi <dropdownlist refid="512e-type"/> dysk zapewnia większą szybkość przesyłania danych.
+	  </para>
+	  <para>
+	  Należy zwrócić uwagę na następujące ograniczenia: VMware nie obsługuje dysków twardych 512e i 4Kn. Dyski twarde 4Kn są obsługiwane tylko w systemie Win 2012 i podczas rozruchu UEFI, a także w niektórych wersjach systemu Linux. Dyski twarde 512e są obsługiwane tylko w systemie Win2008R2 lub nowszym i w niektórych wersjach systemu Linux.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> pojemności pozwala na przechowywanie dużych ilości danych
+        </point>
+        <point>
+          Interfejs <dropdownlist refid="512e-type"/> zapewnia dużą szybkość przesyłania danych
+        </point>
+        <point>
+		  Prędkość <textbox value="10,000" refid="3"/> obr./min daje znakomitą wydajność
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rodzaj konstrukcji">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Pojemność po sformatowaniu">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Typ urządzenia">
+        Dysk twardy
+      </product:techspec>
+      <product:techspec id="4" name="Typ interfejsu">
+        <dropdownlist id="512e-type"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Szyfrowanie">
+		<textbox value="10,000" id="3"/> obr./min
+      </product:techspec>
+	  <product:techspec id="6" name="Rozmiar bufora">
+		<textbox value="6" id="4"/>Gb/s
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

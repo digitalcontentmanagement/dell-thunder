@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVMe Express Flash Card</meta:title>
+    <meta:date value="2017-03-07" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="Intel" id="1"/> <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> NVMe <dropdownlist id="hard-drive-277-c"/> Uniwersalny Express Flash <dropdownlist refid="formfactor-277a"/> <textbox value="HHHL" id="2"/> <dropdownlist id="card-277a"/> <textbox value=", U.2, P4500" id="5"/> <dropdownlist id="withcarrier-277a"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Zwiększ pojemność pamięci masowej swojego systemu Dell<tm/> za pomocą dysku SSD firmy Dell o pojemności <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>. Na dysku o pojemności do <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> można przechowywać duże ilości danych. 
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Pojemność pamięci masowej do <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Interfejs NVMe zapewnia dużą szybkość transmisji danych
+        </point>
+        <point>
+          Konstrukcja Solid State zapewnia odporność i szybki dostęp do danych
+        </point>
+      </points>
+
+      <points title="Przewaga napędów SSD nad dyskami obrotowymi:">
+        <point>
+          Większa trwałość: ze względu na niezawierającą ruchomych elementów konstrukcję opartą na pamięci flash NAND na płytce drukowanej dyski SSD są wytrzymalsze i bardziej odporne na wstrząsy.
+        </point>
+        <point>
+          Większa szybkość: szybszy dostęp do danych, rozruch i ogólnie sprawniejsze działanie w porównaniu z tradycyjnymi dyskami twardymi.
+        </point>
+        <point>
+          Niższy poziom hałasu: napędy SSD działają prawie bezgłośnie w przeciwieństwie do hałaśliwych, wirujących dysków twardych.
+        </point>
+        <point>
+          Mniejsza masa: dyski SSD z pamięcią flash są znacznie lżejsze.
+        </point>
+        <point>
+          Niższa temperatura: dyski SSD wymagają do działania mniejszej ilości energii, dzięki czemu system wydziela mniej ciepła.
+        </point>
+        <point>
+          Większa oszczędność: mniejsze zużycie energii przy pełnym obciążeniu.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+     <product:techspec id="1" name="Typ urządzenia">
+        NVMe <dropdownlist refid="hard-drive-277-c"/> Express Flash <textbox value="HHHL" refid="2"/> <dropdownlist refid="card-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Rodzaj konstrukcji">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="3" name="Pojemność po sformatowaniu">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="4" name="Typ">
+        <dropdownlist id="type-277a"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

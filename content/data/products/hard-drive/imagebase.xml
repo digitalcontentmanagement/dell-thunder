@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+   <image:folder name="hard-drive">
+	
+    <!-- Start of subclasses -->
+    <image:folder name="277">
+     <image:image name="SSD SAS">
+      <image:location>SSD SAS</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Solid State SAS (Serial Attached SCSI) </image:description>
+      <image:caption>Dell Solid State SAS (Serial Attached SCSI)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="M22280SSD">
+      <image:location>M22280SSD</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell M2 2280 SSD </image:description>
+      <image:caption>Dell M2 2280 Solid State Drive</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="400-25210">
+      <image:location>400-25210</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Solid State Drive SATA</image:description>
+      <image:caption>Dell Solid State Drive SATA </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+ 
+      <image:image name="Samsung PCIe NVMe">
+      <image:location>Samsung PCIe NVMe</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Samsung PCIe NVMe </image:description>
+      <image:caption>Samsung PCIe NVMe </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+      <image:image name="Dell_M.2_2230_PCIe_SSD_1">
+      <image:location>Dell_M.2_2230_PCIe_SSD_1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell_M.2_2230_PCIe_SSD_1 </image:description>
+      <image:caption>Dell_M.2_2230_PCIe_SSD_1 </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+   <image:image name="Dell_M.2_2230_PCIe_SSD_2">
+      <image:location>Dell_M.2_2230_PCIe_SSD_2</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell_M.2_2230_PCIe_SSD</image:description>
+      <image:caption>Dell_M.2_2230_PCIe_SSD_2</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+   <image:image name="Dell_M.2_2280_PCIe_SSD">
+      <image:location>Dell_M.2_2280_PCIe_SSD</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell_M.2_2280_PCIe_SSD </image:description>
+      <image:caption>Dell_M.2_2280_PCIe_SSD</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+   <image:image name="M.2 SSD 30mm">
+      <image:location>M.2 SSD 30mm</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>M.2 SSD 30mm </image:description>
+      <image:caption>M.2 SSD 30mm </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+   <image:image name="M.2 SSD 80mm Angle">
+      <image:location>M.2 SSD 80mm Angle</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>M.2 SSD 80mm Angle </image:description>
+      <image:caption>M.2 SSD 80mm Angle </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+   <image:image name="M.2 SSD 80mm Front">
+      <image:location>M.2 SSD 80mm Front</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>M.2 SSD 80mm Front </image:description>
+      <image:caption>M.2 SSD 80mm Front </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+   <image:image name="M.2 SSD 80mm">
+      <image:location>M.2 SSD 80mm</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>M.2 SSD 80mm </image:description>
+      <image:caption>M.2 SSD 80mm</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	
+   <image:image name="M.2 SSD 80mm">
+      <image:location>M.2 SSD 80mm</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>M.2 SSD 80mm </image:description>
+      <image:caption>M.2 SSD 80mm</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="400-BFVW_v1">
+      <image:location>400-BFVW_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>M.2 PCIe NVMe Class 35 2230 SSD PM991 Part Num: 165M0 </image:description>
+      <image:caption>M.2 PCIe NVMe Class 35 2230 SSD PM991 Part Num: 165M0 </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	
+   <image:image name="400-BFVW_mvi1">
+      <image:location>400-BFVW_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>M.2 PCIe NVMe Class 35 2230 SSD PM991 Part Num: 165M0 </image:description>
+      <image:caption>M.2 PCIe NVMe Class 35 2230 SSD PM991 Part Num: 165M0 </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="400-ANBR_v1">
+      <image:location>400-ANBR_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>512GB M.2 SATA Class 20 Solid State Opal Self_Encrypting Part Num: P37T4 </image:description>
+      <image:caption>512GB M.2 SATA Class 20 Solid State Opal Self_Encrypting Part Num: P37T4 </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	
+   <image:image name="400-ANBR_mvi1">
+      <image:location>400-ANBR_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>512GB M.2 SATA Class 20 Solid State Opal Self_Encrypting Part Num: P37T4 </image:description>
+      <image:caption>512GB M.2 SATA Class 20 Solid State Opal Self_Encrypting Part Num: P37T4</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+
+    </image:folder>
+	
+	 <image:folder name="415">
+    <image:image name="400-24839">
+      <image:location>400-24839</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell SAS / Nearline SAS </image:description>
+      <image:caption>Dell SAS / Nearline SAS </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	 </image:folder>
+	
+	 
+	 
+	 <image:folder name="32-77-80">
+  <image:image name="400-26231">
+      <image:location>400-26231</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SATA (Any cabled HDD 2.5 inches or 3.5 inches (meaning no carrier at all))</image:description>
+      <image:caption>SATA (Any cabled HDD 2.5 inches or 3.5 inches (meaning no carrier at all))</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="400-ADPJ">
+      <image:location>400-ADPJ</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Any Hot Plug HDD and SSD( meaning ANY SSD or HDD that comes with a carrier) </image:description>
+      <image:caption>Any Hot Plug HDD and SSD( meaning ANY SSD or HDD that comes with a carrier) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="400-BLMN">
+      <image:location>400-BLMN</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 3.5" 7200RPM SATA Part Num: KRM6X </image:description>
+      <image:caption>Dell 3.5" 7200RPM SATA Part Num: KRM6X</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="400-BLMN_mvi1">
+      <image:location>400-BLMN_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 3.5" 7200RPM SATA Part Num: KRM6X for MVI </image:description>
+      <image:caption>Dell 3.5" 7200RPM SATA Part Num: KRM6X for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	
+	
+	
+    </image:folder>
+	
+	 <image:folder name="75">
+	 <image:image name="400-AEGK">
+      <image:location>400-AEGK</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SAS Hard Drive</image:description>
+      <image:caption>SAS Hard Drive </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    </image:folder>
+  
+  <image:folder name="156-76">
+  <image:image name="400-26231">
+      <image:location>400-26231</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Cabled HDD with no carrier</image:description>
+      <image:caption>Cabled HDD with no carrier</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="400-ADPJ">
+      <image:location>400-ADPJ</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description> IDE 3.5” HDD or IDE HDD that comes with a carrier </image:description>
+      <image:caption>IDE 3.5” HDD or IDE HDD that comes with a carrier </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="400-BLMN">
+      <image:location>400-BLMN</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 3.5" 7200RPM SATA Part Num: KRM6X </image:description>
+      <image:caption>Dell 3.5" 7200RPM SATA Part Num: KRM6X</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="400-BLMN_mvi1">
+      <image:location>400-BLMN_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 3.5" 7200RPM SATA Part Num: KRM6X for MVI </image:description>
+      <image:caption>Dell 3.5" 7200RPM SATA Part Num: KRM6X for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		
+    </image:folder>
+	
+	
+
+  <image:folder name="277A">
+    <image:image name="NVMe SSD">
+      <image:location>NVMe SSD</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell NVMe SSD</image:description>
+      <image:caption>Dell NVMe SSD</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	</image:folder>
+  
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>

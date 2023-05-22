@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> draagbare externe harde schijf - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    De draagbare harde schijf voor back-ups van Dell<tm/> kunt u gebruiken voor de bescherming van uw waardevolle bestanden, data en media. De capaciteit van <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> biedt volop ruimte voor al uw foto's, video's, muziek en nog veel meer. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Licht en draagbaar">
+        <point>
+          De lichtgewicht schijf is ontworpen om gemakkelijk mee te nemen. Dankzij de compacte vormgeving neemt de schijf zeer weinig ruimte in op uw bureau. De voeding komt van de USB-poort, dus u hoeft geen aparte voedingskabel aan te sluiten of op te bergen. Het is de ideale mobiele metgezel voor laptops en USB-compatibele tablets. 
+        </point>
+      </points>
+      <points title="Gebruiksvriendelijke back-upsoftware is vooraf geïnstalleerd">
+        <point>
+          De software voor automatische back-ups van Seagate is meteen gebruiksklaar als u de harde schijf aansluit. In het gebruiksvriendelijke Seagate Backup Dashboard kunt u automatische back-ups plannen. 
+        </point>
+      </points>
+	  <points title="USB 3.0 voor snellere dataoverdracht">
+        <point>
+          De draagbare harde schijf heeft een USB 3.0-aansluiting die tot 10 keer sneller is dan USB 2.0. Dit betekent dat bestanden sneller worden overdragen tussen de schijf en uw apparaat en dat back-ups eerder zijn voltooid. De schijf is achterwaarts compatibel met USB 2.0 en USB 1.0 dus u kunt uw oudere apparaten ook aansluiten op deze harde schijf. 
+        </point>
+		<point>
+		  De software voor automatische back-ups van de draagbare harde schijf is bij levering al geïnstalleerd en is eenvoudig in gebruik. 
+		</point>
+      </points>
+	  <points title="Werkt met populaire sociale mediasites">
+        <point>
+          U kunt vanaf de Dell draagbare harde schijf direct uploaden naar populaire sociale media zoals Facebook, Flickr en YouTube. U kunt de schijf ook automatisch een back-up laten maken van de bestanden die u hebt gedeeld op sociale media. 
+        </point>
+      </points>
+	  <points title="Eenvoudige integratie met Windows 7 en Windows 8">
+        <point>
+          De Dell draagbare harde schijf met automatische back-upsoftware kan eenvoudig worden geïntegreerd met Windows 7 en Windows 8. De meegeleverde Seagate software zorgt ervoor dat er een back-up wordt gemaakt van uw belangrijke bestanden en dat ze beschermd zijn. Er is één vrije USB-poort vereist voor de harde schijf. 
+        </point>
+      </points>
+	  <points title="Wat is inbegrepen?">
+        <point>
+          Dell draagbare harde schijf voor back-ups - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USB-kabel 
+        </point>
+		<point>
+          Documentatie
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type apparaat">
+        draagbare externe harde schijf
+      </product:techspec>
+      <product:techspec id="2" name="Geformatteerde capaciteit">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

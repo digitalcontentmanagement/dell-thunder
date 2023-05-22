@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> mobile externe Festplatte – <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Mit der mobilen Sicherungsfestplatte von Dell<tm/> können Sie Ihre wertvollen Dateien, Daten und Medien sichern. In dem <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> großen Speicher ist genug Platz für all Ihre Fotos, Videos, Musikdateien und vieles mehr. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Leicht und ideal für unterwegs">
+        <point>
+          Dank ihres geringen Gewichts ist die Festplatte der ideale Begleiter für unterwegs. Und auch auf dem Schreibtisch nimmt sie nur wenig Platz in Anspruch. Die Festplatte wird über einen USB-Anschluss betrieben. Ein separates Netzkabel ist also gar nicht erst erforderlich. Darum ist die tragbare Festplatte von Dell auch die ideale Ergänzung für Notebooks und USB-kompatible Tablet-PCs. 
+        </point>
+      </points>
+      <points title="Benutzerfreundliche Sicherungssoftware ab Werk vorinstalliert">
+        <point>
+          Auf der Festplatte ist ab Werk bereits Software von Seagate für automatische Sicherungen installiert. Schließen Sie die Festplatte einfach an und schon kann es losgehen. Im benutzerfreundlichen Seagate Sicherungs-Dashboard können Sie automatische Sicherungen kinderleicht planen. 
+        </point>
+      </points>
+	  <points title="USB 3.0 für eine schnellere Datenübertragung">
+        <point>
+          Die tragbare Festplatte verfügt über USB 3.0. Das ist bis zu zehn Mal schneller als USB 2.0. Datenübertragungen zwischen der Festplatte und Ihrem Gerät dauern somit weniger lang und auch Sicherungen erfolgen schneller. Die Festplatte ist zudem mit USB 2.0 und USB 1.0 kompatibel, sodass Sie auch ältere Geräte jederzeit anschließen können. 
+        </point>
+		<point>
+		  Eine benutzerfreundliche Software zur automatischen Sicherung ist auf der tragbaren Festplatte bereits installiert. 
+		</point>
+      </points>
+	  <points title="Funktioniert auch im Zusammenhang mit beliebten sozialen Netzwerken">
+        <point>
+          Die tragbare Festplatte von Dell kann Daten direkt in gängige soziale Netzwerke hochladen, darunter Facebook, Flickr und YouTube. Zudem können Sie mit ihr auch die Dateien automatisch sichern, die Sie auf diesen Webseiten freigegeben haben. 
+        </point>
+      </points>
+	  <points title="Einfache Einbindung in Windows 7 und Windows 8">
+        <point>
+          Die tragbare Festplatte mit Software für automatische Sicherungen kann sowohl mit Windows 7 als auch Windows 8 verwendet werden. Die im Lieferumfang enthaltene Software von Seagate sorgt dafür, dass Ihre wichtigsten Dateien sicher und geschützt sind. Für die Festplatte ist ein freier USB-Anschluss erforderlich. 
+        </point>
+      </points>
+	  <points title="Lieferumfang">
+        <point>
+          Mobile Dell Sicherungsfestplatte – <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USB-Kabel 
+        </point>
+		<point>
+          Dokumentation
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Gerätetyp">
+        mobile externe Festplatte
+      </product:techspec>
+      <product:techspec id="2" name="Insgesamt verfügbare Speicherkapazität">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

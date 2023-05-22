@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+   <meta:title>NVMe Express Flash Card</meta:title>
+    <meta:date value="2017-03-07" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="Intel" id="1"/> <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> NVMe <dropdownlist id="hard-drive-277-c"/> Express Flash <dropdownlist refid="formfactor-277a"/> <textbox value="HHHL" id="2"/> <dropdownlist id="card-277a"/> <textbox value=", U.2, P4500" id="5"/> <dropdownlist id="withcarrier-277a"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Il unità a stato solido <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> consente di aumentare la capacità di storage del sistema Dell<tm/> in uso. Vanta una capacità di storage massima di <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>, consentendo agli utenti di memorizzare grandi quantità di dati. 
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Offre una capacità di storage fino a <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          È dotato di un'interfaccia NVMe che fornisce elevate velocità di trasferimento dei dati
+        </point>
+        <point>
+          Grazie al design a stato solido, offre resistenza e rapido accesso ai dati.
+        </point>
+      </points>
+
+      <points title="Vantaggi delle unità SSD rispetto ai dischi rigidi tradizionali:">
+        <point>
+          Più resistenti: hanno una progettazione non meccanica di flash NAND montata su circuiti stampati e sono più resistenti agli urti.
+        </point>
+        <point>
+          Più veloci: accesso ai dati, avvio, trasferimento di file più rapidi e un'esperienza di elaborazione globale più veloce rispetto ai dischi rigidi.
+        </point>
+        <point>
+          Più silenziose: funzionano quasi in totale silenzio, a differenza dei rumorosi e ronzanti dischi rigidi.
+        </point>
+        <point>
+          Più leggere: le unità SSD basate su Flash pesano molto meno.
+        </point>
+        <point>
+          Minore surriscaldamento: le unità SSD comportano un minore consumo energetico, riducendo così il calore emesso dal sistema.
+        </point>
+        <point>
+          Più efficienti: consumano meno energia nei picchi del carico di lavoro.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di dispositivo">
+        NVMe <dropdownlist refid="hard-drive-277-c"/> Express Flash <textbox value="HHHL" refid="2"/> <dropdownlist refid="card-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Fattore di forma">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="3" name="Capacità formattata">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="4" name="Tipo">
+        <dropdownlist id="type-277a"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

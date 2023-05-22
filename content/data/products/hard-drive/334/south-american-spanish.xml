@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> disco duro externo portátil: <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    el disco duro portátil de respaldo de Dell<tm/> le permite proteger sus valiosos archivos, datos y medios. La capacidad de <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> ofrece mucho espacio para guardar todas sus fotos, videos, música y más. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Liviano y portátil">
+        <point>
+          El diseño liviano del disco hace que sea fácil de llevar con usted. Gracias a su factor de forma compacto ocupa muy poco espacio en su escritorio. Como se enciende con un puerto USB, no hay un cable de alimentación independiente que conectar o transportar. Es el compañero portátil ideal para laptops y tabletas compatibles con USB. 
+        </point>
+      </points>
+      <points title="Incluye un software de respaldo fácil de usar previamente instalado">
+        <point>
+          El disco viene cargado previamente con un software de respaldo automático de Seagate listo para usar en cuanto se conecte la unidad. El software le permite programar copias de respaldo automáticas en el panel de respaldo Seagate fácil de usar. 
+        </point>
+      </points>
+	  <points title="USB 3.0 para transferencias de datos más rápidas">
+        <point>
+          El disco duro portátil de Dell cuenta con USB 3.0, que es hasta 10 veces más rápido que los USB 2.0. Esto significa que la transferencia de archivos es más rápida entre el disco y su dispositivo y que los respaldos se completan con mayor rapidez. También es compatible con versiones anteriores de USB 2.0 y USB 1.0, de modo que los dispositivos antiguos se pueden conectar a esta unidad. 
+        </point>
+		<point>
+		  El software de respaldo automático del disco duro portátil viene preinstalado y es fácil de usar. 
+		</point>
+      </points>
+	  <points title="Funciona con los sitios de medios sociales más populares">
+        <point>
+          El disco duro portátil de Dell puede cargar directamente en los principales sitios de medios sociales, como Facebook, Flickr y YouTube. También pueden crear automáticamente una copia de respaldo de los archivos que se han compartido en estos sitios populares.  
+        </point>
+      </points>
+	  <points title="Fácil integración con Windows 7 y Windows 8">
+        <point>
+          El disco duro portátil de Dell con el software de respaldo automático se integra fácilmente con Windows 7 y Windows 8. El software Seagate incluido asegura que sus archivos importantes estén respaldados y protegidos. El disco requiere un puerto USB disponible. 
+        </point>
+      </points>
+	  <points title="Contenido de la caja">
+        <point>
+          Disco duro de respaldo portátil de Dell: <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          Cable USB 
+        </point>
+		<point>
+          Documentación
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        disco duro externo portátil
+      </product:techspec>
+      <product:techspec id="2" name="Capacidad con formateo">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

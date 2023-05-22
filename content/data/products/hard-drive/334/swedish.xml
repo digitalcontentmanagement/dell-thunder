@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Extern bärbar hårddisk - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Med en bärbar hårddisk för säkerhetskopiering från Dell<tm/> kan du skydda värdefulla filer, data och media. <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> kapacitet ger gott om utrymme för att spara alla dina foton, videor, musik och mer. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Lätt och bärbar">
+        <point>
+          Den lättviktiga designen gör den lätt att ta med sig. Tack vare den kompakta formfaktorn tar den upp väldigt lite plats på skrivbordet. Eftersom den är utrustad med en USB-port finns det inte någon separat strömkabel att koppla in och ta med sig. Det är det perfekta komplementet till bärbara datorer och USB-kompatibla surfplattor. 
+        </point>
+      </points>
+      <points title="Programvara för användarvänlig säkerhetskopiering är förinstallerad">
+        <point>
+          Enheten levereras med förinstallerat program för automatisk säkerhetskopiering från Seagate och kan användas så snart du ansluter enheten. Med det här programmet kan du schemalägga automatisk säkerhetskopiering i Seagates användarvänliga panel för säkerhetskopiering. 
+        </point>
+      </points>
+	  <points title="USB 3.0 för snabbare dataöverföringar">
+        <point>
+          Dells bärbara hårddisk har USB 3.0, som är upp till tio gånger snabbare än USB 2.0. Det innebär att filer överförs snabbare mellan hårddisken och enheten och att säkerhetskopiering slutförs snabbare. Den är också bakåtkompatibel med USB 2.0 och USB 1.0, så att äldre enheter fortfarande kan ansluta till den här enheten. 
+        </point>
+		<point>
+		  Hårddiskens programvara för automatisk säkerhetskopiering är förinstallerad och enkel att använda. 
+		</point>
+      </points>
+	  <points title="Fungerar med populära sociala medier">
+        <point>
+          Dells bärbara hårddisk kan ladda upp direkt på de största sociala mediewebbplatserna, inklusive Facebook, Flickr och YouTube. Enheten kan också automatiskt säkerhetskopiera filer som du har på dessa populära platser. 
+        </point>
+      </points>
+	  <points title="Enkel integrering med Windows 7 och Windows 8">
+        <point>
+          Dells bärbara hårddisk med program för automatisk säkerhetskopiering integreras enkelt med både Windows 7 och Windows 8. Det medföljande Seagate-programmet säkerställer att dina viktiga filer säkerhetskopieras och skyddas. En ledig USB-port krävs. 
+        </point>
+      </points>
+	  <points title="Förpackningens innehåll">
+        <point>
+          Bärbar hårddisk för säkerhetskopiering från Dell - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USB-kabel 
+        </point>
+		<point>
+          Dokumentation
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhetstyp">
+        Extern bärbar hårddisk 
+      </product:techspec>
+      <product:techspec id="2" name="Formaterad kapacitet">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

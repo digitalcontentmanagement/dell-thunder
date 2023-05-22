@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive</meta:title>
+    <meta:date value="2015-10-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/>  <textbox value="10,000" refid="3"/> tr/min <dropdownlist id="hard-drive-277-b"/> SAS <textbox value="6" refid="4"/>Gbit/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Augmentez la capacité de stockage de votre système grâce à un disque dur Dell de <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/>. Sa vitesse de rotation de <textbox value="10,000" refid="3"/> tr/min offre un accès rapide au disque. Doté d’une interface SAS, ce disque dur permet d’atteindre des vitesses de transfert de données plus élevées.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Offre une capacité de <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> permettant de stocker de grandes quantités de données
+        </point>
+        <point>
+          L’interface SAS permet d’obtenir des vitesses de transfert de données élevées
+        </point>
+        <point>
+		  La vitesse de rotation de <textbox value="10,000" refid="3"/> tr/min assure un excellent rendement
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Dimensions">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Capacité après formatage">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Type de périphérique">
+        Disque dur
+      </product:techspec>
+      <product:techspec id="4" name="Type d’interface">
+        SAS
+      </product:techspec>
+	  <product:techspec id="5" name="Cryptage">
+		<textbox value="10,000" id="3"/> tr/min
+      </product:techspec>
+	  <product:techspec id="6" name="Taille de la mémoire tampon">
+		<textbox value="6" id="4"/>Gbit/s
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

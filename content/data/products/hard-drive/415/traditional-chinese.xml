@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive</meta:title>
+    <meta:date value="2015-10-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> RPM SAS <dropdownlist id="hard-drive-277-b"/> <textbox value="6" refid="4"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  使用這款 <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> 的 Dell 原廠硬碟，為您的系統增加儲存容量。 這款硬碟以 <textbox value="10,000" refid="3"/> RPM 的轉速，提供高速的磁碟存取能力。 這款硬碟配備了 SAS 介面，可提供更優異的資料傳輸速率。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  提供 - <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> 容量來儲存大量資料
+        </point>
+        <point>
+          SAS 介面可提供高速的資料傳輸速度
+        </point>
+        <point>
+		  <textbox value="10,000" refid="3"/> RPM 的轉速，可確保優異的效能
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="外形規格">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="格式化容量">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="裝置類型">
+        硬碟
+      </product:techspec>
+      <product:techspec id="4" name="介面類型">
+        SAS
+      </product:techspec>
+	  <product:techspec id="5" name="加密">
+		<textbox value="10,000" id="3"/> RPM
+      </product:techspec>
+	  <product:techspec id="6" name="緩衝區大小">
+		<textbox value="6" id="4"/>Gbps
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

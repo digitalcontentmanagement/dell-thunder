@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> disco rígido portátil externo Dell - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    A Unidade de disco rígido de backup portátil da Dell<tm/> permite-lhe proteger os seus ficheiros, dados e suportes de dados mais importantes. A capacidade de <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> fornece imenso espaço para guardar todas as suas fotografias, vídeos, música e muito mais. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Leve e portátil">
+        <point>
+          Graças ao seu design leve, pode levar facilmente a unidade consigo. Além disso, o seu factor de forma compacto ocupa muito pouco espaço no seu espaço de trabalho. Uma vez que recebe alimentação a partir de uma porta USB, não precisa de um cabo de alimentação separado para ligar ou transportar. É a companhia ideal para os computadores portáteis e tablets compatíveis com USB. 
+        </point>
+      </points>
+      <points title="O software de backup fácil de utilizar está pré-instalado">
+        <point>
+          A unidade é fornecida com o software de backup automático da Seagate pré-carregado e que está pronto a utilizar assim que liga a unidade. O software permite-lhe agendar backups automáticos no Painel de Backup Seagate fácil de utilizar. 
+        </point>
+      </points>
+	  <points title="USB 3.0 para transferências de dados mais rápidas">
+        <point>
+          A unidade de disco rígido portátil da Dell inclui a funcionalidade USB 3.0, que é até 10 vezes mais rápida do que USB 2.0. Isto significa que os ficheiros são transferidos com maior rapidez entre a unidade e o seu dispositivo e os backups terminam mais rapidamente. Além disso, é retrocompatível com USB 2.0 e USB 1.0, pelo que os dispositivos mais antigos podem ser ligados a esta unidade. 
+        </point>
+		<point>
+		  O software de backup automático da unidade de disco rígido portátil é fornecido pré-instalado e é fácil de utilizar. 
+		</point>
+      </points>
+	  <points title="Funciona com as redes sociais mais populares">
+        <point>
+          A unidade de disco rígido portátil Dell pode carregar directamente para as redes sociais mais utilizadas, incluindo o Facebook, Flickr e YouTube. A unidade também pode efectuar automaticamente o backup dos ficheiros que partilhou nestas redes populares. 
+        </point>
+      </points>
+	  <points title="Integração fácil com o Windows 7 e Windows 8">
+        <point>
+          A unidade de disco rígido portátil da Dell com software de backup automático integra-se facilmente com o Windows 7 e Windows 8. O software Seagate incluído garante o backup e protecção dos seus ficheiros mais importantes. A unidade requer uma porta USB livre. 
+        </point>
+      </points>
+	  <points title="Conteúdo da caixa">
+        <point>
+          Unidade de disco rígido de backup portátil Dell - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          Cabo USB 
+        </point>
+		<point>
+          Documentação
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        disco rígido portátil externo Dell 
+      </product:techspec>
+      <product:techspec id="2" name="Capacidade formatada">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

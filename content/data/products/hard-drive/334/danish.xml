@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Ekstern bærbar Dell-harddisk - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Den bærbare harddisk til sikkerhedskopiering fra Dell<tm/> giver dig mulighed for at beskytte dine vigtige filer, data og medier. <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> kapacitet giver masser af plads til at gemme alle dine fotos, videoer, musik og meget mere.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Let og bærbar">
+        <point>
+          Harddiskens letvægtsdesign gør det nemt at tage den med på farten. Takket være den kompakte formfaktor optager harddisken meget lidt plads på skrivebordet. Da den strømforsynes via en USB-port, er der intet separat strømkabel, som skal tilsluttes eller tages med. Harddisken er den perfekte ledsager på farten til bærbare pc'er og USB-kompatible tablets. 
+        </point>
+      </points>
+      <points title="Brugervenlig software til sikkerhedskopiering er forudinstalleret">
+        <point>
+          Harddisken leveres med forudinstalleret software til automatisk sikkerhedskopiering fra Seagate, der er klar til brug, så snart du tilslutter harddisken. Softwaren giver dig mulighed for at planlægge automatiske sikkerhedskopieringer i det brugervenlige Seagate-instrumentpanel til sikkerhedskopiering. 
+        </point>
+      </points>
+	  <points title="USB 3.0-porte giver hurtigere dataoverførsler">
+        <point>
+          Dells bærbare harddisk har USB 3.0, der er op til 10 gange hurtigere end USB 2.0. Det betyder, at filer overføres hurtigere mellem harddisken og enheden, og sikkerhedskopieringer udføres hurtigere. Harddisken er også bagudkompatibel med USB 2.0 og USB 1.0, så ældre enheder kan stadig sluttes til den. 
+        </point>
+		<point>
+		  Den bærbare harddisks software til automatisk sikkerhedskopiering leveres forudinstalleret og er nem at bruge. 
+		</point>
+      </points>
+	  <points title="Fungerer med populære websites for sociale medier">
+        <point>
+          Den bærbare Dell-harddisk kan uploade direkte til populære websites for sociale medier, herunder Facebook, Flickr og YouTube. Harddisken kan også automatisk oprette sikkerhedskopier af de filer, du har delt på disse populære websites. 
+        </point>
+      </points>
+	  <points title="Nem integration med Windows 7 og Windows 8">
+        <point>
+          Den bærbare Dell-harddisk med software til automatisk sikkerhedskopiering integreres nemt med både Windows 7 og Windows 8. Den medfølgende Seagate-software sikrer, at dine vigtige filer sikkerhedskopieres og beskyttes. Harddisken kræver en ledig USB-port. 
+        </point>
+      </points>
+	  <points title="Hvad er der i kassen">
+        <point>
+          Bærbar Dell-harddisk til sikkerhedskopiering – <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USB-kabel 
+        </point>
+		<point>
+          Dokumentation
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhedstype">
+        Ekstern bærbar Dell-harddisk
+      </product:techspec>
+      <product:techspec id="2" name="Formateret kapacitet">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

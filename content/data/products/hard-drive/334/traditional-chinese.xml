@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 可攜式外接硬碟 - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Dell<tm/> 提供的可攜式備份硬碟可讓您保護重要的檔案、資料與媒體。 <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> 的容量可提供充裕的空間，讓您儲存所有的相片、影片、音樂等資料。 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="輕巧且方便攜帶">
+        <point>
+          磁碟機的重量極輕，方便您輕鬆隨身攜帶。 由於它的外形規格相當精巧，占用的桌面空間也非常小。 它是透過 USB 連接埠供電，因此不需要插入或攜帶單獨的電源線。 可搭配筆記型電腦以及與 USB 相容的平板電腦使用，是最理想的行動良伴。 
+        </point>
+      </points>
+      <points title="易於使用的備份軟體已預先安裝">
+        <point>
+          磁碟機已預先載入 Seagate 提供的自動備份軟體，您只要插入磁碟機中就可以立即使用。 此軟體可讓您透過操作簡易的 Seagate Backup Dashboard (備份儀表板) 排程自動備份。 
+        </point>
+      </points>
+	  <points title="USB 3.0 可加快資料傳輸">
+        <point>
+          Dell 的可攜式硬碟採用 USB 3.0，最多比 USB 2.0 快上 10 倍。 也就是說，硬碟與裝置之間的檔案傳輸更快速，備份作業也能更快完成。 此外，它還能夠回溯相容於 USB 2.0 和 USB 1.0，因此舊型裝置仍然可以連接使用這款硬碟。 
+        </point>
+		<point>
+		  可攜式硬碟的自動備份軟體已預先安裝，而且容易使用。 
+		</point>
+      </points>
+	  <points title="可配合使用熱門的社交媒體網站">
+        <point>
+          Dell 可攜式硬碟可以直接上傳到最熱門的社交媒體網站，包括 Facebook、Flickr 和 YouTube。 此外，這款硬碟也可以自動備份您在這些熱門網站上所分享的檔案。 
+        </point>
+      </points>
+	  <points title="與 Windows 7 和 Windows 8 輕鬆整合">
+        <point>
+          Dell 的可攜式硬碟包含自動備份軟體，能夠與 Windows 7 和 Windows 8 輕鬆整合。 隨附的 Seagate 軟體可確保為您的重要檔案製作備份並提供周全保護。 硬碟需要一個可用的 USB 連接埠。 
+        </point>
+      </points>
+	  <points title="包裝內容">
+        <point>
+          Dell 可攜式備份硬碟 - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USB 傳輸線 
+        </point>
+		<point>
+          文件記錄
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="裝置類型">
+        可攜式外接硬碟
+      </product:techspec>
+      <product:techspec id="2" name="格式化容量">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

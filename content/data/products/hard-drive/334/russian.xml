@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> портативный внешний жесткий диск емкостью - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    портативный резервный жесткий диск от Dell<tm/> обеспечивает защиту ценных файлов, данных и мультимедийных материалов. Пространства емкостью <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> с запасом хватит для хранения всех ваших фотографий, видео, музыки и многого другого. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Легкий и портативный">
+        <point>
+          Небольшой вес жесткого диска позволяет брать его с собой. Благодаря компактному форм-фактору диск занимает совсем мало места на рабочем столе. Питание осуществляется через порт USB, поэтому вам не придется носить с собой отдельный кабель питания. Это идеальный помощник в дороге, который станет отличным дополнением к ноутбукам и оснащенным портом USB планшетам. 
+        </point>
+      </points>
+      <points title="Предварительно установлено удобное в использовании программное обеспечение для резервного копирования">
+        <point>
+          В комплект поставки жесткого диска входит предварительно загруженное программное обеспечение Seagate для резервного копирования, которое можно использовать сразу после подключения диска. Программное обеспечение позволяет планировать операции автоматического резервного копирования на удобной в использовании панели мониторинга резервного копирования Seagate. 
+        </point>
+      </points>
+	  <points title="USB 3.0 для увеличения скорости передачи данных">
+        <point>
+          Портативный жесткий диск Dell поддерживает интерфейс USB 3.0, который способен обеспечивать передачу данных в 10 раз быстрее, чем интерфейс USB 2.0. Благодаря этому повышается скорость передачи файлов между жестким диском и устройством и, как следствие, сокращается время резервного копирования. Диск также обеспечивает обратную совместимость с интерфейсами USB 2.0 и USB 1.0, поэтому его по-прежнему можно подключать к более старым устройствам. 
+        </point>
+		<point>
+		  В комплект поставки жесткого диска входит предварительно устанавливаемое и удобное в использовании программное обеспечение для автоматического резервного копирования. 
+		</point>
+      </points>
+	  <points title="Работа с популярными сайтами социальных сетей">
+        <point>
+          Портативный жесткий диск Dell может отправлять данные непосредственно на популярные сайты социальных сетей, такие как Facebook, Flickr и YouTube. Диск также может автоматически создавать резервные копии файлов, которые вы размещаете на этих сайтах.  
+        </point>
+      </points>
+	  <points title="Простая интеграция с Windows 7 и Windows 8">
+        <point>
+          Портативный жесткий диск Dell с программным обеспечением для автоматического резервного копирования легко интегрируется с операционными системами Windows 7 и Windows 8. Входящее в комплект поставки программное обеспечение Seagate обеспечивает резервное копирование и безопасность ваших важных файлов. Для диска требуется один свободный порт USB. 
+        </point>
+      </points>
+	  <points title="Комплект поставки">
+        <point>
+          Портативный резервный жесткий диск Dell емкостью <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          Кабель USB 
+        </point>
+		<point>
+          Документация
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип устройства">
+        портативный внешний жесткий диск емкостью
+      </product:techspec>
+      <product:techspec id="2" name="Форматированная емкость">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

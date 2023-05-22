@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVMe Express Flash HHHL Card</meta:title>
+    <meta:date value="2017-03-07" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="Intel" id="1"/> <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> NVMe <dropdownlist id="hard-drive-277-c"/> Express Flash <dropdownlist refid="formfactor-277a"/> <textbox value="HHHL" id="2"/> <dropdownlist id="card-277a"/> <textbox value=", U.2, P4500" id="5"/> <dropdownlist id="withcarrier-277a"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Udvid storagekapaciteten i dit Dell-system med en <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> Solid State-drev fra Dell. Med en storagekapacitet på op til <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> kan brugerne gemme store mængder data. 
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Tilbyder op til <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> storagekapacitet
+        </point>
+        <point>
+          Med NVMe-interface, der leverer høj dataoverførselshastighed
+        </point>
+        <point>
+          Solid State-designet giver robusthed og hurtig adgang til data
+        </point>
+      </points>
+      <points title="Fordele ved SSD i forhold til roterende drev:">
+        <point>
+          Mere holdbare: har et ikke-mekanisk design med NAND-flash, der er monteret på kredsløb og er mere stødsikker.
+        </point>
+        <point>
+          Hurtigere: hurtigere dataadgang, systemopstart, filoverførsel og en generelt hurtigere databehandling end harddiske.
+        </point>
+        <point>
+          Mindre støjende: få næsten lydløs drift i modsætning til støjende, summende diskdrev.
+        </point>
+        <point>
+          Lettere: Flash-baserede SSD'er veje betydeligt mindre.
+        </point>
+        <point>
+          Køligere: SSD-enheder behøver kun lidt kraft for at fungere, hvilket resulterer i mindre varmeoutput fra systemet.
+        </point>
+        <point>
+          Mere effektive: Bruger mindre strøm ved spidsbelastning.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhedstype">
+       NVMe <dropdownlist refid="hard-drive-277-c"/> Express Flash <textbox value="HHHL" refid="2"/> <dropdownlist refid="card-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Formfaktor">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="3" name="Formateret kapacitet">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+     </product:techspec>
+      <product:techspec id="4" name="Type">
+        <dropdownlist id="type-277a"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive (512e)</meta:title>
+    <meta:date value="2017-04-27" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> v/min <dropdownlist refid="512e-type"/> <textbox value="6" refid="4"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="customer-kit"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Öka lagringskapaciteten hos ditt system med den här hårddisken med <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> från Dell. Den ger snabb diskåtkomst tack vare en rotationshastighet på <textbox value="10,000" refid="3"/> v/min. Med <dropdownlist refid="512e-type"/>-gränssnittet ger hårddisken höga dataöverföringshastigheter.
+	  </para>
+	  <para>
+	  Observera följande begränsningar: VMware stöder inte 512e- eller 4Kn-hårddiskar. 4Kn-hårddiskar stöds endast på Win 2012, UEFI-startenheter och vissa Linux-system. 512e-hårdddiskar stöds endast på Win2008R2 eller senare och vissa Linux-system.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Ger – <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> kapacitet för att lagra stora mängder data
+        </point>
+        <point>
+          <dropdownlist refid="512e-type"/>-gränssnittet ger höga dataöverföringshastigheter
+        </point>
+        <point>
+		  En rotationsfrekvens på <textbox value="10,000" refid="3"/> v/min ger imponerande prestanda
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Formfaktor">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Formaterad kapacitet">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Enhetstyp">
+        Hårddisk
+      </product:techspec>
+      <product:techspec id="4" name="Gränssnittstyp">
+       <dropdownlist id="512e-type"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Kryptering">
+		<textbox value="10,000" id="3"/> v/min
+      </product:techspec>
+	  <product:techspec id="6" name="Buffertstorlek">
+		<textbox value="6" id="4"/>Gbit/s
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

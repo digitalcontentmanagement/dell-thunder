@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Φορητός εξωτερικός σκληρός δίσκος - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Ο φορητός σκληρός δίσκος δημιουργίας αντιγράφων ασφαλείας από την Dell<tm/> σάς επιτρέπει να προστατεύετε τα πολύτιμα αρχεία σας, δεδομένα και πολυμέσα. Η χωρητικότητα των <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> προσφέρει απεριόριστο χώρο για την αποθήκευση όλων των φωτογραφιών, των βίντεο, της μουσικής και πολλών ακόμα. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Ελαφριά και φορητή">
+        <point>
+          Η ελαφριά σχεδίαση της μονάδας διευκολύνει τη μεταφορά της. Χάρη στο μικρό της μέγεθος, καταλαμβάνει ελάχιστο χώρο στο γραφείο σας. Καθώς τροφοδοτείται μέσω μιας θύρας USB, δεν απαιτείται η σύνδεση ή η μεταφορά ξεχωριστού καλωδίου. Αποτελεί τον ιδανικό σύντροφο για τις μετακινήσεις σας, καθώς είναι κατάλληλη για φορητούς υπολογιστές και tablet που είναι συμβατά με USB. 
+        </point>
+      </points>
+      <points title="Το εύχρηστο λογισμικό δημιουργίας αντιγράφων ασφαλείας είναι προεγκατεστημένο">
+        <point>
+          Η μονάδα διαθέτει προεγκατεστημένο το λογισμικό αυτόματης δημιουργίας αντιγράφων ασφαλείας της Seagate που είναι έτοιμο προς χρήση, μόλις συνδέσετε τη μονάδα δίσκου. Το λογισμικό σάς επιτρέπει τον προγραμματισμό αυτόματης δημιουργίας αντιγράφων ασφαλείας μέσα από το φιλικό προς το χρήστη Πίνακα εργαλείων δημιουργίας αντιγράφων ασφαλείας της Seagate. 
+        </point>
+      </points>
+	  <points title="USB 3.0 για ταχύτερες μεταφορές δεδομένων">
+        <point>
+          Ο φορητός σκληρός δίσκος της Dell διαθέτει USB 3.0, που είναι έως και 10 φορές πιο γρήγορο από το USB 2.0. Αυτό σημαίνει ότι τα αρχεία μεταφέρονται πιο γρήγορα μεταξύ της μονάδας και της συσκευής σας και οι διαδικασίες δημιουργίας αντιγράφων ασφαλείας ολοκληρώνονται νωρίτερα. Επίσης, είναι συμβατός με τις παλαιότερες τεχνολογίες USB 2.0 και USB 1.0, έτσι ώστε να μπορείτε να συνδέσετε παλαιότερες συσκευές σε αυτή τη μονάδα δίσκου. 
+        </point>
+		<point>
+		  Το λογισμικό αυτόματης δημιουργίας αντιγράφων ασφαλείας του φορητού σκληρού δίσκου είναι προεγκατεστημένο και εύχρηστο. 
+		</point>
+      </points>
+	  <points title="Λειτουργεί στις δημοφιλείς τοποθεσίες κοινωνικών μέσων">
+        <point>
+          Ο φορητός σκληρός δίσκος Dell μπορεί να αποστείλει δεδομένα απευθείας στις κορυφαίες τοποθεσίες κοινωνικών μέσων, όπως τα Facebook, Flickr και YouTube. Η μονάδα μπορεί επίσης να δημιουργήσει αυτόματα αντίγραφα ασφαλείας των αρχείων που μοιράζεστε σε αυτές τις δημοφιλείς τοποθεσίες.  
+        </point>
+      </points>
+	  <points title="Εύκολη ενσωμάτωση στα Windows 7 και Windows 8">
+        <point>
+          Ο φορητός σκληρός δίσκος Dell με λογισμικό αυτόματης δημιουργίας αντιγράφων ασφαλείας ενσωματώνεται εύκολα στα Windows 7 και Windows 8. Το συμπεριλαμβανόμενο λογισμικό Seagate διασφαλίζει ότι δημιουργούνται αντίγραφα ασφαλείας των σημαντικών αρχείων σας και ότι είναι προστατευμένα. Η μονάδα απαιτεί μία ελεύθερη θύρα USB. 
+        </point>
+      </points>
+	  <points title="Τι περιλαμβάνεται στη συσκευασία">
+        <point>
+          Φορητός σκληρός δίσκος δημιουργίας αντιγράφων ασφαλείας Dell - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          Καλώδιο USB 
+        </point>
+		<point>
+          Τεκμηρίωση
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος συσκευής">
+        Φορητός εξωτερικός σκληρός δίσκος
+      </product:techspec>
+      <product:techspec id="2" name="Χωρητικότητα μετά από μορφοποίηση">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

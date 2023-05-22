@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>External Portable Hard Drive</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> External Portable Hard Drive - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    The Portable Backup Hard Drive from Dell<tm/> allows you to protect your valuable files, data and media. The <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/> capacity provides plenty of space to save all your photos, videos, music and more.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="Lightweight and portable">
+        <point>
+          The drive's lightweight design makes it easy to take it with you. Thanks to its compact form factor, it takes up very little room on your desktop. Since it's powered by a USB port, there's no separate power cable to plug in or carry. It's an ideal on-the-go companion for laptops and USB-compatible tablets. 
+        </point>
+      </points>
+      <points title="Easy-to-use backup software is pre-installed">
+        <point>
+          The drive comes pre-loaded with automatic backup software from Seagate that's ready to use as soon as you plug in the drive. The software lets you schedule automatic backups in the user-friendly Seagate Backup Dashboard. 
+        </point>
+      </points>
+	  <points title="USB 3.0 for faster data transfers">
+        <point>
+          Dell's portable hard drive features USB 3.0, which is up to 10 times faster than USB 2.0. This means files transfer more quickly between the drive and your device and backups finish sooner. It's also backward compatible with USB 2.0 and USB 1.0, so older devices can still connect to this drive. 
+        </point>
+		<point>
+		  The portable hard drive's auto backup software comes pre-installed and is easy to use. 
+		</point>
+      </points>
+	  <points title="Works with popular social media sites">
+        <point>
+          The Dell portable hard drive can upload directly to top social media sites, including Facebook, Flickr and YouTube. The drive can also automatically backup the files you've shared on these popular sites. 
+        </point>
+      </points>
+	  <points title="Easy integration with Windows 7 and Windows 8">
+        <point>
+          Dell's portable hard drive with automatic backup software integrates easily with both Windows 7 and Windows 8. The included Seagate software ensures your important files are backed up and protected. The drive requires one free USB port.  
+        </point>
+      </points>
+	  <points title="What's in the Box">
+        <point>
+          Dell Portable Backup Hard Drive - <textbox value="500" refid="1"/> <dropdownlist refid="unit-byte"/>
+        </point>
+		<point>
+          USB cable 
+        </point>
+		<point>
+          Documentation
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Device Type">
+        External Portable Hard Drive
+      </product:techspec>
+      <product:techspec id="2" name="Formatted Capacity">
+        <textbox value="500" id="1"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

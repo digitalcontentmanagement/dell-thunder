@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive (512e)</meta:title>
+    <meta:date value="2017-04-27" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> 1/min <dropdownlist refid="512e-type"/> <textbox value="6" refid="4"/>Gbit/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Erhöhen Sie die Massenspeicherkapazität Ihres Systems mit der <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/>-Festplatte von Dell. Durch eine Umdrehungsgeschwindigkeit von <textbox value="10,000" refid="3"/> 1/min profitieren Sie von schnellem Festplattenzugriff. Dank der <dropdownlist refid="512e-type"/>-Schnittstelle bietet diese Festplatte zudem eine höhere Datenübertragungsgeschwindigkeit.
+	  </para>
+	  <para>
+	  Bitte beachten Sie die folgenden Einschränkungen: VMware unterstützt keine 512e oder 4Kn Festplatten. 4Kn-Festplatten werden nur auf Win 2012 und auf UEFI Boot und einigen Linux Versionen unterstützt. 512e-Festplatten werden nur auf Win2008R2 oder darüber sowie einigen Linux Versionen unterstützt.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Bietet eine Kapazität von <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> für die Speicherung großer Datenmengen
+        </point>
+        <point>
+          <dropdownlist refid="512e-type"/>-Schnittstelle für schnelle Datenübertragungsraten
+        </point>
+        <point>
+		  Drehzahl von <textbox value="10,000" refid="3"/> 1/min für hervorragende Leistung
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Formfaktor">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Insgesamt verfügbare Speicherkapazität">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Gerätetyp">
+        Festplatte
+      </product:techspec>
+      <product:techspec id="4" name="Schnittstellentyp">
+        <dropdownlist id="512e-type"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Verschlüsselung">
+		<textbox value="10,000" id="3"/> 1/min
+      </product:techspec>
+	  <product:techspec id="6" name="Puffergröße">
+		<textbox value="6" id="4"/>Gbit/s
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

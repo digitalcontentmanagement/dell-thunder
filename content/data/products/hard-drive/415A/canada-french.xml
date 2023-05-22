@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SAS Hard Drive (512e)</meta:title>
+    <meta:date value="2017-04-27" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> tr/min <dropdownlist refid="512e-type"/> <textbox value="6" refid="4"/>Gbit/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Augmentez la capacité de stockage de votre système grâce à un disque dur Dell de <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/>. Sa vitesse de rotation de <textbox value="10,000" refid="3"/> tr/min offre un accès rapide au disque. Doté d’une interface <dropdownlist refid="512e-type"/>, ce disque dur permet d’atteindre des vitesses de transfert de données plus élevées.
+	  </para>
+	  <para>
+	  Veuillez prendre note des restrictions suivantes: VMware ne prend pas en charge les disques durs 512e ou 4Kn. Les disques durs 4Kn sont uniquement pris en charge par les modes de démarrage Win 2012, UEFI et par certaines versions de Linux. Les disques durs 512e sont uniquement pris en charge par Win 2008 R2 et ses versions ultérieures et par certaines versions de Linux.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Offre une capacité de <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> permettant de stocker de grandes quantités de données
+        </point>
+        <point>
+          L’interface <dropdownlist refid="512e-type"/> permet d’obtenir des vitesses de transfert de données élevées
+        </point>
+        <point>
+		  La vitesse de rotation de <textbox value="10,000" refid="3"/> tr/min assure un excellent rendement
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Dimensions">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Capacité après formatage">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Type de périphérique">
+        Disque dur
+      </product:techspec>
+      <product:techspec id="4" name="Type d’interface">
+        <dropdownlist id="512e-type"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Cryptage">
+		<textbox value="10,000" id="3"/> tr/min
+      </product:techspec>
+	  <product:techspec id="6" name="Taille de la mémoire tampon">
+		<textbox value="6" id="4"/>Gbit/s
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
