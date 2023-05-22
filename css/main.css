@@ -1,0 +1,883 @@
+﻿input:focus, input:focus:hover, select:focus, select:focus:hover
+{
+    outline: #99CCFF solid 1px;
+    box-shadow: 0px 0px 3px #99CCFF;
+    border: 1px solid #6699CC;
+}
+#placeholder input:focus, #placeholder input:focus:hover, #placeholder select:focus, #placeholder select:focus:hover
+{
+    outline: #99CCFF solid 1px;
+    box-shadow: 0px 0px 3px #99CCFF;
+    border: 1px solid #6699CC;
+    position: relative;/* Twin control outline highlight */
+    z-index: 2;
+}
+input:hover, select:hover
+{
+    outline: none;
+    border: 1px solid #909090;
+}
+#placeholder input:hover, #placeholder select:hover
+{
+    outline: none;
+    border: 1px solid #444444;
+    position: relative;/* Twin control outline highlight */
+    z-index: 1;
+}
+a:link
+{
+    color: #0B66B0;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #0B66B0;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #444444;
+    text-decoration: none;
+}
+a:active
+{
+    color: #14A2D8;
+    text-decoration: none;
+}
+/* Reset body padding and margins */
+body
+{
+    font-family: Arial, Tahoma;
+    color: #404040;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #808080; /*background: #FFF url("images/bg.png") repeat scroll top right;*/
+}
+img
+{
+    border: 0px;
+}
+
+.ie-warning
+{
+    display: block;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 4px 10px;
+    font-weight: bold;
+}
+/* Make Header Sticky */
+#header_container
+{
+    background: #0085C3;
+    border-bottom: 3px solid #FFFFFF;
+    height: 70px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+#header
+{
+    line-height: 0px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+#logo
+{
+    float: left;
+    margin: 0;
+    width: 30%;
+    height: 55px;
+}
+#default
+{
+    float: left;
+    background-color: #0085C3;
+    margin: 0;
+    color: #F9F9F9;
+    font-weight: bold;
+    width: 61%;
+    padding: 0px;
+    text-align: right;
+    vertical-align: middle;
+    height: 55px;
+}
+#default select, #default label
+{
+    vertical-align: middle;
+    margin: 12px 0;
+}
+
+#control-panel div
+{
+    text-align: left;
+    float: left;
+    padding: 10px 5px 0px 5px;
+    background-color: #F9F9F9;
+    width: auto;
+}
+#control-panel p
+{
+    font-weight: normal;
+}
+nav#control
+{
+    margin: 50px auto;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    padding: 7px;
+    border-bottom: 1px solid #404040;
+    box-shadow: 0px 3px 3px #404040;
+    min-height: 119px;
+    height: inherit;
+}
+#panel
+{
+    margin: 0 auto;
+    width: 75%;
+    padding: 0 10px;
+    border: 1px dashed #C0C0C0;
+    background-color: #F9F9F9;
+    min-height: 115px;
+    height: inherit;
+}
+#panel form
+{
+    background-color: #F9F9F9;
+    margin: 0 auto;
+    width: 100%;
+}
+#markets_loader
+{
+    width: 140px;
+    text-align: center;
+    font-size: 11px;
+}
+#sku_note
+{
+    font-weight: normal;
+    font-size: 10px;
+    height: 12px;
+    display: inline-block;
+    padding: 2px 1px;
+    width: 150px;
+    color: #808080;
+    visibility: hidden;
+}
+#sku_slot
+{
+    max-width: 126px;
+}
+#button_slot
+{
+    width: 100px;
+    max-width: 100px;
+    min-width: 90px;
+    text-align: center;
+    margin: 0;
+}
+#button_slot .first
+{
+	margin: 0 0 2px 0; 
+	border: 1px solid #C9C9C9; 
+	height: 15px;
+	padding: 5px 2px;
+	background-color: #F0F0F0;
+}
+#button_slot div
+{
+    padding: 0px;
+    clear: both;
+}
+button
+{
+    border: 0px;
+    margin: 2px;
+    width: 80px;
+    font-weight: normal;
+    font-size: 11px;
+	cursor: pointer;
+    background: #33CC33 url("../images/button-bg.gif") repeat;
+    background-image: -webkit-linear-gradient(top, #66CC33, #339933);
+    background-image: -moz-linear-gradient(top, #66CC33, #339933);
+    background-image: -ms-linear-gradient(top, #66CC33, #339933);
+    background-image: -o-linear-gradient(top, #66CC33, #339933);
+    background-image: linear-gradient(to bottom, #66CC33, #339933);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Arial, Tahoma;
+    color: #FFFFFF;
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+}
+button:hover
+{
+    background: #339933;
+    background-image: -webkit-linear-gradient(top, #339933, #339933);
+    background-image: -moz-linear-gradient(top, #339933, #339933);
+    background-image: -ms-linear-gradient(top, #339933, #339933);
+    background-image: -o-linear-gradient(top, #339933, #339933);
+    background-image: linear-gradient(to bottom, #339933, #339933);
+    text-decoration: none;
+}
+#word_slot, #sku_info_slot
+{
+    text-align: center;
+    vertical-align: middle;
+}
+#word_slot fieldset
+{
+    min-width: 130px;
+    text-align: center;
+    margin: 0px;
+    height: 65px;
+}
+#counter
+{
+    font-weight: normal;
+    border: 0px;
+    background-color: #F9F9F9;
+    font-size: 30px;
+    width: 98px;
+    text-align: center;
+}
+#sku_info_slot fieldset
+{
+    min-width: 130px;
+    text-align: left;
+    vertical-align: middle;
+    height: 65px;
+}
+#sku_info_slot table
+{
+    font-weight: normal;
+}
+#sku_info_slot td
+{
+    padding: 0px 3px;
+    text-align: left;
+    height: 18px;
+    font-size: 11px;
+}
+#sku_info_slot .label
+{
+    width: 70px;
+    text-align: right;
+    font-weight: bold;
+}
+.label
+{
+    font-weight: normal;
+    font-size: 11px;
+}
+table
+{
+    width: 100%;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+td
+{
+    text-align: left;
+    vertical-align: top;
+}
+form
+{
+    margin: 0px;
+    padding: 0px;
+}
+select, input
+{
+    margin: 3px 0;
+    padding: 2px;
+    border: 1px solid #C0C0C0;
+    color: #404040;
+    font-size: 11px;
+}
+#button_slot a
+{
+	color: #FFFFFF;
+	display: block;
+	min-width: 90px;
+}
+#button_slot ul
+{
+	display: none;
+}
+#csvfilename
+{
+	font-weight: normal;
+	font-size: 10px;
+	border: 1px solid #CCC;
+	padding: 2px 14px;
+	vertical-align: middle;
+}
+#csvfilenamelabel
+{	
+	float: right;
+	font-size: 12px;
+	color: #F0F0F0;
+	font-weight: bold;
+	vertical-align: middle;
+}
+input[type=radio]
+{
+    border: 0px;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+	cursor: pointer;
+	border: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 11px;
+    background: #C0C0C0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+	padding: 3px 11px;
+    color: #F9F9F9;
+    text-decoration: none;
+}
+.custom-file-upload-enabled {
+	cursor: pointer;
+	border: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 11px;
+    background: #33CC33 url("../images/button-bg.gif") repeat;
+    background-image: -webkit-linear-gradient(top, #66CC33, #339933);
+    background-image: -moz-linear-gradient(top, #66CC33, #339933);
+    background-image: -ms-linear-gradient(top, #66CC33, #339933);
+    background-image: -o-linear-gradient(top, #66CC33, #339933);
+    background-image: linear-gradient(to bottom, #66CC33, #339933);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Arial, Tahoma;
+	padding: 3px 11px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.custom-file-upload-enabled:hover
+{
+    background: #339933;
+    background-image: -webkit-linear-gradient(top, #339933, #339933);
+    background-image: -moz-linear-gradient(top, #339933, #339933);
+    background-image: -ms-linear-gradient(top, #339933, #339933);
+    background-image: -o-linear-gradient(top, #339933, #339933);
+    background-image: linear-gradient(to bottom, #339933, #339933);
+    text-decoration: none;
+}
+#category, #subclass
+{
+    margin: 5px 0 0 0;
+    min-width: 238px;
+    width: 100%;
+    height: 24px;
+}
+#markets
+{
+    margin: 5px 0 0 0;
+    min-width: 140px;
+    width: 100%;
+}
+#sku
+{
+    margin: 5px 0 0 0; /*34px*/
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+#container
+{
+    margin: 0 auto;
+    overflow: auto;
+    padding: 210px 0 38px 0;
+    width: 100%;
+}
+#template-export
+{
+    display: none;
+}
+#content, #template-export, #image-library, #template-preview
+{
+    box-shadow: 3px 3px 3px #404040;
+    background-color: #F9F9F9;
+    margin: 5px auto;
+    width: 85%;
+    white-space: normal;
+    border: 1px solid #404040;
+    padding: 0 10px 10px 10px;
+    line-height: 20px;
+    color: #000000;
+}
+#image-library
+{
+    padding: 0;
+    line-height: 20px;
+    border: 1px solid #FFCC00;
+    background-color: #FFCC00;
+    padding: 0 9px;
+    display: none;
+}
+#image-library h1
+{
+    background-color: #FFCC00;
+    color: #444444;
+    margin: 0px auto;
+    cursor: pointer;
+}
+#image-library h1:hover
+{
+    color: #000000;
+}
+#image-library .expanded
+{
+    padding-left: 15px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(../images/expanded.png);    
+}
+#image-library .collapsed
+{ 
+    padding-left: 15px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(../images/collapsed.png);    
+}
+.tips
+{
+    font-size: 11px;
+    padding: 0;
+}
+.tips .header
+{
+    font-weight: bold;
+}
+#gallery
+{
+    display: none;
+    border-color: #808080;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    padding: 0px;
+    margin: 0px auto;
+    color: #404040;
+}
+#album img
+{
+    background-color: #909090;
+    border: 1px solid #808080;
+    width: 100px;
+    height: 100px;
+    margin: 5px 0 5px 3px;
+}
+#album img:first-child
+{
+    margin: 5px 0 5px 5px;
+}
+#album img:last-child
+{
+    margin: 5px 5px 5px 3px;
+}
+#album
+{
+    background-color: #C0C0C0;
+    border-color: #808080;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 0px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    color: #404040;
+}
+#album .message
+{
+    display: block;
+    padding: 10px 15px;
+}
+#placeholder h1
+{
+    margin-bottom: 20px;
+}
+#template-export thead th, #template-preview thead th
+{
+    background-color: #C0C0C0;
+    padding: 3px;
+    font-weight: bold;
+    border: 1px solid #F9F9F9;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 110px;
+}
+#template-export tbody td, #template-preview tbody td
+{
+    border: 1px dotted #C0C0C0;
+    white-space: nowrap;
+    padding: 3px;
+}
+#template-export thead th.freezedpanes, #template-preview thead th.freezedpanes
+{
+    background-color: #808080;
+    color: #FFFFFF;
+}
+#csd-template thead th, #hmy-template thead th
+{
+	height: 47px;
+}
+.field
+{
+    padding: 2px 0;
+    color: #808080;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#name, #longdesc, #warranty, #highlights
+{
+    margin: 0 0 20px 0;
+}
+#generic-content p
+{
+    margin: 6px 0 15px 0;
+}
+#generic-content ul
+{
+    margin: 6px 0;
+}
+/*#generic-content p + ul
+{
+    margin: -15px 0 0 0;
+}*/
+#techspecs td
+{
+    padding: 0 10px 0 0;
+    vertical-align: middle;
+}
+#techspecs td.field
+{
+    color: #000000;
+    font-size: 12px;
+    width: 200px;
+    text-align: right;
+    padding: 0 10px 0 10px;
+}
+#techspecs-table
+{
+    border: 1px solid #C0C0C0;
+    padding: 5px;
+}
+.reg, .tm, .cpy, .tch
+{
+    vertical-align: super;
+    border: 0px !important;
+}
+.tch-smaller
+{
+    font-size: 10px;
+    margin: 0;
+}
+.lgl
+{
+    padding-left: 1.03em;
+    text-indent: -1.03em;
+    display: block;
+}
+#placeholder span[name]
+{
+    border: 1px dashed #808080;
+    padding: 1px 2px;
+}
+#placeholder input
+{
+    border: 1px solid #808080;
+    background-color: #FFFFFF;
+}
+#placeholder tester+input, #placeholder tester+select, #placeholder select+input, #placeholder select+select, #placeholder span[name]+span[name]
+{
+    margin-left: -0.1em;
+}
+#placeholder select
+{
+    padding: 1px;
+    border: 1px solid #808080;
+    background-color: #FFFFFF;
+}
+
+/* Make Footer Sticky */
+#footer_container
+{
+    background: #FFFFFF;
+    border-top: 1px solid #404040;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 3px 0px 3px #404040;
+    z-index: 1000;
+}
+#footer
+{
+    margin: 0 auto;
+    width: 85%;
+    text-align: left;
+    padding: 7px 0px;
+}
+/* Start of Freeze Left Panes */
+.freezepanes_wrapper
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #C0C0C0;
+}
+/* End of Freeze Left Panes */
+h1
+{
+    display: block;
+    background-color: #0085C3;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 4px 10px;
+    margin: 10px 0;
+}
+#results-not-found h1
+{
+    background-color: #FF0000;
+}
+#csd-template, #hmy-template, #prc-template
+{
+    white-space: normal;
+}
+#template-export tbody tr:hover
+{
+    background-color: #F0F0F0;
+    border-top: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
+}
+#csd-template-holder, #hmy-template-holder, #prc-template-holder
+{
+    white-space: normal;
+    overflow: auto;
+    height: 100%;
+    min-height: 200px;
+}
+.error
+{
+    color: #FF0000;
+}
+#dhtmltooltip
+{
+    position: absolute;
+    max-width: 55%;
+    border: 1px solid #000000;
+    padding: 0 8px 8px 8px;
+    background-color: #F9F9F9;
+    color: #000000;
+    visibility: hidden;
+    display: none;
+    z-index: 2000;
+    box-shadow: 3px 3px 3px #404040; /*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+#dhtmltooltip strong + li, #dhtmltooltip li~li
+{
+    margin: 3px 0 0 30px;
+}
+
+.dell_inline li~li, #dhtmltooltip ul li~li
+{
+    margin: 0;
+}
+
+.radio
+{
+    width: 63px;
+    height: 18px;
+    float: left;
+    background: url('../images/radio-button.png') no-repeat;
+    font-family: Arial, Sans-Serif;
+    color: #404040;
+    font-size: 9px;
+    font-weight: normal;
+    padding: 0.37em 0 0 0;
+    margin-top: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#modal-layer
+{
+    display: none;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+#modal-layer #text 
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    top: 55%;
+    color: #FFFFFF;
+    z-index: 3000;
+    text-align: center;
+}
+#selectall
+{
+    font-weight: normal;
+    color: #808080;
+    font-size: 11px;
+    text-align: right;
+    vertical-align: middle;
+    display:inline-block;
+	float: right;
+    cursor:pointer;
+}
+#local
+{
+    display: none;
+}
+.sec
+{
+    padding: 0 10px;
+	display: inline-block;
+}
+.critical
+{
+    color: #FF3300;
+    font-weight: bold;
+    font-style: italic;
+}
+.critical_note
+{
+    font-style: italic;
+}
+
+#notification
+{
+	position: fixed; 
+	left: 0px; 
+	bottom: 30px;
+	z-index: 1000;
+	color: #FFFFFF;
+	min-width: 100%;
+	background-color: #F9F9F9;
+	box-shadow: 3px 0px 3px #404040;
+	opacity: 0.95;
+	filter: alpha(opacity=95);
+}
+
+#notification .title
+{
+	font-size: 13px;
+	display: block;
+	width: 100%;
+	background-color: #404040; 
+	padding: 8px;
+	font-weight: bold;
+}
+
+#notification .body
+{
+	width: 100%;
+	display: block;
+	padding: 10px;
+	color: #000000;	
+	font-weight: normal;
+}
+
+#selected_markets
+{/*Hidden field to keep selected markets to validate CSV file*/
+	display: none;
+}
+.col
+{
+	float: left;
+	display: block;
+	vertical-align: middle;
+	text-align: left;
+	padding: 0px 4px;
+	border: 0px solid #000;
+	height: 30px;
+	line-height: 15px;
+	font-size: 10px;
+}
+.caption
+{
+	width: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+    #logo
+    {
+        width: 100%;
+    }
+    #control, #default, #csvfilenamelabel
+    {
+        display: none;
+    }
+    #container
+    {
+        padding: 90px 0 38px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) 
+{
+    #panel
+    {
+        width: 93%;
+        height: 215px;
+    }
+    #button_slot
+    {
+        clear: both;
+    }
+	#csvfilenamelabel
+	{
+		display: none;	
+	}
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 601px)
+{
+    nav#control
+    {
+        min-height: 215px;
+    }
+    #panel
+    {
+        height: 215px;
+    }    
+    #container
+    {
+        padding: 305px 0 38px 0;
+    }
+}
