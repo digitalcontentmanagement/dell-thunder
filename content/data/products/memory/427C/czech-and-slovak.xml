@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/>
+    </product:name> 
+    <product:longdesc>
+      <para>
+        Paměť RAM (Random Access Memory) je hardware, který počítač používá k ukládání informací. Přidání paměti představuje jeden z cenově nejvýhodnějších způsobů, jak zvýšit výkon počítače.
+      </para>
+      <para>
+        <b>
+          Značkové paměti Dell<tm/>, nabízené v nástroji pro výběr paměti, procházejí přísným testováním a kontrolou kvality, což zajišťuje, že budou pracovat ve vašem konkrétním systému Dell, budou plně kompatibilní a společnost Dell je bude podporovat. Při použití nevhodných nebo neznačkových produktů od jiných dodavatelů může dojít k výpadkům, což může následně způsobit náklady pro firmu a ohrozit celý systém. 
+        </b>
+      </para>
+	  <para>
+        Nyní nabízené paměti mohou mít jinou rychlost než původní paměti, je však potvrzeno, že mohou v zařízení pracovat. Pokud použijete rozdílné paměti, bude paměť pracovat nejmenší použitou rychlostí nebo největší rychlostí, kterou podporuje počítač.
+      </para>
+	  <para><b>XMP</b>-Extreme Memory Profile</para><para>Navrženo pro Herní stolní počítače(DT)</para>
+	
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support">Příručky pro uživatele počítače Dell</link>
+      </para>
+        <!--<technotes>
+          <technote>
+            <b>Obrázek je pouze reprezentativní.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1">
+          <technote>
+            Chcete-li kopii naší záruční smlouvy nebo smlouvy o omezené záruce, napište na adresu Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, Texas 78682. 
+			<Další informace najdete na webu, <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+		  </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+          Při rozšíření paměti se používají tytéž součástky jako v originálních systémech Dell. Budou ihned pracovat a zaručujeme jejich plnou kompatibilitu.
+        </point>
+        <point>
+          Paměti Dell jsou sestaveny z kvalitních součástí od předních dodavatelů OEM.
+        </point>
+        <point>
+          Vysoké kvalitativní standardy společnosti Dell splňují pouze výrobky, které podmínky splní napoprvé. Jsou k dispozici pouze při nákupu u společnosti Dell.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+          Paměti Dell znamená, že se nemusíte obávat o platnost záruky na hardware počítače.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+          Na jakékoli dotazy k upgradu paměti Dell s vám odpovědí zkušení pracovníci naší technické podpory.
+        </point>
+        <point>
+          Na paměť, která není paměti společností Dell, se nevztahuje technická podpora společnosti Dell.
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Služby a podpora">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!--<product:techspec id="2" name="Technologie">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>-->
+      <product:techspec id="3" name="Typ balení">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="Kontrola integrity dat ">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Kapacita úložiště ">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Rychlost">
+        <textbox value="1600" id="7"/> <textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Vlastnosti">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> napětí, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> vývodový modul
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:ro�l

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist id="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/>
+    Cascade Lake uniquement
+	</product:name>
+    <product:longdesc>
+      <para>
+        La mémoire RAM (Random Access Memory) est un type de matériel que votre ordinateur utilise pour stocker des informations. L'ajout de mémoire constitue l'un des moyens les plus économiques pour améliorer les performances de votre ordinateur.
+      </para>
+      <para>
+        <b>
+		La mémoire de la marque Dell<tm/> proposée dans le sélecteur de mémoire a subi des tests rigoureux d'assurance qualité et de contrôle de la qualité afin de garantir sa compatibilité avec votre système Dell. Elle est ainsi entièrement prise en charge par Dell. Le recours à des produits génériques ou non homologués provenant d'autres fournisseurs peut entraîner des temps d'arrêt qui risquent de coûter cher à votre entreprise et de mettre en péril l'ensemble de votre système. 
+        </b>
+      </para>
+	  <para>
+        Même si la fréquence de mémoire proposée diffère par rapport à celle de la mémoire système d’origine, ce module de mémoire est doté des capacités requises pour fonctionner dans votre ordinateur. Lorsqu’elle est mixte, la mémoire fonctionnera à la vitesse d’obturation la plus lente, ou à la vitesse la plus rapide autorisée par le système.
+      </para>
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support"> Manuels d’utilisation du système Dell</link>
+      </para>
+	  <para>
+	  Cette mémoire est prise en charge uniquement avec les processeurs Cascade Lake.
+	  </para>
+        <!--<technotes>
+          <technote>
+            <b> Image affichée à des fins de représentation uniquement.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1">
+          <technote>
+            Pour obtenir une copie de nos garanties et garanties limitées, veuillez nous écrire à l’adresse suivante: Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, Texas 78682, États-Unis. 
+			<Pour plus d’informations, consultez la page: <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+          Les extensions de mémoire Dell correspondent aux mêmes pièces que celles que nous utilisons dans les systèmes Dell d'origine. Elles fonctionnent correctement dès le départ et nous garantissons leur compatibilité.
+        </point>
+        <point>
+          La mémoire Dell est conçue à partir de composants de qualité OEM, parmi les meilleurs du secteur.
+        </point>
+        <point>
+          Seuls les produits ayant réussi le premier examen peuvent prétendre au standard Dell de haute qualité, standard que seuls Dell et ses revendeurs peuvent garantir.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent4"/>
+        </point>
+        <point>
+          « Mémoire Dell » signifie que vous ne risquez pas d’invalider la garantie matérielle de votre système.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+          Notre équipe de support technique expérimentée est à votre disposition pour répondre à toute question relative à votre mise à niveau mémoire Dell.
+        </point>
+        <point>
+          Une mémoire qui n’est pas mémoire Dell peut ne pas être prise en charge par le support technique Dell.
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Service et support">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="Garantie limitée à vie">
+        SDRAM <textbox value="DDR3" id="3"/>
+      </product:techspec>-->
+      <product:techspec id="3" name="Type de package">
+        SDRAM <textbox value="DDR3" id="3"/>Module
+      </product:techspec>
+      <product:techspec id="4" name="Vérification de l’intégrité des données">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Capacité de stockage">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Vitesse">
+        <textbox value="1600" id="7"/> <textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Fonctionnalités">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> tension, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> broches
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

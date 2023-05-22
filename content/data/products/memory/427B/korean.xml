@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/>
+   (Cascade Lake &#38; AMD CPU 만)
+	</product:name>
+    <product:longdesc>
+      <para>
+	  RAM(Random Access Memory)은 컴퓨터에서 정보를 저장하기 위해 사용하는 일종의 하드웨어입니다. 메모리를 추가하는 것은 컴퓨터의 성능을 향상시키는 가장 비용 효율적인 방법 중 하나입니다.
+      </para>
+      <para>
+        <b>
+		Dell<tm/> 브랜드 메모리는 엄격한 품질 보증 및 품질 관리 테스트를 거쳐 완벽하게 호환되어 특정 Dell 시스템에서의 원활한 작동을 보장합니다. 타사의 부적합하거나 범용인 부품을 사용하는 것은, 비즈니스상의 큰 손실로 이어질 수 있는 다운타임을 일으키거나 시스템을 위험하게 할 수 있습니다.
+        </b>
+      </para>
+	  <para>
+	  현재 제공되는 메모리는 원래 시스템 메모리와 속도 측면에서 서로 다를 수 있으나 해당 시스템에서 제대로 작동하는 것으로 검증되었습니다. 이 두 가지 메모리를 혼용할 경우 삽입된 메모리 중에서 가장 낮은 속도 또는 시스템에서 허용되는 최고 속도로 실행됩니다.
+      </para>
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support"> Dell 시스템 소유자 설명서</link>
+      </para>
+	  <para>
+	  이 메모리는 Cascade Lake 프로세서에서만 지원됩.
+	  </para>
+        <!--<technotes>
+          <technote>
+            <b> 본 이미지는 설명용으로만 사용됩니다.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1" filter="'$(locale.region)' $in$ ['emea','us','ca','la','global']">
+          <technote>
+            무상수리 증서가 필요하시면 Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, TX 78682에 서면으로 요청하십시오. 
+			<자세한 내용을 확인하려면  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link> 을 참조하십시오.
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+		Dell 메모리 업그레이드는 기존 Dell 시스템에서 사용하는 것과 동일한 부품이 제공됩니다. 부품은 처음부터 올바르게 작동하며, 호환성도 보장할 수 있습니다.
+        </point>
+        <point>
+		Dell 메모리는 업계 선도적인 OEM급의 고급 부품을 사용해 제작됩니다.
+        </point>
+        <point>
+		첫 번째 1등급 제품만이 Dell의 고품질 기준을 통과하며 Dell에서 구매한 제품에만 한합니다.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+		Dell 메모리 부품은 시스템의 하드웨어 무상수리와 별개로 보장받을 수 있습니다.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+		풍부한 경험을 보유한 Dell의 기술 지원 전문가가 Dell 메모리 업그레이드와 관련된 모든 궁금증을 해결해 드립니다.
+        </point>
+        <point>
+		Dell 인증이 없는 메모리는 Dell 기술 지원에서 제외될 수 있습니다.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="서비스 및 지원">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="기술">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec> -->
+      <product:techspec id="3" name="패키지 유형">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="데이터 무결성 검사">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="스토리지 용량">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="속도">
+        <textbox value="1600" id="7"/> <textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="기능">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> 전압, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> 핀
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

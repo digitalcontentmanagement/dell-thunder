@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/>
+    (Cascade Lake &#38; AMD CPU alleen)
+	</product:name>
+    <product:longdesc>
+      <para>
+        Random Access Memory (RAM) is een soort hardware dat uw computer gebruikt om informatie op te slaan. Geheugen toevoegen is een van de goedkoopste manieren om de prestaties van uw computer te verbeteren.
+      </para>
+      <para>
+        <b>
+		Het Dell<tm/> geheugen dat in de Memory Selector wordt aangeboden, heeft strenge testen voor kwaliteitsborging en kwaliteitscontrole doorstaan om te kunnen garanderen dat het geschikt is voor uw specifieke Dell systeem. Het is dus volledig compatibel met en en ondersteund door Dell. Het gebruik van niet-gekwalificeerde of generieke producten van andere leveranciers kan leiden tot downtime die uw bedrijf veel geld kan kosten en uw hele systeem in gevaar kan brengen.
+        </b>
+      </para>
+	  <para>
+        Het geheugen dat nu wordt aangeboden, verschilt mogelijk van het originele systeemgeheugen op het gebied van snelheid, maar is gekwalificeerd om in het systeem te werken. Wanneer ze samen worden gebruikt, werkt het geheugen tegen de laagst mogelijke snelheid of tegen de hoogste snelheid die door het systeem wordt toegestaan.
+      </para>
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support"> Dell handleidingen voor de systeemeigenaar</link>
+      </para>
+	  <para>
+	  Dit geheugen wordt alleen ondersteund met processoren van Cascade Lake.
+	  </para>
+        <!--<technotes>
+          <technote>
+            <b>Image weergegeven is voor representatieve doeleinden.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1">
+          <technote>
+            U kunt een exemplaar van onze garanties en beperkte garanties aanvragen bij Dell USA L.P., t.a.v.: Warranties, One Dell Way, Round Rock, TX 78682, Verenigde Staten. <Surf voor meer informatie naar <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+          Dell geheugenupgrades zijn dezelfde onderdelen die we gebruiken in originele Dell systemen. Ze werken meteen de eerste keer en we garanderen dat ze compatibel zijn.
+        </point>
+        <point>
+          Dell geheugen wordt geassembleerd uit hoogwaardige onderdelen van OEM-kwaliteit, afkomstig van toonaangevende fabrikanten.
+        </point>
+        <point>
+          Alleen producten met een minimaal uitvalspercentage voldoen aan de hoge kwaliteitsnormen van Dell, en de producten zijn alleen via Dell leverbaar.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+          Dell geheugen betekent dat u er zeker van kan zijn dat u de voorwaarden van de hardwaregarantie niet overtreedt als u het geheugen installeert.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+          Onze ervaren medewerkers van de technische support staan voor u klaar om al uw vragen over Dell geheugenupgrades te beantwoorden.
+        </point>
+        <point>
+          Geheugen dat niet door Dell geheugen is, wordt mogelijk niet ondersteund door de technische support van Dell.
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Service en support">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!--<product:techspec id="2" name="Technologie">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>-->
+      <product:techspec id="3" name="Type pakket">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="Data-integriteit controle">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Opslagcapaciteit">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Snelheid">
+        <textbox value="1600" id="7"/> <textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Kenmerken">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> spanning, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> pins
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

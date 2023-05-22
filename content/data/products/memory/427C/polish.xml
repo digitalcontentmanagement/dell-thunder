@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-30" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+	  Pamięć RAM to rodzaj urządzenia używanego przez komputery do przechowywania informacji. Dodanie pamięci jest jednym z najpopularniejszych sposobów na poprawę wydajności komputera za niewielką cenę.
+      </para>
+      <para>
+        <b>
+		Pamięć masowa firmy Dell<tm/> oferowana w usłudze Memory Selector przeszła rygorystyczną kontrolę jakości i testy potwierdzające zgodność z określonymi systemami Dell, jest więc w pełni zgodna z naszymi rozwiązaniami. Stosowanie niekwalifikujących się lub niemarkowych produktów innych dostawców może skutkować przerwami w pracy, a w efekcie narazić firmę na poważne straty finansowe i wystawić cały system na niepotrzebne ryzyko.
+        </b>
+      </para>
+	  <para>
+	  Prędkość oferowanej obecnie pamięci może różnić się od prędkości oryginalnej pamięci systemu, ale pamięć ta została zaklasyfikowana jako odpowiednia do tego systemu. Po połączeniu z innymi modułami pamięć będzie działać z prędkością modułów o najniższej częstotliwości lub z największą szybkością możliwą w danym systemie.
+</para>      
+	  <para><b>XMP</b>-Extreme Memory Profile</para><para>Zaprojektowany dla Komputery stacjonarne do gier(DT)</para>
+	  
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support">Instrukcje obsługi systemów firmy Dell</link>
+      </para>
+        <!--<technotes>
+          <technote>
+            <b>Obraz służy wyłącznie do celów prezentacji.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1">
+          <technote>
+            Aby otrzymać egzemplarz naszej gwarancji lub ograniczonej gwarancji, należy wysłać odpowiedni wniosek na adres: Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, TX 78682. 
+			<Więcej informacji można uzyskać pod adresem <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+		Dodatkowe moduły pamięci Dell to te same części, których używamy w oryginalnych systemach firmy Dell. Będą działać prawidłowo za pierwszym razem. Gwarantujemy ich zgodność.
+        </point>
+        <point>
+		Pamięć firmy Dell jest oparta na wysokiej jakości częściach klasy OEM.
+        </point>
+        <point>
+		Tylko te produkty, które przeszły testy za pierwszym razem, spełniają wysoki standard jakości gwarantowany wyłącznie w przypadku zakupu w firmie Dell.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+		Pamięć firmy Dell oznacza brak problemów ze naruszeniem warunków gwarancji na sprzęt.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+		Nasi doświadczeni pracownicy pomocy technicznej odpowiedzą na wszystkie pytania dotyczące rozbudowy z zastosowaniem części firmy Dell.
+        </point>
+        <point>
+		Pamięci bez certyfikatu firmy Dell mogą być nieobsługiwane przez dział pomocy technicznej firmy Dell.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Serwis i pomoc techniczna">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="Technologia">
+        SDRAM <textbox value="DDR3" id="3"/>
+      </product:techspec> -->
+      <product:techspec id="3" name="Typ urządzenia">
+        SDRAM <textbox value="DDR3" id="3"/>
+      </product:techspec>
+      <product:techspec id="4" name="Kontrola integralności danych">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Pojemność pamięci">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Szybkość">
+        <textbox value="1600" id="7"/><textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Cechy i funkcje">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> napięcie, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> stykowy moduł
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

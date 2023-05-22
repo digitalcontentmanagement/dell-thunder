@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-28" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/>
+     (Cascade Lake &#38; AMD CPU のみ)
+	</product:name>
+    <product:longdesc>
+      <para>
+	  ランダム アクセス メモリー（RAM）は、コンピューターが情報の保存に使用する一種のハードウェアです。メモリーの増設は、コンピューターのパフォーマンスを向上させるうえで最もコストパフォーマンスの高い方法の1つです。
+      </para>
+      <para>
+        <b>
+		メモリー セレクターで選択できるDell<tm/> ブランドのメモリーは、厳格な品質保証と品質管理テストを受けており、お客様の特定のDell製システムで動作することが保証されます。これにより、デルによって完全な互換性とサポートが提供されます。品質保証のない製品または汎用製品を他のベンダーから購入して設置すると、ビジネスに多大な損失をもたらすようなダウンタイムが発生したり、システム全体がリスクにさらされたりする可能性があります。
+        </b>
+      </para>
+	  <para>
+	  現在提供されているメモリはシステム購入時と処理速度が異なる場合がありますが、お使いのシステムで正常に動作することが確認されています。 異なるメモリを併用した場合、それらのメモリの最低速度、またはお使いのシステムの最高速度で動作します。
+      </para>
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support"> デル製システムのオーナーズマニュアル </link>
+      </para>
+	  <para>
+	  このメモリーは、Cascade Lakeプロセッサーでのみサポートされています。
+	  </para>
+        <!--<technotes>
+          <technote>
+            <b> このイメージは表示用です。</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1" filter="'$(locale.region)' $in$ ['emea','us','ca','la','global']">
+          <technote>
+            製品の保証および限定保証についての情報が文書で必要な場合は、Dell USA L.P.までお問い合わせください（宛先: Warranties, One Dell Way, Round Rock, Texas 78682）。 
+			<詳細については、<link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+            をご覧ください。
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>Dellメモリーアップグレードでは、純正のDell製システムで使用されているのと同じパーツを使用します。それらのパーツは互換性が保証されており、設置してすぐに適切に動作します。
+        </point>
+        <point>
+          デル製メモリは、業界をリードするOEMグレードの高品質なパーツを使用して構築されています。
+        </point>
+        <point> 直行率に含まれる製品は、デルの高品質基準を満たすために許容でき、デルから購入されたときにのみ使用できます。
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+          デル認定の製品であれば、システムのハードウェア保証が無効になる心配はありません。
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>デルの経験豊富なテクニカルサポートスタッフが、デルメモリのアップグレードに関する質問に対応します。
+        </point>
+        <point>デルの認定を受けていないメモリは、デルのテクニカルサポートにサポートされないことがあります。
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="サービスとサポート">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="テクノロジー">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec> -->
+      <product:techspec id="3" name="パッケージタイプ">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="データ整合性チェック">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="ストレージ容量">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="速度">
+        <textbox value="1600" id="7"/> <textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="機能">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> 電圧な, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> ピン
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

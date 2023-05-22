@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-21" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+	  Оперативная память (ОЗУ)— это тип оборудования, с помощью которого компьютер хранит информацию. Увеличение объема памяти является одним из самых экономичных способов повышения производительности компьютера.
+      </para>
+      <para>
+        <b>
+		Фирменная память Dell<tm/> представленная в средстве выбора памяти, прошла строгий и всесторонний контроль качества. Это гарантирует ее исправную работу в вашей системе Dell, полную совместимость и поддержку Dell. Использование неиспытанных или нефирменных продуктов от других вендоров может привести к простоям, которые могут нанести серьезные убытки вашему бизнесу и подвергнуть риску всю систему.
+        </b>
+      </para>
+	  <para>
+	  Хотя предлагаемая память может и отличаться от первоначальной системной памяти по скорости, она соответствует требованиям. При установке модулей памяти с различными значениями скоростей вся система памяти будет работать на наименьшей из скоростей для установленных модулей или на наибольшей скорости, поддерживаемой системой.
+        </para>
+	   <para><b>XMP</b>-Extreme Memory Profile</para><para>Предназначено для Игровые настольные компьютеры(DT)</para>
+	 
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support">Руководство пользователя системы Dell</link>
+      </para>
+        <!--<technotes>
+          <technote>
+            <b>Рисунок показан только для иллюстрации.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1">
+          <technote>
+            Для получения копий гарантий или ограниченных гарантийных обязательств Dell обращайтесь по следующему адресу: Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, Texas 78682, США. 
+			<Дополнительные сведения см. на веб-сайте <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+		Модули памяти Dell для модернизации идентичны модулям, которые мы используем в оригинальных системах Dell. Они будут исправно работать с момента установки, и мы гарантируем их совместимость.
+        </point>
+        <point>
+		Память систем Dell строится на базе лучших в отрасли качественных компонентов, предоставляемых сторонними поставщиками.
+        </point>
+        <point>
+		Высочайшим стандартам качества Dell удовлетворяют только первоклассные изделия, поставляемые исключительно корпорацией Dell.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+		Термин "память Dell" подчеркивает безусловное продолжение действия гарантии на оборудование вашей системы.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+		Наши опытные специалисты из службы технической поддержки всегда готовы ответить на любые вопросы, касающиеся модернизации с использованием корпорацией Dell модулей памяти.
+        </point>
+        <point>
+		Модули памяти, не память корпорацией Dell, могут не поддерживаться службой технической поддержки Dell.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Обслуживание и поддержка">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="Технологии">
+        Память <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec> -->
+      <product:techspec id="3" name="Тип корпуса">
+        Память <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="Проверка целостности данных">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Емкость системы хранения данных ">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Скорость">
+        <textbox value="1600" id="7"/> <textbox value="МГц" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Характеристики">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> напряжение, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> контактный модуль
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
