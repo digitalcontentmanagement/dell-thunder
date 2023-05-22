@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Planer Card para tarjeta madre </product:name>
+
+    <product:longdesc>
+      <para>
+	  Una tarjeta madre une todos los dispositivos de un sistema. Permite conectar la CPU, la RAM, los discos duros, las unidades de CD/DVD, las tarjetas PCI y la tarjeta de gráficos, a la vez que realiza la transmisión de potencia a estos dispositivos. Además, administra los datos que se envían entre la CPU, la RAM, el disco duro y la tarjeta de gráficos.
+	  </para>
+	  <para>
+	  Es importante que identifique correctamente la tarjeta madre que necesita su sistema. Le recomendamos encarecidamente que utilice la función Búsqueda de etiquetas de servicio en la herramienta Parts For Your Dell<tm/>. Esta función nos permite determinar el modelo de la tarjeta madre que se envió originalmente con su sistema y suministrar una pieza compatible. Si ha cambiado la tarjeta madre o alguna parte de ella, comuníquese con Parts and Upgrades Queue para verificar que comprará la pieza correcta.
+	  </para>
+	  <para>
+	  Además, es importante saber qué características adicionales puede proporcionar una tarjeta madre. Algunas tarjetas madre vienen con funcionalidades de audio y video o con controladoras de interfaz de red. Estos detalles se proporcionan en la sección de notas de las especificaciones técnicas.
+	  </para>
+	  <para>
+	  Tenga en cuenta que algunos de nuestros productos de reemplazo se proporcionan como kits o ensamblajes. Estos kits pueden contener piezas adicionales requeridas para la instalación; estas piezas se enumerarán de forma separada como "Piezas de componentes" en la sección Características destacadas de esta página. En el caso de que un producto no se venda como kit o ensamblaje, es posible que se requieran piezas complementarias para facilitar su instalación.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Une todos los dispositivos de un sistema
+		</point>
+		<point>
+		Permite conectar la CPU, la RAM, los discos duros, las unidades de CD/DVD, las tarjetas PCI y la tarjeta de gráficos, a la vez que realiza la transmisión de potencia a estos dispositivos
+		</point>
+		<point>
+		Administra los datos que se envían entre la CPU, la RAM, el disco duro y la tarjeta de gráficos
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+		Planer Card para tarjeta madre
+      </product:techspec>
+      <product:techspec id="2" name="Características">
+	  Une todos los dispositivos de un sistema/administra los datos que se envían entre la CPU, la RAM, el disco duro y la tarjeta de gráficos
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

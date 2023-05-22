@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> carte mère </product:name>
+
+    <product:longdesc>
+      <para>
+	   Une carte mère fait le lien entre tous les composants d’un système. Elle relie le processeur, la mémoire vive, les disques durs, les lecteurs de CD/DVD et la carte graphique, et leur transmet de l’énergie. Elle gère également les données échangées entre le processeur, la mémoire vive, le disque dur et la carte graphique.
+	  </para>
+	  <para>
+	   Il est important de savoir quelle est la bonne carte mère pour votre système. Nous vous recommandons fortement d’utiliser la fonctionnalité de recherche des étiquettes de service de l’outil Composantes de votre Dell<tm/>. Cette fonctionnalité nous permet de déterminer le modèle de carte mère dont était équipé votre système à l’origine et de vous fournir une pièce compatible. Si vous avez changé votre carte mère ou l’une des pièces la composant, veuillez communiquer avec la file d’attente des mises à jour et des pièces pour vérifier que vous avez bien acheté la pièce appropriée.
+	  </para>
+	  <para>
+	   En outre, il vous faut connaître les fonctionnalités supplémentaires dont une carte mère est dotée. Certaines cartes mère possèdent des capacités audio et vidéo ou des contrôleurs d’interface réseau. Ces informations sont fournies dans la section remarques des caractéristiques techniques.
+	  </para>
+	  <para>
+	   Veuillez noter que certaines de nos pièces de rechange sont offertes sous forme de trousse ou d’ensemble. Ces trousses peuvent contenir d’autres pièces nécessaires à l’installation. Ces pièces sont classées séparément en tant que « composants » dans la section Principales caractéristiques de cette page. Si un produit n’est pas vendu sous forme de trousse ou d’ensemble, des pièces complémentaires peuvent être nécessaires afin de faciliter l’installation.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		 Fait le lien entre tous les composants d’un système
+		</point>
+		<point>
+		 Relie le processeur, la mémoire vive, les disques durs, les lecteurs de CD/DVD et la carte graphique, et leur transmet de l’énergie
+		</point>
+		<point>
+		 Gère les données échangées entre le processeur, la mémoire vive, le disque dur et la carte graphique
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+		Carte mère
+      </product:techspec>
+      <product:techspec id="2" name="Fonctionnalités">
+	  Fait le lien entre tous les composants d’un système et gère les données échangées entre le processeur, la mémoire vive, le disque dur et la carte graphique
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

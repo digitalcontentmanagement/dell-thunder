@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Hovedkort (planerkort) </product:name>
+
+    <product:longdesc>
+      <para>
+	  Et hovedkort knytter sammen alle enhetene i et system. Det kobler sammen prosessor, minne, harddisker, CD/DVD-stasjoner, PCI-kort og grafikkort, og forsyner disse enhetene med strøm. Det styrer også dataene som sendes mellom prosessor, minne, harddisk og grafikkort.
+	  </para>
+	  <para>
+	  Det er viktig å finne riktig hovedkort for systemet ditt. Vi anbefaler på det sterkeste at du bruker oppslagsfunksjonen for Service-ID i verktøyet Parts For Your Dell<tm/>. Ved hjelp av denne funksjonen kan vi finne ut hvilken hovedkortmodell systemet ditt ble levert med, og finne en kompatibel del. Hvis du har byttet hovedkort eller en del av det, kan du ringe avdelingen for deler og oppgradering for å bekrefte at du kjøper riktig del.
+	  </para>
+	  <para>
+	  Det er også viktig å vite hvilke andre funksjoner et hovedkort kan ha. Noen hovedkort har lyd- og videofunksjoner og/eller nettverkskort. Dette kan du lese mer om under merknader i de tekniske spesifikasjonene.
+	  </para>
+	  <para>
+	  Vi gjør oppmerksom på at enkelte av erstatningsproduktene tilbys som sett. Slike sett kan inneholde ekstra deler som kreves for installasjon, og disse delene er oppført separat som komponentdeler i delen med hovedpunkter på denne siden. Hvis produktet ikke selges som sett, kan det kreves andre deler for installasjon.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Knytter sammen alle enhetene i et system
+		</point>
+		<point>
+		Kobler sammen prosessor, minne, harddisker, CD/DVD-stasjoner, PCI-kort og grafikkort, og forsyner disse enhetene med strøm
+		</point>
+		<point>
+		Styrer også dataene som sendes mellom prosessor, minne, harddisk og grafikkort
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		Hovedkort (planerkort)
+      </product:techspec>
+      <product:techspec id="2" name="Funksjoner">
+	  Knytter sammen alle enhetene i et system / styrer dataene som sendes mellom prosessor, minne, harddisk og grafikkort
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

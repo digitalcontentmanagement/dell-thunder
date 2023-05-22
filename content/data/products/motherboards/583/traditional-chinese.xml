@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 主機板內建平面單晶卡 (Planer Card) </product:name>
+
+    <product:longdesc>
+      <para>
+	  主機板將系統內的所有裝置整合在一起。 它能連接 CPU、RAM、硬碟、CD/DVD 光碟機、PCI 卡、顯示卡，並將電源輸送到這些裝置上。 同時它還負責管理在 CPU、RAM、硬碟和顯示卡之間傳送的資料。
+	  </para>
+	  <para>
+	  請務必正確識別系統所需的主機板。 我們強烈建議您使用「適合您的戴爾產品零件」工具中的「產品服務編號」查詢功能。 我們透過這項功能來判斷系統原先搭配使用的主機板機型，以便提供相容的零件。 如果您的主機板或其中任何零件已經更換過，請致電「零件與升級佇列」(Parts and Upgrades Queue) 部門，確認您購買了正確的零件。
+	  </para>
+	  <para>
+	  此外，請務必了解主機板可提供哪些額外的功能。 有些主機板內建音訊和視訊功能及/或網路介面控制器。 您可以在技術規格表的備註區段找到這些詳細資料。
+	  </para>
+	  <para>
+	  請注意，我們的部分替換產品是以套件或組件的形式提供。 這些套件可能包含安裝所需的其他零件，這些零件會在此頁面的「特色」(Highlights) 區段中個別列示為「元件零件」(Component Parts)。 如果產品不採套件或組件形式銷售，可能需要互補零件以簡化安裝。
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		將系統內的所有裝置整合在一起
+		</point>
+		<point>
+		連接 CPU、RAM、硬碟、CD/DVD 光碟機、PCI 卡、顯示卡，並將電源輸送到這些裝置上
+		</point>
+		<point>
+		管理在 CPU、RAM、硬碟和顯示卡之間傳送的資料
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="產品類型">
+		主機板內建平面單晶卡
+      </product:techspec>
+      <product:techspec id="2" name="特色">
+	  緊密整合系統內的各項裝置/管理在 CPU、RAM、硬碟與顯示卡之間傳送的所有資料
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> kompaktní karta základní desky </product:name>
+
+    <product:longdesc>
+      <para>
+	  Základní deska propojuje všechna zařízení v počítači. Propojuje procesor, paměť RAM, pevné disky, disky CD/DVD, karty PCI a grafickou kartu a také všem těmto zařízením poskytuje napájení. Spravuje také data přenášená mezi procesorem, pamětí RAM, pevným diskem a grafickou kartou.
+	  </para>
+	  <para>
+	  Je důležité správně určit základní desku vhodnou pro daný počítač. Důrazně doporučujeme použít funkci vyhledání výrobního čísla v nástroji vyhledání dílů pro produkty Dell<tm/>. Tato funkce umožňuje určit model základní desky původně dodané s počítačem a poskytnout kompatibilní díl. Pokud jste změnili základní desku nebo jakoukoli její část, zavolejte do oddělení dílů a upgradů a ověřte, že kupujete správný díl.
+	  </para>
+	  <para>
+	  Kromě toho je důležité vědět, jaké další funkce může základní deska poskytnout. Některé základní desky jsou dodávány s možností zvuku a videa, případně se síťovými adaptéry. Tyto informace jsou k dispozici v části poznámky technických údajů.
+	  </para>
+	  <para>
+	  Některé náhradní díly dodáváme jako sady nebo sestavy. Tyto sady mohou obsahovat další díly potřebné pro instalaci; takové díly budou uvedeny v části Hlavní položky jako samostatné položky typu Komponenta. Pokud výrobek neprodáváme jako sadu nebo sestavu, může pro snadnou instalaci vyžadovat další díly.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Propojuje všechna zařízení v počítači
+		</point>
+		<point>
+		Propojuje procesor, paměť RAM, pevné disky, disky CD/DVD, karty PCI a grafickou kartu a také všem těmto zařízením poskytuje napájení
+		</point>
+		<point>
+		Spravuje také data přenášená mezi procesorem, pamětí RAM, pevným diskem a grafickou kartou
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+		Kompaktní karta základní desky
+      </product:techspec>
+      <product:techspec id="2" name="Funkce">
+	  Propojuje všechna zařízení v počítači a spravuje data přenášená mezi procesorem, pamětí RAM, pevným diskem a grafickou kartou.
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

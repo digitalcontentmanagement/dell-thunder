@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Emolevyn Planer-kortti </product:name>
+
+    <product:longdesc>
+      <para>
+	  Emolevy yhdistää järjestelmän kaikki laitteet. Se yhdistää suorittimen, RAM-muistin, kiintolevyt, CD/DVD-asemat, PCI-kortit ja näytönohjaimen ja antaa näille laitteille virtaa. Se valvoo myös tietoja, joita suoritin, RAM-muisti, kiintolevy ja näytönohjain käsittelevät.
+	  </para>
+	  <para>
+	  On tärkeää, että tunnistat järjestelmäsi tarvitseman emolevyn oikein. Suosittelemme, että käytät Parts For Your Dell<tm/> -työkalun palvelutunnuksen hakutoimintoa. Tämän toiminnon avulla voidaan määrittää emolevyn malli, joka järjestelmässäsi on toimitushetkellä ollut, ja toimittaa yhteensopiva osa. Jos olet vaihtanut emolevyn tai jonkin osan siitä, käytä Parts and Upgrades -palvelua varmistaaksesi, että olet ostamassa oikean osan.
+	  </para>
+	  <para>
+	  Tämän lisäksi on tärkeää tietää, mitä muita ominaisuuksia emolevy mahdollistaa. Joissain emolevyissä on ääni- ja videotoiminnot ja/tai verkko-ohjain. Nämä tiedot ilmoitetaan teknisten tietojen huomautuksissa.
+	  </para>
+	  <para>
+	  Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Nämä osat on lueteltu erikseen tämän sivun Tärkeät tiedot -kohdan komponenttiosissa. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Yhdistää kaikki laitteet järjestelmässä
+		</point>
+		<point>
+		Yhdistää suorittimen, RAM-muistin, kiintolevyt, CD/DVD-asemat, PCI-kortit ja näytönohjaimen ja antaa näille laitteille virtaa
+		</point>
+		<point>
+		Valvoo tietoja, joita suoritin, RAM-muisti, kiintolevy ja näytönohjain käsittelevät
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tuotteen tyyppi">
+		Emolevyn Planer-kortti
+      </product:techspec>
+      <product:techspec id="2" name="Ominaisuudet">
+	    Yhdistää kaikki laitteet järjestelmässä /  valvoo tietoja, joita suoritin, RAM-muisti, kiintolevy ja näytönohjain käsittelevät
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

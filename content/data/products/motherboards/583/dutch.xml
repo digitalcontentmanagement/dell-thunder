@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> moederbord planer-kaart </product:name>
+
+    <product:longdesc>
+      <para>
+	  Een moederbord verbindt alle apparaten in een systeem. Het verbindt de CPU, RAM-geheugen, harde schijven, cd-/dvd-stations, PCI-kaarten en grafische kaart, en verzorgt de stroom naar deze apparaten. Daarnaast beheert het de gegevens die worden verzonden tussen CPU, RAM-geheugen, harde schijf en grafische kaart.
+	  </para>
+	  <para>
+	  Het is belangrijk dat u het voor uw systeem benodigde moederbord juist identificeert. We raden u ten zeerste aan de functie servicetag opzoeken in het hulpmiddel Onderdelen voor uw Dell product<tm/> te gebruiken. Met deze functie kunnen we het model van het moederbord dat oorspronkelijk bij uw systeem is verzonden, bepalen en compatibele onderdelen leveren. Als u het moederbord of onderdelen erop vervangen hebt, neem dan contact op met de wachtrij Onderdelen en upgrades om te controleren of u het juiste onderdeel aanschaft.
+	  </para>
+	  <para>
+	  Bovendien is het belangrijk dat u weet welke extra functies een moederbord kan bieden. Sommige moederborden worden geleverd met mogelijkheden voor audio en video en/of netwerkkaarten. Deze informatie wordt gegeven in het gedeelte met opmerkingen van de technische specificaties.
+	  </para>
+	  <para>
+	  Houd er rekening mee dat sommige van onze vervangende producten worden geleverd als kit of montage. Deze kits bevatten mogelijk extra onderdelen die vereist zijn voor installatie. Deze onderdelen worden afzonderlijk vermeld als 'Onderdelen' in het gedeelte Belangrijkste productkenmerken van deze pagina. Als een product niet wordt verkocht als kit of montage, zijn mogelijk extra onderdelen vereist voor installatiegemak.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Verbindt alle apparaten in een systeem
+		</point>
+		<point>
+		Verbindt de CPU, RAM-geheugen, harde schijven, cd-/dvd-stations, PCI-kaarten en grafische kaart, en verzorgt de stroom naar deze apparaten
+		</point>
+		<point>
+		Beheert de gegevens die worden verzonden tussen CPU, RAM-geheugen, harde schijf en grafische kaart
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type product">
+		Moederbord planer-kaart
+      </product:techspec>
+      <product:techspec id="2" name="Functies">
+	  Verbindt alle apparaten in een systeem/beheert de gegevens die worden verzonden tussen CPU, RAM-geheugen, harde schijf en grafische kaart
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

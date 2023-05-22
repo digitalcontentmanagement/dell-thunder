@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server &amp; Tape Accessories</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Motherboard Planer Card </product:name>
+
+    <product:longdesc>
+      <para>
+	  A motherboard ties all the devices in a system together. It connects the CPU, RAM, hard drives, CD/DVD drives, PCI cards and graphics card, while transmitting power to these devices. It also manages the data sent between the CPU, RAM, Hard Drive and Graphics Card.
+	  </para>
+	  <para>
+	  It is important that you correctly identify the motherboard your system needs. We strongly recommend that you use the Service Tag lookup feature in the Parts For Your Dell<tm/> tool. This feature allows us to determine the model of the motherboard originally shipped with your system and supply a compatible part. If you have changed your motherboard or any part on it, please call the Parts and Upgrades Queue to verify you are buying the right part.
+	  </para>
+	  <para>
+	  In addition, it is important to know what additional features a motherboard can provide. Some motherboards come with Audio and Video capabilities and/or Network Interface controllers. These details are provided in the notes section of tech specs.
+	  </para>
+	  <para>
+	  Please note that some of our replacement products are provided as kits or assemblies. These kits may contain additional parts required for installation; these parts will be listed separately as 'Component Parts' in the Highlights section of this page. In case a product is not sold as a kit or assembly, it may require complementary parts for ease of installation.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Ties all the devices in a system together
+		</point>
+		<point>
+		Connects the CPU, RAM, hard drives, CD/DVD drives, PCI cards and graphics card, while transmitting power to these devices
+		</point>
+		<point>
+		Manages the data sent between the CPU, RAM, Hard Drive and Graphics Card
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Product Type">
+		Motherboard Planer Card
+      </product:techspec>
+      <product:techspec id="2" name="Features">
+	  Ties all the devices in a system together / manages the data sent between the CPU, RAM, Hard Drive and Graphics Card
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

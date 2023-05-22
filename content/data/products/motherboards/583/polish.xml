@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> monolityczna karta płyty głównej </product:name>
+
+    <product:longdesc>
+      <para>
+	  Płyta główna łączy ze sobą wszystkie urządzenia w komputerze. Umożliwia połączenie procesora, pamięci RAM, dysków twardych, napędów CD/DVD, kart PCI i karty graficznej, a jednocześnie zapewnia ich zasilanie. Zarządza też danymi przesyłanymi między procesorem, pamięcią RAM, dyskiem twardym i kartą graficzną.
+	  </para>
+	  <para>
+	  Bardzo ważną kwestią jest prawidłowe zidentyfikowanie płyty głównej dla danego komputera. Firma Dell zdecydowanie zaleca korzystanie z funkcji wyszukiwania kodu serwisowego w narzędziu Części do urządzeń firmy Dell<tm/>. Ta funkcja pozwoli nam ustalić model płyty głównej, która została pierwotnie dostarczona wraz z komputerem, oraz dostarczyć zgodną część. Jeśli zmieniono płytę główną lub jakąkolwiek jej część, należy skontaktować się z działem Części i kolejka aktualizacji w celu potwierdzenia zakupu odpowiedniej części.
+	  </para>
+	  <para>
+	  Należy również wiedzieć, jakie dodatkowe funkcje są obsługiwane przez płytę główną. Niektóre płyty główne oferują funkcje audio i wideo i/lub karty sieciowe. Te informacje są dostępne w sekcji Uwagi w danych technicznych.
+	  </para>
+	  <para>
+	  Należy pamiętać, że niektóre podzespoły zamienne są dostarczane w postaci zestawów. Mogą one zawierać dodatkowe części wymagane podczas instalacji. Części te są uwzględnione na oddzielnej liście podzespołów w sekcji najważniejszych informacji na tej stronie. Jeżeli produkt nie jest oferowany w postaci zestawu, może wymagać dodatkowych części w celu łatwiejszej instalacji.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Łączy ze sobą wszystkie urządzenia w komputerze
+		</point>
+		<point>
+		Umożliwia połączenie procesora, pamięci RAM, dysków twardych, napędów CD/DVD, kart PCI i karty graficznej, a jednocześnie zapewnia ich zasilanie
+		</point>
+		<point>
+		Zarządza danymi przesyłanymi między procesorem, pamięcią RAM, dyskiem twardym i kartą graficzną
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rodzaj produktu">
+		Monolityczna karta płyty głównej
+      </product:techspec>
+      <product:techspec id="2" name="Cechy i funkcje">
+	  Łączy ze sobą wszystkie urządzenia w komputerze / zarządza danymi przesyłanymi między procesorem, pamięcią RAM, dyskiem twardym i kartą graficzną
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

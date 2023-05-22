@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> scheda madre </product:name>
+
+    <product:longdesc>
+      <para>
+	  Una scheda madre unisce tutti i dispositivi presenti in un sistema. Collega la CPU, la RAM, i dischi rigidi, le unità CD/DVD, le schede PCI e la scheda grafica, trasmettendo alimentazione a questi dispositivi. Inoltre, gestisce il traffico di dati tra CPU, RAM, disco rigido e scheda grafica.
+	  </para>
+	  <para>
+	  È importante stabilire con esattezza quale scheda madre richieda il sistema. Si consiglia di utilizzare la funzione di ricerca del codice di matricola nello strumento Componenti per i sistemi Dell<tm/>. Questa funzione consente a Dell di individuare il modello della scheda madre originariamente fornita con il sistema e di fornire una parte compatibile. Se la scheda madre o parti di essa sono state cambiate, contattare il Servizio parti e aggiornamenti per verificare che si stia acquistando la parte giusta.
+	  </para>
+	  <para>
+	  Inoltre, è importante sapere quali funzioni aggiuntive può offrire una scheda madre. Alcune schede madri sono dotate di funzionalità audio e video e/o controller di interfaccia di rete. Queste informazioni sono fornite nella sezione delle note relativa alle specifiche tecniche.
+	  </para>
+	  <para>
+	  Tenere presente che alcuni dei prodotti sostitutivi Dell vengono forniti come kit o assiemi. Questi kit possono contenere parti aggiuntive richieste per l'installazione; tali parti verranno elencate separatamente come "Parti del componente" nella sezione delle caratteristiche principali di questa pagina. Nel caso in cui un prodotto non sia venduto come kit o assieme, potrebbe richiedere parti complementari per semplificare l'installazione.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Riunisce tutti i dispositivi presenti in un sistema
+		</point>
+		<point>
+		Collega la CPU, la RAM, i dischi rigidi, le unità CD/DVD, le schede PCI e la scheda grafica, trasmettendo alimentazione a questi dispositivi
+		</point>
+		<point>
+		Gestisce il traffico di dati tra CPU, RAM, disco rigido e scheda grafica
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di prodotto">
+		Scheda madre
+      </product:techspec>
+      <product:techspec id="2" name="Caratteristiche">
+	    Riunisce tutti i dispositivi in un sistema/gestisce il traffico dei dati tra CPU, RAM, disco rigido e scheda grafica
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

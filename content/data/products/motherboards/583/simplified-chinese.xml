@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 主板 </product:name>
+
+    <product:longdesc>
+      <para>
+	  主板将系统中的所有设备连接在一起。 它连接CPU、RAM、硬盘、CD/DVD驱动器、PCI卡和显卡，同时向这些设备输电。 它还管理CPU、RAM、硬盘和显卡之间的数据发送。
+	  </para>
+	  <para>
+	  正确地确定系统所需的主板十分重要。 我们强烈建议您使用適合您的戴尔產品零件工具中的服务标签查询功能。 借助这个功能，我们可以确定您系统最初装配的主板型号并提供兼容的部件。 如果您已更换了主板或主板上的任何部件，请致电部件和升级咨询团队以验证您购买的部件是否正确。
+	  </para>
+	  <para>
+	  此外，了解主板能够提供哪些附加功能也很重要。 有些主板配备音频和视频功能和/或网络接口控制器。 技术规格的备注部分提供了详细信息。
+	  </para>
+	  <para>
+	  请注意，我们的部分更换产品以套件或组件形式提供。 这些套件可能包含安装所需的其他部件；这些部件将作为“组成部件”在本页的“亮点”部分单独列出。 如果产品未作为套件或组件销售，则它可能需要补充部件，以方便安装。
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		将系统中的所有设备连接在一起
+		</point>
+		<point>
+		连接CPU、RAM、硬盘、CD/DVD驱动器、PCI卡和显卡，同时向这些设备输电
+		</point>
+		<point>
+		管理CPU、RAM、硬盘和显卡之间的数据发送
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="产品类型">
+		主板
+      </product:techspec>
+      <product:techspec id="2" name="功能">
+	    将系统中的所有设备连接在一起/管理CPU、RAM、硬盘和显卡之间的数据发送
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

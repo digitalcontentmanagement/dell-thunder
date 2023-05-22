@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Hauptplatine Planer-Karte </product:name>
+
+    <product:longdesc>
+      <para>
+	  Eine Hauptplatine verbindet alle Geräte in einem System. Sie verbindet die CPU, RAM, Festplatten, CD-/DVD-Laufwerke, PCI-Karten und Grafikkarte dabei versorgt sie diese Geräte mit Strom. Außerdem verwaltet sie die Daten, die zwischen CPU, RAM, Festplatte und Grafikkarte übertragen werden.
+	  </para>
+	  <para>
+	  Es ist wichtig, dass Sie genau identifizieren, welche Hauptplatine Ihr System benötigt. Wir empfehlen dringend, dass Sie System Drill Down oder die Service-Tag-Suchfunktion im Tool Parts For Your Dell<tm/> verwenden. Diese Funktion hilft, festzustellen, mit welche Hauptplatine ursprünglich im Lieferumfang Ihres Systems enthalten war und ein kompatibles Ersatzteil zu liefern. Wenn Sie die Hauptplatine oder Teile davon verändert haben, wenden Sie sich an die Ersatzteile und Upgrades-Queue, um zu bestätigen, dass Sie das korrekte Teil kaufen.
+	  </para>
+	  <para>
+	  Darüber hinaus ist es wichtig zu wissen, welche zusätzlichen Merkmale eine Hauptplatine bieten kann. Einige Hauptplatinen verfügen über Funktionen wie Audio und Video und/oder Controller für Netzwerkschnittstellen. Diese Informationen werden im Abschnitt "Anmerkungen" der technischen Daten bereitgestellt.
+	  </para>
+	  <para>
+	  Bitte beachten Sie, dass manche Ersatzteile als Einbausätze oder Baugruppen geliefert werden. Diese Einbausätze können zusätzliche Teile enthalten, die für den Einbau erforderlich sind; diese werden im Abschnitt "Highlights" auf dieser Seite separat als Zubehör aufgeführt. Wenn ein Produkt nicht als Einbausatz oder Baugruppe verkauft wird, können zusätzliche Teile für den Einbau erforderlich sein.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Verbindet alle Geräte in einem System.
+		</point>
+		<point>
+		Verbindet die CPU, RAM, Festplatten, CD-/DVD-Laufwerke, PCI-Karten und Grafikkarte dabei versorgt sie diese Geräte mit Strom.
+		</point>
+		<point>
+		Verwaltet die Daten, die zwischen CPU, RAM, Festplatte und Grafikkarte übertragen werden.
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		Hauptplatine Planer-Karte
+      </product:techspec>
+      <product:techspec id="2" name="Merkmale">
+	    Verbindet alle Geräte in einem System / verwaltet die Daten, die zwischen CPU, RAM, Festplatte und Grafikkarte übertragen werden
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

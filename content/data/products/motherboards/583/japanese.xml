@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> マザーボードプレーナカード </product:name>
+
+    <product:longdesc>
+      <para>
+	  マザーボードにより、システム上のすべてのデバイスがつながります。 マザーボードはCPU、RAM、ハードドライブ、CD / DVDドライブ、PCIカード、およびグラフィックスカードをつなぎ、それらのデバイスに電力を伝送します。 また、CPU、RAM、ハードドライブ、およびグラフィックスカード間のデータ送信を管理します。
+	  </para>
+	  <para>
+	  システムに必要なマザーボードを正しく特定することが重要です。 デルは、「お使いのデル製品のパーツ（Parts For Your Dell<tm/>）」ツールのサービスタグ検索機能を使用することを強くお勧めします。 この機能では、システムの出荷時のマザーボードモデルを判断し、互換性のあるパーツを供給します。 マザーボードまたはその一部を変更した場合は、パーツおよびアップグレードキュー（Parts and Upgrades Queue）に連絡し、購入しようとしているパーツが正しいことを確認してください。
+	  </para>
+	  <para>
+	  また、マザーボードが提供する追加機能についても理解しておくことが重要です。 一部のマザーボードには、オーディオおよびビデオ機能やNICが備わっています。 これらの詳細については、仕様詳細の備考欄に記載されています。
+	  </para>
+	  <para>
+	  交換用製品は、キットまたは部品として提供されている場合がありますのでご注意ください。 このようなキットには、設置に必要な追加パーツが含まれていることがあります。追加パーツがある場合、このページのハイライトされたセクションに「コンポーネントパーツ」として別途記載されています。 製品がキットまたは部品として販売されていない場合、設置しやすくするための補完パーツが必要になる場合があります。
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		システム上のすべてのデバイスをつなぐ
+		</point>
+		<point>
+		CPU、RAM、ハードドライブ、CD / DVDドライブ、PCIカード、およびグラフィックスカードをつなぎ、それらのデバイスに電力を伝送する
+		</point>
+		<point>
+		CPU、RAM、ハードドライブ、およびグラフィックスカード間のデータ送信を管理する
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="製品タイプ">
+		マザーボードプレーナカード
+      </product:techspec>
+      <product:techspec id="2" name="特長">
+	  システム上のすべてのデバイスをつなぐ / CPU、RAM、ハードドライブ、およびグラフィックスカード間のデータ送信を管理する
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

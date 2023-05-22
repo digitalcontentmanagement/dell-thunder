@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Bundkort </product:name>
+
+    <product:longdesc>
+      <para>
+	  Et bundkort samler alle enhederne i et system. Det forbinder CPU, RAM, harddiske, CD/DVD-drev, PCI-kort og grafikkort og overfører samtidig strøm til disse enheder. Det administrerer også de data, der sendes mellem CPU, RAM, harddisk og grafikkort.
+	  </para>
+	  <para>
+	  Det er vigtigt, at du korrekt identificerer det bundkort, du skal bruge til dit system. Vi anbefaler, at du bruger funktionen Servicekodesøgning i værktøjet Dele til din Dell<tm/>. Denne funktion gør det muligt for os at fastslå, hvilken bundkortmodel dit system oprindeligt blev leveret med, og levere en kompatibel reservedel. Hvis du har ændret bundkortet eller dele på det, bedes du kontakte Reservedele og opgraderinger for at kontrollere, at du køber den rigtige del.
+	  </para>
+	  <para>
+	  Det er også vigtigt at vide, hvilke ekstra funktioner et bundkort kan levere. Nogle bundkort leveres med lyd- og billedfunktioner og/eller netværkscontrollere. Disse oplysninger findes i afsnittet med bemærkninger i de tekniske specifikationer.
+	  </para>
+	  <para>
+	  Bemærk, at nogle af vores udskiftningsprodukter leveres som sæt eller enheder. Disse sæt kan indeholde flere dele, der er nødvendige for installationen, og delene vises separat som "komponentdele" i afsnittet Højdepunkter på denne side. Hvis et produkt ikke sælges som et sæt eller en enhed, kan der muligvis kræves ekstra dele for at sikre nem installation.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Samler alle enhederne i et system
+		</point>
+		<point>
+		Forbinder CPU, RAM, harddiske, CD/DVD-drev, PCI-kort og grafikkort og overfører samtidig strøm til disse enheder
+		</point>
+		<point>
+		Administrerer de data, der sendes mellem CPU, RAM, harddisk og grafikkort
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		Bundkort
+      </product:techspec>
+      <product:techspec id="2" name="Funktioner">
+	  Samler alle enhederne i et system / administrerer de data, der sendes mellem CPU, RAM, harddisk og grafikkort
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

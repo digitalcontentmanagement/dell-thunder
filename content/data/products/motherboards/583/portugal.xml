@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Motherboard </product:name>
+
+    <product:longdesc>
+      <para>
+	  Uma motherboard une todos os dispositivos num único sistema. Liga a CPU, RAM, unidades de disco rígido, unidades de CD/DVD, placas PCI e placa gráfica, ao mesmo tempo que transmite energia a esses dispositivos. Também gere os dados enviados entre a CPU, RAM, unidade de disco rígido e placa gráfica.
+	  </para>
+	  <para>
+	  É importante identificar corretamente a motherboard que o seu sistema necessita. Recomendamos que utilize a funcionalidade de pesquisa de Etiqueta de serviço na ferramenta de Peças para o seu Dell<tm/>. Esta funcionalidade permite-nos determinar o modelo da motherboard fornecida originalmente com o seu sistema e fornecer uma peça compatível. Caso tenha alterado a motherboard ou qualquer parte da mesma, contacte Parts and Upgrades Queue para confirmar se está a adquirir a peça correta.
+	  </para>
+	  <para>
+	  Além disso, é importante saber quais as funcionalidades adicionais que uma motherboard pode fornecer. Algumas motherboards são fornecidas com capacidades de áudio e vídeo e/ou controladores de Interface de rede. Estes dados são fornecidos na secção de notas das especificações técnicas.
+	  </para>
+	  <para>
+	  Tenha em atenção que alguns dos nossos produtos de substituição são fornecidos sob a forma de kits ou conjuntos. Estes kits podem conter componentes adicionais que são necessários para a instalação; estes componentes serão enumerados em separado como 'Componentes' na secção de Destaques desta página. Caso um produto não seja vendido como um kit ou conjunto, poderão ser necessários componentes complementares para facilitar a instalação.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Une todos os dispositivos num único sistema
+		</point>
+		<point>
+		Liga a CPU, RAM, unidades de disco rígido, unidades de CD/DVD, placas PCI e placa gráfica, ao mesmo tempo que transmite energia a esses dispositivos
+		</point>
+		<point>
+		Gere os dados enviados entre a CPU, RAM, unidade de disco rígido e placa gráfica
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de produto">
+		Motherboard
+      </product:techspec>
+      <product:techspec id="2" name="Funcionalidades">
+	    Une todos os dispositivos num único sistema/gere os dados enviados entre a CPU, RAM, unidade de disco rígido e placa gráfica
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

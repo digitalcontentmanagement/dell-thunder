@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> carte mère </product:name>
+
+    <product:longdesc>
+      <para>
+	   Une carte mère relie tous les périphériques au sein d’un système. Elle connecte le processeur, la mémoire RAM, les disques durs, les lecteurs de CD/DVD, les cartes PCI et la carte graphique, lors de la transmission de puissance vers ces périphériques. Elle gère également les données échangées entre le processeur, la mémoire RAM, le disque dur et la carte graphique.
+	  </para>
+	  <para>
+       Il est important d’identifier correctement la carte mère dont votre système a besoin. Nous vous recommandons vivement d’utiliser la fonction de recherche du Numéro de série dans l’outil Composants pour votre Dell<tm/>. Cette fonction nous permet de déterminer le modèle de carte mère initialement livré avec votre système et de fournir une pièce compatible. Si vous avez remplacé votre carte mère ou l’un de ses composants, renseignez-vous auprès de l’équipe Pièces et mises à niveau afin de vérifier que vous achetez la bonne pièce.
+	  </para>
+	  <para>
+	   En outre, il est important de connaître les fonctionnalités supplémentaires que peut offrir une carte mère. Certaines cartes mères sont fournies avec des fonctionnalités audio et vidéo et/ou des contrôleurs d’interface réseau. Ces informations sont fournies dans la section Notes (Remarques) des caractéristiques techniques.
+	  </para>
+	  <para>
+	   Veuillez noter que certains de nos produits de remplacement sont fournis sous forme de kits ou d’assemblages. Ces kits peuvent contenir des pièces supplémentaires, requises pour l’installation ; elles sont répertoriées séparément en tant que « Composants » dans la section des points forts du produit, sur cette page. Si un produit n’est pas vendu sous forme de kit ou d’assemblage, des pièces supplémentaires peuvent être nécessaires pour faciliter l’installation.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Relie tous les périphériques au sein d’un système
+		</point>
+		<point>
+		Connecte le processeur, la mémoire RAM, les disques durs, les lecteurs de CD/DVD, les cartes PCI et la carte graphique, lors de la transmission de puissance vers ces périphériques.
+		</point>
+		<point>
+		Gère également les données échangées entre le processeur, la mémoire RAM, le disque dur et la carte graphique.
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+		Carte mère
+      </product:techspec>
+      <product:techspec id="2" name="Fonctionnalités">
+	  Relie tous les périphériques au sein d’un système / gère les données échangées entre le processeur, la mémoire RAM, le disque dur et la carte graphique.
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

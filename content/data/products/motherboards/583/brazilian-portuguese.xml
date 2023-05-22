@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Motherboards</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> placa-mãe do tipo planer </product:name>
+
+    <product:longdesc>
+      <para>
+	  Uma placa-mãe une todos os dispositivos de um sistema. Ela conecta CPU, RAM, unidades de disco rígido, unidades de CD/DVD, placas PCI e placa gráfica, ao mesmo tempo em que transmite energia a esses dispositivos. Ela também gerencia os dados enviados entre CPU, RAM, disco rígido e placa gráfica.
+	  </para>
+	  <para>
+	  É importante identificar corretamente a placa-mãe de que seu sistema precisa. É altamente recomendável que você use o recurso de pesquisa de etiqueta de serviço na ferramenta Parts For Your Dell<tm/>. Esse recurso permite determinar o modelo da placa-mãe original que acompanhou seu sistema e fornecer uma peça compatível. Se você trocou a placa-mãe ou qualquer peça dela, ligue para o grupo de peças e atualizações para verificar se você está comprando a peça certa.
+	  </para>
+	  <para>
+	  Além disso, é importante saber quais são os recursos adicionais que uma placa-mãe pode oferecer. Algumas placas-mãe são fornecidas com recursos de áudio e vídeo e/ou controladores de interface de rede. Esses detalhes são fornecidos na seção de notas das especificações técnicas.
+	  </para>
+	  <para>
+	  Alguns de nossos produtos sobressalentes são fornecidos como kits ou conjuntos. Esses kits podem incluir peças adicionais necessárias para a instalação. Essas peças serão listadas separadamente como "Peças de componentes" na seção Destaques desta página. No caso de um produto que não é vendido como kit ou conjunto, ele pode precisar de peças complementares para facilitar a instalação.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Une todos os dispositivos de um sistema.
+		</point>
+		<point>
+		Conecta CPU, RAM, unidades de disco rígido, unidades de CD/DVD, placas PCI e placa gráfica, ao mesmo tempo em que transmite energia a esses dispositivos.
+		</point>
+		<point>
+		Gerencia os dados enviados entre CPU, RAM, disco rígido e placa gráfica.
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de produto">
+		Placa-mãe do tipo planer
+      </product:techspec>
+      <product:techspec id="2" name="Recursos">
+	   Une todos os dispositivos de um sistema/gerencia os dados enviados entre CPU, RAM, disco rígido e placa gráfica
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
