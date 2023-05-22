@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> ensemble de repose-poignets </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Les repose-poignets sont conçus pour surélever vos poignets, réduire le claquage musculaire et garder vos poignets dans une position neutre (droite). L’un des principaux critères pour déterminer quel repose-poignets choisir est votre type de système, car il doit être compatible avec sa conception et sa structure. Il est également important de noter que les accessoires accompagnant le produit peuvent comprendre des fonctions supplémentaires comme le pavé tactile, la batterie CMOS, les haut-parleurs, le pavé tactile et l’ergot avec bouton ainsi que les antennes.
+	  </para>
+	  <para>
+	  Nous vous recommandons d’utiliser la fonction Analyser mon système ou la fonction Recherche de l’étiquette de service pour acheter le bon repose-poignets pour votre système.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Cette garantie limitée sur le matériel de Dell couvre les défauts de matériel ou de fabrication de vos produits de marque Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+         Supporte vos poignets dans une position neutre
+		</point>
+		<point>
+		 Comprend un pavé tactile
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+		Ensemble de repose-poignets
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

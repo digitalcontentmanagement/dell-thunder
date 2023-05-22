@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="fan"/> ventilator voor <textbox value="R640, CK" id="2"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       De verschillende onderdelen van een systeem zoals de chipset, de grafische kaart en de harde schijf kunnen een grote hoeveelheid warmte produceren bij gebruik. Deze grote hoeveelheid warmte kan mogelijk schadelijk zijn voor een juiste werking van het systeem. De ventilatoren zijn verantwoordelijk voor het afvoeren van deze warmte en het handhaven van veilige temperatuurlimieten.
+      </para>
+	  <para>
+       De belangrijkste factor die de selectie van de samenstelling van de bepaalt is het processortype en de snelheid ervan. Verschillende processoren hebben verschillende gebruikstemperaturen. Hoe hoger de snelheid van de processor, hoe beter de ventilator moeten zijn. Daarnaast bepaalt het type processor ook welke erbij past. Het chassistype is ook belangrijk omdat dit de behuizing van de compatibiliteit met het systeem definieert.
+      </para>
+	  <para>
+       Om de juiste ventilator voor uw systeem te kopen, raden we u aan de functie servicetag opzoeken in het hulpmiddel Onderdelen voor uw Dell product<tm/> te gebruiken. Hiermee kunnen wij het type processor en de snelheid van uw systeem bepalen en er compatibele producten voor selecteren.
+      </para>
+	  <para>
+       Houd er rekening mee dat sommige van onze vervangende producten worden geleverd als kit of montage. Deze kits bevatten mogelijk extra onderdelen die vereist zijn voor installatie. Deze onderdelen worden afzonderlijk vermeld als 'Onderdelen' in het gedeelte Belangrijkste productkenmerken van deze pagina. Als een product niet wordt verkocht als kit of montage, zijn mogelijk extra onderdelen vereist voor installatiegemak.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+
+
+      <points>
+	  
+       <point>
+	   Voert de hitte van de computer af
+	   </point>
+	   
+	   <point>
+	   Handhaaft de veilige temperatuurlimieten binnen het systeem
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Soort apparaat">
+        ventilator
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

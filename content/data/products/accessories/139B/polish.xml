@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <dropdownlist id="additional-riser"/> karta rozszerzeń Dell <textbox value="2A" id="8"/> <dropdownlist id="PCIE-Riser"/> <textbox value="-" id="1"/> <dropdownlist id="Slots-Riser"/> <textbox value="gniazda" id="2"/> <textbox value="z co najmniej" id="3"/> <dropdownlist id="Processor-Riser"/> <textbox value="procesorami" id="4"/> <textbox value="do" id="5"/> <textbox value="serwerów PowerEdge" id="6"/>, <textbox value="R640" id="7"/> 
+
+       </product:name>
+	<product:longdesc>
+      <para>
+       Karta trozszerzeń firmy Dell<tm/> pasuje do gniazda <dropdownlist refid="PCIE-Riser"/> komputera Dell. Karty typu riser są używane do udostępnienia gniazda pod układ lub kartę w komputerze, w którym jest już mało miejsca. Produkt został przetestowany i zatwierdzony do użytku z komputera.
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ urządzenia">
+        Karta rozszerzeń
+      </product:techspec>
+      <product:techspec id="2" name="Gniazda rozszerzeń">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="Model">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="Marki produktu">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="Kategoria">
+        System - Rozszerzenie portu
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

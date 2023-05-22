@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 掌托組件 </product:name>
+
+    <product:longdesc>
+	  <para>
+	  掌托主要用於墊高您的手掌、減少手部肌肉用力，並支撐您的手腕，使其位於不出力 (平放) 位置。 選擇掌托時，系統類型是主要決定因素之一，因為您的系統必須其設計和結構相稱。 另外需要注意的是，產品配件可能包含其他功能，例如觸控板、CMOS 電池、喇叭、觸控板/追蹤棒按鈕、天線等。
+	  </para>
+	  <para>
+	  我們建議您使用「系統深入鑽研」(System Drill Down) 或「產品服務編號」查詢功能，以便為您的系統選擇正確的掌托。
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dell 品牌硬體產品的材料與製造瑕疵，亦屬於 Dell 有限硬體保固的涵蓋範圍。
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		支撐住手腕，使其處於不出力位置
+		</point>
+		<point>
+		包含觸控板
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="產品類型">
+		掌托組件
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

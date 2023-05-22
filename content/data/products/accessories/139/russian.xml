@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server &amp; Tape Accessories</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Наклейки для ленточных накопителей Dell <textbox value="LTO4-120" id="1"/> — номера наклеек от <textbox value="201" id="2"/> до <textbox value="400" id="3"/></product:name>
+
+    <product:longdesc>
+      <para>
+	  Наклейки для ленточных накопителей <textbox value="LTO4-120" refid="1"/> компании Dell<tm/> способны удовлетворить все ваши потребности в использовании наклеек. В комплект входит <textbox value="200" id="4"/> наклеек, пронумерованных от <textbox value="201" refid="2"/> до <textbox value="400" refid="3"/>. Эти наклейки специально предназначены для использования с ленточными накопителями <textbox value="LTO4-120" refid="1"/>.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Специально предназначены для использования с ленточными накопителями <textbox value="LTO4-120" refid="1"/>
+		</point>
+		<point>
+		Комплект включает <textbox value="200" refid="4"/> наклеек, пронумерованных от <textbox value="201" refid="2"/> до <textbox value="400" refid="3"/>
+		</point>
+		</points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип продукта">
+		Наклейки для ленточных накопителей
+      </product:techspec>
+      <product:techspec id="2" name="Характеристики">
+		Комплект из <textbox value="200" refid="4"/> наклеек, пронумерованных от <textbox value="201" refid="2"/> до <textbox value="400" refid="3"/>; для ленточных накопителей <textbox value="LTO4-120" refid="1"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

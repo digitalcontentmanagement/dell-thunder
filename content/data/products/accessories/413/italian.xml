@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> poggiapolsi </product:name>
+
+    <product:longdesc>
+	  <para>
+	  I poggiapolsi sono progettati per sollevare i polsi, ridurre lo sforzo muscolare e mantenere i polsi in una posizione neutra (dritta). Uno dei principali fattori che determinano la scelta dei poggiapolsi è il tipo di sistema in uso, in quanto è necessario che vi sia compatibilità in termini di design e struttura. Inoltre, è importante notare che gli accessori del prodotto possono includere funzionalità aggiuntive come touchpad, batteria CMOS, altoparlanti, pulsante touchpad/trackstick pulsante e antenne.
+	  </para>
+	  <para>
+	  Per acquistare il poggiapolsi adatto al sistema in uso, Dell consiglia di utilizzare la funzione di analisi del sistema o di ricerca del codice di matricola.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garanzia hardware limitata Dell copre i difetti di materiali e lavorazione per i prodotti hardware a marchio Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Sorregge i polsi in una posizione neutra
+		</point>
+		<point>
+		Include touchpad
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di prodotto">
+		Poggiapolsi
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

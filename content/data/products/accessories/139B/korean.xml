@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="additional-riser"/> <dropdownlist id="PCIE-Riser"/> 라이저 카드 <textbox value="2A" id="8"/> <textbox value="-" id="1"/> <textbox value="PowerEdge" id="6"/><textbox value="용" id="5"/> <dropdownlist id="Processor-Riser"/><textbox value="개 이상" id="3"/> <textbox value="프로세서를" id="4"/> <textbox value="지원하는" id="3"/> <dropdownlist id="Slots-Riser"/><textbox value="개의 슬롯" id="2"/>, <textbox value="R640" id="7"/>
+
+       </product:name>
+	<product:longdesc>
+      <para>
+       Dell의 라이저는 Dell 시스템의 <dropdownlist refid="PCIE-Riser"/> 슬롯에 딱 맞게 들어갑니다. 라이저 카드는 완전히 구성된 컴퓨터에서 칩 또는 카드용 슬롯을 확장하는 데 사용됩니다. 이 제품은 사용자의 컴퓨터에서 정상적으로 작동하도록 테스트를 거쳐 Dell 시스템과의 작동을 검증 받았습니다. Dell 시스템과 함께 사용하는 경우 Dell 기술 지원 부서의 지원을 받을 수 있습니다.
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="장치 유형">
+        라이저 카드
+      </product:techspec>
+      <product:techspec id="2" name="확장 슬롯">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="모델">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="제품 브랜드">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="범주">
+        시스템 - 항만 확장
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

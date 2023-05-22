@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server &amp; Tape Accessories</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔<textbox value="LTO4-120" id="1"/>磁带介质标签 - 标签编号<textbox value="201" id="2"/> - <textbox value="400" id="3"/> </product:name>
+
+    <product:longdesc>
+      <para>
+	  来自戴尔的<textbox value="LTO4-120" refid="1"/> 磁带介质标签可充分满足您的标签处理需求。 该套装包含 <textbox value="200" id="4"/>个标签，编号介于<textbox value="201" refid="2"/> - <textbox value="400" refid="3"/>之间。 这些标签是专门用于<textbox value="LTO4-120" refid="1"/>磁带介质的。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		专门用于<textbox value="LTO4-120" refid="1"/>磁带 
+		</point>
+		<point>
+		介质套装包含<textbox value="200" refid="4"/>个标签，编号介于<textbox value="201" refid="2"/> - <textbox value="400" refid="3"/>之间
+		</point>
+		</points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="产品类型">
+		介质标签
+      </product:techspec>
+      <product:techspec id="2" name="特性">
+	    <textbox value="200" refid="4"/>个标签的套装，编号介于<textbox value="201" refid="2"/> - <textbox value="400" refid="3"/>之间，适用于<textbox value="LTO4-120" refid="1"/>磁带介质
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

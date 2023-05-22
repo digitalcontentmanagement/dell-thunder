@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> sestava opěrky pro dlaně </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Opěrky pro dlaně jsou navrženy tak, aby pozvedly dlaně, snížily napětí svalů a udržovaly zápěstí v neutrální (přímé) poloze. Jedním z hlavních kritérií při výběru opěrky pro dlaně je typ počítače, protože musí být kompatibilní s jeho designem a strukturou. Je také třeba připomenout, že příslušenství dodané s produktem může zahrnovat další funkce, jako jsou dotyková podložka, baterie paměti CMOS, reproduktory, dotyková podložka / polohovací tyčinka s tlačítky nebo antény.
+	  </para>
+	  <para>
+	  Doporučujeme použít funkci Analýza systému nebo funkci hledání výrobního čísla, které pomohou vybrat správnou opěrku pro dlaně pro daný počítač.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Omezená záruka společnosti Dell na hardware se vztahuje na vady materiálů a zpracování hardwarových výrobků značky Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		 Podpírá zápěstí v neutrální poloze
+		</point>
+		<point>
+		 Obsahuje dotykovou podložku
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+		Sestava opěrky pro dlaně
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

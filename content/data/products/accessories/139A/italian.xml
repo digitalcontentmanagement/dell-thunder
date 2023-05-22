@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="fan"/> ventole per <textbox value="R640, CK" id="2"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       I vari componenti di un computer, come il chipset, la scheda grafica e il disco rigido, possono produrre una notevole quantità di calore durante il funzionamento. Questa notevole quantità di calore potrebbe compromettere il corretto funzionamento del sistema. I le ventole servono a dissipare il calore e a mantenere la temperatura entro i limiti di sicurezza.
+      </para>
+	  <para>
+       Il fattore più importante che determina la scelta di un assieme è il tipo di processore e la sua velocità. Ciascun processore ha le proprie temperature di esercizio. Maggiore è la velocità del processore, maggiori devono essere le prestazioni dei delle ventole. Importante è inoltre il tipo di chassis, in quanto definisce l'alloggiamento dell'assieme compatibilità con il sistema.
+      </para>
+	  <para>
+       Per acquistare la ventola più adatta per il sistema, si consiglia di utilizzare la funzione di ricerca del codice di matricola nello strumento Componenti per i sistemi Dell<tm/> . In questo modo, sarà possibile individuare il tipo di processore e la velocità del sistema e scegliere compatibili.
+      </para>
+	  <para>
+       Tenere presente che alcuni dei prodotti sostitutivi Dell vengono forniti come kit o assiemi. Questi kit possono contenere parti aggiuntive richieste per l'installazione; tali parti verranno elencate separatamente come 'Parti del componente' nella sezione delle caratteristiche principali di questa pagina. Nel caso in cui un prodotto non sia venduto come kit o assieme, potrebbe richiedere parti complementari per semplificare l'installazione.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+
+
+      <points>
+	  
+       <point>
+	   Dissipazione del calore del computer
+	   </point>
+	   
+	   <point>
+	   Mantenimento della temperatura entro i limiti di sicurezza all'interno del sistema
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di dispositivo">
+        ventole
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

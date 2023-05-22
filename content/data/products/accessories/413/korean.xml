@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 어셈블리 팜레스트 </product:name>
+
+    <product:longdesc>
+	  <para>
+	  팜레스트는 손바닥을 올리고, 근육의 긴장을 줄이고, 손목을 중립(바른) 자세로 유지하도록 설계되었습니다. 팜레스트 선택을 결정하는 주요 요소 중 하나는 시스템의 유형입니다. 시스템의 설계 및 구조와 호환 가능해야 하기 때문입니다. 또한 제품과 관련된 액세서리로 터치 패드, CMOS 배터리, 스피커, 터치 패드/트랙 스틱 단추, 안테나와 같은 추가 기능 등이 있을 수 있다는 사실을 알아두시기 바랍니다.
+	  </para>
+	  <para>
+	  시스템에 적합한 팜레스트를 구매하려면 시스템 드릴 다운 또는 서비스 태그 조회 기능을 사용하는 것이 좋습니다.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dell의 하드웨어 무상수리 서비스는 Dell 브랜드의 하드웨어 제품에서 발견되는 소재 및 기능상의 결함에 적용됩니다.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		손목을 중립 자세로 지지
+		</point>
+		<point>
+		터치 패드 포함
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 유형">
+		어셈블리 팜레스트
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

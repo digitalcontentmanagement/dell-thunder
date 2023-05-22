@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="fan"/> tuulettimet varten <textbox value="R640, CK" id="2"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Tietokonejärjestelmän eri osat, kuten piirisarja, näytönohjain ja kiintolevy, voivat tuo tuottaa paljon lämpöä käytön aikana. Tämä lämpömäärä voi olla haitallista järjestelmän virheettömän toiminnan kannalta. tuulettimet vähentävät lämpöä ja pitävät laitteiston lämpötilan turvallisissa rajoissa.
+      </para>
+	  <para>
+       Tärkeimmät läm valintaan vaikuttavat tekijät ovat suorittimen tyyppi ja nopeus. Eri suorittimissa on eri käyttölämpötilat. Mitä suurempi suorittimen nopeus on, sitä parempi tuuletin tarvitaan. Kotelotyyppi on myös otettava huomioon, sillä se määrittää yhteensopivuuden järjestelmän kanssa.
+      </para>
+	  <para>
+        Jotta osaat ostaa oikea tuulettimen järjestelmääsi, suosittelemme, että käytät Parts For Your Dell<tm/> -työkalun palvelutunnuksen hakutoimintoa. Tällä tavalla voimme tunnistaa järjestelmässä käytössä olevan suorittimen tyypin ja nopeuden ja valita yhteensopivat jäähdytystuotteet.
+      </para>
+	  <para>
+       Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Nämä osat on lueteltu erikseen tämän sivun Tärkeät tiedot -kohdan komponenttiosissa. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+
+
+      <points>
+	  
+       <point>
+	   Poistaa tietokoneen lämpöä
+	   </point>
+	   
+	   <point>
+	   Pitää järjestelmän lämpötilan turvallisissa rajoissa
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Laitetyyppi">
+        tuulettimet
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

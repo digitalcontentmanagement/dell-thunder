@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <dropdownlist id="additional-riser"/>デル<dropdownlist id="PCIE-Riser"/>ライザー カード <textbox value="2A" id="8"/> <textbox value="-" id="1"/> PowerEdge <textbox value="用に" id="5"/><dropdownlist id="Processor-Riser"/><textbox value="つ以上" id="3"/><textbox value="のプロセッサ" id="4"/><textbox value="ーを備えた" id="3"/><dropdownlist id="Slots-Riser"/><textbox value="のスロット" id="2"/>, <textbox value="R640" id="7"/>
+
+       </product:name>
+	<product:longdesc>
+      <para>
+       デル製ライザーは、デル製システムの<dropdownlist refid="PCIE-Riser"/>スロットに実装できます。ライザーカードは、 フル実装のコンピュータでチップまたはカ ード用のスロ ットを拡張するために使用されます。 お使いのコンピュータでの動作を保証するため、本製品はデル製システムでテストおよび検証されています。 デル製システム と組み合わせ て使用す る場合は、 デルのテクニ カルサポー トをご利用いただけます。
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="デバイスタイプ">
+        ライザー カード
+      </product:techspec>
+      <product:techspec id="2" name="拡張スロット">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="モデル">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="製品ブランド">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="カテゴリ">
+        システム - ポート拡張
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Håndledsstøtte </product:name>
+
+    <product:longdesc>
+	  <para>
+	   Håndledsstøtter er udviklet til at hæve dine håndled, mindske muskelbelastningen og holde dine håndled i en neutral (lige) position. En af de primære faktorer, der afgør valget af håndledsstøtter, er typen af dit system, da det skal være kompatibelt med designet og konstruktionen. Det er også vigtigt at bemærke, at tilbehør til produktet kan omfatte flere funktioner som f.eks touchpad, CMOS-batteri, højttalere, touchpad-/trackstickknap, antenner.
+	  </para>
+	  <para>
+	   Vi anbefaler, at du bruger funktionen Systemvisning eller Servicekodesøgning til at købe den korrekte håndledsstøtte til dit system.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dells begrænsede hardwaregaranti dækker defekter i materialer og udførelsen af dine Dell-mærkede hardwareprodukter.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Understøtter dine håndled i en neutral position
+		</point>
+		<point>
+		Omfatter touchpad
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		Håndledsstøtte
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

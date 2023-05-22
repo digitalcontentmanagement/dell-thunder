@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="additional-riser"/>擴充的 <dropdownlist id="PCIE-Riser"/> 擴充卡 <textbox value="2A" id="8"/> <textbox value="-" id="1"/> <dropdownlist id="Slots-Riser"/><textbox value="个插槽" id="2"/>，<textbox value="具備至少適用於" id="3"/><textbox value="的" id="5"/> <textbox value="PowerEdge" id="6"/> <dropdownlist id="Processor-Riser"/> <textbox value="個處理器" id="4"/>, <textbox value="R640" id="7"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Dell 擴充卡能夠完美融入您的 Dell 系統 <dropdownlist refid="PCIE-Riser"/> 插槽。擴充卡能為已滿載的電腦擴充晶片或卡片插槽。 本產品已通過 Dell 系統的測試和驗證， 確保 可以 在您的電腦上正常運作。 在 Dell 系統上使用此產品時，客戶將享有 Dell 技術支援服務。 
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="裝置類型">
+        擴充卡
+      </product:techspec>
+      <product:techspec id="2" name="延伸槽">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="型號">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="產品品牌">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="種類">
+        系統 - 端口擴展
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

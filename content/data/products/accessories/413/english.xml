@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Assembly Palmrest </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Palmrests are designed to raise your palms, reduce muscle strain and to keep your wrists in a neutral (straight) position. One of the major factors determining the selection of Palmrests is the type of your system, as it needs to be compatible with its design and structure. It is also important to note accessories with the product may include additional functionality such as Touchpad, CMOS battery, Speakers, Touch Pad/Track Stick Button, antennas.
+	  </para>
+	  <para>
+	  We recommend that you use the System Drill Down or the Service Tag look up functionality to buy the correct Palmrest for your system.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dell’s limited hardware warranty covers defects in materials and workmanship in your Dell-branded hardware products. 
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Supports your wrists in a neutral position
+		</point>
+		<point>
+		Includes touch pad
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Product Type">
+		Assembly Palmrest
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

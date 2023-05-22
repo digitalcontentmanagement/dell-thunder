@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔<dropdownlist id="additional-riser"/><dropdownlist id="PCIE-Riser"/> Riser卡 <textbox value="2A" id="8"/> <textbox value="-" id="1"/> <dropdownlist id="Slots-Riser"/><textbox value="个插槽" id="2"/>，<textbox value="至少" id="3"/><dropdownlist id="Processor-Riser"/><textbox value="个处理器" id="4"/><textbox value="(用于PowerEdge)" id="6"/>, <textbox value="R640" id="7"/>
+
+       </product:name>
+	<product:longdesc>
+      <para>
+       戴尔Riser卡可装入您的戴尔系统的<dropdownlist refid="PCIE-Riser"/>插槽中。Riser卡用于扩展满载计算机中的插槽，以便装入芯片或卡。 本产品已在戴尔 系统上经过测试和 验证， 确保适用于您的计算机。 如与戴尔系统搭配使用，您还可享受戴尔技术支持服务。
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+        Riser
+      </product:techspec>
+      <product:techspec id="2" name="扩展槽">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="型号">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="产品品牌">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="种类">
+        系统 - 端口扩展
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

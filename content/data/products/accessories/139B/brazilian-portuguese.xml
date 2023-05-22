@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Placa riser <textbox value="2A" id="8"/> <dropdownlist id="PCIE-Riser"/> <dropdownlist id="additional-riser"/> da Dell <textbox value="-" id="1"/> <dropdownlist id="Slots-Riser"/> <textbox value="slots" id="2"/> <textbox value="com pelo menos" id="3"/> <dropdownlist id="Processor-Riser"/> <textbox value="processadores" id="4"/> <textbox value="para" id="5"/> <textbox value="PowerEdge" id="6"/>, <textbox value="R640" id="7"/>
+       </product:name>
+	<product:longdesc> 
+      <para>
+       O Riser da Dell<tm/> cabe no slot <dropdownlist refid="PCIE-Riser"/> do seu sistema Dell. As placas riser são usadas para ampliar um slot para um chip ou placa em um computador ultraequipado. Esse produto foi testado e validado em sistemas Dell para garantir o funcionamento com o seu computador. Quando usado com um sistema Dell, conta com o Suporte técnico da empresa.
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Placa riser
+      </product:techspec>
+      <product:techspec id="2" name="Slots de expansão">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="Modelo">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="Marca do produto">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="Categoria">
+        Sistemas - Expansão Portuária
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Reposamuñecas </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Los reposamuñecas están diseñados para elevar las palmas, reducir la sobrecarga muscular y mantener las muñecas en una posición neutral (rectas). A la hora de determinar la selección del reposamuñecas, entre los principales factores a tener en cuenta es el tipo de sistema que tiene, ya que tiene que ser compatible con su diseño y su estructura. También es importante tener en cuenta que los accesorios incluidos con el producto pueden tener funciones adicionales, como almohadilla táctil, batería CMOS, altavoces, botón de almohadilla táctil/trackstick y antenas.
+	  </para>
+	  <para>
+	  Le recomendamos que utilice el detalle del sistema o la función de búsqueda de etiqueta de servicio para adquirir el reposamuñecas apropiado para su sistema.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garantía de hardware de Dell cubre los defectos en los materiales y de fabricación para los productos de hardware de la marca Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Ayuda a mantener las muñecas en una posición neutral
+		</point>
+		<point>
+		Incluye la almohadilla táctil
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+		Reposamuñecas
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server &amp; Tape Accessories</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Etiquetas de suportes de dados em banda Dell  <textbox value="LTO4-120" id="1"/> – Números de etiqueta <textbox value="201" id="2"/> a <textbox value="400" id="3"/> </product:name>
+
+    <product:longdesc>
+      <para>
+	  As Etiquetas para suportes de dados em banda <textbox value="LTO4-120" refid="1"/> da Dell<tm/> encarregam-se das suas necessidades de tratamento de etiquetas. A embalagem inclui <textbox value="200" id="4"/> etiquetas, numeradas de <textbox value="201" refid="2"/> a <textbox value="400" refid="3"/>. Estas etiquetas foram especificamente concebidas para utilização com os Suportes de dados em banda  <textbox value="LTO4-120" refid="1"/>.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Especificamente concebidas para utilização com Banda <textbox value="LTO4-120" refid="1"/>
+		</point>
+		<point>
+		A embalagem para suportes de dados inclui <textbox value="200" refid="4"/> etiquetas, numeradas de <textbox value="201" refid="2"/> a <textbox value="400" refid="3"/>
+		</point>
+		</points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de produto">
+		Etiquetas de suportes de dados
+      </product:techspec>
+      <product:techspec id="2" name="Funcionalidades">
+		Embalagem de <textbox value="200" refid="4"/> etiquetas numeradas de <textbox value="201" refid="2"/> a <textbox value="400" refid="3"/>, para Suportes de dados em banda <textbox value="LTO4-120" refid="1"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

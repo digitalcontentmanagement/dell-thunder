@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <dropdownlist id="additional-riser"/> плата расширения <textbox value="2A" id="8"/> <dropdownlist id="PCIE-Riser"/> Dell <textbox value="-" id="1"/> <dropdownlist id="Slots-Riser"/> <textbox value="разъема" id="2"/> <textbox value="для" id="3"/> <dropdownlist id="Processor-Riser"/> <textbox value="или более" id="3"/> <textbox value="процессоров" id="4"/> <textbox value="для" id="5"/> <textbox value="серверов PowerEdge" id="6"/>, <textbox value="R640" id="7"/> 
+
+       </product:name>
+	<product:longdesc>
+      <para>
+       Платы расширения используются для расширения разъема для микросхемы или платы при отсутствии свободных разъемов. Данный продукт прошел тестирование и сертификацию на системах Dell<tm/>, что гарантирует, что он будет работать и с вашим компьютером. При использовании с системой Dell на него предоставляется техническая поддержка Dell.
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип устройства">
+        Платы расширения
+      </product:techspec>
+      <product:techspec id="2" name="Слоты расширения">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="модель">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="Марка товара">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="категория">
+        Система - расширение порта
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

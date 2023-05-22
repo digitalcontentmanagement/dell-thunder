@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="fan"/> lüfter für <textbox value="R640, CK" id="2"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Die verschiedenen Komponenten eines Computersystems, wie Chipsatz, Grafikkarte und Festplatte können bei Betrieb viel Wärme generieren. Diese Wärme kann dem reibungslosen Betrieb des Systems schaden. Der Lüfter sind verantwortlich für die Ableitung der Wärme und Einhaltung der Temperatur in sicheren Grenzen.
+      </para>
+	  <para>
+       Unterschiedliche Prozessoren haben die unterschiedliche Betriebstemperaturen. Je höher die Geschwindigkeit des Prozessors, desto besser müssen Kühlkörper und Lüfter sein. Der Gehäusetyp spielt auch eine Rolle, da er das Gehäuse der und seine Kompatibilität mit dem System bestimmt.
+      </para>
+	  <para>
+       Damit und Lüfter für Ihr System kaufen, empfehlen wir, dass Sie die Service-Tag-Suchfunktion im Tool Parts For Your Dell<tm/> verwenden. Damit können wir den Prozessortyp und die Prozessorgeschwindigkeit Ihres Gerätes feststellen und kompatible produkte.
+      </para>
+	  <para>
+       Bitte beachten Sie, dass manche Ersatzteile als Einbausätze oder Baugruppen geliefert werden. Diese Einbausätze können zusätzliche Teile enthalten, die für den Einbau erforderlich sind; diese werden im Abschnitt 'Highlights' auf dieser Seite separat als Zubehör aufgeführt. Wenn ein Produkt nicht als Einbausatz oder Baugruppe verkauft wird, können zusätzliche Teile für den Einbau erforderlich sein.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+
+
+      <points>
+	  
+       <point>
+	   Leitet die Wärme des Computers ab
+	   </point>
+	   
+	   <point>
+	   Sorgt für Einhaltung der Temperatur im System in sicheren Grenzen
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Gerätetyp">
+        lüfter
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server &amp; Tape Accessories</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴爾<textbox value="LTO4-120" id="1"/>磁帶媒體標籤 - 標籤號碼<textbox value="201" id="2"/>到<textbox value="400" id="3"/> </product:name>
+
+    <product:longdesc>
+      <para>
+	  戴爾提供的<textbox value="LTO4-120" refid="1"/>磁帶媒體標籤可滿足您對於標籤處理的所有需求。 此套件包含<textbox value="200" id="4"/>個標籤，編號始於<textbox value="201" refid="2"/>到<textbox value="400" refid="3"/> 。 這些標籤是專為搭配<textbox value="LTO4-120" refid="1"/>磁帶媒體使用而設計。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		專為搭配<textbox value="LTO4-120" refid="1"/>磁帶使用而設計  
+		</point>
+		<point>
+		媒體套件包含 <textbox value="200" refid="4"/>個標籤，編號始於<textbox value="201" refid="2"/>到<textbox value="400" refid="3"/> 
+		</point>
+		</points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="產品類型">
+		媒體標籤
+      </product:techspec>
+      <product:techspec id="2" name="特色">
+	    <textbox value="200" refid="4"/> 個標籤的套件，編號始於<textbox value="201" refid="2"/>到<textbox value="400" refid="3"/> ，適用於<textbox value="LTO4-120" refid="1"/>磁帶媒體
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 <dropdownlist id="fan"/> 扇对于 <textbox value="R640, CK" id="2"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       计算机系统的各个组件（例如芯片组、显卡和硬盘）在运行过程中可能产生大量热量。 如此多的热量可能破坏系统的正常运作。 风扇负责散发热量并将温度限制在安全范围内。
+      </para>
+	  <para>
+       选择散组件时，处理器类型及其转速是最重要的因素，起到决定性的作用。 不同的处理器有不同的运行温度。 处理器的转速越快，对散风扇的要求就越高。 机箱类型也很重要，因为它决定了组件的外壳以及与系统的兼容性。
+      </para>
+	  <para>
+       为确保购买到适合您系统的风扇，我们建议您使用Parts For Your Dell<tm/> 工具中的服务标签查询功能。 这可以帮助我们确定您系统中的处理器类型及转速。
+      </para>
+	  <para>
+       请注意，我们的部分更换产品以套件或组件形式提供。 这些套件可能包含安装所需的其他部件；这些部件将作为“组成部件”在本页的“亮点”部分单独列出。 如果产品未作为套件或组件销售，则它可能需要补充部件，以方便安装。
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+
+
+      <points>
+	  
+       <point>
+	   散发计算机产生的热量 
+	   </point>
+	   
+	   <point>
+	   将系统内的温度限制在安全范围内
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+        扇
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

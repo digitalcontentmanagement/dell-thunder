@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> アセンブリパームレスト </product:name>
+
+    <product:longdesc>
+	  <para>
+	  パームレストは、手のひらを置いて、筋肉の緊張を和らげ、手首を負担のない状態（まっすぐ）に保つことができるように設計されています。 パームレストを選択する場合、ご使用のシステムのデザインや構造に適合させる必要があるため、システムのタイプを考慮することが重要な要因の1つといえます。 また、製品に付属するアクセサリには、タッチパッド、CMOSバッテリ、スピーカ、タッチパッド / トラックスティックボタン、アンテナなど、追加機能が含まれる可能性があることを留意してください。
+	  </para>
+	  <para>
+	  デルは、システムドリルダウン（System Drill Down）またはサービスタグ検索機能を使用して、システムに最適なパームリストを購入することをお勧めします。
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  デルのハードウェア限定保証は、デルブランドのハードウェア製品における材質または製作上の欠陥に適用されます。 
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		手首を負担のない状態に保つ
+		</point>
+		<point>
+		タッチパッドを含む
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="製品タイプ">
+		アセンブリパームレスト
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

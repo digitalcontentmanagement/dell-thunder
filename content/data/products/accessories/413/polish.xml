@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> zespół podpórki pod nadgarstki </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Podpórki pod nadgarstki zostały zaprojektowane, aby unieść nadgarstki użytkownika, zredukować obciążenie mięśni i utrzymywać nadgarstki w pozycji neutralnej (wyprostowanej). Jednym z głównych czynników decydujących o wyborze podpórki pod nadgarstki jest typ komputera, który musi być zgodny z konstrukcją i struktury podpórki. Wraz z produktem mogą być oferowane dodatkowe funkcje, takie jak panel dotykowy, bateria CMOS, głośniki, przycisk panelu dotykowego/drążka sterującego i anteny.
+	  </para>
+	  <para>
+	  Firma Dell zaleca korzystanie z funkcji wyszukiwania kodu serwisowego lub funkcji szczegółowego wyboru systemu w celu zakupu odpowiedniej podpórki pod nadgarstki dla danego systemu.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Ograniczona gwarancja na sprzęt firmy Dell uwzględnia usterki materiałowe i wady wykonania w produktach sprzętowych marki Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Zapewnia podparcie nadgarstków w neutralnej pozycji
+		</point>
+		<point>
+		Zawiera panel dotykowy
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rodzaj produktu">
+		Zespół podpórki pod nadgarstki
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

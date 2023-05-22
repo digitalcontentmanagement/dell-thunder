@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Conjunto de reposamanos </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Los reposamanos están diseñados para elevar las palmas de las manos, reducir la tensión en los músculos y mantener las muñecas en una posición neutral (recta). Uno de los factores más importantes para determinar la selección de un reposamanos es el tipo de sistema que usted posee, ya que debe ser compatible con el diseño y la estructura. También es importante tener en cuenta que los accesorios del producto pueden incluir una funcionalidad adicional, como un panel táctil, una batería CMOS, parlantes, un botón de panel táctil/trackstick y antenas.
+	  </para>
+	  <para>
+	  Le recomendamos que utilice la función System Drill Down (Desglose del sistema) o Búsqueda de etiquetas de servicio para que pueda comprar el reposamanos correcto para su sistema.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garantía limitada de hardware de Dell cubre los defectos en los materiales y en la mano de obra de los productos de hardware marca Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Sirve de apoyo para las muñecas en posición neutral
+		</point>
+		<point>
+		Incluye panel táctil
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+		Conjunto de reposamanos
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

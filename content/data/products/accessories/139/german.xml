@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server &amp; Tape Accessories</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="LTO4-120" id="1"/> Bandmedien-Etiketten – Etikettennummern <textbox value="201" id="2"/> bis <textbox value="400" id="3"/> </product:name>
+
+    <product:longdesc>
+      <para>
+	  Mit den Etiketten für <textbox value="LTO4-120" refid="1"/> Bandmedien von Dell<tm/> stellt die Etikettierung kein Problem mehr dar. Das Paket enthält <textbox value="200" id="4"/> -Etiketten, nummeriert von  <textbox value="201" refid="2"/> bis <textbox value="400" refid="3"/>. Diese Etiketten wurden speziell für den Gebrauch mit <textbox value="LTO4-120" refid="1"/>-Bandmedien entwickelt.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Speziell für die Verwendung mit <textbox value="LTO4-120" refid="1"/>-Bändern entwickelt  
+		</point>
+		<point>
+		Das Medienpaket enthält <textbox value="200" refid="4"/> Etiketten, nummeriert von <textbox value="201" refid="2"/> bis <textbox value="400" refid="3"/>
+		</point>
+		</points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		Medienetiketten
+      </product:techspec>
+      <product:techspec id="2" name="Features">
+		Paket mit <textbox value="200" refid="4"/> Etiketten, nummeriert von <textbox value="201" refid="2"/> bis <textbox value="400" refid="3"/>, für <textbox value="LTO4-120" refid="1"/>-Bandmedien
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

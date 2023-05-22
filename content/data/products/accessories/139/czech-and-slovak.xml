@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server &amp; Tape Accessories</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Štítky na pásková média Dell <textbox value="LTO4-120" id="1"/> – čísla štítků <textbox value="201" id="2"/> až <textbox value="400" id="3"/> </product:name>
+
+    <product:longdesc>
+      <para>
+	  Štítky na média <textbox value="LTO4-120" refid="1"/> značky Dell<tm/> zcela splní vaše potřeby označování. V balení je <textbox value="200" id="4"/> štítků s čísly od <textbox value="201" refid="2"/> až <textbox value="400" refid="3"/>. Tyto štítky jsou určeny speciálně pro média <textbox value="LTO4-120" refid="1"/>.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Určeno speciálně pro pásky <textbox value="LTO4-120" refid="1"/>
+		</point>
+		<point>
+		V balení je <textbox value="200" refid="4"/> štítků s čísly od <textbox value="201" id="2"/> až <textbox value="400" id="3"/>
+		</point>
+		</points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+		Štítky na média
+      </product:techspec>
+      <product:techspec id="2" name="Vlastnosti">
+		Sada <textbox value="200" refid="4"/> štítků číslovaných od <textbox value="201" id="2"/> až <textbox value="400" id="3"/> pro pásková média <textbox value="LTO4-120" refid="1"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

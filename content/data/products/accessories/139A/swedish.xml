@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="fan"/> fläktar för <textbox value="R640, CK" id="2"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       De olika komponenterna i ett datorsystem som kretsuppsättningen, grafikkortet och hårddisken kan producera en stor mängd värme under drift. För mycket värme kan skada systemets funktionalitet. fläktarna avleder värmen och upprätthåller säkra temperaturgränser.
+      </para>
+	  <para>
+       Den viktigaste faktorn som bestämmer valet av är processortyp och hastighet. Olika processorer har olika användningstemperaturer. Ju snabbare processor, desto bättre fläkt behöver du. Typen av processor bestämmer också vilken kylfläns som behövs. Chassitypen är också viktig eftersom den utgör bestämmer kompatibilitetenmed systemet.
+      </para>
+	  <para>
+       För att köpa rätt fläkt för ditt system, rekommenderar vi att du använder sökfunktionen för servicenumret i verktyget Parts For Your Dell<tm/> . På så sätt kan vi identifiera din dators processortyp och hastighet och föreslå kompatibla produkter.
+      </para>
+	  <para>
+       Observera att några av våra renoverade produkter levereras som satser eller paket. Dessa satser kan innehålla extra komponenter som krävs för installationen. Delarna anges separat som komponenter i avsnittet Höjdpunkter på denna sida. Om en produkt inte kan köpas som en sats eller ett paket kan det hända att det krävs kompletterande komponenter för installationen.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+
+
+      <points>
+	  
+       <point>
+	   Avleder värme på datorn
+	   </point>
+	   
+	   <point>
+	   Upprätthåller säkra temperaturgränser för datorn
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhetstyp">
+        fläktar
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

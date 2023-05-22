@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Carte de montage <dropdownlist id="PCIE-Riser"/> Dell <textbox value="2A" id="8"/> <dropdownlist id="additional-riser"/> <textbox value="-" id="1"/> <dropdownlist id="Slots-Riser"/> <textbox value="Slots" id="2"/> <textbox value="avec au moins" id="3"/> <dropdownlist id="Processor-Riser"/> <textbox value="processeurs" id="4"/> <textbox value="pour" id="5"/> <textbox value="PowerEdge" id="6"/>, <textbox value="R640" id="7"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       La carte de montage de Dell<tm/> s’insère dans les emplacements <dropdownlist refid="PCIE-Riser"/> de votre serveur. Grâce aux cartes de montage, vous pouvez disposer d'un emplacement supplémentaire pour une puce ou une carte dans un ordinateur où tous les emplacements sont utilisés. Ce produit a été testé et approuvé sur les systèmes Dell afin de garantir son bon fonctionnement avec votre ordinateur. Il est pris en charge par le support technique Dell lorsqu’il est utilisé avec un système Dell.
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type d’appareil">
+        Carte de montage
+      </product:techspec>
+      <product:techspec id="2" name="Logements d'extension">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="Modèle">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="Marque de produit">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="Catégorie">
+        Systems - Expansion du port
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

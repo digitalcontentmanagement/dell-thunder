@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Håndleddsstøtte </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Håndleddsstøtter er lagd for å heve håndflatene, redusere muskelpåkjenningen og holde håndleddene i nøytral (rett) stilling. Ved valg av håndleddsstøtter må man passe på at de er kompatible med systemet. Merk også at produktet kan ha tilleggsfunksjoner som pekeflate, CMOS-batteri, høyttalere, pekeflate/styrepinne, antenner.
+	  </para>
+	  <para>
+	  Vi anbefaler at du bruker System Drill Down eller oppslagsfunksjonen for service-ID til å kjøpe riktig håndleddstøtte for systemet.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dells begrensede maskinvareservice dekker mangler ved materialer og utførelse for maskinvareprodukter fra Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Støtter håndleddene i nøytral stilling
+		</point>
+		<point>
+		Inkluderer pekeflate
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		Håndleddsstøtte
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> montage palmsteun </product:name>
+
+    <product:longdesc>
+	  <para>
+	   Palmsteunen zijn ontworpen om uw handpalmen omhoog te laten komen, de spierspanning te verminderen en uw polsen in een neutrale (rechte) positie te laten staan. Een van de belangrijkste factoren voor het bepalen van de selectie van Palmsteunen is het type van uw systeem, omdat dit compatibel moet zijn met het ontwerp en de structuur. Het is ook belangrijk om te onthouden dat accessoires bij het product aanvullende functionaliteit kunnen omvatten, zoals Touchpad, CMOS-batterij, luidsprekers, Touch Pad/Track Stick-knop, antennes.
+	  </para>
+	  <para>
+	   We raden u aan de functionaliteit System Drill Down of Servicetag opzoeken te gebruiken om de juiste palmsteun voor uw systeem aan te schaffen.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para> 
+	  <para>
+	 De beperkte hardwaregarantie van Dell dekt materiaal- en productiefouten in uw hardware van Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Biedt ondersteuning voor uw polsen in een neutrale positie
+		</point>
+		<point>
+		Inclusief touchpad
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type product">
+		Montage palmsteun
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Handledsstöd </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Handledsstöd har utformats för att höja dina handleder och därmed minska belastningen och hålla handlederna i neutralt (rakt) läge. En av de viktigaste faktorerna när du ska fastställa valet av handledsstöd vilken typ av system du har eftersom det ska vara kompatibelt med dess design och struktur. Det är också viktigt att notera att tillbehör till produkten kan ge ytterligare funktioner såsom styrplatta, CMOS-batteri, högtalare, pekskärm styrplatta/styrpinne samt antenner.
+	  </para>
+	  <para>
+	  Vi rekommenderar att du använder sökfunktionen för servicemärke för att köpa rätt handledsstöd för ditt system.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dells begränsade maskinvaruservice täcker defekter i material och utförande i dina maskinvaruprodukter från Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Stöder dina handleder och håller dem i neutralt läge
+		</point>
+		<point>
+		Styrplatta medföljer
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		Handledsstöd
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 掌托组件 </product:name>
+
+    <product:longdesc>
+	  <para>
+	  掌托可以支撑您的手掌，减少肌肉劳损，并让您的手腕处在一个持平（平直）的位置。 选择掌托的一个重要因素是您系统的类型，因为它需要与掌托的设计和结构兼容。 还应特别注意的一点是，该产品的附件可能包括附加功能，例如触摸板、CMOS电池、扬声器、触摸板/指点杆按钮、天线。
+	  </para>
+	  <para>
+	  我们建议您使用系统深入查询或服务标签查询功能来为您的系统购买合适的掌托。
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  戴尔有限硬件保修涵盖了您的戴尔品牌硬件产品中的材料和工艺缺陷。 
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		为您的手腕提供支撑，使手腕处在一个持平的位置
+		</point>
+		<point>
+		包含触摸板
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="产品类型">
+		掌托组件
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

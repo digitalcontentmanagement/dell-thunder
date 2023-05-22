@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Bauteil Handauflage </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Handauflagen wurden entwickelt, um die Handauflagefläche zu erhöhen, die Belastung zu reduzieren und die Haltung der Handgelenke in einer neutralen (geraden) Position zu gewährleisten. Einer der wichtigsten Faktoren bei der Auswahl der Handauflage ist der Typ Ihres Systems, der mit Design und Struktur kompatibel sein muss. Weiter ist es wichtig, auf Produktzubehör zu achten, da es zusätzliche Funktionen beinhalten kann, wie Touchpad, CMOS-Akku, Lautsprecher, Touch Pad-/Track Stick-Schaltflächen, Antennen.
+	  </para>
+	  <para>
+	  Es wird empfohlen, dass Sie System Drill Down oder die Service-Tag-Suchfunktion verwenden, um die richtige Handauflage für Ihr System zu erwerben.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Der eingeschränkte Hardware-Service von Dell deckt Material- und Verarbeitungsfehler von Hardwareprodukten der Marke Dell ab.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Unterstützt Ihre Handgelenke in einer neutralen Haltung
+		</point>
+		<point>
+		Einschließlich Touchpad
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		Bauteil Handauflage
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

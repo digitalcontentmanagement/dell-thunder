@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> conjunto de apoio para as mãos </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Os apoios para as mãos foram projetados para erguer suas mãos, reduzir o esforço muscular e manter seus pulsos em uma posição neutra (reta). Um dos principais fatores para determinar a seleção de apoios para as mãos é o tipo do sistema, pois o apoio precisa ser compatível com seu design e estrutura. Também é importante observar acessórios do produto que podem incluir funcionalidades adicionais, como o Touch Pad, bateria do CMOS, alto-falantes, touch pad/botão trackstick, antenas.
+	  </para>
+	  <para>
+	  Recomendamos que você use o recurso de detalhamento do sistema ou de busca pela etiqueta de serviço para comprar o apoio para as mãos correto para seu sistema.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  A garantia limitada de hardware da Dell cobre defeitos em materiais e na fabricação de produtos de hardware da marca Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Oferece suporte aos pulsos em uma posição neutra
+		</point>
+		<point>
+		Inclui touch pad
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de produto">
+		Conjunto de apoio para as mãos
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

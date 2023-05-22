@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Other Accessories </meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Conjunto de descanso para os pulsos </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Os descansos para os pulsos foram concebidos para elevar os seus pulsos, reduzir o esforço muscular e manter os pulsos numa posição neutra (reta). Um dos principais fatores que determinam a seleção dos descansos para os pulsos é o seu tipo de sistema, já que tem de ser compatível com o respetivo design e estrutura. Também é importante ter em conta que os acessórios do produto podem incluir funcionalidades adicionais, tais como o touchpad, bateria CMOS, colunas, botão do touchpad/track stick, antenas.
+	  </para>
+	  <para>
+	  Recomendamos que utilize a funcionalidade de consulta System Drill Down (Mais detalhes do sistema) ou Service Tag (Etiqueta de serviço) para comprar o descanso para os pulsos correto para o seu sistema.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  A garantia limitada de hardware da Dell cobre os defeitos de materiais e fabrico nos seus produtos de hardware da marca Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Suporta os pulsos numa posição neutra
+		</point>
+		<point>
+		Inclui um touchpad
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de produto">
+		Conjunto de descanso para os pulsos
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

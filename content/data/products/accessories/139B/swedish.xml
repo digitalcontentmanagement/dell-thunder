@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="additional-riser"/> <dropdownlist id="PCIE-Riser"/> Riser Card <textbox value="2A" id="8"/> <textbox value="-" id="1"/> <dropdownlist id="Slots-Riser"/> <textbox value="platser" id="2"/> <textbox value="med minst" id="3"/> <dropdownlist id="Processor-Riser"/> <textbox value="processorer" id="4"/> <textbox value="för" id="5"/> <textbox value="PowerEdge" id="6"/>, <textbox value="R640" id="7"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Expansionskortet från Dell<tm/> sätts in på <dropdownlist refid="PCIE-Riser"/>-platsen i datorn. Expansionskort används för att bygga ut ett fack för ett chipp eller kort i en dator utan lediga platser. Den här produkten har testats på och godkänts för Dell-system. Den omfattas av teknisk support från Dell när den används tillsammans med ett Dell-system.
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhetstyp">
+        Expansionskort
+      </product:techspec>
+      <product:techspec id="2" name="Expansionskortplatser">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="modell">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="Produkt varumärke">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="Kategori">
+        System - Port Expansion
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

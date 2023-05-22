@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Riser </meta:title>
+    <meta:date value="2018-9-04" />
+    <meta:creator value="Rasyida"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <dropdownlist id="additional-riser"/> rozšiřující karta Dell <textbox value="2A" id="8"/> <dropdownlist id="PCIE-Riser"/> <textbox value="-" id="1"/> <dropdownlist id="Slots-Riser"/> <textbox value="sloty" id="2"/> <textbox value="s nejméně" id="3"/> <dropdownlist id="Processor-Riser"/> <textbox value="procesory" id="4"/> <textbox value="pro" id="5"/> <textbox value="serverů PowerEdge" id="6"/>, <textbox value="R640" id="7"/> 
+
+       </product:name>
+	<product:longdesc>
+      <para>
+       Rozšiřující karta od společnosti Dell<tm/> do slotu <dropdownlist refid="PCIE-Riser"/> v počítači Dell. Rozšiřující karty slouží k rozšíření slotu pro obvod nebo kartu v plně obsazeném počítači. Tento výrobek byl testován a ověřen v počítačích Dell kvůli kontrole, zda bude fungovat s vaším počítačem. Pokud ho používáte se zařízením Dell, vztahuje se na něj technická podpora společnosti Dell.
+      </para>
+	  
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ zařízení">
+        Rozšiřující karta
+      </product:techspec>
+      <product:techspec id="2" name="Rozšíření sloty">
+        <dropdownlist refid="PCIE-Riser"/>
+      </product:techspec>
+	  <product:techspec id="3" name="Model">
+        <textbox value="R640" refid="7"/>
+      </product:techspec>
+	  <product:techspec id="4" name="Značky výrobků">
+        Dell
+      </product:techspec>
+	  <product:techspec id="5" name="Kategorie">
+        Systémy - Rozšíření portů
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

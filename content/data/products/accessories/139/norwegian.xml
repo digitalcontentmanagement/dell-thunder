@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server &amp; Tape Accessories</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="LTO4-120" id="1"/>-tapemedieetiketter – etikettnumre <textbox value="201" id="2"/> til <textbox value="400" id="3"/> </product:name>
+
+    <product:longdesc>
+      <para>
+	  <textbox value="LTO4-120" refid="1"/>-tapemedieetikettene fra Dell<tm/> dekker alle dine etikettbehov. Pakken inneholder <textbox value="200" id="4"/> etiketter, som er nummerert fra <textbox value="201" refid="2"/> til <textbox value="400" refid="3"/>. Disse etikettene er spesielt utformet for bruk med <textbox value="LTO4-120" refid="1"/>-tapemedier.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Spesielt utformet for bruk med <textbox value="LTO4-120" refid="1"/>-tape.  
+		</point>
+		<point>
+		Mediepakken inneholder <textbox value="200" refid="4"/> etiketter, som er nummerert fra <textbox value="201" refid="2"/> til <textbox value="400" refid="3"/>
+		</point>
+		</points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		Medieetiketter
+      </product:techspec>
+      <product:techspec id="2" name="Features">
+	    Pakke med <textbox value="200" refid="4"/> etiketter nummerert fra <textbox value="201" refid="2"/> til <textbox value="400" refid="3"/>, for <textbox value="LTO4-120" refid="1"/>-tapemedier
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
