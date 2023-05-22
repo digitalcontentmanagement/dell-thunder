@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-HBA-932</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Προσαρμογέας διαύλου κεντρικού υπολογιστή (HBA) καναλιού οπτικών ινών <dropdownlist id="adapters-443"/> <textbox value="Emulex" id="1"/> <textbox value="LPE-16000" id="2"/><dropdownlist id="adapters-443-b"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Ο προσαρμογέας διαύλου κεντρικού υπολογιστή <textbox value="Emulex" refid="1"/> <textbox value="LPE-16000" refid="2"/> από την Dell<tm/> προσφέρει εξαιρετική απόδοση και προηγμένες λειτουργίες διαχείρισης και μπορεί να σας εξοικονομήσει πολλές ημέρες από την εγκατάσταση και τη διαχείριση των προσαρμογέων. Συνδυάζεται με έως και <textbox value="3" id="3"/><textbox value="x" id="6"/> απόδοση IOPS ανά Watt, γεγονός που καθιστά τους προσαρμογείς διαύλου κεντρικού υπολογιστή καναλιού οπτικών ινών
+	   <textbox value="(16GFC)" id="5"/> Dell <textbox value="3" refid="3"/><textbox value="x" refid="6"/> ιδανική επιλογή για τις δύσκολες υλοποιήσεις εικονικής διαμόρφωσης, νέφους και κρίσιμης σημασίας. 
+      </para>
+	  <para>
+	 <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Χαρακτηριστικά">
+        Εξοικονόμηση ενέργειας GreenState<tm/> / μείωση φόρτου CPU vEngine<tm/> / ακεραιότητα δεδομένων BlockGuard<reg/>
+      </product:techspec>
+      <product:techspec id="2" name="Τύπος συσκευής">
+       Προσαρμογέας διαύλου κεντρικού υπολογιστή (HBA) καναλιού οπτικών ινών
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-HBA-932</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptador de bus anfitrião de canal de fibra <dropdownlist id="adapters-443"/> <textbox value="Emulex" id="1"/> <textbox value="LPE-16000" id="2"/><dropdownlist id="adapters-443-b"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       O adaptador de bus anfitrião <textbox value="Emulex" refid="1"/> <textbox value="LPE-16000" refid="2"/> garante uma performance excepcional e funcionalidade de gestão avançada que pode reduzir os dias gastos a instalar e a gerir adaptadores. Este adaptador inclui uma performance IOPS por watt até 
+	     <textbox value="3" refid="3"/><textbox value="x" refid="6"/> uperior, o que torna os adaptadores de bus anfitrião de canal de fibra <textbox value="(16GFC)" id="5"/> de <textbox value="16" id="4"/><dropdownlist id="hba-932-unit"/> Dell na escolha certa para as implementações para objectivos críticos mais exigentes virtualizadas e em nuvem. 
+      </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Funcionalidades">
+        Eficiência energética GreenState<tm/>/descarregamento da CPU vEngine<tm/>/integridade dos dados BlockGuard<reg/>
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de dispositivo">
+       HBA de canal de fibra
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-HBA-932</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="Emulex" id="1"/> <textbox value="LPE-16000" id="2"/> <dropdownlist id="adapters-443"/> 光纖通道主機匯流排配接卡<dropdownlist id="adapters-443-b"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+     Dell<tm/> 原廠 <textbox value="Emulex" refid="1"/> <textbox value="LPE-16000" refid="2"/> 主機匯流排配接卡提供一流的效能和進階管理功能，可以省下許多安裝和管理配接卡的時間。 它還結合了高 
+	 <textbox value="3" refid="3"/><textbox value="x" refid="6"/> 的每瓦 IOPS 效能，因此在處理最棘手的虛擬化、雲端和關鍵任務部署時，Dell <textbox value="16" id="4"/><dropdownlist id="hba-932-unit"/> 光纖通道 <textbox value="(16GFC)" id="5"/> 主機匯流排配接卡便是最明智的選擇。 
+      </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="特色">
+       GreenState<tm/>電源效率 / vEngine<tm/> CPU 卸載 / BlockGuard<reg/> 資料完整性
+      </product:techspec>
+      <product:techspec id="2" name="裝置類型">
+       光纖通道 HBA
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

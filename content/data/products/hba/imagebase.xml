@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="hba">
+
+    <image:image name="406-10741">
+      <image:location>406-10741</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Qlogic 2662 Dual Port Fibre Channel Host Bus Adapter, Full Height</image:description>
+      <image:caption>Dell Qlogic 2662 Dual Port Fibre Channel Host Bus Adapter, Full Height</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	<image:image name="342-0910">
+      <image:location>342-0910</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell SAS 6 GB HBA External Controller Card</image:description>
+      <image:caption>Dell SAS 6 GB HBA External Controller Card</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="406-BBHF">
+      <image:location>406-BBHF</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Emulex LPe16002B, Dual Port </image:description>
+      <image:caption>Emulex LPe16002B, Dual Port </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+  	<image:image name="406-10689">
+      <image:location>406-10689</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Emulex LPE-1150 Single Port Fibre Channel Host Bus Adapter</image:description>
+      <image:caption>Dell Emulex LPE-1150 Single Port Fibre Channel Host Bus Adapter</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+  	<image:image name="405-AAZY">
+      <image:location>405-AAZY</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell HBA355e Adapter Low Profile/Full Height </image:description>
+      <image:caption>Dell HBA355e Adapter Low Profile/Full Height</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+    <!-- Start of subclasses -->
+    <!--<image:folder name="225">
+      <image:image name="450-AEGJ">
+        <image:location>450-AEGJ</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <<image:description>This is Dell Product</image:description>
+        <image:caption>Dell 3-Prong Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>
+    
+    <image:folder name="443">
+      <image:image name="450-AFJG">
+        <image:location>450-AFJG</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <image:description>This is Dell Product</image:description>
+        <image:caption>Dell Slim Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>-->
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>

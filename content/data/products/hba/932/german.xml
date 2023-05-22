@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-HBA-932</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="Emulex" id="1"/> <textbox value="LPE-16000" id="2"/> <dropdownlist id="adapters-443"/> Fibre Channel-Hostbusadapter<dropdownlist id="adapters-443-b"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Der <textbox value="Emulex" refid="1"/> <textbox value="LPE-16000" refid="2"/> HBA von Dell<tm/> bietet eine außergewöhnliche Leistung und erweiterte Managementfunktionen, die den Zeitaufwand bei der Installation und beim Management von Adaptern deutlich verkürzen. Mit einer bis zu <textbox value="3" refid="3"/><textbox value="x" refid="6"/> höheren IOPS-Leistung pro Watt ist der De
+	   Dell <textbox value="16" id="4"/><dropdownlist id="hba-932-unit"/> Fibre Channel <textbox value="(16GFC)" id="5"/> Hostbusadapter die beste Wahl für die anspruchsvollsten virtualisierten, Cloud-basierten und geschäftskritischen Bereitstellungen. 
+      </para>
+	  <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Funktionen">
+        GreenState<tm/> Energieeffizienz/vEngine<tm/> CPU-Entlastung/BlockGuard<reg/> Datenintegrität
+      </product:techspec>
+      <product:techspec id="2" name="Gerätetyp">
+       Fibre Channel-HBA
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
