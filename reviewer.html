@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html xml:lang="en" lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dell Thunder - Generic Content Reviewer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Generator" content="Dell Thunder 2.0 - Generic Content Generator" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/main.css" />
+    <!-- Split Button CSS -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/jquery-ui.css" />
+	<style type="text/css">
+		#cat, #scc {margin: 2px 0 0 0 !important}
+	</style>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/m-xml.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- Split Button JS -->
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <link rel="shortcut icon" href="images/dell.ico" />
+</head>
+<body>
+    <!-- BEGIN: Sticky Header -->
+    <header id="header_container">
+        <section id="header">
+            <section id="logo" style="width: 30%;">
+                <section style="margin: 0 auto; width: 245px;">
+                    <div style="float: left;">
+                        <a href="reviewer.html">
+                            <img src="images/logo.png" width="186" height="49" alt="Dell Thunder - Generic Content Generator"
+                                title="Dell Thunder - Generic Content Generator" />
+                        </a>
+                    </div>
+                    <div style="float: right; height: 8px; border: 1px dotted #FFF; padding: 9px 4px 0 4px;
+                        color: #fff; font-size: 8.5px; font-weight: bold;">
+                        PREVIEW</div>
+                </section>
+            </section>
+            <section id="default" style="background-color: transparent">
+                <section style="margin: 10px auto; width: 97%; padding-left: 30px;">
+                    <form action="reviewer.html">
+                    <table style="height: 100px; font-size: 11px; font-family: arial, tahoma" border="0">
+                        <tr>
+                            <td>
+                                SKU
+                            </td>
+                            <td>
+                                SKU Type
+                            </td>
+                            <td>
+                                Product Category
+                            </td>
+                            <td>
+                                Subclass Code
+                            </td>
+                            <td>
+                                Region
+                            </td>
+                            <td colspan="2">
+                                Language
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="sku" name="sku" maxlength="9" value="SKU-ID" onblur="if(this.value == ''){this.value = 'SKU-ID';}"
+                                    onfocus="if(this.value == 'SKU-ID'){this.value = '';}" type="text" style="font-size: 11px;
+                                    width: 90px; padding: 0px; margin: 2px 0 0 0; line-height: 19px; height: 19px; vertical-align: top;
+                                    text-align: center;" />
+                            </td>
+                            <td>
+                                <select id="skutype" name="skutype" style="margin: 2px 0 0 0">
+                                    <option value="customer-kit">Customer Kit</option>
+                                    <option value="spare-parts">Spare Parts</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="cat" name="cat">
+                                    <option>Loading...</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="scc" name="scc">
+                                    <option>Loading...</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="region" name="r" style="margin: 2px 0 0 0">
+                                    <option value="apj">APJ</option>
+                                    <option value="ca">CA</option>
+                                    <option value="emea">EMEA</option>
+                                    <option value="global">Global</option>
+                                    <option value="la">LATAM</option>
+                                    <option value="us">US</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="l" name="l" style="margin: 2px 0 0 0">
+                                    <option value="brazilian-portuguese">Brazilian Portuguese</option>
+                                    <option value="canada-french">Canada French</option>
+                                    <option value="czech-and-slovak">Czech and Slovak</option>
+                                    <option value="danish">Danish</option>
+                                    <option value="dutch">Dutch</option>
+                                    <option value="english" selected="selected">English</option>
+                                    <option value="euro-french">Euro French</option>
+                                    <option value="euro-spanish">Euro Spanish</option>
+                                    <option value="finnish">Finnish</option>
+                                    <option value="german">German</option>
+                                    <option value="greek">Greek</option>
+                                    <option value="italian">Italian</option>
+                                    <option value="japanese">Japanese</option>
+                                    <option value="korean">Korean</option>
+                                    <option value="norwegian">Norwegian</option>
+                                    <option value="polish">Polish</option>
+                                    <option value="portugal">Portugal</option>
+                                    <option value="russian">Russian</option>
+                                    <option value="simplified-chinese">Simplified Chinese</option>
+                                    <option value="south-american-spanish">South American Spanish</option>
+                                    <option value="swedish">Swedish</option>
+                                    <option value="traditional-chinese">Traditional Chinese</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="submit" value="Go" style="margin: 2px;" />
+                            </td>
+                        </tr>
+                    </table>
+                    </form>
+                </section>
+            </section>
+        </section>
+    </header>
+    <!-- END: Sticky Header -->
+    <!-- BEGIN: Page Content -->
+    <div id="container" style="margin: 0 auto; padding: 80px 0 38px 0; width: 100%;">
+        <section id="content">
+            <!--[if lt IE 9]>
+                <p class="ie-warning">
+                    You're using an outdated version of Internet Explorer, please upgrade to the latest version in order to support this tool.
+                </p>
+            <![endif]-->
+            <section id="generic-content">
+                <!-- Review content -->
+                <h1>Generic Content</h1>
+                Preview your generic content XML file with different languages to ensure error free.<br/></br/>
+				<strong>Note:</strong> The content display may take up to 15 secs to process, otherwise, the selected content is not available.
+            </section>
+        </section>
+		<section id="template-preview">
+			<h1>Raw Content Preview</h1>
+            <section class="freezepanes_wrapper">
+                <!-- Start of Content Studio CSV template -->
+                <section id="prc-template-holder">
+                    <!-- Table to be loaded here -->
+                </section>
+                <!-- End of Content Studio CSV template -->
+            </section>
+		</section>
+    </div>
+    <!-- END: Page Content -->
+    <!-- BEGIN: Sticky Footer -->
+    <footer id="footer_container">
+        <div id="footer">
+            &#169; DTX | Digital Content Management - Software and Peripherals Operations
+        </div>
+    </footer>
+    <!-- END: Sticky Footer -->
+    <script type="text/javascript">
+
+		magicXML.transformAndReplace('#cat', 'content-wip/data/definitions/products.xml', 'xslt/reviewer_category.xslt');
+
+		var categoryId = helpers.getQueryStringParameter('cat').toLowerCase();
+
+		$('#cat').on('change', function() {
+			categoryId = this.value;
+			magicXML.transformAndReplace('#scc', 'content-wip/data/definitions/products.xml', 'xslt/reviewer_subclasses.xslt',  [{ name: 'categoryId', value: categoryId}]);		
+		});
+
+		magicXML.transformAndReplace('#scc', 'content-wip/data/definitions/products.xml', 'xslt/reviewer_subclasses.xslt',  [{ name: 'categoryId', value: categoryId}]);
+
+        var xmlPath = 'content-wip/data/products/' + helpers.getQueryStringParameter('cat') + '/' + helpers.getQueryStringParameter('scc') + '/' + helpers.getQueryStringParameter('l') + '.xml';
+
+        var region = helpers.getQueryStringParameter('r');
+        var sku = helpers.getQueryStringParameter('sku');
+        var skutype_value = helpers.getQueryStringParameter('skutype') == 'spare-parts' ? "spare-parts" : "customer-kit";
+        var country;
+        var language;
+
+        document.getElementById("sku").value = helpers.getQueryStringParameter('sku')!=''?helpers.getQueryStringParameter('sku'): 'SKU-ID';
+
+        selectOptions("skutype", skutype_value.toLowerCase());
+
+        selectOptions("cat", helpers.getQueryStringParameter('cat').toLowerCase());
+
+        selectOptions("scc", helpers.getQueryStringParameter('scc').toUpperCase());
+
+        selectOptions("region", region.toLowerCase());
+
+        selectOptions("l", helpers.getQueryStringParameter('l').toLowerCase());
+
+        if (UrlExists(xmlPath)) {
+
+            switch (helpers.getQueryStringParameter('l').toLowerCase()) {
+                case "brazilian-portuguese":
+                    country = 'br'; language = 'pt'; break;
+                case "canada-french":
+                    country = 'ca'; language = 'fr'; break;
+                case "czech-and-slovak":
+                    country = 'sk'; language = 'sk'; break;
+                case "danish":
+                    country = 'dk'; language = 'da'; break;
+                case "dutch":
+                    country = 'nl'; language = 'nl'; break;
+                case "euro-french":
+                    country = 'ch'; language = 'fr'; break;
+                case "euro-spanish":
+                    country = 'es'; language = 'es'; break;
+                case "finnish":
+                    country = 'fi'; language = 'fi'; break;
+                case "german":
+                    country = 'de'; language = 'de'; break;
+                case "greek":
+                    country = 'gr'; language = 'el'; break;
+                case "italian":
+                    country = 'it'; language = 'it'; break;
+                case "japanese":
+                    country = 'jp'; language = 'ja'; break;
+                case "korean":
+                    country = 'kr'; language = 'ko'; break;
+                case "norwegian":
+                    country = 'no'; language = 'no'; break;
+                case "polish":
+                    country = 'pl'; language = 'pl'; break;
+                case "portugal":
+                    country = 'pt'; language = 'pt'; break;
+                case "russian":
+                    country = 'ru'; language = 'ru'; break;
+                case "simplified-chinese":
+                    country = 'cn'; language = 'zh'; break;
+                case "south-american-spanish":
+                    country = 'ar'; language = 'es'; break;
+                case "swedish":
+                    country = 'se'; language = 'sv'; break;
+                case "traditional-chinese":
+                    country = 'tw'; language = 'zh'; break;
+                default:
+                    country = 'us'; language = 'en';
+            }
+
+            magicXML.transformAndReplace('#generic-content', xmlPath, 'xslt/generic_content.xslt', [{ name: 'region', value: region }, { name: 'skuid', value: sku }, { name: 'skutype', value: skutype_value }, { name: 'environment', value: '-wip'}, { name: 'country', value: country}, { name: 'language', value: language}]);
+
+            //Start of PRC Template
+            magicXML.transformAndReplace('#prc-template-holder', xmlPath, 'xslt/reviewer_template_prc.xslt', [{ name: 'region', value: region }, { name: 'skuid', value: sku }, { name: 'skutype', value: skutype_value }, { name: 'environment', value: '-wip'}, { name: 'categoryid', value: categoryId }, { name: 'subclass', value: helpers.getQueryStringParameter('scc').substring(1, 3) }, { name: 'markets', value: language.concat("_", country) }, { name: 'foldername', value:  helpers.getQueryStringParameter('scc')}]);
+            //End of PRC Template
+
+            //Start of Auto resizing
+            $(function () {
+                $("input.unique").autoGrowInput({ minWidth: 10, comfortZone: 10 });
+            });
+            //End of Auto resizing
+        }
+
+
+		//Start of Tooltip
+		/***********************************************
+		* Cool DHTML tooltip script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		* Please keep this notice intact
+		* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+		***********************************************/
+
+		function create(htmlStr) {
+			var frag = document.createDocumentFragment(),
+				temp = document.createElement('div');
+			temp.innerHTML = htmlStr;
+			while (temp.firstChild) {
+				frag.appendChild(temp.firstChild);
+			}
+			return frag;
+		}
+
+		var fragment = create("<div id='dhtmltooltip'></div>");
+		// You can use native DOM methods to insert the fragment:
+		document.body.insertBefore(fragment, document.body.childNodes[0]);
+
+		var offsetxpoint = -60 //Customize x offset of tooltip
+		var offsetypoint = 20 //Customize y offset of tooltip
+		var ie = document.all
+		var ns6 = document.getElementById && !document.all
+		var enabletip = false
+		if (ie || ns6)
+			var tipobj = document.all ? document.all["dhtmltooltip"] : document.getElementById ? document.getElementById("dhtmltooltip") : ""
+		document.body.appendChild(tipobj)
+
+		function ietruebody() {
+			return (document.compatMode && document.compatMode != "BackCompat") ? document.documentElement : document.body
+		}
+
+		function ddrivetip(thetext, thewidth, thecolor) {
+			if (!thetext)
+				return false;
+			if (ns6 || ie) {
+				if (typeof thewidth != "undefined") tipobj.style.width = thewidth;
+				if (typeof thecolor != "undefined" && thecolor != "") tipobj.style.backgroundColor = thecolor
+				tipobj.innerHTML = '<h1>HTML Preview</h1>' + thetext.replace(/<style type="text\/css">.*?<\/style>/g, ''); //Removing Style tag for harmony CSS injection
+				//Start of InnerHTML Scripting Executor
+				/*var scripts = [];
+
+				ret = tipobj.childNodes;
+				for (var i = 0; ret[i]; i++) {
+				if (scripts && nodeName(ret[i], "script") && (!ret[i].type || ret[i].type.toLowerCase() === "text/javascript")) {
+				scripts.push(ret[i].parentNode ? ret[i].parentNode.removeChild(ret[i]) : ret[i]);
+				}
+				}
+
+				for (script in scripts) {
+				evalScript(scripts[script]);
+				}*/
+				//End of InnerHTML Scripting Executor
+
+				enabletip = true
+				return false
+			}
+		}
+
+		function ddriveimagetip(thetext, thewidth, thecolor) {
+			if (!thetext)
+				return false;
+			if (ns6 || ie) {
+				if (typeof thewidth != "undefined") tipobj.style.width = thewidth;
+				if (typeof thecolor != "undefined" && thecolor != "") tipobj.style.backgroundColor = thecolor
+				tipobj.innerHTML = "<h1>HTML Image Preview</h1><img src=\"" + thetext.trim() + "\" onerror=\"this.src='images/puzzle.png'\"/>";
+				enabletip = true
+				return false
+			}
+		}
+
+		function positiontip(e) {
+			if (enabletip) {
+				var curX = (ns6) ? e.pageX : event.clientX + ietruebody().scrollLeft;
+				var curY = (ns6) ? e.pageY : event.clientY + ietruebody().scrollTop;
+				//Find out how close the mouse is to the corner of the window
+				var rightedge = ie && !window.opera ? ietruebody().clientWidth - event.clientX - offsetxpoint : window.innerWidth - e.clientX - offsetxpoint - 20
+				var bottomedge = ie && !window.opera ? ietruebody().clientHeight - event.clientY - offsetypoint : window.innerHeight - e.clientY - offsetypoint - 20
+
+				var leftedge = (offsetxpoint < 0) ? offsetxpoint * (-1) : -1000
+
+				//if the horizontal distance isn't enough to accomodate the width of the context menu
+				if (rightedge < tipobj.offsetWidth)
+				//move the horizontal position of the menu to the left by it's width
+					tipobj.style.left = ie ? ietruebody().scrollLeft + event.clientX - tipobj.offsetWidth + "px" : window.pageXOffset + e.clientX - tipobj.offsetWidth + "px"
+				else if (curX < leftedge)
+					tipobj.style.left = "5px"
+				else
+				//position the horizontal position of the menu where the mouse is positioned
+					tipobj.style.left = curX + offsetxpoint + "px"
+
+				//same concept with the vertical position
+				if (bottomedge < tipobj.offsetHeight)
+					tipobj.style.top = ie ? ietruebody().scrollTop + event.clientY - tipobj.offsetHeight - offsetypoint + "px" : window.pageYOffset + e.clientY - tipobj.offsetHeight - offsetypoint + "px"
+				else
+					tipobj.style.top = curY + offsetypoint + "px"
+				tipobj.style.visibility = "visible";
+				tipobj.style.display = "block";//Turning on display CSS for the first time mouseover. It was set none to discard an additional space at the bottom.
+			}
+		}
+
+		function hideddrivetip() {
+			if (ns6 || ie) {
+				enabletip = false;
+				tipobj.style.visibility = "hidden";
+				tipobj.style.left = "-1000px";
+				tipobj.style.backgroundColor = '';
+				tipobj.style.width = '';
+			}
+		}
+
+		document.onmousemove = positiontip
+		//End of Tooltip
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xml:lang="en" lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dell Thunder - Generic Content Directory</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Generator" content="Dell Thunder 2.0 - Generic Content Generator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/dell.ico" />
+	<style type="text/css">
+	body {background-color: #F0F0F0;font-size:12px;font-family: arial;margin:0px;padding:0px;color: #444444;}
+	header {background: url(images/logo.png);height:49px;width:100%;background-repeat: no-repeat;background-color:#0085C3;padding:15px 0px;;background-position: 10px;}
+	main {height: 100px;margin: 10px 10px;}
+	#directory {padding:15px;}
+	h1 {display: block; background-color: #808080;font-size:13px;padding:5px;color: #FFF;margin:0px;}
+	thead {background-color: #C0C0C0;}
+	table {width: 100%;margin:0px;}
+	td {padding: 5px;}
+	td:first-child {width: 10%;}
+	td:nth-child(2) {width: 50%;}
+	td:nth-child(3) {width: 40%;}
+	tbody tr:hover{background-color: #FFF;}
+	</style>
+	 <script type="text/javascript" src="js/m-xml.min.js"></script>
+</head>
+<body>
+   <header>
+	<div id="logo"></div>
+   </header>
+   <main>
+	<div id="directory"></div>
+   </main>
+
+   <script type="text/javascript">
+	  magicXML.transformAndReplace('#directory', 'content-wip/data/definitions/products.xml', 'xslt/directory.xslt');
+   </script>
+</body>
+</html>
