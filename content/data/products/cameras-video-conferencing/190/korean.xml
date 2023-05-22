@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Part-Camera-190</meta:title>
+    <meta:date value="2015-11-12" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 카메라 어셈블리
+    </product:name>
+    <product:longdesc>
+      <para>
+	    LCD 플라스틱, 덮개 및 액세서리는 노트북용 교체 코스메틱 컴포넌트입니다. LCD 플라스틱, 덮개 및 액세서리에는 LCD 덮개, 베젤 및 고무 범퍼가 포함됩니다. 이런 제품들은 대부분 이미지에 표시된 대로 직관적입니다. LCD 화면 덮개의 경우 LCD 화면의 크기와 노트북의 모델을 알아야 합니다. LCD 덮개 및 스크린은 다양한 크기로 제공됩니다. 마찬가지로, 한 컴퓨터에 고무 범퍼가 여러 가지 크기와 스타일로 제공될 수 있습니다.
+	  </para>
+	  <para>
+	  올바른 LCD 플라스틱 선택에 도움이 되도록 Parts For Your Dell<tm/> 도구의 서비스 태그 조회나 시스템 드릴다운 기능을 사용할 것을 권장합니다. 그러면 Dell이 사용자의 LCD 플라스틱 요구 사항을 정확히 파악하고 호환되는 솔루션을 제공할 수 있습니다.
+	  
+	  </para>
+	  <para>
+	  일부 Dell 교체 제품은 키트 또는 어셈블리로 제공됩니다. 이 키트는 설치에 필요한 추가 부품을 포함할 수 있습니다. 제품이 키트 또는 어셈블리로 판매되지 않는 경우 간편한 설치를 위해 보완 부품이 필요할 수 있습니다.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dell의 하드웨어 무상수리 서비스는 Dell 브랜드의 하드웨어 제품에서 발견되는 소재 및 기능상의 결함에 적용됩니다. 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<point>
+	 노트북용 교체 코스메틱 컴포넌트로 작동
+	</point>
+	
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 유형">
+	   <textbox value="카메라 어셈블리" id="1"/> 
+	     </product:techspec>
+	    <product:techspec id="2" name="특징">
+	   <textbox value="노트북용 코스메틱 컴포넌트" id="2"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

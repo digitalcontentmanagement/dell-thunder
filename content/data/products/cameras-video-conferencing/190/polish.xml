@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Part-Camera-190</meta:title>
+    <meta:date value="2015-11-12" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> zespół kamery
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Plastikowe elementy wyświetlaczy LCD, pokrywy i akcesoria to niewielkie podzespoły zamienne do notebooków. Obejmują one m.in. osłony wyświetlaczy LCD, maskownice, ramki i gumowe ochraniacze. Większość tych produktów jest bardzo prosta, co widać na ilustracji. W przypadku pokrywy wyświetlacza LCD trzeba znać rozmiar ekranu i model notebooka. Pokrywy wyświetlaczy LCD i ekrany są dostępne w różnych rozmiarach. Również gumowe ochraniacze mogą mieć różne rozmiary i być dopasowane do poszczególnych komputerów.
+	  </para>
+	  <para>
+	   Aby ułatwić wybór odpowiednich plastikowych elementów wyświetlaczy LCD, zalecamy skorzystanie z funkcji wyszukiwania kodów Service Tag look lub szczegółowego wyboru systemu w narzędziu Parts For Your Dell<tm/>. Umożliwi nam to poprawne określenie wymagań dotyczących plastikowych elementów wyświetlaczy LCD i zaoferowanie zgodnych rozwiązań.
+	  </para>
+	  <para>
+	  Należy pamiętać, że niektóre podzespoły zamienne są dostarczane w postaci zestawów. Mogą one zawierać dodatkowe części niezbędne podczas instalacji. Jeżeli produkt nie jest oferowany w postaci zestawu, może wymagać dodatkowych części w celu łatwiejszej instalacji.
+	  </para>
+	  <para>
+	   <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Ograniczona gwarancja na sprzęt firmy Dell uwzględnia usterki materiałowe i wady wykonania w produktach sprzętowych marki Dell. 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<point>
+	 Kosmetyczne podzespoły zamienne do notebooków
+	</point>
+	
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rodzaj produktu">
+	   <textbox value="Zespół kamery" id="1"/> 
+	     </product:techspec>
+	    <product:techspec id="2" name="Cechy i funkcje">
+	   <textbox value="Kosmetyczne podzespoły do notebooków" id="2"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

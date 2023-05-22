@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Part-Camera-190</meta:title>
+    <meta:date value="2015-11-12" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Sestava kamery
+    </product:name>
+    <product:longdesc>
+      <para>
+       Plasty pro LCD displej, kryty a příslušenství jsou náhradní kosmetické komponenty pro notebooky. Plasty pro LCD displej, kryty a příslušenství zahrnují kryt displeje, pouzdro a gumové nárazníky. Většina z těchto produktů vypadá přesně tak, jak je zobrazeno na obrázku. Upozorňujeme, že u krytů LCD displejů je důležité znát velikost displeje a model vašeho notebooku. Kryty LCD displeje a obrazovky jsou dodávány v různých velikostech. Stejně tak i gumové nárazníky mohou být dodávány v různých velikostech a stylech pro různé počítače.
+	  </para>
+	  <para>
+	   Chcete-li pomoci při výběru správného plastového dílu pro displej LCD, doporučujeme použít funkci hledání výrobního čísla nebo funkci Analýza systému v nástroji Parts For Your Dell<tm/>. To nám umožní správně identifikovat požadovaný plastový díl pro LCD displej a nabídnout kompatibilní řešení.
+	  </para>
+	  <para>
+	   Některé náhradní díly dodáváme jako sady nebo sestavy. Tyto sady mohou obsahovat další díly potřebné pro instalaci. Pokud výrobek neprodáváme jako sadu nebo sestavu, může jeho snadná instalace vyžadovat další díly.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Omezená záruka společnosti Dell na hardware se vztahuje na vady materiálů a zpracování hardwarových výrobků značky Dell. 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<point>
+	 Slouží jako náhradní kosmetické komponenty pro notebooky.
+</point>
+	
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+	   <textbox value="Sestava kamery" id="1"/> 
+	     </product:techspec>
+	    <product:techspec id="2" name="Funkce">
+	   <textbox value="Kosmetické komponenty pro notebooky" id="2"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

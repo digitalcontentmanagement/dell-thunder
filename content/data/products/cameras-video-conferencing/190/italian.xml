@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Part-Camera-190</meta:title>
+    <meta:date value="2015-11-12" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Kameramontering
+    </product:name>
+    <product:longdesc>
+      <para>
+	    I materiali di plastica dello schermo LCD, i coperchi e gli accessori sono componenti estetici sostitutivi per notebook. I materiali di plastica dello schermo LCD, i coperchi e gli accessori includono il coperchio dello schermo LCD, il pannello frontale e le guarnizioni in gomma. Per la maggior parte di questi prodotti si tratta di soluzioni semplici e immediate, come illustrato nell'immagine. Tenere presente che per i coperchi dello schermo LCD è importante conoscere le dimensioni dello schermo e il modello del notebook. Gli schermi e i coperchi LCD sono disponibili in varie dimensioni. Analogamente, le guarnizioni in gomma sono disponibili in diverse dimensioni e stili in base al computer.
+	  </para>
+	  <para>
+	  Per semplificare la scelta dei giusti componenti di plastica degli schermi LCD, si consiglia di utilizzare la ricerca del codice di matricola o la funzione di analisi del sistema dello strumento Componenti per i sistemi Dell<tm/>. In questo modo, Dell potrà identificare correttamente i requisiti dello schermo LCD e offrire le soluzioni compatibili.
+	  </para>
+	  <para>
+	   Tenere presente che alcuni dei prodotti sostitutivi Dell vengono forniti come kit o assiemi. Questi kit possono contenere parti aggiuntive richieste per l'installazione. Nel caso in cui un prodotto non sia venduto come kit o assieme, potrebbe richiedere parti complementari per semplificare l'installazione.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garanzia hardware limitata Dell copre i difetti di materiali e lavorazione per i prodotti hardware a marchio Dell. 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<point>
+	Componenti estetici sostitutivi per notebook
+	</point>
+	
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di prodotto">
+	   <textbox value="Assieme fotocamera" id="1"/> 
+	     </product:techspec>
+	    <product:techspec id="2" name="Caratteristiche">
+	   <textbox value="Componenti estetici per notebook" id="2"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

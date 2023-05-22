@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Part-Camera-190</meta:title>
+    <meta:date value="2015-11-12" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> ensemble de caméra
+    </product:name>
+    <product:longdesc>
+      <para>
+       Les couvercles en plastique pour écran ACL, les couvercles et les accessoires sont des composants esthétiques de remplacement pour les portables. Les couvercles en plastique pour écran ACL, les couvercles et les accessoires comprennent le couvercle d’écran ACL, le cadre et les amortisseurs en caoutchouc. La plupart de ces produits sont identiques à leur image. Veuillez noter que pour les couvercles d’écran ACL, il est important de connaître la taille de votre écran ACL et le modèle de votre portable. Les couvercles d’écran ACL sont offerts en différents formats. Les amortisseurs en caoutchouc pour ordinateurs peuvent également être offerts en différentes tailles et différents modèles.
+	  </para>
+	  <para>
+	   Pour vous aider à choisir le bon couvercle en plastique pour écran ACL, nous vous recommandons d’utiliser la fonction Recherche de l’étiquette de service ou la fonction Analyser mon système de l’outil Composantes de votre Dell. Cela nous permettra de cerner correctement vos besoins en matière de couvercle en plastique pour écran ACL et d’offrir des solutions compatibles.
+	  </para>
+	  <para>
+	    Veuillez noter que certains de nos produits de remplacement sont offerts sous forme de trousses ou d’ensembles. Ces trousses peuvent contenir des pièces supplémentaires nécessaires à l’installation. Si un produit n’est pas vendu sous forme de trousse ou d’ensemble, des pièces complémentaires peuvent être nécessaires afin de faciliter l’installation.
+	  </para>
+	  <para>
+	   <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Cette garantie limitée sur le matériel couvre les défauts de matériel ou de fabrication de vos produits de marque Dell.
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<point>
+	Sert de composant esthétique de remplacement pour les portables.
+	</point>
+	
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+	   <textbox value="ensemble de caméra" id="1"/> 
+	     </product:techspec>
+	    <product:techspec id="2" name="Caractéristiques">
+	   <textbox value="Composants esthétiques pour les portables" id="2"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
