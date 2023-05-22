@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+      <meta:title>Adapter for USFF AC Adapter</meta:title>
+    <meta:date value="2023-5-15" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin <textbox value="130" refid="1"/> watin verkkolaite ja <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> virtajohto - <textbox value="UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Älä kuljeta verkkomuuntajaa kodin ja toimiston välillä. Hanki kannettavaan tietokoneeseen toinen verkkolaite ja pidä toinen verkkolaite toimistolla ja toinen kotona ja matkoilla.
+	  </para>
+	  <para>
+	  <textbox value="130" refid="1"/> watin Dell<tm/>-verkkolaite on suunniteltu kannettavan Dell<tm/> -tietokoneen virransyöttötarpeisiin. 
+	  Verkkolaite tarjoaa tehoa <textbox value="130" refid="1"/> watin, jonka avulla voit samanaikaisesti käyttää järjestelmää ja ladata sen akkua sähköpistorasiasta. Sen mukana toimitetaan <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>-virtajohto.
+	  </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Tehoa <textbox value="130" refid="1"/> watin, riittävästi kannettavan tietokoneen käyttämiseen ja lataamiseen 
+        </point>
+        <point>
+		Mukana toimitetaan <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>-virtajohto 
+        </point>
+        <point>
+        Sisältää kaapelien hallintaa helpottavan kumihihnan sekä virtaliittimen LED-valorenkaan
+        </point>
+      </points>
+	  
+	  <!-- Start of USFF AC Adapter Details -->
+	  <para>
+	  Dellin <textbox value="130" refid="1"/> watin Type-C USFF -verkkolaitteessa käytetään galliumnitridi (GaN) -tekniikkaa, jota on kehitetty yhteistyössä GaN Systems -yhtiön kanssa. 
+	  Silikonipohjaisiin tuotteisiin verrattuna GaN tarjoaa seuraavia etuja:
+	  </para>
+	  
+	  <points>
+	  <point>Voi vähentää virran häviämistä huomattavasti</point>
+	  <point>Erittäin energiatehokas, kuluta vähemmän virtaa ja minimoi kulut</point>
+	  <point>Helposti kannettava, tuotteet yleensä jopa 75 % pienempiä ja kevyempiä</point>
+	  <point>Käytä vähemmän vettä ja tarvitsee vähemmän raaka-aineita valmistusprosessissa</point>
+	  </points>
+	  
+	  <para>
+	  Valmistettu OEM-laatuisista materiaaleista ja komponenteista, ja testattu tarkasti luotettavuuden ja yhteensopivuuden suhteen
+	  </para>
+	  
+	  
+	  
+	   <!-- Start of Compatibility, warranty and quality section -->
+	  <points title="@string(compatibility)">
+	  <point>
+	  Pätevät insinöörit suorittavat aidoille Dell-osille vaativia testejä, jotka varmistavat osien yhteensopivuuden ja luotettavan toiminnan Dell-järjestelmässä.  
+	  </point>
+	  <point>
+	  Jatkuva hyväksyntäprosessimme mahdollistaa uusimman teknologian mukaisen testauksen ja sertifioinnin Dell-järjestelmässä.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell käyttää vain laadukkaita OEM-osia.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Aidot Dell-osat tarkoittavat, että sinun ei tarvitse olla huolissasi järjestelmän laitteistotakuun raukeamisesta. 
+	  </point>
+	  <point>
+	  Muut kuin Dellin osat eivät kuulu takuun piiriin, ja niiden käyttö voi kumota järjestelmän takuun.  
+	  </point>
+	 
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Teknisen tukemme kokeneet asiantuntijat vastaavat kaikkiin Dellin sertifioimiin osiin liittyviin kysymyksiin. 
+	  </point>
+	  <point>
+	  Dell ei tarjoa tukipalveluita muilta toimittajilta ostetuille osille.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Laitetyyppi">
+      Verkkolaite
+      </product:techspec>
+      <product:techspec id="2" name="Teho">
+	  <textbox value="130" id="1"/> watin
+      </product:techspec>
+	  <product:techspec id="3" name="Kaapeli sisältyy toimitukseen">
+	  <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>-Virtajohto
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

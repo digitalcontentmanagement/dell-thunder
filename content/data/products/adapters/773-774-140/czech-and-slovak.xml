@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2015-09-28" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/>W <textbox value="3" refid="2"/>kolíkový napájecí adaptér Dell s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/><textbox value=",UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Napájecí adaptér už nemusíte přenášet mezi domovem a kanceláří. Pořiďte si k notebooku druhý adaptér, jeden nechávejte v kanceláři a s druhým pracujte doma nebo na cestách.
+	  </para>
+	  <para>
+	  Tento <textbox value="130" refid="1"/>W napájecí adaptér značky Dell<tm/> je konstruován tak, aby vyhovoval potřebám vašeho notebooku Dell<tm/>. Tento adaptér, poskytující příkon <textbox value="130" refid="1"/>W, umožňuje práci s počítačem a současné nabíjení baterie z elektrické sítě. Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Nabízí napájení <textbox value="130" refid="1"/>W, postačující k tomu, abyste mohli současně pracovat a nabíjet notebook 
+        </point>
+        <point>
+		Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>. 
+        </point>
+        <point>
+		Má pryžový pásek pro snadnou správu kabelů a prstencovou kontrolku na stejnosměrném konektoru
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Originální součásti značky Dell podstupují přísné zkoušky kvalifikovanými techniky, aby byla zajištěna jejich kompatibilita a spolehlivost v počítačích Dell. 
+	  </point>
+	  <point>
+	  Neustálý proces kvalifikace zajišťuje testování a certifikaci nejnovějších technologických prvků v počítačích Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Společnost Dell používá výhradně kvalitní součásti OEM.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Originální součásti značky Dell znamenají, že si nemusíte dělat starosti obávat o platnost záruky na hardware počítače. 
+	  </point>
+	  <point>
+	  Díly jiných výrobců než společnosti Dell nejsou kryty zárukou a mohou způsobit zrušení platnosti záruky na celý počítač. 
+	  </point>
+	 
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Na jakékoli dotazy k upgradu originálních součástí značky Dell vám odpovědí zkušení pracovníci naší technické podpory 
+	  </point>
+	  <point>
+	  Společnost Dell nepodporuje součásti zakoupené z jiných zdrojů.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Vlastnosti">
+	  <textbox value="3" id="2"/>kolíková zástrčka
+      </product:techspec>
+      <product:techspec id="2" name="Typ zařízení">
+      Napájecí adaptér
+      </product:techspec>
+      <product:techspec id="3" name="Kapacita">
+		<textbox value="130" id="1"/>W
+      </product:techspec>
+	  <product:techspec id="4" name="Kabel součástí dodávky">
+	  Napájecí kabel o délce <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

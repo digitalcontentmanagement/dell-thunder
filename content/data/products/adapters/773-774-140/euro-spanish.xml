@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2015-09-28" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptador de CA de <textbox value="130" refid="1"/>vatios y <textbox value="3" refid="2"/> puntas con cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/><textbox value=",UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Deje de llevar a cuestas el adaptador de CA en las idas y vueltas de casa al trabajo. Obtenga un segundo adaptador de CA para su portátil, así podrá dejar uno en la oficina y usar el otro en su casa o en los viajes.
+	  </para>
+	  <para>
+	  El adaptador de CA de <textbox value="130" refid="1"/>vatios de Dell<tm/> está diseñado especialmente para satisfacer las necesidades de alimentación de su portátil Dell<tm/>. Gracias a sus <textbox value="130" refid="1"/>vatios de potencia, este adaptador permite usar el sistema y cargar su batería de forma simultánea usando tomas de corriente. Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Proporciona una potencia de <textbox value="130" refid="1"/>vatios, suficiente para la alimentación y la carga de su portátil. 
+        </point>
+        <point>
+		Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>. 
+        </point>
+        <point>
+        Dispone de una correa de goma para facilitar el tendido de cables y de un anillo de luz LED en el conector de CC.
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Ingenieros cualificados someten las piezas originales de la marca Dell a rigurosas pruebas para garantizar la fiabilidad y compatibilidad con su sistema Dell. 
+	  </point>
+	  <point>
+	  Nuestro proceso de calificación permite probar y certificar la tecnología más reciente en su sistema Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell utiliza solo componentes de la mejor calidad que suministran los OEM.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Contar con piezas originales de la marca Dell significa que no tendrá que preocuparse por anular la garantía de hardware de su sistema. 
+	  </point>
+	  <point>
+	  Las piezas que no son Dell no están cubiertas y pueden invalidar la garantía del sistema. 
+	  </point>
+	 
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Nuestro experimentado personal del departamento de asistencia técnica está disponible para responder a cualquier pregunta relacionada con la actualización de las piezas originales de la marca Dell. 
+	  </point>
+	  <point>
+	  Dell no cubrirá las piezas adquiridas de otros proveedores.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Características">
+	  Incluye un enchufe de <textbox value="3" id="2"/> puntas
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de dispositivo">
+      Adaptador de CA
+      </product:techspec>
+      <product:techspec id="3" name="Alimentación suministrada">
+	  <textbox value="130" id="1"/>vatios
+      </product:techspec>
+	  <product:techspec id="4" name="Cable incluido">
+	  Cable de alimentación de <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

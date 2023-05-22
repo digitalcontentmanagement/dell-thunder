@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2015-09-28" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/> <textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>watt wisselstroomadapter met voedingskabel van <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Sleep uw wisselstroomadapter niet langer heen en weer tussen huis en kantoor. Schaf een tweede adapter voor uw laptop aan en gebruik er een op kantoor en een thuis of onderweg.
+	  </para>
+	  <para>
+	  De <textbox value="130" refid="1"/>watt wisselstroomadapter van Dell<tm/> is speciaal ontworpen voor de stroombehoeften van uw Dell<tm/> laptop. Met het vermogen van <textbox value="130" refid="1"/>watt kunt u met deze adapter uw systeem via een stopcontact van stroom voorzien en tegelijkertijd de batterij opladen . Wordt geleverd met een voedingskabel van <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  </para>
+	</product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Levert <textbox value="130" refid="1"/>watt wat voldoende is voor uw laptop en om de batterij op te laden 
+        </point>
+        <point>
+		Wordt geleverd met een stroomkabel van <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
+        </point>
+        <point>
+        Uitgerust met een rubberen riem voor eenvoudig kabelbeheer en een led-ring op de gelijkstroomconnector
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Originele onderdelen van Dell ondergaan rigoureuze testen door gekwalificeerde engineers, die zorgen voor compatibiliteit met en betrouwbaarheid in uw Dell systeem  
+	  </point>
+	  <point>
+	  In ons langdurige kwalificatieproces wordt de nieuwste technologie getest op en gecertificeerd voor uw Dell systeem
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell gebruikt uitsluitend hoogwaardige onderdelen van OEM-kwaliteit
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Met originele onderdelen van Dell hoeft u zich geen zorgen te maken over de geldigheid van uw garantie. 
+	  </point>
+	  <point>
+	  Onderdelen die niet van Dell zijn, vallen niet onder de garantie en maken mogelijk de garantie op uw systeem ongeldig.  
+	  </point>
+	 
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Onze ervaren medewerkers van de technische support staan klaar om al uw vragen over uw upgrade met originele onderdelen van Dell te beantwoorden.  
+	  </point>
+	  <point>
+	  Onderdelen die bij andere leveranciers zijn gekocht, worden niet door Dell ondersteund
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Kenmerken">
+	  Inclusief <textbox value="3" id="2"/>-pins stekker
+      </product:techspec>
+      <product:techspec id="2" name="Type apparaat">
+      Wisselstroomadapter
+      </product:techspec>
+      <product:techspec id="3" name="Geleverd vermogen">
+	  <textbox value="130" id="1"/>watt
+      </product:techspec>
+	  <product:techspec id="4" name="Kabel meegeleverd">
+	  Voedingskabel van <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

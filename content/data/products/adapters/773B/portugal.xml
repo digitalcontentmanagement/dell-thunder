@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter for USFF AC Adapter</meta:title>
+    <meta:date value="2023-5-15" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptador CA de <textbox value="130" refid="1"/> watts Dell com cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> - <textbox value="UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Deixe de transportar o adaptador CA entre a casa e o escritório. Adquira outro adaptador CA para o seu computador portátil e guarde um no escritório e outro em casa ou para levar em viagem.
+	  </para>
+	  <para>
+	  O Adaptador CA de <textbox value="130" refid="1"/> watts da Dell<tm/> foi especialmente concebido para satisfazer as necessidades em termos de energia do seu computador portátil Dell<tm/>. 
+	  Equipado com <textbox value="130" refid="1"/> watts de energia, este adaptador permite-lhe trabalhar simultaneamente com o sistema e carregar a respectiva bateria a partir de tomadas de energia eléctrica.
+	  É fornecido com o cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+      </para>
+    </product:longdesc>
+    <!-- Start of Original AC Adapter details-->
+    <product:highlights>
+	  <points>
+        <point>
+		Inclui energia de <textbox value="130" refid="1"/> watts suficiente para alimentar e carregar o seu computador portátil 
+        </point>
+        <point>
+		Fornecido com um cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 
+        </point>
+        <point>
+        Inclui uma tira de borracha para facilitar a gestão do cabo e um anel de luz LED no conector CC
+        </point>
+      </points>
+	  
+	  <!-- Start of USFF AC Adapter Details -->
+	  
+	  <para>O transformador CA USFF Type-C de <textbox value="130" refid="1"/> watts da Dell incorpora tecnologia de nitreto de gálio (GaN), desenvolvida em colaboração com a GaN Systems. 
+	  Em comparação com os produtos baseados em silício, os designs baseados em GaN:</para>
+	  
+	  <points>
+	  <point>Podem reduzir significativamente a perda de energia</point>
+	  <point>São altamente eficientes em termos energéticos, consomem menos energia e minimizam as despesas</point>
+	  <point>São facilmente transportáveis, são normalmente até 75% mais pequenos e mais leves</point>
+	  <point>Utilizam menos água e requerem menos materiais no processo de fabrico</point>
+	  </points>
+	  
+	  <para>São fabricados com materiais e componentes de qualidade superior para OEM e rigorosamente testados quanto à fiabilidade e compatibilidade</para>
+	  
+	  <!-- Start of Compatibility, warranty and quality section -->
+	  <points title="@string(compatibility)">
+	  <point>
+	  As peças originais da Dell são submetidas a testes rigorosos efectuados por engenheiros qualificados para garantir compatibilidade e fiabilidade no seu Sistema Dell. 
+	  </point>
+	  <point>
+	  O nosso processo de qualificação sustentado permite testar e certificar as novidades em tecnologia no seu Sistema Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  A Dell utiliza apenas componentes com uma qualidade ao nível OEM.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/> 
+	  </point>
+	  <point>
+	  Como peças originais da Dell entende-se que não terá de se preocupar com a anulação da sua garantia de hardware do sistema.  
+	  </point>
+	  <point>
+	  As peças que não são da Dell não estão cobertas e poderão anular a garantia do seu sistema. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  A nossa equipa experiente de suporte técnico está disponível para responder a quaisquer questões que possa ter relativamente à actualização das suas peças originais da Dell.  
+	  </point>
+	  <point>
+	  As peças adquiridas junto de outras entidades não serão suportadas pela Dell.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Tipo de dispositivo">
+      Adaptador CA
+      </product:techspec>
+      <product:techspec id="2" name="Energia fornecida">
+	  <textbox value="130" id="1"/> watts
+      </product:techspec>
+	  <product:techspec id="3" name="Cabo incluído">
+	  Cabo de alimentação de <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

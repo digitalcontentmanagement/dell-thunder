@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2015-09-28" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/>  Dell <textbox value="7,4" id="9"/> <textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> adaptateur CA <textbox value="130" refid="1"/>watts avec cordon d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Arrêtez de transporter votre adaptateur CA entre la maison et le bureau. Procurez-vous un second adaptateur CA pour votre ordinateur portable au bureau, et utilisez l’autre à la maison ou en déplacement.
+	  </para>
+	  <para>
+	  L’adaptateur CA <textbox value="130" refid="1"/>watts de Dell<tm/> est spécialement conçu pour répondre aux besoins de votre ordinateur portable Dell<tm/>. Avec une puissance de <textbox value="130" refid="1"/>watts, cet adaptateur vous permet d’exécuter votre système et de charger sa batterie simultanément à partir de prises de courant électriques. Il est fourni avec un cordon d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Offre les <textbox value="130" refid="1"/>watts nécessaires pour alimenter et charger votre ordinateur portable 
+        </point>
+        <point>
+		Fourni avec un cordon d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
+        </point>
+        <point>
+        Équipé d’une sangle en caoutchouc pour faciliter la gestion des câbles et d’un anneau LED lumineux sur le connecteur CC
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Les pièces Dell authentiques sont soumises à des tests rigoureux pratiqués par des ingénieurs qualifiés en vue de garantir la compatibilité et la fiabilité de votre système Dell. 
+	  </point>
+	  <point>
+	  Notre processus continu de qualification nous permet de tester et de certifier les plus récentes innovations technologiques sur votre système Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell n’utilise que des composants OEM de qualité.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Avec les pièces Dell authentiques, vous n’aurez pas à vous inquiéter du risque d’invalidation de la garantie matérielle de votre système.  
+	  </point>
+	  <point>
+	  Les pièces autres que Dell ne sont pas couvertes et peuvent invalider la garantie de votre système.  
+	  </point>
+	 
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Notre équipe de support technique expérimentée est à votre disposition pour répondre à toute question relative à la mise à niveau de vos pièces certifiées Dell.  
+	  </point>
+	  <point>
+	  Les pièces achetées auprès d’autres fournisseurs ne seront pas prises en charge par le support technique Dell.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Fonctionnalités">
+	  Inclut une prise à <textbox value="3" id="2"/> broches
+      </product:techspec>
+      <product:techspec id="2" name="Type d’appareil">
+      Adaptateur CA
+      </product:techspec>
+      <product:techspec id="3" name="Alimentation fournie">
+	  <textbox value="130" id="1"/>watts
+      </product:techspec>
+	  <product:techspec id="4" name="Câble inclus">
+	  Cordon d’alimentation de <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2023-5-15" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>-Watt <textbox value="3" refid="2"/> AC-adapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> netledning - <textbox value="UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Undgå at slæbe din AC-adapter frem og tilbage mellem hjem og kontor. Få en ekstra strømadapter til din bærbare computer, og opbevar en på kontoret og en til hjemmet eller rejsen.
+	  </para>
+	  <para>
+	  <textbox value="130" refid="1"/>-Watt AC-adapter fra Dell<tm/> er specielt strømkravene for din bærbare Dell<tm/> – pc. Med <textbox value="130" refid="1"/>-Watt strøm giver denne adapter dig mulighed for at betjene dit system og oplade batteriet via stikkontakter samtidigt. Den leveres med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> netledning.
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Giver din bærbare computer <textbox value="130" refid="1"/>-Watt tilstrækkelig strøm og opladning 
+        </point>
+        <point>
+		Leveres sammen med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> netledning 
+        </point>
+        <point>
+        Med en gummistrop til nem kabelhåndtering og en LED-indikatorring på DC-stikket
+        </point>
+      </points>
+	  <para>
+	  Dell <textbox value="130" refid="1"/>-Watt Type-C USFF-vekselsstrømsadapteren inkorporerer galliumnitridteknologi (GaN), der er udviklet i samarbejde med GaN Systems. Sammenlignet med siliciumbaserede produkter – GaN-baserede designs:
+	  </para>
+	  <points>
+	  <point>
+	  Kan i høj grad reducere strømtab
+	  </point>
+	  <point>
+	  Meget energieffektiv, bruger mindre strøm og minimerer udgifterne
+	  </point>
+	  <point>
+	  Nem at transportere – er typisk op til 75 % mindre og lettere
+	  </point>
+	  <point>
+	  Bruger mindre vand og færre materialer i fremstillingsprocessen
+	  </point>
+	  </points>
+	  <para>Lavet i de bedste materialer og komponenter i OEM-kvalitet, og testet for pålidelighed og kompatibilitet</para>
+	  
+	  <!-- Start of Compatibility, warranty and quality section -->
+	  <points title="@string(compatibility)">
+	  <point>
+	  Originale Dell-dele er underlagt grundige tests af kvalificerede teknikere for at sikre kompatibilitet og pålidelighed i dit Dell-system. 
+	  </point>
+	  <point>
+	  Med opretholdelsen af vores kvalifikationsproces kan vi teste og certificere den nyeste teknologi i dit Dell-system.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell bruger kun kvalitetskomponenter i OEM-klassen.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Originale Dell-dele betyder, at du ikke behøver at bekymre dig om at bryde systemets hardwaregaranti.  
+	  </point>
+	  <point>
+	  Ikke-Dell-dele er ikke dækket af garantien og kan ophæve systemgarantien. 
+	  </point>
+	
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Vores erfarne tekniske supportmedarbejdere står til rådighed for at besvare eventuelle spørgsmål vedrørende din opgradering med originale Dell-dele. 
+	  </point>
+	  <point>
+	  Dell yder ikke support til dele købt hos andre kilder.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+     
+      <product:techspec id="1" name="Enhedstype">
+      AC-adapter
+      </product:techspec>
+      <product:techspec id="2" name="Strømforsyning">
+	  <textbox value="130" id="1"/>-Watt
+      </product:techspec>
+	  <product:techspec id="3" name="kabel medfølger">
+      <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> netledning
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

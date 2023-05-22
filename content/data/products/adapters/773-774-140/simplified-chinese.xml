@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2015-09-28" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔<textbox value="130" refid="1"/>瓦 <textbox value="3" refid="2"/>插脚交流电源适配器，随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 电源线<textbox value=",UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  别再随身携带您的交流电源适配器，在家和办公室之间来回奔波了。 为您的笔记本电脑配备第二个交流电源适配器，一个留在办公室，一个放在家中或在路途中使用。
+	  </para>
+	  <para>
+	  这款Dell<tm/> <textbox value="130" refid="1"/>瓦交流电源适配器专为满足您的Dell<tm/>笔记本电脑的电源需求而设计。 这款适配器输出功率为<textbox value="130" refid="1"/>瓦，让您可以在操作系统的同时，通过电源插座为电池充电。 该适配器随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>电源线。
+	  </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		输出功率可达<textbox value="130" refid="1"/>瓦，足以为笔记本电脑供电或为电池充电 
+        </point>
+        <point>
+		随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>电源线 
+        </point>
+        <point>
+        提供橡胶带，可轻松进行线缆管理；直流电插头上配有LED指示灯
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  正品戴尔部件经过有资质的工程师的严格测试，以确保在戴尔系统中的兼容性和可靠性。 
+	  </point>
+	  <point>
+	  我们持续推进的资质评定流程可以测试并认证戴尔系统上的最新技术。
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  戴尔只使用OEM级的高品质组件。
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  正品戴尔部件意味着您将不用担心您系统的硬件保修会失效。 
+	  </point>
+	  <point>
+	  非戴尔部件不在保修范围内，而且可能会使您的系统保修失效。  
+	  </point>
+	  
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  我们经验丰富的技术支持人员可随时解答与正品戴尔部件升级相关的任何问题。  
+	  </point>
+	  <point>
+	  戴尔不为从别处购买的部件提供支持服务。
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="特性">
+	  随附<textbox value="3" id="2"/>脚插头
+      </product:techspec>
+      <product:techspec id="2" name="设备类型">
+      交流电源适配器
+      </product:techspec>
+      <product:techspec id="3" name="提供的电力">
+	  <textbox value="130" id="1"/>瓦
+      </product:techspec>
+	  <product:techspec id="4" name="随附电缆">
+      <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>电源线
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

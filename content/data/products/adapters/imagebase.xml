@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="adapters">
+
+     
+	
+	   <image:folder name="225">
+	   
+    <image:image name="318-2386r1">  
+      <image:location>318-2386r1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>DELL WIRELESS 5804 LTE/4G MOBILE BROADBAND</image:description>
+      <image:caption>DELL WIRELESS 5804 LTE/4G MOBILE BROADBAND</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>	
+	
+	 </image:folder>
+	 
+	 
+	<image:folder name="773-774-140">
+	
+    <image:image name="450-AEGJ">
+      <image:location>450-AEGJ</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Adapter</image:description>
+      <image:caption>Dell Adapter</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+    <image:image name="450-AFJE_otherview2">
+      <image:location>450-AFJE_otherview2</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Adapter</image:description>
+      <image:caption>Dell Slim Adapter (barrel 7,4mm)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+    <image:image name="450-AFJG">
+      <image:location>450-AFJG</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Adapter</image:description>
+      <image:caption>Dell Slim Adapter with dongle</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+    <image:image name="492-BBQH">
+      <image:location>492-BBQH</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Adapter</image:description>
+      <image:caption>Dell UK 45W Adapter</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+    <image:image name="Original">
+      <image:location>Original</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Adapter</image:description>
+      <image:caption>Dell Adapter</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="450-AECJ_V1">
+      <image:location>450-AECJ_V1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Swiss 65-Watt AC Adapter with Power Cord </image:description>
+      <image:caption>Dell Swiss 65-Watt AC Adapter with Power Cord </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="450-AECN">
+      <image:location>450-AECN</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell South African 65-Watt AC Adapter with Power Cord  </image:description>
+      <image:caption>Dell South African 65-Watt AC Adapter with Power Cord  </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="450-AECO">
+      <image:location>450-AECO</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell UK/Irish 65-Watt 3-Prong AC Adapter Power Cord  </image:description>
+      <image:caption>Dell UK/Irish 65-Watt 3-Prong AC Adapter Power Cord  </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="492-BBQV_v2">
+      <image:location>492-BBQV_v2</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Italian 45-Watt 3-Prong AC Adapter with Power Cord </image:description>
+      <image:caption>Dell Italian 45-Watt 3-Prong AC Adapter with Power Cord </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="331-7957r1">  
+      <image:location>331-7957r1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Adapter</image:description>
+      <image:caption>Dell 3-Prong Adapter</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="450-19181r1">
+      <image:location>450-19181r1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Adapter</image:description>
+      <image:caption>Dell 3-Prong Adapter</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="450-AGOL">
+      <image:location>450-AGOL</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 65W Type-C AC Adapter</image:description>
+      <image:caption>E5 65W Type-C AC Adapter</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 </image:folder>
+    <!-- Start of subclasses -->
+    <!--<image:folder name="225">
+      <image:image name="450-AEGJ">
+        <image:location>450-AEGJ</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <<image:description>This is Dell Product</image:description>
+        <image:caption>Dell 3-Prong Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>
+    
+    <image:folder name="773-774-140">
+      <image:image name="450-AFJG">
+        <image:location>450-AFJG</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <image:description>This is Dell Product</image:description>
+        <image:caption>Dell Slim Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>-->
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>
