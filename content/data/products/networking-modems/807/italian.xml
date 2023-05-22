@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Modem</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> modem <textbox value="USB" refid="2"/> esterno a <textbox value="56" refid="1"/> Kb/s
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Il modem <textbox value="USB" refid="2"/> Esterno <textbox value="56" refid="1"/> Kbps di Dell<tm/> coniuga prestazioni ottimizzate e affidabilità. Questo dispositivo ti consente di inviare rapidamente e-mail e allegati e di navigare sul Web. Con questo modem Esterno esterno puoi usufruire di accesso immediato e ininterrotto a Internet, in qualsiasi momento. Il prodotto è stato testato e convalidato su sistemi Dell. Se utilizzato con un sistema Dell prevede il supporto tecnico Dell.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Consente di inviare e-mail e allegati, navigare sul Web 
+        </point>
+        <point>
+		  Offre velocità di trasferimento dati fino a <textbox value="56" refid="1"/> Kbps
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Velocità di trasferimento dati">
+		<textbox value="56" id="1"/> Kbps
+      </product:techspec>
+      <product:techspec id="2" name="Tipo di dispositivo">
+		Modem
+      </product:techspec>
+	  <product:techspec id="3" name="Tipo di interfaccia">
+		<textbox value="USB" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

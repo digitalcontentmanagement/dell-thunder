@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2015-09-21" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     Dell <textbox value="6" refid="2"/>-cell <textbox value="65" refid="1"/> Wh Lithium Ion Replacement Battery for Select Laptops
+    </product:name>
+    
+	<product:longdesc>
+      <para>
+		Always on the go? No more worries about running out of battery power! You can power your Laptop with this <textbox value="6" refid="2"/>-cell Lithium Ion Battery from Dell<tm/>. 
+		With a capacity of up to <textbox value="65" refid="1"/> Wh, the battery lets your laptop work seamlessly when you are on the move.
+		</para>
+		 
+		  <!-- KSP for US filter only-->
+		  <para filter="'$(locale.region)' $in$ ['us']">
+		   <points>
+		<point>
+		Provides <textbox value="65" refid="1"/> Wh capacity 
+		</point>
+		<point>
+		Offers reliable power for dependable performance
+		</point>
+	  </points>
+	 
+	 <points title="@string(compatibility)">
+		<point>
+		Genuine Dell-branded parts undergo rigorous testing by qualified engineers to ensure compatibility and reliability in your Dell system. 
+		</point>
+		<point>
+		Our sustaining qualification process allows for testing and certification of the newest technology on your Dell system.
+		</point>
+	  </points>
+	  <points title="@string(quality)">
+		<point>
+		Dell uses only OEM grade quality components.
+		</point>
+	  </points>
+	 
+	 <points title="@string(warranty)">
+		
+		<point>
+		<stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']"/>  
+		</point>
+		
+		<point>
+		Genuine Dell-branded parts mean that you will not need to worry about voiding your system’s hardware warranty. 
+		</point>
+		<point>
+		Non-Dell parts are not covered and may void your system warranty.  
+		</point>
+		<point>
+		 <para filter="'$(locale.region)' $in$ ['us']">
+		For more information about warranties,please click here: <link ref="http://www.dell.com/learn/us/en/uscorp1/terms-of-sale-commercial-and-public-sector-returns?c=us&amp;l=en&amp;s=corp">www.dell.com/warranty</link>
+		</para>
+		</point>
+	  
+	  </points>
+	  
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  This product requires removal of the back cover of the system. Find instructions for battery removal and installation in your system’s service manual. 
+	  Service manuals can be found using your service tag number or model name on the <link ref="https://www.dell.com/support/home/en-us"> Dell Support Home Page.</link>
+	  
+	  </point>
+		<point>
+		Our experienced technical support staff is available to answer any questions regarding your genuine Dell-branded parts upgrade. 
+		</point>
+		<point>
+		Parts purchased from other sources will not be supported by Dell.
+		</point>
+	  </points>
+		 </para>
+		 </product:longdesc>
+		  
+	<product:highlights>
+	<!-- KSP available only for APJ,EMEA,CA and LA only -->
+	
+	<points filter="'$(locale.region)' $in$ ['apj','emea', 'ca', 'la']">
+	
+		<point>
+		
+		Provides <textbox value="65" refid="1"/> Wh capacity 
+		</point>
+		<point>
+		Offers reliable power for dependable performance
+		</point>
+	  </points>
+	 
+	 <!-- KSP for Compatibility-->
+	 <points title="@string(compatibility)" filter="'$(locale.region)' $in$ ['apj','emea', 'ca', 'la']">
+		<point>
+		Genuine Dell-branded parts undergo rigorous testing by qualified engineers to ensure compatibility and reliability in your Dell system. 
+		</point>
+		<point>
+		Our sustaining qualification process allows for testing and certification of the newest technology on your Dell system.
+		</point>
+	  </points>
+	  
+	  <!-- KSP for Quality-->
+	  <points title="@string(quality)" filter="'$(locale.region)' $in$ ['apj','emea', 'ca', 'la']">
+		<point>
+		Dell uses only OEM grade quality components.
+		</point>
+	  </points>
+
+	  <!-- KSP for Warranty-->
+	 <points title="@string(warranty)" filter="'$(locale.region)' $in$ ['apj','emea', 'ca', 'la']">
+		
+		<point>
+		<stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']"/>    
+		</point>
+		
+		<point>
+		Genuine Dell-branded parts mean that you will not need to worry about voiding your system’s hardware warranty. 
+		</point>
+		<point>
+		Non-Dell parts are not covered and may void your system warranty.  
+		</point>
+		
+	  </points>
+	  
+	   <!-- KSP for Technical Support-->
+	   <points title="@string(technicalsupport)" filter="'$(locale.region)' $in$ ['apj','emea', 'ca', 'la']">
+		
+		<point>
+		Our experienced technical support staff is available to answer any questions regarding your genuine Dell-branded parts upgrade. 
+		</point>
+		<point>
+		Parts purchased from other sources will not be supported by Dell.
+		</point>
+	  </points>
+
+	  </product:highlights>
+
+   
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Power Provided">
+      <textbox value="65" id="1"/> Wh
+      </product:techspec>
+      <product:techspec id="2" name="Product Type">
+       Battery
+      </product:techspec>
+	   <product:techspec id="3" name="Technology">
+      <textbox value="6" id="2"/>-cell Lithium Ion Battery
+      </product:techspec>
+	   <product:techspec id="4" name="Type">
+       <dropdownlist id="battery-type"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

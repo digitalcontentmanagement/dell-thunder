@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Modem</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="56" refid="1"/> Kbps 外置<textbox value="USB" refid="2"/>调制解调器
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Dell<tm/>提供的 <textbox value="56" refid="1"/> Kbps 外置<textbox value="USB" refid="2"/>调制解调器兼具更强的性能与更高的可靠性。 借助该设备，您可以快速发送电子邮件和附件，还可以上网冲浪。 这款外置调制解调器将使您始终能够即时、不间断地访问互联网。 本产品已在戴尔系统上经过测试和验证。 如与戴尔系统搭配使用，您还可享受戴尔技术支持服务。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          可让您发送电子邮件和附件，以及上网冲浪  
+        </point>
+        <point>
+		  提供高达<textbox value="56" refid="1"/> Kbps的数据传输速率
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="数据传输速率">
+		<textbox value="56" id="1"/> Kbps
+      </product:techspec>
+      <product:techspec id="2" name="设备类型">
+		调制解调器
+      </product:techspec>
+	  <product:techspec id="3" name="接口类型">
+		<textbox value="USB" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

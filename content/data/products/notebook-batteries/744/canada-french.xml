@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2015-09-21" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+       Batterie de remplacement au lithium ion Dell de <textbox value="6" refid="2"/> cellules à <textbox value="65" refid="1"/> Wh pour certains ordinateurs portables
+    </product:name>
+    <product:longdesc>
+      <para>
+        Toujours sur la route? Plus de soucis de batterie déchargée! Vous pouvez alimenter votre portable avec cette batterie au lithium ion à <textbox value="6" refid="2"/> cellules de Dell<TM/>. Grâce à sa capacité pouvant atteindre <textbox value="65" refid="1"/> Wh, cette batterie permet à votre portable de travailler sans interruption lorsque vous êtes sur la route.
+      </para>
+    </product:longdesc>
+    <product:highlights>
+      <points>
+        <point>
+          Fournit une capacité de <textbox value="65" refid="1"/> Wh
+        </point>
+        <point>
+          Cette batterie fournit une alimentation fiable pour assurer une performance fiable
+        </point>
+      </points>
+	  
+	   <!-- Compatibility -->
+      <points title="@string(compatibility)">
+        <point>
+          Les pièces certifiées Dell font l’objet d’essais rigoureux exécutés par des ingénieurs qualifiés pour assurer leur fiabilité et leur compatibilité avec votre système Dell.
+        </point>
+        <point>
+          Notre processus de qualification continu permet l’essai et la certification des technologies les plus récentes sur votre système Dell.
+        </point>
+		
+		 <!-- Quality-->
+      </points>
+      <points title="@string(quality)">
+        <point>
+          Dell utilise uniquement des composants OEM de qualité.
+        </point>
+      </points>
+       <!-- Warranty Section-->
+	  <points title="@string(warranty)">
+
+        <point>
+         <stringlookup ref="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']"/>  
+        </point>
+        <point>
+          L’utilisation de pièces authentiques de marque Dell signifie que vous n’avez pas à vous inquiéter de l’annulation de votre garantie sur le matériel.
+        </point>
+        <point>
+          Les pièces de marques autres que Dell ne sont pas couvertes et pourraient annuler la garantie sur votre système.
+        </point>
+		<point>
+		Pour en savoir plus sur les garanties, cliquez ici: <link ref="https://www.dell.com/learn/ca/fr/cacorp1/terms-of-sale-consumer-service-contracts">www.dell.com/warranty</link>
+         </point>
+		 
+      </points>
+	  <!-- Technical Support -->
+      <points title="@string(technicalsupport)">
+	  <point>
+	  Ce produit nécessite le retrait du panneau arrière du système. Trouvez des instructions pour le retrait et l’installation de la batterie dans le manuel d’entretien de votre système. 
+	  Vous trouverez les manuels d’entretien sur la <link ref="https://www.dell.com/support/home/fr-ca">page d’accueil de l’assistance technique Dell</link> en utilisant le numéro d’étiquette de service ou le nom du modèle.
+	  </point>
+        <point>
+          Notre personnel du soutien technique demeure à votre disposition pour répondre à vos questions sur la mise à niveau avec les pièces certifiées Dell.
+        </point>
+        <point>
+          Les pièces achetées auprès d’autres sources ne sont pas prises en charge par Dell.
+        </point>
+      </points>
+
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Puissance fournie">
+        <textbox value="65" id="1"/> Wh
+      </product:techspec>
+      <product:techspec id="2" name="Type de produit">
+        Batterie
+      </product:techspec>
+      <product:techspec id="3" name="Technologie">
+        Batterie au lithium ion à <textbox value="6" id="2"/> cellules
+      </product:techspec>
+      <product:techspec id="4" name="Type">
+        <dropdownlist id="battery-type"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

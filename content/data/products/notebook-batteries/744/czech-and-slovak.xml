@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2015-09-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     Náhradní <textbox value="6" refid="2"/>článková <textbox value="65" refid="1"/> Wh lithium iontová baterie Dell pro vybrané notebooky
+	
+	</product:name>
+    <product:longdesc>
+      <para>
+		Stále cestujete? Už si nemusíte dělat starosti s omezenou výdrží baterií! Svůj notebook můžete napájet touto <textbox value="6" refid="2"/>článkovou lithium iontová baterie Dell<tm/>. Díky kapacitě až <textbox value="65" refid="1"/> Wh vám baterie umožní bezproblémovou práci na cestách.
+		</para>
+		</product:longdesc>
+	  <product:highlights>
+	   <points>
+	  <point>
+	  Poskytuje kapacitu <textbox value="65" refid="1"/> Wh
+	  </point>
+	  <point>
+	  Spolehlivé napájení pro potřebný výkon
+	  </point>
+	  </points>
+	  <points title="@string(compatibility)">
+	  <point>
+		Originální součásti značky Dell podstupují přísné zkoušky kvalifikovanými techniky, aby byla zajištěna jejich kompatibilita a spolehlivost v počítačích Dell. 
+	  </point>
+	  <point>
+		Neustálý proces kvalifikace zajišťuje testování a certifikaci nejnovějších technologických prvků v počítačích Dell.
+	  </point>
+	   </points>
+	  <points title="@string(quality)">
+	 
+	  <point>
+	  Společnost Dell používá výhradně kvalitní součásti OEM.
+	  </point>
+	  </points>
+	<points title="@string(warranty)">
+	  
+	  <point>
+		<stringlookup ref="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']"/>  
+	  </point>
+	  <point>
+	 Originální součásti značky Dell znamenají, že si nemusíte dělat starosti obávat o platnost záruky na hardware počítače. 
+	   </point>
+	   <point>
+	  Díly jiných výrobců než společnosti Dell nejsou kryty zárukou a mohou způsobit zrušení platnosti záruky na celý počítač. 
+	   </point>
+
+	  </points>
+		<points title="@string(technicalsupport)">
+	  <point>
+		Na jakékoli dotazy k upgradu originálních součástí značky Dell vám odpovědí zkušení pracovníci naší technické podpory 
+	  </point>
+	  <point>
+		Společnost Dell nepodporuje součásti zakoupené z jiných zdrojů.
+	  </point>
+	  </points>
+	  
+	 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Kapacita ">
+      <textbox value="65" id="1"/> Wh
+      </product:techspec>
+      <product:techspec id="2" name="Typ produktu ">
+       Baterie
+      </product:techspec>
+	   <product:techspec id="3" name="Technologie">
+      <textbox value="6" id="2"/>článková lithium iontová baterie
+      </product:techspec>
+	   <product:techspec id="4" name="Typ">
+      <dropdownlist id="battery-type"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

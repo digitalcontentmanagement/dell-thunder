@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2015-09-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+    一部のノートパソコン用Dell <textbox value="6" refid="2"/>セル <textbox value="65" refid="1"/> Wh リチウムイオン交換用バッテリー
+    </product:name>
+    <product:longdesc>
+      <para>
+		活動的なモバイルユーザーの方も、 もう、バッテリの残量を心配する必要はありません。 お使いのノートブックPCで、このデル™の <textbox value="6" refid="2"/>セル リチウムイオンバッテリをご利用ください。 最大容量 <textbox value="65" refid="1"/> Wh のバッテリがあれば、外出先でもノートパソコンを使用して作業を円滑に進めることができます。
+		</para>
+	 </product:longdesc>
+	<product:highlights>
+	 <points>
+	  <point>
+	  <textbox value="65" refid="1"/> Wh の容量を提供 
+	  </point>
+	  <point>
+	  確実な電力供給で、信頼できるパフォーマンスを実現
+	  </point>
+	  </points>
+	  <points title="@string(compatibility)">
+	  <point>
+		正規のデル製パーツは、資格を持ったエンジニアが厳しいテストを行い、お客様のデル製システムの互換性と信頼性を確保します。 
+	  </point>
+	  <point>
+		デルの継続的な適正確認プロセスにより、デル製システムに搭載された最新技術のテストおよび認証が可能です。
+	  </point>
+	   </points>
+	   <points title="@string(quality)">
+	  <point>
+		デルは、OEMグレードの高品質なコンポーネントだけを使用しています。
+		</point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+		 	<stringlookup ref="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']"/>    
+	  </point>
+	  <point>
+		正規のデル製パーツであれば、システムのハードウェア保証が無効になる心配はありません。 
+	  </point>
+	   <point>
+		非デル製パーツは保証の対象外のため、システムの保証が適用されない場合があります。 
+	  </point>
+	  
+	  </points>
+	 <points title="@string(technicalsupport)">
+	  <point>
+		デルの経験豊富なテクニカルサポートスタッフが、正規のデル製パーツのアップグレードに関する質問に対応します。 
+	  </point>
+	  <point>
+	  デル製以外のパーツのサポートは行っておりません。
+	  </point>
+	  </points>
+	  
+	 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="提供電源">
+      <textbox value="65" id="1"/> Wh
+      </product:techspec>
+      <product:techspec id="2" name="製品タイプ">
+       バッテリ
+      </product:techspec>
+	   <product:techspec id="3" name="テクノロジー">
+      <textbox value="6" id="2"/> セルリチウムイオンバッテリ
+      </product:techspec>
+	   <product:techspec id="4" name="タイプ">
+      <dropdownlist id="battery-type"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

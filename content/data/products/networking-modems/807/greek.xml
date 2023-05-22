@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Modem</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="56" refid="1"/> Kbps Εξωτερικό <textbox value="USB" refid="2"/> Μόντεμ
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Το μόντεμ <textbox value="56" refid="1"/> Kbps Εξωτερικό <textbox value="USB" refid="2"/> της Dell<tm/> συνδυάζει βελτιωμένη απόδοση και αξιοπιστία. Η συσκευή σας επιτρέπει να στέλνετε με ταχύτητα email και συνημμένα, και να περιηγηθείτε στο Web. Αυτό το Εξωτερικό εξωτερικό μόντεμ θα σας επιτρέψει να έχετε άμεση και αδιάλειπτη πρόσβαση στο internet ανά πάσα στιγμή. Αυτό το προϊόν έχει δοκιμαστεί και πιστοποιηθεί σε συστήματα Dell. Όταν χρησιμοποιείται με σύστημα Dell, υποστηρίζεται από την τεχνική υποστήριξη της Dell.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Σας επιτρέπει να στέλνετε email και συνημμένα, και να περιηγείστε στο Web 
+        </point>
+        <point>
+		  Προσφέρει ρυθμό μεταφοράς δεδομένων έως <textbox value="56" refid="1"/> Kbps
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Ρυθμός μεταφοράς δεδομένων">
+		<textbox value="56" id="1"/> Kbps
+      </product:techspec>
+      <product:techspec id="2" name="Τύπος συσκευής">
+		Μόντεμ
+      </product:techspec>
+	  <product:techspec id="3" name="Τύπος διασύνδεσης">
+		<textbox value="USB" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

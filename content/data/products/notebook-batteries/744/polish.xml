@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2015-09-21" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <textbox value="6" refid="2"/>-ogniwowa bateria litowo jonowa Dell <textbox value="65" refid="1"/> Wh do wybranych notebooków
+    </product:name>
+    <product:longdesc>
+      <para>
+		Ciągle w drodze? Nie musisz się już martwić, czy akumulator wytrzyma! Na notebooku możesz pracować, korzystając z akumulatora litowo jonowego <textbox value="6" refid="2"/>-ogniwowa firmy Dell<tm/>. Pojemność do <textbox value="65" refid="1"/> Wh wystarczy, aby notebook zachował pełną sprawność przez cały czas podróży.
+		</para>
+		</product:longdesc>
+	<product:highlights>
+	  <points>
+	  <point>
+	  Pojemność <textbox value="65" refid="1"/> Wh 
+	  </point>
+	  <point>
+	  Zapewnia niezawodne zasilanie, umożliwiając bezproblemowe korzystanie z komputera
+	  </point>
+	  </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	   Oryginalne części marki Dell przechodzą rygorystyczne testy, które prowadzą wykwalifikowani inżynierowie, w celu zapewnienia zgodności i niezawodności działania w komputerze firmy Dell. 
+	  </point>
+	  <point>
+	   Nasz proces kwalifikacyjny umożliwia testowanie i certyfikowanie najnowszych osiągnięć technologii w systemie firmy Dell.
+	  </point>
+	   </points>
+		<points title="@string(quality)">
+	  <point>
+	   Firma Dell używa podzespołów klasy OEM o wysokiej jakości.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	   <stringlookup ref="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']"/>  
+	  </point>
+	  
+	  <point>
+	   Stosując oryginalne części marki Dell, nie trzeba obawiać się o ważność gwarancji na sprzęt. 
+	  </point>
+	   <point>
+	   Części innych firm niż Dell nie są objęte gwarancją i mogą unieważnić gwarancję na system. 
+	  </point>
+	  </points>
+	 <points title="@string(technicalsupport)">
+	  <point>
+	   Nasi doświadczeni pracownicy działu pomocy technicznej odpowiedzą na wszystkie pytania dotyczące rozbudowy z zastosowaniem oryginalnych części marki Dell. 
+	  </point>
+	  <point>
+	   Części zakupione z innych źródeł nie są objęte pomocą firmy Dell.
+	  </point>
+	  </points>
+	
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Dostarczana moc">
+      <textbox value="65" id="1"/> Wh 
+      </product:techspec>
+      <product:techspec id="2" name="Rodzaj produktu">
+       Akumulator
+      </product:techspec>
+	   <product:techspec id="3" name="Technology">
+      <textbox value="6" id="2"/>-ogniwowa akumulator litowo jonowy
+      </product:techspec>
+	   <product:techspec id="4" name="Typ">
+      <dropdownlist id="battery-type"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

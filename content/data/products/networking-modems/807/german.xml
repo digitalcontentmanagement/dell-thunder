@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Modem</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="USB" refid="2"/> <textbox value="56" refid="1"/>-Kbit/s-externes-Modem
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Das <textbox value="56" refid="1"/> Kbit/s Extern <textbox value="USB" refid="2"/> Modem von Dell<tm/> vereint erstklassige Leistung mit Zuverlässigkeit. Mit dem Gerät können Sie schnell E-Mails und Anhänge senden und im Internet surfen. Dieses Extern Modem ermöglicht Ihnen jederzeit sofortigen und uneingeschränkten Zugriff auf das Internet. Dieses Produkt wurde für die Nutzung mit Dell Systemen getestet und geprüft. Wenn Sie das Produkt mit einem Dell System nutzen, ist der technische Support von Dell verfügbar.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Ermöglicht Ihnen, E-Mails und Anhänge zu senden und im Internet zu surfen 
+        </point>
+        <point>
+		  Bietet eine Datentransferrate von bis zu <textbox value="56" refid="1"/> Kbit/s
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Datenübertragungsrate">
+		<textbox value="56" id="1"/> Kbit/s
+      </product:techspec>
+      <product:techspec id="2" name="Gerätetyp">
+		Modem
+      </product:techspec>
+	  <product:techspec id="3" name="Schnittstellentyp">
+		<textbox value="USB" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

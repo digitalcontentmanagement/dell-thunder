@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2015-09-21" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      Dell Lithium Ionen-Ersatzakku mit <textbox value="6" refid="2"/> Zellen und <textbox value="65" refid="1"/> Wh für ausgewählte Laptops
+    </product:name>
+    <product:longdesc>
+      <para>
+		 Immer unterwegs? Über unzureichende Akkuleistung müssen Sie sich jetzt keine Gedanken mehr machen! Betreiben Sie Ihr Notebook mit diesem <textbox value="6" refid="2"/> Zellen-Lithium Ionen-Akku von Dell<tm/>. Mit einer Kapazität von bis zu <textbox value="65" refid="1"/> Wh können Sie unterwegs so unterbrechungsfrei arbeiten.
+		</para>
+		</product:longdesc>
+	<product:highlights>
+	 <points>
+	  <point>
+	   Bietet <textbox value="65" refid="1"/> Wh
+	  </point>
+	  <point>
+		Sichere Stromversorgung für zuverlässige Leistung
+	  </point>
+	  </points>
+	  <points title="@string(compatibility)">
+	  <point>
+		Originalteile von Dell werden strengen Tests durch qualifizierte Techniker unterzogen, um Kompatibilität und Zuverlässigkeit in Ihrem Dell System sicherzustellen. 
+	  </point>
+	  <point>
+		Durch unseren nachhaltigen Qualifizierungsprozess können die neuesten Technologien in Ihrem Dell System getestet und zertifiziert werden.
+	  </point>
+	   </points>
+	   <points title="@string(quality)">
+	  <point>
+		Dell verwendet nur Komponenten von OEM-Qualität.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+		<stringlookup ref="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']"/>  
+	  </point>
+	  <point>
+		Originalteile von Dell bedeuten, dass Sie sich keine Sorgen zu machen brauchen, den Service für die Hardware Ihres Systems zu verlieren. 
+	  </point>
+	   <point>
+		Bauteile, die nicht von Dell stammen, sind nicht abgedeckt und machen den Service für Ihr System möglicherweise ungültig. 
+	   </point>
+	  </points>
+	 <points title="@string(technicalsupport)">
+	  <point>
+		Unsere erfahrenen Mitarbeiter beim technischen Support beantworten gerne Ihre Fragen zu einem Upgrade auf von Dell zertifizierte Teile. 
+	  </point>
+	  <point>
+		Bei anderen Anbietern erworbene Teile werden von Dell nicht unterstützt.
+	  </point>
+	  </points>
+	   </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Stromversorgung">
+      <textbox value="65" id="1"/> Wh
+      </product:techspec>
+      <product:techspec id="2" name="Produkttyp">
+       Akku
+      </product:techspec>
+	   <product:techspec id="3" name="Technologie">
+      <textbox value="6" id="2"/> Zellen-Lithium Ionen-Akku
+      </product:techspec>
+	   <product:techspec id="4" name="Typ">
+       <dropdownlist id="battery-type"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

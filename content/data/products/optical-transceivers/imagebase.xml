@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="optical-transceivers">
+
+    
+	    <image:image name="407-BBOT">
+      <image:location>407-BBOT</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: SFP-1G-(SK,LX,ZX), SFP-10G-SR,SR-12, SFP-100M-FX,SFP-8GFC-(LWL,ELWL,SWL,LWL) </image:description>
+      <image:caption>Models: SFP-1G-(SK,LX,ZX), SFP-10G-SR,SR-12, SFP-100M-FX,SFP-8GFC-(LWL,ELWL,SWL,LWL) </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  	    <image:image name="QSA28">
+      <image:location>QSA28</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: QSA28</image:description>
+      <image:caption>Models: QSA28</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		    
+	  	    <image:image name="QSFP DAC BREAKOUT">
+      <image:location>QSFP DAC BREAKOUT</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: QSFP+ DAC BREAKOUT</image:description>
+      <image:caption>Models: QSFP+ DAC BREAKOUT</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	   	    <image:image name="QSFP MPO PIGTAIL">
+      <image:location>QSFP MPO PIGTAIL</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: QSFP+ MPO PIGTAIL</image:description>
+      <image:caption>Models: QSFP+ MPO PIGTAIL</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		   	    <image:image name="QSFP">
+      <image:location>QSFP</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: QSFP+</image:description>
+      <image:caption>Models: QSFP+</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		   	    <image:image name="QSFP AOC">
+      <image:location>QSFP AOC</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: QSFP+AOC</image:description>
+      <image:caption>Models: QSFP+AOC</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		   	    <image:image name="QSFP DAC">
+      <image:location>QSFP DAC</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: QSFP+DAC</image:description>
+      <image:caption>Models: QSFP+DAC</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		   	    <image:image name="QSFP DD">
+      <image:location>QSFP DD</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: QSFP-DD</image:description>
+      <image:caption>Models: QSFP-DD</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		   	    <image:image name="SFP RJ45">
+      <image:location>SFP RJ45</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: SFP RJ45</image:description>
+      <image:caption>Models: SFP RJ45</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	    	    <image:image name="SFP DAC">
+      <image:location>SFP DAC</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: SFP+DAC</image:description>
+      <image:caption>Models: SFP+DAC</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </image:folder>
+</image:imagebase>

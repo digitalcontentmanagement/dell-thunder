@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Optical-Transceiver-799</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 <textbox value="SFP+" id="1"/> 光纤收发器 <textbox value="10" id="2"/><textbox value="GBase" id="3"/><textbox value="-LRM" id="4"/>- 波长长达 <textbox value="200" refid="8"/> <dropdownlist id="distance-unit"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Dell<tm/> <textbox value="SFP+" refid="1"/> 收发器可提供光纤连接能力，从而拓展您的网络范围。 这款热插拔收发器具有与SFP（小型可插拔）设备相同的占地空间，采用双工LC接口。 Dell networking 
+	   <textbox value="10" refid="2"/><textbox value="GBase" refid="3"/><textbox value="-LRM" refid="4"/> <textbox value="SFP+" refid="1"/> 收发器具有 <textbox value="10" refid="2"/><textbox value="GbE" id="5"/> 连接能力，波长长达 <textbox value="200" refid="8"/> <dropdownlist refid="distance-unit"/> 
+	  </para>
+	  <para>
+	  另外，它还提供了独特的增强型数字诊断监控界面，可用于实时访问设备操作参数，例如收发器温度、激光偏置电流、所传送的光功率、所接收的光功率以及收发器电源电压。
+	  </para>
+	   
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+        光纤收发器
+      </product:techspec>
+      <product:techspec id="2" name="光纤波长">
+       长达 <textbox value="220" id="6"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

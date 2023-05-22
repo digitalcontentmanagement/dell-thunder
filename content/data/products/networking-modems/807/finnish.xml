@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Modem</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="56" refid="1"/> kb/s Ulkoinen <textbox value="USB" refid="2"/> modeemi
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Dell<tm/> <textbox value="56" refid="1"/> kb/s Ulkoinen <textbox value="USB" refid="2"/> -modeemi on erittäin tehokas ja luotettava. Voit lähettää laitteella nopeasti sähköposteja ja liitteitä sekä surffata verkossa. Voit tämän Ulkoinen -modeemin ansiosta muodostaa yhteyden Internetiin välittömästi ja keskeytyksettä milloin tahansa. Tuote on testattu ja vahvistettu toimivaksi Dell-järjestelmissä. Siihen kuuluu Dellin tekninen tuki, kun sitä käytetään Dell-järjestelmässä.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Voit lähettää nopeasti sähköposteja ja liitteitä sekä surffata verkossa. 
+        </point>
+        <point>
+		  Suurin tiedonsiirtonopeus <textbox value="56" refid="1"/> kb/s
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tiedonsiirtonopeus">
+		<textbox value="56" id="1"/> kb/s
+      </product:techspec>
+      <product:techspec id="2" name="Laitetyyppi">
+		Modeemi
+      </product:techspec>
+	  <product:techspec id="3" name="Käyttöliittymän tyyppi">
+		<textbox value="USB" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Modem</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="56" refid="1"/> kbps Eksternt <textbox value="USB" refid="2"/>-modem
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Det <textbox value="56" refid="1"/> kbps eksterne <textbox value="USB" refid="2"/>-modemet fra Dell<tm/> kombinerer forbedret ytelse og pålitelighet. Med denne enheten kan du raskt sende e-post og vedlegg, og surfe på nettet. Det eksterne modemet gjør at du får umiddelbar og uavbrutt tilgang til Internett til enhver tid. Produktet er testet med og godkjent for Dell-systemer. Produktet dekkes av Dells tekniske kundestøtte når det brukes i et Dell-system.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Lar deg sende e-post og vedlegg, og surfe på nettet 
+        </point>
+        <point>
+		  Gir dataoverføringshastighet på opptil <textbox value="56" refid="1"/> kbps
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Dataoverføringshastighet">
+		<textbox value="56" id="1"/> Kbps
+      </product:techspec>
+      <product:techspec id="2" name="Enhetstype">
+		Modem
+      </product:techspec>
+	  <product:techspec id="3" name="Grensesnittype">
+		<textbox value="USB" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

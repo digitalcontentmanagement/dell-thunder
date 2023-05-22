@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Modem</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="56" refid="1"/> Кбит/с Внешний <textbox value="USB" refid="2"/> Модем Dell 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Модем <textbox value="56" refid="1"/> Кбит/с Внешний <textbox value="USB" refid="2"/> от Dell<tm/> сочетает в себе повышенную производительность и надежность. Это устройство позволяет быстро отправлять сообщения и вложения электронной почты, а также просматривать страницы в Интернете. Кроме того, модем Внешний позволяет получить мгновенный и непрерывный доступ в Интернет в любой момент времени. Данное изделие прошло тестирование и проверку на системах Dell. При использовании изделия с системой Dell на него распространяется услуга технической поддержки Dell. 
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+         Позволяет отправлять сообщения и вложения электронной почты, а также выполнять поиск в Интернете  
+        </point>
+        <point>
+		  Обеспечивает скорость передачи данных до <textbox value="56" refid="1"/> Кбит/с 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name=" Скорость передачи данных ">
+	   	<textbox value="56" id="1"/> Кбит/с 
+      </product:techspec>
+      <product:techspec id="2" name="Тип устройства">
+		Модем
+      </product:techspec>
+	  <product:techspec id="3" name="Интерфейс">
+		<textbox value="USB" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Modem</meta:title>
+    <meta:date value="2015-11-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="56" refid="1"/> kb/s externí modem <textbox value="USB" refid="2"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Tento <textbox value="56" refid="1"/> kb/s Externí <textbox value="USB" refid="2"/> modem značky Dell<tm/> v sobě spojuje vyšší výkon i spolehlivost. Zařízení slouží k rychlému posílání e-mailů a příloh a surfování po webu. Tento Externí modem vám zajistí okamžitý a nepřerušovaný přístup k Internetu, kdykoli ho budete potřebovat. Výrobek byl testován a ověřen se systémy Dell. Pokud ho používáte se systémem Dell, vztahuje se na něj technická podpora společnosti Dell.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Slouží k posílání e-mailů a příloh a surfování po webu. 
+        </point>
+        <point>
+		  Podporuje přenosovou rychlost až <textbox value="56" refid="1"/> kb/s.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rychlost přenosu dat">
+		<textbox value="56" id="1"/> kb/s
+      </product:techspec>
+      <product:techspec id="2" name="Typ zařízení">
+		Modem
+      </product:techspec>
+	  <product:techspec id="3" name="Typ rozhraní">
+		<textbox value="USB" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

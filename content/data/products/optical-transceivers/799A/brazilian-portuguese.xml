@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Optical-Transceiver-799</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Transceptor da <textbox value="SFP+" id="1"/> Dell <textbox value="10" id="2"/><textbox value="GBASE-T" id="3"/>-até <textbox value="200" id="8"/> <dropdownlist id="distance-unit"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+	   O transceptor <textbox value="SFP+" refid="1"/> da Dell<tm/> proporciona conectividade por para ampliar o alcance de sua rede. Este transceptor com conexão hot plug e pouco espaço ocupado <textbox value="SFP+" refid="1"/> (<dropdownlist id="pluggable-type"/> fator de forma conectável) oferece conector <dropdownlist id="connector-type"/>. O transceptor Dell 
+	   Networking <textbox value="10" refid="2"/><textbox value="GBASE-T" refid="3"/> <textbox value="SFP+" refid="1"/> oferece conectividade <textbox value="10" id="15"/><textbox value="GbE" id="5"/> de até <textbox value="200" refid="8"/> <dropdownlist refid="distance-unit"/>. 
+	  </para>
+	  <para>
+	 Além disso, ele fornece uma interface exclusiva de monitoramento de diagnóstico digital avançado que dá acesso aos parâmetros operacionais do dispositivo, como temperatura do transceptor, detecção de falha e monitoramento do desempenho.
+	  </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b> 
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Transceptor 
+      </product:techspec>
+      <product:techspec id="2" name="Comprimento de onda óptico">
+      Até <textbox value="220" id="6"/> <dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

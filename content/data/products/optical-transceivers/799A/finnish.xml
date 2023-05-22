@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Optical-Transceiver-799</meta:title>
+    <meta:date value="2015-11-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin <textbox value="SFP+" id="1"/> lähetin-vastaanotin <textbox value="10" id="2"/><textbox value="GBASE-T" id="3"/>– jopa <textbox value="200" id="8"/> <dropdownlist id="distance-unit"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Dell<tm/> <textbox value="SFP+" refid="1"/> lähetin-vastaanotin tarjoaa liitännän verkkoalueesi laajentamiseksi. Tässä <textbox value="SFP+" refid="1"/>(<dropdownlist id="pluggable-type"/> Form Factor kytkettävä)-jalanjäljellä varustetussa, käytönaikaisesti vaihdettavassa lähetin-vastaanottimessa on ylimääräinen <dropdownlist id="connector-type"/>-liitäntä. Dell Networking 
+	   <textbox value="10" refid="2"/><textbox value="GBASE-T" refid="3"/> <textbox value="SFP+" refid="1"/> lähetin-vastaanotin tarjoaa <textbox value="10" id="15"/><textbox value="GbE" id="5"/>-liitännän jopa <textbox value="200" refid="8"/> <dropdownlist refid="distance-unit"/>.
+	  </para>
+	  <para>
+	     Lisäksi siinä on ainutlaatuinen laajennettu digitaalinen valvontaliittymä, jonka avulla voidaan valvoa laitteen toimintaparametreja, kuten lähetin-vastaanottimen lämpötilaa, vikailmoituksia sekä suorituskykyä.
+	  </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b> 
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Laitetyyppi">
+        lähetin-vastaanotin
+      </product:techspec>
+      <product:techspec id="2" name="Optinen aallonpituus">
+       Jopa <textbox value="220" id="6"/> <dropdownlist id="meter-feet-unit"/>.
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

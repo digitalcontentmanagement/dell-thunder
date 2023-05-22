@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="notebook-batteries">
+
+	<image:image name="451-BCNU">
+      <image:location>451-BCNU</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>6-Cell 97Whr (Part Number: 1WJT0)</image:description>
+      <image:caption>6-Cell 97Whr (Part Number: 1WJT0)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	<image:image name="451-BCNU_mvi1">
+      <image:location>451-BCNU_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>6-Cell 97Whr (Part Number: 1WJT0) for MVI</image:description>
+      <image:caption>6-Cell 97Whr (Part Number: 1WJT0) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCLI_v1">
+      <image:location>451-BCLI_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 42Whr (Part Number: 27W58) </image:description>
+      <image:caption>3-Cell 42Whr (Part Number: 27W58)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCLI_mvi1">
+      <image:location>451-BCLI_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 42Whr (Part Number: 27W58) for MVI </image:description>
+      <image:caption>3-Cell 42Whr (Part Number: 27W58) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCJW_v1">
+      <image:location>451-BCJW_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 31.5Whr (Part Number: JT90P) </image:description>
+      <image:caption>3-Cell 31.5Whr (Part Number: JT90P)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCJW_mvi1">
+      <image:location>451-BCJW_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 31.5 Whr (Part Number: JT90P) for MVI </image:description>
+      <image:caption>3-Cell 31.5Whr (Part Number: JT90P) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCQY_v1">
+      <image:location>451-BCQY_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 56 Whr (Part Number: 7FHHV) </image:description>
+      <image:caption>4-Cell 56 Whr (Part Number: 7FHHV)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCQY_mvi1">
+      <image:location>451-BCQY_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 56 Whr (Part Number: 7FHHV) for MVI </image:description>
+      <image:caption>4-Cell 56 Whr (Part Number: 7FHHV) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCTC_v1">
+      <image:location>451-BCTC_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 39 Whr (Part Number: YJ9RP) </image:description>
+      <image:caption>3-Cell 39 Whr (Part Number: YJ9RP)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCTC_mvi1">
+      <image:location>451-BCTC_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 39 Whr (Part Number: YJ9RP) for MVI </image:description>
+      <image:caption>3-Cell 39 Whr (Part Number: YJ9RP) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBZP_V4">
+      <image:location>451-BBZP_V4</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 42 Whr (Part Number: 3VC9Y) </image:description>
+      <image:caption>3-Cell 42 Whr (Part Number: 3VC9Y)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBZP_mvi1">
+      <image:location>451-BBZP_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 42 Whr (Part Number: 3VC9Y) for MVI </image:description>
+      <image:caption>3-Cell 42 Whr (Part Number: 3VC9Y) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBFS_v1">
+      <image:location>451-BBFS_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 47 Whr (Part Number: 909H5) </image:description>
+      <image:caption>4-Cell 47 Whr (Part Number: 909H5)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBFS_mvi1">
+      <image:location>451-BBFS_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 47 Whr (Part Number: 909H5) for MVI </image:description>
+      <image:caption>4-Cell 47 Whr (Part Number: 909H5) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBQE_v1">
+      <image:location>451-BBQE_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 54 Whr (Part Number: CJW7D) </image:description>
+      <image:caption>4-Cell 54 Whr (Part Number: CJW7D)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBQE_mvi1">
+      <image:location>451-BBQE_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 54 Whr (Part Number: CJW7D) for MVI </image:description>
+      <image:caption>4-Cell 54 Whr (Part Number: CJW7D) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCNX_v1">
+      <image:location>451-BCNX_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 68 Whr (Part Number: C5GV2) </image:description>
+      <image:caption>4-Cell 68 Whr (Part Number: C5GV2)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCNX_mvi1">
+      <image:location>451-BCNX_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 68 Whr (Part Number: C5GV2) for MVI </image:description>
+      <image:caption>4-Cell 68 Whr (Part Number: C5GV2) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBUQ_v1">
+      <image:location>451-BBUQ_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 62 Whr (Part Number: 7V69Y) </image:description>
+      <image:caption>4-Cell 62 Whr (Part Number: 7V69Y)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBUQ_mvi1">
+      <image:location>451-BBUQ_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 62 Whr (Part Number: 7V69Y) for MVI </image:description>
+      <image:caption>4-Cell 62 Whr (Part Number: 7V69Y) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="451-BCVN_v1">
+      <image:location>451-BCVN_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 63 Whr (Part Number: 4M1JN) </image:description>
+      <image:caption>4-Cell 63 Whr (Part Number: 4M1JN)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCVN_mvi1">
+      <image:location>451-BCVN_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 63 Whr (Part Number: 4M1JN) for MVI </image:description>
+      <image:caption>4-Cell 63 Whr (Part Number: 4M1JN) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+   <image:image name="451-BCHV_v1">
+      <image:location>451-BCHV_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 51 Whr (Part Number: DMF0C) </image:description>
+      <image:caption>3-Cell 51 Whr (Part Number: DMF0C)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCHV_mvi1">
+      <image:location>451-BCHV_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 51 Whr (Part Number: DMF0C) for MVI </image:description>
+      <image:caption>3-Cell 51 Whr (Part Number: DMF0C) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+ <image:image name="451-BBZT_v1">
+      <image:location>451-BBZT_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 51 Whr (Part Number: D4CMT) </image:description>
+      <image:caption>3-Cell 51 Whr (Part Number: D4CMT)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BBZT_mvi1">
+      <image:location>451-BBZT_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>3-Cell 51 Whr (Part Number: D4CMT) for MVI </image:description>
+      <image:caption>3-Cell 51 Whr (Part Number: D4CMT) for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="453-BBCP_v1">
+      <image:location>453-BBCP_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>6-Cell 68 Whr (Part Number: 447VR) </image:description>
+      <image:caption>6-Cell 68 Whr (Part Number: 447VR)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="453-BBCP_mvi1">
+      <image:location>453-BBCP_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>6-Cell 68 Whr (Part Number: 447VR) for MVI </image:description>
+      <image:caption>6-Cell 68 Whr (Part Number: 447VR)for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+	<image:image name="451-BCRE_v1">
+      <image:location>451-BCRE_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 52 Whr (Part Number: G8VCF) </image:description>
+      <image:caption>4-Cell 52 Whr (Part Number: G8VCF)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="451-BCRE_mvi1">
+      <image:location>451-BCRE_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>4-Cell 52 Whr (Part Number: G8VCF) for MVI </image:description>
+      <image:caption>4-Cell 52 Whr (Part Number: G8VCF)for MVI</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+
+
+  </image:folder>
+</image:imagebase>
