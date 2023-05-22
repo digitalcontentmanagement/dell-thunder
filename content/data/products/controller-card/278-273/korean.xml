@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Raid-Controllers-278A</meta:title>
+    <meta:date value="2015-10-22" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="PERC" id="1"/> <textbox value="H700" id="2"/> RAID 컨트롤러 <dropdownlist id="card-278-unit"/> - <textbox value="512" id="3"/> <dropdownlist id="controllers-278-unit"/> <textbox value="NV 캐시" id="4"/>
+    </product:name>
+	<product:longdesc>
+      <para>
+       Dell <textbox value="PERC" refid="1"/> <textbox value="H700" refid="2"/> RAID <dropdownlist refid="card-278-unit"/> 컨트롤러는 RAID 제어 기능을 탑재하여 탁월한 신뢰성과 고성능을 자랑하며 내결함성 디스크 하위 시스템 관리를 제공합니다. 이 확장형 RAID 컨트롤러는 <dropdownlist refid="card-278-unit"/> 
+	   <textbox value="512" refid="3"/> <dropdownlist refid="controllers-278-unit"/> 의 저장 용량으로 서버 시스템에 향상된 성능을 보장하며 듀얼 채널로 빠른 연결을 구현합니다. 이 제품은 사용자의 컴퓨터에서 정상적으로 작동하도록 테스트를 거쳐 Dell 시스템과의 작동을 검증 받았습니다. Dell 시스템과 함께 사용하는 경우 Dell 기술 지원 부서의 지원을 받을 수 있습니다.
+		</para>
+	  <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+  
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

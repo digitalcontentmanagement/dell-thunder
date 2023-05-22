@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="controller-card">
+
+    <image:image name="342-5352">
+      <image:location>342-5352</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>LSI 9265-8i SAS RAID Controller</image:description>
+      <image:caption>LSI 9265-8i SAS RAID Controller</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+    <image:image name="405-AAFW">
+      <image:location>405-AAFW</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>PERC H310 Integrated RAID Controller</image:description>
+      <image:caption>PERC H310 Integrated RAID Controller</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="405-AAFX">
+      <image:location>405-AAFX</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>PERC H710p 1GB NV Cache Integrated RAID Controller</image:description>
+      <image:caption>PERC H710p 1GB NV Cache Integrated RAID Controller</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	
+		<image:image name="406-BBHF">
+      <image:location>406-BBHF</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Emulex LPe16002B</image:description>
+      <image:caption>Emulex LPe16002B</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+    
+  </image:folder>
+</image:imagebase>

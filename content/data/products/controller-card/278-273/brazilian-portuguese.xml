@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Raid-Controllers-278A</meta:title>
+    <meta:date value="2015-10-22" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell placa <textbox value="H700" id="2"/> controladora RAID <dropdownlist id="card-278-unit"/> <textbox value="PERC" id="1"/>-<textbox value="512" id="3"/> <dropdownlist id="controllers-278-unit"/> <textbox value="NV Cache" id="4"/>
+    </product:name>
+	<product:longdesc>
+      <para>
+        Com recursos de controle de RAID, o controlador RAID <textbox value="PERC" refid="1"/> <textbox value="H700" refid="2"/> <dropdownlist refid="card-278-unit"/> da Dell oferece confiabilidade, alta performance e gerenciamento do subsistema de discos com tolerância a falhas. Com <textbox value="512" refid="3"/> <dropdownlist refid="controllers-278-unit"/> de capacidade de armazenamento, este controlador RAID <dropdownlist refid="card-278-unit"/> expansível garante performance avançada para seus sistemas de servidor. O dual-channel proporciona conectividade de alta velocidade. Este produto foi testado e validado em sistemas Dell para garantir o funcionamento com o seu computador. 
+		Quando usado com um sistema Dell, conta com o Suporte técnico da empresa.
+      </para>
+	  <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+   
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
