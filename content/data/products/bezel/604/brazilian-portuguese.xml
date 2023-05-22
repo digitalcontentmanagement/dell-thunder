@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Bezel products </meta:title>
+    <meta:date value="2017-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="1"/> <dropdownlist id="bezel-type"/> tampa <textbox value="para" id="2"/> <textbox value="PowerEdge" id="3"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+      Essa tampa frontal foi projetada para complementar a aparência do sistema Dell<tm/>. Dá um toque de estilo e de sofisticação ao sistema. Esse produto foi testado e validado em sistemas Dell. Quando usado com um sistema Dell, conta com o Suporte técnico da empresa.
+
+      </para>
+     </product:longdesc>
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de Produto">
+        Tampa
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

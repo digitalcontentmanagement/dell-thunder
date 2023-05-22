@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+      <meta:title>Bezel products </meta:title>
+    <meta:date value="2017-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="1"/> <dropdownlist id="bezel-type"/> 베젤 <textbox value="for" id="2"/> <textbox value="PowerEdge" id="3"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       이 베젤은 Dell 시스템의 외관을 보완하기 위해 설계되었습니다. 이 제품은 사용자의 컴퓨터에서 정상적으로 작동하도록 테스트를 거쳐 Dell 시스템과의 작동을 검증 받았습니다. Dell 시스템과 함께 사용하는 경우 Dell 기술 지원 부서의 지원을 받을 수 있습니다.
+
+      </para>
+     </product:longdesc>
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 유형">
+         베젤
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
