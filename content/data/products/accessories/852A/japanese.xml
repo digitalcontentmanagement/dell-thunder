@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>852:Hard Drive Acessories </meta:title>
+    <meta:date value="2023-03-24" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デル サーマルパッド ために <textbox value="2280" id="1"/> ソリッドステートドライブ ために <textbox value="Alienware M16/M18 R1" id="2"/> <textbox value="(Intel/AMD)" id="3"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+        
+		<textbox value="Alienware M16" id="4"/> または <textbox value="Alienware M18" id="5"/>では、SSDの空きスロットにサーマル パッド付きの拘束SSDブラケットはありません。
+		SSD <textbox value="2280" refid="1"/> でストレージ容量をアップグレードするためにSSDを追加する場合は、ブラケットとサーマル パッドを追加することをお勧めします。
+	</para>
+	 
+    </product:longdesc>
+	
+	<!-- Start of Name & Value Columns KSP -->
+	<product:highlights>
+	
+      <points>
+        <point>
+		コンピュータから発生した熱を放散させる。
+        </point>
+        <point>
+		 システム内部を安全な許容温度で維持する。
+        </point>
+		
+         </points>
+		 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="ブランド">
+	   デル
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

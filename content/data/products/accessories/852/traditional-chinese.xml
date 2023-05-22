@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-Hsrd-Drive-852</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="硬碟托架" refid="1"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+       若要購買正確的硬碟，請務必了解您電腦的介面類型。 介面類型決定其系統相容性。
+	  </para>
+	  <para>
+	   今日的通用介面類型都是 IDE (也稱為 PATA)、SATA 或 SCSI。 SCSI 介面類型可能有不同的針腳組態。
+	  </para>
+	  <para>
+	   筆記型電腦係依據系統採用特定的硬碟。 但是，您必須知道桌上型電腦和伺服器的介面類型，才能選擇適合的產品。 因此，我們建議您使用「適合您的 Dell<tm/> 產品零件」工具中的「產品服務編號」功能，為您的桌上型電腦或伺服器選擇適合的硬碟。 若是筆記型電腦，您可以使用「系統深入鑽研」(System Drill Down) 或「產品服務編號」功能。
+	  </para>
+	  <para>
+	  「速度」與「容量」決定了可儲存的資料量，以及資料的存取速度。 容量越大，可儲存的資料越多。
+	  </para>
+	  <para>
+	   同樣地，電腦運算速度越快，對硬碟存取或寫入資料的速度也越快。
+	  </para>
+	  <para>
+	   請注意，我們用來更換的某些產品僅做為套件或組件提供給您。 這些套件可能包含安裝所需的其他零件，這些零件會在此頁面的「特色」(Highlights) 區段中個別列示為「元件零件」(Component Parts)。 如果產品不採套件或組件形式銷售，可能需要互補零件以簡化安裝。
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="產品類型">
+	   <textbox value="硬碟托架" id="1"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

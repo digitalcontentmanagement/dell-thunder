@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔的 背板 对于 <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear 硬盘 对于 <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>     
+    </product:name>
+    <product:longdesc>
+      <para>
+       戴尔的<textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/>背板支持<textbox value="2x2" refid="5"/>个<textbox value="SATA" refid="4"/>硬盘。它配备<textbox value="2x2" refid="5"/>个<textbox value="SATA" refid="4"/>接口，用于连接背板。如此设计意在让<textbox value="SATA" refid="4"/>硬盘可安装于任一插槽中。戴尔的<textbox value="SATA" refid="4"/> <textbox value="2x2" refid="5"/>背板专用于戴尔PowerEdge<tm/> <textbox value="R730XD" refid="2"/> 服务器。本产品已在戴尔系统上经过测试和验证。 如与戴尔系统搭配使用，您还可享受戴尔技术支持服务。
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="产品类型">
+          背板
+      </product:techspec>
+	  <product:techspec id="1" name="接头类型">
+          报价 <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> 类型 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

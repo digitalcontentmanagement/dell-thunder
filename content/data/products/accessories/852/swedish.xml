@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-Hsrd-Drive-852</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Hårddiskhållare" refid="1"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+      Om du vill köpa rätt hårddisk är det viktigt att du känner till datorns gränssnittstyp. Gränssnittstypen avgör kompatibiliteten med ett system.
+	  </para>
+	  <para>
+	    Några vanliga gränssnittstyper i dag är IDE (eller PATA), SATA och SCSI. SCSI-gränssnittet kan levereras i olika stiftkonfigurationer.
+	  </para>
+	  <para>
+	   Hårddiskar är systemspecifika för bärbara datorer. Du måste känna till gränssnittet för stationära datorer och servrar om du ska kunna välja rätt produkt. Därför rekommenderar vi att du använder funktionen för att söka efter en Service Tag i verktyget Parts For Your Dell<tm/> när du väljer rätt hårddisk för din stationära dator eller server. För en bärbar dator kan du använda funktionen System Drill Down eller söka efter en Service Tag.
+	  </para>
+	  <para>
+	 Hastigheten och kapaciteten avgör hur mycket data som kan lagras och hur snabbt data går att komma åt. Ju högre kapacitet, desto mer data kan lagras.
+	  </para>
+	  <para>
+	  Ju högre hastighet, desto snabbare kan datorn få åtkomst till och skriva data på hårddisken.
+	  </para>
+	  <para>
+	  Observera att några av våra renoverade produkter levereras som satser eller paket. Dessa satser kan innehålla extra komponenter som krävs för installationen. Delarna anges separat som komponenter i avsnittet Höjdpunkter på denna sida. Om en produkt inte kan köpas som en sats eller ett paket kan det hända att det krävs kompletterande komponenter för installationen.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	   </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+	   <textbox value="Hårddiskhållare" id="1"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

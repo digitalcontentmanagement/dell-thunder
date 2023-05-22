@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server Accessories </meta:title>
+    <meta:date value="2018-09-04" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Trusted Platform Module <textbox value="2.0" id="1"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Trusted Platform Modul, TPM, är en säkerhetsenhet för datorgenererade krypteringsnycklar. Det är en maskinvarubaserad lösning som hindrar hackare från att stjäla lösenord, krypteringsnycklar och annan känslig information.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+        Ssäkerhetschip för hårdvara
+      </product:techspec>
+       <product:techspec id="2" name="Märke">
+		Dell
+    </product:techspec>
+	<product:techspec id="3" name="Tillbehörskategori">
+		Produkter för datasäkerhet
+    </product:techspec>
+	<product:techspec id="4" name="Modell">
+		Trusted Platform Module <textbox value="2.0" refid="1"/>
+    </product:techspec>
+	<product:techspec id="5" name="Systems">
+		Systemtillbehör
+    </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

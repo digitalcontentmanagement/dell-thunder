@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server Accessories </meta:title>
+    <meta:date value="2018-09-04" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Trusted Platform 모듈 <textbox value="2.0" id="1"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       TPM(Trusted Platform 모듈)은 컴퓨터에서 생성된 암호화 키를 저장하는 보안 장치입니다. 비밀번호, 암호화 키, 그 외 민감한 정보를 대상으로 한 해킹 시도를 막는 하드웨어 기반의 솔루션입니다.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 유형">
+        하드웨어 보안 칩
+      </product:techspec>
+       <product:techspec id="2" name="브랜드">
+		Dell
+    </product:techspec>
+	<product:techspec id="3" name="액세서리의 범주">
+		컴퓨터 보안 제품
+    </product:techspec>
+	<product:techspec id="4" name="모델">
+		Trusted Platform 모듈 <textbox value="2.0" refid="1"/>
+    </product:techspec>
+	<product:techspec id="5" name="시스템">
+		시스템 액세서리
+    </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

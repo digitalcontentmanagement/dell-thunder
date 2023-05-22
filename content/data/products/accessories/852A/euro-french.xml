@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>852:Hard Drive Acessories </meta:title>
+    <meta:date value="2023-03-24" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell coussin thermique pour <textbox value="2280" id="1"/> SSD pour <textbox value="Alienware M16/M18 R1" id="2"/> <textbox value="(Intel/AMD)" id="3"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+        
+		Votre ordinateur <textbox value="Alienware M16" id="4"/> ou <textbox value="Alienware M18" id="5"/> ne contient pas de support SSD imperdable avec tampon thermique dans un logement SSD vide. Il est recommandé d’ajouter un support et un tampon thermique 
+		lorsque vous ajoutez un SSD pour mettre à niveau votre capacité de stockage avec le disque SSD <textbox value="2280" refid="1"/>.
+	</para>
+	 
+    </product:longdesc>
+	
+	<!-- Start of Name & Value Columns KSP -->
+	<product:highlights>
+	
+      <points>
+        <point>
+		Dissipe la chaleur de l’ordinateur. 
+        </point>
+        <point>
+		Maintient les limites de température de sécurité à l’intérieur du système. 
+        </point>
+		
+         </points>
+		 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Marque">
+	   Dell
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

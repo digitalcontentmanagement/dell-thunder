@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>852:Hard Drive Acessories </meta:title>
+    <meta:date value="2023-03-24" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell podkładka termiczna dla <textbox value="2280" id="1"/> SSD dla <textbox value="Alienware M16/M18 R1" id="2"/> <textbox value="(Intel/AMD)" id="3"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+        
+		W komputerach <textbox value="Alienware M16" id="4"/> lub <textbox value="Alienware M18" id="5"/> nie ma uchwytu na dysk SSD z podkładką termoprzewodzącą w pustym gnieździe SSD. 
+		W przypadku dodawania dysku SSD <textbox value="2280" refid="1"/> zaleca się zatem dodanie odpowiedniego uchwytu z podkładką termoprzewodzącą.
+	</para>
+	 
+    </product:longdesc>
+	
+	<!-- Start of Name & Value Columns KSP -->
+	<product:highlights>
+	
+      <points>
+        <point>
+		Skutecznie odprowadza ciepło z komputera.
+        </point>
+        <point>
+		Utrzymuje bezpieczną temperaturę wewnątrz systemu.
+        </point>
+		
+         </points>
+		 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Marka">
+	   Dell
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

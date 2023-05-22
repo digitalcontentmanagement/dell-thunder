@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-Hsrd-Drive-852</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="cassetto per disco rigido" refid="1"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+      Per acquistare il giusto disco rigido è importante conoscere il tipo di interfaccia del computer. Il tipo di interfaccia determina la compatibilità con un sistema.
+	  </para>
+	  <para>
+	 Oggi i tipi di interfaccia comuni sono IDE (noto anche come PATA), SATA o SCSI. Il tipo di interfaccia SCSI può presentare configurazioni di pin differenti.
+	  </para>
+	  <para>
+	  I dischi rigidi sono specifici per sistemi notebook. Tuttavia, è necessario conoscere il tipo di interfaccia per desktop e server per scegliere il prodotto giusto. Di conseguenza, si consiglia di utilizzare la funzione Codice di matricola nello strumento Componenti per i sistemi Dell<tm/> per scegliere il disco rigido giusto per desktop o server. Per i notebook, è possibile utilizzare sia la funzione di analisi del sistema che Codice di matricola.
+	  </para>
+	  <para>
+	  La velocità e la capacità determinano la quantità di dati che può essere archiviata e la rapidità con cui è possibile accedere ai dati. Maggiore è la capacità, maggiore è la quantità di dati che può essere archiviata.
+	  </para>
+	  <para>
+	 Analogamente, maggiore è la velocità, più rapide sono le operazioni di accesso o scrittura del disco rigido.
+	  </para>
+	  <para>
+	 Tenere presente che alcuni dei prodotti sostitutivi Dell vengono forniti come kit o assiemi. Questi kit possono contenere parti aggiuntive richieste per l'installazione; tali parti verranno elencate separatamente come &quot;Parti del componente&quot; nella sezione Caratteristiche principali di questa pagina. Nel caso in cui un prodotto non sia venduto come kit o assieme, potrebbe richiedere parti complementari per semplificare l'installazione.
+	  </para>
+	  <para>
+	   <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di prodotto">
+	   <textbox value="cassetto per disco rigido" id="1"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

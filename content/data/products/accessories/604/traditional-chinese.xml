@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 背板 對於 <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear 硬碟 對於 <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Dell 的 <textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/> 背板支援 <textbox value="2x2" refid="5"/> 個 <textbox value="SATA" refid="4"/> 硬碟。它提供 <textbox value="2x2" refid="5"/> 個 <textbox value="SATA" refid="4"/> 連接器，用來連接背板。其設計可讓您將 <textbox value="SATA" refid="4"/> 磁碟安裝至任何一個插槽。這款 <textbox value="2x2" refid="5"/> 背板是專為搭配 Dell<tm/> PowerEdge<tm/> <textbox value="R730XD" refid="2"/> 伺服器使用而設計。本產品已通過 Dell<tm/> 系統的測試和驗證。 在 Dell<tm/> 系統上使用此產品時，客戶將享有 Dell 技術支援服務。
+      </para>
+    </product:longdesc>
+
+    <product:techspecs>
+      <product:techspec id="1" name="裝置類型">
+         背板
+      </product:techspec>
+      <product:techspec id="2" name="接頭類型">
+         報價 <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> 接頭
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

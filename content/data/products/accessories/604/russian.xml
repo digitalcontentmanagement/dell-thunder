@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Распределительная плата для <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear Жесткий диск для <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>     
+    </product:name>
+    <product:longdesc>
+      <para>
+       Распределительная плата <textbox value="2x2" refid="5"/> <textbox value="SATA" id="4"/> от Dell поддерживает два жестких диска <textbox value="SATA" refid="4"/>. Она оснащена двумя разъемами <textbox value="SATA" refid="4"/> для подключения. Конструкция платы позволяет устанавливать накопитель <textbox value="SATA" refid="4"/> в любой слот. Распределительная плата <textbox value="2x2" refid="5"/> от Dell<tm/> специально разработан для использования с Dell PowerEdge<tm/> <textbox value="R730XD" refid="2"/> Серверный. Данный продукт был протестирован и проверен на системах Dell<tm/>. При использовании с системой Dell<tm/> для него предоставляется техническая поддержка Dell.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип продукта">
+          Распределительная плата
+      </product:techspec>
+	  <product:techspec id="2" name="Тип Разъем">
+          предложения <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> Разъем
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

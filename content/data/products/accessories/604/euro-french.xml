@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Fond de panier pour <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear disque dur pour <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Le fond de panier <textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/> de Dell prend en charge <textbox value="2x2" refid="5"/> disques durs <textbox value="SATA" refid="4"/>. Il offre <textbox value="2x2" refid="5"/> connecteurs <textbox value="SATA" refid="4"/> pour la connexion du fond de panier. Il est conçu pour qu’un disque <textbox value="SATA" refid="4"/> puisse être installé dans n’importe quel emplacement. Le fond de panier <textbox value="SATA" refid="4"/> <textbox value="2x2" refid="5"/> de Dell<tm/> est spécialement conçu pour Dell PowerEdge<tm/> <textbox value="R730XD" refid="2"/> Serveur. Ce produit a été testé et validé sur les systèmes Dell<tm/> afin de garantir sa compatibilité avec votre ordinateur. Il est pris en charge par le support technique Dell<tm/> s'il est utilisé avec un système Dell.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+         Fond de panier
+      </product:techspec>
+	  <product:techspec id="2" name="Type de Connecteur">
+         offres <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> connecteur
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

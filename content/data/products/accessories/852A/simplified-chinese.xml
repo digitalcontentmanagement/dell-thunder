@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>852:Hard Drive Acessories </meta:title>
+    <meta:date value="2023-03-24" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 导热垫 对于 <textbox value="2280" id="1"/> 固态硬盘 对于 <textbox value="Alienware M16/M18 R1" id="2"/> <textbox value="(英特尔/AMD)" id="3"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+        
+		在 <textbox value="Alienware M16" id="4"/> 或 <textbox value="Alienware M18" id="5"/> 中，并没有固定 SSD 支架，空 SSD 插槽中也没有散热垫。在使用固态硬盘 <textbox value="2280" refid="1"/> 
+		以添加 SSD 来升级存储容量时，建议添加支架和散热垫。
+	</para>
+	 
+    </product:longdesc>
+	
+	<!-- Start of Name & Value Columns KSP -->
+	<product:highlights>
+	
+      <points>
+        <point>
+		散发计算机产生的热量。
+        </point>
+        <point>
+		将系统内的温度限制在安全范围内。
+        </point>
+		
+         </points>
+		 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="商标">
+	   戴尔
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

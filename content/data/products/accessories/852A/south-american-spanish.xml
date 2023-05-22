@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>852:Hard Drive Acessories </meta:title>
+    <meta:date value="2023-03-24" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell parche térmico para <textbox value="2280" id="1"/> Unidad de estado sólido para <textbox value="Alienware M16/M18 R1" id="2"/> <textbox value="(Intel/AMD)" id="3"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+        
+		En la <textbox value="Alienware M16" id="4"/> o <textbox value="Alienware M18" id="5"/> , no hay un soporte de SSD cautivo con la almohadilla térmica en la ranura de SSD vacía. 
+		Se recomienda añadir un soporte y una almohadilla térmica al agregar una SSD para ampliar la capacidad de almacenamiento con la unidad de estado sólido <textbox value="2280" refid="1"/>.
+	</para>
+	 
+    </product:longdesc>
+	
+	<!-- Start of Name & Value Columns KSP -->
+	<product:highlights>
+	
+      <points>
+        <point>
+		  Disipa el calor de una computadora.
+        </point>
+        <point>
+		Mantiene los límites de temperatura segura dentro del sistema.
+        </point>
+		
+         </points>
+		 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Marca">
+	   Dell
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

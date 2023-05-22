@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell βασικής μονάδας για <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear σκληρού δίσκου για <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Το <textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/> βασικής μονάδας από την Dell υποστηρίζει <textbox value="2x2" refid="5"/> μονάδες σκληρού δίσκου <textbox value="SATA" refid="4"/>. Προσφέρει <textbox value="2x2" refid="5"/> υποδοχές σύνδεσης <textbox value="SATA" refid="4"/> για τη σύνδεση τη βασική μονάδα. Έχει σχεδιαστεί ώστε να μια μονάδα δίσκου <textbox value="SATA" refid="4"/>, μπορεί να εγκατασταθεί σε οποιαδήποτε υποδοχή. Το <textbox value="SATA" refid="4"/> <textbox value="2x2" refid="5"/> βασικής μονάδας από την Dell είναι ειδικά σχεδιασμένο για χρήση με τον Dell<tm/> PowerEdge<tm/> <textbox value="R730XD" refid="2"/> Server. Το προϊόν αυτό έχει δοκιμαστεί και πιστοποιηθεί σε συστήματα της Dell<tm/>. Όταν χρησιμοποιείται μαζί με ένα σύστημα Dell<tm/>, υποστηρίζεται από την τεχνική υποστήριξη της Dell.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος συσκευής">
+        βασικής μονάδας 
+      </product:techspec>
+	  <product:techspec id="2" name="Τύπος Υποδοχή">
+        προσφορές <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> Υποδοχή
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

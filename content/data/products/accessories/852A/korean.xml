@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>852:Hard Drive Acessories </meta:title>
+    <meta:date value="2023-03-24" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 열 패드 용 <textbox value="2280" id="1"/> 솔리드 스테이트 드라이브 용 <textbox value="Alienware M16/M18 R1" id="2"/> <textbox value="(Intel/AMD)" id="3"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+        
+		<textbox value="Alienware M16" id="4"/> 또는 <textbox value="Alienware M18" id="5"/> 에는 빈 SSD 슬롯에 방열 패드가 있는 캡티브 SSD 브래킷이 없습니다. 
+		SSD를 추가하여 솔리드 스테이트 드라이브 <textbox value="2280" refid="1"/>으로 스토리지 용량을 업그레이드할 때 브래킷과 방열 패드를 추가하는 것이 좋습니다.
+	</para>
+	 
+    </product:longdesc>
+	
+	<!-- Start of Name & Value Columns KSP -->
+	<product:highlights>
+	
+      <points>
+        <point>
+		컴퓨터의 열을 소산시킴.
+        </point>
+        <point>
+		 시스템 내부에서 안전하게 온도 한계 유지.
+        </point>
+		
+         </points>
+		 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="브랜드">
+	   Dell
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

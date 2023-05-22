@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-Hsrd-Drive-852</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Kiintolevyjen asennuskehikko" refid="1"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+      Oikean kiintolevyn ostaminen edellyttää, että tiedät tietokoneesi liitäntätyypin. Liitäntätyyppi määrittää järjestelmäyhteensopivuuden.
+	  </para>
+	  <para>
+	   Nykyään yleisimpiä liitäntätyyppejä ovat IDE (tunnetaan myös nimellä PATA), SATA ja SCSI. SCSI-liitäntätyypillä voi olla useita erilaisia nastakokoonpanoja.
+	  </para>
+	  <para>
+	   Kiintolevyt ovat järjestelmäkohtaisia kannettavissa tietokoneissa. Pöytäkoneiden ja palvelinten liitäntätyyppi on kuitenkin tiedettävä itse, jotta oikean tuotteen voi valita. Suosittelemme pöytäkoneen tai palvelimen oikean kiintolevyn valintaan Parts For Your Dell<tm/>-työkalussa olevaa palvelutunnuksen hakutoimintoa. Kannettaville tietokoneille voi käyttää joko järjestelmätietojen tarkastelutoimintoa tai huoltotunnushakua.
+	  </para>
+	  <para>
+	  Nopeus ja kapasiteetti määrittävät, kuinka paljon tietoja voidaan tallentaa ja kuinka nopeasti tietoja voi käyttää. Mitä enemmän kapasiteettia, sitä enemmän tietoa voidaan tallentaa.
+	  </para>
+	  <para>
+	   Samaan tapaan suurempi nopeus nopeuttaa tietojen kirjoittamista kiintolevylle ja niiden lukemista siitä.
+	  </para>
+	  <para>
+	  Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Nämä osat on lueteltu erikseen tämän sivun Tärkeät tiedot -kohdan komponenttiosissa. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tuotteen tyyppi">
+	   <textbox value="Kiintolevyjen asennuskehikko" id="1"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

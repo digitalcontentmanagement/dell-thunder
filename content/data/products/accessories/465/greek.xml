@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server Accessories </meta:title>
+    <meta:date value="2018-09-04" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Trusted Platform Module <textbox value="2.0" id="1"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Το Trusted Platform Module ή TPM είναι μια συσκευή ασφάλειας, η οποία διαθέτει πλήκτρα που δημιουργούνται στον υπολογιστή για κρυπτογράφηση. Πρόκειται για μια λύση που βασίζεται στο υλικό, η οποία αποτρέπει τις απόπειρες παραβίασης από χάκερ για λήψη κωδικών πρόσβασης, πλήκτρων κρυπτογράφησης και άλλων ευαίσθητων δεδομένων.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Product Type">
+        Hardware security chip
+      </product:techspec>
+       <product:techspec id="2" name="Product Brand">
+		Dell
+    </product:techspec>
+	<product:techspec id="3" name="Category of Accessory">
+		Computer security products
+    </product:techspec>
+	<product:techspec id="4" name="Model">
+		Trusted Platform Module <textbox value="2.0" refid="1"/>
+    </product:techspec>
+	<product:techspec id="5" name="Systems">
+		System Accessories
+    </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

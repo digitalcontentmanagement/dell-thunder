@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server Accessories </meta:title>
+    <meta:date value="2018-09-04" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 受信任的平台模块 <textbox value="2.0" id="1"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       受信任的平台模块(TPM)是一款安全设备，可以保存计算机生成的密钥，以供加密使用。这是一种基于硬件的解决方案，可以抵御黑客攻击，避免其捕获密码、加密密钥和其他敏感数据。
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="产品类型">
+        硬件安全性片
+      </product:techspec>
+       <product:techspec id="2" name="商标">
+		戴尔
+    </product:techspec>
+	<product:techspec id="3" name="配件种类">
+		电脑安全产品
+    </product:techspec>
+	<product:techspec id="4" name="型号">
+		受信任的平台模块 <textbox value="2.0" refid="1"/>
+    </product:techspec>
+	<product:techspec id="5" name="系统">
+		系统配件
+    </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

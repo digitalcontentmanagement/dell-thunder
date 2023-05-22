@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server Accessories </meta:title>
+    <meta:date value="2018-09-04" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Trusted Platform Módulo <textbox value="2.0" id="1"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Módulo de plataforma de confianza o TPM, es un dispositivo de seguridad thatholds generadas por el ordenador claves de cifrado. Se trata de un hardware solución basada en que impide que hacking intenta capturar las contraseñas, las claves de cifrado, y otros datos confidenciales.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+        Chip de seguridad para hardware
+      </product:techspec>
+       <product:techspec id="2" name="Marca">
+		Dell
+    </product:techspec>
+	<product:techspec id="3" name="Categoría de accesorio">
+		Productos de seguridad informática
+    </product:techspec>
+	<product:techspec id="4" name="Modelo">
+		Trusted Platform Módulo <textbox value="2.0" refid="1"/>
+    </product:techspec>
+	<product:techspec id="5" name="Systems">
+		Systemtillbehör
+    </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

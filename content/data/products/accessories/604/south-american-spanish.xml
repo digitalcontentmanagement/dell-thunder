@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Plano posterior para <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear disco duro para <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>     
+    </product:name>
+    <product:longdesc>
+      <para>
+       El plano posterior <textbox value="2x2" refid="5"/> de las unidades <textbox value="SATA" id="4"/> de Dell es compatible con el disco duro <textbox value="SATA" refid="4"/> <textbox value="2x2" refid="5"/>. Ofrece <textbox value="2x2" refid="5"/> conectores <textbox value="SATA" refid="4"/> para conectar el plano posterior. Está diseñado para que una unidad <textbox value="SATA" refid="4"/> se pueda instalar en cualquier ranura. El plano posterior <textbox value="2x2" refid="5"/> de Dell<tm/> está diseñado específicamente para su uso con las Dell PowerEdge<tm/> <textbox value="R730XD" refid="2"/> servidor. Este producto se ha probado y validado en los sistemas Dell<tm/>. Cuenta con la Asistencia técnica de Dell<tm/> si se utiliza junto con un sistema Dell.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+        Plano posterior
+      </product:techspec>
+	  <product:techspec id="2" name="Tipo de Conector">
+        ofertas <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> conector 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

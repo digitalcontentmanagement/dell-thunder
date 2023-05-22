@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 후면판 용 <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear 하드 드라이브 용 <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>  
+    </product:name>
+    <product:longdesc>
+      <para>
+       Dell의 <textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/> 후면판은 <textbox value="2x2" refid="5"/>개의 <textbox value="SATA" refid="4"/> 하드 드라이브를 지원합니다. 후면판에 연결할 수 있도록 <textbox value="SATA" refid="4"/> 커넥터 <textbox value="2x2" refid="5"/>개가 제공됩니다. 모든 슬롯에 <textbox value="SATA" refid="4"/> 드라이브를 설치할 수 있도록 설계되었습니다. Dell의 <textbox value="SATA" refid="4"/> <textbox value="2x2" refid="5"/> 후면판은 Dell<tm/> PowerEdge<tm/> <textbox value="R730XD" refid="2"/> 서버 전용으로 제작되었습니다. 이 제품은 테스트를 거쳐 Dell<tm/> 시스템과의 작동을 검증받았습니다. Dell<tm/> 시스템과 함께 사용하는 경우 Dell 기술 지원 부서의 지원을 받을 수 있습니다.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="기기 종류">
+          후면판
+      </product:techspec>
+	  <product:techspec id="2" name="커넥터 종류">
+         제안 <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> 커넥터
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

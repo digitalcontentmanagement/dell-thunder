@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Bakplanet för <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear hårddisk för  <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>    
+    </product:name>
+    <product:longdesc>
+      <para>
+       <textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/>-bakplanet från Dell stöder två <textbox value="SATA" refid="4"/>-hårddiskar. Det har två <textbox value="SATA" refid="4"/>-kontakter för anslutning av bakplanet. Det är utformat så att en <textbox value="SATA" refid="4"/>-hårddisk kan installeras på valfri plats. <textbox value="2x2" refid="5"/>-bakplanet från Dell<tm/> är särskilt utformat att användas med Dells PowerEdge<tm/> <textbox value="R730XD" refid="2"/> Server. Den här produkten har testats på och godkänts för Dell<tm/>-system. Den omfattas av teknisk support från Dell<tm/> när den används tillsammans med ett Dell-system.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+          Bakplanet
+      </product:techspec>
+	  <product:techspec id="2" name="Kontaktdontyp">
+         erbjudanden <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> Kontaktdon 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

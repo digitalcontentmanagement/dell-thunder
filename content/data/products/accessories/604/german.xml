@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Rückwandplatine für <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear festplatte für <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>  
+    </product:name>
+    <product:longdesc>
+      <para>
+       Die <textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/> Rückwandplatine von Dell unterstützt <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> Festplatten. Sie bietet <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/>-Anschlüsse für den Anschluss der Rückwandplatine. Sie ist so konzipiert, dass ein <textbox value="SATA" refid="4"/>-Laufwerk in jedem Steckplatz installiert werden kann. Die <textbox value="SATA" refid="4"/> <textbox value="2x2" refid="5"/> Rückwandplatine von Dell<tm/> wurde speziell für den Dell-PowerEdge<tm/> <textbox value="R730XD" refid="2"/> Server. Dieses Produkt wurde für den Betrieb mit Dell<tm/>-Systemen getestet und validiert, sodass sichergestellt ist, dass es problemlos mit Ihrem Computer eingesetzt werden kann. Für dieses Produkt ist der technische Support von Dell<tm/> verfügbar, wenn Sie es mit einem Dell-System verwenden.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+        Rückwandplatine
+      </product:techspec>
+	  <product:techspec id="2" name="Anschlusstyp">
+        bietet an <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> anschluss
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

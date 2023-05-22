@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Backplane pro <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear pevný disk pro <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Backplane <textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/> společnosti Dell podporuje <textbox value="2x2" refid="5"/> pevné disky <textbox value="SATA" refid="4"/>. Nabízí <textbox value="2x2" refid="5"/> konektory <textbox value="SATA" refid="4"/> pro připojení backplane. Je navržena tak, aby bylo možno disk <textbox value="SATA" refid="4"/> nainstalovat do kteréhokoli slotu. Dell<tm/> Backplane <textbox value="SATA" refid="4"/> <textbox value="2x2" refid="5"/> je určena pro Dell PowerEdge<tm/> <textbox value="R730XD" refid="2"/> serverový. Tento produkt byl testován a ověřen v počítačích Dell<tm/>. Pokud jej použijete v počítači Dell<tm/>, vztahuje se na něj technická podpora společnosti Dell.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+        Backplane 
+      </product:techspec>
+	  <product:techspec id="2" name="Typ Konektor">
+        nabídky <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> Konektor
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

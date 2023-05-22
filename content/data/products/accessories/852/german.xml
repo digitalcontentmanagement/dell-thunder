@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-Hsrd-Drive-852</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Festplattenträger" refid="1"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+      Für die Wahl der richtigen Festplatte ist es wichtig, den Schnittstellentyp des Computers zu kennen. Der Schnittstellentyp ist für die Kompatibilität mit einem System entscheidend.
+	  </para>
+	  <para>
+	   Heute gängige Schnittstellentypen sind IDE (auch als PATA bekannt), SATA oder SCSI. Der Schnittstellentyp SCSI kann unterschiedliche Pin-Konfigurationen haben.
+	  </para>
+	  <para>
+	   Festplatten für Notebooks sind systemspezifisch. Bei Desktop-PCs und Servern müssen Sie dagegen den Schnittstellentyp kennen, um das richtige Produkt auszuwählen. Daher empfehlen wir, die Service-Tag-Funktion im Tool Parts For Your Dell<tm/> zu verwenden, um die richtige Festplatte für Ihren Desktop-PC oder Server auszuwählen. Für Notebooks können Sie entweder vom System ausgehend suchen oder die Service-Tag-Funktion verwenden.
+	  </para>
+	  <para>
+	  Kapazität und Geschwindigkeit entscheiden darüber, wie viele Daten gespeichert werden können und wie schnell auf die Daten zugegriffen werden kann. Je höher die Kapazität, desto mehr Daten können gespeichert werden.
+	  </para>
+	  <para>
+	  Und je höher die Geschwindigkeit, desto schneller kann der Computer auf die Daten zugreifen oder Daten auf die Festplatte schreiben.
+	  </para>
+	  <para>
+	  Bitte beachten Sie, dass manche Ersatzteile als Einbausätze oder Baugruppen geliefert werden. Diese Einbausätze können zusätzliche Teile enthalten, die für den Einbau erforderlich sind; diese werden im Abschnitt &quot;Highlights&quot; auf dieser Seite separat als Zubehör aufgeführt. Wenn ein Produkt nicht als Einbausatz oder Baugruppe verkauft wird, können zusätzliche Teile für den Einbau erforderlich sein.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	   </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+	   <textbox value="Festplattenträger" id="1"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-Hsrd-Drive-852</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Harddiskophæng" refid="1"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+       For at købe den rigtige harddisk er det vigtigt, at du kender din computers interfacetype. Interfacetypen er afgørende for kompatibiliteten med et system.
+	  </para>
+	  <para>
+	  Blandt almindelige interfacetyper i dag kan nævnes IDE (også kendt som PATA), SATA og SCSI. SCSI-interfacetypen kan fås med forskellige stikbenskonfigurationer.
+	  </para>
+	  <para>
+	  Harddiske er systemspecifikke for bærbare pc'er. Du skal dog kende interfacetypen for stationære pc'er og servere for at kunne vælge det rette produkt. Derfor anbefaler vi, at du bruger funktionen Servicekodesøgning i værktøjet Dele til din Dell<tm/> til at vælge den rigtige harddisk til din stationære pc eller server. Til bærbare pc'er kan du enten bruge funktionen Systemvisning eller Servicekodesøgning.
+	  </para>
+	  <para>
+	  Hastigheden og kapaciteten er afgørende for, hvor mange data der kan lagres, og hvor hurtigt data kan tilgås. Jo højere kapacitet, desto flere data kan lagres.
+	  </para>
+	  <para>
+	   Ligeledes gælder det, at jo højere hastigheden er, desto hurtigere kan pc'en tilgå data på harddisken og skrive data til og fra den.
+	  </para>
+	  <para>
+	  Bemærk, at nogle af vores udskiftningsprodukter leveres som sæt eller enheder. Disse sæt kan indeholde flere dele, der er nødvendige for installationen, og delene vises separat som &quot;komponentdele&quot; i afsnittet Højdepunkter på denne side. Hvis et produkt ikke sælges som et sæt eller en enhed, kan der muligvis kræves ekstra dele for at sikre nem installation.
+	  </para>
+	  <para>
+	  <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+	   <textbox value="Harddiskophæng" id="1"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

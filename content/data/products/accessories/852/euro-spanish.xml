@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Accessories-Hsrd-Drive-852</meta:title>
+    <meta:date value="2015-10-1" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Portadora de disco duro" refid="1"/> 
+    </product:name>
+    <product:longdesc>
+      <para>
+      Para adquirir el disco duro adecuado, es importante que conozca el tipo de interfaz de su equipo. El tipo de interfaz determina la compatibilidad con un sistema.
+	  </para>
+	  <para>
+	   En la actualidad, los tipos de interfaz más comunes son IDE (también conocido como PATA), SATA y SCSI. El tipo de interfaz SCSI se ofrece en diferentes configuraciones de patillas.
+	  </para>
+	  <para>
+	   En el caso de los portátiles, los discos duros son específicos de cada sistema. Sin embargo, debe conocer el tipo de interfaz de los sobremesas y servidores para seleccionar el producto adecuado. Por ello, recomendamos que utilice la función de etiqueta de servicio en la herramienta Piezas para su sistema Dell<tm/> para elegir el disco duro correcto para su sobremesa o servidor. En el caso de los portátiles, puede usar la función de detalle del sistema o la función de etiqueta de servicio.
+	  </para>
+	  <para>
+	   La velocidad y la capacidad determinan cuántos datos se pueden almacenar y con qué velocidad se puede acceder a los datos. Cuanto mayor es la capacidad, más datos se pueden almacenar.
+	  </para>
+	  <para>
+	   Del mismo modo, cuanto mayor es la velocidad, más rápido es el proceso de acceso y escritura en el disco duro.
+	  </para>
+	  <para>
+	   Tenga en cuenta que algunos de nuestros productos de sustitución se proporcionan como kits o conjuntos. Estos kits pueden contener piezas adicionales que se requieren para la instalación. Estas piezas estarán indicadas por separado con la leyenda &quot;Componentes&quot; en la sección de características destacadas de esta página. En caso de que un producto no se venda como kit o conjunto, puede que sea necesario usar piezas complementarias para facilitar la instalación
+	  </para>
+	  <para>
+	   <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+	   <textbox value="Portadora de disco duro" id="1"/> 
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

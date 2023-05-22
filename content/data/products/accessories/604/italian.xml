@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Backplane</meta:title>
+    <meta:date value="2017-11-03" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Backplane per <textbox value="2x2" id="5"/> <dropdownlist id="formfactor-277a"/> rear disco rigido per <textbox value="R730XD" id="2"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+       Il backplane <textbox value="SATA" id="4"/> <textbox value="2x2" refid="5"/> di Dell supporta <textbox value="2x2" refid="5"/> dischi rigidi <textbox value="SATA" refid="4"/>. È dotato di <textbox value="2x2" refid="5"/> connettori <textbox value="SATA" refid="4"/> per la sua connessione. È progettato in modo da consentire l'installazione di un'unità <textbox value="SATA" refid="4"/> in qualsiasi slot. Il backplane di Dell<tm/> è progettato appositamente per l'uso con Dell PowerEdge<tm/> <textbox value="R730XD" refid="2"/> Server. Il prodotto è stato testato e convalidato su sistemi Dell<tm/> per assicurarne il corretto funzionamento con il computer. Se utilizzato con un sistema Dell prevede il servizio di assistenza tecnica Dell<tm/>.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di prodotto">
+        Backplane
+      </product:techspec>
+	  <product:techspec id="2" name="Tipo di Connettore">
+        offerte <textbox value="2x2" refid="5"/> <textbox value="SATA" refid="4"/> connettore
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Server Accessories </meta:title>
+    <meta:date value="2018-09-04" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 可信平台模塊  <textbox value="2.0" id="1"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       可信平台模塊或TPM是一種安全設備，用於保存計算機生成的加密密鑰。 它是一種基於硬件的解決方案，可防止黑客嘗試捕獲密碼，加密密鑰和其他敏感數據。
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="產品類型">
+        硬體安全性片
+      </product:techspec>
+       <product:techspec id="2" name="商标">
+		戴爾
+    </product:techspec>
+	<product:techspec id="3" name="配件種類">
+		電腦安全產品
+    </product:techspec>
+	<product:techspec id="4" name="型號">
+		可信平台模塊 <textbox value="2.0" refid="1"/>
+    </product:techspec>
+	<product:techspec id="5" name="系統">
+		系統配件
+    </product:techspec>
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
