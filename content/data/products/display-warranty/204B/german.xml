@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> LCD-Verkleidung
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		LCD-Display-Verkleidungen, Abdeckungen, Zubehör und Austausch von kosmetischen Komponenten für Notebooks. LCD-Display-Verkleidungen, Abdeckungen und Zubehör beinhalten LCD-Abdeckung, Blende und Gummiauflagen.
+	  </para>
+	  <para>
+		Im Abschnitt "Technische Daten" können Sie der Spalte "Art des Kunststoffs" die Art des Produkts entnehmen. Die meisten dieser Produkte sind recht einfach. Bitte beachten Sie, dass Sie für die LCD-Abdeckung die Größe des LCD-Bildschirms kennen müssen. Abdeckungen und LCD-Bildschirme sind in verschiedenen Größen erhältlich. Auch Gummiauflagen können für einen Computer unterschiedliche Größen und Stile aufweisen.
+	  </para>
+	  <para>
+		Bei der Auswahl der richtigen LCD-Kunststoffteile empfehlen wir, dass Sie vom System ausgehend suchen oder die Service-Tag-Suchfunktion im Tool Parts For Your Dell<tm/> verwenden. Damit können wir Ihre Anforderungen bezüglich des LCD-Kunststoffs korrekt identifizieren und kompatible Lösungen anbieten.
+	  </para>
+	  <para>
+	    Bitte beachten Sie, dass manche Ersatzteile als Einbausätze oder Baugruppen geliefert werden. Diese Einbausätze können zusätzliche Teile enthalten, die für den Einbau erforderlich sind; diese werden im Abschnitt "Highlights" auf dieser Seite separat als Zubehör aufgeführt. Wenn ein Produkt nicht als Einbausatz oder Baugruppe verkauft wird, können zusätzliche Teile für den Einbau erforderlich sein.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Kosmetische Ersatzkomponenten für Notebooks
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Farbe">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Produkttyp">
+        LCD-Verkleidung
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

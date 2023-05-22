@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> tampa frontal do LCD
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		Acessórios, tampas e plásticos do LCD são componentes cosméticos sobressalentes para notebooks. Acessórios, tampas e plásticos do LCD incluem a tampa, a tampa frontal e os amortecedores de borracha do LCD.
+	  </para>
+	  <para>
+		Você pode consultar o tipo de produto na coluna Tipo de plástico da seção Especificações técnicas. A maioria desses produtos é bastante simples. Com relação às tampas para a tela LCD, é importante que você saiba o tamanho exato da sua tela LCD. Há vários tamanhos de tampas e telas LCD. Da mesma forma, há amortecedores de borracha de vários tamanhos e estilos.
+	  </para>
+	  <para>
+		Para ajudá-lo na sua seleção de plásticos do LCD, recomendamos que você use a pesquisa de etiqueta de serviço ou o recurso de detalhamento do sistema da ferramenta Parts For Your Dell<tm/>. Isso nos permitirá identificar corretamente os requisitos dos plásticos do LCD para oferecer soluções compatíveis.
+	  </para>
+	  <para>
+	    Alguns de nossos produtos sobressalentes são fornecidos como kits ou conjuntos. Esses kits podem incluir peças adicionais necessárias para a instalação. Essas peças serão listadas separadamente como "Peças de componentes" na seção Destaques desta página. No caso de um produto que não é vendido como kit ou conjunto, ele pode precisar de peças complementares para facilitar a instalação.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Serve como componente cosmético sobressalente para notebooks
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Cor">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de produto">
+        Tampa frontal do LCD
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

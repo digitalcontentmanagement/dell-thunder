@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/>-дюймовый жидкокристаллический дисплей
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Каждый ЖК-дисплей имеет свой тип разрешения. Тип разрешения определяет резкость и четкость изображения. Чем выше разрешение,тем четче будет изображение на экране. Однако важно отметить, что следует приобретать только ЖК-экраны с тем же типом разрешения, что и у исходной системы. Если вы не знаете тип разрешения экрана вашего компьютера, позвоните в отдел продаж. Вам помогут найти подходящий продукт.
+	 </para>
+	 <para>
+	 Под размером экрана подразумевается размер экрана по диагонали в дюймах. Он определяет область просмотра экрана. Чем больше размер экрана, тем больше область просмотра.
+	 </para>
+	 <para>
+	  Мы рекомендуем использовать функцию Service Tag Lookup в средстве Parts For Your Dell<tm/> для выбора подходящего ЖК-дисплея. Эта функция поможет определить систему, тип и размер экрана и порекомендовать подходящие продукты. Если ЖК-дисплей значится в списке продуктов, совместимых с системой, также гарантируется совместимость его типа интерфейса и форм-фактора.
+	 </para>
+	 <para>
+	  Обратите внимание, что некоторые наши изделия-заменители предоставляются в качестве комплектов или сборных изделий. В таких комплектах могут содержаться дополнительные компоненты, необходимые для установки. Если продукт не продается в виде комплекта или сборного изделия, для упрощения его установки могут потребоваться дополнительные компоненты.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  Ограниченная гарантия на оборудование Dell распространяется на дефекты материалов и изготовления оборудования Dell. Для получения дополнительных сведений о гарантийных услугах посетите веб-сайт 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 Обеспечивает более высокое разрешение и резкость изображения на экране 
+	</point>
+	<point>
+	 Позволяет определить систему, тип и размер экрана и порекомендовать подходящие продукты 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/>-дюймовый Размер по диагонали
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип продукта">
+	  ЖК
+	   </product:techspec>
+	    <product:techspec id="2" name="Функции">
+	   Чем выше разрешение, тем выше резкость изображения
+      </product:techspec>
+	    <product:techspec id="3" name="Размер по диагонали">
+	      <textbox value="14" id="1"/>-дюймовый
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

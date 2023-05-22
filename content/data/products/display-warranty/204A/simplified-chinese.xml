@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/> 英寸液晶显示屏
+    </product:name>
+    <product:longdesc>
+      <para>
+	   每个液晶屏都有相应的分辨率类型。 它决定了所显示图像的清晰度和锐利度。 分辨率越高，屏幕上的图像就越清晰。 不过，需要指出的重要一点是，您所购买的液晶屏必须与原系统随附的液晶屏具有相同的分辨率类型。 如果您不知道您PC屏幕的分辨率类型，请致电销售团队。 他们会帮助您找到合适的产品。
+	 </para>
+	 <para>
+	  在提及屏幕尺寸时，我们指的是屏幕的对角线尺寸（以英寸为单位）。 它决定了屏幕的可视区域。 屏幕尺寸越大，可视区域也就越大。
+	 </para>
+	 <para>
+	  我们建议您使用Parts For Your Dell<tm/>（您的戴尔产品部件）工具中的服务标签查找功能来选择合适的液晶屏。 借助此功能，我们能够确定系统、屏幕类型和尺寸要求，并推荐合适的产品。 如果某个液晶屏被列为与某个系统兼容，那么其接口类型和外形规格也会与该系统兼容，对此您大可放心。
+	 </para>
+	 <para>
+	  请注意，我们的部分更换产品以套件或组件形式提供。 这些套件可能包含安装所需的其他部件。 如果产品未作为套件或组件销售，则它可能需要补充部件，以方便安装。
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  戴尔有限硬件保修涵盖了您的戴尔品牌硬件产品中的材料和工艺缺陷。 有关我们的保修服务的更多详情，请访问
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 提供更高的分辨率，在屏幕上呈现清晰的画面 
+	</point>
+	<point>
+	 有助于确定系统、屏幕类型和尺寸要求，并推荐合适的产品 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> 英寸对角线尺寸
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="产品类型">
+	  液晶屏
+	   </product:techspec>
+	    <product:techspec id="2" name="功能">
+	  更高的分辨率/清晰的画质
+      </product:techspec>
+	    <product:techspec id="3" name="对角线尺寸">
+	      <textbox value="14" id="1"/> 英寸
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

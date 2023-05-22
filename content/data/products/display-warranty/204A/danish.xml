@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/>" Liquid Crystal Display
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Alle LCD-skærme har en opløsningstype. Opløsningstypen bestemmer skarpheden og klarheden i det viste billede. Jo højere opløsning, jo skarpere bliver billedet på skærmen. Det er imidlertid vigtigt at bemærke, at du kun bør købe LCD-skærme med samme opløsningstype som afsendt med det oprindelige system. Hvis du ikke kender opløsningstypen på din pc-skærm, kan du ringe til salgskøen. De kan hjælpe dig med at finde det rette produkt.
+	 </para>
+	 <para>
+	 Når der refereres til størrelsen af skærmen, er der tale om den diagonale størrelse på skærmen i tommer. Den bestemmer visningsområdet på skærmen. Jo større tommer, jo større er visningsområdet.
+	 </para>
+	 <para>
+	  Vi anbefaler funktionen Servicekodesøgning i værktøjet Dele til din Dell<tm/> til at vælge den korrekte LCD-skærm. Denne funktion gør det muligt for os at bestemme systemet, skærmtypen, størrelseskrav og lave de korrekte produktanbefalinger. Når en LCD-skærm er angivet til at være kompatibelt med et system, er interfacetypen og formfaktoren kompatible.
+	 </para>
+	 <para>
+	  Bemærk, at nogle af vores udskiftningsprodukter leveres som sæt eller enheder. Disse sæt kan indeholde flere dele, der er nødvendige for installationen. Hvis et produkt ikke sælges som et sæt eller en enhed, kan der muligvis kræves ekstra dele for at sikre nem installation.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  Dells begrænsede hardwaregaranti dækker defekter i materialer og udførelsen af dine Dell-mærkede hardwareprodukter. Du kan finde yderligere oplysninger om vores garantiservice ved at besøge 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 Giver højere opløsning og skarpe billeder på skærmen 
+	</point>
+	<point>
+	 Gør det muligt at bestemme systemet, skærmtypen, størrelseskrav og lave de korrekte produktanbefalinger. 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/>" Diagonal størrelse
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+	   LCD
+	   </product:techspec>
+	    <product:techspec id="2" name="Funktioner">
+	  Højere opløsning/skarp billedkvalitet
+      </product:techspec>
+	    <product:techspec id="3" name="Diagonal størrelse">
+	      <textbox value="14" id="1"/>"
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

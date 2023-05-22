@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 液晶螢幕外框
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		液晶螢幕塑膠部分、外蓋與配件，都是筆記型電腦的替換裝飾元件。 液晶螢幕塑膠部分、護蓋與配件包括液晶螢幕外蓋、外框與橡膠減震墊。
+	  </para>
+	  <para>
+		「技術規格」一節裡的「塑膠類型」欄位將告訴您此產品的類型。 這些產品說明大都非常淺顯易懂。 請注意，在選購液晶螢幕外蓋時，請務必了解您的液晶螢幕尺寸。 液晶螢幕外蓋與螢幕本身都有各種尺寸。 同樣地，一台電腦的橡膠減震墊也會有不同的大小與樣式。
+	  </para>
+	  <para>
+		為了幫助您選擇正確的液晶螢幕塑膠部分，我們建議您使用「適合您的 Dell<tm/> 產品零件」工具裡的「產品服務編號」查詢或「系統深入鑽研」(System Drill Down) 功能。 這將有助於我們正確地識別您的液晶螢幕塑膠部分需求，並提供相容的解決方案。
+	  </para>
+	  <para>
+	    請注意，我們用來更換的某些產品僅做為套件或組件提供給您。 這些套件可能包含安裝所需的其他零件，這些零件會在此頁面的「特色」(Highlights) 區段中個別列示為「元件零件」(Component Parts)。 如果產品不採套件或組件形式銷售，可能需要互補零件以簡化安裝。
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          作用就像是筆記型電腦的替換裝飾元件
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="顏色">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="產品類型">
+        液晶螢幕外框
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

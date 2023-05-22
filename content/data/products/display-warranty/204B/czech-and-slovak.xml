@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Rámeček LCD displeje
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		Plasty pro LCD displej, kryty a příslušenství jsou náhradní kosmetické komponenty pro notebooky. Plasty pro LCD displej, kryty a příslušenství zahrnují kryt displeje, pouzdro a gumové nárazníky.
+	  </para>
+	  <para>
+		Typ produktu je uveden ve sloupci Typ plastu v technických údajích. Většina z těchto produktů je velmi přehledná. Upozorňujeme, že u krytů LCD displejů je důležité znát velikost displeje. Kryty LCD displejů a obrazovky jsou dodávány v různých velikostech. Stejně tak i gumové nárazníky mohou být dodávány v různých velikostech a stylech pro různé počítače.
+	  </para>
+	  <para>
+		Chcete-li pomoci při výběru správného plastového dílu pro LCD displej, doporučujeme použít funkci hledání výrobního čísla nebo funkci Analýza systému v nástroji Parts For Your Dell<tm/>. To nám umožní správně identifikovat požadovaný plastový díl pro LCD displej a nabídnout kompatibilní řešení.
+	  </para>
+	  <para>
+	    Některé náhradní díly dodáváme jako sady nebo sestavy. Tyto sady mohou obsahovat další díly potřebné pro instalaci; takové díly budou uvedeny v části Hlavní položky jako samostatné položky typu Komponenta. Pokud výrobek neprodáváme jako sadu nebo sestavu, může jeho snadná instalace vyžadovat další díly.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Slouží jako náhradní kosmetické komponenty pro notebooky.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Barva">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Typ produktu">
+        Rámeček LCD displeje
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

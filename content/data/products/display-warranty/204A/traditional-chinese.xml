@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/> 吋液晶顯示器
+    </product:name>
+    <product:longdesc>
+      <para>
+	   每台液晶顯示器都有特定的解析度類型。 解析度類型可決定顯示影像的銳利度與清晰度。 解析度越高，螢幕上顯示的影像就會越清晰銳利。 不過，請務必注意，您必須購買與原始系統本身解析度類型相同的液晶螢幕。 如果您不知道電腦螢幕的解析度類型，請致電洽詢銷售部的服務人員。 他們將會協助您找到適合的產品。
+	 </para>
+	 <para>
+	  所謂的螢幕尺寸，指的是以英吋為單位的螢幕對角線尺寸。 這個尺寸將決定螢幕可視區域的大小。 尺寸越大，可視區域就越大。
+	 </para>
+	 <para>
+	  我們建議您使用「適合您的 Dell<tm/> 產品零件」工具中的「產品服務編號」查詢功能，以便選擇正確的液晶顯示器。 此功能將可協助我們判定系統、螢幕類型和尺寸需求，為您提供正確的產品建議。 如果液晶顯示器已載明與系統相容，即可確保其介面類型與外形規格皆相容。
+	 </para>
+	 <para>
+	  請注意，我們的部分替換產品是以套件或組件的形式提供。 這些套件可能包含安裝所需的其他零件。 如果產品並不是以套件或組件形式銷售，可能會需要補充零件以方便進行安裝。
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  Dell 品牌硬體產品的材料與製造瑕疵，亦屬於 Dell 有限硬體保固的涵蓋範圍。 如需有關保固服務的詳細資訊，請瀏覽 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 可提供更高的解析度，讓螢幕上的影像更加清晰銳利 
+	</point>
+	<point>
+	 可協助判定系統、螢幕類型和尺寸需求，為您提供正確的產品建議 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> 吋 對角線尺寸
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="產品類型">
+	  液晶顯示器
+	   </product:techspec>
+	    <product:techspec id="2" name="特色">
+	   解析度更高/畫質更清晰銳利
+      </product:techspec>
+	    <product:techspec id="3" name="對角線尺寸">
+	      <textbox value="14" id="1"/> 吋
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

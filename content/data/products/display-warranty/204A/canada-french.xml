@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/> pouces écran à cristaux liquides
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Chaque écran ACL présente un type de résolution. Le type de résolution détermine la netteté et la clarté de l’image affichée. Plus la résolution est élevée, plus l’image de votre écran sera nette. Il est toutefois important de noter que vous devriez acheter uniquement des écrans ACL dont le type de résolution est le même que celui de l’écran expédié avec le système d’origine. Si vous ne connaissez pas le type de résolution de l’écran de votre ordinateur, veuillez appeler la file d’attente de ventes. Celle-ci pourra vous aider à trouver le produit approprié pour vous.
+	 </para>
+	 <para>
+	  La taille de l’écran fait référence à la taille diagonale de l’écran en pouces. Elle détermine la surface d’affichage de l’écran. Plus la taille est importante, plus la surface d’affichage est grande.
+	 </para>
+	 <para>
+	  Nous vous recommandons d’utiliser la fonctionnalité de recherche des étiquettes de service de l’outil Composantes de votre Dell<tm/> pour choisir l’écran ACL approprié. Cette fonctionnalité nous permettra de déterminer le système ainsi que le type et la taille de l’écran, puis de recommander les produits appropriés. S’il est indiqué qu’un écran ACL est compatible avec un système, cela implique que le type d’interface et le format sont compatibles.
+	 </para>
+	 <para>
+	  Veuillez noter que certaines de nos pièces de rechange sont offertes sous forme de trousse ou d’ensemble. Ces trousses peuvent contenir d’autres pièces nécessaires à l’installation. Si un produit n’est pas vendu sous forme de trousse ou d’ensemble, des pièces complémentaires peuvent être nécessaires afin de faciliter l’installation.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  Cette garantie limitée sur le matériel de Dell couvre les défauts de matériel ou de fabrication de vos produits de marque Dell. Pour obtenir de plus amples renseignements sur nos services de garantie, consultez la page 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 Procure une résolution plus élevée et une image plus nette de l’écran 
+	</point>
+	<point>
+	  Permet de déterminer le système ainsi que le type et la taille de l’écran, puis de recommander les produits appropriés 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> pouces Taille diagonale
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+	   ACL
+	   </product:techspec>
+	    <product:techspec id="2" name="Caractéristiques">
+	    Résolution élevée et image nette
+      </product:techspec>
+	    <product:techspec id="3" name="Taille diagonale">
+	      <textbox value="14" id="1"/> pouces
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

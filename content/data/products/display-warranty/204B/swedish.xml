@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> LCD-ram
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		LCD-plast, höljen och tillbehör är kosmetiska ersättningskomponenter för bärbara datorer. LCD-höljet, ramen och stötskydden i gummi är några exempel på LCD-plast, höljen och tillbehör.
+	  </para>
+	  <para>
+		Plasttypskolumnen i de tekniska specifikationerna visar produkttypen. De flesta av de här produkterna är ganska okomplicerade. Du måste känna till LCD-skärmens storlek för att kunna välja LCD-skärmhölje. LCD-höljen och skärmar finns i olika storlekar. Stötskydden i gummi finns också i olika storlekar och format.
+	  </para>
+	  <para>
+		Vi rekommenderar att du antingen använder funktionen för att söka efter en Service Tag eller funktionen System Drill Down i verktyget Parts For Your Dell<tm/> när du väljer LCD-plast. Då kan vi identifiera dina LCD-plastbehov och erbjuda kompatibla lösningar.
+	  </para>
+	  <para>
+	    Observera att några av våra renoverade produkter levereras som satser eller paket. Dessa satser kan innehålla extra komponenter som krävs för installationen. Delarna anges separat som komponenter i avsnittet Höjdpunkter på denna sida. Om en produkt inte kan köpas som en sats eller ett paket kan det hända att det krävs kompletterande komponenter för installationen.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          En kosmetisk ersättningskomponent för bärbara datorer
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Färg">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Produkttyp">
+        LCD-ram
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

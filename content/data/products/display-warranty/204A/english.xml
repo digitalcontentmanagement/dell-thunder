@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/>-inch Liquid Crystal Display
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Every LCD Display has a Resolution type. The Resolution type determines the sharpness and clarity of the image displayed. The higher the resolution, sharper will be the image on your screen. However, it is important to note that you should only buy LCD Screens with the same resolution type as shipped with the original system. 
+	    If you don’t know the resolution type of your PC screen, please call the sales queue. They can help you find the right product.
+	 </para>
+	 <para>
+	  By referring to the size of the screen, we are referring to the diagonal size of the screen in inches. It determines the viewing area of the screen. Bigger the size, larger is the viewing area.
+	 </para>
+	 <para>
+	  We recommend that use the Service Tag look up feature in the Parts For Your Dell<tm/> tool to choose the correct LCD Display. This feature will allow us to determine the system, screen type, and size requirements and make correct product recommendations. When a LCD is listed to be compatible with a system, it is assured that the interface type and the form factor are compatible.
+	 </para>
+	 <para>
+	  Please note that some of our replacement products are provided as kits or assemblies. These kits may contain additional parts required for installation. In case a product is not sold as a kit or assembly, it may require complementary parts for ease of installation.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  Dell’s limited hardware warranty covers defects in materials and workmanship in your Dell-branded hardware products. For additional details on our warranty services, please visit 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	Provides higher the resolution and sharp picture on screen 
+	</point>
+	<point>
+	 Allows to determine the system, screen type, and size requirements and make correct product recommendations 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> inch Diagonal Size
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Product Type">
+	   LCD 
+	   </product:techspec>
+	    <product:techspec id="2" name="Features">
+	   Higher the resolution / Sharp Picture Quality
+      </product:techspec>
+	    <product:techspec id="3" name="Diagonal Size">
+	      <textbox value="14" id="1"/> inch
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

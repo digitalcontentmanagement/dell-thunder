@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/> ίντσες Οθόνη υγρών κρυστάλλων
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Κάθε οθόνη LCD διαθέτει έναν τύπο ανάλυσης. Ο τύπος ανάλυσης καθορίζει την ευκρίνεια και την καθαρότητα της εικόνας. Όσο υψηλότερη είναι η ανάλυση, τόσο πιο ευκρινείς θα είναι οι εικόνες στην οθόνη σας. Ωστόσο, είναι σημαντικό να σημειωθεί ότι πρέπει να αγοράζετε μόνο οθόνες LCD με τον ίδιο τύπο ανάλυσης που συνόδευε το αρχικό σύστημα. Αν δεν γνωρίζετε τον τύπο ανάλυσης της οθόνης του υπολογιστή σας, καλέστε το τμήμα πωλήσεων. Εκεί μπορούν να σας βοηθήσουν να βρείτε το κατάλληλο προϊόν.
+	 </para>
+	 <para>
+	  Το μέγεθος της οθόνης αναφέρεται στο μήκος της διαγωνίου της οθόνης σε ίντσες. Αυτό καθορίζει την περιοχή προβολής της οθόνης. Όσο μεγαλύτερο είναι το μέγεθος, τόσο μεγαλύτερη είναι και η περιοχή προβολής.
+	 </para>
+	 <para>
+	  Συνιστούμε τη χρήση της λειτουργίας αναζήτησης Ετικέτας εξυπηρέτησης στο εργαλείο Εξαρτήματα Dell<tm/> για την επιλογή της κατάλληλης οθόνης LCD. Αυτή η λειτουργία μάς δίνει τη δυνατότητα να προσδιορίζουμε τις απαιτήσεις του συστήματος, του τύπου οθόνης και του μεγέθους και να προτείνουμε τα κατάλληλα προϊόντα. Όταν μια οθόνη LCD αναφέρεται ως συμβατή με ένα σύστημα, είναι βέβαιο ότι ο τύπος διασύνδεσης και ο συντελεστής μορφής είναι συμβατοί.
+	 </para>
+	 <para>
+	  Λάβετε υπόψη ότι ορισμένα από τα προϊόντα αντικατάστασης που διαθέτουμε παρέχονται ως κιτ ή συναρμολογημένα. Αυτά τα κιτ μπορεί να περιέχουν επιπρόσθετα εξαρτήματα που απαιτούνται για την εγκατάσταση. Σε περίπτωση που ένα προϊόν δεν πωλείται ως κιτ ή συναρμολογημένο, ενδέχεται να απαιτεί συμπληρωματικά εξαρτήματα για τη διευκόλυνση της εγκατάστασης.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  Η Περιορισμένη εγγύηση υλικού της Dell καλύπτει ελαττώματα υλικών και κατασκευής στα επώνυμα προϊόντα υλικού της Dell. Για περαιτέρω πληροφορίες σχετικά με τις υπηρεσίες εγγύησης, επισκεφθείτε τη διεύθυνση 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 Παρέχει υψηλότερη ανάλυση και ευκρίνεια εικόνας στην οθόνη 
+	</point>
+	<point>
+	 Επιτρέπει τον προσδιορισμό των απαιτήσεων του συστήματος, του τύπου οθόνης και του μεγέθους και την πραγματοποίηση των κατάλληλων προτάσεων για τα προϊόντα 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> ίντσες Μήκος διαγωνίου
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος προϊόντος">
+	   Οθόνη LCD
+	   </product:techspec>
+	    <product:techspec id="2" name="Χαρακτηριστικά">
+	     Υψηλότερη ανάλυση/Υψηλή ποιότητα ευκρίνειας εικόνων
+      </product:techspec>
+	    <product:techspec id="3" name="Μήκος διαγωνίου">
+	      <textbox value="14" id="1"/> ίντσες
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

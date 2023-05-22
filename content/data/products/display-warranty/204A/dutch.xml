@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/>-inch lcd-beeldscherm
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Elk lcd-beeldscherm heeft een resolutietype. Het resolutietype bepaalt de scherpte en helderheid van de weergegeven beelden. Hoe hoger de resolutie, des te scherper de beeldweergave. Maar u dient alleen een lcd-scherm te kopen met hetzelfde resolutietype als dat van het oorspronkelijke systeem. Als u het resolutietype van uw pc-scherm niet weet, kunt u contact opnemen met een van onze verkopers. Ze kunnen u helpen het juiste product te vinden.
+	 </para>
+	 <para>
+	  Als we spreken over schermgrootte, bedoelen we de diagonale afmeting van het scherm in inches. Deze bepaalt het weergavegebied van het scherm. Hoe meer schermgrootte, des te groter het weergavegebied.
+	 </para>
+	 <para>
+	  We raden u aan om de functie Zoek Service Tag van de tool Onderdelen voor uw Dell<tm/>-systeem te gebruiken om het juiste lcd-beeldscherm te kiezen. Zo kunnen we het systeem, het schermtype en de vereiste afmetingen bepalen en de juiste producten aanbevelen. Wanneer wordt aangegeven dat een lcd-beeld compatibel is met een systeem, kunt u er zeker van zijn dat het interfacetype en de vormfactor compatibel zijn.
+	 </para>
+	 <para>
+	  Houd er rekening mee dat sommige van onze vervangende producten worden geleverd als kit of assembly. Deze kits bevatten mogelijk extra onderdelen die vereist zijn voor installatie. In het geval dat een product niet wordt verkocht als kit of assembly, zijn er mogelijk extra onderdelen vereist voor een eenvoudige installatie.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	 De beperkte hardwaregarantie van Dell is van toepassing op materiaal- en productiefouten in uw hardware van Dell. Ga voor meer informatie over onze garantieservices naar 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 Biedt een hoge resolutie en scherpe beelden op het scherm 
+	</point>
+	<point>
+	 Het systeem, het schermtype en de vereiste afmetingen bepalen en de juiste producten aanbevelen 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> Diagonale afmeting
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type product">
+	  Lcd-beeldscherm
+	   </product:techspec>
+	    <product:techspec id="2" name="Kenmerken">
+	    Hoge resolutie / scherpe beeldkwaliteit
+      </product:techspec>
+	    <product:techspec id="3" name="Diagonale afmeting">
+	      <textbox value="14" id="1"/> inch
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

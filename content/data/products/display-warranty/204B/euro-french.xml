@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cadre LCD
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		La catégorie des composants en plastique, capots et accessoires pour écrans LCD correspond à des composants de remplacement cosmétiques pour les ordinateurs portables. La catégorie des composants en plastique, capots et accessoires pour écrans LCD inclut un capot d’écran LCD, un cadre et des tampons de protection en caoutchouc.
+	  </para>
+	  <para>
+		Dans la section Caractéristiques techniques, la colonne du type de composant en plastique vous indique le type de produit. La plupart de ces produits sont très simples. Veuillez noter que, pour les capots d’écran LCD, il est important de connaître la taille de l’écran. Les capots et écrans LCD sont disponibles en différentes tailles. De même, les tampons de protection en caoutchouc d’un ordinateur peuvent présenter des tailles et styles différents.
+	  </para>
+	  <para>
+		Pour vous aider à choisir le composant en plastique le plus adapté pour votre écran LCD, nous vous recommandons d’utiliser la fonction Numéro de série ou Examen approfondi du système de l’outil Pièces détachées pour votre système Dell<tm/>. Cela nous permettra d’identifier correctement vos besoins concernant les composants plastiques pour écran LCD et de vous proposer nos solutions les plus adaptées.
+	  </para>
+	  <para>
+	    Veuillez noter que certains de nos produits de remplacement sont fournis sous forme de kits ou d’assemblages. Ces kits peuvent contenir des pièces supplémentaires, requises pour l’installation ; elles sont répertoriées séparément en tant que « Composants » dans la section Points forts du produit, sur cette page. Si un produit n’est pas vendu sous forme de kit ou d’assemblage, des pièces supplémentaires peuvent être nécessaires pour faciliter l’installation.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Se comporte comme un composant de remplacement cosmétique pour les ordinateurs portables
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Couleur">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Type de produit">
+        Cadre LCD
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

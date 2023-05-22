@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> LCD-näyttö <textbox value="14" refid="1"/>-tuumainen
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Jokaisella LCD-näytöllä on tarkkuustyyppi. Tarkkuustyyppi vaikuttaa kuvan kirkkauteen ja terävyyteen. Mitä suurempi tarkkuus, sitä tarkempi kuva on näytössä. On kuitenkin syytä huomata, että kannattaa ostaa vain sellainen LCD-näyttö, jonka tarkkuustyyppi on sama kuin alkuperäisen järjestelmän mukana toimitetun näytön. Jos et tiedä PC-näyttösi tarkkuustyyppiä, soita myyntiin. He voivat auttaa etsimään oikean tuotteen.
+	 </para>
+	 <para>
+	  Näytön koko tarkoittaa näytön diagonaalista mittaa tuumina. Se määrittää näytön katselualan. Mitä suurempi koko, sitä suurempi katseluala.
+	 </para>
+	 <para>
+	  Suosittelemme, että valitset oikean LCD-näytön Parts For Your Dell™ -työkalun huoltotunnushaulla. Tämän toiminnon avulla voimme määrittää järjestelmän, näyttötyypin ja koon ja antaa oikeita tuotesuosituksia. Kun LCD-näyttö on yhteensopiva järjestelmän kanssa, voit olla varma, että liitäntätyyppi ja kotelokin ovat yhteensopivia.
+	 </para>
+	 <para>
+	  Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  Dellin rajoitettu laitteistotakuu kattaa Dell-tuotemerkillä varustettujen laitteistotuotteiden materiaali- ja valmistusvirheet. Lisätietoja Dellin takuupalveluista on osoitteessa 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 Tarkentaa näytön kuvaa 
+	</point>
+	<point>
+	 Mahdollistaa järjestelmän, näyttötyypin ja koon määrittämisen oikeuden tuotesuositusten antamiseen
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> tuumaa diagonaalinen mitta
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tuotteen tyyppi">
+	  LCD
+	   </product:techspec>
+	    <product:techspec id="2" name="Ominaisuudet">
+	  Korkea tarkkuus / terävä kuvanlaatu
+      </product:techspec>
+	    <product:techspec id="3" name="Diagonaalinen mitta">
+	      <textbox value="14" id="1"/> tuumaa
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> LCD-näytön takasuojus – <dropdownlist refid="displaywarranty-204-color"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		Huomaa, että LCD-näytön suojuksia käsiteltäessä on tärkeää, että tiedät LCD-näytön koon ja kannettavan tietokoneen mallin.
+	  </para>
+	  <para>
+		Oikean LCD-muovin valintaan suosittelemme joko huoltotunnushakua tai Parts For Your Dell<tm/> -työkalun järjestelmätietojen tarkastelutoiminnon käyttöä. Tällä tavalla voimme tunnistaa LCD-muovitarpeesi oikein ja tarjota yhteensopivaa ratkaisua.
+	  </para>
+	  <para>
+		Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	    Dellin rajoitettu laitteistotakuu kattaa Dell-tuotemerkillä varustettujen laitteistotuotteiden materiaali- ja valmistusvirheet. Lisätietoja Dellin takuupalveluista on osoitteessa <link ref="www.dell.com/warranty">www.dell.com/warranty</link>.
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          LCD-näytön suoja
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Väri">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tuotteen tyyppi">
+        LCD-suojus
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

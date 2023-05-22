@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/>palcový Displej LCD
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Každý LCD displej má určité rozlišení. Rozlišení určuje ostrost textu a jas obrazu. Čím vyšší rozlišení, tím ostřejší bude obraz na obrazovce. Je však důležité si uvědomit, že byste měli kupovat pouze obrazovky LCD se stejným rozlišením, jaké měl původní displej počítače. Pokud neznáte rozlišení obrazovky svého počítače, obraťte se na prodejce. Pomohou vám najít správný produkt.
+	 </para>
+	 <para>
+	  Velikostí obrazovky rozumíme diagonální rozměr obrazovky v palcích. Ten udává velikost zobrazovací plochy obrazovky. Čím je úhlopříčka větší, tím větší je zobrazovací oblast.
+	 </para>
+	 <para>
+	  Doporučujeme, abyste správný LCD displej vybrali pomocí funkce hledání výrobního čísla v nástroji Parts For Your Dell<tm/>. Tato funkce nám umožní určit typ systému, typ a velikost obrazovky a doporučit správný produkt. Pokud je LCD displej uveden v seznamu kompatibilních zařízení, můžete si být jisti, že typ rozhraní a uspořádání jsou kompatibilní.
+	 </para>
+	 <para>
+	 Některé náhradní díly dodáváme jako sady nebo sestavy. Tyto sady mohou obsahovat další díly potřebné pro instalaci. Pokud výrobek neprodáváme jako sadu nebo sestavu, může jeho snadná instalace vyžadovat další díly.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	 Omezená záruka společnosti Dell na hardware se vztahuje na vady materiálů a zpracování hardwarových výrobků značky Dell. Další podrobnosti o záručních službách najdete na adrese 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	Poskytuje vyšší rozlišení a ostrý obraz na obrazovce. 
+	</point>
+	<point>
+	 Umožňuje podle požadavků zákazníka určit systém, typ a velikost obrazovky a doporučit správný produkt. 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> palců Diagonální rozměr (úhlopříčka)
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+	   LCD displej
+	   </product:techspec>
+	    <product:techspec id="2" name="Funkce">
+	   Vyšší rozlišení / ostrý obraz
+      </product:techspec>
+	    <product:techspec id="3" name="Diagonální rozměr (úhlopříčka)">
+	      <textbox value="14" id="1"/> palců
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

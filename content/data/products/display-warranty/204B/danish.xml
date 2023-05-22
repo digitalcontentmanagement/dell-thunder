@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> LCD-panel
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		LCD-plastdele, -covers og -tilbehør er kosmetiske komponenter til udskiftning på bærbare pc'er. LCD-plastdele, -covers og -tilbehør omfatter LCD-coveret, -panelet og gummikanter.
+	  </para>
+	  <para>
+		Kolonnen Type af plastdele i afsnittet Tekniske specifikationer oplyser dig typen af dette produkt. De fleste af disse produkter er ganske ligetil. Bemærk, at det for LCD-skærmcovers er vigtigt, at du kender størrelsen på din LCD-skærm. LCD-covers og -skærme fås i forskellige størrelser. Tilsvarende fås gummikanter i forskellige størrelser og formater til en computer.
+	  </para>
+	  <para>
+		Som hjælp til at vælge de rigtige LCD-plastdele anbefaler vi funktionen Servicekodesøgning eller Systemvisning i værktøjet Dele til din Dell<tm/>. Dette gør det muligt for os at identificere dine krav til LCD-plastdele og tilbyde kompatible løsninger.
+	  </para>
+	  <para>
+	    Bemærk, at nogle af vores udskiftningsprodukter leveres som sæt eller enheder. Disse sæt kan indeholde flere dele, der er nødvendige for installationen, og delene vises separat som "komponentdele" i afsnittet Highlights på denne side. Hvis et produkt ikke sælges som et sæt eller en enhed, kan der muligvis kræves ekstra dele for at sikre nem installation.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          En udskiftning af kosmetiske komponenter til bærbare pc'er
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Farve">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Produkttype">
+        LCD-panel
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

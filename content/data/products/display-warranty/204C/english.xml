@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Assembly LCD Back Cover - <dropdownlist refid="displaywarranty-204-color"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		Please note that for LCD screen covers, it is important that you know the size of your LCD screen and model of your laptop.
+	  </para>
+	  <para>
+		To aid you in your selection of the right LCD plastics, we recommend that you use either the Service Tag look up or the System Drill Down feature in the Parts For Your Dell<tm/> tool. This will allow us to correctly identify your LCD Plastic requirements and offer compatible solutions.
+	  </para>
+	  <para>
+		Please note that some of our replacement products are provided as kits or assemblies. These kits may contain additional parts required for installation. In case a product is not sold as a kit or assembly, it may require complementary parts for ease of installation.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+		Dell’s limited hardware warranty covers defects in materials and workmanship in your Dell-branded hardware products. For additional details on our warranty services, please visit <link ref="www.dell.com/warranty">www.dell.com/warranty</link>.
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Provide protection to your LCD screen
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Color">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Product Type">
+        LCD Cover
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

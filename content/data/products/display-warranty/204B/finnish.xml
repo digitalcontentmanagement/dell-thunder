@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> LCD-näytön kehys
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		LCD-näytön muovit, suojukset ja oheislaitteet ovat kannettavien tietokoneiden kosmeettisia korvaavia komponentteja. LCD-näytön muoveihin, kansiin ja oheislaitteisiin kuuluvat LCD-näytön suojus, kehys ja kumipehmusteet.
+	  </para>
+	  <para>
+		Tuotteen tyyppi ilmenee Tekniset tiedot -osion muovityyppisarakkeesta. Useimmat näistä tuotteista ovat selkeästi tunnistettavissa. Huomaa, että LCD-näytön suojuksia käsiteltäessä on tärkeää, että tiedät LCD-näytön koon. LCD-näyttöjä ja niiden suojuksia on erikokoisia. Myös kumipehmusteita on erikokoisia ja -tyylisiä tietokoneen mukaan.
+	  </para>
+	  <para>
+		Oikean LCD-muovin valintaan suosittelemme joko huoltotunnushakua tai Parts For Your Dell<tm/> -työkalun järjestelmätietojen tarkastelutoiminnon käyttöä. Tällä tavalla voimme tunnistaa LCD-muovitarpeesi oikein ja tarjota yhteensopivaa ratkaisua.
+	  </para>
+	  <para>
+	    Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Nämä osat on lueteltu erikseen tämän sivun Tärkeät tiedot -kohdan komponenttiosissa. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Kosmeettinen korvaava komponentti kannettaville tietokoneille
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Väri">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tuotteen tyyppi">
+        LCD-näytön kehys
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

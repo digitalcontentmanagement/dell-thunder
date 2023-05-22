@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/> インチ LCD
+    </product:name>
+    <product:longdesc>
+      <para>
+	   各LCDディスプレイには解像度のタイプが設定されています。 解像度のタイプによって、どれだけ鮮明でクリアに画像が表示されるかが決まります。 解像度が高いほど、画面に表示される画像の鮮明さは向上します。 ただし、LCD画面の購入時には、元々システムに搭載されていた画面と解像度のタイプが同じものに限って選択することが重要です。 所有しているPC画面の解像度のタイプが不明な場合は、販売チームにお電話でお問い合わせください。 最適な製品を見つけられるようサポートします。
+	 </para>
+	 <para>
+	  デルは、画面サイズという語を画面の対角サイズ（インチ）の意味で使用しています。 これは、画面の表示領域を表しています。 サイズが大きいほど、表示領域も大きくなります。
+	 </para>
+	 <para>
+	  最適なLCDディスプレイを選択するため、Parts For Your Dell<tm/>ツールのサービスタグ検索機能を利用することをおすすめします。 これによって、デルはお客様のシステム、画面タイプ、サイズ要件を特定し、最適な製品を提案できます。 特定のシステムと互換性があるとされるLCDは、インターフェイスの種類およびフォームファクタにおいてそのシステムと互換性があることを保証されています。
+	 </para>
+	 <para>
+	  交換用製品は、キットまたは部品として提供されている場合がありますのでご注意ください。 このようなキットには、設置に必要な追加パーツが含まれていることがあります。 製品がキットまたは部品として販売されていない場合、設置しやすくするための補完パーツが必要になる場合があります。
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  デルのハードウェア限定保証は、デルブランドのハードウェア製品における材質または製作上の欠陥に適用されます。 保証サービスの詳細については、
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> をご覧ください。
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 高解像度によってクリアな画面表示を実現 
+	</point>
+	<point>
+	 システム、画面タイプ、サイズ要件を特定し、最適な製品を提案可能 
+	</point>
+	<point>
+	対角サイズ <textbox value="14" refid="1"/> インチ
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="製品タイプ">
+	   LCD
+	   </product:techspec>
+	    <product:techspec id="2" name="特長">
+	     高解像度、クリアな画質
+      </product:techspec>
+	    <product:techspec id="3" name="対角サイズ">
+	      <textbox value="14" id="1"/> インチ
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

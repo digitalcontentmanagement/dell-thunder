@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> pannello frontale LCD
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		I materiali di plastica dello schermo LCD, i coperchi e gli accessori sono componenti estetici sostitutivi per notebook. I materiali di plastica dello schermo LCD, i coperchi e gli accessori includono il coperchio dello schermo LCD, il pannello frontale e le guarnizioni in gomma.
+	  </para>
+	  <para>
+		Nella colonna Tipo di plastica della sezione Specifiche tecniche viene indicato il tipo di prodotto utilizzato. Per la maggior parte di questi prodotti si tratta di soluzioni semplici e immediate. Tenere presente che per i coperchi dello schermo LCD è importante conoscere le dimensioni dello schermo. Gli schermi e i coperchi LCD sono disponibili in varie dimensioni. Analogamente, le guarnizioni in gomma sono disponibili in diverse dimensioni e stili in base al computer.
+	  </para>
+	  <para>
+		Per semplificare la scelta dei giusti componenti di plastica degli schermi LCD, si consiglia di utilizzare la ricerca del codice di matricola o la funzione di analisi del sistema dello strumento Componenti per sistemi Dell<tm/>. In questo modo, Dell potrà identificare correttamente i requisiti dello schermo LCD e offrire le soluzioni compatibili.
+	  </para>
+	  <para>
+	    Tenere presente che alcuni dei prodotti sostitutivi Dell vengono forniti come kit o assiemi. Questi kit possono contenere parti aggiuntive richieste per l'installazione; tali parti verranno elencate separatamente come "Parti del componente" nella sezione Caratteristiche principali di questa pagina. Nel caso in cui un prodotto non sia venduto come kit o assieme, potrebbe richiedere parti complementari per semplificare l'installazione.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Componenti estetici sostitutivi per notebook
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Colore">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tipo di prodotto">
+        Pannello frontale LCD
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

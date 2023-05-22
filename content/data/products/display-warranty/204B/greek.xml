@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Πρόσοψη οθόνης LCD
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		Τα πλαστικά μέρη για οθόνες LCD, τα καλύμματα και ο βοηθητικός εξοπλισμός είναι ανταλλακτικά διακοσμητικά εξαρτήματα για φορητούς υπολογιστές. Τα πλαστικά μέρη για οθόνες LCD, τα καλύμματα και ο βοηθητικός εξοπλισμός, συμπεριλαμβάνουν το κάλυμμα της οθόνης LCD, την πρόσοψη και τα ελαστικά προστατευτικά.
+	  </para>
+	  <para>
+		Η στήλη "Τύπος πλαστικού μέρους" στην ενότητα των Τεχνικών προδιαγραφών, σας ενημερώνει για τον τύπο αυτού του προϊόντος. Τα περισσότερα από αυτά τα προϊόντα είναι ακριβώς όπως φαίνονται. Λάβετε υπόψη ότι για καλύμματα οθόνης LCD, είναι σημαντικό να γνωρίζετε το μέγεθος της οθόνης LCD. Τα καλύμματα οθόνης LCD και οι οθόνες διατίθενται σε διάφορα μεγέθη. Αντίστοιχα, τα ελαστικά προστατευτικά μπορεί να διατίθενται σε διάφορα μεγέθη και στυλ για έναν υπολογιστή.
+	  </para>
+	  <para>
+		Για βοήθεια στην επιλογή των κατάλληλων πλαστικών μερών οθόνης LCD, συνιστούμε να χρησιμοποιήσετε είτε την αναζήτηση Ετικέτας εξυπηρέτησης, είτε τη δυνατότητα Διερεύνησης συστήματος στο εργαλείο Εξαρτήματα Dell<tm/>. Με αυτόν τον τρόπο, θα μπορέσουμε να προσδιορίσουμε σωστά τις απαιτήσεις σας όσον αφορά τα πλαστικά μέρη της οθόνης LCD και να σας προσφέρουμε συμβατές λύσεις.
+	  </para>
+	  <para>
+	    Λάβετε υπόψη ότι ορισμένα από τα προϊόντα αντικατάστασης που διαθέτουμε παρέχονται ως κιτ ή συναρμολογημένα. Αυτά τα κιτ μπορεί να περιέχουν επιπλέον εξαρτήματα που απαιτούνται για την εγκατάσταση. Τα εν λόγω εξαρτήματα θα εμφανίζονται ξεχωριστά ως "Εξαρτήματα στοιχείων" στην ενότητα Βασικά πλεονεκτήματα αυτής της σελίδας. Σε περίπτωση που ένα προϊόν δεν πωλείται ως κιτ ή συναρμολογημένο, ενδέχεται να απαιτεί συμπληρωματικά εξαρτήματα για τη διευκόλυνση της εγκατάστασης.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Λειτουργεί ως ανταλλακτικό διακοσμητικό εξάρτημα για φορητούς υπολογιστές
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Χρώμα">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Τύπος προϊόντος">
+        Πρόσοψη LCD
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

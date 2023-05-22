@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/> pouces Écran à cristaux liquides
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Chaque écran LCD possède un type de résolution. Le type de résolution détermine la netteté et la clarté de l’image affichée. Plus la résolution est élevée, plus l’image sera nette sur votre écran. Cependant, il est important de noter qu’il convient d’acheter exclusivement des écrans LCD dont le type de résolution correspond à celui livré avec le système d’origine. Si vous ne connaissez pas le type de résolution de votre écran d’ordinateur, contactez le service des ventes. Nos conseillers pourront vous aider à trouver le bon produit.
+	 </para>
+	 <para>
+	 Lorsque nous mentionnons la taille de l’écran, nous faisons référence à la taille de la diagonale de l’écran en pouces. Cette mesure détermine la zone d’affichage de l’écran. Plus la taille est grande, plus la zone d’affichage est grande.
+	 </para>
+	 <para>
+	  Pour vous aider à choisir le bon écran LCD, nous vous recommandons de vous reporter à l’identification du numéro de série ou aux informations détaillées disponibles dans l’outil Composants pour votre Dell<tm/>. Cet outil nous permet de déterminer la configuration requise en matière de système, de type d’écran et de taille, et de vous soumettre des recommandations de produits pertinentes. Lorsqu’un écran LCD est indiqué compatible avec un système, le type d’interface et le format sont nécessairement compatibles.
+	 </para>
+	 <para>
+	  Veuillez noter que certains de nos produits de remplacement sont fournis sous forme de kits ou d’assemblages. Ces kits peuvent contenir des pièces supplémentaires requises pour l’installation. Si un produit n’est pas vendu sous forme de kit ou d’assemblage, des pièces supplémentaires peuvent être nécessaires pour faciliter l’installation.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  La garantie matérielle limitée de Dell couvre les défauts de matériel et de fabrication de vos produits matériels de marque Dell. Pour obtenir des informations supplémentaires sur nos services de garantie, rendez-vous sur le site 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 Résolution supérieure et images plus nettes à l’écran 
+	</point>
+	<point>
+	 Permet de déterminer la configuration requise en matière de système, de type d’écran et de taille, et de soumettre des recommandations de produits pertinentes. 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> pouces Taille de la diagonale
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Product Type">
+	   </product:techspec>
+	    <product:techspec id="2" name="Features">
+	  
+      </product:techspec>
+	    <product:techspec id="3" name="Diagonal Size">
+	      <textbox value="14" id="1"/>
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/> 인치 액정 디스플레이
+    </product:name>
+    <product:longdesc>
+      <para>
+	   모든 LCD 디스플레이에는 해상도 유형이 있습니다. 이 해상도 유형에 따라 표시되는 이미지의 선명도가 결정됩니다. 해상도가 높을수록 화면의 이미지가 더욱 선명해집니다. 하지만 원래 시스템과 동일한 해상도 유형의 LCD 화면을 구매해야 합니다. PC 화면의 해상도 유형을 모를 경우 판매 큐에 문의하시기 바랍니다. 적합한 제품을 찾을 수 있도록 도와드릴 것입니다.
+	 </para>
+	 <para>
+	  화면 크기를 말할 때는 인치 단위의 화면의 대각선 크기를 기준으로 합니다. 이는 화면의 표시 영역을 결정합니다. 크기가 클수록 넓은 가시 영역을 제공합니다.
+	 </para>
+	 <para>
+	  Parts For Your Dell<tm/> 도구의 서비스 태그 찾기 기능을 사용하여 올바른 LCD 디스플레이를 선택하는 것이 좋습니다. 이 기능은 Dell에서 시스템, 화면 유형 및 크기 요구 사항을 파악하고 올바른 제품을 권장하는 데 사용됩니다. 시스템과 호환되는 것으로 목록에 표시된 LCD는 인터페이스 유형 및 폼 팩터가 호환된다고 확신할 수 있습니다.
+	 </para>
+	 <para>
+	 일부 Dell 교체 제품은 키트 또는 어셈블리로 제공됩니다. 이 키트는 설치에 필요한 추가 부품을 포함할 수 있습니다. 제품이 키트 또는 어셈블리로 판매되지 않는 경우 간편한 설치를 위해 보완 부품이 필요할 수 있습니다.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	 Dell의 하드웨어 무상수리 서비스는 Dell 브랜드의 하드웨어 제품에서 발견되는 소재 및 기능상의 결함에 적용됩니다. Dell의 무상수리 서비스에 대해 자세히 알아보려면 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 를 방문하십시오.
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 화면에 더 높은 해상도의 선명한 사진을 제공합니다. 
+	</point>
+	<point>
+	 시스템, 화면 유형 및 크기 요구 사항을 파악하고 올바른 제품을 권장하는 데 사용됩니다. 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> 인치 화면 크기(대각)
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 유형">
+	  LCD
+	   </product:techspec>
+	    <product:techspec id="2" name="특징">
+	  높은 해상도/선명한 화질
+      </product:techspec>
+	    <product:techspec id="3" name="화면 크기(대각)">
+	      <textbox value="14" id="1"/> 인치
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

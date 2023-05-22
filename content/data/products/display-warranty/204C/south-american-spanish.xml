@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Tapa posterior para LCD de ensamblaje: <dropdownlist refid="displaywarranty-204-color"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		Tenga en cuenta que con respecto a las tapas de la pantalla LCD, es importante que sepa su tamaño y el modelo de su laptop.
+	  </para>
+	  <para>
+		Para ayudarlo a seleccionar las piezas de plástico para LCD adecuadas, le recomendamos que utilice la búsqueda de Etiqueta de servicio o la funcionalidad System Drill Down (Desglose del sistema) en la herramienta Piezas para su Dell<tm/> . Esto nos permitirá identificar correctamente los requisitos de su pieza de plástico para LCD y ofrecerle soluciones compatibles.
+	  </para>
+	  <para>
+		Tenga en cuenta que algunos de nuestros productos de reemplazo se proporcionan como kits o ensamblajes. Estos kits pueden contener piezas adicionales requeridas para la instalación. En el caso de que un producto no se venda como kit o ensamblaje, es posible que se requieran piezas complementarias para facilitar su instalación.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	    La garantía limitada de hardware de Dell cubre los defectos en los materiales y en la mano de obra de sus productos hardware marca Dell. Para obtener detalles adicionales sobre nuestros servicios de garantía, visite <link ref="www.dell.com/warranty">www.dell.com/warranty</link>.
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Protege su pantalla LCD.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Color">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de producto">
+        Cobertura LCD
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Spare-Display-Warranty-1</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="14" refid="1"/> pulgadas Pantalla de cristal líquido
+    </product:name>
+    <product:longdesc>
+      <para>
+	   Cada pantalla LCD tiene un tipo de resolución. El tipo de resolución determina la nitidez y la claridad de la imagen que se muestra. Cuanto mayor sea la resolución, más nítida será la imagen en la pantalla. Sin embargo, es importante tener en cuenta que solo debe comprar pantallas LCD con el mismo tipo de resolución que se envió con el sistema original. Si no sabe el tipo de resolución de la pantalla de su PC, llame a la cola de ventas. Pueden ayudarlo a encontrar el producto correcto.
+	 </para>
+	 <para>
+	  Al referirnos al tamaño de la pantalla, nos referimos al tamaño diagonal de la pantalla en pulgadas. Determina el área de visualización de la pantalla. Cuanto más grande sea el tamaño, mayor será el área de visualización.
+	 </para>
+	 <para>
+	  Recomendamos utilizar la función de búsqueda Service Tag (Etiqueta de servicio) en la herramienta Piezas para su Dell<tm/> para elegir la pantalla LCD correcta. Esta función nos permite determinar el tipo de sistema, el tamaño de la pantalla y sus requisitos, y hacer recomendaciones correctas de producto. Cuando un LCD está listado como compatible con un sistema, se garantiza que el tipo de interfaz y el factor de forma son compatibles.
+	 </para>
+	 <para>
+	  Tenga en cuenta que algunos de nuestros productos de reemplazo se proporcionan como kits o ensamblajes. Estos kits pueden contener piezas adicionales requeridas para la instalación. En el caso de que un producto no se venda como kit o ensamblaje, es posible que se requieran piezas complementarias para facilitar su instalación.
+	 </para>
+	 <para>
+	  <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	 </para>
+	 <para>
+	  La garantía limitada de hardware de Dell cubre los defectos en los materiales y en la mano de obra de sus productos hardware marca Dell. Para obtener detalles adicionales sobre nuestros servicios de garantía, visite 
+	  <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/warranty </link> 
+	  </para>
+	 
+    </product:longdesc>
+	<product:highlights>
+	<points>
+	<point>
+	 Proporciona mayor resolución y nitidez a la imagen en la pantalla 
+	</point>
+	<point>
+	 Permite determinar el sistema, el tipo de pantalla y los requisitos de tamaño, y hace recomendaciones correctas de producto 
+	</point>
+	<point>
+	 <textbox value="14" refid="1"/> pulgadas Tamaño diagonal
+	</point>
+	</points>
+	</product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+   <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+	  LCD
+	   </product:techspec>
+	    <product:techspec id="2" name="Características">
+	   Mayor resolución/Calidad nítida de la imagen
+      </product:techspec>
+	    <product:techspec id="3" name="Tamaño diagonal">
+	      <textbox value="14" id="1"/> pulgadas
+      </product:techspec>
+    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

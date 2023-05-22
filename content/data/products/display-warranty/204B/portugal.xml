@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-24" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> painel de LCD
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		Os componentes de plástico, as capas e os acessórios para LCD são componentes cosméticos de substituição para computadores portáteis. Os componentes de plástico, as capas e os acessórios para LCD incluem a capa, o painel e os amortecedores em borracha para LCD.
+	  </para>
+	  <para>
+		A coluna Tipo de plástico na secção de Especificações técnicas indica o tipo deste produto. Muitos destes produtos são bastante simples. Tenha em atenção que para as capas de ecrã LCD, é importante conhecer o tamanho do seu ecrã LCD. As capas e os ecrãs LCD são fornecidos em vários tamanhos. Da mesma forma, os amortecedores em borracha podem ter diferentes tamanhos e estilos para cada computador.
+	  </para>
+	  <para>
+		Para o ajudar a escolher os componentes em plástico para LCD adequados, recomendamos que utilize a funcionalidade de consulta Service Tag (Etiqueta de serviço) ou System Drill Down (Mais detalhes do sistema) na ferramenta Parts For Your Dell<tm/> (Peças do seu Dell). Desta forma, poderemos identificar corretamente os componentes de plástico necessários para o seu LCD e oferecer-lhe soluções compatíveis.
+	  </para>
+	  <para>
+	    Tenha em atenção que alguns dos nossos produtos de substituição são fornecidos sob a forma de kits ou conjuntos. Estes kits podem conter componentes adicionais que são necessários para a instalação; estes componentes serão enumerados em separado como 'Componentes' na secção de Destaques desta página. Caso um produto não seja vendido como um kit ou conjunto, poderão ser necessários componentes complementares para facilitar a instalação.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Funciona como um componentes cosméticos de substituição para computadores portáteis
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Cor">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de produto">
+        Painel de LCD
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

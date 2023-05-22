@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> zespół tylnej pokrywy wyświetlacza LCD - <dropdownlist refid="displaywarranty-204-color"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		W przypadku pokrywy wyświetlacza LCD trzeba znać rozmiar ekranu i model notebooka.
+	  </para>
+	  <para>
+		Aby ułatwić wybór odpowiednich plastikowych elementów wyświetlacza LCD, zaleca się skorzystanie z funkcji wyszukiwania kodu serwisowego lub funkcji szczegółowego wyboru systemu w narzędziu Części do urządzeń firmy Dell<tm/> . Umożliwi nam to poprawne określenie wymagań dotyczących plastikowych elementów wyświetlaczy LCD i zaoferowanie zgodnych rozwiązań.
+	  </para>
+	  <para>
+		Należy pamiętać, że niektóre podzespoły zamienne są dostarczane w postaci zestawów. Mogą one zawierać dodatkowe części niezbędne podczas instalacji. Jeżeli produkt nie jest oferowany w postaci zestawu, może wymagać dodatkowych części w celu łatwiejszej instalacji.
+	  </para>
+	  <para>
+		<stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	    Ograniczona gwarancja na sprzęt firmy Dell uwzględnia usterki materiałowe i wady wykonania w produktach sprzętowych marki Dell. Szczegółowe informacje na temat usług gwarancyjnych można znaleźć pod adresem <link ref="www.dell.com/warranty">www.dell.com/warranty</link>.
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Zapewnienie ochrony dla wyświetlacza LCD
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Kolor">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="Rodzaj produktu">
+        Pokrywa wyświetlacza LCD
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

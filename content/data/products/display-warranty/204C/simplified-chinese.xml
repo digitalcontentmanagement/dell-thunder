@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Display Warranty</meta:title>
+    <meta:date value="2015-11-23" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 液晶显示屏后盖 - <dropdownlist refid="displaywarranty-204-color"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+		请注意，选择液晶屏后盖时，您需要先了解液晶屏尺寸和笔记本电脑型号，这一点很重要。
+	  </para>
+	  <para>
+		为了帮助您选择合适的液晶屏塑料后盖，我们建议您使用Parts For Your Dell<tm/>（您的戴尔产品部件）工具中的服务标签查找或系统深入分析功能。 这样一来，我们就能正确地确定您对液晶屏塑料后盖的要求，并提供相应的解决方案。
+	  </para>
+	  <para>
+		请注意，我们的部分更换产品以套件或组件形式提供。 这些套件可能包含需要安装的其他部件。 如果产品未作为套件或组件销售，则它可能需要补充部件，以方便安装。
+	  </para>
+	  <para>
+		<stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	    戴尔有限硬件保修涵盖了您的戴尔品牌硬件产品中的材料和工艺缺陷。 有关我们的保修服务的更多详情，请访问<link ref="www.dell.com/warranty">www.dell.com/warranty</link>。
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          为您的液晶显示屏提供保护
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="颜色">
+        <dropdownlist id="displaywarranty-204-color"/>
+      </product:techspec>
+      <product:techspec id="2" name="产品类型">
+        液晶显示屏后盖
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
