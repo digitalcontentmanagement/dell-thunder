@@ -121,10 +121,6 @@
     <product:subclass id="104" description="Rubber Feet &amp; Notebook Plastics" folder-name="104"/>
   </product:category>
 
-  <product:category id="smartcard-devices" name="Smartcard Devices">
-    <product:subclass id="779" description="Smartcard Devices" folder-name="779"/>
-  </product:category>
-
   <product:category id="system-drive" name="System Drive">
     <product:subclass id="137" description="Blu-Ray Optical Drives" folder-name="83-137-344"/>
     <product:subclass id="344" description="External Optical Disc Drives" folder-name="83-137-344"/>
@@ -134,10 +130,6 @@
   <product:category id="tape-back-up-drives-catridges" name="Tape Back Up Drives Catridges">
     <product:subclass id="632" description="LTO Cartridges" folder-name="632-995"/>
     <product:subclass id="995" description="LTO Drives - External" folder-name="632-995"/>
-  </product:category>
-
-  <product:category id="wireless-dongle" name="Wireless Dongle">
-    <product:subclass id="240" description="Wireless Dongle" folder-name="240"/>
   </product:category>
 
   <product:category id="optical-transceivers" name="Optical Transceivers">
