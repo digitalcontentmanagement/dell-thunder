@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory Card </meta:title>
+    <meta:date value="2017-04-19" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Dell" refid="1"/> <textbox value="5" id="2"/> <dropdownlist refid="controllers-278-unit"/> <textbox value="SD" id="3"/> 카드 <textbox value="-" id="4"/> <dropdownlist id="customer-kit"/>  
+    </product:name>
+    <product:longdesc>
+      <para>
+       Dell<tm/> 의 <textbox value="SD" refid="3"/> 카드를 사용하여 중요한 데이터를 손쉽게 전송하고 이동할 수 있습니다. 세련된 디자인과 내구성을 지원하는 이 플래시 드라이브는 모든 스토리지 요구 사항을 처리합니다.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 브랜드">
+        <textbox value="Dell" id="1"/> 
+      </product:techspec>
+	  <product:techspec id="2" name="기기 종류">
+        Flash 메모리 카드
+      </product:techspec>
+	  <product:techspec id="3" name="스토리지 용량">
+        <textbox value="5" id="2"/>
+        <dropdownlist id="controllers-278-unit"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

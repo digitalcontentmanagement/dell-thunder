@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory Upgrade for XMP and DT</meta:title>
+    <meta:date value="2021-06-03" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/><dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/><textbox value="MHz" refid="4"/> XMP
+    </product:name>
+    <product:longdesc>
+      <para>
+	  Random Access Memory (RAM) is a type of hardware that your computer uses to store information. Adding memory is one of the most cost-effective ways to improve your computer's performance.
+      </para>
+      <para>
+	  <b>Dell<tm/> Branded memory offered in the Memory Selector has gone through rigorous quality assurance and quality control testing to ensure it will work with your specific Dell System so it is fully compatible and supported by Dell.  Getting unqualified or generic products from other vendors can cause downtime that can seriously cost your business and put your entire system at risk.</b>
+      </para>
+	  <para>
+	  Memory offered now may differ in speed from the original system memory but has been qualified to work in the system. When mixed, the memory will perform at the lowest speed populated or the highest speed allowed by the system.
+      </para>
+	  <para><b>XMP</b>-Extreme Memory Profile</para><para>Designed For Gaming Desktops(DT)</para>
+	   
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support"> Dell Systems Owner's Manual</link>
+      </para>
+	  <!-- <technotes>
+          <technote>
+            <b>Image shown is for representational purposes only.</b>
+          </technote>
+        </technotes>
+		<technotes type="number" start="1" filter="'$(locale.region)' $in$ ['us']">
+          <technote>
+           For a copy of our guarantees or limited warranties, please write Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, Texas 78682.
+            For more information visit,<link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote> 
+        </technotes>-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+		Dell Memory Upgrades are the same parts that we use in original Dell systems. They will work right the first time, and we guarantee they will be compatible.
+        </point>
+        <point>
+		Dell Memory is built using industry leading OEM grade quality parts.
+        </point>
+        <point>
+		Only first pass yielded product is acceptable to meet Dell’s high-quality standard, only available when purchased from Dell.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+		Dell Memory means no worry of voiding your system’s hardware warranty.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+		Our experienced technical support staff is available to answer any questions regarding your Dell Memory upgrade.
+        </point>
+        <point>
+		Memory that is not Dell Memory may not be supported by Dell’s Technical Support.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Service &amp; Support">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="Technology">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>-->
+      <product:techspec id="3" name="Type">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="Data Integrity Check">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Storage Capacity">
+        <textbox value="4" id="1"/><dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Speed">
+        <textbox value="1600" id="7"/><textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Features">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> Voltage, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> pin
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

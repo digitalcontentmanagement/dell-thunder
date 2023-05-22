@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory Card </meta:title>
+    <meta:date value="2017-04-19" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Dell" refid="1"/> <textbox value="5" id="2"/> <dropdownlist refid="controllers-278-unit"/> <textbox value="SD" id="3"/> карта <textbox value="-" id="4"/> <dropdownlist id="customer-kit"/>     
+    </product:name>
+    <product:longdesc>
+      <para>
+       Простота переноса и транспортировки важных данных с <textbox value="SD" refid="3"/> карта от Dell. Прочный флэш-накопитель с элегантным дизайном обеспечит надежное хранение всех ваших данных.
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Марка товара">
+        <textbox value="Dell" id="1"/> 
+      </product:techspec>
+	  <product:techspec id="2" name="Тип продукта">
+        Flash памяти Плата 
+      </product:techspec>
+	  <product:techspec id="3" name="Емкость системы хранения данных">
+        <textbox value="5" id="2"/>
+        <dropdownlist id="controllers-278-unit"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

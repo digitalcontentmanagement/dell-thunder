@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory Upgrade for XMP and DT</meta:title>
+    <meta:date value="2021-06-03" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/><dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/><textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/> (與 Skylake CPU 不相容)
+    </product:name>
+    <product:longdesc>
+      <para>
+	  隨機存取記憶體 (RAM) 是您電腦用來儲存資訊的一種硬體。加裝記憶體是提升系統效能最簡單、最具成本效益的方式。
+      </para>
+      <para>
+        <b>
+		Memory Selector (記憶體挑選程式) 中提供的 Dell<tm/> 品牌記憶體均通過嚴格的品管與測試，保證能與您特定的 Dell 系統搭配使用且完全相容，並受 Dell 的服務支援。其他廠商所提供的通用型或不合格產品有導致停機之虞，不僅會讓企業付出極大的代價，還會讓整個系統處於風險之中。 
+        </b>
+      </para>
+	  <para>目前提供之記憶體的速度可能與原有系統記憶體不同，但均已通過驗證，可與系統搭配運作。 混合使用時，記憶體將以最低的配置速度運作，或以系統容許的最高速度運作。
+      </para>
+	 
+	  
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support"> Dell 系統所有人使用手冊</link>
+      </para>
+        <!--<technotes>
+          <technote>
+            <b> 顯示的影像僅供展示用途。</b>
+          </technote>
+        </technotes>
+        <technotes type="number" start="1" filter="'$(locale.region)' $in$ ['emea','us','ca','la','global']">
+          technote>
+            如需索取本公司之保證或有限保固文件，請來函 Dell USA L.P.，收件者：Warranties，地址為：One Dell Way, Round Rock, Texas 78682。
+			<如需詳細資訊，請造訪 <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote
+        </technotes>-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+		記憶體升級零件也是我們在原版 Dell 系統中使用的相同零件。這些零件能在第一次就運作順，而且我們保證沒有相容問題。
+        </point>
+        <point>
+		Dell 記憶體採用領先業界的 OEM 等級品質的零件打造。
+        </point>
+        <point>
+		只有第一次測試就通過的產品，才能符合 Dell 的高品質標準，這類產品也只能向 Dell 購買。
+        </point>
+      </points>
+
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+		Dell 記憶體表示您不需要擔心系統硬體保固失效。
+        </point>
+      </points>
+
+      <points title="@string(technicalsupport)">
+        <point>
+		經驗豐富的技術支援人員可為您解答任何 Dell 記憶體升級的相關問題。
+        </point>
+        <point>
+		Dell 技術支援可能無法支援未經 Dell 認證的記憶體。
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="服務與技術支援">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="技術">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec> -->
+      <product:techspec id="3" name="封裝類型">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="資料完整性檢查">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="儲存容量">
+        <textbox value="4" id="1"/><dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="速度">
+        <textbox value="1600" id="7"/><textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="特色">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> 電壓, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> 針腳
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

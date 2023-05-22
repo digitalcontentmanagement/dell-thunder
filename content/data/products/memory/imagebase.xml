@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="memory">
+
+    <image:image name="A7946646">
+      <image:location>A7946646</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 32GB Memory Module for Selected Dell System PC4, 2133MHz, LV RDIMM 4RX4 DDR4</image:description>
+      <image:caption>Dell 32GB Memory Module for Selected Dell System PC4, 2133MHz, LV RDIMM 4RX4 DDR4 </image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	 <image:image name="CPA-8H68R">
+      <image:location>CPA-8H68R</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 8 GB Certified Replacement Memory Module for Select Dell Systems -1024X64 DIMM 1600MHz </image:description>
+      <image:caption>Dell 8 GB Certified Replacement Memory Module for Select Dell Systems -1024X64 DIMM 1600MHz  </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="CPA-D6598">
+      <image:location>CPA-D6598</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Refurbished: 512MB Certified Replacement Memory Module for Select Dell Systems -  1Rx8 RDIMM DDR2 400MHz 240-PIN ECC  </image:description>
+      <image:caption>Dell Refurbished: 512MB Certified Replacement Memory Module for Select Dell Systems -  1Rx8 RDIMM DDR2 400MHz 240-PIN ECC   </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="CPA-8H68R">
+      <image:location>CPA-8H68R</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 8 GB Certified Replacement Memory Module for Select Dell Systems -1024X64 DIMM 1600MHz </image:description>
+      <image:caption>Dell 8 GB Certified Replacement Memory Module for Select Dell Systems -1024X64 DIMM 1600MHz  </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="CPA-F6660">
+      <image:location>CPA-F6660</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Refurbished: 512MB Certified Replacement Memory Module for Select Dell Systems - 1Rx8 UDIMM DDR2 400MHz 240-PIN NON-ECC </image:description>
+      <image:caption>Dell Refurbished: 512MB Certified Replacement Memory Module for Select Dell Systems - 1Rx8 UDIMM DDR2 400MHz 240-PIN NON-ECC  </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="CPA-H275C">
+      <image:location>CPA-H275C</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Refurbished: 1GB Certified Replacement Memory Module for Select Dell Systems - 1Rx8x72 UDIMM DDR3 1333MHz 240-PIN ECC </image:description>
+      <image:caption>Dell Refurbished: 1GB Certified Replacement Memory Module for Select Dell Systems - 1Rx8x72 UDIMM DDR3 1333MHz 240-PIN ECC </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="CPA-WK007">
+      <image:location>CPA-WK007</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Refurbished: 1 GB Certified Replacement Memory Module for Select Dell Systems - 1Rx8 DIMM 667 MHz </image:description>
+      <image:caption>Dell Refurbished: 1 GB Certified Replacement Memory Module for Select Dell Systems - 1Rx8 DIMM 667 MHz </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="CPA-X2535">
+      <image:location>CPA-X2535</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description> Dell Refurbished: 1GB Certified Replacement Memory Module for Select Dell Systems - RDIMM DDR 266MHz 184-PIN ECC </image:description>
+      <image:caption>Dell Refurbished: 1GB Certified Replacement Memory Module for Select Dell Systems - RDIMM DDR 266MHz 184-PIN ECC  </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="AA539473">
+      <image:location>AA539473</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SODIMM</image:description>
+      <image:caption>SODIMM</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	<image:image name="AA539473_MV1">
+      <image:location>AA539473_MV1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SODIMM_MVI</image:description>
+      <image:caption>SODIMM_MVI</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	<image:image name="8GB_1RX8_DDR4">
+      <image:location>8GB_1RX8_DDR4</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>8GB 1RX8 DDR4</image:description>
+      <image:caption>8GB 1RX8 DDR4</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	<image:image name="8GB_RDIMM">
+      <image:location>8GB_RDIMM</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>8GB RDIMM</image:description>
+      <image:caption>8GB RDIMM</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	<image:image name="16GB_2Rx4_RDIMM">
+      <image:location>16GB_2Rx4_RDIMM</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>16GB 2Rx4 RDIMM</image:description>
+      <image:caption>16GB 2Rx4 RDIMM</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	<image:image name="16GB_DDR4">
+      <image:location>16GB_DDR4</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>16GB DDR4</image:description>
+      <image:caption>16GB DDR4</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	<image:image name="32GB_2Rx4_DDR4_RDIMM">
+      <image:location>32GB_2Rx4_DDR4_RDIMM</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>32GB 2Rx4 DDR4 RDIMM</image:description>
+      <image:caption>32GB 2Rx4 DDR4 RDIMM</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	<image:image name="32GB_4Rx4">
+      <image:location>32GB_4Rx4</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>32GB 4Rx4</image:description>
+      <image:caption>32GB 4Rx4</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	<image:image name="64GB_4RX4_DDR4_LRDIMM">
+      <image:location>64GB_4RX4_DDR4_LRDIMM</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>64GB 4RX4 DDR4 LRDIMM</image:description>
+      <image:caption>64GB 4RX4 DDR4 LRDIMM</image:caption>
+      <image:type>jpg</image:type>	  
+    </image:image>
+	
+	
+    <!-- Start of subclasses -->
+    <!--<image:folder name="225">
+      <image:image name="450-AEGJ">
+        <image:location>450-AEGJ</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <<image:description>This is Dell Product</image:description>
+        <image:caption>Dell 3-Prong Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>
+    
+    <image:folder name="443">
+      <image:image name="450-AFJG">
+        <image:location>450-AFJG</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <image:description>This is Dell Product</image:description>
+        <image:caption>Dell Slim Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>-->
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>

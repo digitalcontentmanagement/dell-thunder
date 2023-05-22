@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory Card </meta:title>
+    <meta:date value="2017-04-19" />
+    <meta:creator value="Norawatif"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Dell" refid="1"/> <textbox value="5" id="2"/> <dropdownlist refid="controllers-278-unit"/> <textbox value="SD" id="3"/> 卡 <textbox value="-" id="4"/> <dropdownlist id="customer-kit"/>      
+    </product:name>
+    <product:longdesc>
+      <para>
+       使用來自 Dell<tm/> 的 <textbox value="SD" refid="3"/> 卡，輕鬆傳輸您的重要資料。這款快閃磁碟機造型優雅且堅固耐用，能滿足您所有的儲存需求。
+      </para>
+     </product:longdesc>
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="產品品牌">
+        <textbox value="Dell" id="1"/> 
+      </product:techspec>
+	  <product:techspec id="2" name="產品類型">
+        Flash 憶體 卡 
+      </product:techspec>
+	  <product:techspec id="3" name="儲存容量">
+        <textbox value="5" id="2"/>
+        <dropdownlist id="controllers-278-unit"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

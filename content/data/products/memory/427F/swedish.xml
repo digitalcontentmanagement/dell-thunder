@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory Upgrade for XMP and DT</meta:title>
+    <meta:date value="2021-06-03" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/><dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/><textbox value="MHz" refid="4"/> XMP
+    </product:name>
+    <product:longdesc>
+      <para>
+	  RAM-minnet (Random Access Memory) är en typ av maskinvara som din dator använder för att spara information. Att lägga till minnesutrymme är ett av de mest kostnadseffektiva sätten att förbättra datorns prestanda.
+      </para>
+      <para>
+        <b>
+		Dell<tm/>-märkt minne som erbjuds i Memory Selector har genomgått rigorösa tester för kvalitetssäkring-och kvalitetskontroll. Det säkerställer att minnet fungerar med ditt specifika Dell-system så att det är helt kompatibelt och stöds av Dell. Att skaffa okvalificerade eller generiska produkter från andra leverantörer kan leda till driftstopp som kan belasta ditt företag och sätta hela systemet i riskzonen.
+        </b>
+      </para>
+	  <para>
+	  Det minne som nu finns kan ha en annan hastighet än systemets originalminne, men har testats för att fungera tillsammans med datorn. Om minnen blandas körs minnet med den lägsta frekvensen som något av dem har, eller den högsta frekvens som datorn klarar av.
+		</para>
+		<para><b>XMP</b>-Extreme Memory Profile</para><para>Designat för Stationära speldatorer(DT)</para>
+      
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support">Handböcker för Dell-systeminnehavare</link>
+      </para>
+        <!--<technotes>
+          <technote>
+            <b>Bilden visas endast i informationssyfte.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1">
+          <technote>
+            Du kan få en kopia av dina service eller begränsade service genom att skriva till Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, Texas 78682, USA. 
+			<Mer information finns på <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+		Dells minnesuppgraderingar är likadana delar som vi använder i original Dell-system. De kommer att fungera korrekt rätt från första början och vi garanterar att de är kompatibla.
+        </point>
+        <point>
+		Dell-minnen är byggda med branschledande kvalitetsmaterial i OEM-standard.
+        </point>
+        <point>
+		Med Dells höga kvalitetsstandard accepteras enbart produkter i första sorteringen, och de är endast tillgängliga från Dell.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+		Dell-minnen betyder att det aldrig råder någon risk att systemets maskinvaruservice blir ogiltig.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+		Om du har frågor om uppgraderingar av Dell-minnen kan du få hjälp av vår erfarna supportpersonal.
+        </point>
+        <point>
+		Minnen som inte är Dell-minnen kanske inte stöds av Dells tekniska support.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Service och support">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="Teknik">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec> -->
+      <product:techspec id="3" name="Typ av paket">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="Dataintegritetskontroll">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Lagringskapacitet">
+        <textbox value="4" id="1"/><dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Frekvens">
+        <textbox value="1600" id="7"/><textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Nyheter">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> spänning, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> stift
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

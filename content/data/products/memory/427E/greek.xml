@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-21" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/><dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/><textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/> (Δεν είναι συμβατό με μονάδες Skylake CPU)
+    </product:name>
+    <product:longdesc>
+      <para>
+        Η μνήμη τυχαίας προσπέλασης (RAM) είναι ένας τύπος υλικού που χρησιμοποιεί ο υπολογιστής σας για την αποθήκευση πληροφοριών. Η προσθήκη μνήμης είναι ένας από τους πιο οικονομικούς τρόπους για να ενισχύσετε την απόδοση του υπολογιστή σας.
+      </para>
+      <para>
+        <b>
+		Η μνήμη με το σήμα της Dell<tm/> που προσφέρεται στον Επιλογέα μνήμης έχει περάσει από ενδελεχείς δοκιμές διασφάλισης ποιότητας και ποιοτικού ελέγχου, ώστε να εξασφαλίζεται ότι θα λειτουργεί με το συγκεκριμένο σύστημα Dell που διαθέτετε, για να είναι πλήρως συμβατή και να υποστηρίζεται από την Dell. Η απόκτηση μη πιστοποιημένων ή γενικής χρήσης προϊόντων από άλλους προμηθευτές μπορεί να προκαλέσει διακοπές λειτουργίας που ενδέχεται να επιφέρουν σοβαρό κόστος στην επιχείρησή σας και να θέσουν σε κίνδυνο ολόκληρο το σύστημά σας.
+        </b>
+      </para>
+	  <para>
+        Η μνήμη που προσφέρεται τώρα μπορεί να διαφέρει σε ταχύτητα από τη μνήμη του αρχικού συστήματος, αλλά έχει πιστοποιηθεί για λειτουργία στο σύστημα. Όταν συνδυαστούν, η μνήμη θα λειτουργήσει με τη χαμηλότερη κατειλημμένη ταχύτητα ή την υψηλότερη ταχύτητα που επιτρέπεται από το σύστημα.
+      </para>
+	  
+	 
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support"> Εγχειρίδια κατόχου του συστήματος Dell</link>
+      </para>
+        <!--<technotes>
+          <technote>
+            <b>H εικόνα έχει μόνο απεικονιστικό σκοπό.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1">
+          <technote>
+            Για αντίγραφο των εγγυήσεων ή των περιορισμένων εγγυήσεων της εταιρείας μας, στείλτε επιστολή στη διεύθυνση Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, TX 78682. 
+			<Για περισσότερες πληροφορίες, επισκεφθείτε τη διεύθυνση <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+          Οι αναβαθμίσεις μνήμης Dell είναι τα ίδια εξαρτήματα που χρησιμοποιούμε στα αρχικά συστήματα της Dell. Θα λειτουργούν σωστά από την πρώτη φορά και εγγυόμαστε ότι θα είναι συμβατές.
+        </point>
+        <point>
+          Η μνήμη Dell κατασκευάζεται με τη χρήση κορυφαίων ποιοτικών εξαρτημάτων επιπέδου OEM.
+        </point>
+        <point>
+          Μόνο τα πρώτης διαλογής προϊόντα γίνονται αποδεκτά για να καλύπτουν τα υψηλά ποιοτικά πρότυπα της Dell, τα οποία είναι διαθέσιμα μόνο μέσω της αγοράς τους από την Dell.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+          Η μνήμη Dell σημαίνει ότι δεν υπάρχει λόγος να ανησυχείτε για την ακύρωση της εγγύησης υλικού του συστήματός σας.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+          Το έμπειρο προσωπικό μας για την τεχνική υποστήριξη είναι πάντοτε έτοιμο να απαντήσει σε τυχόν ερωτήσεις σχετικά με την αναβάθμιση της μνήμης Dell που διαθέτετε.
+        </point>
+        <point>
+          Η μνήμη που δεν είναι μνήμη Dell ενδέχεται να μην υποστηρίζεται από την τεχνική υποστήριξη της Dell.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Εξυπηρέτηση και υποστήριξη">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="Τεχνολογία">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec> -->
+      <product:techspec id="3" name="Τύπος πακέτου ">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="Έλεγχος ακεραιότητας δεδομένων">
+        <dropdownlist refid="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Χωρητικότητα αποθήκευσης">
+        <textbox value="4" id="1"/><dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Ταχύτητα">
+        <textbox value="1600" id="7"/><textbox value="MHz" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Χαρακτηριστικά">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> Τάση, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> pin
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
