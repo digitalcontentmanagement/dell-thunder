@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Wireless <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/> Mobile Broadband Karta Mini-Card  
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  W karcie Wireless <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/> Mobile Broadband Karta Mini-Card firmy Dell<tm/> wykorzystano chipset <textbox value="Qualcomm MDM9200" id="3"/>. Ta minikarta wspiera funkcje rozwoju długofalowego (LTE), w tym EVDO i HSPA/+, zapewniając szybką łączność. Wyposażone w kartę <textbox value="5802" refid="1"/> mini-card notebooki firmy Dell mogą korzystać z usług wielu operatorów a wbudowana technologia oznacza, że obawy o utratę lub uszkodzenie kart zewnętrznych znikają na zawsze. Ten produkt został przetestowany i zatwierdzony do użytku z komputerami firmy Dell. W przypadku używania z systemami komputerowymi firmy Dell produkt jest objęty pomocą techniczną firmy Dell.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Menedżer połączeń Dell Mobile Broadband Manager (DMBM)
+		</point>
+		<point>
+		Wielopasmowa, wielomodowa łączność WWAN w jednej konfiguracji sprzętowej
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologia połączeniowa">
+		Sieć bezprzewodowa
+      </product:techspec>
+      <product:techspec id="2" name="Typ urządzenia">
+		Mobilna łączność szerokopasmowa
+      </product:techspec>
+      <product:techspec id="3" name="Technologia">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

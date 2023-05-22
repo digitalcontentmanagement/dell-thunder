@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Adapter</meta:title>
+    <meta:date value="2015-09-22" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+    <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="adapters-443"/> <textbox value="10" id="2"/> <dropdownlist id="adapters-443-a"/> Server Adapter Ethernet PCIe Κάρτα διασύνδεσης δικτύου
+    <dropdownlist id="adapters-443-b"/> </product:name>
+
+    <product:longdesc>
+      <para>
+	  Η κάρτα διασύνδεσης δικτύου <dropdownlist refid="adapters-443-a"/> Ethernet PCI Express<reg/> από την Dell<tm/> είναι ιδανική για τη σύνδεση του διακομιστή σας με το δίκτυό σας. Ο <dropdownlist refid="adapters-443-a"/> <dropdownlist refid="adapters-443"/> Server Adapter έχει αποδειχθεί ότι αποτελεί αξιόπιστη και τυποποιημένη λύση. Αυτό το προϊόν έχει δοκιμαστεί και πιστοποιηθεί σε συστήματα Dell. Όταν χρησιμοποιείται με σύστημα Dell, υποστηρίζεται από την τεχνική υποστήριξη της Dell. 
+	</para>
+	 <para>
+	 <b> <stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b> 
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Προσφέρει PCIe x<textbox value="1" refid="5"/> διασυνδέσεις  
+        </point>
+        <point>
+         Διαθέτει σχεδίαση μικρού μεγέθους που εξοικονομεί χώρο 
+        </point>
+        <point>
+          Ιδανική για εφαρμογές δικτύων υψηλής απόδοσης.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος συσκευής">
+      Προσαρμογέας <dropdownlist refid="adapters-443-a"/> 
+      </product:techspec>
+      <product:techspec id="2" name="Ρυθμός μεταφοράς δεδομένων">
+       <textbox value="1" id="4"/>Gbps
+      </product:techspec>
+      <product:techspec id="3" name="Απαιτούμενη υποδοχή(ές)">
+       PCIe x<textbox value="1" id="5"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

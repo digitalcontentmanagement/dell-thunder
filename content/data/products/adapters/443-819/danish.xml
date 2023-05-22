@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Adapter</meta:title>
+    <meta:date value="2015-09-22" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="adapters-443"/> <textbox value="10" id="2"/> <dropdownlist id="adapters-443-a"/> Server Adapter Ethernet PCIe-netværkskort
+	  <dropdownlist id="adapters-443-b"/></product:name>
+	  <product:longdesc>
+      <para>
+		<dropdownlist id="adapters-443-a"/> Ethernet PCI-Express<reg/> netværkskortet fra Dell<tm/> er perfekt til at tilslutte din server til netværket.<dropdownlist id="adapters-443-a"/> <dropdownlist refid="adapters-443"/>-serveradapteren med pålidelige og standardbaserede løsninger. Dette produkt er testet og godkendt på Dell-systemer. Produktet understøttes af Dells tekniske support, når det kombineres med et Dell-system. 
+		</para>
+		 <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		Har X<textbox value="1" refid="5"/> PCIe-grænseflade
+        </point>
+        <point>
+		Kompakt og pladsbesparende design 
+        </point>
+        <point>
+		Ideel til højtydende netværksprogrammer
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhedstype">
+		<dropdownlist refid="adapters-443-a"/>-adapter
+      </product:techspec>
+      <product:techspec id="2" name="Dataoverførselshastighed">
+       <textbox value="1" id="4"/>Gbps
+      </product:techspec>
+      <product:techspec id="3" name="Plads (påkrævet)">
+       X<textbox value="1" id="5"/> PCIe
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

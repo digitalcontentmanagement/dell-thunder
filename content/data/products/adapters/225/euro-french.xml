@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Mini-carte  Dell Wireless <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/> haut débit mobile
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  La Mini-carte  Dell<tm/> Wireless <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/> haut débit mobile utilise le chipset <textbox value="Qualcomm MDM9200" id="3"/>. Cette mini-carte prend en charge la technologie LTE (évolution à long terme), ainsi que les technologies EVDO et HSPA/+ pour offrir une connectivité rapide aux utilisateurs. Les ordinateurs portables équipés de la mini-carte Dell Wireless <textbox value="5802" refid="1"/> sont en mesure de prendre en charge plusieurs opérateurs, et le fait que la technologie soit intégrée évite la perte ou l’endommagement de cartes externes. Ce produit a été testé et validé sur les systèmes Dell. Ce produit est pris en charge par le support technique Dell s’il est utilisé avec un système Dell.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Dispose du gestionnaire de connexions Dell Mobile Broadband Manager (DMBM).</point>
+		<point>
+		Offre une connectivité WWAN multimode multibande dans une même configuration matérielle
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologie de connectivité">
+		Sans fil
+      </product:techspec>
+      <product:techspec id="2" name="Type d’appareil">
+		Haut débit mobile
+      </product:techspec>
+      <product:techspec id="3" name="Technologie">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

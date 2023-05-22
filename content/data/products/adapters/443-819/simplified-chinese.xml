@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Adapter</meta:title>
+    <meta:date value="2015-09-22" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+   <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔<dropdownlist id="adapters-443"/> <textbox value="10" id="2"/> <dropdownlist id="adapters-443-a"/> 服务器适配器以太网PCIe网卡 
+    <dropdownlist id="adapters-443-b"/></product:name>
+	  <product:longdesc>
+      <para>
+	Dell<tm/> 提供的<dropdownlist refid="adapters-443-a"/>以太网PCI-Express<reg/> 网卡是将您的服务器连接到网络的理想选择。 <dropdownlist refid="adapters-443-a"/>以太网 <dropdownlist refid="adapters-443"/> 服务器适配器经过验证，是可靠且基于标准的解决方案。 本产品已在戴尔系统上经过测试和验证。 如与戴尔系统搭配使用，您还可享受戴尔技术支持服务。
+	  </para>
+	  <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+        提供 x<textbox value="1" refid="5"/> PCIe 接口  
+        </point>
+        <point>
+        采用节省空间的紧凑设计 
+        </point>
+        <point>
+		非常适合高性能网络应用程序
+
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+	  <dropdownlist refid="adapters-443-a"/>
+		适配器
+      </product:techspec>
+      <product:techspec id="2" name="数据传输速率">
+       <textbox value="1" id="4"/>Gbps
+      </product:techspec>
+      <product:techspec id="3" name="所需插槽">
+       x<textbox value="1" id="5"/> PCIe
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

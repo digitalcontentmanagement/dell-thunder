@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Wireless <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/> 모바일 광대역 미니 카드  
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Wireless <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/> Dell<tm/> 미니 카드 모바일 광대역은 <textbox value="Qualcomm MDM9200" id="3"/>  칩셋을 활용합니다. 이 미니 카드는 LTE(Long Term Evolution) 기능을 비롯하여 EVDO 및 HSPA/+를 지원하여 사용자에게 빠른 연결 속도를 제공합니다. Dell 무선 <textbox value="5802" refid="1"/> 미니 카드 지원 노트북은 여러 캐리어와 내장 기술을 지원하여 외장 카드의 손실이나 손상의 염려가 없습니다. 이 제품은 테스트를 거쳐 Dell 시스템과의 작동을 검증받았습니다. 이 제품은 Dell 시스템과 함께 사용하는 경우 Dell 기술 지원 부서의 지원을 받을 수 있습니다.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		DMBM(Dell Mobile Broadband Manager) 연결 관리자 기능 제공
+		</point>
+		<point>
+		단일 하드웨어 구성으로 다중 대역, 다중 모드 WWAN 연결을 제공
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="연결 기술">
+		무선
+      </product:techspec>
+      <product:techspec id="2" name="장치 유형">
+		모바일 광대역
+      </product:techspec>
+      <product:techspec id="3" name="기술">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

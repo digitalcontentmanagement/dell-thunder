@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>WiFi Adapters</meta:title>
+    <meta:date value="2015-11-30" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Wireless <textbox value="5560" id="1"/> <textbox value="HSPA+" id="2"/> Minitarjeta de banda ancha móvilde Dell
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  La Adaptador inalámbrico Dell<tm/> permite localizar y utilizar su Impresora láser en blanco y negro para grupos de trabajo <textbox value="5310n" id="3"/> de forma inalámbrica, prácticamente en cualquier lugar. La tarjeta admite Estándares IEEE 802.11 b/g y se ha diseñado específicamente para Impresora láser en blanco y negro para grupos de trabajo <textbox value="5310n" refid="3"/> de Dell<tm/>.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Diseñado de forma específica para Impresora láser en blanco y negro para grupos de trabajo <textbox value="5310n" refid="3"/> de Dell<tm/>.
+		</point>
+		<point>
+		Compatibilidad flexible con cadena de seguridad inalámbrica 
+		</point>
+		<point>
+		Disfrute de la libertad inalámbrica
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+		Adaptador inalámbrico
+      </product:techspec>
+      <product:techspec id="2" name="Tecnología de conectividad">
+		Conexión inalámbrica
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

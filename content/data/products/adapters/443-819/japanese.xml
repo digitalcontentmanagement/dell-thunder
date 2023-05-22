@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Adapter</meta:title>
+    <meta:date value="2015-09-22" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デル製 <dropdownlist id="adapters-443"/> <textbox value="10" id="2"/> <dropdownlist id="adapters-443-a"/> サーバアダプタトイーサネットPCIe ネットワークインターフェイスカード
+    <dropdownlist id="adapters-443-b"/></product:name>
+
+    <product:longdesc>
+      <para>
+		 デルが提供するギガビットイーサネットPCI-Express<reg/> ネットワークインターフェイスカードは、サーバをネットワークに接続する場合に最適です。 <dropdownlist refid="adapters-443-a"/> <dropdownlist refid="adapters-443"/> サーバアダプタは、信頼性の高い標準ベースのソリューションです。 本製品は、デル製システムでテストと検証を済ませています。 デル製システムと組み合わせて使用する場合は、デルのテクニカルサポートをご利用いただけます。 
+	  </para>
+	   <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+        PCIe x<textbox value="1" refid="5"/> インターフェイスを提供します。 
+        </point>
+        <point>
+         コンパクトで省スペース設計です。 
+        </point>
+        <point>
+         ハイパフォーマンスなネットワークアプリケーションに最適です。
+
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="デバイスタイプ">
+	  <dropdownlist refid="adapters-443-a"/>
+       トアダプタ
+      </product:techspec>
+      <product:techspec id="2" name="データ転送速度">
+       <textbox value="1" id="4"/>Gbps
+      </product:techspec>
+      <product:techspec id="3" name="必要なスロット">
+       PCIe x<textbox value="1" id="5"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

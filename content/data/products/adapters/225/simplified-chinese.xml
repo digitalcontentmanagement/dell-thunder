@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔Wireless <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/>移动宽带迷你卡 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Dell<tm/>提供的Wireless <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/>移动宽带迷你卡 采用<textbox value="Qualcomm MDM9200" id="3"/> 芯片组。 这款迷你卡支持长期发展(LTE)功能以及EVDO和HSPA/+，使用户可以快速连接。 支持Dell Wireless<textbox value="5802" refid="1"/>迷你卡的笔记本电脑能够支持多个运营商和多种内置技术，这意味着您再也不会丢失或损坏外部卡。 本产品已在戴尔系统上经过测试和验证。 如搭配戴尔系统使用本产品，可以享受戴尔技术支持服务。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		配备戴尔移动宽带管理器(DMBM)连接管理器
+		</point>
+		<point>
+		以单一硬件配置提供多频、多模WWAN连接
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="连接技术">
+		无线
+      </product:techspec>
+      <product:techspec id="2" name="设备类型">
+		移动宽带
+      </product:techspec>
+      <product:techspec id="3" name="技术">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

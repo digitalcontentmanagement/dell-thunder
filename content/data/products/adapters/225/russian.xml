@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	   <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Wireless <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/> Плата мобильного широкополосного доступа Dell MiniCard  
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  В Wireless <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/> плате мобильного широкополосного доступа MiniCard от Dell<tm/> используется <textbox value="Qualcomm MDM9200" id="3"/> набор микросхем. Данная плата MiniCard поддерживает стандарт LTE, а также EVDO и HSPA+, обеспечивая пользователям высокую скорость подключений. Ноутбуки Dell MiniCard <textbox value="5802" refid="1"/> с поддержкой беспроводной связи обеспечивают поддержку разных поставщиков, а благодаря встроенной технологии вы сможете забыть о потерянных или испорченных внешних платах. Данный продукт прошел тестирование с системами Dell и сертифицирован для применения с ними. При использовании изделия с системой Dell на него распространяется услуга технической поддержки Dell.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Оснащена диспетчером соединений Dell Mobile Broadband Manager (DMBM).
+		</point>
+		<point>
+		Обеспечивает многомодовые многополосные подключения WWAN с одной аппаратной конфигурацией
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Технология подключения">
+		Беспроводная связь
+      </product:techspec>
+      <product:techspec id="2" name="Тип устройства">
+		Широкополосный мобильный доступ
+      </product:techspec>
+      <product:techspec id="3" name="Технологии">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

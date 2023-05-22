@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Wireless <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/> 行動寬頻 迷你卡  
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  來自 Dell<tm/> 的 迷你卡  行動寬頻 Wireless <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/>，使用 <textbox value="Qualcomm MDM9200" id="3"/>  晶片組。 這款迷你卡支援長期演進技術 (LTE) 以及 EVDO 和 HSPA/+ 協定，提供使用者快速的連線能力。 具備無線連線功能的 Dell <textbox value="5802" refid="1"/> 迷你卡 筆記型電腦支援多家通訊業者的通訊功能，加上內建通訊技術，從此您不用擔心外接卡會遺失或是損壞。 本產品已通過 Dell 系統的測試和驗證。 本產品與 Dell 系統搭配使用，即可享有 Dell 技術支援服務。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		內建 Dell Mobile Broadband Manager (DMBM) Connection Manager
+		</point>
+		<point>
+		以單一硬體組態提供多頻道、多模式的 WWAN 連線能力
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="連線技術">
+		無線
+      </product:techspec>
+      <product:techspec id="2" name="裝置類型">
+		行動寬頻
+      </product:techspec>
+      <product:techspec id="3" name="技術">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Wireless <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/> mobilt bredbånd Minikort  
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Det Wireless <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/> mobile bredbånd Minikort fra Dell<tm/> anvender <textbox value="Qualcomm MDM9200" id="3"/> chipset. Dette minikort understøtter funktionerne til langsigtet udvikling (LTE) samt EVDO og HSPA/+, der giver brugeren hurtige tilslutningsmuligheder. De bærbare pc'er fra Dell med trådløs <textbox value="5802" refid="1"/>-minikort kompatibilitet kan understøtte flere udbydere, og med den indbyggede teknologi er det slut med mistede eller defekte eksterne kort. Dette produkt er testet og godkendt på Dell-systemer. Produktet understøttes af Dells tekniske support, når det bruges på et Dell-system.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Indeholder også tilslutningsstyringen Dell Mobile Broadband Manager (DMBM)
+		</point>
+		<point>
+		Leverer WWAN-tilslutningsmuligheder med flere band og i flere tilstande i én enkelt hardwarekonfiguration
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tilslutningsteknologi">
+		Trådløs
+      </product:techspec>
+      <product:techspec id="2" name="Enhedstype">
+		Mobilt bredbånd
+      </product:techspec>
+      <product:techspec id="3" name="Teknologi">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

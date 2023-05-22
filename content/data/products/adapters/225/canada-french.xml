@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	   <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Large bande Dell Sans fil <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/> Mini-carte  
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  La Sans fil <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/> large bande mobile Mini-carte de Dell<tm/> utilise le jeu de puces <textbox value="Qualcomm MDM9200" id="3"/>. Cette mini-carte prend en charge les technologies LTE (« long term evolution »), EVDO et HSPA/+, ce qui offre à l’utilisateur une connectivité rapide. Les portables Dell compatibles avec la technologie sans fil Mini-carte <textbox value="5802" refid="1"/> peuvent prendre en charge différents opérateurs. De plus, comme la technologie est intégrée, vous ne risquez plus de perdre ou de briser des cartes externes. Ce produit a été testé et validé sur les systèmes Dell. Il est pris en charge par le soutien technique de Dell lorsqu’il est utilisé avec un système Dell.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Dotée du gestionnaire de connexion Dell Mobile Broadband Manager (DMBM)
+		</point>
+		<point>
+		Offre une connexion à un réseau étendu sans fil multibande et multimode à l’aide d’une seule configuration matérielle
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Technologie de connectivité">
+		Sans fil
+      </product:techspec>
+      <product:techspec id="2" name="Type de périphérique">
+		Large bande mobile
+      </product:techspec>
+      <product:techspec id="3" name="Technologie">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

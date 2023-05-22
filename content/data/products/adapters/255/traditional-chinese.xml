@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>WiFi Adapters</meta:title>
+    <meta:date value="2015-11-30" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 無線 <textbox value="5560" id="1"/> <textbox value="HSPA+" id="2"/> 行動寬頻迷你卡
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Dell<tm/> 無線配接卡可讓您隨時隨地尋找無線訊號，並操作您的 <textbox value="5310n" id="3"/> 工作群組黑白雷射印表機。 此介面卡支援 IEEE 802.11 b/g 標準，而且是特別針對 Dell<tm/> <textbox value="5310n" refid="3"/> 工作群組黑白雷射印表機。 所設計
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		專為 Dell<tm/> <textbox value="5310n" refid="3"/> 工作群組黑白雷射印表機。 所設計 
+		</point>
+		<point>
+		彈性支援線性無線安全性 
+		</point>
+		<point>
+		享受無線連接的自由
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="裝置類型">
+		無線配接卡
+      </product:techspec>
+      <product:techspec id="2" name="連線技術">
+		無線
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

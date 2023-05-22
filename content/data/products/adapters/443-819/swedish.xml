@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Adapter</meta:title>
+    <meta:date value="2015-09-22" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell med <dropdownlist id="adapters-443"/> <textbox value="10" id="2"/> <dropdownlist id="adapters-443-a"/> Server Adapter Ethernet PCIe-nätverkskort
+    <dropdownlist id="adapters-443-b"/></product:name>
+	  <product:longdesc>
+      <para>
+		Nätverkskortet <dropdownlist refid="adapters-443-a"/> Ethernet PCI-Express <reg/> från Dell<tm/> är idealiskt för att ansluta en server till nätverket. <dropdownlist refid="adapters-443-a"/> <dropdownlist refid="adapters-443"/> Server Adapter är en beprövat tillförlitlig och standardbaserad lösning. Den här produkten har testats på och godkänts för system från Dell. Produkten omfattas av teknisk support från Dell när den används i ett system från Dell. 
+	  </para>
+	  <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+        Tillhandahåller x<textbox value="1" refid="5"/> PCIe-gränssnitt
+        </point>
+        <point>
+        Har en kompakt, utrymmessnål design 
+        </point>
+        <point>
+		Perfekt för högpresterande nätverkstillämpningar
+
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhetstyp">
+		<dropdownlist refid="adapters-443-a"/> adapter
+      </product:techspec>
+      <product:techspec id="2" name="Dataöverföringshastighet">
+       <textbox value="1" id="4"/>Gbit/s
+      </product:techspec>
+      <product:techspec id="3" name="Kortplats(er) som krävs">
+       x<textbox value="1" id="5"/> PCIe
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

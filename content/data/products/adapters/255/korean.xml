@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>WiFi Adapters</meta:title>
+    <meta:date value="2015-11-30" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 무선Dell
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  이 마법사를 Dell<tm/> 무선 어댑터 사용하면 언제 어디서나 <textbox value="5310n" id="3"/> Workgroup 흑백 레이저 프린터 무선으로 찾아 작동합니다. 카드가 IEEE 802.11 b/g 표준 특별히 설계된 지원합니다. Dell<tm/> <textbox value="5310n" refid="3"/> Workgroup 흑백 레이저 프린터.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		위해 특별히 설계되었으며, Dell<tm/> <textbox value="5310n" refid="3"/> Workgroup 흑백 레이저 프린터. 
+		</point>
+		<point>
+		무선 보안 문자열에 대해 유연한 지원 
+		</point>
+		<point>
+		무선의 자유로움을 누리십시오.
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="장치 유형">
+		무선 어댑터
+      </product:techspec>
+      <product:techspec id="2" name="연결 기술">
+		무선
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

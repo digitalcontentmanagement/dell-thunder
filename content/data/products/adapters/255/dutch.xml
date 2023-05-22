@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>WiFi Adapters</meta:title>
+    <meta:date value="2015-11-30" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Draadloos:<textbox value="5560" id="1"/> <textbox value="HSPA+" id="2"/> Mobiel breedband-minikaart
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Met de Draadloze Dell<tm/>-adapter kunt u zoeken en uw <textbox value="5310n" id="3"/> zwart-witlaserprinter voor werkgroepen draadloos bedienen, vrijwel overal. De kaart ondersteunt IEEE 802.11 b/g-standaarden en is speciaal ontworpen voor Dell<tm/> <textbox value="5310n" refid="3"/> zwart-witlaserprinter voor werkgroepen.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Speciaal ontworpen voor Dell<tm/> <textbox value="5310n" refid="3"/> zwart-witlaserprinter voor werkgroepen.
+		</point>
+		<point>
+		Flexibele ondersteuning voor string draadloze beveiliging 
+		</point>
+		<point>
+		Geniet van de draadloze vrijheid
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type apparaat">
+		Draadloze adapter
+      </product:techspec>
+      <product:techspec id="2" name="Verbindingstechnologie">
+		Draadloos
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

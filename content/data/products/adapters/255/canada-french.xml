@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>WiFi Adapters</meta:title>
+    <meta:date value="2015-11-30" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Sans fil Mini-carte à large bande mobile <textbox value="5560" id="1"/> <textbox value="HSPA+" id="2"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  La Adaptateur sans fil Dell<tm/> vous permet de localiser d’utiliser votre Imprimante laser monochrome <textbox value="5310n" id="3"/> pour les groupes de travail sans fil, de pratiquement n’importe où. La carte prend en charge Normes IEEE 802.11b/g et est conçue spécialement pour Imprimante laser monochrome Dell<tm/> <textbox value="5310n" refid="3"/> pour les groupes de travail.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Spécialement conçue pour Imprimante laser monochrome Dell<tm/> <textbox value="5310n" refid="3"/> pour les groupes de travail. 
+		</point>
+		<point>
+		Prise en charge flexible de la sécurité sans fil des chaînes 
+		</point>
+		<point>
+		Profitez de la liberté du sans-fil
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de périphérique">
+		Adaptateur sans fil
+      </product:techspec>
+      <product:techspec id="2" name="Technologie de connectivité">
+		Sans fil
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

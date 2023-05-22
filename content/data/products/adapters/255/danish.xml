@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>WiFi Adapters</meta:title>
+    <meta:date value="2015-11-30" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Trådløs <textbox value="5560" id="1"/> <textbox value="HSPA+" id="2"/> minikort til mobilt bredbånd
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Med Dell<tm/> trådløs adapter kan du finde og bruge din <textbox value="5310n" id="3"/> sort/hvid-laserprinter til arbejdsgrupper trådløst stort set hvor som helst. Kortet understøtter IEEE 802.11 b/g-standarder og er udviklet specielt til Dell<tm/> <textbox value="5310n" refid="3"/> sort/hvid-laserprinter til arbejdsgrupper.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Udviklet specielt til Dell<tm/> <textbox value="5310n" refid="3"/> sort/hvid-laserprinter til arbejdsgrupper. 
+		</point>
+		<point>
+		Fleksibel understøttelse til stærk trådløs sikkerhed 
+		</point>
+		<point>
+		Få trådløs frihed
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhedstype">
+		Trådløs adapter
+      </product:techspec>
+      <product:techspec id="2" name="Tilslutningsteknologi">
+		Trådløs
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

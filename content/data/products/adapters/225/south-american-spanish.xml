@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Mobile Broadband Adapters </meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Mini tarjeta Dell Inalámbrica <textbox value="5802" id="1"/> <textbox value="LTE/4G" id="2"/> banda ancha móvil Mini tarjeta  
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  La Inalámbrica <textbox value="5802" refid="1"/> <textbox value="LTE/4G" refid="2"/> banda ancha móvil Mini tarjeta de Dell<tm/> utiliza el chipset <textbox value="Qualcomm MDM9200" id="3"/>. Esta mini tarjeta admite las funcionalidades de evolución a largo plazo (LTE), así como también EVDO y HSPA/+ brindando una conectividad rápida para el usuario. Las laptop inalámbricas de Dell mini tarjeta <textbox value="5802" refid="1"/> habilitadas para la tecnología inalámbrica son capaces de soportar varios operadores y la tecnología incorporada se traduce en no más tarjetas externas perdidas o rotas. Este producto se probó y se validó en sistemas Dell. Este producto cuenta con el soporte técnico de Dell, si se utiliza con un sistema Dell.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		También cuenta con el software Dell Mobile Broadband Manager (DMBM) Connection Manager.
+		</point>
+		<point>
+		Ofrece conectividad WWAN multibanda y multimodo en una sola configuración de hardware
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tecnología de conectividad">
+		Inalámbrica
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de dispositivo">
+		Banda ancha móvil
+      </product:techspec>
+      <product:techspec id="3" name="confiable">
+        <textbox value="HSUPA / HSDPA / WCDMA / EDGE / GPRS/GSM" id="4"/> 
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

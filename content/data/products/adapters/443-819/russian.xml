@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Adapter</meta:title>
+    <meta:date value="2015-09-22" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <dropdownlist id="adapters-443"/> <textbox value="10" id="2"/> <dropdownlist id="adapters-443-a"/> Серверный адаптер сетевой Интерфейсная карта Ethernet PCIe Dell
+    <dropdownlist id="adapters-443-b"/></product:name>
+	  <product:longdesc>
+      <para>
+		Сетевой адаптер <dropdownlist refid="adapters-443-a"/> Ethernet PCI-Express <reg/> от Dell<tm/> идеально подходит для подключения серверов к сети. Данный серверный адаптер <dropdownlist refid="adapters-443-a"/> Ethernet <dropdownlist id="adapters-443"/> является надежным решением, основанным на стандартах. Данное изделие прошло тестирование и проверку на системах Dell. При использовании изделия с системой Dell на него распространяется услуга технической поддержки Dell. 
+		</para>
+		<para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b> 
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		Обеспечивает x<textbox value="1" refid="5"/> PCIe интерфейс 
+        </point>
+        <point>
+		Компактный дизайн для экономии пространства  
+        </point>
+        <point>
+		Идеальный вариант для высокопроизводительных  сетевых приложений
+
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип устройства">
+		<dropdownlist refid="adapters-443-a"/> адаптер
+      </product:techspec>
+      <product:techspec id="2" name="Скорость передачи данных">
+       <textbox value="1" id="4"/><textbox value="Гбит/с" refid="3"/>
+      </product:techspec>
+      <product:techspec id="3" name="Требуется разъем(ы)">
+       x<textbox value="1" id="5"/> PCIe
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

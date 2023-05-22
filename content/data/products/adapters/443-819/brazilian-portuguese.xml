@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Networking Adapter</meta:title>
+    <meta:date value="2015-09-22" />
+    <meta:creator value="Hazwani"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Placa de interface de rede PCIe Ethernet com adaptador do servidor de <textbox value="10" id="2"/> <dropdownlist id="adapters-443-a"/> e <dropdownlist id="adapters-443"/> <dropdownlist id="adapters-443-b"/> da Dell 
+	  </product:name>
+	  <product:longdesc>
+      <para>
+		A placa de interface de rede PCI-Express<reg/> <dropdownlist refid="adapters-443-a"/> Ethernet da Dell<tm/> é ideal para conectar o servidor à rede. O adaptador do servidor de <dropdownlist refid="adapters-443-a"/> <dropdownlist refid="adapters-443"/> provou ser uma solução confiável baseada em padrões. Esse produto foi testado e validado em sistemas Dell. Quando usado com um sistema Dell, conta com o Suporte técnico da empresa. 
+		</para>
+		 <para>
+	  <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/> </b>
+	  <points>
+	  <point>
+	  <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/> 
+	  </point>
+	  </points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		Fornece interface com PCIe x<textbox value="1 " refid="5"/>
+        </point>
+        <point>
+		Possui um design compacto que economiza espaço 
+        </point>
+        <point>
+		Ideal para aplicativos de rede de alta performance
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+		Adaptador <dropdownlist refid="adapters-443-a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Taxa de transferência de dados">
+       <textbox value="1" id="4"/>Gbit/s
+      </product:techspec>
+      <product:techspec id="3" name="Slot(s) obrigatório(s)">
+       PCIe x<textbox value="1" id="5"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>
