@@ -1,0 +1,476 @@
+﻿<!DOCTYPE html>
+<html xml:lang="en" lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dell Thunder - Generic Content Generator</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Generator" content="Dell Thunder 2.0 - Generic Content Generator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/main.css" />
+    <!-- Split Button CSS -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/jquery-ui.css" />
+    <!-- Site Tour -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/site-tour/joyride-2.1.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/tooltipster/tooltipster.bundle.min.css" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>	
+	<script type="text/javascript" src="js/tooltipster/tooltipster.bundle.min.js"></script>
+	<script type="text/javascript" src="js/papaparse.min.js"></script>
+    <script type="text/javascript" src="js/m-xml.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- Split Button JS -->
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/spin.min.js"></script>
+    <script type="text/javascript" src="js/simple-expand.js"></script>
+	<script type="text/javascript" src="js/validator.min.js"></script>
+    <link rel="shortcut icon" href="images/dell.ico" />
+</head>
+<body>
+    <!-- BEGIN: Sticky Header -->
+    <header id="header_container">
+        <section id="header">
+            <section id="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" width="186" height="49" alt="Dell Thunder - Generic Content Generator"
+                        title="Dell Thunder - Generic Content Generator" />
+                </a>
+            </section>
+            <section id="default">
+                <form id="default-profile" action="index.html" name="default-profile" method="get">
+                <label for="default_region">
+                    Default Profile</label>
+                <select id="default_region_thunder" onchange="saveValue('default_region_thunder',this.value);this.form.submit()">
+                    <option value="apj">Asia-Pacific &amp; Japan</option>
+                    <option value="ca">Canada</option>
+                    <option value="emea">Euro, Middle East and Africa</option>
+                    <option value="global" selected="selected">Global Regions</option>
+                    <option value="la">Latin America</option>
+                    <option value="us">United States</option>
+                </select>
+                </form>
+            </section>
+        </section>
+        <nav id="control">
+            <section id="panel">
+                <form id="control-panel" action="index.html" name="control-panel" method="get" onsubmit="return false;">
+                <div id="sku_slot">
+                    <label for="sku">
+                        SKU</label><br />
+                    <input type="text" id="sku" maxlength="9" autofocus="autofocus" />
+                    <br />
+                    <input type="radio" name="sku_type" class="styled" value="customer-kit" title="Customer Kit"
+                        disabled="disabled" />
+                    <input type="radio" name="sku_type" class="styled" value="spare-parts" title="Spare Parts"
+                        disabled="disabled" />
+                    <br />
+                    <span id="sku_note">Press Enter to proceed</span>
+                </div>
+                <div id="product_slot">
+                    <label for="category">
+                        Product</label><br />
+                    <section id="category_loader">
+                        <select id="category" disabled="disabled">
+                            <option value="- Category -">- Category -</option>
+                        </select>
+                        <br />
+                    </section>
+                    <section id="subclass_loader">
+                        <select id="subclass" disabled="disabled">
+                            <option value="- Subclass -">- Subclass -</option>
+                        </select>
+                    </section>
+                </div>
+                <div id="markets_slot">
+                    <label for="markets">
+                        Market(s)</label>
+                    <span id="selectall" title="Select or deselect all markets.">Select All</span><br />
+                    <section id="markets_loader">
+                        <p>
+                            Loading Markets...
+                        </p>
+                    </section>
+                </div>
+                <div id="button_slot">
+					<div id="file-upload" class="first">
+						<label for="file_upload" class="custom-file-upload tooltip" title="Import Content Studio's CSV formatted template.">
+							CSV Import
+						</label>
+						<input type="file" id="file_upload" accept=".csv" required="required" onchange="fileUpload();" />
+						<span id="selected_markets"></span>
+					</div>
+                    <div>
+                        <button id="generate" type="button" value="Generate" onclick="GenerateGenericContent('control-panel');">
+                            Generate</button>
+                    </div>
+                    <div>
+                        <div>
+                            <button id="rerun" type="button">
+                                Export</button>
+                            <button id="select" type="button">
+                                Options</button>
+                        </div>
+                        <ul>
+							<li><a class="csd_export" onclick="exportTableToCSV('csd','csd-template','ContentStudio');"><span>Content Studio</span></a></li>
+                            <li onclick="exportTemplate('prc','prc-v2.0-template','Products');">PRC v2.0</li>
+                            <li onclick="exportTemplate('hmy','hmy-template','ProductDetails');">Harmony</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button id="reset" type="button" value="Reset" onclick="Reinstate('control-panel');">
+                            Reset</button>
+                    </div>
+                </div>
+                <div id="word_slot">
+                    <fieldset class="tooltip" title="All generic content variable inputs are excluded in the word count.">
+                        <legend>Word Count</legend><span id="counter">0</span>
+                        <br />
+                        <span class="label">word(s) per market </span>
+                    </fieldset>
+                </div>
+                <div id="sku_info_slot">
+                    <fieldset>
+                        <legend>SKU Info</legend>
+                        <table>
+                            <tr>
+                                <td class="label">
+                                    Region:
+                                </td>
+                                <td>
+                                    <span id="sku_region">Global</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="label">
+                                    # of Market:
+                                </td>
+                                <td>
+                                    <span id="sku_mkt" title="0 market(s)">0</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="label">
+                                    Subclass:
+                                </td>
+                                <td>
+                                    <span id="sku_scc">-</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </div>
+                </form>
+            </section>
+        </nav>
+    </header>
+    <!-- END: Sticky Header -->
+    <!-- BEGIN: Page Content -->
+    <div id="container">
+        <div id="modal-layer">
+            <div id="loader">
+            </div>
+            <div id="text">
+                Initializing...</div>
+        </div>
+        <section id="image-library">
+            <h1 class="expander tooltip" title="Click to expand or collapse">
+                Image Library</h1>
+            <div id="gallery" class="content">
+                <div id="album">
+                </div>
+                <span class="tips"><span class="header">Helpful Tips:</span> Mouseover product
+                    image(s) with tooltip shown to display its technical specifications for your selection.
+                    To request new product image, please submit <a href="https://dell.sharepoint.com/sites/ContentOperations/DCSContentOps/Operations/snp-and-euc-operations-teams/Lists/DellThunderRequest/AllItems.aspx"
+                        title="Dell Thunder Request" alt="Dell Thunder Request" target="_blank">Dell Thunder
+                        Request</a>.</span>
+            </div>
+        </section>
+        <section id="content">
+            <!--[if lt IE 9]>
+                <p class="ie-warning">
+                    You're using an outdated version of Internet Explorer, please upgrade to the latest version in order to support this tool.
+                </p>
+            <![endif]-->
+            <section id="generic-content">
+                <section id="flash-screen">
+                    <!--[if lt IE 9]>
+                        <h1>
+                            First-time Setup Requirements (Only Internet Explorer 8 or below)</h1>
+                        Define your method to export templates: 
+                        <select id="template_export" onchange="saveValue('template_export',this.value);exportOption(this.value);">
+                            <option value="remote">Remote</option>
+                            <option value="local">Local</option>
+                        </select>
+                        <div id="local">
+                            <strong>Local Option</strong><br/>
+                            <ol>
+                                <li>Download the <a href="downloads/templates/thunder.zip" title="Template ZIP file">Template Zip file</a>. Following, unzip the downloaded zip file and place it under C:\ drive. Folder structure should be C:\Thunder\Generic-Content\[ Templates | Saved-Copy ]\.</li>
+                                <li>Enabling <b>ActiveX control for Microsoft Excel</b> for data export under <i>Tools > Internet Options >  Security > Local intranet > Custome Level >  Initialize and script ActiveX controls not marked as safe for scripting</i>.</li>
+                                <li>Only restart your browser if it does not take effect.</li>
+                            </ol>
+                        </div>
+                        <div id="remote">
+                            <strong>Remote Option</strong><br/>
+                            <ol>
+                                <li>Remote option is preferred for unconfigurable environment such as Citrix user.</li>
+                                <li>This is default template export setting. It does not require you to download and place the template file(s) onto your local drive. <br/>The <b>only action required</b> is to ensure your ActiveX control configured as per point #3 and #4 mentioned below.</li>
+                                <li>Enabling <b>ActiveX control for Microsoft Excel</b> for data export under <i>Tools > Internet Options >  Security > Local intranet > Custome Level >  Initialize and script ActiveX controls not marked as safe for scripting</i>.</li>
+                                <li>Only restart your browser if it does not take effect.</li>
+                                <li>To optimize export template performance, it is recommended to select local option with its necessary local configuration.</li>
+                            </ol>
+                        </div>
+                        <![endif]-->
+                    <h1>
+                        Basic Steps</h1>
+                    <ol>
+                        <li>Set the region's <strong>Default Profile</strong> on the top right.</li>
+                        <li><strong>Fill in the blank</strong> and <strong>select the options</strong> on the
+                            above control panel.</li>
+						<li>On <strong>CSV Import</strong>, please export CSV template from Content Studio with only ManufacturerPn field required to be selected.</li>
+                        <li>Click on <strong>Generate button</strong> to retrieve generic content.</li>
+                        <li>Fill in <strong>business data</strong> into generic content template. As for its
+                            subsequent table entries will be updated dynamically.</li>
+                        <li>Scroll down to the <strong>table section</strong> to verify its content.</li>
+                        <li>Click on <strong>Export button</strong> to save the table to standard template.</li>
+                    </ol>
+                    <div class="sec">
+                        Should you have any technical issue during task execution, please submit us a <a
+                            href="https://dell.sharepoint.com/sites/ContentOperations/DCSContentOps/Operations/snp-and-euc-operations-teams/Lists/DellThunderRequest/AllItems.aspx"
+                            title="Dell Thunder Request" alt="Dell Thunder Request" target="_blank">Dell Thunder
+                            Request</a>.
+                    </div>
+                    <h1>
+                        Supportable Markets &amp; Languages</h1>
+                    <div class="sec">
+                        Find out more what <a href="downloads/documents/market-language-codes.pdf"
+                            title="Markets and Languages" alt="Markets and Languages" target="_blank">markets
+                            and languages</a> are currently available and supportable by <strong>Dell Content Studio</strong> (CSV Upload), <strong>CNET</strong> (PRC Upload)
+                        and <strong>Dell Harmony Composer</strong> (Mass Upload).<br />
+                        <span class="critical">Important Notice:</span> <span class="critical_note">Those non-supportable
+                            markets and languages are required to perform content treatment manually.</span>
+                    </div>
+					<h1>
+                        Web Browser Compatibility</h1>
+                    <div class="sec">
+						<div class="col"><img src="images/firefox.png" width="30" height="28" alt="Mozilla Firefox" title="Mozilla Firefox" /></div>
+						<div class="col caption">Mozilla<br/>Firefox</div>
+						<div class="col"><img src="images/internet-explorer.png" width="28" height="28" alt="Microsoft Internet Explorer" title="Microsoft Internet Explorer" /></div>
+					    <div class="col">Microsoft<br/>Internet Explorer</div>
+					</div>
+                </section>
+            </section>
+        </section>
+        <section id="template-export">
+			<h1>
+                Content Studio (CSV Upload Template) <span id="csvfilenamelabel">Imported Source File <span id="csvfilename"></span></span></h1>
+            <section class="freezepanes_wrapper">
+                <!-- Start of Content Studio CSV template -->
+                <section id="csd-template-holder">
+                    <!-- Table to be loaded here -->
+                </section>
+                <!-- End of Content Studio CSV template -->
+            </section>
+            <h1>
+                CNET (PRC Upload Template v2.0)</h1>
+            <section class="freezepanes_wrapper">
+                <!-- Start of PRC template -->
+                <section id="prc-template-holder">
+                    <!-- Table to be loaded here -->
+                </section>
+                <!-- End of PRC template -->
+            </section>
+            <h1>
+                Harmony (Mass Upload Template)</h1>
+            <section class="freezepanes_wrapper">
+                <!-- Start of Harmony template -->
+                <section id="hmy-template-holder">
+                    <!-- Table to be loaded here -->
+                </section>
+                <!-- End of Harmony template -->
+            </section>
+        </section>
+    </div>
+    <!-- END: Page Content -->
+    <!-- BEGIN: Sticky Footer -->
+    <footer id="footer_container">
+        <div id="footer">
+            &#169; DTX | Digital Content Management - Software and Peripherals Operations
+        </div>
+    </footer>
+    <!-- END: Sticky Footer -->
+    <script type="text/javascript" src="js/bottom.js"></script>
+    <script type="text/javascript" src="js/custom-form-elements.js"></script>
+    <!-- Start of OpenXML -->
+    <!--[if !(lt IE 9)]><!-->
+    <script type="text/javascript" src="js/openxml/linq.js"></script>
+    <script type="text/javascript" src="js/openxml/ltxml.js"></script>
+    <script type="text/javascript" src="js/openxml/ltxml-extensions.js"></script>
+    <script type="text/javascript" src="js/openxml/jszip.js"></script>
+    <script type="text/javascript" src="js/openxml/jszip-load.js"></script>
+    <script type="text/javascript" src="js/openxml/jszip-inflate.js"></script>
+    <script type="text/javascript" src="js/openxml/jszip-deflate.js"></script>
+    <script type="text/javascript" src="js/openxml/FileSaver.js"></script>
+    <script type="text/javascript" src="js/openxml/openxml.js"></script>
+    <!--<![endif]-->
+    <!-- End of OpenXML -->
+    <!-- Start of Template (associated with OpenXML/ActiveX) -->
+    <script type="text/javascript" src="js/templates.js"></script>
+    <!-- End of Template (associated with OpenXML/ActiveX) -->
+    <!-- Start of Site Tour -->
+    <ol id="joyRideTipContent">
+        <li data-id="default_region" data-text="Next" data-options="tipAnimation:fade">
+            <h2>
+                Switch Region? (1/14)</h2>
+            <p>
+                You may switch and default it to other region any time.<br />
+                <br />
+                <strong>Important:</strong> Both templates (PRC and Harmony) do not support more than one regional
+                market entries, except Content Studio.</p>
+        </li>
+        <li data-id="sku" data-button="Next" data-options="tipLocation:bottom;tipAnimation:fade">
+            <h2>
+                SKU Entry (2/14)</h2>
+            <p>
+                Enter your SKU here. Focus-and-hit <strong>Enter</strong> key to go.<br />
+                <br />
+                <strong>Product Auto-Lookup Feature:</strong> It allows you to have fast selection
+                of your product category and its subclass. It is currently disabled by admin.</p>
+        </li>
+        <li data-id="sku" data-button="Next" data-options="tipLocation:right;tipAnimation:fade">
+            <h2>
+                SKU Type (3/14)</h2>
+            <p>
+                Select your SKU content type, either Customer Kit or Spare Parts.</p>
+        </li>
+        <li data-id="category" data-button="Next" data-options="tipLocation:bottom;tipAnimation:fade">
+            <h2>
+                Product Category (4/14)</h2>
+            <p>
+                Choose your product category and wait for its subclass to be refreshed each time.</p>
+        </li>
+        <li data-id="subclass" data-button="Next" data-options="tipLocation:bottom;tipAnimation:fade">
+            <h2>
+                Product Subclass (5/14)</h2>
+            <p>
+                Choose your product subclass after it is fully refreshed.</p>
+        </li>
+        <li data-id="markets" data-button="Next" data-options="tipLocation:bottom;tipAnimation:fade">
+            <h2>
+                Markets (6/14)</h2>
+            <p>
+                Select one or more markets under your default region. You may click on Select or
+                Deselect All of your markets.<br />
+                <br />
+                <strong>Important:</strong> Both templates (PRC and Harmony) do not support more than one regional
+                market entries, except Content Studio.</p>
+        </li>
+		<li data-id="file-upload" data-button="Next" data-options="tipLocation:bottom;tipAnimation:fade">
+            <h2>
+                Content Studio Bulk Upload (7/14)</h2>
+            <p>
+                Upload CSV template file from Content Studio before getting generic content populated.<br/><br/>Following selected the file, a prompt will be notified to check if template file was correctly selected.</p>
+        </li>
+        <li data-id="generate" data-button="Next" data-options="tipLocation:bottom;tipAnimation:fade">
+            <h2>
+                Generate Generic Content (8/14)</h2>
+            <p>
+                Click to generate your generic content and wait for a prompt to notify its status.</p>
+        </li>
+        <li data-id="rerun" data-button="Next" data-options="tipLocation:bottom;tipAnimation:fade">
+            <h2>
+                Template Export (9/14)</h2>
+            <p>
+                Click on Export button to export generic content to all templates (PRC, Harmony &amp; Content Studio)
+                one after another. Notification prompt will alert upon its completion.</p>
+        </li>
+        <li data-id="rerun" data-button="Next" data-options="tipLocation:bottom;tipAnimation:fade">
+            <h2>
+                Options for Template Export (10/14)</h2>
+            <p>
+                Click on the downward arrow on right to choose your preferred template export method.
+                Notification prompt will alert upon its completion.</p>
+        </li>
+        <li data-id="reset" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
+            <h2>
+                Reset Control Panel (11/14)</h2>
+            <p>
+                Clear your entry and all selections except Default Profile.<br />
+                <br />
+                <strong>Note:</strong> Click on Generate button for any new entry or selections.</p>
+        </li>
+        <li data-id="word_slot" data-button="Next" data-options="tipLocation:left;tipAnimation:fade">
+            <h2>
+                Word Count (12/14)</h2>
+            <p>
+                Ease you to track your word count for Translation Savings. All variable inputs and
+                headers are excluded in the count.</p>
+        </li>
+        <li data-id="sku_info_slot" data-button="Next" data-options="tipLocation:left;tipAnimation:fade">
+            <h2>
+                SKU Information (13/14)</h2>
+            <p>
+                Always be in a good practice to check your selected region, no. of market as well
+                as its product subclass.</p>
+        </li>
+        <li data-id="generic-content" data-button="Close" data-options="tipLocation:right;tipAnimation:fade">
+            <h2>
+                Recap Basic Steps (14/14)</h2>
+            <p>
+                You may refer to these steps to get your generic content as well as to find out
+                more about supportable markets and languages of the tools.
+                <!--[if lt IE 9]>
+                    Additional setup needed for Internet Explorer below version 9.
+                <![endif]-->
+                <br />
+                <br />
+                <strong>Need assistance?</strong> Please submit us a <a href="http://intranet.dell.com/marketing/contentoperations/DCSContentOps/Operations/snp-and-euc-operations-teams/Lists/DellThunderRequest/NewForm.aspx"
+                    title="Dell Thunder Request" alt="Dell Thunder Request" target="_blank">Dell Thunder
+                    Request</a>.
+            </p>
+        </li>
+    </ol>
+    <ol id="joyRideTipContent_global">
+        <li data-id="default_region" data-text="Yes, I am aware" data-options="tipAnimation:fade">
+            <h2>
+                Are you sure Global Regions?</h2>
+            <p>
+                Set your default profile here, as both PRC and Harmony tools do not support more
+                than one regional market entries, e.g. both APJ and US markets together, except Content Studio.
+            </p>
+        </li>
+    </ol>
+    <!-- Run the plugin -->
+    <script type="text/javascript" src="js/site-tour/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/site-tour/modernizr.mq.js"></script>
+    <script type="text/javascript" src="js/site-tour/jquery.joyride-2.1.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+        var cookie = readCookie("default_region");
+            if (cookie == "" || cookie == "global") {
+                $('#joyRideTipContent_global').joyride({
+                    autoStart: true,
+                    modal: true,
+                    expose: true,
+                });
+            }
+            else{
+                $('#joyRideTipContent').joyride({
+                    autoStart: true,
+                    /*postStepCallback: function (index, tip) {
+                    if (index == 2) {
+                    $(this).joyride('set_li', false, 1);
+                    }
+                    },*/
+                    modal: true,
+                    expose: true,
+                    'cookieMonster': true,           // true/false for whether cookies are used
+                    'cookieName': 'Thunder-v2.0-02', // choose your own cookie name
+                    'cookieDomain': false            // set to false or yoursite.com
+                });
+            }
+        });
+    </script>
+    <!-- End of Site Tour -->
+</body>
+</html>
