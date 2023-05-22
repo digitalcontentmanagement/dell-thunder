@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Tangentbord -<textbox value="84" id="1"/> tangenter</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Tangentbordet är en standardenhet som används för att mata in data i datorn och ta kontroll över driften. Ett tangentbord kan vara antingen internt eller externt. Interna tangentbord är för bärbara datorer, medan externa tangentbord kan användas tillsammans med bärbara datorer, stationära datorer och servrar. Externa tangentbord är tillgängliga med antingen PS2- eller USB-anslutningar. Antalet tangenter på ett tangentbord bestämmer det totala antalet tecken och åtgärder som kan utföras. Gränssnittstypen avgör tangentbordets kompatibilitet med ditt system. En del tangentbord är trådlösa. Tangentbord kan också levereras i olika språk (för till exempel engelska (USA) eller svenska) med teckentangenterna på motsvarande språk.
+	  </para>
+	  <para>
+	  Observera att några av våra renoverade produkter levereras som satser eller paket. Dessa satser kan innehålla extra komponenter som krävs för installationen. Om en produkt inte kan köpas som en sats eller ett paket kan det hända att det krävs kompletterande komponenter för installationen.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dells begränsade maskinvaruservice täcker defekter i material och utförande i dina maskinvaruprodukter från Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> tangenter 
+		</point>
+		<point>
+		Spanska
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		Tangentbord
+      </product:techspec>
+      <product:techspec id="2" name="Antal tangenter">
+		<textbox value="84" refid="1"/> tangenter
+      </product:techspec>
+	  <product:techspec id="3" name="Språk">
+		Spanska (latinamerikansk)
+      </product:techspec>
+	  <product:techspec id="4" name="Enhetstyp">
+		Inbyggt tangentbord
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

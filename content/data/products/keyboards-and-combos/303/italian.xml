@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> tastiera -<textbox value="84" id="1"/> tasti</product:name>
+
+    <product:longdesc>
+	  <para>
+	  La tastiera è un dispositivo di input standard utilizzato per inserire dati nel computer e per controllare il funzionamento del sistema. La tastiera può essere interna o esterna. Le tastiere interne sono destinate unicamente ai notebook, mentre quelle esterne possono essere utilizzate con notebook, desktop e server. Le tastiere esterne sono disponibili con connessioni di interfaccia PS2 o USB. Il numero di tasti su una tastiera determina il numero di caratteri e le operazioni che possono essere svolte. Il tipo di interfaccia determina la compatibilità della tastiera con il sistema. Alcune tastiere sono wireless. Le tastiere sono inoltre disponibili in diverse lingue (ad es. latino/America latina, Stati Uniti) con i tasti corrispondenti ai caratteri della lingua.
+	  </para>
+	  <para>
+	  Tenere presente che alcuni dei prodotti sostitutivi Dell vengono forniti come kit o assiemi. Questi kit possono contenere parti aggiuntive richieste per l'installazione. Nel caso in cui un prodotto non sia venduto come kit o assieme, potrebbe richiedere parti complementari per semplificare l'installazione.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garanzia hardware limitata Dell copre i difetti di materiali e lavorazione per i prodotti hardware a marchio Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> tasti 
+		</point>
+		<point>
+		Spagnolo
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di prodotto">
+		Tastiera
+      </product:techspec>
+      <product:techspec id="2" name="Numero di tasti">
+		<textbox value="84" refid="1"/> tasti
+      </product:techspec>
+	  <product:techspec id="3" name="Lingue">
+		Spagnolo (America Latina)
+      </product:techspec>
+	  <product:techspec id="4" name="Tipo di dispositivo">
+		Tastiera interna
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

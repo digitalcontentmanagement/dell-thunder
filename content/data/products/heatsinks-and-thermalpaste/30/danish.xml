@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> CPU-køleplade
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  De forskellige komponenter i en computer såsom chipsettet, grafikkortet og harddisken kan generere en stor mængde varme under drift. Den store mængde varme kan gøre, at systemet ikke fungerer korrekt. Kølelegemerne og blæserne skal bortlede denne varme og fastholde sikre temperaturgrænser.
+	  </para>
+	  <para>
+	  Den vigtigste faktor, som er afgørende for valget af køleplade, er processortypen og dens hastighed. Forskellige processorer har forskellige driftstemperaturer. Jo højere processorens hastighed er, desto bedre skal kølelegemet og blæseren være. På samme måde er typen af processor også afgørende for, hvilket kølelegeme der passer til den. Kabinettypen er også vigtig, da den definerer kabinettet for kølepladen og kompatibilitet med systemet.
+	  </para>
+	  <para>
+	  For at få anskaffet det rette kølelegeme eller den rette blæser til dit system anbefaler vi, at du bruger funktionen Servicekodesøgning i værktøjet Dele til din Dell<tm/>. Dette gør os i stand til at identificere processortypen i og hastigheden af systemet og vælge kompatible kølelegemeprodukter til det.
+	  </para>
+	  <para>
+	  Bemærk, at nogle af vores udskiftningsprodukter leveres som sæt eller enheder. Disse sæt kan indeholde flere dele, der er nødvendige for installationen, og delene vises separat som "komponentdele" i afsnittet Højdepunkter på denne side. Hvis et produkt ikke sælges som et sæt eller en enhed, kan der muligvis kræves ekstra dele for at sikre nem installation.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Bortleder varmen i computeren
+        </point>
+        <point>
+          Fastholder de sikre temperaturgrænser i systemet
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		CPU-kølelegeme
+      </product:techspec>
+      <product:techspec id="2" name="Funktioner">
+		Bortleder varmen / Fastholder de sikre temperaturgrænser
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

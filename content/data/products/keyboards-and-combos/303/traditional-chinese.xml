@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 鍵盤 -<textbox value="84" id="1"/> 鍵</product:name>
+
+    <product:longdesc>
+	  <para>
+	  鍵盤是標準輸入裝置，用來將資料傳送到電腦並控制其運作。 鍵盤分為內接與外接。 內接鍵盤僅適用筆記型電腦，而外接鍵盤則可搭配筆記型電腦、桌上型電腦及伺服器使用。 外接鍵盤提供 PS2 或 USB 等介面連線規格。 鍵盤上的按鍵數決定了可執行的字元與操作總數。 介面類型決定了鍵盤與您系統的相容性。 某些鍵盤為無線設計。 鍵盤同時也會因不同語言版本 (例如，拉丁語系/拉丁美洲地區、美國地區版本)，搭配使用對應的語言字元按鍵。
+	  </para>
+	  <para>
+	  請注意，我們的部分替換產品是以套件或組件的形式提供。 這些套件可能包含安裝所需的其他零件。 如果產品不採套件或組件形式銷售，可能需要互補零件以簡化安裝。
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  戴爾品牌硬體產品的材料與製造瑕疵，亦屬於戴爾有限硬體保固的涵蓋範圍。 
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> 鍵 
+		</point>
+		<point>
+		西班牙文
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="產品類型">
+		鍵盤
+      </product:techspec>
+      <product:techspec id="2" name="按鍵數量">
+		<textbox value="84" refid="1"/>鍵
+      </product:techspec>
+	  <product:techspec id="3" name="語言">
+		西班牙文 (拉丁美洲)
+      </product:techspec>
+	  <product:techspec id="4" name="裝置類型">
+		內接鍵盤
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

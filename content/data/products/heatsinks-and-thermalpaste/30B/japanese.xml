@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="PowerEdge C6520" id="1"/> CPU 拡張 ヒートシンク<dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  コンピュータシステムの動作中には、チップセット、グラフィックスカード、ハードドライブなど、さまざまなコンポーネントから大量の熱が発生します。 このように大量の熱が発生すると、システムが正常に機能しなくなる場合があります。 発生した熱を放散させ、安全な許容温度を維持する役割を担うのがヒートシンクとファンです。
+	  </para>
+	  <para>
+	  ヒートシンクアセンブリを選択するにあたって最も重要な要因は、プロセッサタイプとその速度です。 動作温度はプロセッサによって異なります。 プロセッサ速度が速いほど、より優れたヒートシンクとファンが必要になります。 同様に、プロセッサタイプも適切なヒートシンクを選択する際に重要となります。 また、シャーシタイプによって、ヒートシンクアセンブリの筐体や、システムとの互換性が定義されるので、これも重要な要因といえます。
+	  </para>
+	  <para>
+	  システムに最適なヒートシンクおよびファンを購入するために、デルは「お使いのデル製品のパーツ（Parts For Your Dell<tm/>）」ツールのサービスタグ検索機能を使用することをお勧めします。 このツールを使用すると、使用しているシステムのプロセッサタイプとその速度を特定し、システムと互換性のあるヒートシンク製品を選択することができます。
+	  </para>
+	  <para>
+	  交換用製品は、キットまたは部品として提供されている場合がありますのでご注意ください。 このようなキットには、設置に必要な追加パーツが含まれていることがあります。追加パーツがある場合、このページのハイライトされたセクションに「コンポーネントパーツ」として別途記載されています。 製品がキットまたは部品として販売されていない場合、設置しやすくするための補完パーツが必要になる場合があります。
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          コンピュータから発生した熱を放散させる
+        </point>
+        <point>
+          システム内部を安全な許容温度で維持する
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="製品タイプ">
+		CPU 拡張 ヒートシンク
+      </product:techspec>
+      <product:techspec id="2" name="特長">
+		放熱 / 安全な許容温度の維持
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

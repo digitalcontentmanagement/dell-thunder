@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> klawiatura -<textbox value="84" id="1"/> klawisze</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Klawiatura to standardowe urządzenie wejściowe, które służy do wprowadzania danych do komputera i kontrolowania jego działania. Klawiatura może być typu wewnętrznego lub zewnętrznego. Klawiatury wewnętrzne są przeznaczone tylko do notebooków, zaś klawiatury zewnętrzne mogą być używane z notebookami, komputerami stacjonarnymi i serwerami. Klawiatury zewnętrzne są dostępne z połączeniami interfejsu PS2 lub USB. Liczba klawiszy klawiatury określa łączną liczbę znaków oraz operacje, które można wykonywać. Rodzaj interfejsu decyduje o zgodności z klawiatury z systemem. Niektóre klawiatury są bezprzewodowe. Klawiatury są również dostępne w różnych wersjach językowych (na przykład Łacińska/Ameryka Łacińska, Stany Zjednoczone) i zawierają klawisze ze znakami odpowiednimi dla danego języka.
+	  </para>
+	  <para>
+	  Należy pamiętać, że niektóre podzespoły zamienne są dostarczane w postaci zestawów. Mogą one zawierać dodatkowe części niezbędne podczas instalacji. Jeżeli produkt nie jest oferowany w postaci zestawu, może wymagać dodatkowych części w celu łatwiejszej instalacji.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Ograniczona gwarancja na sprzęt firmy Dell uwzględnia usterki materiałowe i wady wykonania w produktach sprzętowych marki Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> klawisze 
+		</point>
+		<point>
+		Hiszpańska
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rodzaj produktu">
+		Klawiatura
+      </product:techspec>
+      <product:techspec id="2" name="Liczba klawiszy">
+		<textbox value="84" refid="1"/> klawisze
+      </product:techspec>
+	  <product:techspec id="3" name="Języki">
+		Hiszpański (Ameryka Łacińska)
+      </product:techspec>
+	  <product:techspec id="4" name="Typ urządzenia">
+		Klawiatura wewnętrzna
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

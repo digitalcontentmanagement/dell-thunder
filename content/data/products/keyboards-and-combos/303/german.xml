@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Tastatur -<textbox value="84" id="1"/> Tasten</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Die Tastatur ist ein Standardeingabegerät, das verwendet wird, um Daten in den Computer einzugeben und seinen Betrieb zu steuern. Eine Tastatur kann intern oder extern sein. Interne Tastaturen gibt es nur für Notebooks, externe Tastaturen für Notebooks, Desktop-PCs und Server. Externe Tastaturen sind entweder mit PS2 oder USB-Schnittstellenverbindungen verfügbar. Die Anzahl der Tasten der Tastatur bestimmt die Gesamtanzahl der Zeichen und die Vorgänge, die durchgeführt werden können. Der Schnittstellentyp bestimmt die Kompatibilität der Tastatur mit Ihrem System. Einige Tastaturen sind wireless. Tastaturen können auch für verschiedene Sprachen bestimmt sein (für z. B. Latein/Lateinamerika, USA), mit den entsprechenden Zeichentasten.
+	  </para>
+	  <para>
+	  Bitte beachten Sie, dass manche Ersatzteile als Einbausätze oder Baugruppen geliefert werden. Diese Einbausätze können zusätzliche Teile enthalten, die für den Einbau erforderlich sind. Wenn ein Produkt nicht als Einbausatz oder Baugruppe verkauft wird, können zusätzliche Teile für den Einbau erforderlich sein.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Der eingeschränkte Hardware-Service von Dell deckt Material- und Verarbeitungsfehler von Hardwareprodukten der Marke Dell ab.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> Tasten 
+		</point>
+		<point>
+		Spanisch
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		Tastatur
+      </product:techspec>
+      <product:techspec id="2" name="Anzahl Tasten">
+		<textbox value="84" refid="1"/> Tasten
+      </product:techspec>
+	  <product:techspec id="3" name="Sprache(n)">
+		Spanisch (Lateinamerika)
+      </product:techspec>
+	  <product:techspec id="4" name="Gerätetyp">
+		Interne Tastatur
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

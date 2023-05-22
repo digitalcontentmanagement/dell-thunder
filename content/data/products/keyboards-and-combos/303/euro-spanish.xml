@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Teclado - <textbox value="84" id="1"/> teclas</product:name>
+
+    <product:longdesc>
+	  <para>
+	  El teclado es un dispositivo de entrada estándar que se utiliza para introducir datos en el equipo y controlar su funcionamiento. Un teclado puede ser interno o externo. Los teclados internos son solo para portátiles, mientras que los teclados externos pueden utilizarse con portátiles, sobremesas y servidores. Los teclados externos están disponibles con conexiones de interfaz de PS2 o USB. El número de teclas en un teclado determina la cantidad total de caracteres y operaciones que se pueden llevar a cabo. El tipo de interfaz determina la compatibilidad del teclado con el sistema. Algunos teclados son inalámbricos. Los teclados también pueden venir en diferentes idiomas (por ejemplo para Latinoamérica, Estados Unidos) con las teclas de carácter del idioma correspondiente.
+	  </para>
+	  <para>
+	  Tenga en cuenta que algunos de nuestros productos de sustitución se proporcionan como kits o conjuntos. Estos kits pueden contener piezas adicionales necesarias para la instalación. Si un producto no se vende como kit o conjunto, podría ser necesario usar piezas complementarias para facilitar la instalación.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garantía de hardware de Dell cubre los defectos en los materiales y de fabricación para los productos de hardware de la marca Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> teclas 
+		</point>
+		<point>
+		Español
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+		Teclado
+      </product:techspec>
+      <product:techspec id="2" name="Cantidad de teclas">
+		<textbox value="84" refid="1"/> teclas
+      </product:techspec>
+	  <product:techspec id="3" name="Idiomas">
+		Español (Latinoamericano)
+      </product:techspec>
+	  <product:techspec id="4" name="Tipo de dispositivo">
+		Teclado interno
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

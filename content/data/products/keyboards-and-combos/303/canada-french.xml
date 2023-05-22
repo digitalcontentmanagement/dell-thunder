@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> clavier -<textbox value="84" id="1"/> touches</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Le clavier est un périphérique d’entrée standard utilisé pour alimenter l’ordinateur en données et contrôler son fonctionnement. Un clavier peut être interne ou externe. Les claviers internes conviennent aux portables seulement, tandis que les claviers externes peuvent être utilisés avec les portables, les ordinateurs de bureau et les serveurs. Les claviers externes sont offerts avec les interfaces de connexion PS2 ou USB. Le nombre de touches d’un clavier détermine le nombre total de caractères et les opérations pouvant être effectuées. Le type d’interface détermine la compatibilité du clavier avec votre système. Certains claviers sont sans fil. Les claviers sont également offerts dans d’autres langues (p. ex. espagnol/Amérique latine, États-Unis) avec les touches de caractères correspondant à ces langues.
+	  </para>
+	  <para>
+	  Veuillez noter que certaines de nos pièces de rechange sont offertes sous forme de trousse ou d’ensemble. Ces trousses peuvent contenir des pièces supplémentaires nécessaires à l’installation. Si un produit n’est pas vendu sous forme de trousse ou d’ensemble, il peut nécessiter des pièces complémentaires pour faciliter l’installation.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Cette garantie limitée sur le matériel de Dell couvre les défauts de matériel ou de fabrication de vos produits de marque Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> touches 
+		</point>
+		<point>
+		Espagnol
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+		Clavier
+      </product:techspec>
+      <product:techspec id="2" name="Nombre de touches">
+		<textbox value="84" refid="1"/> touches
+      </product:techspec>
+	  <product:techspec id="3" name="Langues">
+		Espagnol (Amérique latine)
+      </product:techspec>
+	  <product:techspec id="4" name="Type de périphérique">
+		Clavier interne
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

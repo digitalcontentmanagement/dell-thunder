@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Chladič pro procesory s tepelným výkonem <textbox value="180" id="1"/>W a vyšším <textbox value="R6515" id="2"/> <textbox value="Instaluje zákazník" id="3"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Různé komponenty počítače, například čipová sada, grafická karta nebo pevný disk, mohou při provozu vyzařovat velký objem tepla. Tento velký objem tepla může narušit řádné fungování počítače. Úkolem chladičů a ventilátorů je toto teplo pohltit a udržet bezpečný rozsah teplot.
+	  </para>
+	  <para>
+	  Nejdůležitějšími faktory, které určují výběr sady chladiče, je typ procesoru a jeho rychlost. Různé procesory mají různé provozní teploty. Čím je rychlost procesoru vyšší, tím lepší musí být chladič a ventilátor. Typ procesoru rovněž určuje, jaký chladič je v daném případě vhodný. Důležitý je také druh šasi, protože určuje kryt sestavy chladiče a kompatibilitu s počítačem.
+	  </para>
+	  <para>
+	  Chcete-li zakoupit správný chladič či ventilátor pro daný počítač, doporučujeme použít funkci hledání výrobního čísla v nástroji vyhledání dílů pro produkty Dell <tm/>. Ta nám umožní identifikovat typ procesoru a rychlost počítače a vybrat chladiče, které s nimi jsou kompatibilní.
+	  </para>
+	  <para>
+	  Některé náhradní díly dodáváme jako sady nebo sestavy. Tyto sady mohou obsahovat další díly potřebné pro instalaci; takové díly budou uvedeny v části Hlavní položky jako samostatné položky typu Komponenta. Pokud výrobek neprodáváme jako sadu nebo sestavu, může pro snadnou instalaci vyžadovat další díly.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Odvádí teplo počítače
+        </point>
+        <point>
+          Udržuje v počítači bezpečný rozsah teplot
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+		Chladič procesoru
+      </product:techspec>
+      <product:techspec id="2" name="Funkce">
+		Odvod tepla a udržení bezpečného rozsahu teplot
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

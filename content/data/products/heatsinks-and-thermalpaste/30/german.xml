@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> CPU-Kühlkörper-Baugruppe
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Die verschiedenen Komponenten eines Computersystems, wie Chipsatz, Grafikkarte und Festplatte können bei Betrieb viel Wärme generieren. Diese Wärme kann dem reibungslosen Betrieb des Systems schaden. Der Kühlkörper und die Lüfter sind verantwortlich für die Ableitung der Wärme und Einhaltung der Temperatur in sicheren Grenzen.
+	  </para>
+	  <para>
+	  Der wichtigste Faktor für die Auswahl der Kühlkörper-Baugruppe sind der Prozessortyp und seine Geschwindigkeit. Unterschiedliche Prozessoren haben die unterschiedliche Betriebstemperaturen. Je höher die Geschwindigkeit des Prozessors, desto besser müssen Kühlkörper und Lüfter sein. Entsprechend bestimmt der Typ des Prozessors auch welche Kühlkörper damit kompatibel sind. Der Gehäusetyp spielt auch eine Rolle, da er das Gehäuse der Kühlkörper-Baugruppe und seine Kompatibilität mit dem System bestimmt.
+	  </para>
+	  <para>
+	  Damit Sie den richtigen Kühlkörper und Lüfter für Ihr System kaufen, empfehlen wir, dass Sie die Service-Tag-Suchfunktion im Tool Parts For Your Dell<tm/> verwenden. Damit können wir den Prozessortyp und die Prozessorgeschwindigkeit Ihres Gerätes feststellen und kompatible Kühlprodukte auswählen.
+	  </para>
+	  <para>
+	  Bitte beachten Sie, dass manche Ersatzteile als Einbausätze oder Baugruppen geliefert werden. Diese Einbausätze können zusätzliche Teile enthalten, die für den Einbau erforderlich sind; diese werden im Abschnitt "Highlights" auf dieser Seite separat als Zubehör aufgeführt. Wenn ein Produkt nicht als Einbausatz oder Baugruppe verkauft wird, können zusätzliche Teile für den Einbau erforderlich sein.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Leitet die Wärme des Computers ab
+        </point>
+        <point>
+          Sorgt für Einhaltung der Temperatur im System in sicheren Grenzen
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		CPU-Kühlkörper
+      </product:techspec>
+      <product:techspec id="2" name="Merkmale">
+		Leitet die Wärme ab / Sorgt für Einhaltung der Temperatur in sicheren Grenzen
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

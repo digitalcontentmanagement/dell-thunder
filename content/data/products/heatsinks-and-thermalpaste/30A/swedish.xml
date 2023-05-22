@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Kylfläns för processor lika med eller större än <textbox value="180" id="1"/>W <textbox value="R6515" id="2"/> <textbox value="kundinstallation" id="3"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  De olika komponenterna i ett datorsystem som kretsuppsättningen, grafikkortet och hårddisken kan producera en stor mängd värme under drift. För mycket värme kan skada systemets funktionalitet. Kylflänsarna och fläktarna avleder värmen och upprätthåller säkra temperaturgränser.
+	  </para>
+	  <para>
+	  Den viktigaste faktorn som bestämmer valet av kylfläns är processortyp och hastighet. Olika processorer har olika användningstemperaturer. Ju snabbare processor, desto bättre kylfläns och fläkt behöver du. Typen av processor bestämmer också vilken kylfläns som behövs. Chassitypen är också viktig eftersom den utgör kylflänsens hölje och bestämmer kompatibiliteten med systemet.
+	  </para>
+	  <para>
+	  För att köpa rätt kylfläns/fläkt för ditt system, rekommenderar vi att du använder sökfunktionen för servicenumret i verktyget Parts For Your Dell<tm/>. På så sätt kan vi identifiera din dators processortyp och hastighet och föreslå kompatibla produkter.
+	  </para>
+	  <para>
+	  Observera att några av våra renoverade produkter levereras som satser eller paket. Dessa satser kan innehålla extra komponenter som krävs för installationen. Delarna anges separat som komponenter i avsnittet Höjdpunkter på denna sida. Om en produkt inte kan köpas som en sats eller ett paket kan det hända att det krävs kompletterande komponenter för installationen.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Avleder värme på datorn
+        </point>
+        <point>
+          Upprätthåller säkra temperaturgränser för datorn
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		CPU-kylfläns
+      </product:techspec>
+      <product:techspec id="2" name="Funktioner">
+		Avleder värme/upprätthåller säkra temperaturgränser
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

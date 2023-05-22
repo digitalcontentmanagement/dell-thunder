@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="PowerEdge C6520" id="1"/> CPU ampliación de Disipador térmico<dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Los diversos componentes de un sistema informático, como el chipset, la tarjeta de gráficos y el disco duro, pueden producir una gran cantidad de calor mientras se encuentra en funcionamiento. Esta gran cantidad de calor puede ser perjudicial para el correcto funcionamiento del sistema. Los disipadores de calor y los ventiladores son responsables de disipar este calor y de mantener los límites de temperatura segura.
+	  </para>
+	  <para>
+	  El factor más importante que determina la selección de un conjunto de disipador de calor es el tipo de procesador y su velocidad. Diferentes procesadores tienen diferentes temperaturas de funcionamiento. Mientras más alta sea la velocidad del procesador, mejores deberán ser el disipador de calor y el ventilador. De manera similar, el tipo de procesador también determina el disipador de calor que le corresponde. El tipo de chasis también es importante ya que define la carcasa del conjunto de disipador de calor y la compatibilidad con el sistema.
+	  </para>
+	  <para>
+	  A fin de comprar el disipador de calor o el ventilador correctos para su sistema, le recomendamos que utilice la función Búsqueda de etiquetas de servicio en la herramienta Parts For Your Dell<tm/>. Esto nos permitirá identificar el tipo de procesador y la velocidad de su sistema, además de seleccionar los productos de disipador de calor compatibles.
+	  </para>
+	  <para>
+	  Tenga en cuenta que algunos de nuestros productos de reemplazo se proporcionan como kits o ensamblajes. Estos kits pueden contener piezas adicionales requeridas para la instalación; estas piezas se enumerarán de forma separada como "Piezas de componentes" en la sección Características destacadas de esta página. En el caso de que un producto no se venda como kit o ensamblaje, es posible que se requieran piezas complementarias para facilitar su instalación.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Disipa el calor de una computadora
+        </point>
+        <point>
+          Mantiene los límites de temperatura segura dentro del sistema
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+		CPU ampliación de Disipador térmico
+      </product:techspec>
+      <product:techspec id="2" name="Características">
+		Disipa el calor/mantiene los límites de temperatura segura
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

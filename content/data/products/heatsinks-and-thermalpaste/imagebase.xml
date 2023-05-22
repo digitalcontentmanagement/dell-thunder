@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="heatsinks-and-thermalpaste">
+
+    <image:image name="412-AADU">
+      <image:location>412-AADU</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 105W Heat Sink for PowerEdge T630 </image:description>
+      <image:caption>Dell 105W Heat Sink for PowerEdge T630 </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+    <!-- Start of subclasses -->
+    <!--<image:folder name="225">
+      <image:image name="450-AEGJ">
+        <image:location>450-AEGJ</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <<image:description>This is Dell Product</image:description>
+        <image:caption>Dell 3-Prong Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>
+    
+    <image:folder name="443">
+      <image:image name="450-AFJG">
+        <image:location>450-AFJG</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <image:description>This is Dell Product</image:description>
+        <image:caption>Dell Slim Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>-->
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>

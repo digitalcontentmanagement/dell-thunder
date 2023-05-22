@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> klávesnice -<textbox value="84" id="1"/> kláves</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Klávesnice je standardní vstupní zařízení, které se používá k vkládání dat do počítače a k ovládání jeho činnosti. Klávesnice může být interní nebo externí. Interní klávesnice jsou určeny pouze pro notebooky, zatímco externí klávesnice lze použít s notebooky, stolními počítači i servery. Externí klávesnice jsou k dispozici s připojením pomocí rozhraní PS2 nebo USB. Počet kláves klávesnice určuje celkový počet znaků a činnosti, které lze provádět. Typ rozhraní určuje kompatibilitu klávesnice s daným počítačem. Některé klávesnice jsou bezdrátové. Klávesnice také mohou být dodávány pro různé jazyky (například Latinka / Latinská Amerika, USA) s odpovídajícími klávesami pro daný jazyk.
+	  </para>
+	  <para>
+	  Některé náhradní díly dodáváme jako sady nebo sestavy. Tyto sady mohou obsahovat další díly potřebné pro instalaci. Pokud výrobek neprodáváme jako sadu nebo sestavu, může pro snadnou instalaci vyžadovat další díly.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Omezená záruka společnosti Dell na hardware se vztahuje na vady materiálů a zpracování hardwarových výrobků značky Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> kláves 
+		</point>
+		<point>
+		Španělština
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+		Klávesnice
+      </product:techspec>
+      <product:techspec id="2" name="Počet kláves">
+		<textbox value="84" refid="1"/> kláves
+      </product:techspec>
+	  <product:techspec id="3" name="Jazyky">
+		Španělština (Latinská Amerika)
+      </product:techspec>
+	  <product:techspec id="4" name="Typ zařízení">
+		Interní klávesnice
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="PowerEdge C6520" id="1"/> CPU Расширенный Радиатор<dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  При работе различных компонентов вычислительной системы, таких как микросхема, графическая плата и жесткий диск, может вырабатываться большой объем тепла. Этот нагрев может препятствовать правильной работе системы. Радиаторы и вентиляторы обеспечивают рассеивание этого тепла и поддерживают безопасную температуру.
+	  </para>
+	  <para>
+	  Наиболее важными факторами при выборе узла радиатора являются тип процессора и его частота. Различные процессоры обладают различными рабочими температурами. Чем выше тактовая частота процессора, тем больше должна быть мощность радиатора и вентилятора. Аналогичным образом, тип процессора определяет тип совместимого радиатора. Также важен тип корпуса, так как он определяет условия установки узла радиатора и его совместимость с системой.
+	  </para>
+	  <para>
+	  При выборе радиатора/вентилятора для системы рекомендуется использовать функцию Service Tag Lookup в средстве Parts For Your Dell<tm/>. Это позволит определить тип процессора и производительность вашей системы, а также подобрать совместимые с ней радиаторы.
+	  </para>
+	  <para>
+	  Обратите внимание, что некоторые наши изделия-заменители предоставляются в качестве комплектов или сборных изделий. Такие комплекты могут содержать дополнительные компоненты, необходимые для установки; эти детали будут перечислены отдельно, как "комплектующие детали" в разделе "Технические характеристики" данной страницы. Если продукт не продается в виде комплекта или сборного изделия, для упрощения его установки могут потребоваться дополнительные компоненты.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Рассеивает тепло компьютера
+        </point>
+        <point>
+          Обеспечивает безопасную температуру внутри системы
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип продукта">
+		CPU Расширенный Радиатор
+      </product:techspec>
+      <product:techspec id="2" name="Функции">
+		Рассеивает тепло/поддерживает безопасную температуру
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

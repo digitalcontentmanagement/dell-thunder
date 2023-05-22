@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Keyboard -<textbox value="84" id="1"/> Key</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Keyboard is a standard input device which is used to feed data into the computer and to control its operation. A keyboard can either be internal or external. Internal keyboards are for notebooks only, while External keyboards can be used with notebooks, desktops, and servers. External keyboards are available with either PS2 or USB interface connections. The number of keys in a keyboard determines the total characters and operations that can be carried out. The interface type determines the compatibility of the keyboard with your system. Some of the keyboards are wireless. Keyboards can also come in different languages (For e.g. Latin/Latin America, United States) with the corresponding Language character Keys.
+	  </para>
+	  <para>
+	  Please note that some of our replacement products are provided as kits or assemblies. These kits may contain additional parts required for installation. In case a product is not sold as a kit or assembly, it may require complementary parts for ease of installation.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dell’s limited hardware warranty covers defects in materials and workmanship in your Dell-branded hardware products.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/>-Key 
+		</point>
+		<point>
+		Spanish
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Product Type">
+		Keyboard
+      </product:techspec>
+      <product:techspec id="2" name="Keys Qty">
+		<textbox value="84" refid="1"/>-Key
+      </product:techspec>
+	  <product:techspec id="3" name="Language(s)">
+		Spanish (Latin American)
+      </product:techspec>
+	  <product:techspec id="4" name="Device Type">
+		Internal Keyboard
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

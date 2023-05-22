@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Πληκτρολόγιο -<textbox value="84" id="1"/> πλήκτρων</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Το πληκτρολόγιο είναι μια τυπική συσκευή εισόδου δεδομένων που χρησιμοποιείται για την καταχώριση δεδομένων στον υπολογιστή και για τον έλεγχο της λειτουργίας του. Ένα πληκτρολόγιο μπορεί να είναι εσωτερικό ή εξωτερικό. Τα εσωτερικά πληκτρολόγια προορίζονται μόνο για φορητούς υπολογιστές, ενώ τα εξωτερικά πληκτρολόγια μπορούν να χρησιμοποιηθούν με φορητούς υπολογιστές, επιτραπέζιους υπολογιστές και διακομιστές. Τα εξωτερικά πληκτρολόγια είναι διαθέσιμα με συνδέσεις διασύνδεσης είτε PS2 ή USB. Ο αριθμός των πλήκτρων σε ένα πληκτρολόγιο καθορίζει το συνολικό αριθμό χαρακτήρων και λειτουργιών που μπορούν να εκτελεστούν. Ο τύπος διασύνδεσης καθορίζει τη συμβατότητα του πληκτρολογίου με το σύστημά σας. Ορισμένα πληκτρολόγια είναι ασύρματα. Τα πληκτρολόγια διατίθενται επίσης σε διάφορες γλώσσες (π.χ. για Ισπανικά/Λατινικής Αμερικής, Αγγλικά) με τα αντίστοιχα πλήκτρα χαρακτήρων γλώσσας.
+	  </para>
+	  <para>
+	  Λάβετε υπόψη ότι ορισμένα από τα προϊόντα αντικατάστασης που διαθέτουμε παρέχονται ως κιτ ή συναρμολογημένα. Αυτά τα κιτ μπορεί να περιέχουν επιπρόσθετα εξαρτήματα που απαιτούνται για την εγκατάσταση. Σε περίπτωση που ένα προϊόν δεν πωλείται ως κιτ ή συναρμολογημένο, ενδέχεται να απαιτεί συμπληρωματικά εξαρτήματα για τη διευκόλυνση της εγκατάστασης.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Η Περιορισμένη εγγύηση υλικού της Dell καλύπτει ελαττώματα υλικών και κατασκευής στα επώνυμα προϊόντα υλικού της Dell. 
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> πλήκτρα
+		</point>
+		<point>
+		Ισπανικά
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος προϊόντος">
+		Πληκτρολόγιο
+      </product:techspec>
+      <product:techspec id="2" name="Αριθμός πλήκτρων">
+		<textbox value="84" refid="1"/> πλήκτρα
+      </product:techspec>
+	  <product:techspec id="3" name="Γλώσσες">
+		Ισπανικά (Λατινική Αμερική)
+      </product:techspec>
+	  <product:techspec id="4" name="Τύπος συσκευής">
+		Εσωτερικό πληκτρολόγιο
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

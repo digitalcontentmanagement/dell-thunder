@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Tastatur -<textbox value="84" id="1"/> taster</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Tastaturet er en standard inndataenhet som brukes til å legge inn data i datamaskinen og styre den. Et tastatur kan være internt eller eksternt. Internt tastatur er bare for bærbare PC-er, mens eksterne tastaturer kan brukes med bærbare PC-er, stasjonære PC-er og servere. Eksternt tastatur er tilgjengelig med PS2- eller USB-grensesnitt. Antall taster på tastaturet avgjør hvor mange tegn som kan skrives og hvilke operasjoner som kan utføres. Grensesnittet avgjør om tastaturet er kompatibelt med systemet ditt. Enkelte tastaturer er trådløse. Tastaturer finnes også i ulike utgaver for ulike språk (f.eks. norsk), med tilsvarende tegntaster.
+	  </para>
+	  <para>
+	  Vi gjør oppmerksom på at enkelte av erstatningsproduktene tilbys som sett. Slike sett kan inneholde andre deler som kreves for installasjon. Hvis produktet ikke selges som sett, kan det kreves andre deler for installasjon.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dells begrensede maskinvareservice dekker mangler ved materialer og utførelse for maskinvareprodukter fra Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> taster 
+		</point>
+		<point>
+		Spansk
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		Tastatur
+      </product:techspec>
+      <product:techspec id="2" name="Antall taster">
+		<textbox value="84" refid="1"/> taster
+      </product:techspec>
+	  <product:techspec id="3" name="Språk">
+		Spansk (Latin-Amerika)
+      </product:techspec>
+	  <product:techspec id="4" name="Enhetstype">
+		Internt tastatur
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

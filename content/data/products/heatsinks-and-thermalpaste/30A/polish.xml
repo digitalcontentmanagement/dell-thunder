@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Radiator dla procesorów o mocy <textbox value="180" id="1"/>W lub większej <textbox value="R6515" id="2"/> <textbox value="instalacja klienta" id="3"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Podzespoły systemu komputerowego, takie jak chipset, karta graficzna i dysk twardy, mogą podczas pracy wydzielać duże ilości ciepła. Może to negatywnie wpływać na prawidłowe działanie całego systemu. Radiatory i wentylatory służą do odprowadzania nadmiaru ciepła i utrzymywania bezpiecznej temperatury.
+	  </para>
+	  <para>
+	  Najważniejszym czynnikiem decydującym o wyborze zespołu radiatora jest typ i szybkość procesora. Poszczególne procesory różnią się temperaturą działania. Wyższa częstotliwość taktowania wymaga lepszego radiatora i wentylatora. Ponadto typ procesora określa, jaki radiator należy wybrać. Ważny jest również rodzaj obudowy, ponieważ decyduje on o zgodności zespołu radiatora z systemem.
+	  </para>
+	  <para>
+	  Aby zakupić odpowiedni radiator/wentylator do systemu, zalecamy skorzystanie z funkcji wyszukiwania kodów Service Tag w narzędziu Parts For Your Dell<tm/>. Umożliwi to zidentyfikowanie typu i szybkości procesora w systemie oraz wybranie zgodnego radiatora.
+	  </para>
+	  <para>
+	  Należy pamiętać, że niektóre podzespoły zamienne są dostarczane w postaci zestawów. Mogą one zawierać dodatkowe części wymagane podczas instalacji. Części te są uwzględnione na oddzielnej liście podzespołów w sekcji najważniejszych informacji na tej stronie. Jeżeli produkt nie jest oferowany w postaci zestawu, może wymagać dodatkowych części w celu łatwiejszej instalacji.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Skutecznie odprowadza ciepło z komputera
+        </point>
+        <point>
+          Utrzymuje bezpieczną temperaturę wewnątrz systemu
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rodzaj produktu">
+		Radiator procesora
+      </product:techspec>
+      <product:techspec id="2" name="Cechy i funkcje">
+		Skutecznie odprowadza ciepło i utrzymuje bezpieczną temperaturę
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

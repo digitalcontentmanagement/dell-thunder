@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> キーボード -<textbox value="84" id="1"/> キー</product:name>
+
+    <product:longdesc>
+	  <para>
+	  キーボードは、コンピュータにデータを入力したり、その操作を制御したりするために使用する、標準的な入力装置です。 キーボードには内蔵キーボードと外付キーボードがあります。 内蔵キーボードはノートパソコンのみに使用され、外付キーボードはノートパソコン、デスクトップ、サーバと一緒に使用されます。 外付キーボードは、PS2接続またはUSBインターフェイス接続で利用できます。 キーボードのキー数によって、入力できる総文字数と実行できる操作が決定します。 インターフェイスタイプによって、お使いのシステムとキーボードとの互換性が決定します。 一部のキーボードはワイヤレスに対応しています。 また、キーボードは言語ごとに、それぞれの言語に対応した言語キーで提供されます（たとえば、ラテン/ラテンアメリカ配列、米国配列など）。
+	  </para>
+	  <para>
+	  交換用製品は、キットまたは部品として提供されている場合がありますのでご注意ください。 このようなキットには、設置に必要な追加パーツが含まれていることがあります。 製品がキットまたは部品として販売されていない場合、設置しやすくするための補完パーツが必要になる場合があります。
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  デルのハードウェア限定保証は、デルブランドのハードウェア製品における材質または製作上の欠陥に適用されます。
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> キー 
+		</point>
+		<point>
+		スペイン語
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="製品タイプ">
+		キーボード
+      </product:techspec>
+      <product:techspec id="2" name="キー数">
+		<textbox value="84" refid="1"/>キー
+      </product:techspec>
+	  <product:techspec id="3" name="言語">
+		スペイン語（中南米）
+      </product:techspec>
+	  <product:techspec id="4" name="デバイスタイプ">
+		内蔵キーボード
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

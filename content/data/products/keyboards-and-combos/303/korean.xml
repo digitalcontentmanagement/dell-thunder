@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 키보드 -<textbox value="84" id="1"/> 키</product:name>
+
+    <product:longdesc>
+	  <para>
+	  키보드는 컴퓨터에 데이터를 입력하고 동작을 제어하는 데 사용되는 표준 입력 장치입니다. 키보드는 내장형과 외장형이 있습니다. 내장 키보드는 노트북 전용이지만, 외장 키보드는 노트북, 데스크탑 및 서버에 사용할 수 있습니다. 외장 키보드는 PS2 또는 USB 인터페이스 연결로 사용할 수 있습니다. 키보드의 키 개수에 따라 총 글자 수와 수행 가능한 동작이 결정됩니다. 사용자 시스템과 키보드의 호환성은 인터페이스 유형에 따라 결정됩니다. 무선 키보드도 있습니다. 또한 키보드는 해당 언어 문자 키가 있는 다양한 언어 (예: 라틴어/라틴 아메리카, 미국)로도 제공될 수 있습니다.
+	  </para>
+	  <para>
+	  일부 Dell 교체 제품은 키트 또는 어셈블리로 제공됩니다. 이 키트는 설치에 필요한 추가 부품을 포함할 수 있습니다. 제품이 키트 또는 어셈블리로 판매되지 않는 경우 간편한 설치를 위해 보완 부품이 필요할 수 있습니다.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dell의 하드웨어 무상수리 서비스는 Dell 브랜드의 하드웨어 제품에서 발견되는 소재 및 기능상의 결함에 적용됩니다.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> 키 
+		</point>
+		<point>
+		스페인어
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 유형">
+		키보드
+      </product:techspec>
+      <product:techspec id="2" name="키 개수">
+		<textbox value="84" refid="1"/> 키
+      </product:techspec>
+	  <product:techspec id="3" name="언어">
+		스페인어(라틴 아메리카)
+      </product:techspec>
+	  <product:techspec id="4" name="장치 유형">
+		내장 키보드
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

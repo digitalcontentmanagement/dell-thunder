@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Näppäimistö -<textbox value="84" id="1"/> näppäintä</product:name>
+
+    <product:longdesc>
+	  <para>
+	  Näppäimistö on vakiosyöttölaite, jolla syötetään tietoja tietokoneeseen ja hallitaan sen käyttöä. Näppäimistö voi olla joko sisäinen tai ulkoinen. Sisäinen näppäimistö on käytössä vain kannettavissa tietokoneissa. Ulkoista näppäimistöä voidaan käyttää kannettavissa tietokoneissa, pöytäkoneissa ja palvelimissa. Ulkoisessa näppäimistössä on joko PS2- tai USB-liitin. Näppäinten määrä määrittää merkkien ja toimintojen kokonaismäärän, joka näppäimistöllä voidaan toteuttaa. Liitintyyppi määrittää näppäimistön yhteensopivuuden järjestelmän kanssa. Osa näppäimistöistä on langattomia. Näppäimistöjä voidaan toimittaa eri kielille (esimerkiksi latinalainen / Latinalainen Amerikka, Yhdysvallat) niin, että näppäimet vastaavat kielen merkkejä.
+	  </para>
+	  <para>
+	  Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dellin rajoitettu laitteistotakuu kattaa Dell-tuotemerkillä varustettujen laitteistotuotteiden materiaali- ja valmistusvirheet.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> näppäintä 
+		</point>
+		<point>
+		Espanja
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tuotteen tyyppi">
+		Näppäimistö
+      </product:techspec>
+      <product:techspec id="2" name="Näppäinten määrä">
+		<textbox value="84" refid="1"/> näppäintä
+      </product:techspec>
+	  <product:techspec id="3" name="Kielet">
+		Espanja (Latinalainen Amerikka)
+      </product:techspec>
+	  <product:techspec id="4" name="Laitetyyppi">
+		Sisäinen näppäimistö
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

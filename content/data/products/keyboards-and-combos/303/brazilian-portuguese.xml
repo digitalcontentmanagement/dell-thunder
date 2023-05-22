@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Keyboard Combo</meta:title>
+    <meta:date value="2015-11-18" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> teclado -<textbox value="84" id="1"/> teclas</product:name>
+
+    <product:longdesc>
+	  <para>
+	  O teclado é um dispositivo de entrada padrão usado para fornecer dados ao computador e controlar sua operação. Um teclado pode ser interno ou externo. Teclados internos são exclusivos de notebooks, enquanto teclados externos podem ser usados em servidores, desktops e notebooks. Teclados externos estão disponíveis com as conexões de interface PS2 ou USB. O número de teclas de um teclado determina o total de caracteres e operações que podem ser realizadas. O tipo de interface determina a compatibilidade do teclado com seu sistema. Alguns dos teclados são wireless. Teclados também podem apresentar idiomas diferentes (por exemplo, América Latina, Estados Unidos) com as teclas de caracteres correspondentes ao idioma.
+	  </para>
+	  <para>
+	  Alguns de nossos produtos sobressalentes são fornecidos como kits ou conjuntos. Esses kits podem incluir peças adicionais necessárias para a instalação. No caso de um produto que não é vendido como kit ou conjunto, ele pode precisar de peças complementares para facilitar a instalação.
+	  </para>  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  A garantia limitada de hardware da Dell cobre defeitos em materiais e na fabricação de produtos de hardware da marca Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		<textbox value="84" refid="1"/> teclas 
+		</point>
+		<point>
+		Espanhol
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de produto">
+		Teclado
+      </product:techspec>
+      <product:techspec id="2" name="Quantidade de teclas">
+		<textbox value="84" refid="1"/> teclas
+      </product:techspec>
+	  <product:techspec id="3" name="Idioma(s)">
+		Espanhol (América Latina)
+      </product:techspec>
+	  <product:techspec id="4" name="Tipo de dispositivo">
+		Teclado interno
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
