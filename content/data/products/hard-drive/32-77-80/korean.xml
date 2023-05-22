@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SATA Hard Drive </meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="7200" refid="1"/> RPM <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="6" refid="3"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Dell <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> 하드 드라이브를 추가하여 Dell<tm/> 시스템의 스토리지 용량을 늘려 보세요. 스토리지 용량이 최대 <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/>까지 증가하므로 대용량 데이터를 저장할 수 있습니다. 이 하드 드라이브는 <dropdownlist refid="hdd-interface-type"/> 인터페이스를 사용하여 최대 <textbox value="6" refid="3"/>Gbps 까지 향상된 데이터 전송 속도를 제공합니다.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          최대 <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> 스토리지 용량 제공
+        </point>
+        <point>
+          <dropdownlist refid="hdd-interface-type"/> 인터페이스를 장착하여 높은 데이터 전송 속도 제공
+        </point>
+        <point>
+          <textbox value="7200" refid="1"/>RPM 스핀들 속도로 뛰어난 성능 보장
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="데이터 전송 속도">
+        <textbox value="6" id="3"/>Gbps
+      </product:techspec>
+      <product:techspec id="2" name="장치 유형">
+        하드 드라이브
+      </product:techspec>
+      <product:techspec id="3" name="폼 팩터">
+       <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="포맷된 용량">
+        <textbox value="400" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="인터페이스 유형">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="스핀들 속도">
+        <textbox value="7200" id="1"/> RPM
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

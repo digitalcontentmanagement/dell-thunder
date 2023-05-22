@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>IDE 3.5 Hard Drive</meta:title>
+    <meta:date value="2015-11-19" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Disque dur IDE <textbox value="7200" refid="1"/> tr/min Dell - <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Augmentez la capacité de stockage de votre système avec un disque dur <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/> de Dell<tm/>. Sa vitesse de rotation peut atteindre <textbox value="7200" refid="1"/> tr/min pour fournir un accès rapide au disque.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Offre une capacité de stockage des données de <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/> maximum
+        </point>
+        <point>
+		  La vitesse de rotation de <textbox value="7200" refid="1"/> tr/min garantit d’excellentes performances
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type d’appareil">
+        Disque dur
+      </product:techspec>
+      <product:techspec id="2" name="Vitesse de rotation">
+        <textbox value="7200" id="1"/> tr/min
+      </product:techspec>
+      <product:techspec id="3" name="Type d’interface">
+        IDE Parallel ATA
+      </product:techspec>
+      <product:techspec id="4" name="Capacité formatée">
+        <textbox value="40" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Format">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

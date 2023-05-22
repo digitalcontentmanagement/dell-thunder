@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Kasvata Dell<tm/>-järjestelmäsi tallennuskapasiteettia Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>-SSD-levy. Jopa <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> tallennuskapasiteetin avulla käyttäjät voivat tallentaa suuria määriä tietoja. Tämä levy tukee nopeita siirtonopeuksia (jopa <textbox value="12" refid="1"/>Gbps).
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Tallennuskapasiteetti jopa <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Varustettu <dropdownlist refid="hdd-interface-type"/>-liittymällä, joka takaa erinomaisen tiedonsiirtonopeuden
+        </point>
+        <point>
+          Puolijohderakenne lisää kestävyyttä ja nopeuttaa tietojen käyttöä
+        </point>
+      </points>
+
+
+      <points title="SSD-puolijohdeasemien edut mekaanisiiin asemiin verrattuna:">
+        <point>
+          Entistä kestävämpi: NAND Flash -muistia käyttävä rakenne on kiinnitetty piirilevyihin eikä perustu liikkuville osille tästä syystä se on perinteisiä levyjä paremmin iskuja kestävää.
+        </point>
+        <point>
+          Nopeampi: Nopeampi tietojen käsittely, nopeammat käynnistymiset, tiedostojen siirrot ja kaikin tavoin nopeampi tietojenkäsittely kuin perinteisillä kiintolevyillä.
+        </point>
+        <point>
+          Hiljaisempi: lähes äänetön toimintaääni verrattuna kiintolevyjen käyntiääniin.
+        </point>
+        <point>
+          Kevyempi: Flash-pohjaiset SSD-levyt ovat erittäin kevyitä mekaanisiin levyihin verrattuina.
+        </point>
+        <point>
+          Viileämpi: SSD-levyt tarvitsevat vain vähän tehoa. Tästä syystä järjestelmä tuottaa vähemmän lämpöä.
+        </point>
+        <point>
+          Virtapihimpi: Käyttää vähemmän tehoa täydellä suorituskyvyllä.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tiedonsiirtonopeus">
+        <textbox value="12" id="1"/>Gbps
+      </product:techspec>
+      <product:techspec id="2" name="Laitetyyppi">
+        Kiintolevyt
+      </product:techspec>
+      <product:techspec id="3" name="Muoto">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Alustettu kapasiteetti">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Käyttöliittymän tyyppi">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Tyyppi">
+        Puolijohde
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

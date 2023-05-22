@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Verhoog de storagecapaciteit van uw Dell<tm/> systeem met de <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> Solid State-schijf (SSD) van Dell. Dit product biedt een storagecapaciteit van maximaal <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>, waardoor u grote hoeveelheden data kunt opslaan. Levert deze schijf een ultrasnelle data-overdrachtssnelheid van maximaal <textbox value="12" refid="1"/>Gbps.
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Biedt een maximale opslagcapaciteit van <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Uitgerust met een <dropdownlist refid="hdd-interface-type"/>-interface die een hoge data-overdrachtsnelheid levert
+        </point>
+        <point>
+          Solid State-ontwerp biedt kracht en een snelle toegang tot data
+        </point>
+      </points>
+
+      <points title="Voordelen van SSD's ten opzichte van roterende harde schijven:">
+        <point>
+          Duurzamer: SSD's hebben een niet-mechanische ontwerp van NAND Flash-gemonteerd op printplaten en zijn schokbestendiger.
+        </point>
+        <point>
+          Sneller: snellere toegang tot data, sneller opstarten van systemen, sneller bestanden overzetten, en een algehele snellere werking dan harde schijven.
+        </point>
+        <point>
+          Stiller: SSD's hebben een nagenoeg stille werking in tegenstelling tot de luidruchtige, gonzende harde schijven.
+        </point>
+        <point>
+          Lichter: op flash gebaseerde SSD's wegen aanzienlijk minder.
+        </point>
+        <point>
+          Koeler: SSD's hebben weinig energie nodig, wat resulteert in minder warmteafgifte door uw systeem.
+        </point>
+        <point>
+          Efficiënter: minder stroomverbruik bij piekbelasting.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Overdrachtsnelheid van gegevens">
+        <textbox value="12" id="1"/>Gbps
+      </product:techspec>
+      <product:techspec id="2" name="Type apparaat">
+        Harde schijf
+      </product:techspec>
+      <product:techspec id="3" name="Model">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Geformatteerde capaciteit">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Type interface">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Type">
+        Solid State
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

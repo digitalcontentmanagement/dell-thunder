@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+       デル<tm/>製システムのストレージ容量を増設するには、デルの <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> ソリッドステートドライブをご利用ください。 最大 <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>  の大容量ストレージで、大量のデータを格納できます。このドライブ最大 <textbox value="12" refid="1"/>Gbps での高速データ転送が可能。
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          最大<textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>のストレージ容量
+        </point>
+        <point>
+          <dropdownlist refid="hdd-interface-type"/>インターフェイスを搭載し、高速データ転送が可能
+        </point>
+        <point>
+          ソリッドステート設計で、耐久性と高速データアクセスを実現
+        </point>
+      </points>
+
+      <points title="SSDの利点（スピンドライブとの比較）:">
+        <point>
+          耐久性: 非メカニカル設計のNAND型フラッシュを回路基板にマウント 耐衝撃性に優れています。
+        </point>
+        <point>
+          迅速: データアクセス、起動、ファイル転送が高速。ハードディスクドライブに比べ、全体的に、より迅速なコンピューティング環境を実現します。
+        </point>
+        <point>
+          静か: 動作音が気になるハードディスクドライブと異なり、ほとんど音がしません。
+        </point>
+        <point>
+          軽量: フラッシュベースのSSDは、ハードディスクドライブに比べ大幅に軽量化されています。
+        </point>
+        <point>
+          低発熱: SSDは消費電力が少ないので、システム全体の発熱が抑えられます。
+        </point>
+        <point>
+          効率性: 負荷ピーク時でも消費電力が少なくてすみます。
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="データ転送速度">
+        <textbox value="12" id="1"/>Gbps
+      </product:techspec>
+      <product:techspec id="2" name="デバイスタイプ">
+        ハードドライブ
+      </product:techspec>
+      <product:techspec id="3" name="フォームファクタ">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="容量（フォーマット済み）">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="インターフェイスタイプ">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="タイプ">
+        ソリッドステート
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

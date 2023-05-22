@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SCSI Hard Drive</meta:title>
+    <meta:date value="2015-10-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> RPM <dropdownlist id="hard-drive-277-b"/> SCSI <textbox value="6" refid="4"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  使用戴尔提供的<textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/>硬盘提高您系统的存储容量。 硬盘转速高达<textbox value="10,000" refid="3"/> RPM，可实现快速磁盘访问。 硬盘采用SCSI接口，可提供更快的数据传输速度。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  提供<textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/>容量，可存储大量数据
+        </point>
+        <point>
+          SCSI接口可实现高速数据传输
+        </point>
+        <point>
+		  <textbox value="10,000" refid="3"/> RPM 转速可确保出色的性能
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="外形规格">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="格式化后的容量">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="设备类型">
+        硬盘
+      </product:techspec>
+      <product:techspec id="4" name="接口类型">
+        SCSI
+      </product:techspec>
+	  <product:techspec id="5" name="加密">
+		<textbox value="10,000" id="3"/> RPM
+      </product:techspec>
+	  <product:techspec id="6" name="缓冲区大小">
+		<textbox value="6" id="4"/>Gbps
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Гбит/с <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+       Твердотельный накопитель Dell емкостью <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> позволит расширить пространство хранения вашей системы Dell<tm/>. 
+	   Он предоставляет пространство хранения размером до <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>, позволяя пользователям сохранять большие объемы данных. 
+	   этот диск обеспечивает повышенную скорость передачи данных <textbox value="12" refid="1"/>Гбит/с.
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Емкость пространства хранения достигает <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Интерфейс <dropdownlist refid="hdd-interface-type"/> обеспечивает высокую скорость передачи данных
+        </point>
+        <point>
+          Конструкция твердотельных накопителей отличается высокой прочностью и быстрым доступом к данным
+        </point>
+      </points>
+      <points title="Преимущества твердотельных накопителей по сравнению с жесткими дисками:">
+        <point>
+          Повышение надежности: конструкция на основе флэш-памяти NAND встроенной в печатную плату не содержит движущихся частей и поэтому более устойчива к ударам.
+        </point>
+        <point>
+          Увеличение скорости: ускорение доступа к данным, загрузки и передачи файлов; в целом все вычислительные процессы происходят быстрее, чем в жестких дисках.
+        </point>
+        <point>
+          Снижение шума: работают почти бесшумно в отличие от громко жужжащих жестких дисков.
+        </point>
+        <point>
+          Снижение веса: твердотельные накопители на основе флэш-памяти значительно легче.
+        </point>
+        <point>
+          Сокращение тепловыделения: для работы твердотельных накопителей требуется меньше энергии, что снижает тепловыделение в вашей системе.
+        </point>
+        <point>
+          Повышение эффективности: потребляют меньше электроэнергии при максимальной нагрузке.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Скорость передачи данных">
+        <textbox value="12" id="1"/>Гбит/с
+      </product:techspec>
+      <product:techspec id="2" name="Тип устройства">
+        Жесткий диск
+      </product:techspec>
+      <product:techspec id="3" name="Форм-фактор">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Форматированная емкость">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Интерфейс">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Тип">
+        Твердотельный
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

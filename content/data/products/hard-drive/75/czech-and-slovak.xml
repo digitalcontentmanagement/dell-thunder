@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SCSI Hard Drive</meta:title>
+    <meta:date value="2015-10-20" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	 <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="10,000" refid="3"/> ot./min. <dropdownlist id="hard-drive-277-b"/> SCSI <textbox value="6" refid="4"/>Gb/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Úložiště počítače můžete zvětšit o tento <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> pevný disk od společnosti Dell. Disk nabízí rychlost otáčení <textbox value="10,000" refid="3"/> ot./min a rychlý přístup k datům. S rozhraním SCSI dosahuje tento disk rychlejších přenosů dat.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Nabízí <textbox value="600" refid="2"/><dropdownlist refid="unit-byte"/> kapacitu pro ukládání velkého množství dat
+        </point>
+        <point>
+          Rozhraní SCSI přináší vysoké přenosové rychlosti dat
+        </point>
+        <point>
+		  Rychlost <textbox value="10,000" refid="3"/> ot./min. zaručuje vynikající výkon
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Provedení">
+		<dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="2" name="Formátovaná kapacita">
+		<textbox value="600" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Typ zařízení">
+        Pevný disk
+      </product:techspec>
+      <product:techspec id="4" name="Typ rozhraní">
+       SCSI
+      </product:techspec>
+	  <product:techspec id="5" name="Šifrování">
+		<textbox value="10,000" id="3"/> ot./min
+      </product:techspec>
+	  <product:techspec id="6" name="Velikost vyrovnávací paměti">
+		<textbox value="6" id="4"/>Gb/s
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

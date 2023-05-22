@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SATA Hard Drive </meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="7200" refid="1"/> RPM <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="6" refid="3"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        お使いのデル<tm/>製システムのストレージ容量を増設するには、デルの<textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/>ハードドライブをご利用ください。 最大 <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> の大容量ストレージで、大量のデータを格納できます。 このハードドライブは<dropdownlist refid="hdd-interface-type"/>インターフェイスを搭載し、最高<textbox value="6" refid="3"/>Gbps の高いデータ転送速度で動作します。
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          最大<textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/>のストレージ容量を提供します。
+        </point>
+        <point>
+          <dropdownlist refid="hdd-interface-type"/>インターフェイスを搭載し、高いデータ転送レートで動作します。
+        </point>
+        <point>
+          <textbox value="7200" refid="1"/> rpmのスピンドル速度により、優れたパフォーマンスを実現します。
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="データ転送速度">
+        <textbox value="6" id="3"/>Gbps
+      </product:techspec>
+      <product:techspec id="2" name="デバイスタイプ">
+        ハードドライブ
+      </product:techspec>
+      <product:techspec id="3" name="フォームファクタ">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="容量（フォーマット済み）">
+        <textbox value="400" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="インターフェイスタイプ">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="スピンドル速度">
+        <textbox value="7200" id="1"/> rpm
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

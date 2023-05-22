@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Αυξήστε τη χωρητικότητα αποθήκευσης του συστήματος Dell<tm/> που διαθέτετε με τον μονάδα δίσκου στερεάς κατάστασης <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> από την Dell. Χάρη στην αποθηκευτική χωρητικότητα έως <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> που διαθέτει, δίνει τη δυνατότητα στους χρήστες να αποθηκεύουν μεγάλους όγκους δεδομένων. αυτός ο δίσκου παρέχει ενισχυμένες ταχύτητες μεταφοράς δεδομένων έως <textbox value="12" refid="1"/>Gbps.
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Προσφέρει χωρητικότητα αποθήκευσης έως <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Διαθέτει διασύνδεση <dropdownlist refid="hdd-interface-type"/> που προσφέρει υψηλές ταχύτητες μεταφοράς δεδομένων
+        </point>
+        <point>
+          Ο σχεδιασμός στερεάς κατάστασης προσφέρει αντοχή και γρήγορη πρόσβαση δεδομένων
+        </point>
+      </points>
+
+      <points title="Πλεονεκτήματα των μονάδων SSD σε σχέση με τις μονάδες περιστροφής:">
+        <point>
+          Μεγαλύτερη αντοχή: Διαθέτουν μη μηχανική σχεδίαση της μνήμης flash NAND που είναι τοποθετημένη σε πλακέτες κυκλωμάτων και είναι πιο ανθεκτικές στις προσκρούσεις.
+        </point>
+        <point>
+          Ταχύτερες: Ταχύτερη πρόσβαση στα δεδομένα, εκκίνηση, μεταφορά αρχείων και συνολικά πιο γρήγορη εμπειρία χρήσης υπολογιστή σε σχέση με τους σκληρούς δίσκους.
+        </point>
+        <point>
+          Πιο αθόρυβες: Η λειτουργία τους είναι σχεδόν αθόρυβη σε αντίθεση με το δυνατό βουητό των σκληρών δίσκων.
+        </point>
+        <point>
+          Ελαφρύτερες: Οι μονάδες SSD, οι οποίες βασίζονται σε μνήμη Flash, έχουν σημαντικά μικρότερο βάρος.
+        </point>
+        <point>
+          Αναπτύσσουν χαμηλότερες θερμοκρασίες: Οι μονάδες SSD απαιτούν ελάχιστη ενέργεια για τη λειτουργία τους, με αποτέλεσμα να παράγεται λιγότερη θερμότητα από το σύστημά σας.
+        </point>
+        <point>
+          Πιο αποδοτικές: Καταναλώνουν λιγότερη ενέργεια όταν λειτουργούν σε μέγιστη απόδοση φόρτωσης.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Ρυθμός μεταφοράς δεδομένων">
+        <textbox value="12" id="1"/>Gbps
+      </product:techspec>
+      <product:techspec id="2" name="Τύπος συσκευής">
+        Σκληρός δίσκος
+      </product:techspec>
+      <product:techspec id="3" name="Συντελεστής μορφής">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Χωρητικότητα μετά από μορφοποίηση">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Τύπος διασύνδεσης">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Τύπος">
+        Μονάδα στερεάς κατάστασης
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

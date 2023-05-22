@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>IDE 3.5 Hard Drive</meta:title>
+    <meta:date value="2015-11-19" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Σκληρός δίσκος IDE Dell <textbox value="7200" refid="1"/> RPM - <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Αυξήστε τη χωρητικότητα αποθήκευσης του συστήματός σας με τον σκληρό δίσκο <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/> από την Dell<tm/>. Προσφέρει ταχύτητα περιστροφής έως και <textbox value="7200" refid="1"/> RPM, η οποία παρέχει γρήγορη πρόσβαση σε δεδομένα του δίσκου.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Προσφέρει χωρητικότητα αποθήκευσης δεδομένων έως και <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+		  Η ταχύτητα περιστροφής <textbox value="7200" refid="1"/> RPM διασφαλίζει εξαιρετική απόδοση
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος συσκευής">
+        Σκληρός δίσκος
+      </product:techspec>
+      <product:techspec id="2" name="Ταχύτητα περιστροφής">
+        <textbox value="7200" id="1"/> RPM
+      </product:techspec>
+      <product:techspec id="3" name="Τύπος διασύνδεσης">
+        Παράλληλη ATA IDE
+      </product:techspec>
+      <product:techspec id="4" name="Χωρητικότητα μετά από μορφοποίηση">
+        <textbox value="40" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Συντελεστής μορφής">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

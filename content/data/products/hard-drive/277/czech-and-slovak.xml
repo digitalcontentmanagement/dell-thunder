@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Gb/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Úložiště počítače Dell<tm/> můžete zvětšit o tento <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> jednotka SSD od společnosti Dell. Nabízí uživatelům kapacitu až  <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> pro ukládání velkého množství dat. Nabízí tento jednotka vysokou rychlost přenosu dat až <textbox value="12" refid="1"/>Gb/s.
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Nabízí kapacitu úložiště až <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Rozhraní <dropdownlist refid="hdd-interface-type"/> nabízí vysoké přenosové rychlosti dat
+        </point>
+        <point>
+          Technologie SSD je odolná a umožňuje rychlý přístup k datům
+        </point>
+      </points>
+      <points title="Výhody disků SSD oproti rotujícím diskům:">
+        <point>
+          Vyšší odolnost: Konstrukce s pamětmi NAND flash bez mechanického pohybu nainstalovanými na plošných spojích. Vyšší odolnost proti nárazům.
+        </point>
+        <point>
+          Vyšší rychlost: Rychlejší přístup k datům, spouštění, přenos souborů a celkově rychlejší výpočetní výkon než u pevných disků.
+        </point>
+        <point>
+          Tišší provoz: Na rozdíl od hlasitě se projevujících pevných disků jsou disky SSD téměř tiché.
+        </point>
+        <point>
+          Nižší hmotnost: Disky SSD s pamětmi Flash váží výrazně méně.
+        </point>
+        <point>
+          Chladnější provoz: Disky SSD vyžadují k provozu minimální napájení, což má za následek menší vyřazování tepla počítačem.
+        </point>
+        <point>
+          Vyšší účinnost: Při špičkovém zatížení spotřebují méně energie.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rychlost přenosu dat">
+        <textbox value="12" id="1"/>Gb/s
+      </product:techspec>
+      <product:techspec id="2" name="Typ zařízení">
+        Pevný disk
+      </product:techspec>
+      <product:techspec id="3" name="Provedení">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Formátovaná kapacita">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Typ rozhraní">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Typ">
+        SSD (Solid State)
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

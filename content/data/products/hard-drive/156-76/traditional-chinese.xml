@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>IDE 3.5 Hard Drive</meta:title>
+    <meta:date value="2015-11-19" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7200" refid="1"/> RPM IDE 硬碟 - <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    使用這款 Dell<tm/> 原廠 <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/> 硬碟，增加系統的儲存容量。 它提供高達 <textbox value="7200" refid="1"/> RPM的轉速，提供快速的磁碟存取能力。
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  提供高達 <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/> 的資料儲存容量
+        </point>
+        <point>
+		  <textbox value="7200" refid="1"/> RPM 轉速，可確保優異的效能
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="裝置類型">
+        硬碟
+      </product:techspec>
+      <product:techspec id="2" name="轉速">
+        <textbox value="7200" id="1"/> RPM
+      </product:techspec>
+      <product:techspec id="3" name="介面類型">
+        IDE 平行 ATA
+      </product:techspec>
+      <product:techspec id="4" name="格式化容量">
+        <textbox value="40" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="外形規格">
+       <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

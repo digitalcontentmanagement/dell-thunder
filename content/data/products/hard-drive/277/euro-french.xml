@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Gbit/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Augmentez la capacité de stockage de votre système Dell avec ce disque SSD Dell de <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>. Il offre une capacité de stockage pouvant atteindre <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>, permettant de stocker de grandes quantités de données. Ce disque offre une vitesse de transfert des données améliorée allant jusqu’à <textbox value="12" refid="1"/>Gbit/s.
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Offre jusqu’à <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> de stockage
+        </point>
+        <point>
+          Doté d’une interface <dropdownlist refid="hdd-interface-type"/> offrant des taux de transfert de données élevés
+        </point>
+        <point>
+          La technologie Solid State offre une grande robustesse et un accès rapide aux données
+        </point>
+      </points>
+      <points title="Avantages des disques SSD par rapport aux disques classiques :">
+        <point>
+          Durabilité renforcée : intègrent une mémoire Flash NAND non mécanique montée sur des cartes de circuits imprimés et sont plus résistants aux chocs.
+        </point>
+        <point>
+          Plus rapide : accès aux données, démarrage, transferts de fichiers et expérience globale plus rapides que les disques durs.
+        </point>
+        <point>
+          Plus silencieux : exécutent les opérations presque sans aucun bruit, à la différence des lecteurs de disques durs bruyants et émettant des bourdonnements.
+        </point>
+        <point>
+          Plus léger : les disques SSD Flash présentent un poids considérablement inférieur.
+        </point>
+        <point>
+          Des températures plus faibles : l’exécution des disques durs SSD requiert peu d’énergie, réduisant ainsi la chaleur générée par le système.
+        </point>
+        <point>
+          Une plus grande efficacité : consommez moins d’énergie lors des pics d’utilisation.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Taux de transfert des données">
+        <textbox value="12" id="1"/>Gbit/s
+      </product:techspec>
+      <product:techspec id="2" name="Type d’appareil">
+        Disque dur
+      </product:techspec>
+      <product:techspec id="3" name="Format">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Capacité formatée">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Type d’interface">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Type">
+        Solid State
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

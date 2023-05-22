@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>IDE 3.5 Hard Drive</meta:title>
+    <meta:date value="2015-11-19" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7200" refid="1"/>RPM IDE 하드 드라이브 - <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	    Dell<tm/> <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/> 하드 드라이브를 추가하여 시스템의 스토리지 용량을 늘려 보세요. 최대 <textbox value="7200" refid="1"/>RPM의 회전 속도 덕분에 디스크에 빠르게 액세스할 수 있습니다.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  최대 <textbox value="40" refid="2"/> <dropdownlist refid="unit-byte"/>의 데이터 스토리지 용량 제공
+        </point>
+        <point>
+		  <textbox value="7200" refid="1"/>RPM 스핀들 속도로 뛰어난 성능 보장
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="장치 유형">
+        하드 드라이브
+      </product:techspec>
+      <product:techspec id="2" name="스핀들 속도">
+        <textbox value="7200" id="1"/> RPM
+      </product:techspec>
+      <product:techspec id="3" name="인터페이스 유형">
+        IDE PATA(Parallel ATA)
+      </product:techspec>
+      <product:techspec id="4" name="포맷된 용량">
+        <textbox value="40" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="폼 팩터">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Gb/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Aumente la capacidad de almacenamiento de su sistema Dell<tm/> con este disco <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> unidad de estado sólido de Dell. Mejora la capacidad de almacenamiento y proporciona hasta <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>, lo que permite a los usuarios almacenar grandes cantidades de datos. Este unidad ofrece una mejor velocidad de transferencia de datos, que alcanza hasta <textbox value="12" refid="1"/>Gb/s.
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Ofrece una capacidad de almacenamiento de hasta <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>.
+        </point>
+        <point>
+          Cuenta con la interfaz <dropdownlist refid="hdd-interface-type"/>, que proporciona una alta velocidad de transferencia de datos.
+        </point>
+        <point>
+          El diseño de estado sólido ofrece robustez y un rápido acceso a los datos.
+        </point>
+      </points>
+
+
+      <points title="Ventajas de las unidades de estado sólido (SSD) frente a las unidades giratorias:">
+        <point>
+          Más duraderas: cuenta con un diseño no mecánico de solución flash NAND montada en tarjetas de circuitos además es más resistente a impactos.
+        </point>
+        <point>
+          Más rápidas: ofrecen más rapidez en el acceso a los datos, los inicios, las transferencias de archivos y una experiencia informática general más rápida frente a los discos duros.
+        </point>
+        <point>
+          Menos ruidosas: tienen un funcionamiento prácticamente inaudible a diferencia del zumbido y los ruidos de los discos duros.
+        </point>
+        <point>
+          Más ligeras: las unidades de estado sólido basadas en flash pesan mucho menos.
+        </point>
+        <point>
+          Más frescas: las SSD requieren menos alimentación para funcionar, lo que permite reducir la emisión de calor del sistema.
+        </point>
+        <point>
+          Más eficientes: consumen menos energía en momentos de máxima carga
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Velocidad de transferencia de datos">
+        <textbox value="12" id="1"/>Gb/s
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de dispositivo">
+        Disco duro
+      </product:techspec>
+      <product:techspec id="3" name="Formato">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Capacidad formateada">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Tipo de interfaz">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Tipo">
+        Estado sólido
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

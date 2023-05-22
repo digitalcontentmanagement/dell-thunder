@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SATA Hard Drive </meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="7200" refid="1"/> RPM <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="6" refid="3"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Verhoog de storagecapaciteit van uw Dell<tm/> systeem met de <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> harde schijf van Dell. Dit product biedt een storagecapaciteit van maximaal <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/>, waardoor de gebruiker grote hoeveelheden data kan opslaan. Uitgerust met een <dropdownlist refid="hdd-interface-type"/>-interface levert deze harde schijf een ultrasnelle data-overdrachtssnelheid van maximaal <textbox value="6" refid="3"/>Gbps .
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Biedt een maximale opslagcapaciteit tot wel <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Uitgerust met een <dropdownlist refid="hdd-interface-type"/>-interface die een hoge data-overdrachtsnelheid levert
+        </point>
+        <point>
+          <textbox value="7200" refid="1"/> RPM spindlesnelheid zorgt voor uitstekende prestaties
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Overdrachtsnelheid van gegevens">
+        <textbox value="6" id="3"/>Gbps
+      </product:techspec>
+      <product:techspec id="2" name="Type apparaat">
+        Harde schijf
+      </product:techspec>
+      <product:techspec id="3" name="Model">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Geformatteerde capaciteit">
+        <textbox value="400" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Type interface">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Rotatiesnelheid">
+        <textbox value="7200" id="1"/> RPM
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

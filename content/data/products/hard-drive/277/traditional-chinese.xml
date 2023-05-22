@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Solid State Disk (SSD)</meta:title>
+    <meta:date value="2015-10-21" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> <dropdownlist id="hard-drive-277-a"/> SSD <dropdownlist id="hdd-PCIe-type"/> <dropdownlist id="hard-drive-277-b"/> <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="12" refid="1"/>Gbps <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <textbox value="S3510" id="12"/><dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        使用這款來自 <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> Dell 的固態硬碟，為您的 Dell<tm/> 系統增加儲存容量。 這款硬碟的儲存容量高達 <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/>，可讓使用者存放大量資料, 可提供更快的資料傳輸速率，高達 <textbox value="12" refid="1"/>Gbps。
+       </para>     
+	 <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          提供最高 <textbox value="400" refid="3"/><dropdownlist refid="unit-byte"/> 的儲存容量
+        </point>
+        <point>
+          配備<dropdownlist refid="hdd-interface-type"/> 介面，提供高速資料傳輸速率
+        </point>
+        <point>
+          固態設計可提供穩固性及快速的資料存取速度
+        </point>
+      </points>
+
+      <points title="固態硬碟比旋轉式硬碟優異之處:">
+        <point>
+          更耐用：配備非機械式設計的 NAND 快閃掛載於電路板上 防震效果更佳。
+        </point>
+        <point>
+          更快速：更快的資料存取、開機啟動及檔案傳輸速度，以及比硬碟更快速的整體運算體驗。
+        </point>
+        <point>
+          更安靜：悄無聲息地執行作業，跟呼呼作響的硬碟不同。
+        </point>
+        <point>
+          更輕：快閃式固態硬碟的重量大幅減輕。
+        </point>
+        <point>
+          更佳的散熱效果：固態硬碟運作時所需電力極少，因此您的系統所產生的熱能也較少。
+        </point>
+        <point>
+          更有效率：降低顛峰負載的能源消耗。
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="資料傳輸速率">
+        <textbox value="12" id="1"/>Gbps
+      </product:techspec>
+      <product:techspec id="2" name="裝置類型">
+        硬碟
+      </product:techspec>
+      <product:techspec id="3" name="外形規格">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="格式化容量">
+        <textbox value="400" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="介面類型">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="類型">
+        固態
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>SATA Hard Drive </meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> <textbox value="7200" refid="1"/> RPM <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-277-c"/> <textbox value="6" refid="3"/>Gb/s <dropdownlist id="HD-List"/> <dropdownlist refid="formfactor-277a"/> <dropdownlist id="hard-drive-277-d"/> <dropdownlist id="drive-277"/> <dropdownlist id="in-unit"/> <dropdownlist id="formfactor-277c"/> <dropdownlist id="hard-drive-277-e"/> <dropdownlist id="drive-277-a"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Aumente la capacidad de almacenamiento de su sistema Dell<tm/> con el disco duro <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/> de Dell. Mejora la capacidad de almacenamiento hasta <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/>, lo que permite a los usuarios almacenar grandes cantidades de datos. Con la interfaz <dropdownlist refid="hdd-interface-type"/>, este disco duro ofrece una mejor velocidad de transferencia de datos, que alcanza hasta <textbox value="6" refid="3"/>Gb/s .
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Ofrece una capacidad de almacenamiento de hasta <textbox value="400" refid="2"/><dropdownlist refid="unit-byte"/>.
+        </point>
+        <point>
+          Cuenta con la interfaz <dropdownlist refid="hdd-interface-type"/>, que proporciona una alta velocidad de transferencia de datos.
+        </point>
+        <point>
+          La velocidad de giro de <textbox value="7200" refid="1"/> RPM garantiza un excelente rendimiento.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Velocidad de transferencia de datos">
+        <textbox value="6" id="3"/>Gb/s
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de dispositivo">
+        Disco duro
+      </product:techspec>
+      <product:techspec id="3" name="Formato">
+        <dropdownlist id="formfactor-277a"/>
+      </product:techspec>
+      <product:techspec id="4" name="Capacidad formateada">
+        <textbox value="400" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="5" name="Tipo de interfaz">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="6" name="Velocidad de giro">
+        <textbox value="7200" id="1"/> RPM
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
