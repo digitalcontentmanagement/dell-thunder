@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Κασέτα δεδομένων <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> / <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> LTO<textbox value="-2" refid="1"/> Del - Πακέτο <textbox value="10" refid="7"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Μικρού μεγέθους και ιδιαίτερα αξιόπιστες, οι κασέτες δεδομένων της Dell<tm/> LTO<textbox value="-2" refid="1"/> αποτελούν μια ιδανική λύση για τις απαιτήσεις  δημιουργίας αντιγράφων ασφαλείας μεγάλου όγκου και αρχειοθέτησης. Διαθέτοντας εσωτερική χωρητικότητα αποθήκευσης έως και <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>, οι εύκολες στο χειρισμό κασέτες μικρού μεγέθους προσφέρουν αποτελεσματική δημιουργία αντιγράφων ασφαλείας και μακροχρόνια αρχειοθέτηση. Ένας φυσικός ρυθμός μεταφοράς δεδομένων έως και <textbox value="35" refid="2"/> MBpsκαι μια φυσική ταχύτητα δημιουργίας αντιγράφων ασφαλείας έως και <textbox value="126" id="10"/> GB/ώρα διευκολύνουν τη γρήγορη δημιουργία αντιγράφων ασφαλείας μεγάλου όγκου δεδομένων
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Προσφέρει εσωτερική χωρητικότητα αποθήκευσης έως και  <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> και συμπιεσμένη χωρητικότητα έως και <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> 
+        </point>
+        <point>
+          Ομαλές, σταθερές μεταβάσεις με ελάχιστο ρυθμό σφαλμάτων και υψηλή αποδοτικότητα 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος μέσου">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Ρυθμός μεταφοράς δεδομένων">
+		Εσωτερική: έως και <textbox value="35" id="2"/> MBps, με συμπίεση: έως και <textbox value="70" id="3"/> MBps
+      </product:techspec>
+      <product:techspec id="3" name="Διαστάσεις (ΠxΒxΥ)">
+        <textbox value="4.02" id="4"/>" x <textbox value="0.85" id="5"/>" x <textbox value="4.15" id="6"/>"
+      </product:techspec>
+      <product:techspec id="4" name="Μέσο περιλαμβάνεται Ποσ.">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Τύπος">
+		Κασέτα δεδομένων
+      </product:techspec>
+	  <product:techspec id="6" name="Συμπιεσμένη χωρητικότητα">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Εσωτερική χωρητικότητα">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

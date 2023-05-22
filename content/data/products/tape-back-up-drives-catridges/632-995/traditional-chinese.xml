@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>/<textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> LTO<textbox value="-2" refid="1"/> 資料磁帶匣 - <textbox value="10" refid="7"/> 套
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  精巧且高度可靠的 Dell<tm/> LTO<textbox value="-2" refid="1"/> 資料磁帶匣解決方案，是滿足大量備份與封存需求的理想選擇。 這些體積迷你的資料磁帶匣操作簡易，具備高達 <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> 的原生儲存容量，可同時滿足高效能備份與多年長期封存的需要。 原生資料傳輸速率高達 <textbox value="35" refid="2"/>MBps，原生備份速度高達 <textbox value="126" id="10"/>GB/hr，有助於大量資料的快速備份
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  提供高達 <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> 的原生儲存容量，和高達 <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/>  的壓縮容量
+        </point>
+        <point>
+          能夠平順穩定地轉換，並具備最低的錯誤率及高效率 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="媒體類型">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="資料傳輸速率">
+		原始容量最高可達 <textbox value="35" id="2"/> ，壓縮容量最高可達 <textbox value="70" id="3"/>MBps
+      </product:techspec>
+      <product:techspec id="3" name="尺寸 (寬 x 深 x 高)">
+        <textbox value="4.02" id="4"/>吋 x <textbox value="0.85" id="5"/>吋 x <textbox value="4.15" id="6"/>吋
+      </product:techspec>
+      <product:techspec id="4" name="媒體隨附數量">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="類型">
+		資料磁帶匣
+      </product:techspec>
+	  <product:techspec id="6" name="壓縮容量">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="原始容量">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

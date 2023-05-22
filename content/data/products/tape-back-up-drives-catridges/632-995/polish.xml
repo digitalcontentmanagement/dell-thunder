@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Kaseta na dane <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>/<textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> (LTO<textbox value="-2" refid="1"/>) firmy Dell — <textbox value="10" refid="7"/> szt.
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Niewielkie, niezawodne kasety na dane LTO<textbox value="-2" refid="1"/> firmy Dell<tm/> to idealne rozwiązanie do tworzenia kopii zapasowych i archiwizacji dużych ilości danych. Dzięki natywnej pojemności do <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> łatwe w obsłudze kasety umożliwiają niezawodne przechowywanie kopii zapasowych i zarchiwizowanych danych przez wiele lat. Szybkość przesyłania danych do <textbox value="35" refid="2"/> MB/s i maksymalna szybkość tworzenia kopii zapasowych <textbox value="126" id="10"/> GB/godz. ułatwiają szybką archiwizację dużych ilości zasobów
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Natywna pojemność pamięci masowej do <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> oraz do <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/>  w trybie kompresji
+        </point>
+        <point>
+          Płynne, stabilne wprowadzanie zmian przy minimalnej liczbie błędów i wysokiej wydajności 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ nośnika">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Szybkość przesyłania danych">
+		W trybie natywnym: do <textbox value="35" id="2"/> MB/s, w trybie kompresji: do <textbox value="70" id="3"/> MB/s
+      </product:techspec>
+      <product:techspec id="3" name="Wymiary (szer. x gł. x wys.)">
+        <textbox value="4.02" id="4"/> x <textbox value="0.85" id="5"/> x <textbox value="4.15" id="6"/> cala
+      </product:techspec>
+      <product:techspec id="4" name="Liczba nośników w zestawie">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Typ">
+		Kaseta na dane
+      </product:techspec>
+	  <product:techspec id="6" name="Pojemność w trybie kompresji">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Pojemność w trybie natywnym">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Комбинированный дисковод Dell Serial ATA <textbox value="DVD-RW/BD-ROM" refid="1"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Комбинированный дисковод <textbox value="DVD-RW/BD-ROM" refid="1"/> компании Dell<tm/> обеспечивает точную цветопередачу, высокое качество изображения и кристально чистый звук при воспроизведении компакт- и DVD-дисков. Этот дисковод DVD-дисков способен эффективно читать и записывать компакт-диски и читать DVD-диски, тем самым в одном устройстве полностью реализуется возможность чтения оптических дисков. Кроме того, этот дисковод имеет интерфейс Serial ATA для быстрой передачи данных.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Интерфейс Serial ATA для простоты установки
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Тип устройства">
+        Комбинированный дисковод <textbox value="DVD-RW/BD-ROM" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Интерфейс">
+        Serial ATA
+      </product:techspec>
+      <product:techspec id="3" name="Поддерживаемые типы дисков">
+        <textbox value="Компакт-диски и DVD-диски" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> / <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> LTO<textbox value="-2" refid="1"/> -datakasetti - <textbox value="10" refid="7"/> tuotteen paketti
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Dellin pienikokoiset ja hyvin luotettavat LTO<textbox value="-2" refid="1"/> datakasetit ovat ihanteellinen ratkaisu suureen määrään varmuuskopioita ja arkistointitarpeisiin. Helppokäyttöisten ja pienikokoisten kasettien perustallennuskapasiteetti on jopa <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>, ja ne tarjoavat tehokkaan varmuuskopioinnin ja pitkä-aikaisen arkistoinnin vuosiksi eteenpäin. Jopa <textbox value="35" refid="2"/> Mbps perustiedonsiirtonopeus ja jopa <textbox value="126" id="10"/> Gt/h perusvarmuuskopiointinopeus helpottavat suurten tietomäärien nopeaa varmuuskopiointia.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Tarjoaa jopa <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> peruskapasiteetin ja jopa <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> pakatun kapasiteetin
+        </point>
+        <point>
+          Tasaiset, tehokkaat ja vakaat siirtymiset erittäin vähäisin virhein 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tietovälinetyyppi">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tiedonsiirtonopeus">
+		Alkuperäinen: Jopa <textbox value="35" id="2"/> Mbps, pakattu: jopa <textbox value="70" id="3"/> Mbps
+      </product:techspec>
+      <product:techspec id="3" name="Mitat (L X S X K)">
+        <textbox value="4.02" id="4"/>" x <textbox value="0.85" id="5"/>" x <textbox value="4.15" id="6"/>"
+      </product:techspec>
+      <product:techspec id="4" name="Tallennusvälineiden määrä">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Tyyppi">
+		Datakasetti
+      </product:techspec>
+	  <product:techspec id="6" name="Pakattu kapasiteetti">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Peruskapasiteetti">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

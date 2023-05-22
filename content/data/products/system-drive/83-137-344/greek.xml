@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Μονάδα combo <textbox value="DVD-RW/BD-ROM" refid="1"/> Dell Serial ATA
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Η μονάδα combo <textbox value="DVD-RW/BD-ROM" refid="1"/> από την Dell<tm/> σάς επιτρέπει να απολαμβάνετε την υψηλής ευκρίνειας εικόνα με τα ζωντανά χρώματα και τον υψηλής πιστότητας ήχο των CD και DVD. Αυτή η μονάδα combo μπορεί να διαβάσει/εγγράψει CD και να διαβάσει DVD αποτελεσματικά, παρέχοντας στους χρήστες πλήρη δυνατότητα οπτικής ανάγνωσης από μία μόνο συσκευή. Επιπρόσθετα, αυτή η μονάδα διαθέτει διασύνδεση Serial ATA για γρήγορη μεταφορά δεδομένων.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Διαθέτει διασύνδεση Serial ATA για εύκολη εγκατάσταση
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος συσκευής">
+        Μονάδα combo <textbox value="DVD-RW/BD-ROM" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Τύπος διασύνδεσης">
+        Serial ATA
+      </product:techspec>
+      <product:techspec id="3" name="Υποστηριζόμενοι τύποι μέσων">
+        <textbox value="CD/DVD" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell SATA(Serial ATA) <textbox value="DVD-RW/BD-ROM" refid="1"/> 콤보 드라이브
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Dell<tm/> <textbox value="DVD-RW/BD-ROM" refid="1"/> 콤보 드라이브를 사용하면 CD 및 DVD에서 선명한 컬러, 영상 및 사운드를 즐길 수 있습니다. 이 콤보 드라이브는 CD 읽기/쓰기 및 DVD 읽기를 효과적으로 처리하여 단일 장치에서 완전한 옵티컬 읽기 기능을 제공합니다. 또한 SATA(Serial ATA) 인터페이스를 사용해 데이터 전송이 빠릅니다.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          SATA 인터페이스로 손쉽게 설치
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="장치 유형">
+        <textbox value="DVD-RW/BD-ROM" id="1"/> 콤보 드라이브
+      </product:techspec>
+      <product:techspec id="2" name="인터페이스 유형">
+        SATA(Serial ATA)
+      </product:techspec>
+      <product:techspec id="3" name="지원되는 미디어 유형">
+        <textbox value="CD/DVD" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

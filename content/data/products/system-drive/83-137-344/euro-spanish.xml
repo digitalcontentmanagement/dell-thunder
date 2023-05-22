@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> unidad combinada de <textbox value="DVD-RW/BD-ROM" refid="1"/> Serial ATA Dell
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Con la unidad combinada de <textbox value="DVD-RW/BD-ROM" refid="1"/> de Dell<tm/>, podrá disfrutar de la nitidez de los colores y la claridad de imagen y sonido de CD y DVD. Esta unidad combinada permite la lectura/escritura de CD y la lectura de DVD y ofrece a los usuarios una completa capacidad óptica de lectura en un solo dispositivo. Además, esta unidad cuenta con una interfaz Serial ATA para lograr una rápida transferencia de datos.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Interfaz ATA para una instalación sencilla
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Unidad combinada de <textbox value="DVD-RW/BD-ROM" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de interfaz">
+        Serial ATA
+      </product:techspec>
+      <product:techspec id="3" name="Tipos de medios admitidos">
+        <textbox value="CD/DVD" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔串行ATA <textbox value="DVD-RW/BD-ROM" refid="1"/>组合光驱
+    </product:name>
+    <product:longdesc>
+      <para>
+	    来自Dell<tm/>的<textbox value="DVD-RW/BD-ROM" refid="1"/>组合光驱使您可以充分享受CD和DVD那清晰澄澈的色彩、画面以及出色的音效。 这款组合光驱能够有效地读取CD和DVD，还提供CD写入功能，在单一设备中为用户提供了全面的光学读取功能。 此外，这款光驱还具有串行ATA接口，有助于实现数据快速传输。
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          配备串行ATA接口，可轻松安装
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+        <textbox value="DVD-RW/BD-ROM" id="1"/>组合光驱
+      </product:techspec>
+      <product:techspec id="2" name="接口类型">
+        串行ATA接口
+      </product:techspec>
+      <product:techspec id="3" name="支持的介质类型">
+        <textbox value="CD/DVD" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

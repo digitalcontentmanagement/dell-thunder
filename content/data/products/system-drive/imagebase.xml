@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="system-drive">
+
+    
+	    <image:image name="429-ABGU">
+      <image:location>429-ABGU</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>DVD SATA ROM INTERNAL</image:description>
+      <image:caption>DVD SATA ROM INTERNAL</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  
+	      <image:image name="CD_RW_DVD_ROM">
+      <image:location>CD_RW_DVD_ROM</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell CD-RW/DVD-ROM </image:description>
+      <image:caption>Dell CD-RW/DVD-ROM </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		        <image:image name="DELL DVDRW">
+      <image:location>DELL DVDRW</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell DVD RW</image:description>
+      <image:caption>Dell DVD RW</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  	        <image:image name="429-16736">
+      <image:location>429-16736</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Internal 8x DVD-ROM Media Bay Drive </image:description>
+      <image:caption>Internal 8x DVD-ROM Media Bay Drive </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  	  
+	  	        <image:image name="429-AAIV">
+      <image:location>429-AAIV</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>External Optical : DVD+/-RW USB drive   </image:description>
+      <image:caption>External Optical : DVD+/-RW USB drive  </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  	        <image:image name="429-AAOX">
+      <image:location>429-AAOX</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>8X DVD-ROM, USB, EXTERNAL   </image:description>
+      <image:caption>8X DVD-ROM, USB, EXTERNAL  </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  	        <image:image name="429-AAQP">
+      <image:location>429-AAQP</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>DVD,SATA for PowerEdge R220, Internal    </image:description>
+      <image:caption>DVD,SATA for PowerEdge R220, Internal    </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  
+	  	        <image:image name="429-AAQQ">
+      <image:location>429-AAQQ</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>DVD+/-RW, SATA for PowerEdge R220   </image:description>
+      <image:caption>DVD+/-RW, SATA for PowerEdge R220  </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		  <image:image name="429-AAYT_v1">
+      <image:location>429-AAYT_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>8x DVD+/-RW 9.5mm Optical Disk Drive Part Num: FT6C5   </image:description>
+      <image:caption>8x DVD+/-RW 9.5mm Optical Disk Drive Part Num: FT6C5  </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		    <image:image name="429-AAYT_mvi1">
+      <image:location>429-AAYT_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>8x DVD+/-RW 9.5mm Optical Disk Drive Part Num: 9M9FK for MVI   </image:description>
+      <image:caption>8x DVD+/-RW 9.5mm Optical Disk Drive Part Num: 9M9FK for MVI </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  
+	   <image:image name="429-AAXC_v1">
+      <image:location>429-AAXC_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>16x DVD ROM  Part Num: YTDV4  </image:description>
+      <image:caption>16x DVD ROM  Part Num: YTDV4 </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+		  
+		    <image:image name="429-AAXC_mvi1">
+      <image:location>429-AAXC_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>16x DVD ROM  Part Num: YTDV4 for MVI   </image:description>
+      <image:caption>16x DVD ROM  Part Num: YTDV4 for MVI </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	
+	  
+	
+  </image:folder>
+</image:imagebase>

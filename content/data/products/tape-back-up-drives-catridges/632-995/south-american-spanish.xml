@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cartuchos de datos Dell de <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> y <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> LTO<textbox value="-2" refid="1"/> : Paquete de <textbox value="10" refid="7"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Los cartuchos de datos Dell<tm/> LTO<textbox value="-2" refid="1"/> son compactos, altamente fiables y la solución ideal para el backup de gran volumen y las necesidades de archivado. Con una capacidad de almacenamiento nativa de hasta <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>, estos cartuchos son fáciles de utilizar y conforman una solución eficiente para backup y para el archivado a largo plazo durante años. La velocidad de transferencia de datos nativa de hasta <textbox value="35" refid="2"/> MB/s y la velocidad de backup nativa de hasta <textbox value="126" id="10"/> GB/h hacen posible un backup rápido de grandes cantidades de datos.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Capacidad de almacenamiento nativa de hasta <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> y una capacidad comprimida de hasta <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/>.
+        </point>
+        <point>
+          Transiciones suaves y estables con una tasa mínima de error y una alta eficiencia. 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de medios">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Velocidad de transferencia de datos">
+		Nativa: Hasta <textbox value="35" id="2"/> MB/s; comprimida: hasta <textbox value="70" id="3"/> MB/s
+      </product:techspec>
+      <product:techspec id="3" name="Dimensiones (an. x pr. x al.)">
+        <textbox value="4.02" id="4"/>" x <textbox value="0.85" id="5"/>" x <textbox value="4.15" id="6"/>"
+      </product:techspec>
+      <product:techspec id="4" name="Cantidad de medios incluidos">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Tipo">
+		Cartuchos de datos
+      </product:techspec>
+	  <product:techspec id="6" name="Capacidad comprimida">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Capacidad nativa">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

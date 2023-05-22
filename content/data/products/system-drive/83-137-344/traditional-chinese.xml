@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 序列 ATA <textbox value="DVD-RW/BD-ROM" refid="1"/> Combo 機
+    </product:name>
+    <product:longdesc>
+      <para>
+	    來自 Dell<tm/> 的 <textbox value="DVD-RW/BD-ROM" refid="1"/> Combo 機可讓您從 CD 和 DVD 中享受清晰透徹的色彩、影像與清晰音質。 這款 Combo 機可以有效讀寫 CD 及讀取 DVD，在單一裝置中為使用者提供完整的光學讀取功能。 此外，這款光碟機採用序列 ATA 介面，可提供更快的資料傳輸能力。
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          採用序列 ATA 介面，能夠輕鬆安裝
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="裝置類型">
+        <textbox value="DVD-RW/BD-ROM" id="1"/> Combo 機
+      </product:techspec>
+      <product:techspec id="2" name="介面類型">
+        序列 ATA
+      </product:techspec>
+      <product:techspec id="3" name="支援的媒體類型">
+        <textbox value="CD / DVD" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

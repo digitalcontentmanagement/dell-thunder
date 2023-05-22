@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Unità combo <textbox value="DVD-RW/BD-ROM" refid="1"/> SATA Dell
+    </product:name>
+    <product:longdesc>
+      <para>
+	    L'unità combo <textbox value="DVD-RW/BD-ROM" refid="1"/> Dell<tm/> garantisce tutta la limpidezza di colori, immagini e suoni tipica dei CD e DVD. Questa unità combo esegue la lettura/scrittura di CD e la lettura di DVD in modo efficace, offrendo agli utenti funzionalità di lettura ottica complete in un unico dispositivo. Grazie all'interfaccia SATA, questa unità è garanzia di trasferimenti dati rapidi.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          L'interfaccia SATA semplifica la procedura di installazione
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di dispositivo">
+        Unità combo <textbox value="DVD-RW/BD-ROM" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Tipo di interfaccia">
+        SATA
+      </product:techspec>
+      <product:techspec id="3" name="Supporti utilizzabili">
+        <textbox value="CD/DVD" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

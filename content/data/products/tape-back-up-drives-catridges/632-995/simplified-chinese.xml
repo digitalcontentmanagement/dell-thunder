@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>/<textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> LTO<textbox value="-2" refid="1"/> 数据磁带盒 - <textbox value="10" refid="7"/>个装
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Dell<tm/> LTO<textbox value="-2" refid="1"/> 数据磁带盒外形小巧且性能可靠，是应对海量备份和存档需求的理想解决方案。 这些易于持握的紧凑型磁带盒可提供高达<textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>的本地存储容量，能够提供高效的备份和数年的长期存档。 本地数据传输速率高达<textbox value="35" refid="2"/> Mbps，本地备份速度高达<textbox value="126" id="10"/> GB/小时，便于快速备份大量数据
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  提供高达<textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>的本地存储容量和高达<textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> 的压缩容量
+        </point>
+        <point>
+          以最低错误率和超高效率，实现顺畅而稳定的过渡 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="介质类型">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="数据传输速率">
+		本地：最高 <textbox value="35" id="2"/> ，压缩：最高 <textbox value="70" id="3"/> MBps
+      </product:techspec>
+      <product:techspec id="3" name="尺寸（宽 x 深 x 高）">
+        <textbox value="4.02" id="4"/>英寸 x <textbox value="0.85" id="5"/>英寸 x <textbox value="4.15" id="6"/>英寸
+      </product:techspec>
+      <product:techspec id="4" name="包含介质数量">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="类型">
+		磁带盒
+      </product:techspec>
+	  <product:techspec id="6" name="压缩容量">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="本地容量">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

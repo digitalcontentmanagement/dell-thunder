@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> / <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> LTO<textbox value="-2" refid="1"/> datová kazeta Dell – Sada <textbox value="10" refid="7"/> ks
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Datové kazety Dell<tm/> LTO<textbox value="-2" refid="1"/> jsou kompaktní a velmi spolehlivé, a proto jsou ideálním řešením pro zálohování a archivaci velkých objemů dat. Snadno použitelná kompaktní kazeta s nativní kapacitou až <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> nabízí efektivní zálohování a dlouholetou archivaci. Nativní přenosová rychlost až <textbox value="35" refid="2"/> MB/s a nativní rychlost zálohování až <textbox value="126" id="10"/> GB/hod. zajišťují rychlé zálohování velkých množství dat.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Nativní kapacita až <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> a komprimovaná kapacita až <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Plynulé a stabilní přechody s minimální četností chyb a vysokou efektivitou 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ média">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Rychlost přenosu dat">
+		Nativní: až <textbox value="35" id="2"/> MB/s, komprimovaná: až <textbox value="70" id="3"/> MB/s
+      </product:techspec>
+      <product:techspec id="3" name="Rozměry (Š × H × V)">
+        <textbox value="4.02" id="4"/> x <textbox value="0.85" id="5"/> x <textbox value="4.15" id="6"/> palce
+      </product:techspec>
+      <product:techspec id="4" name="Počet médií">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Typ">
+		Datová kazeta
+      </product:techspec>
+	  <product:techspec id="6" name="Komprimovaná kapacita">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Nativní kapacita">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

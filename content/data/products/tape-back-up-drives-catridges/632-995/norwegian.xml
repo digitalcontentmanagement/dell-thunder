@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> / <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> LTO<textbox value="-2" refid="1"/> datakassett – Pakke med <textbox value="10" refid="7"/> stk.
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  LTO<textbox value="-2" refid="1"/> datakassettene fra Dell<tm/> er kompakte og svært pålitelige. De er ideelle å bruke ved sikkerhetskopiering og arkivering av store volumer. De brukervennlige, kompakte kassettene har en ukomprimert lagringskapasitet på opptil <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>, og sikrer effektiv sikkerhetskopiering og arkivering i årevis. En dataoverføringshastighet på opptil <textbox value="35" refid="2"/> MBps (ukomprimert) og en sikkerhetskopieringshastighet på opptil <textbox value="126" id="10"/> GB/t per time (ukomprimert) sikrer rask sikkerhetskopiering av store datavolumer.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  Tilbyr en ukomprimert lagringskapasitet på opptil <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> og en komprimert kapasitet på opptil <textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> 
+        </point>
+        <point>
+          Jevn og pålitelig overføring med lav feilprosent og høy effektivitet 
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Medietype">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Dataoverføringshastighet">
+		Ukomprimert: Opptil <textbox value="35" id="2"/> MBps, Komprimert: Opptil <textbox value="70" id="3"/> MBps
+      </product:techspec>
+      <product:techspec id="3" name="Mål (B x D x H)">
+        <textbox value="4.02" id="4"/>" x <textbox value="0.85" id="5"/>" x <textbox value="4.15" id="6"/>"
+      </product:techspec>
+      <product:techspec id="4" name="Antall inkluderte medier">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="Type">
+		datakassett
+      </product:techspec>
+	  <product:techspec id="6" name="Komprimert kapasitet">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Ukomprimert kapasitet">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

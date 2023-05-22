@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Serial ATA <textbox value="DVD-RW/BD-ROM" refid="1"/> combinatiestation
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Met het <textbox value="DVD-RW/BD-ROM" refid="1"/> combinatiestation van Dell<tm/> kunt u genieten van cd's en dvd's met kristalheldere kleuren en beelden en van kristalzuiver geluid. Dit dvd-station kan cd's lezen en schrijven, en dvd's lezen zodat gebruikers over volledige optische leesmogelijkheden beschikken in één apparaat. Daarnaast biedt deze schijf biedt een seriële ATA-interface voor snelle gegevensoverdracht.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Uitgerust met een seriële ATA-interface voor eenvoudige installatie
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Type apparaat">
+        <textbox value="DVD-RW/BD-ROM" id="1"/> Combinatiestation
+      </product:techspec>
+      <product:techspec id="2" name="Type interface">
+        Seriële ATA
+      </product:techspec>
+      <product:techspec id="3" name="Ondersteunde mediatypen">
+        <textbox value="cd/dvd" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell SATA-<textbox value="DVD-RW/BD-ROM" refid="1"/>-Kombilaufwerk
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Mit dem <textbox value="DVD-RW/BD-ROM" refid="1"/>-Kombilaufwerk von Dell<tm/> genießen Sie kristallklare Farb-, Bild- und Tonwiedergabe beim Abspielen von CDs und DVDs. Mit diesem Kombilaufwerk können Sie CDs und DVDs effektiv lesen und beschreiben und Benutzern ein einzelnes Gerät mit umfassender optischer Schreib- und Lesefunktion bereitstellen. Außerdem bietet das Laufwerk eine SATA-Schnittstelle für schnelle Datenübertragung.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Mit SATA-Schnittstelle für eine einfache Installation
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Gerätetyp">
+        <textbox value="DVD-RW/BD-ROM" id="1"/>-Kombilaufwerk
+      </product:techspec>
+      <product:techspec id="2" name="Schnittstellentyp">
+        SATA
+      </product:techspec>
+      <product:techspec id="3" name="Unterstützte Medientypen">
+        <textbox value="CD/DVD" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

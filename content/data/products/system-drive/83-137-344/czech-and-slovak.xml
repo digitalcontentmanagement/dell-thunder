@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>System Drive (CD/DVD Internal / Blu-Ray Optical Drives)</meta:title>
+    <meta:date value="2015-11-17" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/>Kombinovaná jednotka Dell Serial ATA <textbox value="DVD-RW/BD-ROM" refid="1"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+	    Díky kombinované jednotce <textbox value="DVD-RW/BD-ROM" refid="1"/> značky Dell<tm/> si můžete v počítači užívat křišťálově čistých barev, ostrého obrazu a jasného zvuku z disků CD a DVD. Tato kombinovaná jednotka nabízí čtení a zápis na disky CD a čtení disků DVD – tedy čtení všech formátů optických disků v jediném zařízení. Tato jednotka nabízí také rozhraní Serial ATA pro rychlé přenosy dat.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+    
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Rozhraní Serial ATA usnadňuje instalaci
+        </point>
+      </points>
+    </product:highlights>
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Typ zařízení">
+        Kombinovaná jednotka <textbox value="DVD-RW/BD-ROM" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Typ rozhraní">
+        Serial ATA
+      </product:techspec>
+      <product:techspec id="3" name="Podporované druhy médií">
+        <textbox value="CD / DVD" id="2"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

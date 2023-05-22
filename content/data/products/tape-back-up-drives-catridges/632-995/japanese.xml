@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Tape Back Up Drives Catridges</meta:title>
+    <meta:date value="2015-10-26" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>/<textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> LTO<textbox value="-2" refid="1"/> データカートリッジ - <textbox value="10" refid="7"/>パック
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  コンパクトで信頼性の高いDell<tm/> LTO<textbox value="-2" refid="1"/> データカートリッジは、大容量のバックアップおよびアーカイブ要件に最適なソリューションです。 最大 <textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/> の非圧縮ストレージ容量を備え、扱いやすいコンパクトなカートリッジで、効率的なバックアップと年単位の長期にわたるアーカイブを実現します。 非圧縮データ転送レートは最大<textbox value="35" refid="2"/> MB/秒、非圧縮バックアップ速度は最大<textbox value="126" id="10"/> GB/時なので、大量のデータを迅速にバックアップできます。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+		  最大<textbox value="200" refid="9"/> <dropdownlist refid="unit-byte"/>の非圧縮ストレージ容量と最大<textbox value="400" refid="8"/> <dropdownlist refid="unit-byte"/> の圧縮容量を提供します。
+        </point>
+        <point>
+          スムーズで安定した送りにより、エラーの発生を最小限に抑え、高い効率を実現しています。  
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="メディアタイプ">
+		LTO<textbox value="-2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="データ転送レート">
+		非圧縮時: 最大<textbox value="35" id="2"/> MB/秒、圧縮時: 最大 <textbox value="70" id="3"/> MB/秒
+      </product:techspec>
+      <product:techspec id="3" name="寸法（幅 x 奥行き x 高さ）">
+        <textbox value="4.02" id="4"/>インチ x <textbox value="0.85" id="5"/>インチ x <textbox value="4.15" id="6"/>インチ
+      </product:techspec>
+      <product:techspec id="4" name="付属メディア数">
+        <textbox value="10" id="7"/>
+      </product:techspec>
+	  <product:techspec id="5" name="タイプ">
+		データカートリッジ
+      </product:techspec>
+	  <product:techspec id="6" name="容量（圧縮時）">
+		<textbox value="400" id="8"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+	  <product:techspec id="7" name="容量（非圧縮時）">
+		<textbox value="200" id="9"/> <dropdownlist refid="unit-byte"/>
+      </product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
