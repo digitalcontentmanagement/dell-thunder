@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Active Optical Cable</meta:title>
+    <meta:date value="2016-11-30" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell cavo di rete <textbox value="SFP+" refid="2"/> - <textbox value="SFP+" refid="3"/> <textbox value="10" id="4"/><textbox value="GbE" id="5"/> Active Cavo in ottica <dropdownlist id="optic-cable"/> - <textbox value="15" refid="1"/> m
+    </product:name>
+    <product:longdesc>
+      <para>
+      Questo cavo di rete <textbox value="SFP+" refid="2"/> - <textbox value="SFP+" refid="3"/> Dell<tm/> collegamento fornisce la connettività fino a <textbox value="15" refid="1"/> m di lunghezza. Per l'utilizzo con le piattaforme Dell<tm/> idonei. Dell Networking aggiunge ulteriori funzionalità alla linea di componenti ottici e cavi con l'introduzione dei cavi ottici attivi <textbox value="10" refid="4"/><textbox value="GbE" refid="5"/> e il supporto di altri componenti ottici con OS 9.10 e OS 6.3.
+      </para>
+    </product:longdesc>
+
+<product:highlights>
+<points>		
+<point> Ideale per ambienti ad alta densità che richiedono un cavo con peso e raggio ridotti e raggio di curvatura più flessibile
+</point>
+</points>
+</product:highlights>
+	
+
+<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+		<product:techspec id="1" name="Tecnologia">
+			Fibra ottica
+		</product:techspec>
+		<product:techspec id="2" name="Lunghezza">
+			<textbox value="15" id="1"/> m
+		</product:techspec>
+		<product:techspec id="3" name="Tipo cavo di rete">
+			Cavo di rete
+		</product:techspec>
+		<product:techspec id="4" name="Connettore">
+			<textbox value="SFP+" id="2"/>
+		</product:techspec>
+		<product:techspec id="5" name="Connettore (seconda estremità)">
+			<textbox value="SFP+" id="3"/>
+		</product:techspec>
+	</product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

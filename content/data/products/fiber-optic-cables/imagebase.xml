@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="fiber-optic-cables">
+
+    <image:folder name="407">
+    <image:image name="330-8631">
+      <image:location>330-8631</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Serial Attached SCSI External Cable</image:description>
+      <image:caption>Dell Serial Attached SCSI External Cable</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="CBL-MTP12-OM4-5M">
+      <image:location>CBL-MTP12-OM4-5M</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Model: MTP12-OM4-Distance->(1M,3M,5M,7M,10M,25M,50M,75M,100M)</image:description>
+      <image:caption>Model: MTP12-OM4-Distance->(1M,3M,5M,7M,10M,25M,50M,75M,100M)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="CBL-MTP12-4LC-OM4-1M">
+      <image:location>CBL-MTP12-4LC-OM4-1M</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Model: MTP12-4LC-OM4-Distance->(1M,3M,5M,7M)</image:description>
+      <image:caption>Model: MTP12-4LC-OM4-Distance->(1M,3M,5M,7M)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+ 
+    <image:image name="470-12656">
+      <image:location>470-12656</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell Network cable QSFP+ to QSFP+ Fiber Optic Cables</image:description>
+      <image:caption>Dell Network cable QSFP+ to QSFP+ Fiber Optic Cables</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="06120a">
+      <image:location>06120a</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SFP Fiber Optic Cables</image:description>
+      <image:caption>SFP Fiber Optic Cables</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    </image:folder>
+	<image:folder name="647B">
+	    <image:image name="407-BBOT">
+      <image:location>407-BBOT</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: SFP-1G-(SK,LX,ZX), SFP-10G-SR,SR-12, SFP-100M-FX,SFP-8GFC-(LWL,ELWL,SWL,LWL) </image:description>
+      <image:caption>Models: SFP-1G-(SK,LX,ZX), SFP-10G-SR,SR-12, SFP-100M-FX,SFP-8GFC-(LWL,ELWL,SWL,LWL) </image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	   <image:image name="QSFP">
+      <image:location>QSFP</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models : QSFP-40G-ESR4</image:description>
+      <image:caption>Models : QSFP-40G-ESR4</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	 <image:image name="SFP RJ45">
+      <image:location>SFP RJ45</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SFP RJ45</image:description>
+      <image:caption>SFP RJ45</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	   <image:image name="SFP-1G-T">
+      <image:location>SFP-1G-T</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SFP-1G-T</image:description>
+      <image:caption>SFP-1G-T</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	    <image:image name="SFP-10G-LRM">
+      <image:location>SFP-10G-LRM</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: SFP-10G-LRM, SFP-10G-LR</image:description>
+      <image:caption>Models: SFP-10G-LRM, SFP-10G-LR</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	      <image:image name="SFP-10G-USR">
+      <image:location>SFP-10G-USR</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SFP-10G-USR</image:description>
+      <image:caption>SFP-10G-USR</image:caption>
+      <image:type>jpg</image:type>    
+	  </image:image>
+	  
+	      <image:image name="XFP-10G-SR4">
+      <image:location>XFP-10G-SR4</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: XFP-10G-SR4-(LR4,ER4,5,ZR4,5,W21 through XFP-10G-W60)</image:description>
+      <image:caption>Models: XFP-10G-SR4-(LR4,ER4,5,ZR4,5,W21 through XFP-10G-W60)</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	   
+	      <image:image name="QSA-QSFP-SFP+">
+      <image:location>QSA-QSFP-SFP+</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>QSA-QSFP-SFP+</image:description>
+      <image:caption>QSA-QSFP-SFP+</image:caption>
+      <image:type>jpg</image:type>
+	      </image:image>
+	  
+	  	      <image:image name="QSFP-40G-LM4">
+      <image:location>QSFP-40G-LM4</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>QSFP-40G-LM4</image:description>
+      <image:caption>QSFP-40G-LM4</image:caption>
+      <image:type>jpg</image:type>
+	  </image:image>
+	  
+	      <image:image name="QSFP-40G-SR4">
+      <image:location>QSFP-40G-SR4</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>QSFP-40G-SR4</image:description>
+      <image:caption>QSFP-40G-SR4</image:caption>
+      <image:type>jpg</image:type>
+	  </image:image>
+	  
+	  	      <image:image name="QSFP MPO pigtail">
+      <image:location>QSFP MPO pigtail</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Models: QSFP-40G-PSM-(1M,5M,15M)</image:description>
+      <image:caption>Models: QSFP-40G-PSM-(1M,5M,15M)</image:caption>
+      <image:type>jpg</image:type>
+	  </image:image>
+	  
+	       <image:image name="QSFP-40G-LR4">
+      <image:location>QSFP-40G-LR4</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Model: QSFP-40G-LR4</image:description>
+      <image:caption>Model: QSFP-40G-LR4</image:caption>
+      <image:type>jpg</image:type>
+	  </image:image>
+	  
+	  	       <image:image name="QSFP-40G-Passive-Copper">
+      <image:location>QSFP-40G-Passive-Copper</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Model: QSFP-40G-Passive-Copper Cable-> Distance (0.5M,1M,2M,3M,5M,7M)</image:description>
+      <image:caption>Model: QSFP-40G-Passive-Copper Cable-> Distance (0.5M,1M,2M,3M,5M,7M)</image:caption>
+      <image:type>jpg</image:type>
+	  </image:image>
+	  
+	  
+	  
+	  
+  </image:folder>
+  </image:folder>
+</image:imagebase>
