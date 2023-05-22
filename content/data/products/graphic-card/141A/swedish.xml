@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA Quadro Graphic Card</meta:title>
+    <meta:date value="2017-12-27"/>
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA Quadro <textbox value="P5000" id="1"/> <textbox value="16" refid="2"/> <dropdownlist refid="unit-byte"/> <textbox value="4 DP DL-DVI-D" id="3"/> <dropdownlist id="adapters-443-b"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Quadro<reg/> är den överlägsna visuella datorplattformen för allt från imponerande industriell design och avancerade specialeffekter till komplex vetenskaplig visualisering. Miljontals kreatörer och tekniska experter använder Quadro för att snabba upp sina arbetsflöden, och det är endast Quadro som har det avancerade ekosystem med maskinvara, programvara och verktyg som krävs för att förvandla dagens omvälvande utmaningar till morgondagens affärsframgångar.
+      </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhetstyp">
+        Grafikkort
+      </product:techspec>
+      <product:techspec id="2" name="Minne">
+        <textbox value="16" id="2"/>
+	    <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

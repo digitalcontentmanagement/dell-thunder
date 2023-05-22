@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000 <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 그래픽 카드
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        <b>성능 극대화 </b>
+      </para>
+	  <para>
+	  데스크톱 워크스테이션을 위한 세계에서 가장 강력한 비주얼 컴퓨팅 GPU인 NVIDIA<reg/> RTX<tm/> A6000을 통해 혁신적인 차세대 디자인, 과학적 혁신 및 몰입감 높은 엔터테인먼트를 만나보세요. 최첨단 성능 및 기능을 갖춘 RTX<tm/> A6000를 사용하면 영감이 떠오르는 대로 작업할 수 
+	  있어 현재의 긴급한 요구 사항을 처리하고 빠르게 진화하는 미래의 컴퓨팅 집약적 작업에 대처할 수 있습니다.
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="기기 종류">
+        그래픽 카드
+      </product:techspec>
+      <product:techspec id="2" name="기억">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+	    
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000 <textbox value="48" refid="2"/> <dropdownlist refid="unit-byte"/> Placa Gráfica
+    </product:name>
+
+    <product:longdesc>
+      <para>
+     <b>Desempenho Amplificado</b>
+      </para>
+	  <para>
+	  Descubra a nova geração de designs revolucionários, inovações científicas e entretenimento imersivo com a NVIDIA<reg/> RTX<tm/> A6000, a GPU de computação visual mais poderosa do mundo para workstations de desktop. 
+	  Com desempenho e recursos de ponta, a RTX<tm/> A6000 permite que você trabalhe na velocidade da inspiração para lidar com as necessidades urgentes de hoje e atender às tarefas de computação intensa de amanhã em rápida evolução.
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Placa Gráfica
+      </product:techspec>
+      <product:techspec id="2" name="Memória">
+        <textbox value="48" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

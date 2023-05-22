@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+     <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000-Grafikkarte mit <textbox value="48" refid="2"/> <dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+       <b> Die neue Leistungsklasse</b>
+      </para>
+	  <para>
+	  Erschaffen Sie die nächste Generation revolutionärer Designs, wissenschaftlicher Durchbrüche und fesselnder Unterhaltung mit der NVIDIA<reg/> RTX<tm/> A6000, der weltweit leistungsstärksten Grafikkarte für Visual Computing auf Desktop-PCs. Mit den bahnbrechenden Leistungen und Funktionen der RTX<tm/> A6000 können Sie Ihre Ideen schneller als je zuvor umsetzen – 
+	  Ihre Vorstellungskraft setzt die Grenzen. Bewältigen Sie die drängenden Anforderungen der Gegenwart, wie auch die rasant fortschreitenden, rechenintensiven Aufgaben von morgen.
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Gerätetyp">
+        Grafikkarte
+      </product:techspec>
+      <product:techspec id="2" name="Erinnerung">
+        <textbox value="48" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

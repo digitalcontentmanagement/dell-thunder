@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA Tesla Graphic Card</meta:title>
+    <meta:date value="2017-11-02" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="8" refid="2"/><dropdownlist refid="unit-byte"/> NVIDIA<reg/> Tesla<reg/> <textbox value="P4" id="1"/> Grafická karta
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Zrychlete své nejnáročnější prostředí HPC, úlohy datových center pro výpočty velkého rozsahu a úlohy podnikových datových center pomocí akcelerátorů s grafickými procesory NVIDIA<reg/> Tesla<reg/>.
+      </para>
+      <para>
+        Vědci nyní mohou v různých aplikacích od průzkumů energie po zevrubné učení zpracovávat petabajty dat rychleji než pomocí klasických procesorů. Akcelerátory Tesla navíc poskytují výkon potřebný ke spuštění větších simulací rychleji než kdy dříve. Pro podniky nasazující infrastrukturu VDI nabízejí akcelerátory Tesla ideální řešení pro zrychlení virtuálních stolních počítačů pro libovolného uživatele, kdekoli.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ zařízení">
+        Grafická karta
+      </product:techspec>
+      <product:techspec id="2" name="Paměť">
+        <textbox value="8" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

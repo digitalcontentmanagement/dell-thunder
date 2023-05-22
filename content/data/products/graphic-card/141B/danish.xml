@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+     <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000 <textbox value="48" refid="2"/> <dropdownlist refid="unit-byte"/>-grafikkort 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        <b>Forstærket ydeevne</b>
+		</para>
+		<para>
+		Få den næste generation af revolutionerende design, videnskabelige gennembrud og fordybende underholdning med NVIDIA<reg/> RTX<tm/> A6000 – den mest kraftfulde, visuelle databehandlings-GPU til stationære workstations. Med banebrydende ydeevne og funktioner, 
+		lader RTX<tm/> A6000 dig arbejde med hastigheden, du skal bruge til inspiration, så du kan tackle de krævende behov, 
+		der er i dag og imødekomme de hurtigt udviklende, databehandlingsintensive opgaver, der kommer i morgen.
+		</para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhedstype">
+        Grafikkort
+      </product:techspec>
+      <product:techspec id="2" name="Hukommelse">
+        <textbox value="48" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

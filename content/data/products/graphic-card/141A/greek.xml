@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA Quadro Graphic Card</meta:title>
+    <meta:date value="2017-12-27"/>
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA Quadro <textbox value="P5000" id="1"/> <textbox value="16" refid="2"/> <dropdownlist refid="unit-byte"/> <textbox value="4 DP DL-DVI-D" id="3"/> <dropdownlist id="adapters-443-b"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        To Quadro<reg/> είναι η επικρατούσα πλατφόρμα επεξεργασίας γραφικών στον κλάδο και προσφέρεται για εκπληκτικά βιομηχανικά σχέδια, προηγμένα ειδικά εφέ και σύνθετες επιστημονικές απεικονίσεις. Απολαμβάνοντας την εμπιστοσύνη εκατομμυρίων δημιουργών και τεχνικών επαγγελματιών, μόνο το Quadro διαθέτει το προηγμένο οικοσύστημα υλικού, λογισμικού και εργαλείων που είναι απαραίτητο για τη μετατροπή των προκλήσεων του παρόντος σε εμπορικές επιτυχίες του μέλλοντος.
+      </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος συσκευής">
+        Κάρτα γραφικών
+      </product:techspec>
+      <product:techspec id="2" name="Μνήμη">
+        <textbox value="16" id="2"/>
+	    <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

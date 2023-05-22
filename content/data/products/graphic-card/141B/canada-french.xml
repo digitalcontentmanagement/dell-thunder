@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+   <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000 <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> Carte graphique
+</product:name>
+    <product:longdesc>
+      <para>
+        <b>Performances amplifiées</b>
+      </para>
+	  <para>
+	  Obtenez la nouvelle génération de conceptions révolutionnaires, de percées scientifiques et de divertissement immersif grâce au NVIDIA<reg/> RTX<tm/> A6000, 
+	  le processeur de traitement graphique le plus puissant au monde pour les stations de travail de bureau. Grâce à ses performances et à ses fonctionnalités de pointe, 
+	  le RTX<tm/>  A6000 vous permet de travailler à la vitesse de votre inspiration afin de répondre aux besoins urgents d’aujourd’hui et d’accomplir les tâches exigeantes de demain, qui évoluent rapidement.
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type d'appareil">
+        Carte graphique
+      </product:techspec>
+      <product:techspec id="2" name="Mémoire">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

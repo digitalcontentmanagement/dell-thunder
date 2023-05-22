@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA Tesla Graphic Card</meta:title>
+    <meta:date value="2017-11-02" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="8" refid="2"/><dropdownlist refid="unit-byte"/> NVIDIA<reg/> Tesla<reg/> <textbox value="P4" id="1"/> Graphic Card
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Accelerate your most demanding HPC, hyperscale, and enterprise data center workloads with NVIDIA<reg/> Tesla<reg/> GPU accelerators.
+      </para>
+      <para>
+        Scientists can now crunch through petabytes of data faster than with CPUs in applications ranging from energy exploration to deep learning. Plus, Tesla accelerators deliver the horsepower needed to run bigger simulations faster than ever before. For enterprises deploying VDI, Tesla accelerators are perfect for accelerating virtual desktops to any user, anywhere.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Device Type">
+        Graphics Card
+      </product:techspec>
+      <product:techspec id="2" name="Memory">
+        <textbox value="8" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

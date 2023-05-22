@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+     <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000 <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 显卡
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        <b>性能提升</b>
+      </para>
+	  <para>
+	  NVIDIA<reg/> RTX<tm/> A6000 是适用于台式工作站的强大视觉计算 GPU，能帮助实现新一代革命性设计、科研突破和沉浸式娱乐。凭借其超强的性能和功能，RTX<tm/> A6000 能让您的工作跟上灵感涌现的速度，以应对当今紧迫的需求，并迎接未来快速发展的计算密集型任务。
+  </para>   
+   </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+        显卡
+      </product:techspec>
+      <product:techspec id="2" name="记忆">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+	    
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

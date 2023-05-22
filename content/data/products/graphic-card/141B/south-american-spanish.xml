@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+     <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000 <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> Tarjeta grafica
+    </product:name>
+
+    <product:longdesc>
+      <para>
+       <b> Rendimiento Amplificado</b>
+	   </para>
+	   <para>
+	   Desbloquea la próxima generación de diseños revolucionarios, avances científicos y experiencias de entretenimiento cautivantes con NVIDIA<reg/> RTX<tm/> A6000, la GPU de computación visual más potente del mundo para workstations de desktops. Con las funciones y el rendimiento de vanguardia, la RTX<tm/> A6000 te permite trabajar a la velocidad de la inspiración para cumplir con las urgentes necesidades de la actualidad y 
+	   completar las tareas que requieren mucha computación y en rápida evolución del mañana.</para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Tarjeta grafica
+      </product:techspec>
+      <product:techspec id="2" name="Memoria">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+	    
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

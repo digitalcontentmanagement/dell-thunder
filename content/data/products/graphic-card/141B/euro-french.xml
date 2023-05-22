@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+       <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Carte graphique NVIDIA<reg/> A6000 <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        <b>Performances amplifiées</b>
+		</para>
+		<para>Accélérez l’avènement d’une nouvelle génération de découvertes scientifiques, de projets révolutionnaires et de programmes de divertissement immersifs grâce à la carte graphique NVIDIA<reg/> RTX<tm/> A6000, qui constitue la solution d’informatique visuelle la plus puissante au monde pour les stations de travail de bureau. 
+		Grâce à ses performances exceptionnelles et à ses fonctionnalités à la pointe de la technologie, la RTX<tm/> A6000 vous permet de donner libre cours à votre inspiration, 
+		mais aussi de répondre aux différentes demandes de vos clients dès aujourd’hui tout en vous mettant en œuvre les ressources de calcul dont vous aurez besoin demain.
+		</para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type d'appareil">
+        Carte graphique
+      </product:techspec>
+      <product:techspec id="2" name="Mémoire">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA Tesla Graphic Card</meta:title>
+    <meta:date value="2017-11-02" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="8" refid="2"/><dropdownlist refid="unit-byte"/> NVIDIA<reg/> Tesla<reg/> <textbox value="P4" id="1"/> Grafikkort
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Udfør dine mest krævende workloads til HPC, hyperskaleringer og i virksomhedens datacentre hurtigere med NVIDIA<reg/> Tesla<reg/> GPU-acceleratorer.
+      </para>
+      <para>
+        Forskere kan nu tygge sig igennem flere petabyte data hurtigere end med CPU'er i programmer, der spænder fra energiforskning til detaljeret undervisning. Og Tesla-acceleratorer leverer den ydeevne, der kræves for at køre større simuleringer hurtigere end nogensinde før. For virksomheder, der implementerer VDI, er Tesla-acceleratorer perfekte til at optimere stationære virtuelle pc'er til enhver bruger, hvor som helst.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Enhedstype">
+        Grafikkort
+      </product:techspec>
+      <product:techspec id="2" name="Hukommelse">
+        <textbox value="8" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

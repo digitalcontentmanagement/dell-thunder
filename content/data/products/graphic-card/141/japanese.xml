@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA Tesla Graphic Card</meta:title>
+    <meta:date value="2017-11-02" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デル製 <textbox value="8" refid="2"/><dropdownlist refid="unit-byte"/> NVIDIA<reg/> Tesla<reg/> <textbox value="P4" id="1"/> グラフィックスカード
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        最も性能が要求される HPC、ハイパースケール、エンタープライズ データセンターにおける作業負荷を、NVIDIA<reg/> Tesla<reg/> GPU アクセラレータで高速化してください。
+      </para>
+      <para>
+        科学者の方が、エネルギー調査から機械学習に至るまでのアプリケーションにおいて、数ペタバイトにもおよぶデータを CPU の場合と比較して最大で高速処理できるようになりました。さらに Teslaアクセラレータが、より大きなシミュレーションを実行する際に必要とされる処理能力を、かってなかった速度で提供します。VDI の導入を考慮している企業にとって、Teslaアクセラレータは、場所がどこであれ全てのユーザーのために仮想デスクトップを高速化するのに最適です。
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="デバイスタイプ">
+        グラフィックスカード
+      </product:techspec>
+      <product:techspec id="2" name="メモリ">
+        <textbox value="8" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

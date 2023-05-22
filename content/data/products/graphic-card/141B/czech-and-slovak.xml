@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000 <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> Grafická karta
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        <b>Znásobený výkon</b>
+      </para>
+	  <para>
+	  Dosáhnete nové generace revolucních návrhu, prulomových vedeckých objevu a skvelé zábavy s nejvýkonnejší grafickou kartou pro stolní pracovní stanice – NVIDIA<reg/> RTX<tm/> A6000. 
+	  S pomocí špickového výkonu a funkcí vám grafická karta RTX<tm/> A6000 umožní pracovat inspirativní rychlostí – 
+	  s ní dokážete naplnit naléhavé potreby dneška a zvládnout rychle se rozvíjející, výpocetne nárocné úkoly zítrka.
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ zařízení">
+        Grafická karta
+      </product:techspec>
+      <product:techspec id="2" name="Paměť">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

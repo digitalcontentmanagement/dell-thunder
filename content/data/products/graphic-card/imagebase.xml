@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+   <image:folder name="graphic-card">
+    <!-- Start of subclasses -->
+	 <image:folder name="141B">
+    <image:image name="A6000 ">
+      <image:location>A6000</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>NVIDIA A6000 Graphic Card</image:description>
+      <image:caption>NVIDIA A6000 Graphic Card</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+  </image:folder>
+	
+	 <image:folder name="141C">
+    <image:image name="AMD">
+      <image:location>AMD</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>AMD Instinct MI210 Accelerator</image:description>
+      <image:caption>AMD Instinct MI210 Accelerator</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+  </image:folder>
+	
+  <image:folder name="141">
+    <image:image name="NVIDIA Tesla Graphic Card">
+      <image:location>NVIDIA Tesla Graphic Card</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell NVIDIA Tesla Graphic Card</image:description>
+      <image:caption>Dell NVIDIA Tesla Graphic Card</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+  </image:folder>
+  <image:folder name="141A">
+    <image:image name="Quadro P400">
+      <image:location>Quadro P400</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>NVIDIA Quadro P400</image:description>
+      <image:caption>NVIDIA Quadro P400</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="Quadro P600">
+      <image:location>Quadro P600</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>NVIDIA Quadro P600</image:description>
+      <image:caption>NVIDIA Quadro P600</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="Quadro P1000">
+      <image:location>Quadro P1000</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>NVIDIA Quadro P1000</image:description>
+      <image:caption>NVIDIA Quadro P1000</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="Quadro P2000">
+      <image:location>Quadro P2000</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>NVIDIA Quadro P2000</image:description>
+      <image:caption>NVIDIA Quadro P2000</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="Quadro P5000">
+      <image:location>Quadro P5000</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>NVIDIA Quadro P5000</image:description>
+      <image:caption>NVIDIA Quadro P5000</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="Quadro P6000">
+      <image:location>Quadro P6000</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>NVIDIA Quadro P6000</image:description>
+      <image:caption>NVIDIA Quadro P6000</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+  </image:folder>
+  
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>

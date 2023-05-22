@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA Tesla Graphic Card</meta:title>
+    <meta:date value="2017-11-02" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="8" refid="2"/><dropdownlist refid="unit-byte"/> NVIDIA<reg/> Tesla<reg/> <textbox value="P4" id="1"/> Näytönohjain
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Nopeuta vaativaa HPC-tietokoneen, hyperkoon ja yrityksen konesalin työkuormia NVIDIA<reg/> Tesla<reg/> GPU -kiihdyttimillä.
+      </para>
+      <para>
+        Nyt tiedemiehet voivat käsitellä esimerkiksi energiatutkimuksen tai syväoppimisen petatavujen kokoisia datamääriä nopeammin kuin tavallisilla suorittimilla. Lisäksi Tesla-kiihdyttimet tarjoavat raakaa tehoa, jota tarvitaan laajoissa simuloinneissa, kun nopeudella on merkityksensä. VDI-tekniikkaa käyttäville yrityksille Tesla-kiihdyttimet ovat täydellinen ratkaisu nopeutettaessa kaikkien käyttäjien virtuaalisia työpöytiä, kaikkialla.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Laitetyyppi">
+        Näytönohjain
+      </product:techspec>
+      <product:techspec id="2" name="Muisti">
+        <textbox value="8" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

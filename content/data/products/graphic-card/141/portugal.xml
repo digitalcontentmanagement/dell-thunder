@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA Tesla Graphic Card</meta:title>
+    <meta:date value="2017-11-02" />
+    <meta:creator value="Nicole"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="8" refid="2"/><dropdownlist refid="unit-byte"/> NVIDIA<reg/> Tesla<reg/> <textbox value="P4" id="1"/> Placa de vídeo
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Impulsione as suas cargas de trabalho de centros de dados empresariais, em "hyperscale" e HPC mais exigentes com os aceleradores de GPU NVIDIA<reg/> Tesla<reg/>.
+      </para>
+      <para>
+        Os cientistas podem agora processar petabytes de dados mais rápido do que com CPU em aplicações que vão desde a exploração energética à aprendizagem profunda. Além disso, os aceleradores Tesla proporcionam a potência necessária para executar maiores simulações mais rapidamente do que nunca. Para a implementação de VDI em empresas, os aceleradores Tesla são perfeitos para impulsionar desktops virtuais para qualquer utilizador, em qualquer lugar.
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Placa de vídeo
+      </product:techspec>
+      <product:techspec id="2" name="Memória">
+        <textbox value="8" id="2"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

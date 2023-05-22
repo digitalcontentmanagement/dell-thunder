@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+      <meta:title>NVIDIA A6000 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> A6000 <textbox value="48" refid="2"/> <dropdownlist refid="unit-byte"/> Grafische kaart
+    </product:name>
+
+    <product:longdesc>
+      <para>
+      <b> Versterkte prestaties.</b>
+      </para>
+	  <para>
+	  Maak kennis met de revolutionaire ontwerpen, wetenschappelijke doorbraken en overweldigende entertainment van de volgende generatie met de NVIDIA<reg/> RTX<tm/> A6000, de krachtigste GPU voor visuele computing voor desktopwerkstations. De RTX<tm/> A6000 biedt geavanceerde prestaties en functies waarmee u razendsnel 
+	  kunt werken om de urgente behoeften van vandaag het hoofd te kunnen bieden en te voldoen aan de snel veranderende, computerintensieve taken van de toekomst.
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Soort apparaat">
+        Grafische kaart
+      </product:techspec>
+      <product:techspec id="2" name="Geheugen">
+        <textbox value="48" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

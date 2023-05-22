@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+      <meta:title>AMD MI210 Graphics Card</meta:title>
+    <meta:date value="2022-08-10"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> AMD <textbox value="M1210" id="4"/> <textbox value="300W" id="3"/> <textbox value="PCIe" id="5"/> <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 
+	 <textbox value="被动" id="7"/> <dropdownlist id="features-AMD"/> <dropdownlist id="adapters-443-b"/> GPU <dropdownlist id="customer-kit"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        AMD Instinct<tm/> <textbox value="M1210" refid="4"/> 加速器：将百亿亿级计算技术引入主流级高性能计算和人工智能服务器，助力加快科学探索，同时为企业创造商业价值。
+
+  </para>   
+   </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="设备类型">
+        显卡
+      </product:techspec>
+      <product:techspec id="2" name="记忆">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+	    
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
