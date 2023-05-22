@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname"></xsp:string>
+  <xsp:string id="longdescription"></xsp:string>
+  <xsp:string id="highlights"></xsp:string>
+  <xsp:string id="techspecs"></xsp:string>
+
+  <xsp:string id="compatibility">Compatibilidad</xsp:string>
+  <xsp:string id="warranty">Garantía</xsp:string>
+  <xsp:string id="technicalsupport">Soporte técnico</xsp:string>
+  <xsp:string id="quality">Calidad</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Dell readaptadas:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intel readaptadas:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Garantía</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">Nuestra garantía limitada de por vida garantiza que si la memoria Dell falla alguna vez, la reemplazaremos.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">La memoria de las computadoras readaptadas viene con una garantía de soporte de Dell de 90 días.</xsp:string>
+  <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">Nuestra garantía limitada de un año garantiza que si Dell falla alguna vez, la reemplazaremos.</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">Incluye 1 año de garantía y soporte de Dell</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Nuestra garantía limitada de por vida garantiza que si la memoria Dell falla alguna vez, la reemplazaremos.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Incluye 1 año de garantía y soporte de Dell</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">Nuestra garantía limitada de un año garantiza que si la memoria Dell falla alguna vez, la reemplazaremos.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">Garantía de 90 días</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Tenga en cuenta que este producto de reemplazo está readaptado. Dell ofrece una garantía de 90 días para todos los productos readaptados.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Garantía limitada de por vida</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">Garantía de 90 días</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 año de garantía y soporte</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1 año de garantía y soporte</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">1 año de garantía y soporte</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Garantía limitada de por vida</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">Garantía de 90 días</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Las piezas de repuesto readaptadas son piezas recuperadas de sistemas marca Dell que se han devuelto, algunas de las cuales nunca han sido utilizadas. Se certifica que todas las piezas de repuesto readaptadas de Dell cumplen con todas las especificaciones de rendimiento originales de fábrica de Dell, y vienen con una garantía limitada de hardware de 90 días.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>

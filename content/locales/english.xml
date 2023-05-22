@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+  <xsp:string id="genericcontent">Generic Content</xsp:string>
+  <xsp:string id="productname">Product Name:</xsp:string>
+  <xsp:string id="longdescription">Long Description:</xsp:string>
+  <xsp:string id="highlights">Product Highlights:</xsp:string>
+  <xsp:string id="techspecs">Technical Specifications:</xsp:string>
+
+  <xsp:string id="compatibility">Compatibility</xsp:string>
+  <xsp:string id="warranty">Warranty</xsp:string>
+  <xsp:string id="technicalsupport">Technical Support</xsp:string>
+  <xsp:string id="quality">Quality</xsp:string>
+  <xsp:string id="features">Features and Benefit</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Dell Refurbished:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intel Refurbished:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Warranty</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">Our Limited One Year Warranty guarantees that if our Genuine Dell-branded parts should fail, we will replace them.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">Refurbished comes with a 90 day Dell Supported Warranty.</xsp:string>
+ <xsp:string id="warrantycontentca" filter="'$(sku.type)' $in$ ['customer-kit']$and$ '$(locale.region)' $in$ ['ca']">For more information about warranties,please click here: <link ref="https://www.dell.com/learn/ca/en/cacorp1/terms-of-sale-consumer-service-contracts">www.dell.com/warranty</link></xsp:string>
+  
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 year Dell warranty and support included</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Our Limited Lifetime Warranty guarantees that if our Dell memory should ever fail, we will replace it.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Dell Branded Memory carries a 1 Year warranty or the system warranty whichever is greater.</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']"> Our Limited One Year Warranty guarantees that if our Dell memory should ever fail, we will replace it.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90 day Dell warranty and support included</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Please note that this replacement product is refurbished. Dell provides a warranty of 90 days on all refurbished products.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Limited Lifetime Warranty</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90 day Warranty</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 Year Warranty</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1 Year Warranty</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Dell Branded Memory carries a 1 Year warranty or the system warranty whichever is greater.</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Limited Lifetime Warranty</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90 Day Warranty</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Refurbished Spare Parts are parts retrieved from Dell-branded systems that have been returned, some of which have never been used. All Dell refurbished spare parts are certified to comply with all original Dell factory performance specifications and come with a 90-day limited hardware warranty.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+  
+  <!--// Start of Omni Path Cable F&B For APJ Only -->
+  <xsp:string id="features4" filter="'$(locale.region)' $in$ ['apj']['us']['ca']['la']">Active Optical Cable</xsp:string>
+   <xsp:string id="features1" filter="'$(locale.region)' $in$ ['apj', 'us', 'ca', 'la']">Hot Pluggable QSFP form factor</xsp:string>
+   <!--// Start of Omni Path Direct Copper F&B For Apj only -->
+   <xsp:string id="features2" filter="'$(locale.region)' $in$ ['apj', 'us', 'ca', 'la']"> Direct Attached Copper Cables</xsp:string>
+   <xsp:string id="features3" filter="'$(locale.region)' $in$ ['apj', 'us', 'ca', 'la']"> Low power consumption and low crosstalk</xsp:string>
+   
+   <!--// Start of Active Optical Cable F&B For APJ, US, CA & LATAM -->
+   <xsp:string id="features5" filter="'$(locale.region)' $in$ ['apj', 'us', 'ca', 'la']">Perfect for high density environments that require a lighter weight, smaller radius cable with a more flexible bend radius</xsp:string>
+   
+</xsp:stringtable>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname"></xsp:string>
+  <xsp:string id="longdescription"></xsp:string>
+  <xsp:string id="highlights"></xsp:string>
+  <xsp:string id="techspecs"></xsp:string>
+
+  <xsp:string id="compatibility">Kompatibilitet</xsp:string>
+  <xsp:string id="warranty">Serviceavtale</xsp:string>
+  <xsp:string id="technicalsupport">Teknisk kundestøtte</xsp:string>
+  <xsp:string id="quality">Kvalitet</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Dell Refurbished:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intel Refurbished:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Serviceavtale</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">Vår <b>begrensede livstidsgaranti</b> garanterer at hvis Dell-minnet skulle svikte, erstatter vi det med et nytt.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">Renovert minne leveres med 90-dagers service fra Dell.</xsp:string>
+  <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">Vår Én års begrensede maskinvareservice sikrer at ekte Dell-deler som svikter, erstattes.</xsp:string>
+  
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">Ett års service og støtte fra Dell er inkludert</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Vår <b>begrensede livstidsgaranti</b> garanterer at hvis Dell-minnet skulle svikte, erstatter vi det med et nytt.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Ett års service og støtte fra Dell er inkludert</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">Vår Én års begrensede livstidsgaranti garanterer at hvis Dell-minnet skulle svikte, erstatter vi det med et nytt.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90-dagers service fra Dell</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Vær oppmerksom på at dette produktet er reparert. Dell tilbyr en serviceavtale på 90 dager for alle reparerte produkter.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Begrenset livstidsgaranti</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90-dagers service</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">Ett års støtte</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Ett års støtte</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Ett års støtte</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Begrenset livstidsgaranti</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90-dagers service</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Reparerte reservedeler er hentet fra Dell-systemer som er returnert, og enkelte av systemene er aldri blitt brukt. Alle reparerte Dell-deler samsvarer med de originale ytelsesspesifikasjonene fra Dell og leveres med begrenset maskinvareservice på 90 dager.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>

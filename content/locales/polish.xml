@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname"></xsp:string>
+  <xsp:string id="longdescription"></xsp:string>
+  <xsp:string id="highlights"></xsp:string>
+  <xsp:string id="techspecs"></xsp:string>
+
+  <xsp:string id="compatibility">Zgodność</xsp:string>
+  <xsp:string id="warranty">Gwarancja</xsp:string>
+  <xsp:string id="technicalsupport">Pomoc techniczna</xsp:string>
+  <xsp:string id="quality">Jakość</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Odnowiony produkt firmy Dell:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Odnowiony produkt firmy Intel:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Gwarancja</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']"><b>Ograniczona wieczysta gwarancja</b> zapewnia wymianę pamięci Dell w przypadku usterki.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">Odnowiona pamięć jest dostarczana z 90-dniową gwarancją firmy Dell.</xsp:string>
+  <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">Nasza ograniczona roczna gwarancja zapewnia wymianę oryginalnych części firmy Dell w przypadku usterki.</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">Roczna gwarancja i pomoc techniczna firmy Dell w pakiecie</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']"><b>Ograniczona wieczysta gwarancja</b> zapewnia wymianę pamięci Dell w przypadku usterki.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Roczna gwarancja i pomoc techniczna firmy Dell w pakiecie</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">Nasza ograniczona roczna gwarancja zapewnia wymianę pamięci Dell w przypadku usterki.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90-dniowa gwarancja</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Należy pamiętać, że ten produkt zamienny jest urządzeniem odnowionym. Wszystkie produkty odnowione są objęte 90-dniową gwarancją firmy Dell.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Ograniczona wieczysta gwarancja</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90-dniowa gwarancja</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">Roczna gwarancja</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Roczna gwarancja</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Roczna gwarancja</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Ograniczona wieczysta gwarancja</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90-dniowa gwarancja</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Odnowione części zamienne to części pozyskane z systemów marki Dell, które zostały zwrócone — niektóre z nich nigdy nie były używane. Wszystkie odnowione części zamienne firmy Dell mają certyfikat zgodności z fabrycznymi parametrami wydajności firmy Dell i są objęte 90-dniową ograniczoną gwarancją na sprzęt.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>

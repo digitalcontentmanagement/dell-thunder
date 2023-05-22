@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname"></xsp:string>
+  <xsp:string id="longdescription"></xsp:string>
+  <xsp:string id="highlights"></xsp:string>
+  <xsp:string id="techspecs"></xsp:string>
+
+  <xsp:string id="compatibility">Yhteensopivuus</xsp:string>
+  <xsp:string id="warranty">Takuu</xsp:string>
+  <xsp:string id="technicalsupport">Tekninen tuki</xsp:string>
+  <xsp:string id="quality">Laatu</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Dellin kunnostetut varaosat:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intel kunnostetut varaosat:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Takuu</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']"><b>Rajoitettu elinikäinen takuu</b> varmistaa, että jos Dell-muisti vioittuu, vaihdamme sen.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">Kunnostetulla muistilla on 90 päivän Dell-takuu.</xsp:string>
+   <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">Dellin rajoitettu Yksi vuoden takuu varmistaa, että jos aidot Dell-osat vioittuvat, ne vaihdetaan.</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 vuoden Dell-takuu ja –tuki</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']"><b>Rajoitettu elinikäinen takuu</b> varmistaa, että jos Dell-muisti vioittuu, vaihdamme sen.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">1 vuoden Dell-takuu ja –tuki</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">rajoitettu Yksi vuoden takuu varmistaa, että jos Dell-muisti vioittuu, vaihdamme sen.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90 päivän Dell-takuu</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Huomaa, että tämä korvaava tuote on kunnostettu. Dell tarjoaa 90 päivän takuun kaikille kunnostetuille tuotteille.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Rajoitettu elinikäinen takuu</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90 päivän takuu</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 vuoden-takuu</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1 vuoden-takuu</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">1 vuoden-takuu</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Rajoitettu elinikäinen takuu</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90 päivän takuu</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Kunnostetut varaosat on poimittu Dell-tuotemerkillä varustetuista järjestelmistä, jotka on palautettu tai joita ei välttämättä ole koskaan edes käytetty. Kaikki Dellin kunnostetut varaosat on sertifioitu vastaamaan kaikkia alkuperäisiä Dellin suorituskykymäärityksiä, ja niillä on 90 päivän rajoitettu laitteistotakuu.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>

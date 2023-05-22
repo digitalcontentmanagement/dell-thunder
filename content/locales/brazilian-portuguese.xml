@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname"></xsp:string>
+  <xsp:string id="longdescription"></xsp:string>
+  <xsp:string id="highlights"></xsp:string>
+  <xsp:string id="techspecs"></xsp:string>
+
+  <xsp:string id="compatibility">Compatibilidade</xsp:string>
+  <xsp:string id="warranty">Garantia</xsp:string>
+  <xsp:string id="technicalsupport">Suporte técnico</xsp:string>
+  <xsp:string id="quality">Qualidade</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Dell Refurbished:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intel Refurbished:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Garantia</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">Nossa <b>garantia vitalícia limitada</b> garante que substituiremos a memória da Dell em caso de falhas.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">A memória recondicionada vem com uma garantia da Dell com suporte de 90 dias.</xsp:string>
+   <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">Nossa Garantia limitada de um ano garante que substituiremos peças originais da Dell que apresentarem defeito.</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">Nossa 1 ano de garantia Dell com suporte incluído</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Nossa <b>garantia vitalícia limitada</b> garante que substituiremos a memória da Dell em caso de falhas.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Nossa 1 ano de garantia Dell com suporte incluído</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']"> Nossa Garantia limitada de um ano garante que substituiremos a memória da Dell em caso de falhas.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">garantia da Dell com suporte de 90 dias</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Este produto sobressalente é recondicionado. A Dell oferece uma garantia de 90 dias em todos os produtos recondicionados.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Garantia vitalícia limitada</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90 dias de garantia</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 ano de garantia</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1 ano de garantia</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">1 ano de garantia</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Garantia vitalícia limitada</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90 dias de garantia</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Peças sobressalentes recondicionadas são peças recuperadas de sistemas da marca Dell que foram devolvidos. Algumas dessas peças nunca foram usadas. Todas as peças sobressalentes recondicionadas da Dell são certificadas e estão em conformidade com todas as especificações de desempenho originais de fábrica da Dell e são fornecidas com uma garantia limitada de hardware de 90 dias.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>
+

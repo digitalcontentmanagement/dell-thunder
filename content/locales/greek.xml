@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname"></xsp:string>
+  <xsp:string id="longdescription"></xsp:string>
+  <xsp:string id="highlights"></xsp:string>
+  <xsp:string id="techspecs"></xsp:string>
+
+  <xsp:string id="compatibility">Συμβατότητα</xsp:string>
+  <xsp:string id="warranty">Εγγύηση</xsp:string>
+  <xsp:string id="technicalsupport">Τεχνική υποστήριξη</xsp:string>
+  <xsp:string id="quality">Ποιότητα</xsp:string>
+  
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Ανακαινισμένο προϊόν Dell:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Ανακαινισμένο προϊόν Intel:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Εγγύηση</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">Η <b>Περιορισμένη εγγύηση εφ' όρου ζωής</b> εγγυάται ότι εάν η μνήμη της Dell υποστεί ποτέ κάποια βλάβη, θα την αντικαταστήσουμε.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">Οι ανακαινισμένες μνήμες συνοδεύονται από Εγγύηση με την υποστήριξη της Dell διάρκειας 90 ημερών.</xsp:string>
+  <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">Η περιορισμένη εγγύηση Ενός έτους που διαθέτουμε εγγυάται ότι σε περίπτωση βλάβης των αυθεντικών ανταλλακτικών Dell, θα τα αντικαταστήσουμε.</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">Περιλαμβάνεται εγγύηση και υποστήριξη Dell διάρκειας 1 έτους</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Η <b>Περιορισμένη εγγύηση εφ' όρου ζωής</b> εγγυάται ότι εάν η μνήμη της Dell υποστεί ποτέ κάποια βλάβη, θα την αντικαταστήσουμε.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Περιλαμβάνεται εγγύηση και υποστήριξη Dell διάρκειας 1 έτους</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">Η περιορισμένη εγγύηση Ενός έτους εφ' όρου ζωής εγγυάται ότι εάν η μνήμη της Dell υποστεί ποτέ κάποια βλάβη, θα την αντικαταστήσουμε.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">Εγγύηση με την υποστήριξη της Dell διάρκειας 90 ημερών </xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Σημειώστε ότι αυτό το προϊόν αντικατάστασης είναι ανακαινισμένο. Η Dell παρέχει εγγύηση 90 ημερών για όλα τα ανακαινισμένα προϊόντα.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Περιορισμένη εγγύηση εφ' όρου ζωής</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">Εγγύηση 90 ημερών</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">εγγύηση και υποστήριξη διάρκειας 1 έτους</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">εγγύηση και υποστήριξη διάρκειας 1 έτους</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">εγγύηση και υποστήριξη διάρκειας 1 έτους</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Περιορισμένη εγγύηση εφ' όρου ζωής</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">Εγγύηση 90 ημερών</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Τα ανακαινισμένα ανταλλακτικά είναι εξαρτήματα που έχουν ανακτηθεί από επώνυμα συστήματα Dell που έχουν επιστραφεί και ορισμένα από αυτά δεν έχουν χρησιμοποιηθεί ποτέ. Όλα τα ανακαινισμένα ανταλλακτικά της Dell διαθέτουν πιστοποίηση συμμόρφωσης με όλες τις αρχικές εργοστασιακές προδιαγραφές απόδοσης της Dell και συνοδεύονται από Περιορισμένη εγγύηση υλικού διάρκειας 90 ημερών.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>

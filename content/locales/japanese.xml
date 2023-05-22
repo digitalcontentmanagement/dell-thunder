@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname">製品名:</xsp:string>
+  <xsp:string id="longdescription">説明:</xsp:string>
+  <xsp:string id="highlights">製品の特長:</xsp:string>
+  <xsp:string id="techspecs">技術仕様:</xsp:string>
+
+  <xsp:string id="compatibility">互換性</xsp:string>
+  <xsp:string id="warranty">保証</xsp:string>
+  <xsp:string id="technicalsupport">テクニカルサポート</xsp:string>
+   <xsp:string id="features">製品の特長</xsp:string>
+<xsp:string id="quality">品質</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">デルの再製品:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intelの再製品:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">保証</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">デルの<b>ライフタイム限定保証</b>に基づき、デル製メモリが万が一故障した場合は交換します。</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">再製メモリには、90日間のデルサポート保証が付属しています。</xsp:string>
+   <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">デルの1年間の限定保証は、正規のデル製パーツに障害が発生した場合の交換を保証します。</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1年間のデルの保証とサポートが含まれます</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">デルの<b>ライフタイム限定保証</b>に基づき、デル製メモリが万が一故障した場合は交換します。</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">デルのブランドのメモリには、1年間の保証またはシステム保証のいずれか長い方が付属しています。</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">デルの1年間の限定保証は、デル製メモリが万が一故障した場合は交換します。</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90日間のデルサポート保証が付属しています。</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">この交換用製品は、再製品であることにご注意ください。 デルの再製品の保証期間はすべて90日です</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">無期限の制限付き保証</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90日保証</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1年間の保証</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1年間の保証</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">デルのブランドのメモリには、1年間の保証またはシステム保証のいずれか長い方が付属しています。</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">無期限の制限付き保証</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90日保証</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">再製された修理用パーツは、返品されたデルブランドのシステム（未使用品を含む）から回収されたパーツです。 すべてのデル再製修理用パーツは、オリジナルのデルファクトリーパフォーマンス仕様すべてに準拠していることが認定されており、90日間のハードウェア限定保証が付属しています。</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+  
+   <!--// Start of Omni Path Cable F&B For APJ Only -->
+  <xsp:string id="features">アクティブオプティカルケーブル </xsp:string>
+   <xsp:string id="features1">ホットプラグ対応QSFPフォームファクタ </xsp:string>
+</xsp:stringtable>

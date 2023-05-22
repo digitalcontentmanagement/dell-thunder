@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname"></xsp:string>
+  <xsp:string id="longdescription"></xsp:string>
+  <xsp:string id="highlights"></xsp:string>
+  <xsp:string id="techspecs"></xsp:string>
+
+  <xsp:string id="compatibility">Compatibiliteit</xsp:string>
+  <xsp:string id="warranty">Garantie</xsp:string>
+  <xsp:string id="technicalsupport">Technische support</xsp:string>
+  <xsp:string id="quality">Kwaliteit</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Dell gereviseerd:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intel gereviseerd:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Garantie</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">Onze <b>levenslange beperkte garanties</b> garanderen dat wij uw Dell geheugen vervangen wanneer uw Dell geheugen het zou begeven.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">Gereviseerd geheugen wordt geleverd met een ondersteunde Dell garantie van 90 dagen.</xsp:string>
+  <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">Onze beperkte garantie van Eén jaar garandeert u dat als uw originele onderdelen van Dell kapot gaan, wij die vervangen</xsp:string>
+  
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">inclusief 1 jaar Dell garantie en support</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Onze <b>levenslange beperkte garanties</b> garanderen dat wij uw Dell geheugen vervangen wanneer uw Dell geheugen het zou begeven.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">inclusief 1 jaar Dell garantie en support</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">Onze beperkte garantie van Eén jaar garandeert dat wij uw Dell geheugen vervangen wanneer uw Dell geheugen het zou begeven.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">ondersteunde Dell garantie van 90 dagen</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Houd er rekening mee dat di-t vervangende product is gereviseerd. Dell biedt 90 dagen garantie op alle gereviseerde producten.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Levenslange beperkte garantie</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">Garantie van 90 dagen</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 jaar garantie</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1 jaar garantie</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">1 jaar garantie</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Levenslange beperkte garantie</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">Garantie van 90 dagen</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Gereviseerde reserveonderdelen zijn afkomstig uit Dell systemen die zijn geretourneerd. Sommige van deze onderdelen zijn nog nooit gebruikt. Alle gereviseerde onderdelen van Dell zijn gecertificeerd en voldoen aan dezelfde Dell prestatiespecificaties als af fabriek geleverde onderdelen. Ze worden geleverd met een beperkte hardwaregarantie van 90 dagen.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>

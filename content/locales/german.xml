@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname"></xsp:string>
+  <xsp:string id="longdescription"></xsp:string>
+  <xsp:string id="highlights"></xsp:string>
+  <xsp:string id="techspecs"></xsp:string>
+
+  <xsp:string id="compatibility">Kompatibilität</xsp:string>
+  <xsp:string id="warranty">Service</xsp:string>
+  <xsp:string id="technicalsupport">Technischer Support</xsp:string>
+  <xsp:string id="quality">Qualität</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">von Dell generalüberholt:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">von Intel generalüberholt:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">Service</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">Durch die Dell <b>Limited Lifetime Warranty</b> haben Sie die Sicherheit, dass Ihr Arbeitsspeicher bei einem Ausfall ersetzt wird.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">Für generalüberholten Arbeitsspeicher bietet Dell 90 Tage Support-Service.</xsp:string>
+  <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">Mit dem begrenzten 1-jährigen Service von Dell haben Sie die Sicherheit, dass Originalteile von Dell bei einem Ausfall ausgetauscht werden.</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 Jahr Dell Service und Support inbegriffen</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">Durch die Dell <b>Limited Lifetime Warranty</b> haben Sie die Sicherheit, dass Ihr Arbeitsspeicher bei einem Ausfall ersetzt wird.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">1 Jahr Dell Service und Support inbegriffen</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">Mit dem begrenzten 1-jährigen Service von Dell haben Sie die Sicherheit, dass Ihr Arbeitsspeicher bei einem Ausfall ersetzt wird.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">Dell 90 Tage Support-Service.</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">Bitte beachten Sie, dass dieses Ersatzteil generalüberholt ist. Dell bietet 90 Tage Service für alle generalüberholten Produkte an.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">Limited Lifetime Warranty</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90-Tage-Service</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 Jahr Dell Service und Support</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1 Jahr Dell Service und Support</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">1 Jahr Dell Service und Support</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">Limited Lifetime Warranty</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90-Tage-Service</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">Generalüberholte Ersatzteile stammen aus zurückgegebenen Geräten der Marke Dell. Manche dieser Geräte wurden nie eingesetzt. Alle generalüberholten Dell Ersatzteile werden zertifiziert, um sicherzustellen, dass sie allen ursprünglichen Dell Werkleistungsvorgaben entsprechen, und werden mit 90 Tagen begrenztem Hardware-Service geliefert.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname">產品名稱:</xsp:string>
+  <xsp:string id="longdescription">詳細說明:</xsp:string>
+  <xsp:string id="highlights">產品特點:</xsp:string>
+  <xsp:string id="techspecs">技術規格:</xsp:string>
+
+  <xsp:string id="compatibility">相容性</xsp:string>
+  <xsp:string id="warranty">保固</xsp:string>
+  <xsp:string id="technicalsupport">技術支援</xsp:string>
+  <xsp:string id="quality">品質</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">戴爾整新品:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intel整新品:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">保固</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']">我們的終<b>身有限保固</b>可提供保證，只要戴爾記憶體發生故障，我們會立即為您更換。</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">已整新的記憶體隨附 90 天戴爾支援保固。</xsp:string>
+   <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">我們的一年有限保固，保證當正版 Dell 品牌零件故障時會予以更換。</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">包含為期 1 年的 Dell 保固和支援</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">我們的終<b>身有限保固</b>可提供保證，只要戴爾記憶體發生故障，我們會立即為您更換。</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">DELL品牌內存享有1年保修期或系統保修期，以時間較長的為準。</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">我們的一年有限保固，保證當正版 只要 Dell 記憶體發生故障，我們會立即為您更換。</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90 天保固</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">請注意，此更換產品是整新品。戴爾為所有已整新產品提供 90 天保固。</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']"> 終身有限保固</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90 天保固</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1 年的保固</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1 年的保固</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">DELL品牌內存享有1年保修期或系統保修期，以時間較長的為準。</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">終身有限保固</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90 天保固</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">「已整新備用零件」指的是從退貨的戴爾品牌系統中回收的零件，這些零件有的從未使用過。 所有的戴爾整新備用零件皆已通過認證，符合所有戴爾原廠效能規定，並提供 90 天的有限硬體保固。</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>

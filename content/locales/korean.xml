@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsp:stringtable xmlns:xsp="http://www.dell.com/thunder/stringtable" xmlns:doc="uri:doc">
+
+  <xsp:string id="productname">제품 이름:</xsp:string>
+  <xsp:string id="longdescription">Long Description:</xsp:string>
+  <xsp:string id="highlights">제품 특징:</xsp:string>
+  <xsp:string id="techspecs">기술 사양:</xsp:string>
+
+  <xsp:string id="compatibility">호환성</xsp:string>
+  <xsp:string id="warranty">무상수리</xsp:string>
+  <xsp:string id="technicalsupport">기술 지원</xsp:string>
+  <xsp:string id="quality">서비스</xsp:string>
+
+  <!-- Start of Customer kit & Spare Parts -->
+  <xsp:string id="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Dell 리퍼비시:</xsp:string>
+  <xsp:string id="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']">Intel 리퍼비시:</xsp:string>
+  <xsp:string id="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']">무상수리</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['customer-kit']"><b>수명 기간 내 무상수리</b> 가 제공되므로 이 기간 내에 Dell 메모리에 장애가 발생하면 즉시 교체해 드립니다.</xsp:string>
+  <xsp:string id="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']">리퍼비시 메모리는 90일 Dell 지원 무상수리와 함께 제공.</xsp:string>
+  <xsp:string id="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']">1개년의 무상수리 기간 내 정품 Dell 브랜드 부품에 장애가 발생하면 즉시 교체해 드립니다.</xsp:string>
+
+  <!--// Start of Memory F & B -->
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1년간 제공되는 Dell 무상수리 및 지원 포함</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']"><b>수명 기간 내 무상수리</b> 가 제공되므로 이 기간 내에 Dell 메모리에 장애가 발생하면 즉시 교체해 드립니다.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Dell 메모리에는 1년 무상수리 기간 또는 시스템 무상수리 기간 중 더 긴 기간이 적용됩니다.</xsp:string>
+  <xsp:string id="warrantycontent4" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'apj','global']">1개년의 무상수리 기간 내 정품 Dell 메모리에 장애가 발생하면 즉시 교체해 드립니다.</xsp:string>
+  <xsp:string id="warrantycontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90일 Dell 지원 무상수리</xsp:string>
+  <!--// End of Memory F & B -->
+  
+  <xsp:string id="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']">이 교체 제품은 리퍼비시 제품입니다. Dell은 모든 리퍼비시 제품에 90일 무상수리 지원을 제공합니다.</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['customer-kit']">수명 기간 내 무상수리</xsp:string>
+  <xsp:string id="warrantytechspeccontent" filter="'$(sku.type)' $in$ ['spare-parts']">90일 무상수리</xsp:string>
+
+  <!--// Start of Memory Techspecs -->
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $eq$ ['^[3-4].+']">1년간 제공 무상수리</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(sku.format)' $not$ $eq$ ['^([3-4]|A).+']">1년간 제공 무상수리</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['apj'] $and$ '$(sku.format)' $eq$ ['^A.+']">Dell 메모리에는 1년 무상수리 기간 또는 시스템 무상수리 기간 중 더 긴 기간이 적용됩니다.</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['customer-kit'] $and$ '$(locale.region)' $in$ ['emea', 'us', 'ca', 'la', 'global'] $and$ '$(sku.format)' $eq$ ['^A.+']">수명 기간 내 무상수리</xsp:string>
+  <xsp:string id="warrantytechspeccontent2" filter="'$(sku.type)' $in$ ['spare-parts']">90일 무상수리</xsp:string>
+  <!--// End of Memory Techspecs -->
+  
+  <xsp:string id="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']">리퍼비시 부품 판매 부서는 반납된 Dell 브랜드 시스템에서 회수한 부품이며, 그중 일부는 한번도 사용된 적이 없습니다. Dell의 모든 리퍼비시 부품 판매 부서는 원래의 Dell 공장 성능 사양을 충족하는지 점검하며, 90일간 하드웨어 무상수리 서비스가 제공됩니다.</xsp:string>
+  <!-- End of Customer kit & Spare Parts -->
+</xsp:stringtable>
