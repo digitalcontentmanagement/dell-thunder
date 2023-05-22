@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/>-Core Prozessor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		Der Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/>-Core Prozessor verbessert die Leistung und Geschwindigkeit Ihres Systems. Durch Virtualisierungstechnologie kann darüber hinaus eine größere Zahl von Umgebungen migriert werden. Der Prozessor unterstützt die neueste Speedstep<reg/> Technologie, die für ein ausgewogenes Verhältnis zwischen Leistung und Energieverbrauch sorgt.
+      </para>
+      <para>
+		Die Thermal-Monitoring-Technik schützt die Prozessoreinheit und das System mit mehreren Temperaturverwaltungsfunktionen vor Überhitzung. Die VT-x mit Extended Page Tables (EPT), die auch als Second Level Address Translation (SLAT) bezeichnet wird, bietet Hardwarebeschleunigung für speicherintensive virtualisierte Anwendungen. Der Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz Prozessor mit zahlreichen weiteren Funktionen ist die ideale Wahl für praktisch alle datenintensiven und gängigen Infrastrukturanwendungen für Unternehmen.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Produktreihe - Serienmodell">
+        Xeon <dropdownlist id="processor-name"/> <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Busgeschwindigkeit">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Prozessorgeschwindigkeit">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Prozessorklasse">
+        <dropdownlist id="processor-core"/>-Core
+      </product:techspec>
+      <product:techspec id="5" name="Memory cache">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

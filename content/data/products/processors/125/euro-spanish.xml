@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+	  <stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Procesador Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de  núcleo <dropdownlist refid="processor-core"/> a <textbox value="2.20" refid="3"/>GHz, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M caché, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		El procesador Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de núcleo <dropdownlist refid="processor-core"/> a <textbox value="2.20" refid="3"/>GHz mejora el rendimiento y la velocidad del sistema. Además, la tecnología de virtualización permite realizar la migración de más entornos. Incorpora la tecnología Speedstep<reg/> mejorada que consigue un equilibrio entre rendimiento y consumo de energía. 
+      </para>
+      <para>
+		Sus tecnologías de control término protegen al paquete de procesadores y sistema frente a fallos térmicos a través de varias funciones de gestión térmica. VT-x con tablas de páginas extendidas (EPT), también conocido como traducción de direcciones de segundo nivel (SLAT), proporciona aceleración para aplicaciones virtualizadas de uso intensivo de memoria. El procesador Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> a <textbox value="2.20" refid="3"/>GHz, que cuenta con muchas más funciones, es la elección perfecta para casi todas sus aplicaciones de infraestructura empresarial estándares o que necesiten procesar grandes volúmenes de datos.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Modelo de la serie de la línea de productos">
+        Xeon <dropdownlist id="processor-name"/> <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Velocidad de bus">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Velocidad del procesador">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Clase de procesador">
+        De núcleo <dropdownlist id="processor-core"/>
+      </product:techspec>
+      <product:techspec id="5" name="Memoria caché">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

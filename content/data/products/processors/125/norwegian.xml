@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/> kjerners prosessor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz, <dropdownlist refid="processor-core"/> kjerners prosessor forbedrer ytelsen og hastigheten på systemet. I tillegg gir virtualiseringsteknologien muligheter for migrering av flere miljøer. Den støtter utvidet Speedstep<reg/>-teknologi, som tillater prioritering av ytelse eller strømforbruk. 
+      </para>
+      <para>
+		Temperaturovervåkingsteknologien beskytter prosessorpakken og systemet fra varmefeil ved hjelp av flere varmestyringsfunksjoner. VT-x med utvidede sidetabeller (EPT), også kjent som Second Level Address Translation (SLAT), gir akselerasjon for minnekrevende virtualiserte programmer. Prosessoren Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz har et bredt utvalg av funksjoner og er ideell for praktisk talt alle ressurskrevende og standard infrastrukturprogrammer i virksomheten.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Produktseriemodell">
+        Xeon <dropdownlist id="processor-name"/> <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Systembusshastighet">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Prosessorhastighet">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Prosessorklasse">
+        <dropdownlist id="processor-core"/> kjerner
+      </product:techspec>
+      <product:techspec id="5" name="Cache Memory">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

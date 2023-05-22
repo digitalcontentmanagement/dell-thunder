@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Διάταξη περιβλήματος στο κάτω μέρος </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Η διάταξη περιβλήματος στο κάτω μέρος περιλαμβάνει όλα τα πλαστικά εξαρτήματα που βρίσκονται κάτω από ένα φορητό υπολογιστή. Αυτό μπορεί να περιλαμβάνει εξαρτήματα όπως ελαστικά στηρίγματα, καλύμματα μνήμης και ασφάλειες. Λόγω της πολυπλοκότητας της εγκατάστασης, συνιστάται να επικοινωνήσετε με την ομάδα τεχνικής υποστήριξης της Dell πριν από την αγορά του προϊόντος.
+	  </para>
+	  <para>
+	  Θα πρέπει να βεβαιωθείτε ότι αγοράζετε το σωστό είδος διάταξης του καλύμματος στο κάτω μέρος. Για να διασφαλιστεί η συμβατότητα με το σύστημά σας, συνιστούμε να χρησιμοποιήσετε τη δυνατότητα Διερεύνησης συστήματος ή τη λειτουργία αναζήτησης Ετικέτας εξυπηρέτησης στο εργαλείο Εξαρτήματα Dell<tm/>.
+	  </para> 
+      <para>
+	  Λάβετε υπόψη ότι ορισμένα από τα προϊόντα αντικατάστασης που διαθέτουμε παρέχονται ως κιτ ή συναρμολογημένα. Αυτά τα κιτ μπορεί να περιέχουν επιπρόσθετα εξαρτήματα που απαιτούνται για την εγκατάσταση. Σε περίπτωση που ένα προϊόν δεν πωλείται ως κιτ ή συναρμολογημένο, ενδέχεται να απαιτεί συμπληρωματικά εξαρτήματα για τη διευκόλυνση της εγκατάστασης.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Η Περιορισμένη εγγύηση υλικού της Dell καλύπτει ελαττώματα υλικών και κατασκευής στα επώνυμα προϊόντα υλικού της Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Περιλαμβάνει όλα τα πλαστικά εξαρτήματα κάτω από το πληκτρολόγιο και το στήριγμα παλάμης του φορητού υπολογιστή
+		</point>
+		<point>
+		Δεν περιλαμβάνει θύρες ή βίδες
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος προϊόντος">
+		Διάταξη περιβλήματος στο κάτω μέρος
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

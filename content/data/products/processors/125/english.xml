@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2016-03-07" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+      <stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/> Core Processor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+        The Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/> Core Processor enhances the performance and the speed of your system. Additionally, the Virtualization Technology enables migration of more environments. It supports enhanced SpeedStep<reg/> technology that allows tradeoffs to be made between performance and power consumption.
+      </para>
+      <para>
+        Its Thermal Monitoring Technologies protect the processor package and the system from thermal failure through several thermal management features. The VT-x with Extended Page Tables (EPT) also known as Second Level Address Translation (SLAT), provides acceleration for memory intensive virtualized applications. Packed with more features, the Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/> Core Processor is the ideal choice for virtually all of your data demanding or standard enterprise infrastructure applications.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Product Line Series Model">
+        Xeon <dropdownlist id="processor-name"/> <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Bus Speed">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Processor Speed">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Processor Class">
+        <dropdownlist id="processor-core"/> Core
+      </product:techspec>
+      <product:techspec id="5" name="Cache Memory">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

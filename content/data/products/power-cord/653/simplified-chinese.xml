@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Power Cables / Cords  </meta:title>
+    <meta:date value="2015-11-2" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔<dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> <textbox value="125" id="1"/> V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> 更换用电源线 - <textbox value="United States" id="30"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  使用这一戴尔原装<textbox value="125" refid="1"/> V 电源线为您的戴尔系统供电。 它专门用于为您的设备提供电力连接。 此电源线可提供<textbox value="125" refid="1"/> V 的输入电压，长度为<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>。
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		专门用于为您的设备提供电力连接  
+		</point>
+		<point>
+		提供<textbox value="125" refid="1"/> V 的输入电压
+		</point>
+		<point>
+		长度为 <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="电缆">
+		电源线
+      </product:techspec>
+      <product:techspec id="2" name="特性">
+		<textbox value="125" refid="1"/> V 额定功率/非屏蔽电缆
+      </product:techspec>
+      <product:techspec id="3" name="长度">
+        <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

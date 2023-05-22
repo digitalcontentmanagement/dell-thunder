@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Power Supplies </meta:title>
+    <meta:date value="2015-11-11" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> блок питания <dropdownlist id="redundant-configuration"/> <textbox value="750" id="1"/> Вт Dell
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	   Источник питания от Dell<tm/> обеспечивает надежное питание наиболее важных приложений. Обеспечивает до <textbox value="750" refid="1"/> Вт электроэнергии.	  
+	  </para> 
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Обеспечивает надежное питание для самого необходимого оборудования.  
+		</point>
+		<point>
+		Обеспечивает до <textbox value="750" refid="1"/> Вт электроэнергии
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип устройства">
+		Источник питания
+      </product:techspec>
+      <product:techspec id="2" name="Обеспечиваемая мощность">
+		<textbox value="750" refid="1"/> Вт
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

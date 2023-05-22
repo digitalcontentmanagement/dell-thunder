@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Power Supplies </meta:title>
+    <meta:date value="2015-11-16" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Alimentatore <dropdownlist id="redundant-configuration"/> Dell <textbox value="750" id="1"/> Watt
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	   L'alimentatore Dell<tm/> offre un'alimentazione affidabile per le applicazioni mission critical. Fornisce fino a <textbox value="750" refid="1"/> Watt di alimentazione.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Offre un'alimentazione affidabile per le applicazioni mission critical. 
+		</point>
+		<point>
+		Fornisce fino a <textbox value="750" refid="1"/> Watt di potenza
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di dispositivo">
+		Alimentatore
+      </product:techspec>
+      <product:techspec id="2" name="Potenza fornita">
+		<textbox value="750" refid="1"/> Watt
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 어셈블리 하단 섀시 </product:name>
+
+    <product:longdesc>
+	  <para>
+	  하단 덮개 어셈블리에는 노트북 아래에 있는 모든 플라스틱 부품이 포함되어 있습니다. 여기에는 고무 받침, 메모리 덮개, 래치와 같은 부품이 포함될 수 있습니다. 설치의 복잡성으로 인해 구매 전에 Dell 기술 지원 팀에 문의하는 것이 좋습니다.
+	  </para>
+	  <para>
+	  구매하려는 하단 덮개가 적합한 종류인지 확인해야 합니다. 사용 중인 시스템과 호환성을 유지하려면 Parts For Your Dell<tm/> 도구의 시스템 드릴 다운 또는 서비스 태그 조회 기능을 사용하는 것이 좋습니다.
+	  </para> 
+      <para>
+	  일부 Dell 교체 제품은 키트 또는 어셈블리로 제공됩니다. 이 키트는 설치에 필요한 추가 부품을 포함할 수 있습니다. 제품이 키트 또는 어셈블리로 판매되지 않는 경우 간편한 설치를 위해 보완 부품이 필요할 수 있습니다.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dell의 하드웨어 무상수리 서비스는 Dell 브랜드의 하드웨어 제품에서 발견되는 소재 및 기능상의 결함에 적용됩니다.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		노트북의 키보드 및 팜레스트 아래쪽에 있는 모든 플라스틱 포함
+		</point>
+		<point>
+		도어 또는 나사는 불포함
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 유형">
+		어셈블리 하단 섀시
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

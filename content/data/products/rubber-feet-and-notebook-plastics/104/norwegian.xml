@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Bunndeksel </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Bunndekselet omfatter all plasten på undersiden av en bærbar PC. Dette kan omfatte deler som gummiføtter, minnedeksler og låser. På grunn av kompleksiteten ved installering anbefaler vi at du kontakter Dells tekniske kundestøtte før kjøp.
+	  </para>
+	  <para>
+	  Forviss deg om at du kjøper riktig bunndeksel. For å sikre kompatibilitet med systemet anbefaler vi at du bruker System Drill Down eller oppslagsfunksjonen for Service-ID i verktøyet Parts For Your Dell<tm/> verktøyet.
+	  </para> 
+      <para>
+	  Vi gjør oppmerksom på at enkelte av erstatningsproduktene tilbys som sett. Slike sett kan inneholde andre deler som kreves for installasjon. Hvis produktet ikke selges som sett, kan det kreves andre deler for installasjon.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dells begrensede maskinvareservice dekker mangler ved materialer og utførelse for maskinvareprodukter fra Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Inkluderer alle plastdelene under tastaturet og håndleddsstøtte til en bærbar PC
+		</point>
+		<point>
+		Inkluderer ikke dører eller skruer
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		Bunndeksel
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

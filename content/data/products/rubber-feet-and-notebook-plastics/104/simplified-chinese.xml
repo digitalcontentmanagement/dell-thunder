@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 底部盖板组件 </product:name>
+
+    <product:longdesc>
+	  <para>
+	  底部盖板组件包括笔记本电脑底部需要的所有塑料部件。 这可能包括橡胶垫脚、内存盖和闩锁等部件。 由于安装比较复杂，因此我们建议您在购买前联系戴尔技术支持团队。
+	  </para>
+	  <para>
+	  您需要确保购买正确类型的底部盖板组件。 为确保与您的系统兼容，我们建议您使用適合您的戴尔產品零件工具中的系统深入查询或服务标签查询功能。
+	  </para> 
+      <para>
+	  请注意，我们的部分更换产品以套件或组件形式提供。 这些套件可能包含安装所需的其他部件。 如果产品未作为套件或组件销售，则它可能需要补充部件，以方便安装。
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  戴尔有限硬件保修涵盖了您的戴尔品牌硬件产品中的材料和工艺缺陷。
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		包括笔记本电脑键盘和掌托下方的所有塑料部件
+		</point>
+		<point>
+		不包括检修口或螺钉
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="产品类型">
+		底部盖板组件
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

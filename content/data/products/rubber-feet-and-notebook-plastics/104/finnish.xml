@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Pohjalevy </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Pohjalevyyn kuuluvat kaikki muoviosat, jotka muodostavat kannettavan tietokoneen pohjan. Osia voivat olla esimerkiksi kumitassut, muistikotelon kannet ja salvat. Koska asennus on monimutkainen toimenpide, suosittelemme, että otat yhteyttä Dellin tekniseen tukeen ennen ostoa.
+	  </para>
+	  <para>
+	  Varmista, että olet ostamassa oikeaa pohjalevyä. Yhteensopivuuden takaamiseksi ehdotamme, että käytät Parts For Your Dell<tm/>  -työkalun järjestelmän tietojen tarkastelua tai palvelutunnuksen hakutoimintoa.
+	  </para> 
+      <para>
+	  Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dellin rajoitettu laitteistotakuu kattaa Dell-tuotemerkillä varustettujen laitteistotuotteiden materiaali- ja valmistusvirheet.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Sisältää kaikki kannettavan tietokoneen näppäimistön ja kämmentuen alla olevat muoviosat
+		</point>
+		<point>
+		Ovet tai ruuvit eivät sisälly
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tuotteen tyyppi">
+		Pohjalevy
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

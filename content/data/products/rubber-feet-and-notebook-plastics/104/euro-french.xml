@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> assemblage de châssis inférieur </product:name>
+
+    <product:longdesc>
+	  <para>
+	  L’assemblage de capot inférieur intègre toutes les pièces en plastique situées sous un ordinateur portable : tampons en caoutchouc, trappes d’accès à la mémoire, loquets, etc. En raison de la complexité de l’installation, nous vous recommandons de contacter l’équipe de support technique Dell avant tout achat.
+	  </para>
+	  <para>
+	  Vous devez en effet vous assurer que vous achetez l’assemblage de capot inférieur adapté à votre système. Pour vérifier la compatibilité avec votre système, nous vous conseillons d’utiliser l’outil d’exploration détaillée des systèmes ou la fonctionnalité de recherche de numéro de série de l’outil Composants pour votre Dell<tm/>.
+	  </para> 
+      <para>
+	  Veuillez noter que certains de nos produits de remplacement sont fournis sous forme de kits ou d’assemblages. Ces kits peuvent contenir des pièces supplémentaires requises pour l’installation. Si un produit n’est pas vendu sous forme de kit ou d’assemblage, des pièces supplémentaires peuvent être nécessaires pour faciliter l’installation.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garantie matérielle limitée de Dell couvre les défauts de matériel et de fabrication de vos produits matériels de marque Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Intègre toutes les pièces en plastique situées sous le clavier et le repose-poignets d’un ordinateur portable
+		</point>
+		<point>
+		Trappes et vis non fournies
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+		Assemblage de châssis inférieur
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

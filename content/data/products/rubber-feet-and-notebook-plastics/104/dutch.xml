@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> montage onderste chassis </product:name>
+
+    <product:longdesc>
+	  <para>
+	  De montage voor de onderste afdekking omvat alle kunststof onderdelen onder het toetsenbord van een laptop. Het kan hierbij gaan onderdelen zoals een rubberen voetjes, klepjes over het geheugen en vergrendelingen. Als gevolg van de complexiteit van de installatie raden wij u aan om voor de aanschaf contact op te nemen met Dell technische support.
+	  </para>
+	  <para>
+	  U moet controleren of u het juiste type montage onderste chassis aanschaft. Om ervoor te zorgen dat het geheel compatibel is met uw systeem, raden wij aan de functie System Drill Down of Servicetag opzoeken in het hulpmiddel Onderdelen voor uw Dell product<tm/> te gebruiken.
+	  </para> 
+      <para>
+	  Houd er rekening mee dat sommige van onze vervangende producten worden geleverd als kit of montage. Deze kits bevatten mogelijk extra onderdelen die vereist zijn voor installatie. Als een product niet wordt verkocht als kit of montage, zijn mogelijk extra onderdelen vereist voor installatiegemak.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  De beperkte hardwaregarantie van Dell dekt materiaal- en productiefouten in uw hardware van Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Bevat alle kunststof onderdelen onder het toetsenbord en palmsteun van een laptop
+		</point>
+		<point>
+		Omvat niet de klepjes of schroeven
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type product">
+		Montage onderste chassis
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Chasis inferior del conjunto </product:name>
+
+    <product:longdesc>
+	  <para>
+	  El conjunto de tapa de la parte inferior incluye todos los plásticos que se encuentran debajo de un portátil. Esto puede incluir piezas como pies de goma, tapas de memoria y pestillos. Debido a la complejidad de las tareas de instalación, le recomendamos que antes de adquirirlo contacte con el equipo de asistencia técnica de Dell.
+	  </para>
+	  <para>
+	  Debe asegurarse de que adquiere el tipo adecuado de conjunto de tapa de la parte inferior. A fin de garantizar la compatibilidad con su sistema, le sugerimos que utilice el detalle del sistema o la función de búsqueda etiqueta de servicio en la herramienta Piezas para su Dell<tm/> .
+	  </para> 
+      <para>
+	  Tenga en cuenta que algunos de nuestros productos de sustitución se proporcionan como kits o conjuntos. Estos kits pueden contener piezas adicionales necesarias para la instalación. Si un producto no se vende como kit o conjunto, podría ser necesario usar piezas complementarias para facilitar la instalación.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garantía de hardware de Dell cubre los defectos en los materiales y de fabricación para los productos de hardware de la marca Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Incluye todos los plásticos de debajo del teclado y reposamuñecas de un portátil
+		</point>
+		<point>
+		No incluye las puertas o los tornillos
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+		Chasis inferior del conjunto
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

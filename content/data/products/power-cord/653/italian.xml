@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Power Cables / Cords  </meta:title>
+    <meta:date value="2015-11-2" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cavo di alimentazione sostitutivo Dell da <textbox value="125" id="1"/> V, lunghezza <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/>, per <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="United States" id="30"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Il cavo di alimentazione Dell da <textbox value="125" refid="1"/> V è la soluzione ideale per i sistemi Dell<tm/>. È progettato appositamente per collegare l'apparecchiatura alla rete elettrica. Questo cavo di alimentazione fornisce una tensione di ingresso di <textbox value="125" refid="1"/> V ed è lungo <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Progettato appositamente per collegare l'apparecchiatura alla rete elettrica. 
+		</point>
+		<point>
+		Tensione di ingresso pari a <textbox value="125" refid="1"/> V
+		</point>
+		<point>
+		Lunghezza pari a  <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Cavo">
+		Cavo di alimentazione
+      </product:techspec>
+      <product:techspec id="2" name="Caratteristiche">
+		<textbox value="125" refid="1"/> V nominale/non schermato
+      </product:techspec>
+      <product:techspec id="3" name="Lunghezza">
+        <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/> コアプロセッサー, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M キャッシュ, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/>コアプロセッサーにより、システムのパフォーマンスと処理速度が向上します。 また、仮想化テクノロジーにより、より多くの環境の移行が可能になります。 このプロセッサーは、拡張版SpeedStep<reg/>テクノロジーをサポートしています。これによって、パフォーマンスと電力消費の間のトレードオフが可能になります。 
+      </para>
+      <para>排熱監視テクノロジーを採用しているため、複数の排熱管理機能を使用して、プロセッサーパッケージとシステムを排熱障害から保護できます。 第2レベルアドレス変換（SLAT）とも呼ばれる拡張ページテーブル（EPT）機能に対応したVT-xにより、メモリを大量に消費する仮想化アプリケーションを高速化できます。 Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHzプロセッサーには多様な機能が備わっており、高度なデータ処理が要求されるアプリケーションや標準のエンタープライズインフラストラクチャアプリケーションに最適です。
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="製品ラインシリーズモデル">
+        Xeon <dropdownlist id="processor-name"/> <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="バス速度">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="プロセッサー速度">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="プロセッサークラス">
+        <dropdownlist id="processor-core"/> コア
+      </product:techspec>
+      <product:techspec id="5" name="メモリキャッシュ">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

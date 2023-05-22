@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> assieme parte inferiore dello chassis </product:name>
+
+    <product:longdesc>
+	  <para>
+	  L'assieme del coperchio inferiore include tutte le parti in plastica sotto a un notebook. Queste parti possono includere ad esempio i piedini in gomma, i coperchi della memoria e i fermi. Data la complessità di installazione, Dell consiglia di contattare il team di supporto tecnico Dell prima dell'acquisto.
+	  </para>
+	  <para>
+	  È necessario accertarsi di acquistare il giusto tipo di assieme del coperchio inferiore. Per verificare la compatibilità con il sistema, si consiglia di utilizzare la funzione analisi del sistema o di ricerca del codice di matricola nello strumento Componenti per i sistemi Dell<tm/>.
+	  </para> 
+      <para>
+	  Tenere presente che alcuni dei prodotti sostitutivi Dell vengono forniti come kit o assiemi. Questi kit possono contenere parti aggiuntive richieste per l'installazione. Nel caso in cui un prodotto non sia venduto come kit o assieme, potrebbe richiedere parti complementari per semplificare l'installazione.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  La garanzia hardware limitata Dell copre i difetti di materiali e lavorazione per i prodotti hardware a marchio Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Include tutte le parti in plastica sotto la tastiera e il poggiapolsi di un notebook
+		</point>
+		<point>
+		Non include sportelli o viti
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di prodotto">
+		Assieme parte inferiore dello chassis
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

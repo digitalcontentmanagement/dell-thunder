@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="processors">
+
+    <image:image name="338-BGYF">
+      <image:location>338-BGYF</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Xeon Processor </image:description>
+      <image:caption>Intel Xeon Processor</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+    <image:image name="Intel Pentium">
+      <image:location>Intel Pentium</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Pentium </image:description>
+      <image:caption>Intel Pentium</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	   <image:image name="xeon silver">
+      <image:location>xeon silver</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Xeon Silver</image:description>
+      <image:caption>Intel Xeon Silver</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+		
+			   <image:image name="xeon platinum">
+      <image:location>xeon platinum</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Xeon Platinum</image:description>
+      <image:caption>Intel Xeon Platinum</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+		
+		
+			   <image:image name="xeon gold">
+      <image:location>xeon gold</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Xeon Gold</image:description>
+      <image:caption>Intel Xeon Gold</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+		
+		
+			   <image:image name="xeon bronze">
+      <image:location>xeon bronze</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Xeon Bronze</image:description>
+      <image:caption>Intel Xeon Bronze</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+		
+	
+	
+	
+    <!-- Start of subclasses -->
+    <!--<image:folder name="225">
+      <image:image name="450-AEGJ">
+        <image:location>450-AEGJ</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <<image:description>This is Dell Product</image:description>
+        <image:caption>Dell 3-Prong Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>
+    
+    <image:folder name="443">
+      <image:image name="450-AFJG">
+        <image:location>450-AFJG</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <image:description>This is Dell Product</image:description>
+        <image:caption>Dell Slim Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>-->
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>

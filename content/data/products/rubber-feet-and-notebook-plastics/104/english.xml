@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Assembly Bottom Chassis </product:name>
+
+    <product:longdesc>
+	  <para>
+	  The Bottom Cover Assembly includes all the plastics found underneath a laptop. This may include parts such as rubber feet, memory covers, and latches. Due to the complexity of installation, we recommend that you contact the Dell technical support team prior to purchase.
+	  </para>
+	  <para>
+	  You need to make sure that you are buying the right kind of bottom cover assembly. In order to ensure compatibility with your system, we suggest that you use the System Drill Down or the Service Tag look up feature in the Parts For Your Dell<tm/> tool.
+	  </para> 
+      <para>
+	  Please note that some of our replacement products are provided as kits or assemblies. These kits may contain additional parts required for installation. In case a product is not sold as a kit or assembly, it may require complementary parts for ease of installation.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dell’s limited hardware warranty covers defects in materials and workmanship in your Dell-branded hardware products.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Includes all the plastics underneath keyboard and palmrest of a laptop
+		</point>
+		<point>
+		Does not include doors or screws
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Product Type">
+		Assembly Bottom Chassis
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

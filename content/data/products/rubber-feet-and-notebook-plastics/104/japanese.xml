@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> シャーシ底面のアセンブリ </product:name>
+
+    <product:longdesc>
+	  <para>
+	  底面カバーアセンブリには、ノートパソコンの底面のすべてのプラスチック部分が含まれます。 ゴム製の足、メモリカバー、ラッチなどのパーツも含まれる場合があります。 取り付けが複雑なため、購入する前にデルのテクニカルサポートチームに連絡することをお勧めします。
+	  </para>
+	  <para>
+	  適切な種類の底面カバーアセンブリを確実に購入する必要があります。 システムとの互換性を確認するため、デルは、システムドリルダウン（System Drill Down）または「お使いのデル製品のパーツ（Parts For Your Dell<tm/>）」ツールのサービスタグ検索機能を使用することを提案します。 
+	  </para> 
+      <para>
+	  交換用製品は、キットまたは部品として提供されている場合がありますのでご注意ください。 このようなキットには、設置に必要な追加パーツが含まれていることがあります。 製品がキットまたは部品として販売されていない場合、設置しやすくするための補完パーツが必要になる場合があります。
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  デルのハードウェア限定保証は、デルブランドのハードウェア製品における材質または製作上の欠陥に適用されます。
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		ノートパソコンのキーボードおよびパームレストの下のすべてのプラスチック部分を含む
+		</point>
+		<point>
+		ドア部分やねじは含まない
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="製品タイプ">
+		シャーシ底面のアセンブリ
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Processador Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de <dropdownlist refid="processor-core"/> núcleos de,  <textbox value="2.20" refid="3"/>GHz <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		O Processador Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de <dropdownlist refid="processor-core"/> núcleos de <textbox value="2.20" refid="3"/>GHz melhora a performance e a velocidade do seu sistema. Além disso, a tecnologia de virtualização permite a migração de mais ambientes. Suporta a tecnologia SpeedStep<reg/> melhorada que permite um compromisso entre a performance e o consumo energético. 
+      </para>
+      <para>
+        As suas tecnologias de monitorização térmica protegem a estrutura do processador e o sistema contra uma falha térmica através de várias funcionalidades de gestão. A tecnologia VT-x com Extended Page Tables (EPT), também conhecido como Tradução de Endereços de Segundo Nível (SLAT), assegura a aceleração para as aplicações virtualizadas que requerem muita memória. Equipado com mais funcionalidades, o processador Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de <textbox value="2.20" refid="3"/>GHz é a escolha ideal para praticamente todas as suas aplicações com uso intensivo de dados ou aplicações standard de infra-estrutura empresarial.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Modelo da série da linha de produtos">
+        Xeon <dropdownlist id="processor-name"/> <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Velocidade do bus">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Velocidade do processador">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Classe de processador">
+        <dropdownlist id="processor-core"/> núcleos
+      </product:techspec>
+      <product:techspec id="5" name="cache de memória">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> sestava spodního šasi </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Sestava spodního krytu zahrnuje všechny plasty ze spodní části notebooku. Může obsahovat díly, jako jsou gumové nožky, kryty paměti nebo západky. Protože montáž není jednoduchá, doporučujeme před zakoupením kontaktovat tým technické podpory společnosti Dell.
+	  </para>
+	  <para>
+	  Je třeba se ujistit, že kupujete správný druh sestavy spodního krytu. Aby byla zaručena kompatibilita s daným počítačem, doporučujeme použít funkci Analýza systému nebo funkci hledání výrobního čísla v nástroji vyhledání dílů pro produkty Dell<tm/>.
+	  </para> 
+      <para>
+	  Některé náhradní díly dodáváme jako sady nebo sestavy. Tyto sady mohou obsahovat další díly potřebné pro instalaci. Pokud výrobek neprodáváme jako sadu nebo sestavu, může pro snadnou instalaci vyžadovat další díly.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	 Omezená záruka společnosti Dell na hardware se vztahuje na vady materiálů a zpracování hardwarových výrobků značky Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Zahrnuje všechny plasty pod klávesnicí a opěrkou pro dlaně notebooku
+		</point>
+		<point>
+		Nezahrnuje dvířka ani šrouby
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ produktu">
+		Sestava spodního šasi
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

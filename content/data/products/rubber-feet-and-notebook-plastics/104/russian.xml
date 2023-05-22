@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> нижняя панель корпуса в сборе </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Нижняя крышка в сборе включает в себя все пластиковые детали, расположенные на днище ноутбука. Это могут быть, например, резиновые ножки, крышки отсеков для модулей памяти и фиксаторы. Из-за сложности установки перед покупкой рекомендуется обратиться в службу технической поддержки Dell.
+	  </para>
+	  <para>
+	  Убедитесь, что вы выбрали подходящую нижнюю крышку в сборе. Чтобы обеспечить совместимость с вашей системой, рекомендуется использовать функции System Drill Down или Service Tag Lookup в средстве Parts For Your Dell<tm/>.
+	  </para> 
+      <para>
+	  Обратите внимание, что некоторые наши изделия-заменители предоставляются в качестве комплектов или сборных изделий. В таких комплектах могут содержаться дополнительные компоненты, необходимые для установки. Если продукт не продается в виде комплекта или сборного изделия, для упрощения его установки могут потребоваться дополнительные компоненты.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Ограниченная гарантия на оборудование Dell распространяется на дефекты материалов и изготовления оборудования Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Включает в себя все пластиковые детали, расположенные под клавиатурой и опорой для запястий ноутбука
+		</point>
+		<point>
+		Не включает дверцы и винты
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Тип продукта">
+		Нижняя панель корпуса в сборе
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

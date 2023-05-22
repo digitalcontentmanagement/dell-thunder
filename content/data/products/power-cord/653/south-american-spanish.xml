@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Power Cables / Cords  </meta:title>
+    <meta:date value="2015-11-2" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cable de alimentación de repuesto para <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> Dell de <textbox value="125" id="1"/> V, y <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> - <textbox value="United States" id="30"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Alimente sus sistemas Dell<tm/> con el <textbox value="125" refid="1"/> V cable de alimentación de Dell. Está diseñado para brindarle conectividad eléctrica a su equipo. Este cable de alimentación proporciona un voltaje de entrada de <textbox value="125" refid="1"/> V y mide <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de largo.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Está diseñado para brindarle conectividad eléctrica a su equipo. 
+		</point>
+		<point>
+		Ofrece un voltaje de entrada de <textbox value="125" refid="1"/> V
+		</point>
+		<point>
+		Mide <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de largo
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Cable">
+		Cable de alimentación
+      </product:techspec>
+      <product:techspec id="2" name="Características">
+		<textbox value="125" refid="1"/> V Calificación/Sin protección
+      </product:techspec>
+      <product:techspec id="3" name="Extensión">
+        <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

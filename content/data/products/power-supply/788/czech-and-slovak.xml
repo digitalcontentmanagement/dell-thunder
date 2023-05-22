@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Power Supplies </meta:title>
+    <meta:date value="2015-11-11" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/><textbox value="750" id="1"/>W napájecí zdroj <dropdownlist id="redundant-configuration"/> Dell
+    </product:name>
+
+    <product:longdesc>
+      <para>
+       Napájecí zdroj od společnosti Dell<tm/> nabízí spolehlivé napájení nejdůležitějších aplikací. Kapacita až <textbox value="750" refid="1"/> W.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Spolehlivé napájení nejdůležitějších aplikací  
+		</point>
+		<point>
+		Kapacita až <textbox value="750" refid="1"/> W.
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Typ zařízení">
+		Napájecí zdroj
+      </product:techspec>
+      <product:techspec id="2" name="Kapacita">
+		<textbox value="750" refid="1"/> W
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

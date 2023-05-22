@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> zespół dolnej obudowy </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Zespół dolnej pokrywy zawiera wszystkie plastikowe części znajdujące się w dolnej części notebooka. Mogą to być np. gumowe nóżki, osłony modułów pamięci i zatrzaski. Ze względu na skomplikowaną instalację przed zakupem zalecamy skontaktowanie się z zespołem ds. pomocy technicznej firmy Dell.
+	  </para>
+	  <para>
+	  Należy upewnić się, że wybrany zespół tylnej pokrywy jest odpowiedni. Aby zapewnić zgodność produktu z systemem, zalecamy skorzystanie z funkcji szczegółowego wyboru systemu lub wyszukiwania kodów Service Tag w narzędziu Parts For Your Dell<tm/> .
+	  </para> 
+      <para>
+      Należy pamiętać, że niektóre podzespoły zamienne są dostarczane w postaci zestawów. Mogą one zawierać dodatkowe części niezbędne podczas instalacji. Jeżeli produkt nie jest oferowany w postaci zestawu, może wymagać dodatkowych części w celu łatwiejszej instalacji.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Ograniczona gwarancja na sprzęt firmy Dell uwzględnia usterki materiałowe i wady wykonania w produktach sprzętowych marki Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Zawiera wszystkie elementy z tworzyw sztucznych znajdujące się pod klawiaturą notebooka i podpórką na nadgarstki
+		</point>
+		<point>
+		Nie zawiera drzwiczek ani śrub
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rodzaj produktu">
+		Zespół dolnej obudowy
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

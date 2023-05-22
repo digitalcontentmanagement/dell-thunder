@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Bottenchassi </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Bottenchassit omfattar alla plastdelar som finns under en bärbar dator. Detta kan handla om delar som gummifötter, minne, höljen och spärrar. På grund av komplexiteten hos installation rekommenderar vi att du kontaktar Dells tekniska support innan du gör ditt inköp
+	  </para>
+	  <para>
+	  Det är viktigt att du köper rätt typ av bottenchassi. För att säkerställa kompatibilitet med ditt system föreslår vi att du använder sökfunktionen för servicemärke i verktyget Parts For Your Dell<tm/>.
+	  </para> 
+      <para>
+	  Observera att några av våra renoverade produkter levereras som satser eller paket. Dessa satser kan innehålla extra komponenter som krävs för installationen. Om en produkt inte kan köpas som en sats eller ett paket kan det hända att det krävs kompletterande komponenter för installationen.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Dells begränsade maskinvaruservice täcker defekter i material och utförande i dina maskinvaruprodukter från Dell.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Omfattar alla plastdelar under tangentbordet och handledsstödet på en bärbar dator
+		</point>
+		<point>
+		Omfattar inte luckor eller skruvar
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		Bottenchassi
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

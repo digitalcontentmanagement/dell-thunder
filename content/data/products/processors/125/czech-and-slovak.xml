@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2015-09-29" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Procesor Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz se <dropdownlist refid="processor-core"/> jádry, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Vyrovnávací paměť, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		Procesor Intel Xeon <reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/>, <textbox value="2.20" refid="3"/>GHz se <dropdownlist refid="processor-core"/> jádry zvyšuje výkon a rychlost počítače. Virtualizační technologie navíc umožňuje migraci do více prostředí. Podporuje rozšířenou technologii SpeedStep<reg/> sloužící k vyrovnávání výkonu a spotřeby energie. 
+      </para>
+      <para>
+		Jeho technologie pro monitorování tepelného výkonu pomocí několika funkcí správy teploty chrání obvody procesoru a počítač proti tepelnému selhání. Technologie VT-x a EPT (Extended Page Tables), známé také jako překlad adres portů druhé úrovně (SLAT), zajišťuje akceleraci pro paměťově náročné virtualizované aplikace. Procesor Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> (<textbox value="2.20" refid="3"/>GHz) je nabit funkcemi a představuje ideální řešení prakticky pro všechny aplikace podnikové infrastruktury – s vysokými i standardními nároky na data.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Model produktové řady">
+        Xeon <dropdownlist id="processor-name"/> <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Rychlost sběrnice">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Rychlost procesoru">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Třída procesoru">
+        <dropdownlist id="processor-core"/> jádry
+      </product:techspec>
+      <product:techspec id="5" name="Vyrovnávací paměť">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

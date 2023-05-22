@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Power Supplies </meta:title>
+    <meta:date value="2015-11-11" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Fonte de alimentação <dropdownlist id="redundant-configuration"/> de <textbox value="750" id="1"/> Watts Dell
+    </product:name>
+
+    <product:longdesc>
+      <para>
+      A Fonte de alimentação da Dell<tm/> fornece energia segura para as aplicações críticas. Fornece até <textbox value="750" refid="1"/> Watts de energia.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Fornece energia segura para as aplicações críticas 
+		</point>
+		<point>
+		Fornece até <textbox value="750" refid="1"/> Watts de energia
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+		Fonte de alimentação
+      </product:techspec>
+      <product:techspec id="2" name="Energia fornecida">
+		<textbox value="750" refid="1"/> Watts
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

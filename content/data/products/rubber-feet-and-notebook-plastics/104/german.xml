@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title> Rubber Feet &amp; Notebook Plastics </meta:title>
+    <meta:date value="2015-11-25" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Bauteil unteres Gehäuse </product:name>
+
+    <product:longdesc>
+	  <para>
+	  Das Bauteil der unteren Abdeckung umfasst alles Plastik unter einem Notebook. Hierzu gehören beispielsweise Teile wie Gummifüße, Speicherdeckel und Riegel. Aufgrund der Komplexität bei der Installation empfehlen wir Ihnen sich vor dem Kauf an das Dell Technical Support-Team zu wenden.
+	  </para>
+	  <para>
+	  Sie müssen sichergehen, dass Sie die richtige Art der Abdeckung kaufen. Um die Kompatibilität mit Ihrem System zu gewährleisten, empfehlen wir, dass Sie System Drill Down oder die Service-Tag-Suchfunktion im Tool Parts For Your Dell<tm/> verwenden.
+	  </para> 
+      <para>
+	  Bitte beachten Sie, dass manche Ersatzteile als Einbausätze oder Baugruppen geliefert werden. Diese Einbausätze können zusätzliche Teile enthalten, die für den Einbau erforderlich sind. Wenn ein Produkt nicht als Einbausatz oder Baugruppe verkauft wird, können zusätzliche Teile für den Einbau erforderlich sein.
+      </para>	  
+      <para>
+	    <stringlookup ref="warrantyparagraphcontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	  <para>
+	  Der eingeschränkte Hardware-Service von Dell deckt Material- und Verarbeitungsfehler von Hardwareprodukten der Marke Dell ab.
+	  </para>
+	  
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Umfasst alle Kunststoffe, die sich unterhalb der Tastatur und Handauflage eines Notebooks finden
+		</point>
+		<point>
+		Ausgenommen sind Türen bzw. Schrauben
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttyp">
+		Bauteil unteres Gehäuse
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="power-cord">
+
+	<image:image name="E5 AC_Cord Argentina">
+      <image:location>E5 AC_Cord Argentina</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Argentina</image:description>
+      <image:caption>E5 AC_Cord Argentina</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="Australia (E5)">
+      <image:location>Australia (E5)</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Australia</image:description>
+      <image:caption>E5 AC_Cord Australia</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Brazil">
+      <image:location>E5_Brazil</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Brazil</image:description>
+      <image:caption>E5 AC_Cord Brazil</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="E5_Cambodia">
+      <image:location>E5_Cambodia</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Cambodia</image:description>
+      <image:caption>E5 AC_Cord Cambodia</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="E5_China">
+      <image:location>E5_China</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord China</image:description>
+      <image:caption>E5 AC_Cord China</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="E5_Denmark">
+      <image:location>E5_Denmark</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Denmark</image:description>
+      <image:caption>E5 AC_Cord Denmark</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="E5_Europe">
+      <image:location>E5_Europe</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Europe</image:description>
+      <image:caption>E5 AC_Cord Europe</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="E5_India">
+      <image:location>E5_India</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord India</image:description>
+      <image:caption>E5 AC_Cord India</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Israel">
+      <image:location>E5_Israel</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Israel</image:description>
+      <image:caption>E5 AC_Cord Israel</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Japan">
+      <image:location>E5_Japan</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Japan</image:description>
+      <image:caption>E5 AC_Cord Japan</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Italy">
+      <image:location>E5_Italy</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Italy</image:description>
+      <image:caption>E5 AC_Cord Italy</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Japan_FlyWire">
+      <image:location>E5_Japan_FlyWire</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Japan FlyWire</image:description>
+      <image:caption>E5 AC_Cord Japan FlyWire</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Korea">
+      <image:location>E5_Korea</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord South Korea</image:description>
+      <image:caption>E5 AC_Cord South Korea</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_SouthAfrica">
+      <image:location>E5_SouthAfrica</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord SouthAfrica</image:description>
+      <image:caption>E5 AC_Cord SouthAfrica</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Switzerland">
+      <image:location>E5_Switzerland</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Switzerland</image:description>
+      <image:caption>E5 AC_Cord Switzerland</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Taiwan">
+      <image:location>E5_Taiwan</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Taiwan</image:description>
+      <image:caption>E5 AC_Cord Taiwan</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_Thailand">
+      <image:location>E5_Thailand</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord Thailand</image:description>
+      <image:caption>E5 AC_Cord Thailand</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_UK">
+      <image:location>E5_UK</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_Cord UK</image:description>
+      <image:caption>E5 AC_Cord UK</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="E5_US">
+      <image:location>E5_US</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5 AC_US</image:description>
+      <image:caption>E5 AC_Cord US</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+	
+	<image:image name="450-AFJZ">
+      <image:location>450-AFJZ</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Power Cord C13 - C14 </image:description>
+      <image:caption>Power Cord C13 - C14</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="450-AESQ">
+      <image:location>450-AESQ</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Power Cord C19 - C20</image:description>
+      <image:caption>Power Cord C19 - C20</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="C15_C16">
+      <image:location>C15_C16</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Power Cord C15 - C16</image:description>
+      <image:caption>Power Cord C15 - C16</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+		<image:image name="C7_C8">
+      <image:location>C7_C8</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Power Cord C7 - C8</image:description>
+      <image:caption>Power Cord C7 - C8</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="C5_C6">
+      <image:location>C5_C6</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Power Cord C5 - C6</image:description>
+      <image:caption>Power Cord C5 - C6 </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="E5_New Zealand">
+      <image:location>E5_New Zealand</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>E5_New Zealand</image:description>
+      <image:caption>E5_New Zealand </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	<image:image name="SANS_164_South Africa">
+      <image:location>SANS_164_South Africa</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>SANS_164_South Africa</image:description>
+      <image:caption>SANS_164_South Africa </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+	
+	
+	
+	
+	<!-- IEC c15-->
+	
+	
+	
+    <!-- Start of subclasses -->
+    <!--<image:folder name="225">
+      <image:image name="450-AEGJ">
+        <image:location>450-AEGJ</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <<image:description>This is Dell Product</image:description>
+        <image:caption>Dell 3-Prong Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>
+    
+    <image:folder name="443">
+      <image:image name="450-AFJG">
+        <image:location>450-AFJG</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <image:description>This is Dell Product</image:description>
+        <image:caption>Dell Slim Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>-->
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>

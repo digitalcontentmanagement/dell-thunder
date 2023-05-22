@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image:imagebase xmlns:image="http://www.dell.com/thunder/imagebase">
+  <image:folder name="power-supply">
+
+    <image:image name="331-2288">
+      <image:location>331-2288</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 720-Watt RPS720 Redundant Power Supply </image:description>
+      <image:caption>Dell 720-Watt RPS720 Redundant Power Supply </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	   <image:image name="331-7024">
+      <image:location>331-7024</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 350-Watt Redundant Power Supply </image:description>
+      <image:caption>Dell 350-Watt Redundant Power Supply</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	<image:image name="450-17963">
+      <image:location>450-17963</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell DC 1100-Watt Power Supply - Hot-Pluggable Device</image:description>
+      <image:caption>Dell DC 1100-Watt Power Supply - Hot-Pluggable Device </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="450-18505">
+      <image:location>450-18505</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell 750-Watt Power Supply</image:description>
+      <image:caption>Dell 750-Watt Power Supply</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="450-ABJL">
+      <image:location>450-ABJL</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Dell AC Adapter - power adapter - 180-watt </image:description>
+      <image:caption>Dell AC Adapter - power adapter - 180-watt </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="CPA-7NVX8">
+      <image:location>CPA-7NVX8</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Dell 870-Watt Power Supply </image:description>
+      <image:caption>Dell 870-Watt Power Supply </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+    <image:image name="450-17192">
+      <image:location>450-17192</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Power Supply : Precision R5500 Additional Power Supply</image:description>
+      <image:caption>Power Supply : Precision R5500 Additional Power Supply</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+	
+    <!-- Start of subclasses -->
+    <!--<image:folder name="225">
+      <image:image name="450-AEGJ">
+        <image:location>450-AEGJ</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <<image:description>This is Dell Product</image:description>
+        <image:caption>Dell 3-Prong Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>
+    
+    <image:folder name="443">
+      <image:image name="450-AFJG">
+        <image:location>450-AFJG</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <image:description>This is Dell Product</image:description>
+        <image:caption>Dell Slim Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>-->
+    <!-- End of subclasses -->
+  </image:folder>
+</image:imagebase>

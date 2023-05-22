@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Power Cables / Cords  </meta:title>
+    <meta:date value="2015-11-2" />
+    <meta:creator value="Johnny"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Καλώδιο τροφοδοσίας <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> αντικατάστασης <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> <textbox value="125" id="1"/> V Dell - <textbox value="United States" id="30"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Τροφοδοτήστε τα συστήματά σας Dell<tm/> με το καλώδιο τροφοδοσίας <textbox value="125" refid="1"/> V της Dell. Είναι σχεδιασμένο για να παρέχει ηλεκτρική συνδεσιμότητα στον εξοπλισμό σας. Αυτό το καλώδιο τροφοδοσίας παρέχει τάση εισόδου της τάξης των <textbox value="125" refid="1"/> V και έχει μήκος <textbox value="6" id="2"/> <dropdownlist refid="meter-feet-unit"/>.
+	  </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+	    <point>
+		Είναι σχεδιασμένο για να παρέχει ηλεκτρική συνδεσιμότητα στον εξοπλισμό σας. 
+		</point>
+		<point>
+		Παρέχει μια τάση εισόδου  <textbox value="125" refid="1"/> V
+		</point>
+		<point>
+		Έχει μήκος  <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
+		</point>
+	  </points>
+	</product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Καλώδιο">
+		Καλώδιο τροφοδοσίας
+      </product:techspec>
+      <product:techspec id="2" name="Χαρακτηριστικά">
+		<textbox value="125" refid="1"/> V Αξιολόγηση/Χωρίς μόνωση
+      </product:techspec>
+      <product:techspec id="3" name="Length">
+        Έχει μήκος <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
