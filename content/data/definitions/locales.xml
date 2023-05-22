@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<locales xmlns="http://www.dell.com/thunder/locales">
+  
+  <!--// ******************************-->
+  <!--// Start of Asia-Pacific & Japan -->
+  <!--// ******************************-->
+  <!-- Australia (en_AU) -->
+  <country name="au">
+    <language>en</language>
+    <culture>en_AU</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- China (en_CN, zh_CN) -->
+  <country name="cn">
+    <language>en</language>
+    <culture>en_CN</culture>
+    <source>english</source>
+    <!-- Simplified Chinese -->
+    <alt-language name="zh">
+      <language>zh</language>
+	  <culture template="csd">zh_CN</culture>
+      <culture template="hmy">zh_CN</culture>
+      <culture template="prc">zh_CN</culture>
+      <source>simplified-chinese</source>
+    </alt-language>
+    <region>apj</region>    
+  </country>
+
+  <!-- CPF (en_C2) -->
+  <country name="cp">
+    <language>en</language>
+    <culture template="hmy">en_C2</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- SADMG (en_DI) -->
+  <country name="di">
+    <language>en</language>
+	<culture template="csd">en_DI</culture>
+    <!-- Language code must be capitalized -->
+    <culture template="hmy">EN_DI</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+  
+  <!-- Hong Kong (en_HK, zh_HK) -->
+  <country name="hk">
+    <language>en</language>
+    <culture>en_HK</culture>
+    <source>english</source>
+    <!-- Traditional Chinese -->
+    <alt-language name="zh">
+      <language>zh</language>
+	  <culture template="csd">zh_HK</culture>
+      <culture template="hmy">zh_HK</culture>
+      <culture template="prc">zh_HK</culture>
+      <source>traditional-chinese</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+
+  <!-- Indonesia (en_ID) -->
+  <country name="id">
+    <language>en</language>
+    <culture template="csd">en_ID</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- India (en_IN, hi_IN) -->
+  <country name="in">
+    <language>en</language>
+	<culture template="csd">en_IN</culture>
+    <culture template="hmy">en_I3</culture>
+    <culture template="prc">en_IN</culture>
+    <source>english</source>
+    <alt-language name="en">
+      <!-- Workaround to force different locale value (ICC INR) -->
+      <language>I2</language>
+      <culture template="hmy">en_I2</culture>
+      <source>english</source>
+    </alt-language>
+    <alt-language name="en">
+      <!-- Workaround to force different locale value (ICC USD) -->
+      <language>I1</language>
+      <culture template="hmy">en_I1</culture>
+      <source>english</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+
+  <!-- Japan (ja_JP) -->
+  <country name="jp">
+    <language>ja</language>
+    <culture>ja_JP</culture>
+    <source>japanese</source>
+    <!-- English -->
+    <alt-language name="en">
+      <language>en</language>
+	  <culture template="csd">en_JP</culture>
+      <!-- Locale format is different on Harmony -->
+      <culture template="hmy">JA_en</culture>
+      <culture template="prc">en_JP</culture>
+      <source>english</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+
+  <!-- Korea (en_KR, ko_KR) -->
+  <country name="kr">
+    <language>en</language>
+    <culture>en_KR</culture>
+    <source>english</source>
+    <!-- Korean -->
+    <alt-language name="ko">
+      <language>ko</language>
+      <culture>ko_KR</culture>
+      <source>korean</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+
+  <!-- Malaysia (en_MY, ms_MY) -->
+  <country name="my">
+    <language>en</language>
+    <culture>en_MY</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- New Zealand (en_NZ, mi_NZ) -->
+  <country name="nz">
+    <language>en</language>
+    <culture>en_NZ</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- Singapore (en_SG, zh_SG) -->
+  <country name="sg">
+    <language>en</language>
+    <culture>en_SG</culture>
+    <source>english</source>
+    <region>apj</region>
+  </country>
+
+ <!-- Thailand (en_TH, th_TH) -->
+ <country name="th">
+    <language>en</language>
+    <culture>en_TH</culture>
+   <source>english</source>
+    <region>apj</region>
+  </country>
+
+  <!-- Taiwan (en_TW, zh_TW) -->
+  <country name="tw">
+    <language>en</language>
+    <culture>en_TW</culture>
+    <source>english</source>
+    <!-- Traditional Chinese -->
+    <alt-language name="zh">
+      <language>zh</language>
+	  <culture template="csd">zh_TW</culture>
+      <culture template="hmy">zh_TW</culture>
+      <culture template="prc">zh_TW</culture>
+      <source>traditional-chinese</source>
+    </alt-language>
+    <region>apj</region>
+  </country>
+  <!--// ****************************-->
+  <!--// End of Asia-Pacific & Japan -->
+  <!--// ****************************-->
+  
+  <!--// ****************************************-->
+  <!--// Start of Europe, Middle East and Africa -->
+  <!--// ****************************************-->
+  <!-- Austria (en_AT, de_AT) -->
+  <country name="at">
+    <language>en</language>
+    <culture>en_AT</culture>
+    <source>english</source>
+    <!-- German -->
+    <alt-language name="de">
+      <language>de</language>
+      <culture>de_AT</culture>
+      <source>german</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Belgium (en_BE, nl_BE, fr_BE) -->
+  <country name="be">
+    <language>en</language>
+    <culture>en_BE</culture>
+    <source>english</source>
+    <!-- French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr_BE</culture>
+      <source>euro-french</source>
+    </alt-language>
+    <!--  Dutch -->
+    <alt-language name="nl">
+      <language>nl</language>
+	  <culture template="csd">nl_BE</culture>
+      <culture template="hmy">nl_BE</culture>
+      <culture template="prc">nl_BE</culture>
+      <source>dutch</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Czech Republic (en_CZ, cs_CZ) -->
+  <country name="cz">
+    <language>en</language>
+    <culture>en_CZ</culture>
+    <source>english</source>
+    <!-- Czech -->
+    <alt-language name="cs">
+      <language>cs</language>
+	  <culture template="csd">cs_CZ</culture>
+      <culture template="hmy">cs_CS</culture>
+      <culture template="prc">cs_CZ</culture>
+      <source>czech-and-slovak</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Denmark (en_DK, da_DK, fo_DK) -->
+  <country name="dk">
+    <language>en</language>
+    <culture>en_DK</culture>
+    <source>english</source>
+    <!-- Danish -->
+    <alt-language name="da">
+      <language>da</language>
+      <culture>da_DK</culture>
+      <source>danish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Unknown (en_ED) -->
+  <country name="ed">
+    <language>en</language>
+	<culture template="csd">en_ED</culture>
+    <culture template="hmy">en_ED</culture>
+    <source>english</source>
+    <region>emea</region>
+  </country>
+
+  <!-- Finland (en_FI, fi_FI, sv_FI) -->
+  <country name="fi">
+    <language>en</language>
+    <culture>en_FI</culture>
+    <source>english</source>
+    <!-- Finnish -->
+    <alt-language name="fi">
+      <language>fi</language>
+      <culture>fi_FI</culture>
+      <source>finnish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- France (en_FR, fr_FR) -->
+  <country name="fr">
+    <language>en</language>
+    <culture>en_FR</culture>
+    <source>english</source>
+    <!-- Euro French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr_FR</culture>
+      <source>euro-french</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Germany (en_DE, de_DE) -->
+  <country name="de">
+    <language>en</language>
+    <culture>en_DE</culture>
+    <source>english</source>
+    <!-- German -->
+    <alt-language name="de">
+      <language>de</language>
+      <culture>de_DE</culture>
+      <source>german</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Greece (en_GR, el_GR) -->
+  <country name="gr">
+    <language>en</language>
+    <culture>en_GR</culture>
+    <source>english</source>
+    <!-- Greek -->
+    <alt-language name="el">
+      <language>el</language>
+	  <culture template="csd">el_GR</culture>
+      <culture template="hmy">el_GR</culture>
+      <source>greek</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Ireland (en_IE, ga_IE) -->
+  <country name="ie">
+    <language>en</language>
+    <culture>en_IE</culture>
+    <source>english</source>
+    <region>emea</region>
+  </country>
+
+  <!-- Italy (en_IT, it_IT) -->
+  <country name="it">
+    <language>en</language>
+    <culture>en_IT</culture>
+    <source>english</source>
+    <!-- Italian -->
+    <alt-language name="it">
+      <language>it</language>
+      <culture>it_IT</culture>
+      <source>italian</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Luxembourg (en_LU, de_LU, fr_LU) -->
+  <country name="lu">
+    <language>en</language>
+    <culture>en_LU</culture>
+    <source>english</source>
+    <!-- Euro French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr_LU</culture>
+      <source>euro-french</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Netherlands (en_NL, nl_NL) -->
+  <country name="nl">
+    <language>en</language>
+    <culture>en_NL</culture>
+    <source>english</source>
+    <!-- Dutch -->
+    <alt-language name="nl">
+      <language>nl</language>
+      <culture>nl_NL</culture>
+      <source>dutch</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Norway (en_NO, no_NO, nn_NO) -->
+  <country name="no">
+    <language>en</language>
+    <culture>en_NO</culture>
+    <source>english</source>
+    <!-- Norwegian -->
+    <alt-language name="no">
+      <language>no</language>
+      <culture>no_NO</culture>
+      <source>norwegian</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Poland (en_PL, pl_PL) -->
+  <country name="pl">
+    <language>en</language>
+    <culture>en_PL</culture>
+    <source>english</source>
+    <!-- Polish -->
+    <alt-language name="pl">
+      <language>pl</language>
+      <culture>pl_PL</culture>
+      <source>polish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Portugal (en_PT, pt_PT) -->
+  <country name="pt">
+    <language>en</language>
+    <culture>en_PT</culture>
+    <source>english</source>
+    <!-- Portuguese -->
+    <alt-language name="pt">
+      <language>pt</language>
+      <culture>pt_PT</culture>
+      <source>portugal</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Russia (ru_RU) -->
+  <country name="ru">
+    <language>ru</language>
+    <culture>ru_RU</culture>
+    <source>russian</source>
+    <!-- English (Locale required by CNET system, it does not feed EN content) -->
+    <alt-language name="en">
+      <language>en</language>
+      <culture template="prc">en_RU</culture>
+      <source>english</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Slovakia (en_SK, sk_SK) -->
+  <country name="sk">
+    <language>en</language>
+	<culture template="csd">en_SK</culture>
+    <culture template="hmy">en_SK</culture>
+    <source>english</source>
+    <!-- Slovak -->
+    <alt-language name="sk">
+      <language>sk</language>
+	  <culture template="csd">sk_SK</culture>
+      <culture template="hmy">sk_SK</culture>
+      <source>czech-and-slovak</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- South Africa (en_ZA, af_ZA, st_ZA) -->
+  <country name="za">
+    <language>en</language>
+	<culture template="csd">en_ZA</culture>
+    <culture template="hmy">en_ZA</culture>
+    <source>english</source>
+    <region>emea</region>
+  </country>
+
+  <!-- Spain (en_ES, es_ES, ca_ES) -->
+  <country name="es">
+    <language>en</language>
+    <culture>en_ES</culture>
+    <source>english</source>
+    <!-- Euro Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es_ES</culture>
+      <source>euro-spanish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Sweden (en_SE, sv_SE) -->
+  <country name="se">
+    <language>en</language>
+    <culture>en_SE</culture>
+    <source>english</source>
+    <!-- Swedish -->
+    <alt-language name="sv">
+      <language>sv</language>
+	  <culture template="csd">sv_SE</culture>
+      <culture template="hmy">sv_SE</culture>
+      <culture template="prc">sv_SE</culture>
+      <source>swedish</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- Switzerland (en_CH, de_CH, fr_CH) -->
+  <country name="ch">
+    <language>en</language>
+    <culture>en_CH</culture>
+    <source>english</source>
+    <!-- German -->
+    <alt-language name="de">
+      <language>de</language>
+      <culture>de_CH</culture>
+      <source>german</source>
+    </alt-language>
+    <!-- French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr_CH</culture>
+      <source>euro-french</source>
+    </alt-language>
+    <region>emea</region>
+  </country>
+
+  <!-- United Kingdom (en_UK) -->
+  <country name="uk">
+    <language>en</language>
+	<culture template="csd">en_GB</culture>
+    <culture template="hmy">en_GB</culture>
+    <culture template="prc">en_GB</culture>
+    <source>english</source>
+    <region>emea</region>
+  </country>
+  <!--// **************************************-->
+  <!--// End of Europe, Middle East and Africa -->
+  <!--// **************************************-->
+  
+  <!--// ***********************-->
+  <!--// Start of United States -->
+  <!--// ***********************-->
+  <!-- United States (en_US) -->
+  <country name="us">
+    <language>en</language>
+    <culture>en_US</culture>
+    <source>english</source>
+    <region>us</region>
+  </country>
+  <!--// *********************-->
+  <!--// End of United States -->
+  <!--// *********************-->
+
+  <!--// ***********************-->
+  <!--// Start of Latin America -->
+  <!--// ***********************-->
+  <!-- Argentina (en_AR, es_AR) -->
+  <country name="ar">
+    <language>en</language>
+    <culture>en_AR</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es_AR</culture>
+      <source>south-american-spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Brazil (en_BR, pt_BR) -->
+  <country name="br">
+    <language>en</language>
+    <culture>en_BR</culture>
+    <source>english</source>
+    <!-- Brazilian Portuguese -->
+    <alt-language name="pt">
+      <language>pt</language>
+	  <culture template="csd">pt_BR</culture>
+      <culture template="hmy">pt_BR</culture>
+      <culture template="prc">pt_BR</culture>
+      <source>brazilian-portuguese</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Chile (en_CL, es_CL) -->
+  <country name="cl">
+    <language>en</language>
+    <culture>en_CL</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es_CL</culture>
+      <source>south-american-spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Colombia (en_CO, es_CO) -->
+  <country name="co">
+    <language>en</language>
+    <culture>en_CO</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es_CO</culture>
+      <source>south-american-spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Mexico (en_MX, es_MX) -->
+  <country name="mx">
+    <language>en</language>
+    <culture>en_MX</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es_MX</culture>
+      <source>south-american-spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Peru (en_PE, es_PE, qu_PE) -->
+  <country name="pe">
+    <language>en</language>
+    <culture>en_PE</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+      <culture>es_PE</culture>
+      <source>south-american-spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+
+  <!-- Venezuela (en_VE, es_VE) -->
+  <country name="ve">
+    <language>en</language>
+	<culture template="csd">en_VL</culture>
+    <culture template="hmy">en_VL</culture>
+    <culture template="prc">en_VL</culture>
+    <source>english</source>
+    <!-- South American Spanish -->
+    <alt-language name="es">
+      <language>es</language>
+	  <culture template="csd">es_VL</culture>
+      <culture template="hmy">es_VL</culture>
+      <culture template="prc">es_VL</culture>
+      <source>south-american-spanish</source>
+    </alt-language>
+    <region>la</region>
+  </country>
+  <!--// *********************-->
+  <!--// End of Latin America -->
+  <!--// *********************-->
+
+  <!--// ****************-->
+  <!--// Start of Canada -->
+  <!--// ****************-->
+  <!-- Canada (en_CA, fr_CA) -->
+  <country name="ca">
+    <language>en</language>
+    <culture>en_CA</culture>
+    <source>english</source>
+    <!-- Canada French -->
+    <alt-language name="fr">
+      <language>fr</language>
+      <culture>fr_CA</culture>
+      <source>canada-french</source>
+    </alt-language>
+    <region>ca</region>
+  </country>
+  <!--// **************-->
+  <!--// End of Canada -->
+  <!--// **************-->
+
+</locales>
+
+
+
+
+
+
+
+
+
+
+
+
+

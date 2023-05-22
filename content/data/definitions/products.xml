@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<product:categories xmlns:product="http://www.dell.com/thunder/productcategories">
+
+  <product:category id="accessories" name="Accessories">
+    <product:subclass id="852" description="Hard Drive Accessories" folder-name="852"/>
+	<product:subclass id="852A" description="Thermal Pad SSD for Alienware" folder-name="852A"/>
+    <product:subclass id="413" description="Other Accessories" folder-name="413"/>
+    <product:subclass id="139" description="Tape Media Labels" folder-name="139"/>
+    <product:subclass id="139A" description="Fans" folder-name="139A"/>
+    <product:subclass id="604" description="Cabinet &amp; Rack Accessories" folder-name="604"/>
+	<product:subclass id="139B" description="Riser" folder-name="139B"/>
+	<product:subclass id="465" description="Server Accessories" folder-name="465"/>
+  </product:category>
+
+  <product:category id="adapters" name="Adapters">
+    <product:subclass id="225" description="Mobile Broadband Adapters" folder-name="225"/>
+    <product:subclass id="443" description="Networking Adapters - Gigabit" folder-name="443-819"/>
+    <product:subclass id="819" description="Networking Adapters - Fast Ethernet" folder-name="443-819"/>
+    <product:subclass id="773" description="Notebook AC Adapters" folder-name="773-774-140"/>
+	<product:subclass id="773" description="Notebook AC Adapters (Barrel and USB type)" folder-name="773A"/>
+    <product:subclass id="140" description="Notebook Adapters" folder-name="773-774-140"/>
+    <product:subclass id="774" description="Notebook Auto/ Air Adapters" folder-name="773-774-140"/>
+    <product:subclass id="255" description="USB Wireless/ WiFi Adapters" folder-name="255"/>
+  </product:category>
+
+  <product:category id="controller-card" name="Controller Card">
+    <product:subclass id="273" description="iSCSI Controllers" folder-name="278-273"/>
+    <product:subclass id="278" description="Storage Adapters &amp; RAID Controller Cards" folder-name="278-273"/>
+
+  </product:category>
+
+  <product:category id="cameras-video-conferencing" name="Cameras - Video Conferencing">
+    <product:subclass id="190" description="Cameras - Video Conferencing" folder-name="190"/>
+  </product:category>
+
+  <product:category id="display-warranty" name="Display Warranty">
+    <product:subclass id="204A" description="LCD Display" folder-name="204A"/>
+    <product:subclass id="204B" description="LCD Bezel" folder-name="204B"/>
+    <product:subclass id="204C" description="LCD Cover" folder-name="204C"/>
+  </product:category>
+
+  <product:category id="fiber-optic-cables" name="Fiber Optic Cables">
+    <product:subclass id="407" description="Fiber Optic Cables" folder-name="407"/>
+    <product:subclass id="647C" description="Omni-Path Active Cable " folder-name="647C"/>
+    <product:subclass id="647D" description="Omni-Path Direct Copper Cable" folder-name="647D"/>
+    <product:subclass id="647E" description="Active Optical Cable" folder-name="647E"/>
+  </product:category>
+
+<product:category id="graphic-card" name="Graphic Card">
+    <product:subclass id="141" description="NVIDIA Tesla Graphic Card" folder-name="141"/>
+    	<product:subclass id="141A" description="NVIDIA Quadro Graphic Card" folder-name="141A"/>
+		<product:subclass id="141B" description="NVIDIA A6000 Graphic Card" folder-name="141B"/>
+		<product:subclass id="141C" description="AMD Instinct MI Series Accelerators Graphic Card" folder-name="141C"/>
+		
+  </product:category>
+
+  <product:category id="hard-drive" name="Hard Drive">
+    <product:subclass id="76" description="IDE 3.5 Hard Drive" folder-name="156-76"/>
+    <product:subclass id="80" description="IDE / ATA / SATA" folder-name="32-77-80"/>
+    <product:subclass id="156" description="IDE Hard Drive" folder-name="156-76"/>
+    <product:subclass id="77" description="SATA Hard Drive" folder-name="32-77-80"/>
+    <product:subclass id="415" description="SAS Hard Drive" folder-name="415"/>
+	<product:subclass id="415A" description="512e/4Kn Hard Drive" folder-name="415A"/>
+    <product:subclass id="75" description="SCSI Hard Drive" folder-name="75"/>
+    <product:subclass id="277" description="Solid State Disk (SSD)" folder-name="277"/>
+	  <product:subclass id="277A" description="NVMe Express Flash" folder-name="277A"/>
+    <product:subclass id="334" description="External USB Hard Drives" folder-name="334"/>
+  </product:category>
+
+  <product:category id="hba" name="HBA"> 
+    <product:subclass id="932" description="Fibre Channel HBAs" folder-name="932"/>
+  </product:category>
+
+  <product:category id="heatsinks-and-thermalpaste" name="Heatsinks &amp; Thermalpaste">
+    <product:subclass id="30" description="Heatsink CPU Assembly" folder-name="30"/>
+	 <product:subclass id="30A" description="Heatsink for CPU equal to or greater than 180W" folder-name="30A"/>
+	 <product:subclass id="30B" description="Heatsink for CPU Extended" folder-name="30B"/>
+	
+  </product:category>
+
+  <product:category id="keyboards-and-combos" name="Keyboards &amp; Combos">
+    <product:subclass id="303" description="Keyboards &amp; Combos" folder-name="303"/>
+  </product:category>
+
+  <product:category id="memory" name="Memory">
+    <product:subclass id="427" description="Gaming and Performance Memory" folder-name="427-746"/>
+    <product:subclass id="746" description="Memory Upgrades" folder-name="427-746"/>
+	<product:subclass id="427A" description="Memory Upgrades (Cascade Lake Only)" folder-name="427A"/>
+	<product:subclass id="427B" description="Memory Upgrades (Cascade Lake and AMD CPU Only)" folder-name="427B"/>
+	<product:subclass id="427E" description="Memory Upgrades (Not Compatible with Skylake CPU)" folder-name="427E"/>
+	<product:subclass id="427F" description="Memory Upgrades XMP" folder-name="427F"/>
+	<product:subclass id="829" description="Memory Cards" folder-name="829"/>
+  </product:category>
+
+  <product:category id="motherboards" name="Motherboards">
+    <product:subclass id="583" description="Motherboards" folder-name="583"/>
+  </product:category>
+
+  <product:category id="networking-modems" name="Networking Modems">
+    <product:subclass id="807" description="Networking Modems" folder-name="807"/>
+  </product:category>
+
+  <product:category id="notebook-batteries" name="Notebook Batteries">
+    <product:subclass id="744" description="Notebook Batteries" folder-name="744"/>
+  </product:category>
+
+  <product:category id="power-cord" name="Power Cord">
+    <product:subclass id="653" description="Power Cord" folder-name="653"/>
+
+  </product:category>
+
+  <product:category id="power-supply" name="Power Supply">
+    <product:subclass id="788" description="Power Supplies" folder-name="788"/>
+  </product:category>
+
+  <product:category id="processors" name="Processors">
+    <product:subclass id="125" description="Server Processors" folder-name="125"/>
+  </product:category>
+
+  <product:category id="rubber-feet-and-notebook-plastics" name="Rubber Feet &amp; Notebook Plastics">
+    <product:subclass id="104" description="Rubber Feet &amp; Notebook Plastics" folder-name="104"/>
+  </product:category>
+
+  <product:category id="smartcard-devices" name="Smartcard Devices">
+    <product:subclass id="779" description="Smartcard Devices" folder-name="779"/>
+  </product:category>
+
+  <product:category id="system-drive" name="System Drive">
+    <product:subclass id="137" description="Blu-Ray Optical Drives" folder-name="83-137-344"/>
+    <product:subclass id="344" description="External Optical Disc Drives" folder-name="83-137-344"/>
+    <product:subclass id="83" description="Internal Optical Disc Drives" folder-name="83-137-344"/>
+  </product:category>
+
+  <product:category id="tape-back-up-drives-catridges" name="Tape Back Up Drives Catridges">
+    <product:subclass id="632" description="LTO Cartridges" folder-name="632-995"/>
+    <product:subclass id="995" description="LTO Drives - External" folder-name="632-995"/>
+  </product:category>
+
+  <product:category id="wireless-dongle" name="Wireless Dongle">
+    <product:subclass id="240" description="Wireless Dongle" folder-name="240"/>
+  </product:category>
+
+  <product:category id="optical-transceivers" name="Optical Transceivers">
+    <product:subclass id="799" description="Optical Transceivers" folder-name="799A"/>
+  </product:category>
+  
+  <product:category id="Bezel" name="Bezel">
+    <product:subclass id="604" description="Cabinet and Rack Accessories" folder-name="604"/>
+  </product:category>
+  
+ 
+
+</product:categories>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

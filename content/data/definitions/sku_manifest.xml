@@ -1,0 +1,1421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.dell.com/thunder/sku">
+  <!--// ***********************-->
+  <!--// Start of United States -->
+  <!--// ***********************-->
+  <region name="us">
+    <!--<category id="processors">
+      <sku id="313">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="317">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="319">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="338">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="489">
+        <subclass>125</subclass>
+      </sku>
+    </category>
+    <category id="hard-drive">
+      <sku id="340">
+        <subclass>76</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>32</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+        <subclass>852</subclass>
+      </sku>
+      <sku id="400">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+      </sku>
+      <sku id="401">
+        <subclass>277</subclass>
+      </sku>
+      <sku id="469">
+        <subclass>334</subclass>
+      </sku>
+      <sku id="784">
+        <subclass>334</subclass>
+      </sku>
+    </category>
+    <category id="adapters">
+      <sku id="331">
+        <subclass>255</subclass>
+        <subclass>773</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>255</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>255</subclass>
+        <subclass>443</subclass>
+      </sku>
+      <sku id="318">
+        <subclass>255</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="542">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>773</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>773</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+      <sku id="469">
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+      <sku id="492">
+        <subclass>773</subclass>
+      </sku>
+    </category>
+    <category id="additional-enclosure-management-module">
+      <sku id="342">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="313">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="421">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>278</subclass>
+      </sku>
+    </category>
+    <category id="fiber-optic-cables">
+      <sku id="470">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>647</subclass>
+      </sku>
+    </category>
+    <category id="graphic-card">
+      <sku id="490">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="321">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="320">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>141</subclass>
+      </sku>
+    </category>
+    <category id="hba">
+      <sku id="331">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="543">
+        <subclass>932</subclass>
+      </sku>
+    </category>
+    <category id="keyboards-and-combos">
+      <sku id="580">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>303</subclass>
+      </sku>
+    </category>
+    <category id="memory">
+      <sku id="319">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="370">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="317">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="311">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>746</subclass>
+      </sku>
+    </category>
+    <category id="networking-modems">
+      <sku id="313">
+        <subclass>807</subclass>
+      </sku>
+
+    </category>
+    <category id="notebook-batteries">
+      <sku id="312">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="451">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="453">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="455">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>744</subclass>
+      </sku>
+    </category>
+    <category id="power-cord">
+      <sku id="330">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="320">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>653</subclass>
+      </sku>
+    </category>
+    <category id="power-supply">
+      <sku id="331">
+        <subclass>788</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>788</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>788</subclass>
+      </sku>
+
+    </category>
+    <category id="system-drive">
+      <sku id="342">
+        <subclass>83</subclass>
+      </sku>
+      <sku id="429">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="378">
+        <subclass>83</subclass>
+      </sku>
+      <sku id="313">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="318">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>344</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>344</subclass>
+      </sku>
+    </category>
+    <category id="tape-back-up-drives-catridges">
+      <sku id="341">
+        <subclass>632</subclass>
+        <subclass>995</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="340">
+        <subclass>632</subclass>
+      </sku>
+
+    </category>
+    <category id="wireless-dongle">
+    </category>-->
+  </region>
+  <!--// *********************-->
+  <!--// End of United States -->
+  <!--// *********************-->
+
+  <!--// ***********************-->
+  <!--// Start of Latin America -->
+  <!--// ***********************-->
+  <region name="latam">
+    <!--<category id="processors">
+      <sku id="313">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="317">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="319">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="338">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="489">
+        <subclass>125</subclass>
+      </sku>
+    </category>
+    <category id="hard-drive">
+      <sku id="340">
+        <subclass>76</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>32</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+        <subclass>852</subclass>
+      </sku>
+      <sku id="400">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+      </sku>
+      <sku id="401">
+        <subclass>277</subclass>
+      </sku>
+      <sku id="469">
+        <subclass>334</subclass>
+      </sku>
+      <sku id="784">
+        <subclass>334</subclass>
+      </sku>
+    </category>
+    <category id="adapters">
+      <sku id="331">
+        <subclass>255</subclass>
+        <subclass>773</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>255</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>255</subclass>
+        <subclass>443</subclass>
+      </sku>
+      <sku id="318">
+        <subclass>255</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="542">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>773</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>773</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+      <sku id="469">
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+      <sku id="492">
+        <subclass>773</subclass>
+      </sku>
+    </category>
+    <category id="additional-enclosure-management-module">
+      <sku id="342">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="313">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="421">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>278</subclass>
+      </sku>
+    </category>
+    <category id="fiber-optic-cables">
+      <sku id="470">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>647</subclass>
+      </sku>
+    </category>
+    <category id="graphic-card">
+      <sku id="490">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="321">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="320">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>141</subclass>
+      </sku>
+    </category>
+    <category id="hba">
+      <sku id="331">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="543">
+        <subclass>932</subclass>
+      </sku>
+    </category>
+    <category id="keyboards-and-combos">
+      <sku id="580">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>303</subclass>
+      </sku>
+    </category>
+    <category id="memory">
+      <sku id="319">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="370">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="317">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="311">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>746</subclass>
+      </sku>
+    </category>
+    <category id="networking-modems">
+      <sku id="313">
+        <subclass>807</subclass>
+      </sku>
+
+    </category>
+    <category id="notebook-batteries">
+      <sku id="312">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="451">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="453">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="455">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>744</subclass>
+      </sku>
+    </category>
+    <category id="power-cord">
+      <sku id="330">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="320">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>653</subclass>
+      </sku>
+    </category>
+    <category id="power-supply">
+      <sku id="331">
+        <subclass>788</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>788</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>788</subclass>
+      </sku>
+
+    </category>
+    <category id="system-drive">
+      <sku id="342">
+        <subclass>83</subclass>
+      </sku>
+      <sku id="429">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="378">
+        <subclass>83</subclass>
+      </sku>
+      <sku id="313">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="318">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>344</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>344</subclass>
+      </sku>
+    </category>
+    <category id="tape-back-up-drives-catridges">
+      <sku id="341">
+        <subclass>632</subclass>
+        <subclass>995</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="340">
+        <subclass>632</subclass>
+      </sku>
+
+    </category>
+    <category id="wireless-dongle">
+      <sku id="340">
+        <subclass>76</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>32</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+        <subclass>852</subclass>
+      </sku>
+      <sku id="400">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+      </sku>
+      <sku id="401">
+        <subclass>277</subclass>
+      </sku>
+      <sku id="469">
+        <subclass>334</subclass>
+      </sku>
+      <sku id="784">
+        <subclass>334</subclass>
+      </sku>
+    </category>-->
+  </region>
+  <!--// ***********************-->
+  <!--// End of Latin America -->
+  <!--// ***********************-->
+
+  <!--// ****************-->
+  <!--// Start of Canada -->
+  <!--// ****************-->
+  <region name="ca">
+    <!--<category id="processors">
+      <sku id="313">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="317">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="319">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="338">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="489">
+        <subclass>125</subclass>
+      </sku>
+    </category>
+    <category id="hard-drive">
+      <sku id="340">
+        <subclass>76</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>32</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+        <subclass>852</subclass>
+      </sku>
+      <sku id="400">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+      </sku>
+      <sku id="401">
+        <subclass>277</subclass>
+      </sku>
+      <sku id="469">
+        <subclass>334</subclass>
+      </sku>
+      <sku id="784">
+        <subclass>334</subclass>
+      </sku>
+    </category>
+    <category id="adapters">
+      <sku id="331">
+        <subclass>255</subclass>
+        <subclass>773</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>255</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>255</subclass>
+        <subclass>443</subclass>
+      </sku>
+      <sku id="318">
+        <subclass>255</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="542">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>773</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>773</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+      <sku id="469">
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+      <sku id="492">
+        <subclass>773</subclass>
+      </sku>
+    </category>
+    <category id="additional-enclosure-management-module">
+      <sku id="342">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="313">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="421">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>278</subclass>
+      </sku>
+    </category>
+    <category id="fiber-optic-cables">
+      <sku id="470">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>647</subclass>
+      </sku>
+    </category>
+    <category id="graphic-card">
+      <sku id="490">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="321">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="320">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>141</subclass>
+      </sku>
+    </category>
+    <category id="hba">
+      <sku id="331">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="543">
+        <subclass>932</subclass>
+      </sku>
+    </category>
+    <category id="keyboards-and-combos">
+      <sku id="580">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="332">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>303</subclass>
+      </sku>
+    </category>
+    <category id="memory">
+      <sku id="319">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="370">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="317">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="311">
+        <subclass>746</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>746</subclass>
+      </sku>
+    </category>
+    <category id="networking-modems">
+      <sku id="313">
+        <subclass>807</subclass>
+      </sku>
+
+    </category>
+    <category id="notebook-batteries">
+      <sku id="312">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="451">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="453">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="455">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>744</subclass>
+      </sku>
+    </category>
+    <category id="power-cord">
+      <sku id="330">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="320">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="430">
+        <subclass>653</subclass>
+      </sku>
+    </category>
+    <category id="power-supply">
+      <sku id="331">
+        <subclass>788</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>788</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>788</subclass>
+      </sku>
+
+    </category>
+    <category id="system-drive">
+      <sku id="342">
+        <subclass>83</subclass>
+      </sku>
+      <sku id="429">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="378">
+        <subclass>83</subclass>
+      </sku>
+      <sku id="313">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="318">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>344</subclass>
+      </sku>
+      <sku id="331">
+        <subclass>344</subclass>
+      </sku>
+    </category>
+    <category id="tape-back-up-drives-catridges">
+      <sku id="341">
+        <subclass>632</subclass>
+        <subclass>995</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="310">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>632</subclass>
+      </sku>
+      <sku id="340">
+        <subclass>632</subclass>
+      </sku>
+
+    </category>
+    <category id="wireless-dongle">
+      <sku id="340">
+        <subclass>76</subclass>
+      </sku>
+      <sku id="341">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+      </sku>
+      <sku id="342">
+        <subclass>32</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+        <subclass>852</subclass>
+      </sku>
+      <sku id="400">
+        <subclass>32</subclass>
+        <subclass>75</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+      </sku>
+      <sku id="401">
+        <subclass>277</subclass>
+      </sku>
+      <sku id="469">
+        <subclass>334</subclass>
+      </sku>
+      <sku id="784">
+        <subclass>334</subclass>
+      </sku>
+    </category>-->
+  </region>
+  <!--// ****************-->
+  <!--// End of Canada -->
+  <!--// ****************-->
+
+  <!--// ******************************-->
+  <!--// Start of Asia-Pacific & Japan -->
+  <!--// ******************************-->
+  <region name="apj">
+    <!--<category id="accessories">
+      <sku id="445">
+        <subclass>139</subclass>
+      </sku>
+      <sku id="440">
+        <subclass>139</subclass>
+      </sku>
+      <sku id="750">
+        <subclass>139</subclass>
+      </sku>
+      <sku id="429">
+        <subclass>852</subclass>
+      </sku>
+    </category>
+    <category id="adapters">
+      <sku id="492">
+        <subclass>443</subclass>
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+      <sku id="555">
+        <subclass>255</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="406">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="382">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="750">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>443</subclass>
+        <subclass>773</subclass>
+      </sku>
+      <sku id="403">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+    </category>
+    <category id="additional-enclosure-management-module">
+      <sku id="403">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="406">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>278</subclass>
+      </sku>
+    </category>
+    <category id="fiber-optic-cables">
+      <sku id="470">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="409">
+        <subclass>647</subclass>
+      </sku>
+    </category>
+    <category id="graphic-card">
+      <sku id="490">
+        <subclass>141</subclass>
+      </sku>
+    </category>
+    <category id="hard-drive">
+      <sku id="400">
+        <subclass>32</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+        <subclass>334</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>32</subclass>
+      </sku>
+    </category>
+    <category id="hba">
+      <sku id="492">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="406">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="724">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="628">
+        <subclass>932</subclass>
+      </sku>
+    </category>
+    <category id="heatsinks-and-thermalpaste">
+      <sku id="412">
+        <subclass>30</subclass>
+      </sku>
+    </category>
+    <category id="keyboards-and-combos">
+      <sku id="580">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="570">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="750">
+        <subclass>303</subclass>
+      </sku>
+    </category>
+    <category id="memory">
+      <sku id="370">
+        <subclass>746</subclass>
+      </sku>
+    </category>
+    <category id="notebook-batteries">
+      <sku id="451">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="453">
+        <subclass>744</subclass>
+      </sku>
+    </category>
+    <category id="power-cord">
+      <sku id="450">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>653</subclass>
+      </sku>
+    </category>
+    <category id="power-supply">
+      <sku id="450">
+        <subclass>788</subclass>
+      </sku>
+      <sku id="492">
+        <subclass>788</subclass>
+      </sku>
+    </category>
+    <category id="processors">
+      <sku id="213">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="338">
+        <subclass>125</subclass>
+      </sku>
+    </category>
+    <category id="system-drive">
+      <sku id="429">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="357">
+        <subclass>83</subclass>
+      </sku>
+    </category>
+    <category id="wireless-dongle">
+      <sku id="725">
+        <subclass>240</subclass>
+      </sku>
+    </category>-->
+  </region>
+  <!--// ****************************-->
+  <!--// End of Asia-Pacific & Japan -->
+  <!--// ****************************-->
+
+  <!--// ****************************************-->
+  <!--// Start of Europe, Middle East and Africa -->
+  <!--// ****************************************-->
+  <region name="emea">
+    <!--<category id="accessories">
+      <sku id="440">
+        <subclass>139</subclass>
+        <subclass>852</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>139</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>852</subclass>
+      </sku>
+      <sku id="750">
+        <subclass>852</subclass>
+      </sku>
+      <sku id="400">
+        <subclass>852</subclass>
+      </sku>
+      <sku id="429">
+        <subclass>852</subclass>
+      </sku>
+    </category>
+    <category id="adapters">
+      <sku id="492">
+        <subclass>140</subclass>
+        <subclass>773</subclass>
+      </sku>
+      <sku id="555">
+        <subclass>225</subclass>
+        <subclass>255</subclass>
+      </sku>
+      <sku id="556">
+        <subclass>225</subclass>
+        <subclass>255</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>255</subclass>
+        <subclass>443</subclass>
+      </sku>
+      <sku id="406">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="409">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="543">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="403">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="542">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="490">
+        <subclass>443</subclass>
+      </sku>
+      <sku id="450">
+        <subclass>773</subclass>
+        <subclass>774</subclass>
+      </sku>
+    </category>
+    <category id="additional-enclosure-management-module">
+      <sku id="403">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>278</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>278</subclass>
+      </sku>
+    </category>
+    <category id="fiber-optic-cables">
+      <sku id="470">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="407">
+        <subclass>647</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>647</subclass>
+      </sku>
+    </category>
+    <category id="graphic-card">
+      <sku id="490">
+        <subclass>141</subclass>
+      </sku>
+      <sku id="294">
+        <subclass>141</subclass>
+      </sku>
+    </category>
+    <category id="hard-drive">
+      <sku id="400">
+        <subclass>32</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+      </sku>
+      <sku id="401">
+        <subclass>32</subclass>
+        <subclass>77</subclass>
+        <subclass>277</subclass>
+      </sku>
+      <sku id="428">
+        <subclass>77</subclass>
+      </sku>
+      <sku id="784">
+        <subclass>334</subclass>
+      </sku>
+    </category>
+    <category id="hba">
+      <sku id="403">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="405">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="406">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="543">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="540">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="555">
+        <subclass>932</subclass>
+      </sku>
+      <sku id="542">
+        <subclass>932</subclass>
+      </sku>
+    </category>
+    <category id="heatsinks-and-thermalpaste">
+      <sku id="412">
+        <subclass>30</subclass>
+      </sku>
+      <sku id="374">
+        <subclass>30</subclass>
+      </sku>
+      <sku id="338">
+        <subclass>30</subclass>
+      </sku>
+    </category>
+    <category id="keyboards-and-combos">
+      <sku id="580">
+        <subclass>303</subclass>
+      </sku>
+      <sku id="346">
+        <subclass>303</subclass>
+      </sku>
+    </category>
+    <category id="notebook-batteries">
+      <sku id="451">
+        <subclass>744</subclass>
+      </sku>
+      <sku id="453">
+        <subclass>744</subclass>
+      </sku>
+    </category>
+    <category id="power-cord">
+      <sku id="450">
+        <subclass>653</subclass>
+      </sku>
+      <sku id="470">
+        <subclass>653</subclass>
+      </sku>
+    </category>
+    <category id="power-supply">
+      <sku id="450">
+        <subclass>788</subclass>
+      </sku>
+    </category>
+    <category id="processors">
+      <sku id="374">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="338">
+        <subclass>125</subclass>
+      </sku>
+      <sku id="412">
+        <subclass>125</subclass>
+      </sku>
+    </category>
+    <category id="tape-back-up-drives-catridges">
+      <sku id="440">
+        <subclass>632</subclass>
+        <subclass>995</subclass>
+      </sku>
+      <sku id="330">
+        <subclass>632</subclass>
+      </sku>
+    </category>
+    <category id="system-drive">
+      <sku id="429">
+        <subclass>83</subclass>
+        <subclass>344</subclass>
+      </sku>
+      <sku id="338">
+        <subclass>83</subclass>
+      </sku>
+      <sku id="784">
+        <subclass>344</subclass>
+      </sku>
+    </category>
+    <category id="wireless-dongle">
+      <sku id="725">
+        <subclass>240</subclass>
+      </sku>
+    </category>-->
+  </region>
+  <!--// **************************************-->
+  <!--// End of Europe, Middle East and Africa -->
+  <!--// **************************************-->
+
+  <!--// ****************-->
+  <!--// Start of Global -->
+  <!--// ****************-->
+  <region name="global">
+    <!--<category id="processors">
+      <sku id="250">
+        <subclass>125</subclass>
+      </sku>
+    </category>-->
+  </region>
+  <!--// ****************-->
+  <!--// End of Global -->
+  <!--// ****************-->
+</manifest>
