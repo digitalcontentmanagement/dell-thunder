@@ -40,7 +40,7 @@
     <!-- Start of Preparing Name and Value list (Before being populated into template column fields) -->
     <xsl:variable name="name_value_list">
       <xsl:element name="tokens:tokens">
-        <xsl:apply-templates select="content:points">
+        <xsl:apply-templates select="content:para|content:points">
           <xsl:with-param name="environment" select="$environment"/>
           <xsl:with-param name="country" select="$country"/>
           <xsl:with-param name="language" select="$language"/>
@@ -61,6 +61,29 @@
       </xsl:when>
     </xsl:choose>
     <!-- End of Populating into the template name and value fields -->
+  </xsl:template>
+
+  <!-- Adding Para under Product Highlights dated 23 May 2023 by Syahirah's ask -->
+  <xsl:template match="content:para">
+    <xsl:param name="environment"/>
+    <xsl:param name="country"/>
+    <xsl:param name="language"/>
+    <xsl:param name="skutype"/>
+    <xsl:param name="skuid"/>
+    <xsl:variable name="feature_value">
+      <xsl:apply-templates>
+         <xsl:with-param name="environment" select="$environment"/>
+         <xsl:with-param name="country" select="$country"/>
+         <xsl:with-param name="language" select="$language"/>
+         <xsl:with-param name="skutype" select="$skutype"/>
+         <xsl:with-param name="skuid" select="$skuid"/>
+      </xsl:apply-templates>
+    </xsl:variable>
+    <xsl:element name="tokens:token">
+      <![CDATA[<p>]]>
+      <xsl:copy-of select="$feature_value"/>
+      <![CDATA[</p>]]>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="content:points">
