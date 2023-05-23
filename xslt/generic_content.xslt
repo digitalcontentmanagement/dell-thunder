@@ -628,7 +628,7 @@
   <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
   <xsl:template match="product:highlights">
     <xsl:variable name="output">
-      <xsl:apply-templates select="content:points">
+      <xsl:apply-templates select="content:points|content:para">
         <xsl:with-param name="environment" select="$environment"/>
         <xsl:with-param name="country" select="$country"/>
         <xsl:with-param name="language" select="$language"/>

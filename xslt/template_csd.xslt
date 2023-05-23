@@ -20,7 +20,7 @@
     <xsl:param name="skutype"/>
     <xsl:param name="skuid"/>
 
-    <xsl:apply-templates select="content:points">
+    <xsl:apply-templates select="content:points|content:para">
       <xsl:with-param name="environment" select="$environment"/>
       <xsl:with-param name="country" select="$country"/>
       <xsl:with-param name="language" select="$language"/>
