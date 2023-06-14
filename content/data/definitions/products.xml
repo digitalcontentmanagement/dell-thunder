@@ -17,12 +17,11 @@
     <product:subclass id="443" description="Networking Adapters - Gigabit" folder-name="443-819"/>
     <product:subclass id="819" description="Networking Adapters - Fast Ethernet" folder-name="443-819"/>
     <product:subclass id="773" description="Notebook AC Adapters" folder-name="773-774-140"/>
-	  <product:subclass id="773A" description="Notebook AC Adapters (Barrel and USB type)" folder-name="773A"/>
-	  <product:subclass id="773B" description="Notebook AC Adapters (USFF AC Adapter)" folder-name="773B"/>
-	  <product:subclass id="140" description="Notebook Adapters" folder-name="773-774-140"/>
+	<product:subclass id="773" description="Notebook AC Adapters (Barrel and USB type)" folder-name="773A"/>
+	<product:subclass id="773" description="Notebook AC Adapters (USFF AC Adapter)" folder-name="773B"/>
+    <product:subclass id="140" description="Notebook Adapters" folder-name="773-774-140"/>
     <product:subclass id="774" description="Notebook Auto/ Air Adapters" folder-name="773-774-140"/>
     <product:subclass id="255" description="USB Wireless/ WiFi Adapters" folder-name="255"/>
-	  
   </product:category>
 
   <product:category id="controller-card" name="Controller Card">
@@ -53,6 +52,7 @@
     	<product:subclass id="141A" description="NVIDIA Quadro Graphic Card" folder-name="141A"/>
 		<product:subclass id="141B" description="NVIDIA A6000 Graphic Card" folder-name="141B"/>
 		<product:subclass id="141C" description="AMD Instinct MI Series Accelerators Graphic Card" folder-name="141C"/>
+		<product:subclass id="141D" description="NVIDIA L40" folder-name="141D"/>
 		
   </product:category>
 
@@ -123,6 +123,10 @@
     <product:subclass id="104" description="Rubber Feet &amp; Notebook Plastics" folder-name="104"/>
   </product:category>
 
+  <product:category id="smartcard-devices" name="Smartcard Devices">
+    <product:subclass id="779" description="Smartcard Devices" folder-name="779"/>
+  </product:category>
+
   <product:category id="system-drive" name="System Drive">
     <product:subclass id="137" description="Blu-Ray Optical Drives" folder-name="83-137-344"/>
     <product:subclass id="344" description="External Optical Disc Drives" folder-name="83-137-344"/>
@@ -134,11 +138,15 @@
     <product:subclass id="995" description="LTO Drives - External" folder-name="632-995"/>
   </product:category>
 
+  <product:category id="wireless-dongle" name="Wireless Dongle">
+    <product:subclass id="240" description="Wireless Dongle" folder-name="240"/>
+  </product:category>
+
   <product:category id="optical-transceivers" name="Optical Transceivers">
     <product:subclass id="799" description="Optical Transceivers" folder-name="799A"/>
   </product:category>
   
-  <product:category id="bezel" name="Bezel">
+  <product:category id="Bezel" name="Bezel">
     <product:subclass id="604" description="Cabinet and Rack Accessories" folder-name="604"/>
   </product:category>
   
