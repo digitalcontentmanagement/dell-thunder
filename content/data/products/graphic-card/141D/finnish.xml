@@ -14,7 +14,7 @@
     </product:name>
 
     <product:longdesc>
-      Ennennäkemätön visuaalinen laskentateho konesaliin.
+      <para><b>Ennennäkemätön visuaalinen laskentateho konesaliin.</b></para>
 	  <para>
 	  Ada Lovelace -arkkitehtuurilla varustettu NVIDIA<reg/> L40 tarjoaa mullistavat neuroverkkografiikan, virtualisoinnin, 
 	  laskennan ja tekoälyn ominaisuudet grafiikkasuoritinta hyödyntäville konesalikuormille.

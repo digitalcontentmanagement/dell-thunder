@@ -14,7 +14,7 @@
     </product:name>
 
     <product:longdesc>
-      Beispiellose Leistung für Visual Computing im Rechenzentrum.
+      <para><b>Beispiellose Leistung für Visual Computing im Rechenzentrum.</b></para>
 	  <para>
 	  Der NVIDIA<reg/> L40-Grafikprozessor auf Basis der Ada Lovelace-Architektur bietet revolutionäre neuronale Grafik sowie Virtualisierungs-, Rechen- und KI-Funktionen für GPU-Beschleunigte Workloads im Rechenzentrum.
 	  </para>

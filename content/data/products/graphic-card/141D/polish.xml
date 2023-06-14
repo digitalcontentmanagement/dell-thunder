@@ -13,7 +13,7 @@
 	 <textbox value="pasywny" id="7"/> <dropdownlist id="features-AMD"/> <dropdownlist id="adapters-443-b"/> GPU <dropdownlist id="customer-kit"/> 
 </product:name>
     <product:longdesc>
-      Niezrównana wydajność obliczeniowa centrum przetwarzania danych.
+      <para><b>Niezrównana wydajność obliczeniowa centrum przetwarzania danych.</b></para>
 	  <para>
 	  Karta NVIDIA<reg/> L40 oparta na architekturze Ada Lovelace zapewnia rewolucyjną grafikę neuronową, wirtualizację, obliczenia i funkcje sztucznej 
 	  inteligencji dla obciążeń roboczych centrum przetwarzania danych przyspieszonych przez GPU.

@@ -14,7 +14,7 @@
     </product:name>
 
     <product:longdesc>
-      Prestazioni di visual computing senza precedenti per il data center.
+      <para><b>Prestazioni di visual computing senza precedenti per il data center.</b></para>
 	  <para>
 	  NVIDIA<reg/> L40, basata sull'architettura Ada Lovelace, offre funzionalità rivoluzionarie di grafica neurale, virtualizzazione, calcolo e 
 	  IA per carichi di lavoro accelerati da GPU nei data center.

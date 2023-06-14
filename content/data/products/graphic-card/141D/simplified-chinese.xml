@@ -14,7 +14,7 @@
     </product:name>
 
     <product:longdesc>
-      为数据中心提供出色视觉计算性能。
+      <para><b>为数据中心提供出色视觉计算性能。</b></para>
 	  <para>NVIDIA<reg/> L40 由 Ada Lovelace 架构提供支持，为 GPU 加速数据中心工作负载提供革命性神经图形、可视化、计算和 AI 功能。</para>
      
    </product:longdesc>

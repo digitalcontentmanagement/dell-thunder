@@ -14,7 +14,7 @@
     </product:name>
 
     <product:longdesc>
-      Enestående visuell databehandlingsytelse for datasenteret.
+      <para><b>Enestående visuell databehandlingsytelse for datasenteret.</b></para>
 	  <para>
 	  NVIDIA<reg/> L40 drevet av Ada Lovelace-arkitekturen gir revolusjonerende egenskaper innen nevral grafikk, 
 	  virtualisering, databehandling og AI for GPU-akselererte datasenter-workloader.

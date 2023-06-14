@@ -14,7 +14,7 @@
     </product:name>
 
     <product:longdesc>
-      Oöverträffad visual computing-prestanda för datacentret.
+      <para><b>Oöverträffad visual computing-prestanda för datacentret.</b></para>
 	  <para>
 	  NVIDIA<reg/> L40, som drivs av Ada Lovelace-arkitekturen, levererar revolutionerande neural grafik, virtualisering, beräkning och AI-kapacitet för GPU-accelererade arbetsbelastningar för datacenter.
 	  </para>

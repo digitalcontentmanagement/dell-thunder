@@ -14,7 +14,7 @@
     </product:name>
 
     <product:longdesc>
-     데이터센터에서의 전례 없는 고성능 비주얼 컴퓨팅.
+     <para><b>데이터센터에서의 전례 없는 고성능 비주얼 컴퓨팅.</b></para>
 	 <para>
 	 Ada Lovelace 아키텍처 기반의 NVIDIA<reg/> L40은 GPU 가속 데이터센터 워크로드에 혁신적인 신경 그래픽, 가상화, 컴퓨팅, AI 기능을 제공합니다.
 	 </para>

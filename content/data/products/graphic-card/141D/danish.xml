@@ -15,7 +15,7 @@
 
     <product:longdesc>
       
-		Uovertruffen visuel databehandlingsydeevne til datacenteret.
+		<para><b>Uovertruffen visuel databehandlingsydeevne til datacenteret.</b></para>
 		<para>
 		NVIDIA<reg/> L40, der er drevet af Ada Lovelace-arkitekturen, giver revolutionerende neural grafik, virtualisering, 
 		databehandling og AI-funktioner til GPU-accelererede datacenterworkloads.
