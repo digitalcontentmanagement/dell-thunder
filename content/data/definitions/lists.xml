@@ -8009,5 +8009,97 @@
 <item>Compression Attach Memory Module (CAMM)</item>
 </items>
 </list>
+
+<!--  Watts Details -->
+  -<list id="watts-detail">
+-<items l:source="english">
+<item></item>
+<item>-Watt</item>
+</items>
+-<items l:source="brazilian-portuguese">
+<item></item>
+<item>W</item>
+</items>
+-<items l:source="canada-french">
+<item></item>
+<item>watts</item>
+</items>
+-<items l:source="czech-and-slovak">
+<item></item>
+<item>W</item>
+</items>
+-<items l:source="danish">
+<item></item>
+<item>watt</item>
+</items>
+-<items l:source="dutch">
+<item></item>
+<item>watt</item>
+</items>
+-<items l:source="euro-spanish">
+<item></item>
+<item>vatios</item>
+</items>
+-<items l:source="euro-french">
+<item></item>
+<item>watts</item>
+</items>
+-<items l:source="finnish">
+<item></item>
+<item>wattia</item>
+</items>
+-<items l:source="german">
+<item></item>
+<item>Watt</item>
+</items>
+-<items l:source="greek">
+<item></item>
+<item>Watt</item>
+</items>
+-<items l:source="italian">
+<item></item>
+<item>Watt</item>
+</items>
+-<items l:source="japanese">
+<item></item>
+<item>ワット</item>
+</items>
+-<items l:source="korean">
+<item></item>
+<item>W</item>
+</items>
+-<items l:source="norwegian">
+<item></item>
+<item>W</item>
+</items>
+-<items l:source="polish">
+<item></item>
+<item>W</item>
+</items>
+-<items l:source="portugal">
+<item></item>
+<item>Watts</item>
+</items>
+-<items l:source="russian">
+<item></item>
+<item>Вт</item>
+</items>
+-<items l:source="simplified-chinese">
+<item></item>
+<item>瓦</item>
+</items>
+-<items l:source="south-american-spanish">
+<item></item>
+<item>vatios</item>
+</items>
+-<items l:source="swedish">
+<item></item>
+<item>W</item>
+</items>
+-<items l:source="traditional-chinese">
+<item></item>
+<item>瓦</item>
+</items>
+</list>
   
 </lists>
