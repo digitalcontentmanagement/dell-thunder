@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA L40</meta:title>
+    <meta:date value="2023-05-24"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> L40 <textbox value="PCIe" id="5"/> <textbox value="300" id="3"/><dropdownlist id="watts-detail"/>, <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 
+	 <textbox value="수동태" id="7"/> <dropdownlist id="features-AMD"/> <dropdownlist id="adapters-443-b"/> GPU <dropdownlist id="customer-kit"/> 
+    </product:name>
+
+    <product:longdesc>
+     <b>데이터센터에서의 전례 없는 고성능 비주얼 컴퓨팅.</b>
+	 <para>
+	 Ada Lovelace 아키텍처 기반의 NVIDIA<reg/> L40은 GPU 가속 데이터센터 워크로드에 혁신적인 신경 그래픽, 가상화, 컴퓨팅, AI 기능을 제공합니다.
+	 </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="기기 종류">
+        그래픽 카드
+      </product:techspec>
+      <product:techspec id="2" name="기억">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+	    
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
