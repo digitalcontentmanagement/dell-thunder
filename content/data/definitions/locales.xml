@@ -646,12 +646,22 @@
   <!--// **************-->
   <!--// End of Canada -->
   <!--// **************-->
+  
+    <!--// ****************-->
+  <!--// Start Turkey -->
+  <!--// ****************-->
+  <!-- Turkey(tr-tr, tr-tr) -->
+  <country name="tr">
+    <language>en</language>
+    <culture>tr_tr</culture>
+    <source>english</source>
+    <region>emea</region>
+  </country>
+  <!--// **************-->
+  <!--// End of Turkey -->
+  <!--// **************-->
 
 </locales>
-
-
-
-
 
 
 
