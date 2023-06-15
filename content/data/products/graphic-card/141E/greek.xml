@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+   <meta:title>NVIDIA L4</meta:title>
+    <meta:date value="2023-05-24"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> L4 <textbox value="PCIe" id="5"/> <textbox value="300" id="3"/><dropdownlist id="watts-detail"/>, <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 
+	 <textbox value="παθητικά" id="7"/> <dropdownlist id="features-AMD"/> <dropdownlist id="adapters-443-b"/> GPU <dropdownlist id="customer-kit"/> 
+    </product:name>
+
+    <product:longdesc>
+    <para><b> Επιτάχυνση φόρτων εργασίας βίντεο, τεχνητής νοημοσύνης και γραφικών</b></para>
+	 <para>
+	Η NVIDIA<reg/> L4 Tensor Core GPU, με την υποστήριξη της αρχιτεκτονικής NVIDIA<reg/> Ada Lovelace, παρέχει καθολική και ενεργειακά αποδοτική επιτάχυνση για βίντεο, τεχνητή νοημοσύνη, οπτική υπολογιστική, γραφικά, εικονική διαμόρφωση και πολλά άλλα. Η κάρτα L4 έχει συντελεστή μορφής χαμηλού προφίλ και 
+	αποτελεί μια οικονομικά και ενεργειακά αποδοτική λύση για υψηλή απόδοση και μικρή καθυστέρηση σε κάθε διακομιστή, από το άκρο μέχρι το κέντρο δεδομένων και το νέφος.
+	 </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Τύπος συσκευής">
+        Κάρτα γραφικών
+      </product:techspec>
+      <product:techspec id="2" name="Μνήμη">
+	  <textbox value="48" id="2"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

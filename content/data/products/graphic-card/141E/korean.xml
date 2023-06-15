@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>NVIDIA L4</meta:title>
+    <meta:date value="2023-05-24"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> L4 <textbox value="PCIe" id="5"/> <textbox value="300" id="3"/><dropdownlist id="watts-detail"/>, <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 
+	 <textbox value="수동태" id="7"/> <dropdownlist id="features-AMD"/> <dropdownlist id="adapters-443-b"/> GPU <dropdownlist id="customer-kit"/> 
+    </product:name>
+
+    <product:longdesc>
+     <para><b>비디오, AI 및 그래픽 워크로드 가속화</b></para>
+	 <para>
+	 NVIDIA<reg/> Ada Lovelace 아키텍처 기반의 NVIDIA<reg/> L4 Tensor 코어 GPU는 비디오, AI, 비주얼 컴퓨팅, 그래픽, 가상화 등을 위한 범용적이고 에너지 효율적인 가속화를 제공합니다. 
+	 로우 프로파일 폼 팩터로 패키징된 L4는 엣지에서 데이터센터, 클라우드에 이르기까지 모든 서버에서 높은 처리량과 낮은 지연 시간을 제공하는 비용 효율적이고 에너지 효율적인 솔루션입니다.
+	 </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="기기 종류">
+        그래픽 카드
+      </product:techspec>
+      <product:techspec id="2" name="기억">
+        <textbox value="48" id="2"/><dropdownlist id="unit-byte"/>
+	    
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

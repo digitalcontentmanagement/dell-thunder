@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+   <meta:title>NVIDIA L4</meta:title>
+    <meta:date value="2023-05-24"/>
+    <meta:creator value="NORSYAHIRAH"/>
+    <meta:publisher value="SnP Operations Team"/>
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> L4 <textbox value="PCIe" id="5"/> <textbox value="300" id="3"/><dropdownlist id="watts-detail"/>, <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 
+	 <textbox value="passivo" id="7"/> <dropdownlist id="features-AMD"/> <dropdownlist id="adapters-443-b"/> GPU <dropdownlist id="customer-kit"/> 
+    </product:name>
+
+    <product:longdesc>
+      <para><b>Accelerazione dei carichi di lavoro per video, AI e grafica</b></para>
+	  <para>
+	 La GPU NVIDIA<reg/> L4 Tensor Core con architettura NVIDIA<reg/> Ada Lovelace offre un'accelerazione universale ad alta efficienza energetica per video, AI, visual computing, grafica, virtualizzazione e altro ancora. Fornita in un fattore di forma a basso profilo, 
+	 la GPU L4 è una soluzione conveniente ed efficiente dal punto di vista energetico per un elevato throughput e bassa latenza in ogni server, dall'edge al data center fino al cloud.
+	  </para>
+    </product:longdesc>
+
+<!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di dispositivo">
+        Scheda grafica
+      </product:techspec>
+      <product:techspec id="2" name="Memoria">
+        <textbox value="16" id="2"/>
+	    <dropdownlist id="unit-byte"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
