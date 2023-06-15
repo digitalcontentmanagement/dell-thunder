@@ -53,6 +53,7 @@
 		<product:subclass id="141B" description="NVIDIA A6000 Graphic Card" folder-name="141B"/>
 		<product:subclass id="141C" description="AMD Instinct MI Series Accelerators Graphic Card" folder-name="141C"/>
 		<product:subclass id="141D" description="NVIDIA L40" folder-name="141D"/>
+		<product:subclass id="141E" description="NVIDIA L4" folder-name="141E"/>
 		
   </product:category>
 
