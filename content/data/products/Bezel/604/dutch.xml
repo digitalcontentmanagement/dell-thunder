@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generic:root xmlns:product="http://www.dell.com/thunder/product" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns="http://www.dell.com/thunder/content">
+-<generic:properties>
+  <meta:title>Bezel products </meta:title>
+    <meta:date value="2017-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+</generic:properties>
+
+<generic:content>
+
+<product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="1"/> <dropdownlist id="bezel-type"/> omlijsting <textbox value="voor" id="2"/> <textbox value="PowerEdge" id="3"/>
+    </product:name>
+	<product:longdesc>
+      <para>
+       Deze omlijsting is speciaal ontworpen voor en past perfect bij uw Dell-systeem. Dit product is getest en gevalideerd voor Dell<tm/>-systemen om te kunnen garanderen dat het geschikt is voor uw computer. Dell<tm/> biedt technische support voor dit product bij gebruik in combinatie met een Dell-systeem.
+      </para>
+     </product:longdesc>
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type product">
+        Omlijsting
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+
+<!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+</generic:content>
+</generic:root>

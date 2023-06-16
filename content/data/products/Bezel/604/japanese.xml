@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Bezel products </meta:title>
+    <meta:date value="2017-09-27" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="1"/> <dropdownlist id="bezel-type"/> ベゼル <textbox value=" ために" id="2"/> <textbox value="PowerEdge" id="3"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       デル製システムのデザインを補強するベゼルです。お使いのコンピュータでの動作を保証するため、本製品はデル製システムでテストおよび検証されています。 デル製システム と組み合わせ て使用す る場合は、 デルのテクニ カルサポー トをご利用いただけます。
+
+      </para>
+     </product:longdesc>
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="製品タイプ ">
+       ベゼル
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>
