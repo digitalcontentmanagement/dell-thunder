@@ -9,14 +9,14 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> L4 <textbox value="PCIe" id="5"/> <textbox value="300" id="3"/><dropdownlist id="watts-detail"/> <textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> NVIDIA<reg/> L4 <textbox value="PCIe" id="5"/> <textbox value="300" id="3"/><dropdownlist id="watts-detail"/>,<textbox value="48" refid="2"/><dropdownlist refid="unit-byte"/> 
 	 <textbox value="passif" id="7"/> <dropdownlist id="features-AMD"/> <dropdownlist id="adapters-443-b"/> GPU <dropdownlist id="customer-kit"/> 
 </product:name>
     <product:longdesc>
       
         <para><b>Accélérez les charges de travail de contenu vidéo, d’IA et d’images</b></para>
 		<para>
-		Le processeur graphique NVIDIA L4 à cœur Tensor alimenté par l’architecture NVIDIA<reg/> Ada Lovelace offre une accélération universelle et écoénergétique pour la vidéo, l’IA, le traitement visuel, les images, la virtualisation et plus encore. Conçu avec un format compact à profil mince, le processeur graphique L4 est une solution économique et 
+		Le processeur graphique NVIDIA<reg/> L4 à cœur Tensor alimenté par l’architecture NVIDIA<reg/> Ada Lovelace offre une accélération universelle et écoénergétique pour la vidéo, l’IA, le traitement visuel, les images, la virtualisation et plus encore. Conçu avec un format compact à profil mince, le processeur graphique L4 est une solution économique et 
 		écoénergétique qui offre un débit élevé et une faible latence dans chaque serveur, de la périphérie au centre de données en passant par le nuage.
 		</para>
 
