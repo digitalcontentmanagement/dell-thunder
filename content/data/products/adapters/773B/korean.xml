@@ -36,7 +36,7 @@
       </points>
 	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  Dell <textbox value="130" refid="1"/>W Type-C USFF AC 어댑터에는 GaN Systems와 공동으로 개발한 질화갈륨(GaN) 기술이 통합되어 있습니다. 
+	  Dell <textbox value="130" refid="1"/>W <dropdownlist id="gan-detail"/> AC 어댑터에는 GaN Systems와 공동으로 개발한 질화갈륨(GaN) 기술이 통합되어 있습니다. 
 	  실리콘 기반 제품과 비교하여 GaN 기반 설계는 다음과 같은 특징을 갖습니다.
 	  </para>
 	  

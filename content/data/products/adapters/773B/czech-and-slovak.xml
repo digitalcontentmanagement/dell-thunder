@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/>W kolíkový napájecí adaptér Dell s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> - <textbox value=",UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/>W <textbox value="3" refid="2"/>kolíkový napájecí adaptér Dell s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/><textbox value=",UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -34,7 +34,7 @@
         </point>
       </points>
 	  <para>
-	  <textbox value="130" refid="1"/>W napájecí adaptér Dell Type-C USFF využívá technologii GaN (nitrid gallitý), vyvinutou ve spolupráci se společností GaN Systems. Ve srovnání skřemíkovými produkty jsou systémy GaN:
+	  <textbox value="130" refid="1"/>W napájecí adaptér Dell <dropdownlist id="gan-detail"/> využívá technologii GaN (nitrid gallitý), vyvinutou ve spolupráci se společností GaN Systems. Ve srovnání skřemíkovými produkty jsou systémy GaN:
 	  </para>
 	  <points>
 	  <point>výrazně energeticky úspornější,</point>

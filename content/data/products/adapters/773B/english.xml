@@ -36,10 +36,10 @@
 	  
 	   <!-- Start of USFF AC Adapter Details -->
      
-	 <para>
-	  The Dell <textbox value="130" refid="1"/>-Watt Type-C USFF AC Adapter incorporates gallium nitride (GaN) technology, developed in collaboration with GaN Systems. 
+	  <para>
+	  The Dell <textbox value="130" refid="1"/>-Watt <dropdownlist id="gan-detail"/> AC Adapter incorporates gallium nitride (GaN) technology, developed in collaboration with GaN Systems. 
 	  Compared to silicon-based products, GaN-based designs:
-	    </para>
+	  </para>  
 	 
 	  <points>
 	  <point>Can greatly reduce power loss</point>

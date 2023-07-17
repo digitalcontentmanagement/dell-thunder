@@ -37,7 +37,7 @@
 	  
 	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  Dellin <textbox value="130" refid="1"/> watin Type-C USFF -verkkolaitteessa käytetään galliumnitridi (GaN) -tekniikkaa, jota on kehitetty yhteistyössä GaN Systems -yhtiön kanssa. 
+	  Dellin <textbox value="130" refid="1"/> watin <dropdownlist id="gan-detail"/>-verkkolaitteessa käytetään galliumnitridi (GaN) -tekniikkaa, jota on kehitetty yhteistyössä GaN Systems -yhtiön kanssa. 
 	  Silikonipohjaisiin tuotteisiin verrattuna GaN tarjoaa seuraavia etuja:
 	  </para>
 	  

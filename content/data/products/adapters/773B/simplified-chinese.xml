@@ -36,7 +36,7 @@
 	  
 	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  戴尔 <textbox value="130" refid="1"/>瓦 Type-C USFF 交流适配器采用了与 GaN Systems 协作开发的氮化镓 (GaN) 技术。与基于硅片的产品相比，基于 GaN 的设计：
+	  戴尔 <textbox value="130" refid="1"/>瓦 <dropdownlist id="gan-detail"/> 交流适配器采用了与 GaN Systems 协作开发的氮化镓 (GaN) 技术。与基于硅片的产品相比，基于 GaN 的设计：
 	  </para>
 	  
 	  <points>

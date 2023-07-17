@@ -40,7 +40,7 @@
 	   <!-- Start of USFF AC Adapter Details -->
 	   
 	   <para>
-	   El adaptador de CA USFF Type-C de <textbox value="130" refid="1"/>vatios Dell incorpora tecnología de nitruro de galio (GaN), desarrollada en colaboración con GaN Systems. 
+	   El adaptador de CA <dropdownlist id="gan-detail"/> de <textbox value="130" refid="1"/>vatios Dell incorpora tecnología de nitruro de galio (GaN), desarrollada en colaboración con GaN Systems. 
 	   En comparación con los productos basados en chip, los diseños basados en GaN:
 	   </para>
 	   

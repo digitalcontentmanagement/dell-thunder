@@ -37,7 +37,7 @@
 	   <!-- Start of USFF AC Adapter Details -->
 	  
 	  <para>
-	  Dell <textbox value="130" refid="1"/>ワットType-C USFF ACアダプターには、GaN Systemsと共同開発した窒化ガリウム(GaN)テクノロジーが組み込まれています。シリコンベース製品と比較したGaNベースの設計の特長は以下のとおりです。
+	  Dell <textbox value="130" refid="1"/>ワット<dropdownlist id="gan-detail"/> ACアダプターには、GaN Systemsと共同開発した窒化ガリウム(GaN)テクノロジーが組み込まれています。シリコンベース製品と比較したGaNベースの設計の特長は以下のとおりです。
 	  </para>
 	  
 	  <points>

@@ -36,8 +36,8 @@
       </points>
 	  
 	  <para>
-	  L’adaptateur CA Dell USFF de type C de <textbox value="130" refid="1"/>watts est doté de la technologie à nitrure de gallium, développée en collaboration avec GaN Systems. 
-	  Comparativement aux produits à base de silicium, les conceptions dotées de nitrure de gallium :
+	  L’adaptateur CA Dell <dropdownlist id="gan-detail"/> de <textbox value="130" refid="1"/>watts est doté de la technologie à nitrure de gallium, développée en collaboration avec GaN Systems. 
+	  Comparativement aux produits à base de silicium, les conceptions dotées de nitrure de gallium:
 	  </para>
 	  
 	  <points>

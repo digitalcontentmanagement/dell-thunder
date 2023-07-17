@@ -37,7 +37,7 @@
 	  
 	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  Der Dell <textbox value="130" refid="1"/>-Watt-Typ-C-USFF-Netzadapter verfügt über Galliumnitridtechnologie (GaN), die zusammen mit GaN Systems entwickelt wurde.
+	  Der Dell <textbox value="130" refid="1"/>-Watt <dropdownlist id="gan-detail"/>Netzadapter verfügt über Galliumnitridtechnologie (GaN), die zusammen mit GaN Systems entwickelt wurde.
 	  Im Vergleich zu siliziumbasierten Produkten haben GaN-Systeme die folgenden Vorteile:
 	  </para>
 	  

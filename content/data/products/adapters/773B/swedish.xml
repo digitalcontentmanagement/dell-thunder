@@ -38,7 +38,7 @@
 	  <!-- Start of USFF AC Adapter Details -->
 	  
 	  <para>
-	  Dells nätadapter på <textbox value="130" refid="1"/> watt (Type-C USFF) bygger på gallium nitride-teknik (GaN), utvecklad i samarbete med GaN-system. 
+	  Dells nätadapter på <textbox value="130" refid="1"/> watt <dropdownlist id="gan-detail"/> bygger på gallium nitride-teknik (GaN), utvecklad i samarbete med GaN-system. 
 	  Jämfört med kiselbaserade produkter kan GaN-baserade produkter:
 	  </para>
 	  

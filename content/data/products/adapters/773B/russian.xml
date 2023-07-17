@@ -36,7 +36,7 @@
       </points>
 	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  Адаптер переменного тока Dell USFF Type-C мощностью <textbox value="130" refid="1"/>Вт включает технологию на основе нитрида галлия (GaN), разработанную совместно с GaN Systems. 
+	  Адаптер переменного тока Dell <dropdownlist id="gan-detail"/> мощностью <textbox value="130" refid="1"/>Вт включает технологию на основе нитрида галлия (GaN), разработанную совместно с GaN Systems. 
 	  По сравнению с продуктами на основе кремния конструкции на основе GaN:
 	  </para>
 	  

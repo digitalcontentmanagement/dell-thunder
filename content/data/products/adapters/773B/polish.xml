@@ -37,7 +37,7 @@
 	  
 	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  Zasilacz sieciowy Dell <textbox value="130" refid="1"/> W Type-C USFF jest wyposażony w technologię gallium nitride (GaN) opracowaną we współpracy z firmą GaN Systems. 
+	  Zasilacz sieciowy Dell <textbox value="130" refid="1"/> W <dropdownlist id="gan-detail"/> jest wyposażony w technologię gallium nitride (GaN) opracowaną we współpracy z firmą GaN Systems. 
 	  W porównaniu z produktami opartymi na silikonach konstrukcje oparte na GaN:
 	  </para>
 	  

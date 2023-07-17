@@ -36,7 +36,7 @@
       </points>
 	  
 	  <!-- Start of USFF AC Adapter Details -->
-	  <para>Dell <textbox value="130" refid="1"/>瓦 Type-C USFF AC 變壓器結合與氮化鎵 (GaN) 系統共同開發的 GaN 技術。與矽基產品相比，GaN 型設計：</para>
+	  <para>Dell <textbox value="130" refid="1"/>瓦 <dropdownlist id="gan-detail"/> AC 變壓器結合與氮化鎵 (GaN) 系統共同開發的 GaN 技術。與矽基產品相比，GaN 型設計：</para>
 	  
 	  <points>
 	  <point>可大幅減少電力損失 </point>

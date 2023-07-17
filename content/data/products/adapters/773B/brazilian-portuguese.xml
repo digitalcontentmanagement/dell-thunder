@@ -35,7 +35,7 @@
       </points>
 	  
 	  <para>
-	  O adaptador CA Dell Type-C USFF de <textbox value="130" refid="1"/> watts incorpora a tecnologia de nitreto de gálio (GaN), desenvolvida em colaboração com sistemas GaN. 
+	  O adaptador CA Dell <dropdownlist id="gan-detail"/> de <textbox value="130" refid="1"/> watts incorpora a tecnologia de nitreto de gálio (GaN), desenvolvida em colaboração com sistemas GaN. 
 	  Em comparação com produtos baseados em silício, designs baseados em GaN:
 	  </para>
 	  

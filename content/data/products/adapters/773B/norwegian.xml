@@ -35,7 +35,7 @@
       </points>
 	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  Dell <textbox value="130" refid="1"/> watt Type-C USFF-strømadapteren bruker galliumnitrid-teknologi (GaN), utviklet i samarbeid med GaN-systemer. 
+	  Dell <textbox value="130" refid="1"/> watt <dropdownlist id="gan-detail"/>-strømadapteren bruker galliumnitrid-teknologi (GaN), utviklet i samarbeid med GaN-systemer. 
 	  Sammenlignet med silisiumbaserte produkter, GaN-basert design:
 	  </para>
 	  

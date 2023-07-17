@@ -35,7 +35,7 @@
       </points>
 	  
 	  <!-- Start of USFF AC Adapter Details -->
-	  <para>L’adaptateur secteur Dell <textbox value="130" refid="1"/>watts Type-C USFF intègre la technologie de nitrure de gallium (GaN), développée en collaboration avec GaN Systems. 
+	  <para>L’adaptateur secteur Dell <textbox value="130" refid="1"/>watts <dropdownlist id="gan-detail"/> intègre la technologie de nitrure de gallium (GaN), développée en collaboration avec GaN Systems. 
 	  Par rapport aux produits à base de silicium, les conceptions basées sur GaN:
 	  </para>
 	  

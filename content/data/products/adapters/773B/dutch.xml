@@ -37,7 +37,7 @@
       </points>
 	  
 	  <para>
-	  De Dell <textbox value="130" refid="1"/> Watt Type-C USFF voedingsadapter bevat ganiumnitride-technologie (GaN) die is ontwikkeld in samenwerking met GaN-systemen. 
+	  De Dell <textbox value="130" refid="1"/> Watt <dropdownlist id="gan-detail"/> voedingsadapter bevat ganiumnitride-technologie (GaN) die is ontwikkeld in samenwerking met GaN-systemen. 
 	  Vergeleken met op silicium gebaseerde producten, op GaN gebaseerde ontwerpen:
 	  </para>
 	  

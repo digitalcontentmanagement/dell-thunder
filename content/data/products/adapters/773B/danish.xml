@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>-Watt AC-adapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> netledning - <textbox value="UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>-Watt <textbox value="3" refid="2"/> AC-adapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> netledning - <textbox value="UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -34,7 +34,7 @@
         </point>
       </points>
 	  <para>
-	  Dell <textbox value="130" refid="1"/>-Watt Type-C USFF-vekselsstrømsadapteren inkorporerer galliumnitridteknologi (GaN), der er udviklet i samarbejde med GaN Systems. Sammenlignet med siliciumbaserede produkter – GaN-baserede designs:
+	  Dell <textbox value="130" refid="1"/>-Watt <dropdownlist id="gan-detail"/>vekselsstrømsadapteren inkorporerer galliumnitridteknologi (GaN), der er udviklet i samarbejde med GaN Systems. Sammenlignet med siliciumbaserede produkter – GaN-baserede designs:
 	  </para>
 	  <points>
 	  <point>
