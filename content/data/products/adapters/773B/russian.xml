@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Адаптер переменного тока Dell <textbox value="130" refid="1"/>Вт с <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> кабелем питания<textbox value=",UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Адаптер переменного тока Dell <textbox value="130" refid="1"/>Вт с <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> кабелем питания - <textbox value="UK" id="8"/>
     </product:name>
 
     <product:longdesc>
