@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/>W stejnosměrný napájecí adaptér pro notebooky Dell stejnosměrný napájecí adaptér pro notebooky - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/>W stejnosměrný napájecí adaptér pro notebooky Dell do vozidel a letadel - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
