@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Notebook Auto/Air Adapter</meta:title>
+    <meta:date value="2023-08-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adattatore per l'alimentazione in auto o aereo <textbox value="130" refid="1"/> W DC per notebook Dell - <textbox value="7.4mm, 4.5mm" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+      Accendi e mantieni la produttività in viaggio, in volo o in ufficio con un dispositivo, l'adattatore per auto/aereo Dell<tm/> È un dispositivo DC all-in-one che alimenterà i tuoi notebook Dell. Si collega alla presa automatica o all'uscita dell'aria per prestazioni di lunga durata. 
+	  Questo prodotto è stato testato e convalidato sui sistemi Dell per garantire che funzioni con il tuo sistema. È supportato dal supporto tecnico Dell se utilizzato con un sistema Dell.
+	 </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		<textbox value="130" refid="1"/> W di potenza per utilizzare e ricaricare il notebook 
+        </point>
+        <point>
+        Cinturino in gomma per una facile gestione dei cavi e anello con LED sul connettore CC
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  I componenti a marchio Dell autentici vengono sottoposti a test rigorosi eseguiti da tecnici qualificati per garantirne l'affidabilità e la compatibilità con il sistema Dell. 
+	  </point>
+	  <point>
+	  Il processo di qualifica si basa sull'esecuzione di test e sulla certificazione delle novità tecnologiche nel sistema Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell utilizza solo componenti di qualità OEM.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  I componenti a marchio Dell autentici attestano la garanzia hardware del sistema. 
+	  </point>
+	  <point>
+	  I componenti non Dell non sono coperti e potrebbero invalidare la garanzia del sistema. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Lo staff di esperti del supporto tecnico di Dell è disponibile per rispondere a qualsiasi domanda relativa all'aggiornamento dei componenti a marchio Dell autentici.  
+	  </point>
+	  <point>
+	  Dell non fornisce alcun supporto tecnico per i componenti acquistati presso altri fornitori.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo di dispositivo">
+      Adattatore per l'alimentazione in auto o aereo DC per notebook 
+      </product:techspec>
+      <product:techspec id="2" name="Potenza fornita">
+	  <textbox value="130" id="1"/> W
+      </product:techspec>
+	  
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

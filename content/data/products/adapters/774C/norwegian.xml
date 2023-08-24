@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Notebook Auto/Air Adapter</meta:title>
+    <meta:date value="2023-08-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/> W DC-strømadapter for Dell bærbar PC som kan brukes i bilen - <textbox value="7.4mm, 4.5mm" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Slå på strømmen og vær produktiv på veien, på flyet eller på kontoret med én enhet, Dell<tm/> auto-/luft adapter. Det er en alt-i-ett-DC-enhet som driver Dell bærbare datamaskiner. Den kobles til automatisk uttak eller luftuttak for langvarig ytelse. 
+	  Dette produktet er testet og validert på Dell -systemer for å sikre at det fungerer med systemet ditt. Den støttes av Dells tekniske støtte når den brukes med et Dell -system.
+	  </para>
+	</product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Har <textbox value="130" refid="1"/> W nok til å drive og lade en bærbar PC 
+        </point>
+        <point>
+		Med gummistropp for enkel kabelhåndtering og LED-lys på strømkontakten
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Ekte Dell-deler testes grundig av kvalifiserte teknikere for å sikre at de er kompatible og fungerer i Dell-systemer. 
+	  </point>
+	  <point>
+	  I Dells kontinuerlige kvalifiseringsprosess blir den nyeste teknologien testet og sertifisert for Dell-systemer.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell bruker utelukkende deler av OEM-kvalitet.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Ekte Dell-deler betyr at du ikke trenger å bekymre deg for systemets maskinvaregaranti. 
+	  </point>
+	  <point>
+	  Uoriginale deler dekkes ikke, og kan føre til at garantien blir ugyldig. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Våre erfarne ansatte i Dells tekniske støtte svarer på ethvert spørsmål knyttet til oppgradering av ekte Dell-deler. 
+	  </point>
+	  <point>
+	  Deler som kjøpes fra andre kilder, er ikke dekket av Dells støtte.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Enhetstype">
+      Strømadapter for bærbar PC som kan brukes i bilen
+      </product:techspec>
+      <product:techspec id="2" name="Strømytelse">
+	  <textbox value="130" id="1"/> W
+      </product:techspec>
+	  
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

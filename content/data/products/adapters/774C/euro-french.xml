@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Notebook Auto/Air Adapter</meta:title>
+    <meta:date value="2023-08-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptateur secteur CC <textbox value="130" refid="1"/> W pour ordinateur portable Dell, voiture et avion - <textbox value="7.4mm, 4.5mm" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Démarrez et restez productif sur la route, en vol ou au bureau avec un seul appareil, l'adaptateur Dell<tm/> Auto/Air. Il s'agit d'un appareil DC tout-en-un qui alimentera vos ordinateurs portables Dell. Il se branche sur une prise automatique ou une sortie d'air pour des performances durables. 
+	  Ce produit a été testé et validé sur les systèmes Dell pour garantir qu'il fonctionnera avec votre système. Il est pris en charge par le support technique Dell lorsqu'il est utilisé avec un système Dell.
+	  </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Offre les <textbox value="130" refid="1"/> W nécessaires pour alimenter et charger votre ordinateur portable 
+        </point>
+        <point>
+        Équipé d’une sangle en caoutchouc pour faciliter la gestion des câbles et d’un anneau LED lumineux sur le connecteur CC
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Les pièces Dell authentiques sont soumises à des tests rigoureux pratiqués par des ingénieurs qualifiés en vue de garantir la compatibilité et la fiabilité de votre système Dell. 
+	  </point>
+	  <point>
+	  Notre processus continu de qualification nous permet de tester et de certifier les plus récentes innovations technologiques sur votre système Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell n’utilise que des composants OEM de qualité.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Avec les pièces Dell authentiques, vous n’aurez pas à vous inquiéter du risque d’invalidation de la garantie matérielle de votre système.  
+	  </point>
+	  <point>
+	  Les pièces autres que Dell ne sont pas couvertes et peuvent invalider la garantie de votre système.  
+	  </point>
+	 
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Notre équipe de support technique expérimentée est à votre disposition pour répondre à toute question relative à la mise à niveau de vos pièces certifiées Dell.  
+	  </point>
+	  <point>
+	  Les pièces achetées auprès d’autres fournisseurs ne seront pas prises en charge par le support technique Dell.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type d’appareil">
+      Adaptateur secteur CC pour ordinateur portable, voiture et avion
+      </product:techspec>
+      <product:techspec id="2" name="Alimentation fournie">
+	  <textbox value="130" id="1"/> W
+      </product:techspec>
+	  
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

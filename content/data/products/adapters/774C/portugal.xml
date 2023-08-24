@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+   <meta:title>Notebook Auto/Air Adapter</meta:title>
+    <meta:date value="2023-08-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Transformador CC de <textbox value="130" refid="1"/> W para Computadores Portáteis Dell para uso em Avião e Automóvel - <textbox value="7.4mm, 4.5mm" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Ligue e mantenha a produtividade na estrada, durante o vôo ou em seu escritório com um dispositivo Dell<tm/> Auto/Air Adaptador. É um dispositivo DC-DC multifuncional que alimentará seus notebooks Dell. Ele se conecta à saída automática ou saída de ar para desempenho de longa duração.
+	   Este produto foi testado e validado em sistemas Dell para garantir que funcionará com o seu sistema. É suportado pelo suporte técnico da Dell quando usado com um sistema Dell.
+	   </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Inclui energia de <textbox value="130" refid="1"/> W suficiente para alimentar e carregar o seu computador portátil 
+        </point>
+        <point>
+        Inclui uma tira de borracha para facilitar a gestão do cabo e um anel de luz LED no conector CC
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  As peças originais da Dell são submetidas a testes rigorosos efectuados por engenheiros qualificados para garantir compatibilidade e fiabilidade no seu Sistema Dell. 
+	  </point>
+	  <point>
+	  O nosso processo de qualificação sustentado permite testar e certificar as novidades em tecnologia no seu Sistema Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  A Dell utiliza apenas componentes com uma qualidade ao nível OEM.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/> 
+	  </point>
+	  <point>
+	  Como peças originais da Dell entende-se que não terá de se preocupar com a anulação da sua garantia de hardware do sistema.  
+	  </point>
+	  <point>
+	  As peças que não são da Dell não estão cobertas e poderão anular a garantia do seu sistema. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  A nossa equipa experiente de suporte técnico está disponível para responder a quaisquer questões que possa ter relativamente à actualização das suas peças originais da Dell.  
+	  </point>
+	  <point>
+	  As peças adquiridas junto de outras entidades não serão suportadas pela Dell.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Tipo de dispositivo">
+      Transformador CC de para Computadores Portáteis para uso em Avião e Automóvel
+      </product:techspec>
+      <product:techspec id="2" name="Energia fornecida">
+	  <textbox value="130" id="1"/> W
+      </product:techspec>
+	  
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

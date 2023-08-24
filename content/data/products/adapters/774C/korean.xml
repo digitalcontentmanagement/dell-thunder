@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Notebook Auto/Air Adapter</meta:title>
+    <meta:date value="2023-08-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 노트북 차량 및 비행기 <textbox value="130" refid="1"/>W DC 전원 어댑터 - <textbox value="7.4mm, 4.5mm" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+     <para>
+	 Dell<tm/> 자동차/항공기 어댑터 하나로 이동 중, 기내 또는 사무실에서 전원을 켜고 생산성을 유지하십시오. 
+	 Dell 노트북에 전원을 공급할 올인원 DC 장치입니다. 오래 지속되는 성능을 위해 자동 콘센트 또는 공기 배출구에 연결합니다. 이 제품은 Dell 시스템에서 테스트 및 검증을 거쳐 귀하의 시스템에서 작동하는지 확인했습니다. 
+	 Dell 시스템과 함께 사용할 경우 Dell 기술 지원에서 지원합니다.
+	 </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		노트북을 사용하면서 동시에 충전하는 데 충분한 <textbox value="130" refid="1"/>W 성능 제공 
+        </point>
+        <point>
+        간편한 통합 케이블 관리 및 고무 스트랩을 사용하거나 DC 커넥터 LED 표시등이 링
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  정품 Dell 브랜드 부품은 Dell 시스템에서의 호환성과 안정성을 보장하기 위해 자격을 갖춘 엔지니어의 엄격한 테스트를 거칩니다. 
+	  </point>
+	  <point>
+	  Dell의 지속적인 평가 프로세스를 통해 고객의 Dell 시스템에 항상 최신 기술을 제공할 수 있도록 테스트 및 인증을 받을 수 있습니다.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell은 OEM급 품질의 부품만 사용합니다.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  정품 Dell 브랜드 부품은 시스템의 하드웨어 무상수리와 별개로 보장받을 수 있습니다. 
+	  </point>
+	  <point>
+	  타사 부품은 시스템 무상수리가 되지 않을 수 있습니다. 
+	  </point>
+	 </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  풍부한 경험을 보유한 Dell의 기술 지원 전문가가 정품 Dell 브랜드 부품 업그레이드와 관련된 모든 궁금증을 해결해 드립니다. 
+	  </point>
+	  <point>
+	  타사에서 구입한 부품은 지원되지 않습니다.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="장치 유형">
+      노트북 차량 및 비행기 DC 전원 어댑터 
+      </product:techspec>
+      <product:techspec id="2" name="공급 전원">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

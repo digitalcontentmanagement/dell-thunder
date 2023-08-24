@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Notebook Auto/Air Adapter</meta:title>
+    <meta:date value="2023-08-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/> W:n virtamuuntaja Dellin-kannettavalle autoihin ja lentokoneisiin - <textbox value="7.4mm, 4.5mm" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Käynnistä ja pysy tuottavana tien päällä, lennossa tai toimistossa yhdellä Dell<tm/> Auto/Air -sovittimella. Se on all-in-one, DC-laite, joka saa virtaa Dell-kannettavista. Se kytketään automaattiseen ulostuloaukkoon tai ilmanpoistoputkeen, mikä takaa pitkän käyttöiän. Tämä tuote on testattu ja validoitu Dell -järjestelmissä sen varmistamiseksi, 
+		että se toimii järjestelmän kanssa. Dellin tekninen tuki tukee sitä, kun sitä käytetään Dell -järjestelmän kanssa.
+
+	  </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Tehoa <textbox value="130" refid="1"/> W:n, riittävästi kannettavan tietokoneen käyttämiseen ja lataamiseen 
+        </point>
+        <point>
+        Sisältää kaapelien hallintaa helpottavan kumihihnan sekä virtaliittimen LED-valorenkaan
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Pätevät insinöörit suorittavat aidoille Dell-osille vaativia testejä, jotka varmistavat osien yhteensopivuuden ja luotettavan toiminnan Dell-järjestelmässä.  
+	  </point>
+	  <point>
+	  Jatkuva hyväksyntäprosessimme mahdollistaa uusimman teknologian mukaisen testauksen ja sertifioinnin Dell-järjestelmässä.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell käyttää vain laadukkaita OEM-osia.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Aidot Dell-osat tarkoittavat, että sinun ei tarvitse olla huolissasi järjestelmän laitteistotakuun raukeamisesta. 
+	  </point>
+	  <point>
+	  Muut kuin Dellin osat eivät kuulu takuun piiriin, ja niiden käyttö voi kumota järjestelmän takuun.  
+	  </point>
+	 
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Teknisen tukemme kokeneet asiantuntijat vastaavat kaikkiin Dellin sertifioimiin osiin liittyviin kysymyksiin. 
+	  </point>
+	  <point>
+	  Dell ei tarjoa tukipalveluita muilta toimittajilta ostetuille osille.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Laitetyyppi">
+      virtamuuntaja-kannettavalle autoihin ja lentokoneisiin
+      </product:techspec>
+      <product:techspec id="2" name="Teho">
+	  <textbox value="130" id="1"/> W:n
+      
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

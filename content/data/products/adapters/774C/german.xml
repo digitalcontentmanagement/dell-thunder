@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Notebook Auto/Air Adapter</meta:title>
+    <meta:date value="2023-08-23" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Laptop-Gleichstromnetzteil für Auto und Flugzeug, <textbox value="130" refid="1"/> W - <textbox value="7.4mm, 4.5mm" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Schalten Sie ein und bleiben Sie unterwegs, während des Flugs oder in Ihrem Büro produktiv mit einem einzigen Gerät, dem Dell<tm/> Auto/Air-Adapter. Es ist ein All-in-One-DC-Gerät, das Ihre Dell Notebooks mit Strom versorgt. Es wird für eine lang anhaltende Leistung in eine automatische Steckdose oder einen Luftauslass eingesteckt. Dieses Produkt wurde auf Dell-Systemen getestet und validiert, 
+	  um sicherzustellen, dass es mit Ihrem System funktioniert. Es wird vom technischen Support von Dell unterstützt, wenn es mit einem Dell-System verwendet wird.
+	  </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		<textbox value="130" refid="1"/> W zum gleichzeitigen Betreiben und Aufladen Ihres Notebooks 
+		</point>
+        <point>
+        Mit Gummiriemen für ein einfaches Kabelmanagement und LED-Leuchtring auf dem Gleichstromanschluss
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Originalteile von Dell werden strengen Tests durch qualifizierte Techniker unterzogen, um Kompatibilität und Zuverlässigkeit in Ihrem Dell System sicherzustellen.  
+	  </point>
+	  <point>
+	  Durch unseren nachhaltigen Qualifizierungsprozess können die neuesten Technologien in Ihrem Dell System getestet und zertifiziert werden.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell verwendet nur Komponenten von OEM-Qualität.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Originalteile von Dell bedeuten, dass Sie sich keine Sorgen zu machen brauchen, den Service für die Hardware Ihres Systems zu verlieren. 
+	  </point>
+	  <point>
+	  Bauteile, die nicht von Dell stammen, sind nicht abgedeckt und machen den Service für Ihr System möglicherweise ungültig. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Unsere erfahrenen Mitarbeiter beim technischen Support beantworten gerne Ihre Fragen zu einem Upgrade auf von Dell zertifizierte Teile. 
+	  </point>
+	  <point>
+	  Bei anderen Anbietern erworbene Teile werden von Dell nicht unterstützt.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Gerätetyp">
+      Laptop-Gleichstromnetzteil für Auto und Flugzeug
+      </product:techspec>
+      <product:techspec id="2" name="Stromversorgung">
+	  <textbox value="130" id="1"/> W
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
