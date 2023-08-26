@@ -136,8 +136,8 @@
         <image:type>jpg</image:type>
       </image:image>
     </image:folder>-->
-
-    <image:folder name="773-774-140">
+	  
+    <image:folder name="774C">
       <image:image name="450-AELT">
         <image:location>450-AELT</image:location>
         <image:manufacturer>Dell</image:manufacturer>
@@ -146,20 +146,6 @@
         <image:type>jpg</image:type>
       </image:image>
     </image:folder>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- End of subclasses -->
   </image:folder>
 </image:imagebase>
