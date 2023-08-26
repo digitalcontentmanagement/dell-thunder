@@ -72,7 +72,7 @@
       </product:techspec>
       <product:techspec id="2" name="Teho">
 	  <textbox value="130" id="1"/> W:n
-      
+      </product:techspec>
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 
