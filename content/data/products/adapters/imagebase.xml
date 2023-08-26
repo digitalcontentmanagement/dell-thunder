@@ -136,6 +136,30 @@
         <image:type>jpg</image:type>
       </image:image>
     </image:folder>-->
+
+    <image:folder name="773-774-140">
+      <image:image name="450-AELT">
+        <image:location>450-AELT</image:location>
+        <image:manufacturer>Dell</image:manufacturer>
+        <image:description>This is Dell Product</image:description>
+        <image:caption>Dell Laptop Car and Airplane DC Power Adapter</image:caption>
+        <image:type>jpg</image:type>
+      </image:image>
+    </image:folder>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- End of subclasses -->
   </image:folder>
 </image:imagebase>
