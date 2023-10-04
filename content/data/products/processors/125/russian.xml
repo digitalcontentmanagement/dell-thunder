@@ -2,17 +2,17 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Processors</meta:title>
-    <meta:date value="2015-09-29" />
-    <meta:creator value="Dzulhimi"/>
+    <meta:date value="2023-10-4" />
+    <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
     <product:name>
-		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> процессор Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 версии 2" refid="1"/> <textbox value="2.20" refid="3"/>ГГц (<dropdownlist refid="processor-core"/> ядер), <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M кэш, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> процессор Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 версии 2" refid="1"/> <textbox value="2.20" refid="3"/>ГГц (<textbox value="20" refid="24"/> ядер), <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M кэш, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-		Процессор Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 версии 2" refid="1"/> <textbox value="2.20" refid="3"/>ГГц (<dropdownlist refid="processor-core"/> ядер) позволит повысить производительность и быстродействие вашей системы. Кроме того, технология виртуализации позволяет выполнять миграцию большего количества сред. Процессор поддерживает усовершенствованную технологию SpeedStep<reg/>, позволяющую сбалансировать производительность и энергопотребление. 
+		Процессор Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 версии 2" refid="1"/> <textbox value="2.20" refid="3"/>ГГц (<textbox value="20" refid="24"/> ядер) позволит повысить производительность и быстродействие вашей системы. Кроме того, технология виртуализации позволяет выполнять миграцию большего количества сред. Процессор поддерживает усовершенствованную технологию SpeedStep<reg/>, позволяющую сбалансировать производительность и энергопотребление. 
       </para>
       <para>
         Реализованные в процессоре технологии контроля температуры, включающие несколько функций управления температурой, защитят блок процессора и систему от сбоев, возникающих из-за перегрева. Технология VT-x с функцией Extended Page Tables (EPT), которую также называют преобразованием адресов второго уровня (SLAT), обеспечивает ускорение работы виртуализированных приложений с интенсивным использованием памяти. Процессор Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 версии 2" refid="1"/> <textbox value="2.20" refid="3"/>ГГц оснащен и другими функциями, благодаря чему он является идеальным выбором практически для всех приложений, работающих с большими объемами данных, и стандартных приложений корпоративной инфраструктуры.
@@ -37,7 +37,7 @@
         <textbox value="2.20" id="3"/>ГГц
       </product:techspec>
       <product:techspec id="4" name="Класс процессора">
-        <dropdownlist id="processor-core"/> ядер
+        <textbox value="20" id="24"/> ядер
       </product:techspec>
       <product:techspec id="5" name="кэш-памяти">
         <textbox value="15" id="4"/>Мбайт

@@ -2,17 +2,17 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Processors</meta:title>
-    <meta:date value="2015-09-29" />
-    <meta:creator value="Dzulhimi"/>
+    <meta:date value="2023-10-4" />
+    <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
     <product:name>
-		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/>  Processore <dropdownlist refid="processor-core"/> core <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/>  Processore <textbox value="20" refid="24"/> core <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-		Il processore <dropdownlist refid="processor-core"/> core <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz Intel Xeon<reg/> migliora le prestazioni e la velocità del sistema. La tecnologia di virtualizzazione consente inoltre la migrazione di più ambienti. Supporta l'avanzata tecnologia Speedstep<reg/> che assicura un equilibrio perfetto tra prestazioni e consumo energetico. 
+		Il processore <textbox value="20" refid="24"/> core <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz Intel Xeon<reg/> migliora le prestazioni e la velocità del sistema. La tecnologia di virtualizzazione consente inoltre la migrazione di più ambienti. Supporta l'avanzata tecnologia Speedstep<reg/> che assicura un equilibrio perfetto tra prestazioni e consumo energetico. 
       </para>
       <para>
 		Le tecnologie di monitoraggio termico proteggono il processore e il sistema dai guasti termici grazie a diverse funzionalità di gestione termica. La tecnologia VT-x con funzionalità EPT (Extended Page Tables), anche nota come SLAT (Second Level Address Translation), garantisce l'accelerazione per applicazioni virtualizzate con uso intensivo di memoria. Grazie alle molte funzionalità di cui dispone, il processore <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz Xeon <dropdownlist refid="processor-name"/> è la scelta ideale praticamente per tutte le applicazioni dati o di infrastruttura aziendale standard o avanzate.
@@ -37,7 +37,7 @@
         <textbox value="2.20" id="3"/>GHz
       </product:techspec>
       <product:techspec id="4" name="Classe del processore">
-        <dropdownlist id="processor-core"/> core
+        <textbox value="20" id="24"/> core
       </product:techspec>
       <product:techspec id="5" name="Cache di memoria">
         <textbox value="15" id="4"/>MB

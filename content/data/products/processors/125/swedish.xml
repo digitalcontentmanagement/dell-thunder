@@ -2,17 +2,17 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Processors</meta:title>
-    <meta:date value="2015-09-29" />
-    <meta:creator value="Dzulhimi"/>
+    <meta:date value="2023-10-4" />
+    <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
     <product:name>
-		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz med<dropdownlist refid="processor-core"/> kärnor-processor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz med <textbox value="20" refid="24"/> kärnor-processor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-		Processorn Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz med <dropdownlist refid="processor-core"/> kärnor förbättrar systemets prestanda och hastighet. Dessutom möjliggör virtualiseringstekniken migrering av flera miljöer. Den har stöd för utökad Speedstep<reg/>-teknik som gör det möjligt att anpassa balansen mellan prestanda och strömförbrukning. 
+		Processorn Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz med <textbox value="20" refid="24"/> kärnor förbättrar systemets prestanda och hastighet. Dessutom möjliggör virtualiseringstekniken migrering av flera miljöer. Den har stöd för utökad Speedstep<reg/>-teknik som gör det möjligt att anpassa balansen mellan prestanda och strömförbrukning. 
       </para>
       <para>
         Tekniken för temperaturövervakning skyddar processorpaketet och systemet från överhettning tack vare flera funktioner för termisk hantering. VT-x med EPT-teknik (Extended Page Table), även kallat SLAT (Second Level Address Translation), ger acceleration för minnesintensiva virtualiserade program. Processorn Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz är det perfekta alternativet för i stort sett all datakrävande användning eller normal användning inom företagsinfrastrukturer.
@@ -37,7 +37,7 @@
         <textbox value="2.20" id="3"/>GHz
       </product:techspec>
       <product:techspec id="4" name="Processorklass">
-        <dropdownlist id="processor-core"/> kärnor
+        <textbox value="20" id="24"/> kärnor
       </product:techspec>
       <product:techspec id="5" name="Cache memory">
         <textbox value="15" id="4"/>MB
