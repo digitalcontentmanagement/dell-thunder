@@ -18,37 +18,37 @@
       <image:type>jpg</image:type>
     </image:image>
 	
-	   <image:image name="xeon silver">
-      <image:location>xeon silver</image:location>
+
+    <image:image name="Intel_Xeon_Bronze_250x250">
+      <image:location>Intel_Xeon_Bronze_250x250</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Xeon Bronze</image:description>
+      <image:caption>Intel Xeon Bronze (New version)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+ <image:image name="Intel_Xeon_Gold_250x250">
+      <image:location>Intel_Xeon_Gold_250x250</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Xeon Gold </image:description>
+      <image:caption>Intel Xeon Gold (New version)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+    <image:image name="Intel_Xeon_Platinum_250x250">
+      <image:location>Intel_Xeon_Platinum_250x250</image:location>
+      <image:manufacturer>Intel</image:manufacturer>
+      <image:description>Intel Xeon Platinum</image:description>
+      <image:caption>Intel Xeon Platinum (New version)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+  <image:image name="Intel_Xeon_Silver_250x250">
+      <image:location>Intel_Xeon_Silver_250x250</image:location>
       <image:manufacturer>Intel</image:manufacturer>
       <image:description>Intel Xeon Silver</image:description>
       <image:caption>Intel Xeon Silver</image:caption>
-      <image:type>jpg</image:type>
-    </image:image>
-		
-			   <image:image name="xeon platinum">
-      <image:location>xeon platinum</image:location>
-      <image:manufacturer>Intel</image:manufacturer>
-      <image:description>Intel Xeon Platinum</image:description>
-      <image:caption>Intel Xeon Platinum</image:caption>
-      <image:type>jpg</image:type>
-    </image:image>
-		
-		
-			   <image:image name="xeon gold">
-      <image:location>xeon gold</image:location>
-      <image:manufacturer>Intel</image:manufacturer>
-      <image:description>Intel Xeon Gold</image:description>
-      <image:caption>Intel Xeon Gold</image:caption>
-      <image:type>jpg</image:type>
-    </image:image>
-		
-		
-			   <image:image name="xeon bronze">
-      <image:location>xeon bronze</image:location>
-      <image:manufacturer>Intel</image:manufacturer>
-      <image:description>Intel Xeon Bronze</image:description>
-      <image:caption>Intel Xeon Bronze</image:caption>
       <image:type>jpg</image:type>
     </image:image>
 		
