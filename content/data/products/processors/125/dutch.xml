@@ -12,7 +12,7 @@
     </product:name>
     <product:longdesc>
       <para>
-		De Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <dropdownlist refid="processor-core"/> Core processor verbetert de prestaties en de snelheid van uw systeem. Bovendien maakt de Virtualization Technology de migratie van meer omgevingen mogelijk. De processor ondersteunt geavanceerde Speedstep<reg/>-technologie, waardoor een balans kan worden gevonden tussen prestaties en stroomverbruik. 
+		De Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> Core processor verbetert de prestaties en de snelheid van uw systeem. Bovendien maakt de Virtualization Technology de migratie van meer omgevingen mogelijk. De processor ondersteunt geavanceerde Speedstep<reg/>-technologie, waardoor een balans kan worden gevonden tussen prestaties en stroomverbruik. 
       </para>
       <para>
 		De Thermal Monitoring Technologies beschermen de processor en het systeem tegen thermische fouten via verschillende thermische beheerfuncties. De VT-x met uitgebreide paginatabellen (EPT), ook bekend als SLAT (Second Level Address Translation), zorgt voor versnelling van gevirtualiseerde applicaties die veel geheugen gebruiken. De Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz processor zit boordevol functies en is de ideale keuze voor vrijwel alle veeleisende of standaardapplicaties in uw bedrijfsinfrastructuur.
@@ -37,7 +37,7 @@
         <textbox value="2.20" id="3"/>GHz
       </product:techspec>
       <product:techspec id="4" name="Processorklasse">
-        <textbox value="20" refid="24"/> Core
+        <textbox value="20" id="24"/> Core
       </product:techspec>
       <product:techspec id="5" name="Memory cache">
         <textbox value="15" id="4"/>MB
