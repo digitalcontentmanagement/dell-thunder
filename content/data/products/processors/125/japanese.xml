@@ -8,13 +8,13 @@
   </generic:properties>
   <generic:content>
     <product:name>
-		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> コアプロセッサー, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M キャッシュ, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> コアプロセッサー, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M キャッシュ, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-		Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/>コアプロセッサーにより、システムのパフォーマンスと処理速度が向上します。 また、仮想化テクノロジーにより、より多くの環境の移行が可能になります。 このプロセッサーは、拡張版SpeedStep<reg/>テクノロジーをサポートしています。これによって、パフォーマンスと電力消費の間のトレードオフが可能になります。 
+		Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/>コアプロセッサーにより、システムのパフォーマンスと処理速度が向上します。 また、仮想化テクノロジーにより、より多くの環境の移行が可能になります。 このプロセッサーは、拡張版SpeedStep<reg/>テクノロジーをサポートしています。これによって、パフォーマンスと電力消費の間のトレードオフが可能になります。 
       </para>
-      <para>排熱監視テクノロジーを採用しているため、複数の排熱管理機能を使用して、プロセッサーパッケージとシステムを排熱障害から保護できます。 第2レベルアドレス変換（SLAT）とも呼ばれる拡張ページテーブル（EPT）機能に対応したVT-xにより、メモリを大量に消費する仮想化アプリケーションを高速化できます。 Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHzプロセッサーには多様な機能が備わっており、高度なデータ処理が要求されるアプリケーションや標準のエンタープライズインフラストラクチャアプリケーションに最適です。
+      <para>排熱監視テクノロジーを採用しているため、複数の排熱管理機能を使用して、プロセッサーパッケージとシステムを排熱障害から保護できます。 第2レベルアドレス変換（SLAT）とも呼ばれる拡張ページテーブル（EPT）機能に対応したVT-xにより、メモリを大量に消費する仮想化アプリケーションを高速化できます。 Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHzプロセッサーには多様な機能が備わっており、高度なデータ処理が要求されるアプリケーションや標準のエンタープライズインフラストラクチャアプリケーションに最適です。
       </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>

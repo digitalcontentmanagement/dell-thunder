@@ -8,14 +8,14 @@
   </generic:properties>
   <generic:content>
     <product:name>
-		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> kjerners prosessor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> kjerners prosessor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-		Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz, <textbox value="20" refid="24"/> kjerners prosessor forbedrer ytelsen og hastigheten på systemet. I tillegg gir virtualiseringsteknologien muligheter for migrering av flere miljøer. Den støtter utvidet Speedstep<reg/>-teknologi, som tillater prioritering av ytelse eller strømforbruk. 
+		Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz, <textbox value="20" refid="24"/> kjerners prosessor forbedrer ytelsen og hastigheten på systemet. I tillegg gir virtualiseringsteknologien muligheter for migrering av flere miljøer. Den støtter utvidet Speedstep<reg/>-teknologi, som tillater prioritering av ytelse eller strømforbruk. 
       </para>
       <para>
-		Temperaturovervåkingsteknologien beskytter prosessorpakken og systemet fra varmefeil ved hjelp av flere varmestyringsfunksjoner. VT-x med utvidede sidetabeller (EPT), også kjent som Second Level Address Translation (SLAT), gir akselerasjon for minnekrevende virtualiserte programmer. Prosessoren Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz har et bredt utvalg av funksjoner og er ideell for praktisk talt alle ressurskrevende og standard infrastrukturprogrammer i virksomheten.
+		Temperaturovervåkingsteknologien beskytter prosessorpakken og systemet fra varmefeil ved hjelp av flere varmestyringsfunksjoner. VT-x med utvidede sidetabeller (EPT), også kjent som Second Level Address Translation (SLAT), gir akselerasjon for minnekrevende virtualiserte programmer. Prosessoren Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz har et bredt utvalg av funksjoner og er ideell for praktisk talt alle ressurskrevende og standard infrastrukturprogrammer i virksomheten.
       </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>

@@ -8,14 +8,14 @@
   </generic:properties>
   <generic:content>
     <product:name>
-      <stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> Core Processor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+      <stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> Core Processor, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-        The Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> Core Processor enhances the performance and the speed of your system. Additionally, the Virtualization Technology enables migration of more environments. It supports enhanced SpeedStep<reg/> technology that allows tradeoffs to be made between performance and power consumption.
+        The Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> Core Processor enhances the performance and the speed of your system. Additionally, the Virtualization Technology enables migration of more environments. It supports enhanced SpeedStep<reg/> technology that allows tradeoffs to be made between performance and power consumption.
       </para>
       <para>
-        Its Thermal Monitoring Technologies protect the processor package and the system from thermal failure through several thermal management features. The VT-x with Extended Page Tables (EPT) also known as Second Level Address Translation (SLAT), provides acceleration for memory intensive virtualized applications. Packed with more features, the Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> Core Processor is the ideal choice for virtually all of your data demanding or standard enterprise infrastructure applications.
+        Its Thermal Monitoring Technologies protect the processor package and the system from thermal failure through several thermal management features. The VT-x with Extended Page Tables (EPT) also known as Second Level Address Translation (SLAT), provides acceleration for memory intensive virtualized applications. Packed with more features, the Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> Core Processor is the ideal choice for virtually all of your data demanding or standard enterprise infrastructure applications.
       </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>

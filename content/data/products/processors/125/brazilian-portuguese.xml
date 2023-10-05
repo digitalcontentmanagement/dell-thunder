@@ -8,14 +8,14 @@
   </generic:properties>
   <generic:content>
     <product:name>
-	<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Processador Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de <textbox value="20" refid="24"/> núcleos de, <textbox value="2.20" refid="3"/>GHz <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+	<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Processador Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de <textbox value="20" refid="24"/> núcleos de, <textbox value="2.20" refid="3"/>GHz <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-	  O processador Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de <textbox value="20" refid="24"/> núcleos de <textbox value="2.20" refid="3"/>GHz melhora a performance e a velocidade do seu sistema. Além disso, a tecnologia de virtualização permite a migração de mais ambientes. Oferece suporte à tecnologia SpeedStep<reg/> avançada, que permite compensações entre a performance e o consumo de energia. 
+	  O processador Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> de <textbox value="20" refid="24"/> núcleos de <textbox value="2.20" refid="3"/>GHz melhora a performance e a velocidade do seu sistema. Além disso, a tecnologia de virtualização permite a migração de mais ambientes. Oferece suporte à tecnologia SpeedStep<reg/> avançada, que permite compensações entre a performance e o consumo de energia. 
       </para>
       <para>
-	  Suas tecnologias de monitoramento térmico protegem o pacote do processador e o sistema contra falhas que acontecem pelo superaquecimento de diversos recursos de gerenciamento térmico. O recurso VT-x com Extended Page Tables (EPT), também conhecido como Conversão de Endereços de Segundo Nível (SLAT), fornece aceleração para aplicativos virtualizados com uso intenso de memória. Com mais recursos, o processador Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/>  de <textbox value="2.20" refid="3"/>GHz é a opção ideal para praticamente todos os seus aplicativos de infraestrutura empresarial padrão ou com uso intenso de dados.
+	  Suas tecnologias de monitoramento térmico protegem o pacote do processador e o sistema contra falhas que acontecem pelo superaquecimento de diversos recursos de gerenciamento térmico. O recurso VT-x com Extended Page Tables (EPT), também conhecido como Conversão de Endereços de Segundo Nível (SLAT), fornece aceleração para aplicativos virtualizados com uso intenso de memória. Com mais recursos, o processador Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/>  de <textbox value="2.20" refid="3"/>GHz é a opção ideal para praticamente todos os seus aplicativos de infraestrutura empresarial padrão ou com uso intenso de dados.
       </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>

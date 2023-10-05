@@ -8,14 +8,14 @@
   </generic:properties>
   <generic:content>
     <product:name>
-		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> 核心 處理器, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M 快取, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> 核心 處理器, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M 快取, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-		Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/>核心 處理器可強化您的系統效能與速度。 此外，虛擬化技術賦予這款處理器多重作業環境的遷移能力。 它支援強化的 SpeedStep<reg/> 技術，能在效能與耗電量之間做出最佳取捨。 
+		Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/>核心 處理器可強化您的系統效能與速度。 此外，虛擬化技術賦予這款處理器多重作業環境的遷移能力。 它支援強化的 SpeedStep<reg/> 技術，能在效能與耗電量之間做出最佳取捨。 
        </para>
       <para>
-        內建的散熱監控技術藉由多項散熱管理功能，保護處理器封裝及系統免於因散熱不良而故障。 VT-x 含有擴充的分頁表 (Extended Page Table，EPT)，又稱為第二層位址轉譯 (Second Level Address Translation，SLAT)，可為需要大量記憶體的虛擬化應用程式提供加速功能。 內建了更多功能，不管是處理大量資料的應用程式還是標準企業基礎架構應用程式，Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz 處理器都是您理想的選擇。
+        內建的散熱監控技術藉由多項散熱管理功能，保護處理器封裝及系統免於因散熱不良而故障。 VT-x 含有擴充的分頁表 (Extended Page Table，EPT)，又稱為第二層位址轉譯 (Second Level Address Translation，SLAT)，可為需要大量記憶體的虛擬化應用程式提供加速功能。 內建了更多功能，不管是處理大量資料的應用程式還是標準企業基礎架構應用程式，Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz 處理器都是您理想的選擇。
       </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>

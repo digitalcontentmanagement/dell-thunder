@@ -8,14 +8,14 @@
   </generic:properties>
   <generic:content>
     <product:name>
-		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> ydintä -suoritin, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> ydintä -suoritin, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-		Intel Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz, <textbox value="20" refid="24"/> ydintä -suoritin parantaa järjestelmän suorituskykyä ja nopeutta. Lisäksi virtualisointitekniikka mahdollistaa yhä useampien ympäristöjen siirtämisen. Se tukee parannettua Speedstep<reg/>-tekniikkaa, joka mahdollistaa suorituskyvyn tai virrankulutuksen priorisoinnin tarpeen mukaan. 
+		Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz, <textbox value="20" refid="24"/> ydintä -suoritin parantaa järjestelmän suorituskykyä ja nopeutta. Lisäksi virtualisointitekniikka mahdollistaa yhä useampien ympäristöjen siirtämisen. Se tukee parannettua Speedstep<reg/>-tekniikkaa, joka mahdollistaa suorituskyvyn tai virrankulutuksen priorisoinnin tarpeen mukaan. 
       </para>
       <para>
-       Lämmönhallintatekniikat suojaavat suoritinpakettia ja järjestelmää lämmön aiheuttamilta vioilta useiden erilaisten lämmönhallintaominaisuuksien kautta. VT-x ja Extended Page Tables (EPT) -tekniikka, toiselta nimeltään SLAT (Second Level Address Translation) tarjoaa kiihdytysominaisuudet paljon muistia edellyttäville virtualisoiduille sovelluksille. Tehokkaita ominaisuuksia täynnä oleva Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz -suoritin soveltuu ihanteellisesti lähes kaikkiin runsaasti tietoja vaativiin tai tavallisiin yritysinfrastruktuurisovelluksiin.
+       Lämmönhallintatekniikat suojaavat suoritinpakettia ja järjestelmää lämmön aiheuttamilta vioilta useiden erilaisten lämmönhallintaominaisuuksien kautta. VT-x ja Extended Page Tables (EPT) -tekniikka, toiselta nimeltään SLAT (Second Level Address Translation) tarjoaa kiihdytysominaisuudet paljon muistia edellyttäville virtualisoiduille sovelluksille. Tehokkaita ominaisuuksia täynnä oleva Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz -suoritin soveltuu ihanteellisesti lähes kaikkiin runsaasti tietoja vaativiin tai tavallisiin yritysinfrastruktuurisovelluksiin.
       </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>

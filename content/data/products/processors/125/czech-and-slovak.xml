@@ -8,14 +8,14 @@
   </generic:properties>
   <generic:content>
     <product:name>
-		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Procesor Intel Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz se <textbox value="20" refid="24"/> jádry, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Vyrovnávací paměť, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+		<stringlookup ref="intelrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Procesor Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz se <textbox value="20" refid="24"/> jádry, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Vyrovnávací paměť, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
-		Procesor Intel Xeon <reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/>, <textbox value="2.20" refid="3"/>GHz se <textbox value="20" refid="24"/> jádry zvyšuje výkon a rychlost počítače. Virtualizační technologie navíc umožňuje migraci do více prostředí. Podporuje rozšířenou technologii SpeedStep<reg/> sloužící k vyrovnávání výkonu a spotřeby energie. 
+		Procesor Intel<reg/> Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/>, <textbox value="2.20" refid="3"/>GHz se <textbox value="20" refid="24"/> jádry zvyšuje výkon a rychlost počítače. Virtualizační technologie navíc umožňuje migraci do více prostředí. Podporuje rozšířenou technologii SpeedStep<reg/> sloužící k vyrovnávání výkonu a spotřeby energie. 
       </para>
       <para>
-		Jeho technologie pro monitorování tepelného výkonu pomocí několika funkcí správy teploty chrání obvody procesoru a počítač proti tepelnému selhání. Technologie VT-x a EPT (Extended Page Tables), známé také jako překlad adres portů druhé úrovně (SLAT), zajišťuje akceleraci pro paměťově náročné virtualizované aplikace. Procesor Xeon <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> (<textbox value="2.20" refid="3"/>GHz) je nabit funkcemi a představuje ideální řešení prakticky pro všechny aplikace podnikové infrastruktury – s vysokými i standardními nároky na data.
+		Jeho technologie pro monitorování tepelného výkonu pomocí několika funkcí správy teploty chrání obvody procesoru a počítač proti tepelnému selhání. Technologie VT-x a EPT (Extended Page Tables), známé také jako překlad adres portů druhé úrovně (SLAT), zajišťuje akceleraci pro paměťově náročné virtualizované aplikace. Procesor Xeon<reg/> <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> (<textbox value="2.20" refid="3"/>GHz) je nabit funkcemi a představuje ideální řešení prakticky pro všechny aplikace podnikové infrastruktury – s vysokými i standardními nároky na data.
       </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
