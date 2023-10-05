@@ -117,7 +117,8 @@
   </product:category>
 
   <product:category id="processors" name="Processors">
-    <product:subclass id="125" description="Server Processors" folder-name="125"/>
+    <product:subclass id="125" description="Server Processors (Intel Xeon)" folder-name="125"/>
+    <product:subclass id="125" description="Server Processors (AMD EPYC)" folder-name="125A"/>
   </product:category>
 
   <product:category id="rubber-feet-and-notebook-plastics" name="Rubber Feet &amp; Notebook Plastics">
