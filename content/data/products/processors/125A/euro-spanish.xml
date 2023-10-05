@@ -8,7 +8,7 @@
   </generic:properties>
   <generic:content>
     <product:name>
-	   Procesador AMD EPYC™ <textbox value="E5-2420 v2" refid="1"/> de  núcleo <textbox value="20" refid="24"/> a <textbox value="2.20" refid="3"/>GHz, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M caché, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+	   Procesador AMD EPYC™ <textbox value="E5-2420 v2" refid="1"/> de  núcleo <textbox value="20" refid="24"/> a <textbox value="2.20" refid="3"/>GHz, <textbox value="14C/28T" id="10"/>, <textbox value="15" refid="4"/>M caché, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
     </product:name>
     <product:longdesc>
       <para>
