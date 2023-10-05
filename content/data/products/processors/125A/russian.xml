@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2023-10-5" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		 процессор AMD EPYC™ <textbox value="E5-2420 версии 2" refid="1"/> <textbox value="2.20" refid="3"/>ГГц (<textbox value="20" refid="24"/> ядер), <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M кэш, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		Процессор AMD EPYC<tm/> <textbox value="E5-2420 версии 2" refid="1"/> <textbox value="2.20" refid="3"/>ГГц (<textbox value="20" refid="24"/> ядер) позволит повысить производительность и быстродействие вашей системы. Кроме того, технология виртуализации позволяет выполнять миграцию большего количества сред. Процессор поддерживает усовершенствованную технологию SpeedStep<reg/>, позволяющую сбалансировать производительность и энергопотребление. 
+      </para>
+      <para>
+        Реализованные в процессоре технологии контроля температуры, включающие несколько функций управления температурой, защитят блок процессора и систему от сбоев, возникающих из-за перегрева. Технология VT-x с функцией Extended Page Tables (EPT), которую также называют преобразованием адресов второго уровня (SLAT), обеспечивает ускорение работы виртуализированных приложений с интенсивным использованием памяти. Процессор AMD EPYC<tm/> <textbox value="E5-2420 версии 2" refid="1"/> <textbox value="2.20" refid="3"/>ГГц оснащен и другими функциями, благодаря чему он является идеальным выбором практически для всех приложений, работающих с большими объемами данных, и стандартных приложений корпоративной инфраструктуры.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Линейка продуктов, серия, модель">
+        AMD EPYC™ <textbox value="E5-2420 версии 2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Скорость шины">
+        <textbox value="7.2" id="2"/> млрд пересылок/с
+      </product:techspec>
+      <product:techspec id="3" name="Частота процессора">
+        <textbox value="2.20" id="3"/>ГГц
+      </product:techspec>
+      <product:techspec id="4" name="Класс процессора">
+        <textbox value="20" id="24"/> ядер
+      </product:techspec>
+      <product:techspec id="5" name="кэш-памяти">
+        <textbox value="15" id="4"/>Мбайт
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2023-10-5" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		AMD EPYC™ <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> ydintä -suoritin, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		   AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz, <textbox value="20" refid="24"/> ydintä -suoritin parantaa järjestelmän suorituskykyä ja nopeutta. Lisäksi virtualisointitekniikka mahdollistaa yhä useampien ympäristöjen siirtämisen. Se tukee parannettua Speedstep<reg/>-tekniikkaa, joka mahdollistaa suorituskyvyn tai virrankulutuksen priorisoinnin tarpeen mukaan. 
+      </para>
+      <para>
+       Lämmönhallintatekniikat suojaavat suoritinpakettia ja järjestelmää lämmön aiheuttamilta vioilta useiden erilaisten lämmönhallintaominaisuuksien kautta. VT-x ja Extended Page Tables (EPT) -tekniikka, toiselta nimeltään SLAT (Second Level Address Translation) tarjoaa kiihdytysominaisuudet paljon muistia edellyttäville virtualisoiduille sovelluksille. Tehokkaita ominaisuuksia täynnä oleva AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz -suoritin soveltuu ihanteellisesti lähes kaikkiin runsaasti tietoja vaativiin tai tavallisiin yritysinfrastruktuurisovelluksiin.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Tuotesarjan malli">
+       AMD EPYC™ <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Väylänopeus">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Suorittimen nopeus">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Suoritinluokka">
+        <textbox value="20" id="24"/> ydintä
+      </product:techspec>
+      <product:techspec id="5" name="Muistin välimuisti">
+        <textbox value="15" id="4"/>Mt
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2023-10-5" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		 AMD EPYC™ <dropdownlist refid="processor-name"/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> 核处理器, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M 高速缓存, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/>核处理器可提升您的系统性能，加快系统处理速度。 此外，虚拟化技术可实现更多环境的迁移。 它支持增强型SpeedStep<reg/>技术，可实现性能和功耗之间的完美均衡。 
+      </para>
+      <para>
+        它的散热监控技术可通过多种散热管理功能来保护处理器包和系统，以免出现过热故障。 带有扩展页表(EPT)的VT-x，也称为二级地址转换(SLAT)，可为需要大量内存的虚拟化应用提供加速。 AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz 处理器集更多功能于一身，可以满足几乎所有数据处理量大的应用程序或标准企业基础架构应用程序的需求。
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="产品线系列型号">
+        AMD EPYC™ <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="总线速度">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="处理器速度">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="处理器分类">
+        <textbox value="20" id="24"/>核
+      </product:techspec>
+      <product:techspec id="5" name="高速缓存">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

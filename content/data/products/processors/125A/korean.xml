@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2023-10-5" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		 서버용 AMD EPYC™ <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/> 코어 프로세서, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/초, <textbox value="15" refid="4"/>M 캐시, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz <textbox value="20" refid="24"/>코어 프로세서는 시스템 속도와 성능을 향상시킵니다. 또한 가상화 기술을 도입하여 더 많은 환경을 마이그레이션할 수 있으며 향상된 Speedstep<reg/> 기술을 지원하여 CPU 성능에 따라 전력 소비량이 효과적으로 조절됩니다. 
+      </para>
+      <para>
+        발열 모니터링 기술이 적용된 서버 발열 관리 기능으로 냉각 장애로부터 프로세서 패키지와 시스템을 보호할 수 있습니다. SLAT(Second-Level Address Translation)라고도 불리는 EPT(Extended Page Tables)가 지원되는 VT-x는 메모리가 많이 소요되는 가상화된 어플리케이션의 속도를 높이는 역할을 합니다. 더욱 다양한 기능을 제공하는 AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz 프로세서는 거의 모든 데이터 중심 또는 엔터프라이즈 인프라 어플리케이션을 위한 이상적인 프로세서입니다.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="제품군 시리즈 모델">
+        AMD EPYC™ <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="버스 속도">
+        <textbox value="7.2" id="2"/> GT/초
+      </product:techspec>
+      <product:techspec id="3" name="프로세서 속도">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="프로세서 분류">
+        <textbox value="20" id="24"/>코어
+      </product:techspec>
+      <product:techspec id="5" name="메모리 캐시">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

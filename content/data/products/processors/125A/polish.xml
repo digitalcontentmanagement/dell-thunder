@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2023-10-5" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		 Procesor AMD EPYC™ <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz (<textbox value="20" refid="24"/> rdzeniowy), <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		Procesor AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz (<textbox value="20" refid="24"/> rdzeniowy) poprawia wydajność i szybkość działania systemu. Dodatkowo technologia Intel Virtualization Technology pozwala na migrację większej liczby środowisk. Obsługa technologii Speedstep<reg/> pozwala równoważyć wydajność i użycie energii. 
+      </para>
+      <para>
+        Technologie monitorowania temperatury i funkcje zarządzania chronią układ procesora i system przed awariami spowodowanymi nadmiernym ciepłem. Technologia VT-x z funkcją EPT (Extended Page Tables) — zwana również SLAT (Second Level Address Translation) — zapewnia szybsze działanie aplikacji zwirtualizowanych o dużym zapotrzebowaniu na pamięć. Dzięki dodatkowym funkcjom procesor AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz jest idealnym wyborem do praktycznie wszystkich zastosowań, zarówno tych standardowych, jak i bardziej obciążających.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Seria produktów/model">
+        AMD EPYC™ <textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Prędkość magistrali">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Szybkość procesora">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Klasa procesora">
+        <textbox value="20" id="24"/> rdzeniowy
+      </product:techspec>
+      <product:techspec id="5" name="pamięci cache">
+        <textbox value="15" id="4"/>MB
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>

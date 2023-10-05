@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Processors</meta:title>
+    <meta:date value="2023-10-5" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+    <product:name>
+		 Processeur AMD EPYC™ <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz à <textbox value="20" refid="24"/> cœurs, <textbox value="14C/28T" id="10"/>, <textbox value="7.2" refid="2"/>GT/s, <textbox value="15" refid="4"/>M Cache, <textbox value="Turbo" id="11"/>, <textbox value="HT (105W) DDR4-2400" id="12"/>
+    </product:name>
+    <product:longdesc>
+      <para>
+		Le processeur AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz à <textbox value="20" refid="24"/> cœurs améliore la performance et la vitesse de votre système. En outre, sa technologie de virtualisation permet la migration d’un plus grand nombre d’environnements. Il prend en charge la technologie SpeedStep<reg/>, qui offre des compromis entre la performance et la consommation d’énergie. 
+      </para>
+      <para>
+		Ses technologies de surveillance thermique protègent le processeur et le système contre les défaillances thermiques grâce à plusieurs fonctionnalités de gestion thermique. La technologie de virtualisation VT-x avec tables de pagination (EPT), aussi connue sous le nom de traduction d’adresses de second niveau (SLAT), accélère les applications virtualisées qui sollicitent fortement la mémoire. Doté de nombreuses autres caractéristiques, le processeur AMD EPYC<tm/> <textbox value="E5-2420 v2" refid="1"/> <textbox value="2.20" refid="3"/>GHz représente le choix idéal pour pratiquement toutes vos applications exigeantes en données ou d’infrastructure d’entreprise standard.
+      </para>
+	  <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->    
+    <product:techspecs>
+      <product:techspec id="1" name="Modèle du produit">
+       AMD EPYC™<textbox value="E5-2420 v2" id="1"/>
+      </product:techspec>
+      <product:techspec id="2" name="Vitesse de bus">
+        <textbox value="7.2" id="2"/> GT/s
+      </product:techspec>
+      <product:techspec id="3" name="Vitesse du processeur">
+        <textbox value="2.20" id="3"/>GHz
+      </product:techspec>
+      <product:techspec id="4" name="Catégorie de processeur">
+        <textbox value="20" id="24"/> cœurs
+      </product:techspec>
+      <product:techspec id="5" name="Cache mémoire">
+        <textbox value="15" id="4"/>Mo
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+    
+  </generic:content>
+</generic:root>
