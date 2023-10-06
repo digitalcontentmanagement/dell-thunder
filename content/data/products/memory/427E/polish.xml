@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/><dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/><textbox value="MHz" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/> (Brak zgodności z CPU Skylake)
+      <stringlookup ref="dellrefurbished"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/><dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/><textbox value="MT/s" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/> (Brak zgodności z CPU Skylake)
     </product:name>
     <product:longdesc>
       <para>
@@ -91,7 +91,7 @@
         <textbox value="4" id="1"/><dropdownlist id="unit-byte-memory"/>
       </product:techspec>
       <product:techspec id="6" name="Szybkość">
-        <textbox value="1600" id="7"/><textbox value="MHz" id="4"/>
+        <textbox value="1600" id="7"/><textbox value="MT/s" id="4"/>
       </product:techspec>
 	  <product:techspec id="7" name="Cechy i funkcje">
 		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> napięcie, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> stykowy moduł
