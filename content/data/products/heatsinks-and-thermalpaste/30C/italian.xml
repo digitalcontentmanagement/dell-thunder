@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Dissipatore di calore con prestazioni elevate <textbox value=", PowerEdge R660xs" id="1"/> <dropdownlist id="customer-kit"/>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Dissipatore di calore con prestazioni elevate<textbox value=", PowerEdge R660xs" id="1"/> <dropdownlist id="customer-kit"/>
     </product:name>
 
     <product:longdesc>
