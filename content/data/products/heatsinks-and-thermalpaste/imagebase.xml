@@ -5,12 +5,103 @@
     <image:image name="412-AADU">
       <image:location>412-AADU</image:location>
       <image:manufacturer>Dell</image:manufacturer>
-      <image:description>Dell 105W Heat Sink for PowerEdge T630 </image:description>
-      <image:caption>Dell 105W Heat Sink for PowerEdge T630 </image:caption>
+      <image:description>Dell 105W Heat Sink for PowerEdge T630 (Harmony MFG Part No:9CNV3)</image:description>
+      <image:caption>Dell 105W Heat Sink for PowerEdge T630 (Harmony MFG Part No:9CNV3)</image:caption>
       <image:type>jpg</image:type>
     </image:image>
-	
-    <!-- Start of subclasses -->
+
+     <image:image name="384-BDLJ">
+      <image:location>384-BDLJ</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Standard Fan for PowerEdge R660xs (Harmony MFG Part No:YWGWT) </image:description>
+      <image:caption>Standard Fan for PowerEdge R660xs (Harmony MFG Part No:YWGWT)  </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+         <image:image name="384-BDLK">
+      <image:location>384-BDLK</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Very High Performance Fan, PowerEdge R660xs (Harmony MFG Part No:47PWW) </image:description>
+      <image:caption>Very High Performance Fan, PowerEdge R660xs (Harmony MFG Part No:47PWW) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+       <image:image name="384-BDLK_mvi1">
+      <image:location>384-BDLK_mvi1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Very High Performance Fan, PowerEdge R660xs (Multiview Image) (Harmony MFG Part No:47PWW) </image:description>
+      <image:caption>Very High Performance Fan, PowerEdge R660xs(Multiview Image) (Harmony MFG Part No:47PWW)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+       <image:image name="384-BDLZ">
+      <image:location>384-BDLZ</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>High Performance Fan (Harmony MFG Part No:T885Y) </image:description>
+      <image:caption>High Performance Fan (Harmony MFG Part No:T885Y)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     
+      <image:image name="412-BBDL">
+      <image:location>412-BBDL</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Heatsink for less than or equal 185W (Harmony MFG Part No:2D19C) </image:description>
+      <image:caption>Heatsink for less than or equal 185W (Harmony MFG Part No:2D19C) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+      <image:image name="412-BBDL_MVI1">
+      <image:location>412-BBDL_MVI1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Heatsink for less than or equal 185W (Harmony MFG Part No:2D19C) </image:description>
+      <image:caption>Heatsink for less than or equal 185W (Harmony MFG Part No:2D19C) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+      <image:image name="412-BBDM">
+      <image:location>412-BBDM</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Heatsink for more than 185W (Harmony MFG Part No:FV8F7) </image:description>
+      <image:caption>Heatsink for more than 185W (Harmony MFG Part No:FV8F7) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+      <image:image name="412-BBFN">
+      <image:location>412-BBFN</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>High Performance Heatsink, PowerEdge R660xs (Harmony MFG Part No:FY3DH) </image:description>
+      <image:caption>High Performance Heatsink, PowerEdge R660xs (Harmony MFG Part No:FY3DH) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+    <image:image name="412-BBFP">
+      <image:location>412-BBFP</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>Standard Heatsink, PowerEdge R660xs (Harmony MFG Part No:R77XM) </image:description>
+      <image:caption>Standard Heatsink, PowerEdge R660xs (Harmony MFG Part No:R77XM) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="412-BBFR">
+      <image:location>412-BBFR</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>PowerEdge C6620 Extended Heatsink for 1 CPU (Harmony MFG Part No:8XHKF) </image:description>
+      <image:caption>PowerEdge C6620 Extended Heatsink for 1 CPU (Harmony MFG Part No:8XHKF) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+    <image:image name="412-BBFS">
+      <image:location>412-BBFS</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>PowerEdge C6620 Heatsink for 1 CPU (Harmony MFG Part No:YD30R) </image:description>
+      <image:caption>PowerEdge C6620 Heatsink for 1 CPU (Harmony MFG Part No:YD30R) </image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
+
+<!-- Start of subclasses -->
     <!--<image:folder name="225">
       <image:image name="450-AEGJ">
         <image:location>450-AEGJ</image:location>
