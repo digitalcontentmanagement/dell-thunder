@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2023-10-10" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 고성능 방열판<textbox value=", PowerEdge R660xs" id="1"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  칩셋, 그래픽 카드 및 하드 드라이브와 같은 컴퓨터 시스템의 다양한 구성 요소는 작동할 때 많은 양의 열을 발생시킬 수 있습니다. 이 같은 많은 양의 열은 시스템의 올바른 작동에 악영향을 줄 수 있습니다. 히트싱크 및 팬은 이러한 열을 소산시키고 안전한 온도 한계를 유지하는 역할을 합니다.
+	  </para>
+	  <para>
+	  히트싱크 어셈블리의 선택을 결정하는 가장 중요한 요소는 프로세서 종류와 속도입니다. 프로세서는 저마다 작동 온도가 다릅니다. 프로세서의 속도가 빨라질수록 더 좋은 히트싱크와 팬이 있어야 합니다. 마찬가지로, 프로세서의 종류에 따라 다른 히트 싱크를 사용해야 합니다. 섀시 유형도 히트싱크 어셈블리의 하우징 및 시스템과의 호환성을 결정짓기 때문에 중요합니다.
+	  </para>
+	  <para>
+	  시스템에 적합한 히트싱크/팬을 구매하려면 Parts For Your Dell<tm/> 도구의 서비스 태그 조회 기능을 사용하는 것이 좋습니다. 이렇게 하면 프로세서 종류와 시스템의 속도를 파악하고 여기에 호환 가능한 히트싱크 제품을 선택할 수 있습니다.
+	  </para>
+	  <para>
+	  일부 Dell 교체 제품은 키트 또는 어셈블리로 제공됩니다. 이 키트는 설치에 필요한 추가 부품을 포함할 수 있습니다. 이러한 부품은 이 페이지의 특징 섹션에'컴포넌트 부품'으로 별도로 나열되어 있습니다. 제품이 키트 또는 어셈블리로 판매되지 않는 경우 간편한 설치를 위해 보완 부품이 필요할 수 있습니다.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          컴퓨터의 열을 소산시킴
+        </point>
+        <point>
+          시스템 내부에서 안전하게 온도 한계 유지
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="제품 유형">
+		고성능 방열판
+      </product:techspec>
+      <product:techspec id="2" name="특징">
+		열을 소산시킴/안전한 온도 한계 유지
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

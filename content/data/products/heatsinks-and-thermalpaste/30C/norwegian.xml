@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2023-10-10" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Kjøleribbe med høy ytelse<textbox value=", PowerEdge R660xs" id="1"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Komponentene i en datamaskin, som brikkesettet, grafikkortet og harddisken, kan utvikle mye varme under drift. Denne varmen kan være skadelig for maskinen. Kjøleribben og viften skal spre denne varmen og holde temperaturen innenfor trygge grenser.
+	  </para>
+	  <para>
+	  Det viktigste hensynet ved valg av kjøleribbe er prosessortypen og -hastigheten. Ulike prosessorer har ulike driftstemperaturer. Jo raskere prosessor, jo bedre må kjøleribben og viften være. Prosessortypen avgjør altså hva slags kjøleribbe som skal brukes. Kabinettypen er også viktig fordi den bestemmer monteringen av kjøleribben og kompatibiliteten med systemet.
+	  </para>
+	  <para>
+	  For å kjøpe riktig kjøleribbe/vifte for systemet anbefaler vi at du bruker oppslagsfunksjonen for service-ID i verktøyet Parts For Your Dell<tm/>. Da kan vi identifisere prosessortypen og -hastigheten til systemet og velge kompatible kjøleribber.
+	  </para>
+	  <para>
+	  Vi gjør oppmerksom på at enkelte av erstatningsproduktene tilbys som sett. Slike sett kan inneholde ekstra deler som kreves for installasjon, og disse delene er oppført separat som komponentdeler i delen med hovedpunkter på denne siden. Hvis produktet ikke selges som sett, kan det kreves andre deler for installasjon.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Sprer varmen i datamaskinen
+        </point>
+        <point>
+          Holder temperaturen i systemet innenfor trygge grenser
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Produkttype">
+		Kjøleribbe med høy ytelse
+      </product:techspec>
+      <product:techspec id="2" name="Funksjoner">
+		Sprer varmen / holder temperaturen innenfor trygge grenser
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

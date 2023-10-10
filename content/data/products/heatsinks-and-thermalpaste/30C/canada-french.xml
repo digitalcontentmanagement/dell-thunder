@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+   <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2023-10-10" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Dissipateur de chaleur à hautes performances<textbox value=", PowerEdge R660xs" id="1"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Les divers composants d’un système informatique, comme le jeu de puces, la carte graphique et le disque dur, peuvent générer une très forte chaleur lorsqu’ils sont en fonctionnement. Une telle température peut nuire au fonctionnement adéquat de l’ordinateur. Les dissipateurs de chaleur et les ventilateurs ont pour rôle de diffuser cette chaleur et de maintenir une température convenable.
+	  </para>
+	  <para>
+	  Les facteurs les plus importants à prendre en compte pour le choix d’un dissipateur de chaleur sont le type et la vitesse du processeur. Chaque processeur a une température de fonctionnement différente. Plus le processeur est rapide, plus le dissipateur de chaleur et le ventilateur doivent être efficaces. De même, le type de processeur détermine quel dissipateur de chaleur devrait être utilisé. Le type de boîtier est également important, puisqu’il loge l’ensemble de dissipateur de chaleur et détermine sa compatibilité avec le système.
+	  </para>
+	  <para>
+	  Afin de choisir le bon dissipateur de chaleur et le bon ventilateur pour votre système, nous vous recommandons d’utiliser la fonctionnalité de recherche des étiquettes de service dans l’outil Composantes de votre Dell<tm/>. Cette fonctionnalité nous permettra de déterminer le type et la vitesse du processeur de votre ordinateur et de sélectionner le dissipateur de chaleur approprié.
+	  </para>
+	  <para>
+	  Veuillez noter que certaines de nos pièces de rechange sont offertes sous forme de trousse ou d’ensemble. Ces trousses peuvent contenir d’autres pièces nécessaires à l’installation. Ces pièces sont classées séparément en tant que « composants » dans la section Principales caractéristiques de cette page. Si un produit n’est pas vendu sous forme de trousse ou d’ensemble, des pièces complémentaires peuvent être nécessaires afin de faciliter l’installation.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Dissipe la chaleur de l’ordinateur
+        </point>
+        <point>
+          Maintient une température sécuritaire pour le système
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Type de produit">
+		Dissipateur de chaleur à hautes performances
+      </product:techspec>
+      <product:techspec id="2" name="Caractéristiques">
+		Dissipe la chaleur et maintient une température sécuritaire
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+     <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2023-10-10" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Disipador de calor de alto rendimiento<textbox value=", PowerEdge R660xs" id="1"/> <dropdownlist id="customer-kit"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Los diversos componentes de un sistema informático, como el conjunto de chips, la tarjeta gráfica y el disco duro pueden producir una gran cantidad de calor mientras están en funcionamiento. Esta gran cantidad de calor puede ser perjudicial para el correcto funcionamiento del sistema. Los disipadores de calor y los ventiladores son los encargados de eliminar dicho calor y de mantener los límites de temperatura segura.
+	  </para>
+	  <para>
+	  El factor más importante para determinar la selección del conjunto de disipador de calor es el tipo de procesador y su velocidad. Diferentes procesadores tienen diferentes temperaturas de funcionamiento. Cuanto mayor sea la velocidad del procesador, mayor la necesidad de proporcionar un mejor disipador de calor y ventilador. De igual modo, el tipo de procesador también determina qué disipador de calor debe llevar. El tipo de chasis también es importante ya que define el alojamiento del conjunto del disipador de calor y la compatibilidad con el sistema.
+	  </para>
+	  <para>
+	  Para poder adquirir el disipador de calor y ventilador adecuados para su sistema, le recomendamos que utilice la función de búsqueda de etiqueta de servicio en la herramienta Piezas para su Dell<tm/>. Esto nos permitirá identificar el tipo y la velocidad del procesador del sistema y seleccionar disipadores de calor compatibles.
+	  </para>
+	  <para>
+	  Tenga en cuenta que algunos de nuestros productos de sustitución se proporcionan como kits o conjuntos. Estos kits pueden contener piezas adicionales necesarias para la instalación. Estas piezas estarán indicadas por separado con la leyenda "Componentes" en la sección de características destacadas de esta página. Si un producto no se vende como kit o conjunto, podría ser necesario usar piezas complementarias para facilitar la instalación.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Disipa el calor del equipo
+        </point>
+        <point>
+          Mantiene los límites de temperatura segura en el interior del sistema
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de producto">
+		Disipador de calor de alto rendimiento
+      </product:techspec>
+      <product:techspec id="2" name="Características">
+		Disipa el calor y mantiene los límites de temperatura segura
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
