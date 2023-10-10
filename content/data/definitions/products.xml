@@ -78,6 +78,7 @@
     <product:subclass id="30" description="Heatsink CPU Assembly" folder-name="30"/>
 	 <product:subclass id="30A" description="Heatsink for CPU equal to or greater than 180W" folder-name="30A"/>
 	 <product:subclass id="30B" description="Heatsink for CPU Extended" folder-name="30B"/>
+   <product:subclass id="30C" description="High Performance Heatsink" folder-name="30C"/>
 	
   </product:category>
 
