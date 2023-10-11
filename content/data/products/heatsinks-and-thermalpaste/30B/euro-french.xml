@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="PowerEdge C6520" id="1"/> CPU prolongé Dissipateur de chaleur<dropdownlist id="customer-kit"/>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="PowerEdge C6520" id="1"/> CPU prolongé Dissipateur de chaleur <dropdownlist id="customer-kit"/>
     </product:name>
 
     <product:longdesc>
