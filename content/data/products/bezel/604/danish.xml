@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="1"/> <dropdownlist id="bezel-type"/> panel <textbox value="till" id="2"/> <textbox value="PowerEdge" id="3"/>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="1"/> <dropdownlist id="bezel-type"/> panel <textbox value="till" id="2"/> <textbox value="PowerEdge" id="3"/>, <dropdownlist id="customer-kit"/>
     </product:name>
      <product:longdesc>
       <para>
