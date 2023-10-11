@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="PowerEdge C6520" id="1"/> CPU Udvidet Køleplade<dropdownlist id="customer-kit"/>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="PowerEdge C6520" id="1"/> CPU Erweiterter Kühlkörper <dropdownlist id="customer-kit"/>
     </product:name>
 
     <product:longdesc>
@@ -46,7 +46,7 @@
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
       <product:techspec id="1" name="Produkttyp">
-		CPU Udvidet Køleplade
+		CPU Erweiterter Kühlkörper
       </product:techspec>
       <product:techspec id="2" name="Merkmale">
 		Leitet die Wärme ab / Sorgt für Einhaltung der Temperatur in sicheren Grenzen
