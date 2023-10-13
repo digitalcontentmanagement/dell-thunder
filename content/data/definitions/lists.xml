@@ -8101,5 +8101,119 @@
 <item>瓦</item>
 </items>
 </list>
+
+<!--  Gan  Details -->
+  -<list id="gan-detail">
+-<items l:source="english">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="brazilian-portuguese">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="canada-french">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="czech-and-slovak">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="danish">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="dutch">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="euro-spanish">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="euro-french">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="finnish">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="german">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="greek">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="italian">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="japanese">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="korean">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="norwegian">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="polish">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="portugal">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="russian">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="simplified-chinese">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="south-american-spanish">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="swedish">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+-<items l:source="traditional-chinese">
+<item>USFF</item>
+<item>SFF</item>
+<item>GaN</item>
+</items>
+</list>
   
 </lists>
