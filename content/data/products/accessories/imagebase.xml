@@ -110,14 +110,6 @@
   
   
   <image:folder name="139A">
-    <image:image name="384-BBQQ">
-      <image:location>384-BBQQ</image:location>
-      <image:manufacturer>Dell</image:manufacturer>
-      <image:description>Networking Power/Fan Airflow convert,IOtoPSU </image:description>
-      <image:caption>Networking Power/Fan Airflow convert,IOtoPSU</image:caption>
-      <image:type>jpg</image:type>
-    </image:image>
-
      <image:image name="384-BDLJ">
       <image:location>384-BDLJ</image:location>
       <image:manufacturer>Dell</image:manufacturer>
