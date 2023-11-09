@@ -13,6 +13,30 @@
       <image:caption>DELL WIRELESS 5804 LTE/4G MOBILE BROADBAND</image:caption>
       <image:type>jpg</image:type>
     </image:image>	
+
+    <image:image name="492-BDKK_v1">
+      <image:location>492-BDKK_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>100W Adapter (JC22F)</image:description>
+      <image:caption>100W Adapter (JC22F)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="450-BBZT_v2">
+      <image:location>450-BBZT_v2</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>165W Adapter (N86KM)</image:description>
+      <image:caption>165W Adapter (N86KM)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="492-BDHG_v1">
+      <image:location>492-BDHG_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>165W Adapter (N86KM)</image:description>
+      <image:caption>165W Adapter (N86KM)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
 	
 	 </image:folder>
 	 
@@ -139,10 +163,35 @@
       <image:caption>165W Adapter (N86KM)</image:caption>
       <image:type>jpg</image:type>
     </image:image>
+</image:folder>
+
+<image:folder name="773A">
+   <image:image name="492-BDKK_v1">
+      <image:location>492-BDKK_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>100W Adapter (JC22F)</image:description>
+      <image:caption>100W Adapter (JC22F)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="450-BBZT_v2">
+      <image:location>450-BBZT_v2</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>165W Adapter (N86KM)</image:description>
+      <image:caption>165W Adapter (N86KM)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="492-BDHG_v1">
+      <image:location>492-BDHG_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>165W Adapter (N86KM)</image:description>
+      <image:caption>165W Adapter (N86KM)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+</image:folder>
 
 
-	
-	 </image:folder>
     <!-- Start of subclasses -->
     <!--<image:folder name="225">
       <image:image name="450-AEGJ">
