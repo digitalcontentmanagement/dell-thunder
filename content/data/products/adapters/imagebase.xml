@@ -114,6 +114,33 @@
       <image:caption>E5 65W Type-C AC Adapter</image:caption>
       <image:type>jpg</image:type>
     </image:image>
+
+
+    <image:image name="492-BDKK_v1">
+      <image:location>492-BDKK_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>100W Adapter (JC22F)</image:description>
+      <image:caption>100W Adapter (JC22F)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="450-BBZT_v2">
+      <image:location>450-BBZT_v2</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>165W Adapter (N86KM)</image:description>
+      <image:caption>165W Adapter (N86KM)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+     <image:image name="492-BDHG_v1">
+      <image:location>492-BDHG_v1</image:location>
+      <image:manufacturer>Dell</image:manufacturer>
+      <image:description>165W Adapter (N86KM)</image:description>
+      <image:caption>165W Adapter (N86KM)</image:caption>
+      <image:type>jpg</image:type>
+    </image:image>
+
+
 	
 	 </image:folder>
     <!-- Start of subclasses -->
@@ -133,16 +160,6 @@
         <image:manufacturer>Dell</image:manufacturer>
         <image:description>This is Dell Product</image:description>
         <image:caption>Dell Slim Power Adapter</image:caption>
-        <image:type>jpg</image:type>
-      </image:image>
-    </image:folder>-->
-	  
-    <image:folder name="774C">
-      <image:image name="450-AELT">
-        <image:location>450-AELT</image:location>
-        <image:manufacturer>Dell</image:manufacturer>
-        <image:description>This is Dell Product</image:description>
-        <image:caption>Dell Laptop Car and Airplane DC Power Adapter</image:caption>
         <image:type>jpg</image:type>
       </image:image>
     </image:folder>-->
