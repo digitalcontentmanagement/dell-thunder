@@ -10,38 +10,7 @@
       <image:type>jpg</image:type>
     </image:image>
 
-     <image:image name="384-BDLJ">
-      <image:location>384-BDLJ</image:location>
-      <image:manufacturer>Dell</image:manufacturer>
-      <image:description>Standard Fan for PowerEdge R660xs (Harmony MFG Part No:YWGWT) </image:description>
-      <image:caption>Standard Fan for PowerEdge R660xs (Harmony MFG Part No:YWGWT)  </image:caption>
-      <image:type>jpg</image:type>
-    </image:image>
-
-         <image:image name="384-BDLK">
-      <image:location>384-BDLK</image:location>
-      <image:manufacturer>Dell</image:manufacturer>
-      <image:description>Very High Performance Fan, PowerEdge R660xs (Harmony MFG Part No:47PWW) </image:description>
-      <image:caption>Very High Performance Fan, PowerEdge R660xs (Harmony MFG Part No:47PWW) </image:caption>
-      <image:type>jpg</image:type>
-    </image:image>
-
-       <image:image name="384-BDLK_mvi1">
-      <image:location>384-BDLK_mvi1</image:location>
-      <image:manufacturer>Dell</image:manufacturer>
-      <image:description>Very High Performance Fan, PowerEdge R660xs (Multiview Image) (Harmony MFG Part No:47PWW) </image:description>
-      <image:caption>Very High Performance Fan, PowerEdge R660xs(Multiview Image) (Harmony MFG Part No:47PWW)</image:caption>
-      <image:type>jpg</image:type>
-    </image:image>
-
-       <image:image name="384-BDLZ">
-      <image:location>384-BDLZ</image:location>
-      <image:manufacturer>Dell</image:manufacturer>
-      <image:description>High Performance Fan (Harmony MFG Part No:T885Y) </image:description>
-      <image:caption>High Performance Fan (Harmony MFG Part No:T885Y)</image:caption>
-      <image:type>jpg</image:type>
-    </image:image>
-
+  
      
       <image:image name="412-BBDL">
       <image:location>412-BBDL</image:location>
