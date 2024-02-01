@@ -22,13 +22,14 @@
 	<product:highlights>
 	<!-- KSP available only for Global -->
 	
+		<points>
 		<point>
-		
 		Provides <textbox value="65" refid="1"/> Wh capacity 
 		</point>
 		<point>
 		Offers reliable power for dependable performance
 		</point>
+		</points>
 	 
 	 <!-- KSP for Compatibility-->
 	 <points title="@string(compatibility)">
