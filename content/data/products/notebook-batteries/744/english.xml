@@ -31,21 +31,21 @@
 		</point>
 	 
 	 <!-- KSP for Compatibility-->
-	 
+	 <points title="@string(compatibility)">
 		<point>
 		Genuine Dell-branded parts undergo rigorous testing by qualified engineers to ensure compatibility and reliability in your Dell system. 
 		</point>
 		<point>
 		Our sustaining qualification process allows for testing and certification of the newest technology on your Dell system.
 		</point>
-	  
+	  </points>
 	  
 	  <!-- KSP for Quality-->
-	  
+	  <points title="@string(quality)">
 		<point>
 		Dell uses only OEM grade quality components.
 		</point>
-	  
+	  </points>
 
 	  <!-- KSP for Warranty APJ,CA,LA,EMEA only-->
 	  <points title="@string(warranty)">
