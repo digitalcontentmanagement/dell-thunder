@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Memory</meta:title>
+    <meta:date value="2015-09-30" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MT/s" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/> (Ikke kompatibel med <textbox value="5600 MT/s DIMMs" id="15"/>)
+    </product:name>
+    <product:longdesc>
+      <para>
+	  RAM (Random Access Memory) er en type maskinvare som datamaskinen bruker til å lagre informasjon. Å installere mer minne er en av de mest kostnadseffektive måtene å forbedre ytelsen til datamaskinen på.
+      </para>
+      <para>
+        <b>
+		Dell<tm/>-minnet som tilbys i minnevelgeren, er grundig kvalitetstestet for å sikre at det fungerer med Dell-systemet ditt. Det er fullt ut kompatibelt og støttes av Dell. Hvis du bruker ukvalifiserte eller generiske produkter fra andre leverandører, kan det føre til nedetid som koster virksomheten dyrt og utsetter hele systemet for risiko.
+        </b>
+      </para>
+	  <para>
+	  Minnet som tilbys, kan avvike i hastighet fra det originale systemminnet, men det er godkjent for bruk i systemet. Når du blander kort, blir minneytelsen den samme som for det kortet med lavest hastighet, eller den høyeste hastigheten som systemet tillater.
+      </para>
+	  
+	  
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support">Håndbøker for Dell-systemer</link>
+      </para>
+        <!--<technotes>
+          <technote>
+            <b>Bildet er bare til illustrasjon.</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1">
+          <technote>
+            3 Du kan få en kopi av våre begrensede garantier ved å skrive til Dell USA L.P., Attn: Warranties, One Dell Way, Round Rock, Texas 78682. 
+			<Du finner mer informasjon på <link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>
+		I Dells kontinuerlige kvalifiseringsprosess blir den nyeste teknologien testet og sertifisert for Dell-systemer.
+        </point>
+        <point>
+		Dell-minnene er konstruert med bransjeledende deler av OEM-kvalitet.
+        </point>
+        <point>
+		Det er bare produkter som består testene på første forsøk, som godtas av Dells høye kvalitetsstandarder, og du kan bare kjøpe dem direkte fra Dell.
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+		Hvis du bruker Dell-minnene produkter, trenger du ikke bekymre deg for maskinvaregarantien til systemet.
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+		Våre erfarne ansatte i Dells tekniske støtte svarer på ethvert spørsmål knyttet til oppgradering av Dell minne.
+        </point>
+        <point>
+		Minne som ikke er Dell-minnene, støttes kanskje ikke av Dells tekniske kundestøtte.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Service og kundestøtte">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="Teknologi">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec> -->
+      <product:techspec id="3" name="Pakketype">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="Dataintegritetskontroll">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="Lagringskapasitet">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="Hastighet">
+        <textbox value="1600" id="7"/> <textbox value="MT/s" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="Features">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> spenning, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> pinners
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

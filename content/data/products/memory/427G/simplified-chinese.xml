@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+     <meta:title>Memory Upgrade for XMP and DT</meta:title>
+    <meta:date value="2021-06-03" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 <dropdownlist id="memory-type"/> - <textbox value="4" refid="1"/> <dropdownlist refid="unit-byte-memory"/> - <textbox value="1Rx8" id="2"/> <textbox value="DDR3" refid="3"/> <textbox value="RDIMM" id="5"/> <textbox value="1600" refid="7"/> <textbox value="MT/s" refid="4"/> <textbox value="LV" id="9"/> <dropdownlist refid="ECC-memory"/> (与 <textbox value="5600 MT/s DIMMs" id="15"/> 不兼容)
+    </product:name>
+    <product:longdesc>
+      <para>
+	  随机存取存储器 (RAM) 是计算机用来存储信息的一种硬件。添加内存是提升计算机性能的最经济实惠的方法之一。
+      </para>
+      <para>
+        <b>
+        内存选择器中提供的戴尔<tm/>品牌内存已经过严格的质量保证和质量控制测试，以确保它适用于您的特定戴尔系统，因此它与戴尔系统完全兼容并由戴尔提供支持。从其他供应商那里获得不合格产品或通用产品可能会导致停机，这可能会严重影响您的业务，并使整个系统处于危险之中。
+		</b>
+      </para>
+	  <para>现在提供的内存在速度上可能会不同于原系统内存，但经过鉴定，完全可以在系统中使用。 当混搭使用时，内存将以插入的内存中最慢内存的速度或者系统允许的最高速度运行。
+          </para>
+		
+	 
+      <para filter="'$(locale.region)' $in$ ['us']">
+        <link ref="https://www.dell.com/support"> 戴尔系统所有者手册</link>
+      </para>
+        <!--<technotes>
+          <technote>
+            <b> 所显示图像仅用于演示。</b>
+          </technote>
+        </technotes>
+        technotes type="number" start="1" filter="'$(locale.region)' $in$ ['emea','us','ca','la','global']">
+          <technote>
+            要获得我们的保证或有限保修协议的副本，请寄信到Dell USA L.P.，收件人：Warranties, One Dell Way, Round Rock, Texas 78682。
+			<有关详细信息，请访问<link ref="http://www.dell.com/us/en/gen/services/service_service_plans.htm"> www.dell.com/us/en/gen/services/service_service_plans.htm</link>
+          </technote>
+        </technotes-->
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points title="@string(compatibility)">
+        <point>执行戴尔内存升级时将使用我们在原始戴尔系统中使用的相同部件。它们从一开始就能正常工作，并且我们保证它们会相互兼容。
+        </point>
+        <point>
+		戴尔内存使用行业领先的OEM级高品质部件制造。
+        </point>
+        <point>为了满足戴尔的高质量标准，我们只接受生产时一次通过的产品（仅当从戴尔购买时才可获得）。
+        </point>
+      </points>
+      <points title="@string(warranty)">
+        <point>
+          <stringlookup ref="warrantycontent2"/>
+        </point>
+        <point>
+		戴尔内存意味着您无需担忧系统的硬件保修会失效。
+        </point>
+      </points>
+      <points title="@string(technicalsupport)">
+        <point>
+		我们经验丰富的技术支持人员可随时解答与戴尔内存升级件相关的任何问题。
+        </point>
+        <point>
+		未经过戴尔认证的内存可能无法享受戴尔技术支持。
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="服务和支持">
+        <stringlookup ref="warrantytechspeccontent2"/>
+      </product:techspec>
+      <!-- <product:techspec id="2" name="技术">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec> -->
+      <product:techspec id="3" name="包装类型">
+        <textbox value="DDR3" id="3"/> SDRAM
+      </product:techspec>
+      <product:techspec id="4" name="数据完整性检查">
+        <dropdownlist id="ECC-memory"/>
+      </product:techspec>
+      <product:techspec id="5" name="存储容量">
+        <textbox value="4" id="1"/> <dropdownlist id="unit-byte-memory"/>
+      </product:techspec>
+      <product:techspec id="6" name="速度">
+        <textbox value="1600" id="7"/> <textbox value="MT/s" id="4"/>
+      </product:techspec>
+	  <product:techspec id="7" name="特性">
+		<dropdownlist id="rank-memory"/><textbox value="1.2" id="11"/> 电压, <dropdownlist id="features-memory"/><textbox value="240" id="10"/> 针
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
