@@ -92,7 +92,6 @@
 	<product:subclass id="427A" description="Memory Upgrades (Cascade Lake Only)" folder-name="427A"/>
 	<product:subclass id="427B" description="Memory Upgrades (Cascade Lake and AMD CPU Only)" folder-name="427B"/>
 	<product:subclass id="427E" description="Memory Upgrades (Not Compatible with Skylake CPU)" folder-name="427E"/>
-  <product:subclass id="427G" description="Memory Upgrades (Not Compatible with MT/s DIMMs)" folder-name="427G"/>
 	<product:subclass id="427F" description="Memory Upgrades XMP" folder-name="427F"/>
 	<product:subclass id="829" description="Memory Cards" folder-name="829"/>
   </product:category>
