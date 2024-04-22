@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adattatore CA Dell da <textbox value="130" refid="1"/>Watt con spina a <textbox value="3" refid="2"/> poli e cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/><textbox value=",UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adattatore CA Dell da <textbox value="130" refid="1"/>W con spina a <textbox value="3" refid="2"/> poli e cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/><textbox value=",UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
 	  Acquista un secondo adattatore CA per il tuo notebook in modo da non doverlo più trasportare avanti e indietro tra casa e ufficio. Lo potrai utilizzare anche in viaggio.
 	  </para>
 	  <para>
-	  L'adattatore CA da <textbox value="130" refid="1"/>Watt di Dell<tm/> è progettato appositamente per soddisfare i requisiti di alimentazione dei notebook Dell<tm/>. Dotato di <textbox value="130" refid="1"/>Watt di potenza, questo adattatore consente di utilizzare il sistema e caricare contemporaneamente la batteria da prese di alimentazione. Viene fornito con cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  L'adattatore CA da <textbox value="130" refid="1"/>W di Dell<tm/> è progettato appositamente per soddisfare i requisiti di alimentazione dei notebook Dell<tm/>. 
+	  Dotato di <textbox value="130" refid="1"/>W di potenza, questo adattatore consente di utilizzare il sistema e caricare contemporaneamente la batteria da prese di alimentazione. 
+	  Viene fornito con cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		<textbox value="130" refid="1"/> Watt di potenza per utilizzare e ricaricare il notebook 
+		<textbox value="130" refid="1"/>W di potenza per utilizzare e ricaricare il notebook 
         </point>
         <point>
 		Cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> incluso 
@@ -77,7 +79,7 @@
       Adattatore CA
       </product:techspec>
       <product:techspec id="3" name="Potenza fornita">
-	  <textbox value="130" id="1"/>Watt
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="4" name="Cavo incluso">
 	  Cavo di alimentazione da <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>

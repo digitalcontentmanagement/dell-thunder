@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="3" refid="2"/>poliger <textbox value="130" refid="1"/>-Watt-Netzadapter mit <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> langem Netzkabel<textbox value=",UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="3" refid="2"/>poliger <textbox value="130" refid="1"/>W Netzadapter mit <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> langem Netzkabel<textbox value=",UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,17 +17,19 @@
 	  Jetzt müssen Sie nicht mehr das Netzteil zwischen Büro und Zuhause hin- und hertragen. Statten Sie sich mit einem zweiten Netzadapter für Ihr Notebook aus, so haben Sie einen fürs Büro und einen für Zuhause oder unterwegs.
 	  </para>
 	  <para>
-	  Der <textbox value="130" refid="1"/>-Watt-Netzadapter von Dell<tm/> ist speziell auf die Erfüllung der Stromanforderungen Ihres Dell<tm/> Notebook ausgelegt. Über den leistungsstarken <textbox value="130" refid="1"/>-Watt-Netzadapter können Sie Ihr System zum Betrieb und zum gleichzeitigen Aufladen des Akkus an die Stromversorgung anschließen. Im Lieferumfang ist ein <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> langes Netzkabel enthalten.
+	  Der <textbox value="130" refid="1"/>W Netzadapter von Dell<tm/> ist speziell auf die Erfüllung der Stromanforderungen Ihres Dell<tm/> Notebook ausgelegt.
+	   Über den leistungsstarken <textbox value="130" refid="1"/>W Netzadapter können Sie Ihr System zum Betrieb und zum gleichzeitigen Aufladen des Akkus an die Stromversorgung anschließen. 
+	   Im Lieferumfang ist ein <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> langes Netzkabel enthalten.
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		<textbox value="130" refid="1"/> Watt zum gleichzeitigen Betreiben und Aufladen Ihres Notebooks 
+		<textbox value="130" refid="1"/>W zum gleichzeitigen Betreiben und Aufladen Ihres Notebooks
 		</point>
         <point>
-		Im Lieferumfang ist ein <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> langes Netzkabel enthalten. 
+		Im Lieferumfang ist ein <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> langes Netzkabel enthalten
         </point>
         <point>
         Mit Gummiriemen für ein einfaches Kabelmanagement und LED-Leuchtring auf dem Gleichstromanschluss
@@ -77,7 +79,7 @@
       Netzadapter
       </product:techspec>
       <product:techspec id="3" name="Stromversorgung">
-	  <textbox value="130" id="1"/>Watt
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="4" name="Kabel im Lieferumfang enthalten">
       <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> langes Netzkabel

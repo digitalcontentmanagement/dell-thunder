@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔<textbox value="130" refid="1"/>瓦 <textbox value="3" refid="2"/>插脚交流电源适配器，随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 电源线<textbox value=",UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔<textbox value="130" refid="1"/>W <textbox value="3" refid="2"/>插脚交流电源适配器，随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 电源线<textbox value=",UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
 	  别再随身携带您的交流电源适配器，在家和办公室之间来回奔波了。 为您的笔记本电脑配备第二个交流电源适配器，一个留在办公室，一个放在家中或在路途中使用。
 	  </para>
 	  <para>
-	  这款Dell<tm/> <textbox value="130" refid="1"/>瓦交流电源适配器专为满足您的Dell<tm/>笔记本电脑的电源需求而设计。 这款适配器输出功率为<textbox value="130" refid="1"/>瓦，让您可以在操作系统的同时，通过电源插座为电池充电。 该适配器随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>电源线。
+	  这款Dell<tm/> <textbox value="130" refid="1"/>W 交流电源适配器专为满足您的Dell<tm/>笔记本电脑的电源需求而设计。 
+	  这款适配器输出功率为<textbox value="130" refid="1"/>W，让您可以在操作系统的同时，通过电源插座为电池充电。
+	  该适配器随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>电源线。
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		输出功率可达<textbox value="130" refid="1"/>瓦，足以为笔记本电脑供电或为电池充电 
+		输出功率可达<textbox value="130" refid="1"/>W，足以为笔记本电脑供电或为电池充电 
         </point>
         <point>
 		随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>电源线 
@@ -78,7 +80,7 @@
       交流电源适配器
       </product:techspec>
       <product:techspec id="3" name="提供的电力">
-	  <textbox value="130" id="1"/>瓦
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="4" name="随附电缆">
       <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>电源线

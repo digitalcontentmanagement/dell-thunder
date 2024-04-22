@@ -17,14 +17,16 @@
 	  Nå trenger du ikke lenger å dra strømadapteren frem og tilbake mellom kontoret og hjemmet. Du kan skaffe en ekstra strømadapter til den bærbare PC-en og ha en hjemme eller på reise.
 	  </para>
 	  <para>
-	  <textbox value="130" refid="1"/>W AC-adapteren fra Dell<tm/> er spesielt utformet for å dekke strømbehovet til din Dell<tm/> bærbare PC. Med denne adapteren på <textbox value="130" refid="1"/>W kan du bruke datamaskinen og samtidig lade batteriet fra en stikkontakt. Den leveres med en <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning.
+	  <textbox value="130" refid="1"/>W AC-adapteren fra Dell<tm/> er spesielt utformet for å dekke strømbehovet til din Dell<tm/> bærbare PC. 
+	  Med denne adapteren på <textbox value="130" refid="1"/>W kan du bruke datamaskinen og samtidig lade batteriet fra en stikkontakt. 
+	  Den leveres med en <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning.
       </para>
 	</product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		Har <textbox value="130" refid="1"/> W nok til å drive og lade en bærbar PC 
+		Har <textbox value="130" refid="1"/>W nok til å drive og lade en bærbar PC 
         </point>
         <point>
 		Den leveres med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning 

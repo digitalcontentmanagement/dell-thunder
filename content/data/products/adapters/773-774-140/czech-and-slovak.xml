@@ -17,7 +17,9 @@
 	  Napájecí adaptér už nemusíte přenášet mezi domovem a kanceláří. Pořiďte si k notebooku druhý adaptér, jeden nechávejte v kanceláři a s druhým pracujte doma nebo na cestách.
 	  </para>
 	  <para>
-	  Tento <textbox value="130" refid="1"/>W napájecí adaptér značky Dell<tm/> je konstruován tak, aby vyhovoval potřebám vašeho notebooku Dell<tm/>. Tento adaptér, poskytující příkon <textbox value="130" refid="1"/>W, umožňuje práci s počítačem a současné nabíjení baterie z elektrické sítě. Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  Tento <textbox value="130" refid="1"/>W napájecí adaptér značky Dell<tm/> je konstruován tak, aby vyhovoval potřebám vašeho notebooku Dell<tm/>. 
+	  Tento adaptér, poskytující příkon <textbox value="130" refid="1"/>W, umožňuje práci s počítačem a současné nabíjení baterie z elektrické sítě. 
+	  Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -27,7 +29,7 @@
 		Nabízí napájení <textbox value="130" refid="1"/>W, postačující k tomu, abyste mohli současně pracovat a nabíjet notebook 
         </point>
         <point>
-		Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>. 
+		Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
         </point>
         <point>
 		Má pryžový pásek pro snadnou správu kabelů a prstencovou kontrolku na stejnosměrném konektoru
