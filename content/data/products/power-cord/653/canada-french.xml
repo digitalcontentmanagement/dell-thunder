@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cordon d’alimentation de remplacement Dell <textbox value="125" id="1"/> V, de <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> pour <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="United States" id="30"/>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cordon d’alimentation de remplacement Dell <textbox value="125" id="1"/>V, de <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> pour <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="North America" id="30"/>
     </product:name>
       
     <product:longdesc>
       <para>
-	     Alimentez vos systèmes Dell<tm/> à l’aide de ce câble d’alimentation <textbox value="125" refid="1"/> V de Dell. Il est conçu pour fournir le courant électrique à vos équipements. Ce câble d’alimentation fournit une tension d’entrée de <textbox value="125" refid="1"/> V et il est d’une longueur de <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
+	     Alimentez vos systèmes Dell<tm/> à l’aide de ce câble d’alimentation <textbox value="125" refid="1"/>V de Dell. Il est conçu pour fournir le courant électrique à vos équipements. Ce câble d’alimentation fournit une tension d’entrée de <textbox value="125" refid="1"/>V et il est d’une longueur de <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Conçu pour fournir le courant électrique à vos équipements 
 		</point>
 		<point>
-		Fournit une tension d’entrée de <textbox value="125" refid="1"/> V
+		Fournit une tension d’entrée de <textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		Longueur de  <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
@@ -46,7 +46,7 @@
 		Câble d’alimentation
       </product:techspec>
       <product:techspec id="2" name="Caractéristiques">
-		Puissance de <textbox value="125" refid="1"/> V, non-blindé
+		Puissance de <textbox value="125" refid="1"/>V, non-blindé
       </product:techspec>
       <product:techspec id="3" name="Longueur">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cabo de alimentação de <textbox value="125" id="1"/> V (<textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> ) para <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> de substituição da Dell - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cabo de alimentação de <textbox value="125" id="1"/>V (<textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> ) para <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> de substituição da Dell - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  Alimente seus sistemas Dell<tm/> com o cabo de alimentação de   <textbox value="125" refid="1"/> V da Dell. Projetado para fornecer conectividade elétrica para seu equipamento. Esse cabo de alimentação fornece uma tensão de entrada de <textbox value="125" refid="1"/> V e tem <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de comprimento.
+	  Alimente seus sistemas Dell<tm/> com o cabo de alimentação de <textbox value="125" refid="1"/>V da Dell. Projetado para fornecer conectividade elétrica para seu equipamento. Esse cabo de alimentação fornece uma tensão de entrada de <textbox value="125" refid="1"/>V e tem <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de comprimento.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Projetado para fornecer conectividade elétrica para seu equipamento  
 		</point>
 		<point>
-		Fornece tensão de entrada de  <textbox value="125" refid="1"/> V
+		Fornece tensão de entrada de  <textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		Tem <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de comprimento
@@ -46,7 +46,7 @@
 		Cabo de alimentação
       </product:techspec>
       <product:techspec id="2" name="Recursos">
-		Classificação de <textbox value="125" refid="1"/> V/não blindado 
+		Classificação de <textbox value="125" refid="1"/>V/não blindado 
       </product:techspec>
       <product:techspec id="3" name="Comprimento">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

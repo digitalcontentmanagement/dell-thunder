@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Náhradní napájecí kabel k <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> Dell, <textbox value="125" id="1"/> V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> - <textbox value="United States" id="30"/>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Náhradní napájecí kabel k <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> Dell, <textbox value="125" id="1"/>V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> - <textbox value="North America" id="30"/>
     </product:name>
 
     <product:longdesc>
       <para>
-	  Zařízení Dell<tm/> můžete napájet <textbox value="125" refid="1"/> V napájecím kabelem značky Dell. Je navržen pro připojení zařízení k elektrické síti. Tento napájecí kabel má vstupní napětí <textbox value="125" refid="1"/> V a je dlouhý <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
+	  Zařízení Dell<tm/> můžete napájet <textbox value="125" refid="1"/>V napájecím kabelem značky Dell. Je navržen pro připojení zařízení k elektrické síti. Tento napájecí kabel má vstupní napětí <textbox value="125" refid="1"/>V a je dlouhý <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Je navržen pro připojení zařízení k elektrické síti. 
 		</point>
 		<point>
-		Poskytuje vstupní napětí <textbox value="125" refid="1"/> V
+		Poskytuje vstupní napětí <textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		Délka činí  <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
@@ -46,7 +46,7 @@
 		Napájecí kabel
       </product:techspec>
       <product:techspec id="2" name="Vlastnosti">
-		Jmenovitá hodnota <textbox value="125" refid="1"/> V / nestíněný 
+		Jmenovitá hodnota <textbox value="125" refid="1"/>V / nestíněný 
       </product:techspec>
       <product:techspec id="3" name="Délka">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
