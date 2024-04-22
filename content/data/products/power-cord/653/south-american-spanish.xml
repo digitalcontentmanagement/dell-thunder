@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cable de alimentación de repuesto para <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> Dell de <textbox value="125" id="1"/> V, y <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cable de alimentación de repuesto para <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> Dell de <textbox value="125" id="1"/>V, y <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  Alimente sus sistemas Dell<tm/> con el <textbox value="125" refid="1"/> V cable de alimentación de Dell. Está diseñado para brindarle conectividad eléctrica a su equipo. Este cable de alimentación proporciona un voltaje de entrada de <textbox value="125" refid="1"/> V y mide <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de largo.
+	  Alimente sus sistemas Dell<tm/> con el <textbox value="125" refid="1"/>V cable de alimentación de Dell. Está diseñado para brindarle conectividad eléctrica a su equipo. Este cable de alimentación proporciona un voltaje de entrada de <textbox value="125" refid="1"/>V y mide <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de largo.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Está diseñado para brindarle conectividad eléctrica a su equipo. 
 		</point>
 		<point>
-		Ofrece un voltaje de entrada de <textbox value="125" refid="1"/> V
+		Ofrece un voltaje de entrada de <textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		Mide <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de largo
@@ -46,7 +46,7 @@
 		Cable de alimentación
       </product:techspec>
       <product:techspec id="2" name="Características">
-		<textbox value="125" refid="1"/> V Calificación/Sin protección
+		<textbox value="125" refid="1"/>V Calificación/Sin protección
       </product:techspec>
       <product:techspec id="3" name="Extensión">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

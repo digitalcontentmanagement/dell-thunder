@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cable de alimentación Dell de <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> para CA de <textbox value="125" id="1"/> V, y de reemplazo para <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Cable de alimentación Dell de <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> para CA de <textbox value="125" id="1"/>V, y de reemplazo para <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  Potencie sus sistemas Dell<tm/> con el cable de alimentación de <textbox value="125" refid="1"/> V de Dell. Está diseñado para proporcionar conectividad eléctrica a su equipo. Este cable de alimentación proporciona una tensión de entrada de <textbox value="125" refid="1"/> V y posee una longitud de <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
+	  Potencie sus sistemas Dell<tm/> con el cable de alimentación de <textbox value="125" refid="1"/>V de Dell. Está diseñado para proporcionar conectividad eléctrica a su equipo. Este cable de alimentación proporciona una tensión de entrada de <textbox value="125" refid="1"/>V y posee una longitud de <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Diseñado para proporcionar conectividad eléctrica a su equipo 
 		</point>
 		<point>
-		Ofrece una tensión de entrada de <textbox value="125" refid="1"/> V
+		Ofrece una tensión de entrada de <textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> de longitud
@@ -46,7 +46,7 @@
 		Cable de alimentación
       </product:techspec>
       <product:techspec id="2" name="Características">
-		Tensión nominal de <textbox value="125" refid="1"/> V / no apantallado
+		Tensión nominal de <textbox value="125" refid="1"/>V / no apantallado
       </product:techspec>
       <product:techspec id="3" name="Longitud">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

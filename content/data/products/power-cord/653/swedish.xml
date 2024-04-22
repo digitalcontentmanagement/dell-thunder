@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/> V – <textbox value="6" refid="2"/> <dropdownlist id="meter-feet-unit"/> lång nätsladd för <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/>V – <textbox value="6" refid="2"/> <dropdownlist id="meter-feet-unit"/> lång nätsladd för <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  Använd din Dell<tm/>-dator med <textbox value="125" refid="1"/> V-nätsladden från Dell. Sladden ansluter din utrustning till en strömkälla. Med den här nätsladden får du inspänning på <textbox value="125" refid="1"/> V. Den är <textbox value="6" refid="2"/><dropdownlist refid="meter-feet-unit"/> lång.
+	  Använd din Dell<tm/>-dator med <textbox value="125" refid="1"/>V-nätsladden från Dell. Sladden ansluter din utrustning till en strömkälla. Med den här nätsladden får du inspänning på <textbox value="125" refid="1"/>V. Den är <textbox value="6" refid="2"/><dropdownlist refid="meter-feet-unit"/> lång.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Ansluter din utrustning till en strömkälla.  
 		</point>
 		<point>
-		Ger en inspänning på <textbox value="125" refid="1"/> V
+		Ger en inspänning på <textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> lång
@@ -46,7 +46,7 @@
 		Nätsladd
       </product:techspec>
       <product:techspec id="2" name="Nyheter">
-		<textbox value="125" refid="1"/> V-klassificering/oskärmad
+		<textbox value="125" refid="1"/>V-klassificering/oskärmad
       </product:techspec>
       <product:techspec id="3" name="Längd">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

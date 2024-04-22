@@ -2,19 +2,19 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Power Cables / Cords  </meta:title>
-    <meta:date value="2015-11-2" />
+    <meta:date value="2024-4-22" />
     <meta:creator value="Johnny"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/> V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> langes Ersatznetzkabel für <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/>V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> langes Ersatznetzkabel für <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  Nutzen Sie Ihre Dell<tm/> Systeme mit einem <textbox value="125" refid="1"/> V Netzkabel von Dell. Dieses Netzkabel wurde entwickelt, um die Stromversorgung für Ihre Geräte sicherzustellen. Es ist für eine Eingangsspannung von <textbox value="125" refid="1"/> V ausgelegt und hat eine Länge von <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
+	  Nutzen Sie Ihre Dell<tm/> Systeme mit einem <textbox value="125" refid="1"/>V Netzkabel von Dell. Dieses Netzkabel wurde entwickelt, um die Stromversorgung für Ihre Geräte sicherzustellen. Es ist für eine Eingangsspannung von <textbox value="125" refid="1"/>V ausgelegt und hat eine Länge von <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Für die Stromversorgung Ihrer Geräte entwickelt 
 		</point>
 		<point>
-		Für eine Eingangsspannung von <textbox value="125" refid="1"/> V ausgelegt
+		Für eine Eingangsspannung von <textbox value="125" refid="1"/>V ausgelegt
 		</point>
 		<point>
 		<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> lang

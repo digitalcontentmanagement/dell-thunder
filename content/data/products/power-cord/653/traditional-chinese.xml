@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/> V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/>更換<dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> 電源線  - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/>V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/>更換 <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> 電源線  - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  使用戴爾原廠 <textbox value="125" refid="1"/>伏特電源線為戴爾系統提供所需電力。 此電源線專為您設備所需的電力而設計。 此電源線提供的輸入電壓為<textbox value="125" refid="1"/> V 且測量的長度為<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>。
+	  使用戴爾原廠 <textbox value="125" refid="1"/>V 特電源線為戴爾系統提供所需電力。 此電源線專為您設備所需的電力而設計。 此電源線提供的輸入電壓為<textbox value="125" refid="1"/>V 且測量的長度為<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>。
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		專為您設備所需的電力而設計 
 		</point>
 		<point>
-		提供的輸入電壓為<textbox value="125" refid="1"/> V
+		提供的輸入電壓為<textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		測量的長度為<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
@@ -46,7 +46,7 @@
 		電源線
       </product:techspec>
       <product:techspec id="2" name="特色">
-		<textbox value="125" refid="1"/> V 等級 / 非屏蔽
+		<textbox value="125" refid="1"/>V 等級 / 非屏蔽
       </product:techspec>
       <product:techspec id="3" name="長度">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

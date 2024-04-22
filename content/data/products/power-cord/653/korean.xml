@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/> V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> 교체용 <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> 전원 코드 - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/>V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> 교체용 <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> 전원 코드 - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  Dell <textbox value="125" refid="1"/> V 전원 코드를 사용하여 Dell<tm/> 시스템에 전원을 공급하세요. 보유하고 있는 Dell 장치에 전원을 공급하도록 설계된 이 전원 코드의 입력 전원은 <textbox value="125" refid="1"/>V 이며 길이는 <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> 입니다.
+	  Dell <textbox value="125" refid="1"/>V 전원 코드를 사용하여 Dell<tm/> 시스템에 전원을 공급하세요. 보유하고 있는 Dell 장치에 전원을 공급하도록 설계된 이 전원 코드의 입력 전원은 <textbox value="125" refid="1"/>V 이며 길이는 <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> 입니다.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		보유하고 있는 Dell 장치에 전원을 공급하도록 설계 
 		</point>
 		<point>
-		<textbox value="125" refid="1"/> V 입력 전압 제공
+		<textbox value="125" refid="1"/>V 입력 전압 제공
 		</point>
 		<point>
 		<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> 길이
@@ -46,7 +46,7 @@
 		전원 코드
       </product:techspec>
       <product:techspec id="2" name="기능">
-		<textbox value="125" refid="1"/> V 등급/비차폐
+		<textbox value="125" refid="1"/>V 등급/비차폐
       </product:techspec>
       <product:techspec id="3" name="길이">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

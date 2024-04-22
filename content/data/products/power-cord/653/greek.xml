@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Καλώδιο τροφοδοσίας <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> αντικατάστασης <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> <textbox value="125" id="1"/> V Dell - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Καλώδιο τροφοδοσίας <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> αντικατάστασης <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> <textbox value="125" id="1"/>V Dell - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  Τροφοδοτήστε τα συστήματά σας Dell<tm/> με το καλώδιο τροφοδοσίας <textbox value="125" refid="1"/> V της Dell. Είναι σχεδιασμένο για να παρέχει ηλεκτρική συνδεσιμότητα στον εξοπλισμό σας. Αυτό το καλώδιο τροφοδοσίας παρέχει τάση εισόδου της τάξης των <textbox value="125" refid="1"/> V και έχει μήκος <textbox value="6" id="2"/> <dropdownlist refid="meter-feet-unit"/>.
+	  Τροφοδοτήστε τα συστήματά σας Dell<tm/> με το καλώδιο τροφοδοσίας <textbox value="125" refid="1"/>V της Dell. Είναι σχεδιασμένο για να παρέχει ηλεκτρική συνδεσιμότητα στον εξοπλισμό σας. Αυτό το καλώδιο τροφοδοσίας παρέχει τάση εισόδου της τάξης των <textbox value="125" refid="1"/>V και έχει μήκος <textbox value="6" id="2"/> <dropdownlist refid="meter-feet-unit"/>.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Είναι σχεδιασμένο για να παρέχει ηλεκτρική συνδεσιμότητα στον εξοπλισμό σας. 
 		</point>
 		<point>
-		Παρέχει μια τάση εισόδου  <textbox value="125" refid="1"/> V
+		Παρέχει μια τάση εισόδου  <textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		Έχει μήκος  <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
@@ -46,7 +46,7 @@
 		Καλώδιο τροφοδοσίας
       </product:techspec>
       <product:techspec id="2" name="Χαρακτηριστικά">
-		<textbox value="125" refid="1"/> V Αξιολόγηση/Χωρίς μόνωση
+		<textbox value="125" refid="1"/>V Αξιολόγηση/Χωρίς μόνωση
       </product:techspec>
       <product:techspec id="3" name="Length">
         Έχει μήκος <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

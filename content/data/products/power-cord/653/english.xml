@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/> V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> Replacement <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> Power Cord - <textbox value="United States" id="30"/>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="125" id="1"/>V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> Replacement <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> Power Cord - <textbox value="North America" id="30"/>
     </product:name>
 
     <product:longdesc>
       <para>
-	  Power your Dell<tm/> systems with the  <textbox value="125" refid="1"/> V Power Cord from Dell. It is designed to provide electrical connectivity to your equipment. This power cord provides an input voltage of <textbox value="125" refid="1"/> V and measures <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> in length.
+	  Power your Dell<tm/> systems with the  <textbox value="125" refid="1"/> V Power Cord from Dell. It is designed to provide electrical connectivity to your equipment. This power cord provides an input voltage of <textbox value="125" refid="1"/>V and measures <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> in length.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		Designed to provide electrical connectivity to your equipment 
 		</point>
 		<point>
-		Provides an input voltage of <textbox value="125" refid="1"/> V
+		Provides an input voltage of <textbox value="125" refid="1"/>V
 		</point>
 		<point>
 		Measures <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> in length
@@ -46,7 +46,7 @@
 		Power Cord
       </product:techspec>
       <product:techspec id="2" name="Features">
-		<textbox value="125" refid="1"/> V Rating / Unshielded
+		<textbox value="125" refid="1"/>V Rating / Unshielded
       </product:techspec>
       <product:techspec id="3" name="Length">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>

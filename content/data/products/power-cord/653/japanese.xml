@@ -9,12 +9,12 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの <textbox value="125" id="1"/> V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> メートル交換用 <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> 電源コード - <textbox value="United States" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの <textbox value="125" id="1"/>V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> メートル交換用 <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> 電源コード - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
       <para>
-	  デル<tm/>製システムを稼動させるには、デルの電源コード<textbox value="125" refid="1"/> V をお使いください。 お使いの機器に電気接続できるように設計されています。 この電源コードの入力電圧は<textbox value="125" refid="1"/> V、長さは<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>です。
+	  デル<tm/>製システムを稼動させるには、デルの電源コード<textbox value="125" refid="1"/>V をお使いください。 お使いの機器に電気接続できるように設計されています。 この電源コードの入力電圧は<textbox value="125" refid="1"/>V、長さは<textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>です。
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
@@ -31,7 +31,7 @@
 		お使いの機器に電気接続できるように設計されています。  
 		</point>
 		<point>
-		入力電圧は <textbox value="125" refid="1"/> V です。
+		入力電圧は <textbox value="125" refid="1"/>V です。
 		</point>
 		<point>
 		長さは <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>です。
@@ -46,7 +46,7 @@
 		電源コード
       </product:techspec>
       <product:techspec id="2" name="機能">
-		<textbox value="125" refid="1"/> V 定格 / 非シールド
+		<textbox value="125" refid="1"/>V 定格 / 非シールド
       </product:techspec>
       <product:techspec id="3" name="長さ">
         <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/>
