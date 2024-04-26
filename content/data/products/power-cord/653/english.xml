@@ -14,7 +14,7 @@
 
     <product:longdesc>
       <para>
-	  Power your Dell<tm/> systems with the  <textbox value="125" refid="1"/> V Power Cord from Dell. It is designed to provide electrical connectivity to your equipment. This power cord provides an input voltage of <textbox value="125" refid="1"/>V and measures <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> in length.
+	  Power your Dell<tm/> systems with the  <textbox value="125" refid="1"/>V Power Cord from Dell. It is designed to provide electrical connectivity to your equipment. This power cord provides an input voltage of <textbox value="125" refid="1"/>V and measures <textbox value="6" refid="2"/> <dropdownlist refid="meter-feet-unit"/> in length.
 	  </para>
 	  <para>
 		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
