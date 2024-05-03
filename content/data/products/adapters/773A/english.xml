@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter</meta:title>
-    <meta:date value="2015-08-31" />
+    <meta:date value="2024-5-2" />
     <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" /> 
   </generic:properties>
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7.4" id="9"/> <textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/> W AC Adapter with <textbox value="6" refid="3"/> <dropdownlist refid="meter-feet-unit"/> Power Cord <textbox value="- UK" id="8"/>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7.4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W AC Adapter with <textbox value="6" refid="3"/> <dropdownlist refid="meter-feet-unit"/> Power Cord <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
         Stop lugging your AC adapter back and forth between home and office. Get a second AC adapter for your notebook and keep one in the office and one for home or travel.
       </para>
       <para>
-        The <textbox value="130" refid="1"/> W AC Adapter from Dell<tm/> is specially designed to meet the power needs of your Dell<tm/> laptop. Packed with of <textbox value="130" refid="1"/> W power, this adapter enables you to simultaneously operate your system and charge its battery from electrical power outlets. It comes bundled with <textbox value="6" refid="3"/> <dropdownlist refid="meter-feet-unit"/> power cord.
+        The <textbox value="130" refid="1"/>W AC Adapter from Dell<tm/> is specially designed to meet the power needs of your Dell<tm/> laptop. 
+        Packed with of <textbox value="130" refid="1"/>W power, this adapter enables you to simultaneously operate your system and charge its battery from electrical power outlets. 
+        It comes bundled with <textbox value="6" refid="3"/> <dropdownlist refid="meter-feet-unit"/> power cord.
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-          Offers <textbox value="130" refid="1"/> W enough to power and charge your laptop
+          Offers <textbox value="130" refid="1"/>W enough to power and charge your laptop
         </point>
         <point>
           Comes bundled with <textbox value="6" refid="3"/> <dropdownlist refid="meter-feet-unit"/> power cord
@@ -82,7 +84,7 @@
         AC Adapter
       </product:techspec>
       <product:techspec id="3" name="Power Provided">
-        <textbox value="130" id="1"/> W
+        <textbox value="130" id="1"/>W
       </product:techspec>
       <product:techspec id="4" name="Cable Included">
         <textbox value="6" id="3"/> <dropdownlist id="meter-feet-unit"/> Power Cord

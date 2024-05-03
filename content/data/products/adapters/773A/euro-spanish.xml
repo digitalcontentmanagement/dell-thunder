@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter</meta:title>
-    <meta:date value="2015-09-28" />
+    <meta:date value="2024-5-2" />
     <meta:creator value="Dzulhimi"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="barrel-type"/> <textbox value="7,4" id="9"/> <textbox value="mm" id="12"/> Adaptador de CA de <textbox value="130" refid="1"/>vatios con cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="barrel-type"/> <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> Adaptador de CA de <textbox value="130" refid="1"/>W con cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
 	  Deje de llevar a cuestas el adaptador de CA en las idas y vueltas de casa al trabajo. Obtenga un segundo adaptador de CA para su portátil, así podrá dejar uno en la oficina y usar el otro en su casa o en los viajes.
 	  </para>
 	  <para>
-	  El adaptador de CA de <textbox value="130" refid="1"/>vatios de Dell<tm/> está diseñado especialmente para satisfacer las necesidades de alimentación de su portátil Dell<tm/>. Gracias a sus <textbox value="130" refid="1"/>vatios de potencia, este adaptador permite usar el sistema y cargar su batería de forma simultánea usando tomas de corriente. Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  El adaptador de CA de <textbox value="130" refid="1"/>W de Dell<tm/> está diseñado especialmente para satisfacer las necesidades de alimentación de su portátil Dell<tm/>.
+	   Gracias a sus <textbox value="130" refid="1"/>W de potencia, este adaptador permite usar el sistema y cargar su batería de forma simultánea usando tomas de corriente. 
+	   Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		Proporciona una potencia de <textbox value="130" refid="1"/>vatios, suficiente para la alimentación y la carga de su portátil. 
+		Proporciona una potencia de <textbox value="130" refid="1"/>W, suficiente para la alimentación y la carga de su portátil. 
         </point>
         <point>
 		Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>. 
@@ -78,7 +80,7 @@
       Adaptador de CA
       </product:techspec>
       <product:techspec id="3" name="Alimentación suministrada">
-	  <textbox value="130" id="1"/>vatios
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="4" name="Cable incluido">
 	  Cable de alimentación de <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>

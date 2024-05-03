@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="7,4" id="9"/> <textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W napájecí adaptér Dell s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W napájecí adaptér Dell s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>

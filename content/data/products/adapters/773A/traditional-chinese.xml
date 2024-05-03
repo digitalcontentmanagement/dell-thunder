@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter</meta:title>
-    <meta:date value="2015-09-29" />
+    <meta:date value="2025-5-2" />
     <meta:creator value="Dzulhimi"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/> <textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>瓦 交流整流器，附 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源線 <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W 交流整流器，附 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源線 <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
 	  不必帶著交流整流器在家與辦公室之間來回奔波。 為筆記型電腦準備第 2 個交流整流器，一個放在辦公室，另一個供居家或旅行使用。
 	  </para>
 	  <para>
-	  這款 Dell<tm/> <textbox value="130" refid="1"/>瓦交流整流器是專為 Dell<tm/> 筆記型電腦的電源需求而設計的。 這款整流器可提供 <textbox value="130" refid="1"/>瓦電力，只要插上電源插座，就能一面操作系統，一面為電池充電。 內附 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源線。
+	  這款 Dell<tm/> <textbox value="130" refid="1"/>W 交流整流器是專為 Dell<tm/> 筆記型電腦的電源需求而設計的。 
+	  這款整流器可提供 <textbox value="130" refid="1"/>W 電力，只要插上電源插座，就能一面操作系統，一面為電池充電。
+	   內附 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源線。
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		提供 <textbox value="130" refid="1"/>瓦電力，足以同時為筆記型電腦供電並充電 
+		提供 <textbox value="130" refid="1"/>W 電力，足以同時為筆記型電腦供電並充電 
         </point>
         <point>
 		內附 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源線 
@@ -77,7 +79,7 @@
       交流整流器
       </product:techspec>
       <product:techspec id="3" name="供電量">
-	  <textbox value="130" id="1"/>瓦
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="4" name="隨附纜線">
       <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> 電源線

@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter</meta:title>
-    <meta:date value="2015-09-29" />
+    <meta:date value="2024-5-2" />
     <meta:creator value="Dzulhimi"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/> <textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> nätadapter på <textbox value="130" refid="1"/>W och <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> nätadapter på <textbox value="130" refid="1"/>W och <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,20 +17,22 @@
 	  Nu slipper du släpa runt på nätadaptern till och från arbetet. Skaffa dig en extra nätadapter till din bärbara dator så att du kan ha en på kontoret och en hemma eller när du är på resande fot.
 	  </para>
 	  <para>
-	  Nätadaptern från Dell<tm/> på <textbox value="130" refid="1"/>W är specialutformad för att uppfylla prestandabehoven på din bärbara Dell<tm/>-dator. Med den här nätadaptern på <textbox value="130" refid="1"/>W kan du använda datorn samtidigt som du laddar batteriet från ett eluttag. Den levereras med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd.
+	  Nätadaptern från Dell<tm/> på <textbox value="130" refid="1"/>W är specialutformad för att uppfylla prestandabehoven på din bärbara Dell<tm/>-dator. 
+	  Med den här nätadaptern på <textbox value="130" refid="1"/>W kan du använda datorn samtidigt som du laddar batteriet från ett eluttag. 
+	  Den levereras med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd.
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		Ger <textbox value="130" refid="1"/>W, vilket räcker till att köra datorn och ladda batteriet samtidigt. 
+		Ger <textbox value="130" refid="1"/>W, vilket räcker till att köra datorn och ladda batteriet samtidigt
         </point>
         <point>
 		Levereras med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd 
         </point>
         <point>
-        Ett gummiband medföljer så att du lätt kan hålla reda på sladden och det finns även en lysdiodsring på likströmskontakten.
+        Ett gummiband medföljer så att du lätt kan hålla reda på sladden och det finns även en lysdiodsring på likströmskontakten
         </point>
       </points>
 	  <points title="@string(compatibility)">

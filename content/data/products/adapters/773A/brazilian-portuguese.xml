@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-    <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/> <textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> conector <textbox value="130" refid="1"/>W adaptador CA com <textbox value="6" refid="3"/><dropdownlist id="meter-feet-unit"/> cabo de alimentação <textbox value="- UK" id="8"/>
+    <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> conector <textbox value="130" refid="1"/>W adaptador CA com <textbox value="6" refid="3"/><dropdownlist id="meter-feet-unit"/> cabo de alimentação <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,7 +17,9 @@
 	  Pare de carregar o seu Carregador de casa para o trabalho. Obtenha um segundo adaptador CA para seu notebook e mantenha um no escritório e um em casa ou para viagens.
 	  </para>
 	  <para>
-	  O Carregador de <textbox value="130" refid="1"/>W da Dell<tm/> foi especialmente criado para atender às necessidades de alimentação de seu notebook Dell<tm/>. Com esse adaptador de <textbox value="130" refid="1"/>W, você pode, simultaneamente, manter seu sistema funcionando e recarregar a bateria usando tomadas. Ele vem acompanhado de um cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist id="meter-feet-unit"/>.
+	  O Carregador de <textbox value="130" refid="1"/>W da Dell<tm/> foi especialmente criado para atender às necessidades de alimentação de seu notebook Dell<tm/>. 
+	  Com esse adaptador de <textbox value="130" refid="1"/>W, você pode, simultaneamente, manter seu sistema funcionando e recarregar a bateria usando tomadas. 
+	  Ele vem acompanhado de um cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist id="meter-feet-unit"/>.
 	  </para>
 	</product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->

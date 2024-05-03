@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin <textbox value="7,4" id="9"/> <textbox value="mm:n" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>wattia verkkolaite ja <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> virtajohto <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin <textbox value="7,4" id="9"/><textbox value="mm:n" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W verkkolaite ja <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> virtajohto <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
 	  Älä kuljeta verkkomuuntajaa kodin ja toimiston välillä. Hanki kannettavaan tietokoneeseen toinen verkkolaite ja pidä toinen verkkolaite toimistolla ja toinen kotona ja matkoilla.
 	  </para>
 	  <para>
-	  <textbox value="130" refid="1"/>wattia Dell<tm/>-verkkolaite on suunniteltu kannettavan Dell<tm/> -tietokoneen virransyöttötarpeisiin. Verkkolaite tarjoaa tehoa <textbox value="130" refid="1"/>wattia, jonka avulla voit samanaikaisesti käyttää järjestelmää ja ladata sen akkua sähköpistorasiasta. Sen mukana toimitetaan <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>-virtajohto.
+	  <textbox value="130" refid="1"/>W Dell<tm/>-verkkolaite on suunniteltu kannettavan Dell<tm/> -tietokoneen virransyöttötarpeisiin. 
+	  Verkkolaite tarjoaa tehoa <textbox value="130" refid="1"/>W, jonka avulla voit samanaikaisesti käyttää järjestelmää ja ladata sen akkua sähköpistorasiasta. 
+	  Sen mukana toimitetaan <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>-virtajohto.
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		Tehoa <textbox value="130" refid="1"/>wattia, riittävästi kannettavan tietokoneen käyttämiseen ja lataamiseen 
+		Tehoa <textbox value="130" refid="1"/>W riittävästi kannettavan tietokoneen käyttämiseen ja lataamiseen 
         </point>
         <point>
 		Mukana toimitetaan <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>-virtajohto 
@@ -78,7 +80,7 @@
       Verkkolaite
       </product:techspec>
       <product:techspec id="3" name="Teho">
-	  <textbox value="130" id="1"/>wattia
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="4" name="Kaapeli sisältyy toimitukseen">
 	  <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>-Virtajohto

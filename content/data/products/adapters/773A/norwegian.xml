@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter</meta:title>
-    <meta:date value="2015-08-31" />
+    <meta:date value="2024-5-2" />
     <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/> <textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W strømadapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W strømadapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,7 +17,9 @@
 	  Nå trenger du ikke lenger å dra strømadapteren frem og tilbake mellom kontoret og hjemmet. Du kan skaffe en ekstra strømadapter til den bærbare PC-en og ha en hjemme eller på reise.
 	  </para>
 	  <para>
-	  <textbox value="130" refid="1"/>W AC-adapteren fra Dell<tm/> er spesielt utformet for å dekke strømbehovet til din Dell<tm/> bærbare PC. Med denne adapteren på <textbox value="130" refid="1"/>W kan du bruke datamaskinen og samtidig lade batteriet fra en stikkontakt. Den leveres med en <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning.
+	  <textbox value="130" refid="1"/>W AC-adapteren fra Dell<tm/> er spesielt utformet for å dekke strømbehovet til din Dell<tm/> bærbare PC. 
+	  Med denne adapteren på <textbox value="130" refid="1"/>W kan du bruke datamaskinen og samtidig lade batteriet fra en stikkontakt. 
+	  Den leveres med en <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning.
       </para>
 	</product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
