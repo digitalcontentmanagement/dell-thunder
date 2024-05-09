@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell nätadapter på <textbox value="130" refid="1"/> watt med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd - <textbox value="UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell nätadapter på <textbox value="130" refid="1"/>W med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd - <textbox value="UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,7 +17,8 @@
 	  Nu slipper du släpa runt på nätadaptern till och från arbetet. Skaffa dig en extra nätadapter till din bärbara dator så att du kan ha en på kontoret och en hemma eller när du är på resande fot.
 	  </para>
 	  <para>
-	  Nätadaptern från Dell<tm/> på <textbox value="130" refid="1"/> watt är specialutformad för att uppfylla prestandabehoven på din bärbara Dell<tm/>-dator. Med den här nätadaptern på <textbox value="130" refid="1"/> watt kan du använda datorn samtidigt som du laddar batteriet från ett eluttag. 
+	  Nätadaptern från Dell<tm/> på <textbox value="130" refid="1"/>W är specialutformad för att uppfylla prestandabehoven på din bärbara Dell<tm/>-dator. 
+	  Med den här nätadaptern på <textbox value="130" refid="1"/>W kan du använda datorn samtidigt som du laddar batteriet från ett eluttag. 
 	  Den levereras med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd.
       </para>
     </product:longdesc>
@@ -25,20 +26,20 @@
     <product:highlights>
 	  <points>
         <point>
-		Ger <textbox value="130" refid="1"/> watt, vilket räcker till att köra datorn och ladda batteriet samtidigt. 
+		Ger <textbox value="130" refid="1"/> watt, vilket räcker till att köra datorn och ladda batteriet samtidigt
         </point>
         <point>
 		Levereras med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd 
         </point>
         <point>
-        Ett gummiband medföljer så att du lätt kan hålla reda på sladden och det finns även en lysdiodsring på likströmskontakten.
+        Ett gummiband medföljer så att du lätt kan hålla reda på sladden och det finns även en lysdiodsring på likströmskontakten
         </point>
       </points>
 	  
 	  <!-- Start of USFF AC Adapter Details -->
 	  
 	  <para>
-	  Dells nätadapter på <textbox value="130" refid="1"/> watt <dropdownlist id="gan-detail"/> bygger på gallium nitride-teknik (GaN), utvecklad i samarbete med GaN-system. 
+	  Dells nätadapter på <textbox value="130" refid="1"/>W <dropdownlist id="gan-detail"/> bygger på gallium nitride-teknik (GaN), utvecklad i samarbete med GaN-system. 
 	  Jämfört med kiselbaserade produkter kan GaN-baserade produkter:
 	  </para>
 	  
@@ -97,7 +98,7 @@
       Nätadapter
       </product:techspec>
       <product:techspec id="2" name="Strömförsörjning">
-	  <textbox value="130" id="1"/> watt
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="3" name="Kabel medföljer">
       <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> nätsladd

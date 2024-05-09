@@ -2,7 +2,7 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter for USFF AC Adapter</meta:title>
-    <meta:date value="2023-5-15" />
+    <meta:date value="2024-5-3" />
     <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
@@ -17,7 +17,8 @@
 	  Перестаньте носить адаптер переменного тока из дома на работу и обратно. Пусть у вас будет два блока питания для ноутбука, чтобы один оставался в офисе, а вторым вы будете пользоваться дома и в дороге.
 	  </para>
 	  <para>
-	  Адаптер <textbox value="130" refid="1"/>Вт переменного тока Dell<tm/> Вт специально разработан для электропитания ноутбуков Dell<tm/>. Благодаря мощности <textbox value="130" refid="1"/>Вт этот адаптер обеспечивает питание вашего компьютера и одновременно заряжает его аккумулятор от розетки электросети. 
+	  Адаптер <textbox value="130" refid="1"/>Вт переменного тока Dell<tm/> Вт специально разработан для электропитания ноутбуков Dell<tm/>. 
+	  Благодаря мощности <textbox value="130" refid="1"/>Вт этот адаптер обеспечивает питание вашего компьютера и одновременно заряжает его аккумулятор от розетки электросети. 
 	  Он поставляется с <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> кабелем питания.
       </para>
     </product:longdesc>
@@ -47,9 +48,9 @@
 	  <point>Требуют использования меньшего объема воды и меньшего количества материалов в производственном процессе</point>
 	  </points>
 	  
-	  <para>Изготавливаются из высококачественных материалов и компонентов OEM-класса и тщательно тестируются на надежность и совместимость</para>
+	  <para>Изготавливаются из высококачественных материалов и компонентов OEM-класса и тщательно тестируются на надежность и совместимость.</para>
 	 
-	  
+	  <!-- End of USFF AC Adapter Details -->
 	
 	  <!-- Start of Compatibility, warranty and quality section -->
 	  <points title="@string(compatibility)">

@@ -2,22 +2,25 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter for USFF AC Adapter</meta:title>
-    <meta:date value="2023-5-15" />
+    <meta:date value="2024-5-3" />
     <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptateur c.a. de Dell de <textbox value="130" refid="1"/>watts câble d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> - <textbox value="UK" id="8"/>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptateur c.a. de Dell de <textbox value="130" refid="1"/>W câble d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> - <textbox value="UK" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-        Pourquoi toujours transporter un adaptateur c.a. entre votre domicile et votre bureau? Procurez-vous un deuxième adaptateur c.a. pour votre ordinateur portable afin d’en avoir un pour le bureau et un autre pour la maison ou les déplacements.
+        Pourquoi toujours transporter un adaptateur c.a. entre votre domicile et votre bureau? 
+        Procurez-vous un deuxième adaptateur c.a. pour votre ordinateur portable afin d’en avoir un pour le bureau et un autre pour la maison ou les déplacements.
       </para>
       <para>
-        L’adaptateur c.a. de Dell<tm/> de <textbox value="130" refid="1"/>watts est spécialement conçu pour répondre aux besoins en alimentation de votre portable Dell<tm/>. Offrant une puissance de <textbox value="130" refid="1"/>watts, cet adaptateur vous permet à la fois d’utiliser votre système et de recharger sa batterie en le branchant sur une prise de courant. Il est offert avec un câble d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+        L’adaptateur c.a. de Dell<tm/> de <textbox value="130" refid="1"/>W est spécialement conçu pour répondre aux besoins en alimentation de votre portable Dell<tm/>. 
+        Offrant une puissance de <textbox value="130" refid="1"/>W, cet adaptateur vous permet à la fois d’utiliser votre système et de recharger sa batterie en le branchant sur une prise de courant. 
+        Il est offert avec un câble d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
       </para>
     </product:longdesc>
 	
@@ -25,7 +28,7 @@
     <product:highlights>
 	  <points>
         <point>
-          Offre une capacité de <textbox value="130" refid="1"/>watts, ce qui est suffisant pour alimenter et recharger votre portable
+          Offre une capacité de <textbox value="130" refid="1"/>W, ce qui est suffisant pour alimenter et recharger votre portable
         </point>
         <point>
           Offert avec un câble d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
@@ -34,9 +37,9 @@
           Comprend une courroie de caoutchouc pour faciliter la gestion des câbles et un anneau de lumière à DEL autour de la fiche c.c.
         </point>
       </points>
-	  
+	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  L’adaptateur CA Dell <dropdownlist id="gan-detail"/> de <textbox value="130" refid="1"/>watts est doté de la technologie à nitrure de gallium, développée en collaboration avec GaN Systems. 
+	  L’adaptateur CA Dell <dropdownlist id="gan-detail"/> de <textbox value="130" refid="1"/>W est doté de la technologie à nitrure de gallium, développée en collaboration avec GaN Systems. 
 	  Comparativement aux produits à base de silicium, les conceptions dotées de nitrure de gallium:
 	  </para>
 	  
@@ -51,7 +54,7 @@
 	  Sont fabriqués avec des matériaux et des composants de qualité FEO et sont soumis à des tests rigoureux pour assurer leur fiabilité et leur compatibilité
 	  </para>
 	  
-	  
+	  <!-- End of USFF AC Adapter Details -->
 	  <!-- Start of Compatibility, warranty and quality section -->
         <points title="@string(compatibility)">
           <point>
@@ -96,7 +99,7 @@
         Adaptateur c.a.
       </product:techspec>
       <product:techspec id="2" name="Puissance fournie">
-        <textbox value="130" id="1"/>watts
+        <textbox value="130" id="1"/>W
       </product:techspec>
       <product:techspec id="3" name="Câble inclus">
         Câble d’alimentation de <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>

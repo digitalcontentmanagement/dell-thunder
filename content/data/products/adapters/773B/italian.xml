@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter for USFF AC Adapter</meta:title>
-    <meta:date value="2023-5-15" />
+    <meta:date value="2024-5-3" />
     <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adattatore CA Dell da <textbox value="130" refid="1"/> W con cavo di alimentazione <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> - <textbox value="UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adattatore CA Dell da <textbox value="130" refid="1"/>W con cavo di alimentazione <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> - <textbox value="UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
 	  Acquista un secondo adattatore CA per il tuo notebook in modo da non doverlo più trasportare avanti e indietro tra casa e ufficio. Lo potrai utilizzare anche in viaggio.
 	  </para>
 	  <para>
-	  L'adattatore CA da <textbox value="130" refid="1"/> W di Dell<tm/> è progettato appositamente per soddisfare i requisiti di alimentazione dei notebook Dell<tm/>. Dotato di <textbox value="130" refid="1"/> W di potenza, questo adattatore consente di utilizzare il sistema e caricare contemporaneamente la batteria da prese di alimentazione. Viene fornito con cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  L'adattatore CA da <textbox value="130" refid="1"/>W di Dell<tm/> è progettato appositamente per soddisfare i requisiti di alimentazione dei notebook Dell<tm/>. 
+	  Dotato di <textbox value="130" refid="1"/>W di potenza, questo adattatore consente di utilizzare il sistema e caricare contemporaneamente la batteria da prese di alimentazione. 
+	  Viene fornito con cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
       </para>
     </product:longdesc>
      <!-- Start of Original AC Adapter details-->
     <product:highlights>
 	  <points>
         <point>
-		<textbox value="130" refid="1"/> W di potenza per utilizzare e ricaricare il notebook 
+		<textbox value="130" refid="1"/>W di potenza per utilizzare e ricaricare il notebook 
         </point>
         <point>
 		Cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> incluso 
@@ -35,7 +37,7 @@
       </points>
 	  
 	   <!-- Start of USFF AC Adapter Details -->
-	   <para>L'adattatore CA <dropdownlist id="gan-detail"/> da <textbox value="130" refid="1"/> W di Dell integra una tecnologia al nitruro di gallio (GaN), sviluppata in collaborazione con GaN Systems. 
+	   <para>L'adattatore CA <dropdownlist id="gan-detail"/> da <textbox value="130" refid="1"/>W di Dell integra una tecnologia al nitruro di gallio (GaN), sviluppata in collaborazione con GaN Systems. 
 	   Rispetto ai prodotti al silicio, le soluzioni basate su GaN:
 	   </para>
 	   
@@ -47,9 +49,9 @@
 	   </points>
 	   
 	   <para>
-	   Sono realizzate con materiali e componenti OEM di qualità superiore, oltre a essere testate secondo standard rigorosi per quanto riguarda affidabilità e compatibilità
+	   Sono realizzate con materiali e componenti OEM di qualità superiore, oltre a essere testate secondo standard rigorosi per quanto riguarda affidabilità e compatibilità.
 	   </para>
-	   
+	   <!-- End of USFF AC Adapter Details -->
 	  
 	  <!-- Start of Compatibility, warranty and quality section -->
 	  <points title="@string(compatibility)">
@@ -94,7 +96,7 @@
       Adattatore CA
       </product:techspec>
       <product:techspec id="2" name="Potenza fornita">
-	  <textbox value="130" id="1"/> W
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="3" name="Cavo incluso">
 	  Cavo di alimentazione da <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>

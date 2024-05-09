@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
    <meta:title>Adapter for USFF AC Adapter</meta:title>
-    <meta:date value="2023-5-15" />
+    <meta:date value="2024-5-3" />
     <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/> watt strømadapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning - <textbox value="UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W strømadapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning - <textbox value="UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
 	  Nå trenger du ikke lenger å dra strømadapteren frem og tilbake mellom kontoret og hjemmet. Du kan skaffe en ekstra strømadapter til den bærbare PC-en og ha en hjemme eller på reise.
 	  </para>
 	  <para>
-	  <textbox value="130" refid="1"/> watt AC-adapteren fra Dell<tm/> er spesielt utformet for å dekke strømbehovet til din Dell<tm/> bærbare PC. Med denne adapteren på <textbox value="130" refid="1"/> watt kan du bruke datamaskinen og samtidig lade batteriet fra en stikkontakt. Den leveres med en <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning.
+	  <textbox value="130" refid="1"/>W AC-adapteren fra Dell<tm/> er spesielt utformet for å dekke strømbehovet til din Dell<tm/> bærbare PC. 
+	  Med denne adapteren på <textbox value="130" refid="1"/>W kan du bruke datamaskinen og samtidig lade batteriet fra en stikkontakt. 
+	  Den leveres med en <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning.
       </para>
 	</product:longdesc>
    <!-- Start of Original AC Adapter details-->
     <product:highlights>
 	  <points>
         <point>
-		Har <textbox value="130" refid="1"/> watt nok til å drive og lade en bærbar PC 
+		Har <textbox value="130" refid="1"/>W nok til å drive og lade en bærbar PC 
         </point>
         <point>
 		Den leveres med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning 
@@ -35,7 +37,7 @@
       </points>
 	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  Dell <textbox value="130" refid="1"/> watt <dropdownlist id="gan-detail"/>-strømadapteren bruker galliumnitrid-teknologi (GaN), utviklet i samarbeid med GaN-systemer. 
+	  Dell <textbox value="130" refid="1"/>W <dropdownlist id="gan-detail"/>-strømadapteren bruker galliumnitrid-teknologi (GaN), utviklet i samarbeid med GaN-systemer. 
 	  Sammenlignet med silisiumbaserte produkter, GaN-basert design:
 	  </para>
 	  
@@ -47,10 +49,11 @@
 	  </points>
 	  
 	  <para>
-	  Er laget med materialer og komponenter av toppkvalitet i OEM-klassen, og er grundig testet for pålitelighet og kompatibilitet
+	  Er laget med materialer og komponenter av toppkvalitet i OEM-klassen, og er grundig testet for pålitelighet og kompatibilitet.
 	  </para>
 	 
-	  
+	  <!-- End of Original AC Adapter details-->
+
 	  <!-- Start of Compatibility, warranty and quality section -->
 	  <points title="@string(compatibility)">
 	  <point>
@@ -94,7 +97,7 @@
       Strømadapter
       </product:techspec>
       <product:techspec id="2" name="Strømytelse">
-	  <textbox value="130" id="1"/> watt
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="3" name="Kabel inkludert">
 	  <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> strømledning

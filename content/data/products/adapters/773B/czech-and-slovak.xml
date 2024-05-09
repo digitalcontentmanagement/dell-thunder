@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter</meta:title>
-    <meta:date value="2023-05-15" />
+    <meta:date value="2024-5-3" />
     <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/>W <textbox value="3" refid="2"/>kolíkový napájecí adaptér Dell s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> - <textbox value="UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/>W napájecí adaptér Dell s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> - <textbox value="UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,7 +17,9 @@
 	  Napájecí adaptér už nemusíte přenášet mezi domovem a kanceláří. Pořiďte si k notebooku druhý adaptér, jeden nechávejte v kanceláři a s druhým pracujte doma nebo na cestách.
 	  </para>
 	  <para>
-	  Tento <textbox value="130" refid="1"/>W napájecí adaptér značky Dell<tm/> je konstruován tak, aby vyhovoval potřebám vašeho notebooku Dell<tm/>. Tento adaptér, poskytující příkon <textbox value="130" refid="1"/>W, umožňuje práci s počítačem a současné nabíjení baterie z elektrické sítě. Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  Tento <textbox value="130" refid="1"/>W napájecí adaptér značky Dell<tm/> je konstruován tak, aby vyhovoval potřebám vašeho notebooku Dell<tm/>. 
+	  Tento adaptér, poskytující příkon <textbox value="130" refid="1"/>W, umožňuje práci s počítačem a současné nabíjení baterie z elektrické sítě. 
+	  Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -27,15 +29,18 @@
 		Nabízí napájení <textbox value="130" refid="1"/>W, postačující k tomu, abyste mohli současně pracovat a nabíjet notebook 
         </point>
         <point>
-		Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>. 
+		Je dodáván v balení s napájecím kabelem o délce <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
         </point>
         <point>
 		Má pryžový pásek pro snadnou správu kabelů a prstencovou kontrolku na stejnosměrném konektoru
         </point>
       </points>
+	  <!-- Start of USFF AC Adapter Details -->
 	  <para>
-	  <textbox value="130" refid="1"/>W napájecí adaptér Dell <dropdownlist id="gan-detail"/> využívá technologii GaN (nitrid gallitý), vyvinutou ve spolupráci se společností GaN Systems. Ve srovnání skřemíkovými produkty jsou systémy GaN:
+	  <textbox value="130" refid="1"/>W napájecí adaptér Dell <dropdownlist id="gan-detail"/> využívá technologii GaN (nitrid gallitý), vyvinutou ve spolupráci se společností GaN Systems. 
+	  Ve srovnání skřemíkovými produkty jsou systémy GaN:
 	  </para>
+	  
 	  <points>
 	  <point>výrazně energeticky úspornější,</point>
 	  <point>velmi efektivní, spotřebovávají méně energie aminimalizují výdaje,</point>
@@ -47,6 +52,8 @@
 	  vyrobeny z prvotřídních materiálů a komponent OEM, pečlivě testovaných z hlediska spolehlivosti a kompatibility.
 	  </para>
 	  
+	  <!-- End of USFF AC Adapter Details -->
+
 	 <!-- Start of Compatibility, warranty and quality section -->
 	  <points title="@string(compatibility)">
 	  <point>

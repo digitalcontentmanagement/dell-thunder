@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter for USFF AC Adapter</meta:title>
-    <meta:date value="2023-5-15" />
+    <meta:date value="2024-5-3" />
     <meta:creator value="Norsyahirah"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの <textbox value="130" refid="1"/>ワット ACアダプタ（<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源コード付属） - <textbox value="UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの <textbox value="130" refid="1"/>W ACアダプタ（<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源コード付属） - <textbox value="UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,14 +17,16 @@
 	  自宅からオフィスへ、オフィスから自宅へ、ACアダプタをそのつど持ち運ぶのは大変です。 ノートパソコン用ACアダプタをもう1台購入し、1つはオフィスで、もう1つは自宅や外出先で使いましょう。
 	  </para>
 	  <para>
-	  デル<tm/>の<textbox value="130" refid="1"/>ワットACアダプタは、お使いのデル<tm/>のノートパソコンの電力要件に合わせて特別に設計されています。 このアダプタには<textbox value="130" refid="1"/>ワット電源が搭載され、コンセントに接続すると、システムを使用しながらバッテリを充電できます。 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 源コードが付属しています。
+	  デル<tm/>の<textbox value="130" refid="1"/>W ACアダプタは、お使いのデル<tm/>のノートパソコンの電力要件に合わせて特別に設計されています。 
+	  このアダプタには<textbox value="130" refid="1"/>W 電源が搭載され、コンセントに接続すると、システムを使用しながらバッテリを充電できます。 
+	  <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 源コードが付属しています。
 	  </para>
     </product:longdesc>
      <!-- Start of Original AC Adapter details-->
     <product:highlights>
 	  <points>
         <point>
-		<textbox value="130" refid="1"/>ワットの電源供給 - ノートパソコンの電源用および充電用 
+		<textbox value="130" refid="1"/>W の電源供給 - ノートパソコンの電源用および充電用 
         </point>
         <point>
 		<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源コードが付属 
@@ -37,7 +39,8 @@
 	   <!-- Start of USFF AC Adapter Details -->
 	  
 	  <para>
-	  Dell <textbox value="130" refid="1"/>ワット<dropdownlist id="gan-detail"/> ACアダプターには、GaN Systemsと共同開発した窒化ガリウム(GaN)テクノロジーが組み込まれています。シリコンベース製品と比較したGaNベースの設計の特長は以下のとおりです。
+	  Dell <textbox value="130" refid="1"/>W <dropdownlist id="gan-detail"/> ACアダプターには、GaN Systemsと共同開発した窒化ガリウム(GaN)テクノロジーが組み込まれています。
+	  シリコンベース製品と比較したGaNベースの設計の特長は以下のとおりです。
 	  </para>
 	  
 	  <points>
@@ -47,9 +50,9 @@
 	  <point>製造プロセスで使用する水や必要な材料を削減 </point>
 	  </points>
 	  
-	  <para>OEMグレードの最高クラスの素材とコンポーネントを使用し、信頼性と互換性を厳格にテスト済み</para>
+	  <para>OEMグレードの最高クラスの素材とコンポーネントを使用し、信頼性と互換性を厳格にテスト済み</para>。
 	  
-	  
+	   <!-- End of USFF AC Adapter Details -->
 	  <!-- Start of Compatibility, warranty and quality section -->
 	  <points title="@string(compatibility)">
 	  <point>
@@ -93,7 +96,7 @@
       ACアダプタ
       </product:techspec>
       <product:techspec id="2" name="提供電源">
-	  <textbox value="130" id="1"/>ワット
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  <product:techspec id="3" name="付属ケーブル">
 	  <textbox value="6" id="3"/><dropdownlist refid="meter-feet-unit"/> 電源コード
