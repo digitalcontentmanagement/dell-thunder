@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W strømadapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> strømadapter med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -26,7 +26,7 @@
     <product:highlights>
 	  <points>
         <point>
-		Har <textbox value="130" refid="1"/> W nok til å drive og lade en bærbar PC 
+		Har <textbox value="130" refid="1"/>W nok til å drive og lade en bærbar PC 
         </point>
         <point>
 		Den leveres med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> strømledning 

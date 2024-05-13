@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="barrel-type"/> <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> Adaptador de CA de <textbox value="130" refid="1"/>W con cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Adaptador de CA de <textbox value="130" refid="1"/>W <dropdownlist id="barrel-type"/> <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> con cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -26,13 +26,13 @@
     <product:highlights>
 	  <points>
         <point>
-		Proporciona una potencia de <textbox value="130" refid="1"/>W, suficiente para la alimentación y la carga de su portátil. 
+		Proporciona una potencia de <textbox value="130" refid="1"/>W, suficiente para la alimentación y la carga de su portátil 
         </point>
         <point>
-		Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>. 
+		Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
         </point>
         <point>
-        Dispone de una correa de goma para facilitar el tendido de cables y de un anillo de luz LED en el conector de CC.
+        Dispone de una correa de goma para facilitar el tendido de cables y de un anillo de luz LED en el conector de CC
         </point>
       </points>
 	  <points title="@string(compatibility)">

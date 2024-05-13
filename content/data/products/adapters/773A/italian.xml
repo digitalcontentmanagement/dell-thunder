@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <dropdownlist id="barrel-type"/> <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <textbox value="130" refid="1"/>W Adattatore CA con spina e cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W <dropdownlist id="barrel-type"/> <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> Adattatore CA con spina e cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>

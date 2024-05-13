@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter</meta:title>
-    <meta:date value="2015-09-28" />
+    <meta:date value="2024-5-2" />
     <meta:creator value="Dzulhimi"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin <textbox value="7,4" id="9"/><textbox value="mm:n" id="12"/> <dropdownlist id="barrel-type"/> <textbox value="130" refid="1"/>W verkkolaite ja <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> virtajohto <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm:n" id="12"/> <dropdownlist id="barrel-type"/> verkkolaite ja <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> virtajohto <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
@@ -17,7 +17,7 @@
 	  Älä kuljeta verkkomuuntajaa kodin ja toimiston välillä. Hanki kannettavaan tietokoneeseen toinen verkkolaite ja pidä toinen verkkolaite toimistolla ja toinen kotona ja matkoilla.
 	  </para>
 	  <para>
-	  <textbox value="130" refid="1"/>W Dell<tm/>-verkkolaite on suunniteltu kannettavan Dell<tm/> -tietokoneen virransyöttötarpeisiin. 
+	  <textbox value="130" refid="1"/>W Dell<tm/>-verkkolaite on suunniteltu kannettavan Dell<tm/>-tietokoneen virransyöttötarpeisiin. 
 	  Verkkolaite tarjoaa tehoa <textbox value="130" refid="1"/>W, jonka avulla voit samanaikaisesti käyttää järjestelmää ja ladata sen akkua sähköpistorasiasta. 
 	  Sen mukana toimitetaan <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>-virtajohto.
 	  </para>

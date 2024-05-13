@@ -2,14 +2,14 @@
 <generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
   <generic:properties>
     <meta:title>Adapter</meta:title>
-    <meta:date value="2015-09-28" />
+    <meta:date value="2024-5-2" />
     <meta:creator value="Dzulhimi"/>
     <meta:publisher value="SnP Operations Team" />
   </generic:properties>
   <generic:content>
 
     <product:name>
-    <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> conector <textbox value="130" refid="1"/>W adaptador CA com <textbox value="6" refid="3"/><dropdownlist id="meter-feet-unit"/> cabo de alimentação <textbox value="- UK" id="8"/>
+    <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell conector <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> adaptador CA com <textbox value="6" refid="3"/><dropdownlist id="meter-feet-unit"/> cabo de alimentação <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
