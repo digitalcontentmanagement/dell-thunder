@@ -9,12 +9,13 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/> W:n virtamuuntaja Dellin-kannettavalle autoihin ja lentokoneisiin - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="130" refid="1"/>W:n virtamuuntaja Dellin-kannettavalle autoihin ja lentokoneisiin - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-        Käynnistä ja pysy tuottavana tien päällä, lennossa tai toimistossa yhdellä Dell<tm/> Auto/Air -sovittimella. Se on all-in-one, DC-laite, joka saa virtaa Dell-kannettavista. Se kytketään automaattiseen ulostuloaukkoon tai ilmanpoistoputkeen, mikä takaa pitkän käyttöiän. Tämä tuote on testattu ja validoitu Dell -järjestelmissä sen varmistamiseksi, 
+        Käynnistä ja pysy tuottavana tien päällä, lennossa tai toimistossa yhdellä Dell<tm/> Auto/Air -sovittimella. Se on all-in-one, DC-laite, joka saa virtaa Dell-kannettavista. 
+		Se kytketään automaattiseen ulostuloaukkoon tai ilmanpoistoputkeen, mikä takaa pitkän käyttöiän. Tämä tuote on testattu ja validoitu Dell -järjestelmissä sen varmistamiseksi, 
 		että se toimii järjestelmän kanssa. Dellin tekninen tuki tukee sitä, kun sitä käytetään Dell -järjestelmän kanssa.
 
 	  </para>
@@ -23,7 +24,7 @@
     <product:highlights>
 	  <points>
         <point>
-		Tehoa <textbox value="130" refid="1"/> W:n, riittävästi kannettavan tietokoneen käyttämiseen ja lataamiseen 
+		Tehoa <textbox value="130" refid="1"/>W:n, riittävästi kannettavan tietokoneen käyttämiseen ja lataamiseen 
         </point>
         <point>
         Sisältää kaapelien hallintaa helpottavan kumihihnan sekä virtaliittimen LED-valorenkaan
@@ -71,7 +72,7 @@
       virtamuuntaja-kannettavalle autoihin ja lentokoneisiin
       </product:techspec>
       <product:techspec id="2" name="Teho">
-	  <textbox value="130" id="1"/> W:n
+	  <textbox value="130" id="1"/>W:n
       </product:techspec>
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->

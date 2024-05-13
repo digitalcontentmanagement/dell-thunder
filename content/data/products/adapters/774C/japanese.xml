@@ -9,20 +9,23 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの ノートパソコン <textbox value="130" refid="1"/>ワット DC電源アダプター（車/飛行機専用）- <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの ノートパソコン <textbox value="130" refid="1"/>W DC電源アダプター（車/飛行機専用）- <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
 	<para>
-      デルの自動空気アダプターを1台のデバイスで使用して、外出先、機内、またはオフィスで電源を入れ、生産性を維持できます。 これは、デルのノートブックに電力を供給するオールインワンのDCデバイスです。 自動コンセントまたは空気コンセントに差し込むことで、パフォーマンスを長持ちさせます。
-	   この製品は、お使いのシステムで動作することを確認するために、デルのシステムでテストおよび検証されています。 デルのシステムで使用すると、デルのテクニカルサポートによってサポートされます。
+      デルの自動空気アダプターを1台のデバイスで使用して、外出先、機内、またはオフィスで電源を入れ、生産性を維持できます。 
+	  これは、デルのノートブックに電力を供給するオールインワンのDCデバイスです。
+	   自動コンセントまたは空気コンセントに差し込むことで、パフォーマンスを長持ちさせます。
+	   この製品は、お使いのシステムで動作することを確認するために、デルのシステムでテストおよび検証されています。 
+	   デルのシステムで使用すると、デルのテクニカルサポートによってサポートされます。
 	   </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		<textbox value="130" refid="1"/>ワットの電源供給 - ノートパソコンの電源用および充電用 
+		<textbox value="130" refid="1"/>W の電源供給 - ノートパソコンの電源用および充電用 
         </point>
         <point>
         ケーブル管理が容易になるゴム製ストラップが付属。DCコネクタにLEDライトを使用
@@ -69,7 +72,7 @@
       ノートパソコン DC電源アダプター（車/飛行機専用）
       </product:techspec>
       <product:techspec id="2" name="提供電源">
-	  <textbox value="130" id="1"/>ワット
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  
     </product:techspecs>

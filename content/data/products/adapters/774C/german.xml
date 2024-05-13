@@ -9,12 +9,14 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Laptop-Gleichstromnetzteil für Auto und Flugzeug, <textbox value="130" refid="1"/> W - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Laptop-Gleichstromnetzteil für Auto und Flugzeug, <textbox value="130" refid="1"/>W - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-	  Schalten Sie ein und bleiben Sie unterwegs, während des Flugs oder in Ihrem Büro produktiv mit einem einzigen Gerät, dem Dell<tm/> Auto/Air-Adapter. Es ist ein All-in-One-DC-Gerät, das Ihre Dell Notebooks mit Strom versorgt. Es wird für eine lang anhaltende Leistung in eine automatische Steckdose oder einen Luftauslass eingesteckt. Dieses Produkt wurde auf Dell-Systemen getestet und validiert, 
+	  Schalten Sie ein und bleiben Sie unterwegs, während des Flugs oder in Ihrem Büro produktiv mit einem einzigen Gerät, dem Dell<tm/> Auto/Air-Adapter. 
+	  Es ist ein All-in-One-DC-Gerät, das Ihre Dell Notebooks mit Strom versorgt. 
+	  Es wird für eine lang anhaltende Leistung in eine automatische Steckdose oder einen Luftauslass eingesteckt. Dieses Produkt wurde auf Dell-Systemen getestet und validiert, 
 	  um sicherzustellen, dass es mit Ihrem System funktioniert. Es wird vom technischen Support von Dell unterstützt, wenn es mit einem Dell-System verwendet wird.
 	  </para>
     </product:longdesc>
@@ -22,7 +24,7 @@
     <product:highlights>
 	  <points>
         <point>
-		<textbox value="130" refid="1"/> W zum gleichzeitigen Betreiben und Aufladen Ihres Notebooks 
+		<textbox value="130" refid="1"/>W zum gleichzeitigen Betreiben und Aufladen Ihres Notebooks 
 		</point>
         <point>
         Mit Gummiriemen für ein einfaches Kabelmanagement und LED-Leuchtring auf dem Gleichstromanschluss
@@ -69,7 +71,7 @@
       Laptop-Gleichstromnetzteil für Auto und Flugzeug
       </product:techspec>
       <product:techspec id="2" name="Stromversorgung">
-	  <textbox value="130" id="1"/> W
+	  <textbox value="130" id="1"/>W
       </product:techspec>
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->

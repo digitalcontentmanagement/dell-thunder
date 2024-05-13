@@ -9,12 +9,14 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell laptop auto en vliegtuig <textbox value="130" refid="1"/> W gelijkstroom voedingsadapter - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell laptop auto en vliegtuig <textbox value="130" refid="1"/>W gelijkstroom voedingsadapter - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
     <para>
-	Start op en blijf productief onderweg, tijdens de vlucht of op kantoor met één apparaat, de Dell<tm/> Auto/Air Adapter. Het is een alles-in-één DC-apparaat dat uw Dell notebooks van stroom voorziet. Het wordt aangesloten op een automatische uitlaat of luchtuitlaat voor langdurige prestaties. Dit product is getest en gevalideerd op Dell-systemen om er zeker van te zijn dat het met uw systeem werkt. 
+	Start op en blijf productief onderweg, tijdens de vlucht of op kantoor met één apparaat, de Dell<tm/> Auto/Air Adapter. 
+	Het is een alles-in-één DC-apparaat dat uw Dell notebooks van stroom voorziet. Het wordt aangesloten op een automatische uitlaat of luchtuitlaat voor langdurige prestaties. 
+	Dit product is getest en gevalideerd op Dell-systemen om er zeker van te zijn dat het met uw systeem werkt. 
 	Het wordt ondersteund door Dell Technical Support bij gebruik met een Dell-systeem.
 	</para>
 	</product:longdesc>
@@ -22,7 +24,7 @@
     <product:highlights>
 	  <points>
         <point>
-		Levert <textbox value="130" refid="1"/> W wat voldoende is voor uw laptop en om de batterij op te laden 
+		Levert <textbox value="130" refid="1"/>W wat voldoende is voor uw laptop en om de batterij op te laden 
         </point>
         <point>
         Uitgerust met een rubberen riem voor eenvoudig kabelbeheer en een led-ring op de gelijkstroomconnector
@@ -70,7 +72,7 @@
       Laptop auto en vliegtuig gelijkstroom voedingsadapter
       </product:techspec>
       <product:techspec id="2" name="Geleverd vermogen">
-	  <textbox value="130" id="1"/> W
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  
     </product:techspecs>

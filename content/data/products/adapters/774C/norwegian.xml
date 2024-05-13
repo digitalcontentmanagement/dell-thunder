@@ -9,20 +9,23 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/> W DC-strømadapter for bærbar PC som kan brukes i bilen - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W DC-strømadapter for bærbar PC som kan brukes i bilen - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-	  Slå på strømmen og vær produktiv på veien, på flyet eller på kontoret med én enhet, Dell<tm/> auto-/luft adapter. Det er en alt-i-ett-DC-enhet som driver Dell bærbare datamaskiner. Den kobles til automatisk uttak eller luftuttak for langvarig ytelse. 
-	  Dette produktet er testet og validert på Dell<tm/>-systemer for å sikre at det fungerer med systemet ditt. Den støttes av Dells tekniske støtte når den brukes med et Dell -system.
+	  Slå på strømmen og vær produktiv på veien, på flyet eller på kontoret med én enhet, Dell<tm/> auto-/luft adapter. 
+	  Det er en alt-i-ett-DC-enhet som driver Dell bærbare datamaskiner. 
+	  Den kobles til automatisk uttak eller luftuttak for langvarig ytelse. 
+	  Dette produktet er testet og validert på Dell<tm/>-systemer for å sikre at det fungerer med systemet ditt. 
+	  Den støttes av Dells tekniske støtte når den brukes med et Dell -system.
 	  </para>
 	</product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		Har <textbox value="130" refid="1"/> W nok til å drive og lade en bærbar PC 
+		Har <textbox value="130" refid="1"/>W nok til å drive og lade en bærbar PC 
         </point>
         <point>
 		Med gummistropp for enkel kabelhåndtering og LED-lys på strømkontakten
@@ -70,7 +73,7 @@
       Strømadapter for bærbar PC som kan brukes i bilen
       </product:techspec>
       <product:techspec id="2" name="Strømytelse">
-	  <textbox value="130" id="1"/> W
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  
     </product:techspecs>

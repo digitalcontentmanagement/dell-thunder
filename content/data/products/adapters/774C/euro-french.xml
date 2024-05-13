@@ -9,20 +9,23 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptateur secteur CC <textbox value="130" refid="1"/> W pour ordinateur portable Dell, voiture et avion - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptateur secteur CC <textbox value="130" refid="1"/>W pour ordinateur portable Dell, voiture et avion - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-	  Démarrez et restez productif sur la route, en vol ou au bureau avec un seul appareil, l'adaptateur Dell<tm/> Auto/Air. Il s'agit d'un appareil DC tout-en-un qui alimentera vos ordinateurs portables Dell. Il se branche sur une prise automatique ou une sortie d'air pour des performances durables. 
-	  Ce produit a été testé et validé sur les systèmes Dell pour garantir qu'il fonctionnera avec votre système. Il est pris en charge par le support technique Dell lorsqu'il est utilisé avec un système Dell.
+	  Démarrez et restez productif sur la route, en vol ou au bureau avec un seul appareil, l'adaptateur Dell<tm/> Auto/Air. 
+	  Il s'agit d'un appareil DC tout-en-un qui alimentera vos ordinateurs portables Dell. 
+	  Il se branche sur une prise automatique ou une sortie d'air pour des performances durables. 
+	  Ce produit a été testé et validé sur les systèmes Dell pour garantir qu'il fonctionnera avec votre système. 
+	  Il est pris en charge par le support technique Dell lorsqu'il est utilisé avec un système Dell.
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		Offre les <textbox value="130" refid="1"/> W nécessaires pour alimenter et charger votre ordinateur portable 
+		Offre les <textbox value="130" refid="1"/>W nécessaires pour alimenter et charger votre ordinateur portable 
         </point>
         <point>
         Équipé d’une sangle en caoutchouc pour faciliter la gestion des câbles et d’un anneau LED lumineux sur le connecteur CC
@@ -70,7 +73,7 @@
       Adaptateur secteur CC pour ordinateur portable, voiture et avion
       </product:techspec>
       <product:techspec id="2" name="Alimentation fournie">
-	  <textbox value="130" id="1"/> W
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  
     </product:techspecs>

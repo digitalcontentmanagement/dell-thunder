@@ -9,20 +9,23 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptador de alimentación para laptops Dell de CC y <textbox value="130" refid="1"/> W para autos y aviones - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptador de alimentación para laptops Dell de CC y <textbox value="130" refid="1"/>W para autos y aviones - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-	  Encienda y mantenga su productividad en la carretera, en vuelo o en su oficina con un dispositivo, el adaptador para automóvil / aire de Dell<tm/>. Es un dispositivo DC-DC todo en uno que alimentará sus computadoras portátiles Dell. Se conecta a una salida automática o de aire para un rendimiento duradero. 
-	  Este producto ha sido probado y validado en sistemas Dell para garantizar que funcione con su sistema. Es compatible con el soporte técnico de Dell cuando se utiliza con un sistema Dell.
+	  Encienda y mantenga su productividad en la carretera, en vuelo o en su oficina con un dispositivo, el adaptador para automóvil / aire de Dell<tm/>. 
+	  Es un dispositivo DC-DC todo en uno que alimentará sus computadoras portátiles Dell. 
+	  Se conecta a una salida automática o de aire para un rendimiento duradero. 
+	  Este producto ha sido probado y validado en sistemas Dell para garantizar que funcione con su sistema. 
+	  Es compatible con el soporte técnico de Dell cuando se utiliza con un sistema Dell.
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		Ofrece una potencia suficiente de <textbox value="130" refid="1"/> W para alimentar y cargar su laptop. 
+		Ofrece una potencia suficiente de <textbox value="130" refid="1"/>W para alimentar y cargar su laptop. 
         </point>
         <point>
         Incluye una cinta de goma para un manejo fácil de los cables, además de un anillo de luz LED en el conector de CC.
@@ -71,7 +74,7 @@
       Adaptador de alimentación para laptops de CC y para autos y aviones
       </product:techspec>
       <product:techspec id="2" name="Alimentación suministrada">
-	  <textbox value="130" id="1"/> W
+	  <textbox value="130" id="1"/>W
       </product:techspec>
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->

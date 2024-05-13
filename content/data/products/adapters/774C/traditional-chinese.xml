@@ -9,20 +9,23 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 筆記型電腦汽車與飛航 <textbox value="130" refid="1"/>瓦電 DC 電源變壓器 - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell 筆記型電腦汽車與飛航 <textbox value="130" refid="1"/>W DC 電源變壓器 - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-	  使用 Dell<tm/> Auto/Air 整流器 這一設備，在旅途中、飛行中或辦公室中通電並保持高效。 它是一款一體式 DC 設備，可為您的戴爾筆記本電腦供電。 
-	  它插入汽車插座或出風口以獲得持久的性能。 本產品已在戴爾系統上進行測試和驗證，以確保它可以與您的系統配合使用。 與戴爾系統一起使用時，它由戴爾技術支持提供支持。
+	  使用 Dell<tm/> Auto/Air 整流器 這一設備，在旅途中、飛行中或辦公室中通電並保持高效。 
+	  它是一款一體式 DC 設備，可為您的戴爾筆記本電腦供電。 
+	  它插入汽車插座或出風口以獲得持久的性能。 
+	  本產品已在戴爾系統上進行測試和驗證，以確保它可以與您的系統配合使用。 
+	  與戴爾系統一起使用時，它由戴爾技術支持提供支持。
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		提供 <textbox value="130" refid="1"/>瓦電力，足以同時為筆記型電腦供電並充電 
+		提供 <textbox value="130" refid="1"/>W 力，足以同時為筆記型電腦供電並充電 
         </point>
         <point>
         內含方便您管理纜線的橡膠固定帶，直流電源連接器上還附有一個 LED 燈環
@@ -70,7 +73,7 @@
       筆記型電腦汽車與飛航 DC 電源變壓器 
       </product:techspec>
       <product:techspec id="2" name="供電量">
-	  <textbox value="130" id="1"/>瓦電
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  
     </product:techspecs>

@@ -9,20 +9,23 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔笔记本电脑汽车和飞机 <textbox value="130" refid="1"/>瓦 直流电源适配器 - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔笔记本电脑汽车和飞机 <textbox value="130" refid="1"/>W 直流电源适配器 - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-	  使用 戴尔 Auto/Air 适配器 这一设备，在旅途中、飞行中或办公室中通电并保持高效。 它是一款一体式 DC 设备，可为您的戴尔笔记本电脑供电。
-	   它插入汽车插座或出风口以获得持久的性能。 本产品已在戴尔系统上进行测试和验证，以确保它可以与您的系统配合使用。 与戴尔系统一起使用时，它由戴尔技术支持提供支持。
+	  使用 戴尔 Auto/Air 适配器 这一设备，在旅途中、飞行中或办公室中通电并保持高效。 
+	  它是一款一体式 DC 设备，可为您的戴尔笔记本电脑供电。
+	   它插入汽车插座或出风口以获得持久的性能。
+	    本产品已在戴尔系统上进行测试和验证，以确保它可以与您的系统配合使用。
+		 与戴尔系统一起使用时，它由戴尔技术支持提供支持。
 	   </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		输出功率可达<textbox value="130" refid="1"/>瓦，足以为笔记本电脑供电或为电池充电 
+		输出功率可达<textbox value="130" refid="1"/>W，足以为笔记本电脑供电或为电池充电 
         </point>
         <point>
         提供橡胶带，可轻松进行线缆管理；直流电插头上配有LED指示灯
@@ -71,7 +74,7 @@
       笔记本电脑汽车和飞机 直流电源适配器
       </product:techspec>
       <product:techspec id="2" name="提供的电力">
-	  <textbox value="130" id="1"/>瓦
+	  <textbox value="130" id="1"/>W
       </product:techspec>
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->

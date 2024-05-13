@@ -9,12 +9,13 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptateur d’alimentation Dell pour ordinateur portable de <textbox value="130" refid="1"/> W pour la voiture et l’avion - <textbox value="7.4mm, 4.5mm" id="8"/>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adaptateur d’alimentation Dell pour ordinateur portable de <textbox value="130" refid="1"/>W pour la voiture et l’avion - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-        Démarrez et restez productif sur la route, en vol ou au bureau avec un seul appareil, l'adaptateur Dell<tm/> Auto/Air. Il s'agit d'un appareil DC tout-en-un qui alimentera vos ordinateurs portables Dell. 
+        Démarrez et restez productif sur la route, en vol ou au bureau avec un seul appareil, l'adaptateur Dell<tm/> Auto/Air. 
+        Il s'agit d'un appareil DC tout-en-un qui alimentera vos ordinateurs portables Dell. 
         Il se branche sur une prise automatique ou une sortie d'air pour des performances durables. 
         Ce produit a été testé et validé sur les systèmes Dell pour garantir qu'il fonctionnera avec votre système. Il est pris en charge par le support technique Dell lorsqu'il est utilisé avec un système Dell.
 
@@ -25,7 +26,7 @@
     <product:highlights>
 	  <points>
         <point>
-          Offre une capacité de <textbox value="130" refid="1"/> W, ce qui est suffisant pour alimenter et recharger votre portable
+          Offre une capacité de <textbox value="130" refid="1"/>W, ce qui est suffisant pour alimenter et recharger votre portable
         </point>
         <point>
           Comprend une courroie de caoutchouc pour faciliter la gestion des câbles et un anneau de lumière à DEL autour de la fiche c.c.
@@ -73,7 +74,7 @@
         Adaptateur d’alimentation pour ordinateur portable pour la voiture et l’avion
       </product:techspec>
       <product:techspec id="2" name="Puissance fournie">
-        <textbox value="130" id="1"/> W
+        <textbox value="130" id="1"/>W
       </product:techspec>
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->

@@ -9,20 +9,22 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adattatore per l'alimentazione in auto o aereo <textbox value="130" refid="1"/> W DC per notebook Dell - <textbox value="7.4mm, 4.5mm" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Adattatore per l'alimentazione in auto o aereo <textbox value="130" refid="1"/>W DC per notebook Dell - <textbox value="7.4mm, 4.5mm" id="8"/>
     </product:name>
 
     <product:longdesc>
       <para>
-      Accendi e mantieni la produttività in viaggio, in volo o in ufficio con un dispositivo, l'adattatore per auto/aereo Dell<tm/> È un dispositivo DC all-in-one che alimenterà i tuoi notebook Dell. Si collega alla presa automatica o all'uscita dell'aria per prestazioni di lunga durata. 
-	  Questo prodotto è stato testato e convalidato sui sistemi Dell per garantire che funzioni con il tuo sistema. È supportato dal supporto tecnico Dell se utilizzato con un sistema Dell.
+      Accendi e mantieni la produttività in viaggio, in volo o in ufficio con un dispositivo, l'adattatore per auto/aereo Dell<tm/> È un dispositivo DC all-in-one che alimenterà i tuoi notebook Dell. 
+	  Si collega alla presa automatica o all'uscita dell'aria per prestazioni di lunga durata. 
+	  Questo prodotto è stato testato e convalidato sui sistemi Dell per garantire che funzioni con il tuo sistema.
+	  È supportato dal supporto tecnico Dell se utilizzato con un sistema Dell.
 	 </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <product:highlights>
 	  <points>
         <point>
-		<textbox value="130" refid="1"/> W di potenza per utilizzare e ricaricare il notebook 
+		<textbox value="130" refid="1"/>W di potenza per utilizzare e ricaricare il notebook 
         </point>
         <point>
         Cinturino in gomma per una facile gestione dei cavi e anello con LED sul connettore CC
@@ -69,7 +71,7 @@
       Adattatore per l'alimentazione in auto o aereo DC per notebook 
       </product:techspec>
       <product:techspec id="2" name="Potenza fornita">
-	  <textbox value="130" id="1"/> W
+	  <textbox value="130" id="1"/>W
       </product:techspec>
 	  
     </product:techspecs>
