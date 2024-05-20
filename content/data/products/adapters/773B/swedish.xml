@@ -26,7 +26,7 @@
     <product:highlights>
 	  <points>
         <point>
-		Ger <textbox value="130" refid="1"/> watt, vilket räcker till att köra datorn och ladda batteriet samtidigt
+		Ger <textbox value="130" refid="1"/>W, vilket räcker till att köra datorn och ladda batteriet samtidigt
         </point>
         <point>
 		Levereras med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd 
