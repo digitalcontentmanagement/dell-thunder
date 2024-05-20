@@ -168,18 +168,18 @@
     <!-- END: Sticky Footer -->
     <script type="text/javascript">
 
-		magicXML.transformAndReplace('#cat', 'content-wip/data/definitions/products.xml', 'xslt/reviewer_category.xslt');
+		magicXML.transformAndReplace('#cat', 'content/data/definitions/products.xml', 'xslt/reviewer_category.xslt');
 
 		var categoryId = helpers.getQueryStringParameter('cat').toLowerCase();
 
 		$('#cat').on('change', function() {
 			categoryId = this.value;
-			magicXML.transformAndReplace('#scc', 'content-wip/data/definitions/products.xml', 'xslt/reviewer_subclasses.xslt',  [{ name: 'categoryId', value: categoryId}]);		
+			magicXML.transformAndReplace('#scc', 'content/data/definitions/products.xml', 'xslt/reviewer_subclasses.xslt',  [{ name: 'categoryId', value: categoryId}]);		
 		});
 
-		magicXML.transformAndReplace('#scc', 'content-wip/data/definitions/products.xml', 'xslt/reviewer_subclasses.xslt',  [{ name: 'categoryId', value: categoryId}]);
+		magicXML.transformAndReplace('#scc', 'content/data/definitions/products.xml', 'xslt/reviewer_subclasses.xslt',  [{ name: 'categoryId', value: categoryId}]);
 
-        var xmlPath = 'content-wip/data/products/' + helpers.getQueryStringParameter('cat') + '/' + helpers.getQueryStringParameter('scc') + '/' + helpers.getQueryStringParameter('l') + '.xml';
+        var xmlPath = 'content/data/products/' + helpers.getQueryStringParameter('cat') + '/' + helpers.getQueryStringParameter('scc') + '/' + helpers.getQueryStringParameter('l') + '.xml';
 
         var region = helpers.getQueryStringParameter('r');
         var sku = helpers.getQueryStringParameter('sku');
@@ -248,10 +248,10 @@
                     country = 'us'; language = 'en';
             }
 
-            magicXML.transformAndReplace('#generic-content', xmlPath, 'xslt/generic_content.xslt', [{ name: 'region', value: region }, { name: 'skuid', value: sku }, { name: 'skutype', value: skutype_value }, { name: 'environment', value: '-wip'}, { name: 'country', value: country}, { name: 'language', value: language}]);
+            magicXML.transformAndReplace('#generic-content', xmlPath, 'xslt/generic_content.xslt', [{ name: 'region', value: region }, { name: 'skuid', value: sku }, { name: 'skutype', value: skutype_value }, { name: 'environment', value: ''}, { name: 'country', value: country}, { name: 'language', value: language}]);
 
             //Start of PRC Template
-            magicXML.transformAndReplace('#prc-template-holder', xmlPath, 'xslt/reviewer_template_prc.xslt', [{ name: 'region', value: region }, { name: 'skuid', value: sku }, { name: 'skutype', value: skutype_value }, { name: 'environment', value: '-wip'}, { name: 'categoryid', value: categoryId }, { name: 'subclass', value: helpers.getQueryStringParameter('scc').substring(1, 3) }, { name: 'markets', value: language.concat("_", country) }, { name: 'foldername', value:  helpers.getQueryStringParameter('scc')}]);
+            magicXML.transformAndReplace('#prc-template-holder', xmlPath, 'xslt/reviewer_template_prc.xslt', [{ name: 'region', value: region }, { name: 'skuid', value: sku }, { name: 'skutype', value: skutype_value }, { name: 'environment', value: ''}, { name: 'categoryid', value: categoryId }, { name: 'subclass', value: helpers.getQueryStringParameter('scc').substring(1, 3) }, { name: 'markets', value: language.concat("_", country) }, { name: 'foldername', value:  helpers.getQueryStringParameter('scc')}]);
             //End of PRC Template
 
             //Start of Auto resizing
