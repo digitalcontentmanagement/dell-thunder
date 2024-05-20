@@ -149,7 +149,7 @@
     <product:subclass id="799" description="Optical Transceivers" folder-name="799A"/>
   </product:category>
   
-  <product:category id="Bezel" name="Bezel">
+  <product:category id="bezel" name="Bezel">
     <product:subclass id="604" description="Cabinet and Rack Accessories" folder-name="604"/>
   </product:category>
   
