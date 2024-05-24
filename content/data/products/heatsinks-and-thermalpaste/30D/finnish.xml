@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Heatsinks and Thermalpaste</meta:title>
+    <meta:date value="2024-5-24" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin Jäähdytyselementti <textbox value="180" id="1"/> W:n tai vähemmän Suorittimen CPU<textbox value=", PowerEdge T360" id="2"/> <textbox value="asiakkaan asennus" id="3"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Tietokonejärjestelmän eri osat, kuten piirisarja, näytönohjain ja kiintolevy, voivat tuo tuottaa paljon lämpöä käytön aikana. Tämä lämpömäärä voi olla haitallista järjestelmän virheettömän toiminnan kannalta. Jäähdytyselementit ja tuulettimet vähentävät lämpöä ja pitävät laitteiston lämpötilan turvallisissa rajoissa.
+	  </para>
+	  <para>
+	  Tärkeimmät lämpönieluyksikön valintaan vaikuttavat tekijät ovat suorittimen tyyppi ja nopeus. Eri suorittimissa on eri käyttölämpötilat. Mitä suurempi suorittimen nopeus on, sitä parempi jäähdytyselementti ja tuuletin tarvitaan. Vastaavasti, myös suorittimen tyyppi määrittää, mitä jäähdytyselementtiä siinä voi käyttää. Kotelotyyppi on myös otettava huomioon, sillä se määrittää lämpönieluyksikön tilan ja yhteensopivuuden järjestelmän kanssa.
+	  </para>
+	  <para>
+	  Jotta osaat ostaa oikea jäähdytyselementin ja tuulettimen järjestelmääsi, suosittelemme, että käytät Parts For Your Dell<tm/> -työkalun palvelutunnuksen hakutoimintoa. Tällä tavalla voimme tunnistaa järjestelmässä käytössä olevan suorittimen tyypin ja nopeuden ja valita yhteensopivat jäähdytystuotteet.
+	  </para>
+	  <para>
+	  Huomaa, että osa korvaavista tuotteista toimitetaan sarjoina tai kokoonpanoina. Näissä sarjoissa voi olla asennukseen tarvittavia lisäosia. Nämä osat on lueteltu erikseen tämän sivun Tärkeät tiedot -kohdan komponenttiosissa. Jos tuotettasi ei myydä sarjana tai kokoonpanona, se saattaa edellyttää asennusta helpottavia täydentäviä osia.
+	  </para>
+	  <para>
+	    <stringlookup ref="warrantydetails" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+	  </para>
+	</product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Poistaa tietokoneen lämpöä
+        </point>
+        <point>
+          Pitää järjestelmän lämpötilan turvallisissa rajoissa
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tuotteen tyyppi">
+		Suorittimen lämpönieluyksikkö
+      </product:techspec>
+      <product:techspec id="2" name="Ominaisuudet">
+		Poistaa lämpöä / pitää lämpötilan turvallisissa rajoissa
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
