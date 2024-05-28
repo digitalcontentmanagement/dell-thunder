@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Disipador de calor de <textbox value="180" id="1"/> W o menos CPU<textbox value=",PowerEdge T360" id="2"/> <textbox value="instalación del cliente" id="3"/>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Disipador de calor de <textbox value="180" id="1"/>W o menos CPU<textbox value=", PowerEdge T360" id="2"/> <textbox value="instalación del cliente" id="3"/>
     </product:name>
 
     <product:longdesc>

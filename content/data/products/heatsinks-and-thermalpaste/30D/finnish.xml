@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin Jäähdytyselementti <textbox value="180" id="1"/> W:n tai vähemmän Suorittimen CPU<textbox value=", PowerEdge T360" id="2"/> <textbox value="asiakkaan asennus" id="3"/>
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dellin Jäähdytyselementti <textbox value="180" id="1"/>W:n tai vähemmän Suorittimen CPU<textbox value=", PowerEdge T360" id="2"/> <textbox value="asiakkaan asennus" id="3"/>
     </product:name>
 
     <product:longdesc>

@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="180" id="1"/>瓦 以下的散熱器 CPU <textbox value=", PowerEdge T360" id="2"/> <textbox value="客戶安裝" id="3"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="180" id="1"/>瓦 以下的散熱器 CPU<textbox value=", PowerEdge T360" id="2"/> <textbox value="客戶安裝" id="3"/> 
     </product:name>
 
     <product:longdesc>
