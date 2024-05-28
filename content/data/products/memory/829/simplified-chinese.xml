@@ -9,17 +9,17 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Dell" refid="1"/> <textbox value="5" id="2"/> <dropdownlist refid="controllers-278-unit"/> <textbox value="SD" id="3"/> 卡 <textbox value="-" id="4"/> <dropdownlist id="customer-kit"/>     
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 <textbox value="5" id="2"/> <dropdownlist refid="controllers-278-unit"/> <textbox value="SD" id="3"/> 卡 <textbox value="-" id="4"/> <dropdownlist id="customer-kit"/>     
     </product:name>
     <product:longdesc>
       <para>
-       借助Dell<tm/> 提供的 <textbox value="SD" refid="3"/> 卡，轻松转移和传输重要数据。此款闪存驱动器设计典雅，经久耐用，可满足所有存储需求。
+       借助 戴尔 提供的 <textbox value="SD" refid="3"/> 卡，轻松转移和传输重要数据。此款闪存驱动器设计典雅，经久耐用，可满足所有存储需求。
       </para>
      </product:longdesc>
 	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
       <product:techspec id="1" name="产品品牌">
-        <textbox value="Dell" id="1"/> 
+        戴尔
       </product:techspec>
 	  <product:techspec id="1" name="产品类型">
         Flash 内存 卡 

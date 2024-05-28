@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> <textbox value="Dell" refid="1"/> <textbox value="5" id="2"/> <dropdownlist refid="controllers-278-unit"/> <textbox value="SD" id="3"/> karte <textbox value="-" id="4"/> <dropdownlist id="customer-kit"/>  
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="5" id="2"/> <dropdownlist refid="controllers-278-unit"/> <textbox value="SD" id="3"/> karte <textbox value="-" id="4"/> <dropdownlist id="customer-kit"/>  
     </product:name>
     <product:longdesc>
       <para>
@@ -19,7 +19,7 @@
 	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
       <product:techspec id="1" name="Produktmarke">
-        <textbox value="Dell" id="1"/> 
+        Dell 
       </product:techspec>
 	  <product:techspec id="2" name="Produkttyp">
         Flash Arbeitsspeicher karte
