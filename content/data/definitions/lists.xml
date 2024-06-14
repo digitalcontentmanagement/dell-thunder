@@ -1821,7 +1821,7 @@
     </items>
     <items l:source="german">
       <item>Mb</item>
-      <item>Gbit/s</item>
+      <item>GB</item>
       <item>TB</item>
     </items>
     <items l:source="greek">
@@ -1851,7 +1851,7 @@
     </items>
     <items l:source="polish">
       <item>Mb</item>
-      <item>Gb/s</item>
+      <item>GB</item>
       <item>TB</item>
     </items>
     <items l:source="portugal">
@@ -1876,7 +1876,7 @@
     </items>
     <items l:source="swedish">
       <item>MB</item>
-      <item>Gbit/s</item>
+      <item>GB</item>
       <item>TB</item>
     </items>
     <items l:source="traditional-chinese">
