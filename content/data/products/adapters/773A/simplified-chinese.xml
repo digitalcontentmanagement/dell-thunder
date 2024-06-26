@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 适配器 <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="毫米" id="12"/> <dropdownlist id="barrel-type"/> 交流电源适配器，随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 电源线 <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> 戴尔 <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="毫米" id="12"/> <dropdownlist id="barrel-type"/> 交流电源适配器，随附<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 电源线 <textbox value="- UK" id="8"/>
     </product:name>
 
     <product:longdesc>
