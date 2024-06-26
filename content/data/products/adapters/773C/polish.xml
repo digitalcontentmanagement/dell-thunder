@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-2" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Zasilacz sieciowy <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> firmy Dell
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Koniec z kłopotliwym noszeniem zasilacza z domu do pracy i z powrotem. Problem rozwiązuje dodatkowy zasilacz dołączany do notebooka. Od teraz jeden zasilacz możesz mieć w domu, a drugi w pracy.
+	  </para>
+	  <para>
+	  Zasilacz sieciowy <textbox value="130" refid="1"/>W firmy Dell<tm/> służy do zasilania notebooka firmy Dell<tm/>. 
+	  Zasilacz o mocy <textbox value="130" refid="1"/>W jest w stanie równocześnie dostarczać energię potrzebną do pracy komputera i ładowania akumulatora z gniazdka ściennego. 
+	  Jest sprzedawany w zestawie z przewodem zasilającym o długości <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Moc <textbox value="130" refid="1"/>W wystarczająca do zasilania i ładowania notebooka 
+        </point>
+        <point>
+		Zestaw zawiera przewód zasilający o długości <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
+        </point>
+        <point>
+        Zawiera gumowy pasek ułatwiający prowadzenie kabla i pierścień diod LED na wtyczce prądu stałego
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Oryginalne części marki Dell przechodzą rygorystyczne testy, które prowadzą wykwalifikowani inżynierowie, w celu zapewnienia zgodności i niezawodności działania w komputerze firmy Dell.  
+	  </point>
+	  <point>
+	  Nasz proces kwalifikacyjny umożliwia testowanie i certyfikowanie najnowszych osiągnięć technologii w systemie firmy Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Firma Dell używa podzespołów klasy OEM o wysokiej jakości.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Stosując oryginalne części marki Dell, nie trzeba obawiać się o ważność gwarancji na sprzęt.  
+	  </point>
+	  <point>
+	  Części innych firm niż Dell nie są objęte gwarancją i mogą unieważnić gwarancję na system. 
+	  </point>
+	 
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Nasi doświadczeni pracownicy działu pomocy technicznej odpowiedzą na wszystkie pytania dotyczące rozbudowy z zastosowaniem oryginalnych części marki Dell. 
+	  </point>
+	  <point>
+	  Części zakupione z innych źródeł nie są objęte pomocą firmy Dell.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Cechy i funkcje">
+	  Zawiera wtyczkę z <textbox value="3" id="2"/> bolcami
+      </product:techspec>
+      <product:techspec id="2" name="Typ urządzenia">
+      Zasilacz sieciowy
+      </product:techspec>
+      <product:techspec id="3" name="Dostarczana moc">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  <product:techspec id="4" name="Kabel w zestawie">
+	  Przewód zasilający o długości <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

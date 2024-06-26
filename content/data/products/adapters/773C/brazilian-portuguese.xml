@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-2" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+    <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell conector <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> adaptador CA
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Pare de carregar o seu Carregador de casa para o trabalho. Obtenha um segundo adaptador CA para seu notebook e mantenha um no escritório e um em casa ou para viagens.
+	  </para>
+	  <para>
+	  O Carregador de <textbox value="130" refid="1"/>W da Dell<tm/> foi especialmente criado para atender às necessidades de alimentação de seu notebook Dell<tm/>. 
+	  Com esse adaptador de <textbox value="130" refid="1"/>W, você pode, simultaneamente, manter seu sistema funcionando e recarregar a bateria usando tomadas. 
+	  Ele vem acompanhado de um cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist id="meter-feet-unit"/>.
+	  </para>
+	</product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+        Oferece potência de <textbox value="130" refid="1"/>W, suficiente para alimentar e carregar seu notebook 
+        </point>
+        <point>
+		Vem acompanhado de cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist id="meter-feet-unit"/>
+        </point>
+        <point>
+        Incorpora uma tira de borracha para facilitar a organização dos cabos e um anel de luz de LED no conector CC
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  As peças originais da Dell passam por rigorosos testes realizados por engenheiros qualificados a fim de garantir compatibilidade e confiabilidade no seu sistema Dell.  
+	  </point>
+	  <point>
+	  Nosso processo de qualificação sustentável permite testar e certificar a mais nova tecnologia no seu sistema Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  A Dell usa somente componentes com o padrão de qualidade dos OEMs.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  O uso de peças originais da marca Dell significa que você não precisa se preocupar com a anulação da Garantia de hardware do seu sistema. 
+	  </point>
+	  <point>
+	  Não há cobertura para o uso de peças que não sejam da Dell, e isso poderá anular a garantia do seu sistema. 
+	  </point>
+	
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Nossa experiente equipe de suporte técnico está disponível para responder a qualquer dúvida com relação à atualização das suas peças originais da Dell. 
+	  </point>
+	  <point>
+	  A Dell não oferecerá suporte para peças adquiridas de outras fontes.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Recursos">
+      Inclui plug de <textbox value="3" id="2"/> pinos
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de dispositivo">
+      Carregador
+      </product:techspec>
+      <product:techspec id="3" name="Potência fornecida">
+		<textbox value="130" id="1"/>W
+      </product:techspec>
+	  <product:techspec id="4" name="Cabo incluído">
+	  Cabo de alimentação de <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+  </generic:content>
+</generic:root>

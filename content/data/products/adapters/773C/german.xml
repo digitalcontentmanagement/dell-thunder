@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> Netzadapter
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Jetzt müssen Sie nicht mehr das Netzteil zwischen Büro und Zuhause hin- und hertragen. 
+	  Statten Sie sich mit einem zweiten Netzadapter für Ihr Notebook aus, so haben Sie einen fürs Büro und einen für Zuhause oder unterwegs.
+	  </para>
+	  <para>
+	  Der <textbox value="130" refid="1"/>W Netzadapter von Dell<tm/> ist speziell auf die Erfüllung der Stromanforderungen Ihres Dell<tm/> Notebook ausgelegt. 
+	  Über den leistungsstarken <textbox value="130" refid="1"/>W Netzadapter können Sie Ihr System zum Betrieb und zum gleichzeitigen Aufladen des Akkus an die Stromversorgung anschließen. 
+	  Im Lieferumfang ist ein <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> langes Netzkabel enthalten.
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		<textbox value="130" refid="1"/>W zum gleichzeitigen Betreiben und Aufladen Ihres Notebooks 
+		</point>
+        <point>
+		Im Lieferumfang ist ein <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> langes Netzkabel enthalten
+        </point>
+        <point>
+        Mit Gummiriemen für ein einfaches Kabelmanagement und LED-Leuchtring auf dem Gleichstromanschluss
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Originalteile von Dell werden strengen Tests durch qualifizierte Techniker unterzogen, um Kompatibilität und Zuverlässigkeit in Ihrem Dell System sicherzustellen.  
+	  </point>
+	  <point>
+	  Durch unseren nachhaltigen Qualifizierungsprozess können die neuesten Technologien in Ihrem Dell System getestet und zertifiziert werden.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell verwendet nur Komponenten von OEM-Qualität.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Originalteile von Dell bedeuten, dass Sie sich keine Sorgen zu machen brauchen, den Service für die Hardware Ihres Systems zu verlieren. 
+	  </point>
+	  <point>
+	  Bauteile, die nicht von Dell stammen, sind nicht abgedeckt und machen den Service für Ihr System möglicherweise ungültig. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Unsere erfahrenen Mitarbeiter beim technischen Support beantworten gerne Ihre Fragen zu einem Upgrade auf von Dell zertifizierte Teile. 
+	  </point>
+	  <point>
+	  Bei anderen Anbietern erworbene Teile werden von Dell nicht unterstützt.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Merkmale">
+	  Mit <textbox value="3" id="2"/>poligem Stecker
+      </product:techspec>
+      <product:techspec id="2" name="Gerätetyp">
+      Netzadapter
+      </product:techspec>
+      <product:techspec id="3" name="Stromversorgung">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  <product:techspec id="4" name="Kabel im Lieferumfang enthalten">
+      <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> langes Netzkabel
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

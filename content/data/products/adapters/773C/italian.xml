@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-2" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> Adattatore CA
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Acquista un secondo adattatore CA per il tuo notebook in modo da non doverlo più trasportare avanti e indietro tra casa e ufficio. Lo potrai utilizzare anche in viaggio.
+	  </para>
+	  <para>
+	  L'adattatore CA da <textbox value="130" refid="1"/>W di Dell<tm/> è progettato appositamente per soddisfare i requisiti di alimentazione dei notebook Dell<tm/>. 
+	  Dotato di <textbox value="130" refid="1"/>W di potenza, questo adattatore consente di utilizzare il sistema e caricare contemporaneamente la batteria da prese di alimentazione. 
+	  Viene fornito con cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		<textbox value="130" refid="1"/>W di potenza per utilizzare e ricaricare il notebook 
+        </point>
+        <point>
+		Cavo di alimentazione da <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> incluso 
+        </point>
+        <point>
+        Cinturino in gomma per una facile gestione dei cavi e anello con LED sul connettore CC
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  I componenti a marchio Dell autentici vengono sottoposti a test rigorosi eseguiti da tecnici qualificati per garantirne l'affidabilità e la compatibilità con il sistema Dell. 
+	  </point>
+	  <point>
+	  Il processo di qualifica si basa sull'esecuzione di test e sulla certificazione delle novità tecnologiche nel sistema Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell utilizza solo componenti di qualità OEM.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  I componenti a marchio Dell autentici attestano la garanzia hardware del sistema. 
+	  </point>
+	  <point>
+	  I componenti non Dell non sono coperti e potrebbero invalidare la garanzia del sistema. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Lo staff di esperti del supporto tecnico di Dell è disponibile per rispondere a qualsiasi domanda relativa all'aggiornamento dei componenti a marchio Dell autentici.  
+	  </point>
+	  <point>
+	  Dell non fornisce alcun supporto tecnico per i componenti acquistati presso altri fornitori.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Caratteristiche">
+	  Spina a <textbox value="3" id="2"/> poli inclusa
+      </product:techspec>
+      <product:techspec id="2" name="Tipo di dispositivo">
+      Adattatore CA
+      </product:techspec>
+      <product:techspec id="3" name="Potenza fornita">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  <product:techspec id="4" name="Cavo incluso">
+	  Cavo di alimentazione da <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

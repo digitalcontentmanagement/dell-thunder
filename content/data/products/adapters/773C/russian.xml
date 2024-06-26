@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-2" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Адаптер переменного тока Dell <textbox value="130" refid="1"/>Вт <textbox value="7,4" id="9"/><textbox value="мм" id="12"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Перестаньте носить адаптер переменного тока из дома на работу и обратно. Пусть у вас будет два блока питания для ноутбука, чтобы один оставался в офисе, а вторым вы будете пользоваться дома и в дороге.
+	  </para>
+	  <para>
+	  Адаптер <textbox value="130" refid="1"/>Вт переменного тока Dell<tm/> специально разработан для электропитания ноутбуков Dell<tm/>. 
+	  Благодаря мощности <textbox value="130" refid="1"/>Вт этот адаптер обеспечивает питание вашего компьютера и одновременно заряжает его аккумулятор от розетки электросети. 
+	  Он поставляется с <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> кабелем питания.
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Обеспечивает достаточно мощности <textbox value="130" refid="1"/>Вт для питания и зарядки ноутбука 
+        </point>
+        <point>
+		Поставляется с <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> кабелем питания 
+        </point>
+        <point>
+        Включает резиновый ремень для упрощения укладки кабеля и светодиодное кольцо на разъеме постоянного тока
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Чтобы гарантировать совместимость и высокую надежность подлинных деталей Dell в системах этой компании, квалифицированные инженеры проводят тщательное тестирование этих деталей. 
+	  </point>
+	  <point>
+	  Наш неизменно строгий процесс отбора позволяет осуществлять тестирование и сертификацию новейших технологий для систем Dell.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Корпорация Dell использует только высококачественные компоненты OEM-класса.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Подлинность деталей Dell означает, что вам не придется беспокоиться о действительности гарантии на оборудование вашей системы. 
+	  </point>
+	  <point>
+	  На детали сторонних изготовителей не распространяется гарантия, и их наличие может привести к аннулированию гарантии на систему. 
+	  </point>
+	  
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Наши опытные специалисты из службы технической поддержки всегда готовы ответить на любые вопросы, касающиеся модернизации подлинных деталей Dell. 
+	  </point>
+	  <point>
+	  На детали, приобретенные у сторонних изготовителей, не распространяется поддержка Dell.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Функции">
+	  Включает <textbox value="3" id="2"/> контактную вилку питания
+      </product:techspec>
+      <product:techspec id="2" name="Тип устройства">
+      Адаптер переменного тока
+      </product:techspec>
+      <product:techspec id="3" name="Уровень мощности">
+	  <textbox value="130" id="1"/>Вт
+      </product:techspec>
+	  <product:techspec id="4" name="Кабель входит в комплект поставки">
+      <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> Кабель питания
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

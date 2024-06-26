@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-2" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> ACアダプタ
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  自宅からオフィスへ、オフィスから自宅へ、ACアダプタをそのつど持ち運ぶのは大変です。 ノートパソコン用ACアダプタをもう1台購入し、1つはオフィスで、もう1つは自宅や外出先で使いましょう。
+	  </para>
+	  <para>
+	  デル<tm/>の<textbox value="130" refid="1"/>W ACアダプタは、お使いのデル<tm/>のノートパソコンの電力要件に合わせて特別に設計されています。 
+	  このアダプタには<textbox value="130" refid="1"/>W 電源が搭載され、コンセントに接続すると、システムを使用しながらバッテリを充電できます。 
+	  <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 源コードが付属しています。
+	  </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		<textbox value="130" refid="1"/>W の電源供給 - ノートパソコンの電源用および充電用 
+        </point>
+        <point>
+		<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源コードが付属 
+        </point>
+        <point>
+        ケーブル管理が容易になるゴム製ストラップが付属。DCコネクタにLEDライトを使用
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  正規のデル製パーツは、資格を持ったエンジニアが厳しいテストを行い、お客様のデル製システムの互換性と信頼性を確保します。  
+	  </point>
+	  <point>
+	  デルの継続的な適正確認プロセスにより、デル製システムに搭載された最新技術のテストおよび認証が可能です。
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  デルは、OEMグレードの高品質なコンポーネントだけを使用しています。
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  正規のデル製パーツであれば、システムのハードウェア保証が無効になる心配はありません。  
+	  </point>
+	  <point>
+	  非デル製パーツは保証の対象外のため、システムの保証が適用されない場合があります。 
+	  </point>
+	 </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  デルの経験豊富なテクニカルサポートスタッフが、正規のデル製パーツのアップグレードに関する質問に対応します。 
+	  </point>
+	  <point>
+	  デル製以外のパーツのサポートは行っておりません。
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="機能">
+	  <textbox value="3" id="2"/>ピンプラグ付き
+      </product:techspec>
+      <product:techspec id="2" name="デバイスタイプ">
+      ACアダプタ
+      </product:techspec>
+      <product:techspec id="3" name="提供電源">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  <product:techspec id="4" name="付属ケーブル">
+	  <textbox value="6" id="3"/><dropdownlist refid="meter-feet-unit"/> 電源コード
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
