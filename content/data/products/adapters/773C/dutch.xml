@@ -19,7 +19,7 @@
 	  <para>
 	  De <textbox value="130" refid="1"/>W wisselstroomadapter van Dell<tm/> is speciaal ontworpen voor de stroombehoeften van uw Dell<tm/> laptop. 
 	  Met het vermogen van <textbox value="130" refid="1"/>W kunt u met deze adapter uw systeem via een stopcontact van stroom voorzien en tegelijkertijd de batterij opladen. 
-	  Wordt geleverd met een voedingskabel van <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	 
 	  </para>
 	</product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -28,9 +28,7 @@
         <point>
 		Levert <textbox value="130" refid="1"/>W wat voldoende is voor uw laptop en om de batterij op te laden 
         </point>
-        <point>
-		Wordt geleverd met een stroomkabel van <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
-        </point>
+        
         <point>
         Uitgerust met een rubberen riem voor eenvoudig kabelbeheer en een led-ring op de gelijkstroomconnector
         </point>
@@ -73,18 +71,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Kenmerken">
-	  Inclusief <textbox value="3" id="2"/>-pins stekker
-      </product:techspec>
-      <product:techspec id="2" name="Type apparaat">
+      
+      <product:techspec id="1" name="Type apparaat">
       Wisselstroomadapter
       </product:techspec>
-      <product:techspec id="3" name="Geleverd vermogen">
+      <product:techspec id="2" name="Geleverd vermogen">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="Kabel meegeleverd">
-	  Voedingskabel van <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

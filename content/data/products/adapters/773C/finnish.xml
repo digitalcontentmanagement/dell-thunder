@@ -19,7 +19,7 @@
 	  <para>
 	  <textbox value="130" refid="1"/>W Dell<tm/>-verkkolaite on suunniteltu kannettavan Dell<tm/>-tietokoneen virransyöttötarpeisiin. 
 	  Verkkolaite tarjoaa tehoa <textbox value="130" refid="1"/>W, jonka avulla voit samanaikaisesti käyttää järjestelmää ja ladata sen akkua sähköpistorasiasta. 
-	  Sen mukana toimitetaan <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>-virtajohto.
+	 
 	  </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -28,9 +28,7 @@
         <point>
 		Tehoa <textbox value="130" refid="1"/>W riittävästi kannettavan tietokoneen käyttämiseen ja lataamiseen 
         </point>
-        <point>
-		Mukana toimitetaan <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>-virtajohto 
-        </point>
+        
         <point>
         Sisältää kaapelien hallintaa helpottavan kumihihnan sekä virtaliittimen LED-valorenkaan
         </point>
@@ -73,18 +71,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Ominaisuudet">
-	  Sisältää <textbox value="3" id="2"/>-piikkisen liittimen
-      </product:techspec>
-      <product:techspec id="2" name="Laitetyyppi">
+      
+      <product:techspec id="1" name="Laitetyyppi">
       Verkkolaite
       </product:techspec>
-      <product:techspec id="3" name="Teho">
+      <product:techspec id="2" name="Teho">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="Kaapeli sisältyy toimitukseen">
-	  <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>-Virtajohto
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

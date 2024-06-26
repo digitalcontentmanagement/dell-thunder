@@ -19,7 +19,7 @@
 	  <para>
 	  L’adaptateur CA <textbox value="130" refid="1"/>W de Dell<tm/> est spécialement conçu pour répondre aux besoins de votre ordinateur portable Dell<tm/>. 
 	  Avec une puissance de <textbox value="130" refid="1"/>W, cet adaptateur vous permet d’exécuter votre système et de charger sa batterie simultanément à partir de prises de courant électriques. 
-	  Il est fourni avec un cordon d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -28,9 +28,7 @@
         <point>
 		Offre les <textbox value="130" refid="1"/>W nécessaires pour alimenter et charger votre ordinateur portable 
         </point>
-        <point>
-		Fourni avec un cordon d’alimentation de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
-        </point>
+        
         <point>
         Équipé d’une sangle en caoutchouc pour faciliter la gestion des câbles et d’un anneau LED lumineux sur le connecteur CC
         </point>
@@ -73,18 +71,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Fonctionnalités">
-	  Inclut une prise à <textbox value="3" id="2"/> broches
-      </product:techspec>
-      <product:techspec id="2" name="Type d’appareil">
+      
+      <product:techspec id="1" name="Type d’appareil">
       Adaptateur CA
       </product:techspec>
-      <product:techspec id="3" name="Alimentation fournie">
+      <product:techspec id="2" name="Alimentation fournie">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="Câble inclus">
-	  Cordon d’alimentation de <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

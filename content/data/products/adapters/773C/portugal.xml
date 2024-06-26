@@ -19,7 +19,7 @@
 	  <para>
 	  O Adaptador CA de <textbox value="130" refid="1"/>W da Dell<tm/> foi especialmente concebido para satisfazer as necessidades em termos de energia do seu computador portátil Dell<tm/>. 
 	  Equipado com <textbox value="130" refid="1"/>W de energia, este adaptador permite-lhe trabalhar simultaneamente com o sistema e carregar a respectiva bateria a partir de tomadas de energia eléctrica. 
-	  É fornecido com o cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -27,9 +27,6 @@
 	  <points>
         <point>
 		Inclui energia de <textbox value="130" refid="1"/>W suficiente para alimentar e carregar o seu computador portátil 
-        </point>
-        <point>
-		Fornecido com um cabo de alimentação de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 
         </point>
         <point>
         Inclui uma tira de borracha para facilitar a gestão do cabo e um anel de luz LED no conector CC
@@ -72,18 +69,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Funcionalidades">
-	  Inclui uma ficha de <textbox value="3" id="2"/> pinos
-      </product:techspec>
-      <product:techspec id="2" name="Tipo de dispositivo">
+      
+      <product:techspec id="1" name="Tipo de dispositivo">
       Adaptador CA
       </product:techspec>
-      <product:techspec id="3" name="Energia fornecida">
+      <product:techspec id="2" name="Energia fornecida">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="Cabo incluído">
-	  Cabo de alimentação de <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

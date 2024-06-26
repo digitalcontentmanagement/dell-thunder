@@ -19,7 +19,7 @@
 	  <para>
 	  이 Dell<tm/> <textbox value="130" refid="1"/>W AC 어댑터는 Dell<tm/> 노트북의 전원 요구 사항을 충족하도록 특별히 설계되었습니다. 
 	  전력 공급량이 충분하여 <textbox value="130" refid="1"/>W 전원 콘센트에 어댑터를 연결하면 배터리를 충전하는 동시에 시스템을 사용할 수 있습니다. 
-	  이 제품은 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 전원 코드와 함께 번들로 제공됩니다.
+	  
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -28,9 +28,7 @@
         <point>
 		노트북을 사용하면서 동시에 충전하는 데 충분한 <textbox value="130" refid="1"/>W 성능 제공 
         </point>
-        <point>
-		<textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 전원 코드를 번들로 제공 
-        </point>
+        
         <point>
         간편한 통합 케이블 관리 및 고무 스트랩을 사용하거나 DC 커넥터 LED 표시등이 링
         </point>
@@ -72,18 +70,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="특징">
-	  <textbox value="3" id="2"/>단자 플러그 포함
-      </product:techspec>
-      <product:techspec id="2" name="장치 유형">
+      
+      <product:techspec id="1" name="장치 유형">
       AC 어댑터
       </product:techspec>
-      <product:techspec id="3" name="공급 전원">
+      <product:techspec id="2" name="공급 전원">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="케이블 포함">
-	  <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> 전원 코드
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

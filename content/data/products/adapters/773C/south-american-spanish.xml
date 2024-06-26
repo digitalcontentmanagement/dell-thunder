@@ -19,7 +19,7 @@
 	  <para>
 	  El adaptador de CA <textbox value="130" refid="1"/>W de Dell<tm/> está especialmente diseñado para satisfacer las necesidades de alimentación de su laptop Dell<tm/>. 
 	  Con una alimentación de <textbox value="130" refid="1"/>W, este adaptador le permite operar simultáneamente su sistema y cargar la batería desde toma de alimentación eléctrica. 
-	  Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	 
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -28,9 +28,7 @@
         <point>
 		Ofrece una potencia suficiente de <textbox value="130" refid="1"/>W para alimentar y cargar su laptop
         </point>
-        <point>
-		Incluye un cable de alimentación de <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
-        </point>
+        
         <point>
         Incluye una cinta de goma para un manejo fácil de los cables, además de un anillo de luz LED en el conector de CC
         </point>
@@ -73,18 +71,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Características">
-	  Incluye enchufe de <textbox value="3" id="2"/> clavijas.
-      </product:techspec>
-      <product:techspec id="2" name="Tipo de dispositivo">
+      
+      <product:techspec id="1" name="Tipo de dispositivo">
       Adaptador de CA
       </product:techspec>
-      <product:techspec id="3" name="Alimentación suministrada">
+      <product:techspec id="2" name="Alimentación suministrada">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="Incluye el cable">
-	  Cable de alimentación de <textbox value="6" id="3"/><dropdownlist refid="meter-feet-unit"/>
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

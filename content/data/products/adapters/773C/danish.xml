@@ -19,7 +19,7 @@
 	  <para>
 	  <textbox value="130" refid="1"/>W AC-adapter fra Dell<tm/> er specielt strømkravene for din bærbare Dell<tm/>–pc. 
 	  Med <textbox value="130" refid="1"/>W strøm giver denne adapter dig mulighed for at betjene dit system og oplade batteriet via stikkontakter samtidigt. 
-	  Den leveres med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> netledning.
+	 
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -27,9 +27,6 @@
 	  <points>
         <point>
 		Giver din bærbare computer <textbox value="130" refid="1"/>W tilstrækkelig strøm og opladning 
-        </point>
-        <point>
-		Leveres sammen med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> netledning 
         </point>
         <point>
         Med en gummistrop til nem kabelhåndtering og en LED-indikatorring på DC-stikket
@@ -73,18 +70,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Funktioner">
-	  Omfatter <textbox value="3" id="2"/> stikben og Plug
-      </product:techspec>
-      <product:techspec id="2" name="Enhedstype">
+      
+      <product:techspec id="1" name="Enhedstype">
       AC-adapter
       </product:techspec>
-      <product:techspec id="3" name="Strømforsyning">
+      <product:techspec id="2" name="Strømforsyning">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="kabel medfølger">
-      <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> netledning
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

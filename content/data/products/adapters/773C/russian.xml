@@ -19,7 +19,7 @@
 	  <para>
 	  Адаптер <textbox value="130" refid="1"/>Вт переменного тока Dell<tm/> специально разработан для электропитания ноутбуков Dell<tm/>. 
 	  Благодаря мощности <textbox value="130" refid="1"/>Вт этот адаптер обеспечивает питание вашего компьютера и одновременно заряжает его аккумулятор от розетки электросети. 
-	  Он поставляется с <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> кабелем питания.
+	  
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -28,9 +28,7 @@
         <point>
 		Обеспечивает достаточно мощности <textbox value="130" refid="1"/>Вт для питания и зарядки ноутбука 
         </point>
-        <point>
-		Поставляется с <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> кабелем питания 
-        </point>
+        
         <point>
         Включает резиновый ремень для упрощения укладки кабеля и светодиодное кольцо на разъеме постоянного тока
         </point>
@@ -73,18 +71,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Функции">
-	  Включает <textbox value="3" id="2"/> контактную вилку питания
-      </product:techspec>
-      <product:techspec id="2" name="Тип устройства">
+      
+      <product:techspec id="1" name="Тип устройства">
       Адаптер переменного тока
       </product:techspec>
-      <product:techspec id="3" name="Уровень мощности">
+      <product:techspec id="2" name="Уровень мощности">
 	  <textbox value="130" id="1"/>Вт
       </product:techspec>
-	  <product:techspec id="4" name="Кабель входит в комплект поставки">
-      <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> Кабель питания
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

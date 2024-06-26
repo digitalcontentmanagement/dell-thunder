@@ -19,7 +19,7 @@
 	  <para>
 	  Zasilacz sieciowy <textbox value="130" refid="1"/>W firmy Dell<tm/> służy do zasilania notebooka firmy Dell<tm/>. 
 	  Zasilacz o mocy <textbox value="130" refid="1"/>W jest w stanie równocześnie dostarczać energię potrzebną do pracy komputera i ładowania akumulatora z gniazdka ściennego. 
-	  Jest sprzedawany w zestawie z przewodem zasilającym o długości <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -27,9 +27,6 @@
 	  <points>
         <point>
 		Moc <textbox value="130" refid="1"/>W wystarczająca do zasilania i ładowania notebooka 
-        </point>
-        <point>
-		Zestaw zawiera przewód zasilający o długości <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
         </point>
         <point>
         Zawiera gumowy pasek ułatwiający prowadzenie kabla i pierścień diod LED na wtyczce prądu stałego
@@ -73,18 +70,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Cechy i funkcje">
-	  Zawiera wtyczkę z <textbox value="3" id="2"/> bolcami
-      </product:techspec>
-      <product:techspec id="2" name="Typ urządzenia">
+      
+      <product:techspec id="1" name="Typ urządzenia">
       Zasilacz sieciowy
       </product:techspec>
-      <product:techspec id="3" name="Dostarczana moc">
+      <product:techspec id="2" name="Dostarczana moc">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="Kabel w zestawie">
-	  Przewód zasilający o długości <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 

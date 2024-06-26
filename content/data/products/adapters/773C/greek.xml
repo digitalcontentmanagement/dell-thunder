@@ -20,7 +20,7 @@
 	  <para>
 	  Ο προσαρμογέας AC <textbox value="130" refid="1"/>W από την Dell<tm/> είναι ειδικά σχεδιασμένος, ώστε να καλύπτει τις ανάγκες τροφοδοσίας του δικού σας φορητού υπολογιστή Dell<tm/>. 
 	  Με ισχύ <textbox value="130" refid="1"/>W, αυτός ο προσαρμογέας σάς επιτρέπει να χρησιμοποιείτε το σύστημά σας και ταυτόχρονα να φορτίζετε την μπαταρία του από παροχές ηλεκτρικού ρεύματος. 
-	  Διατίθεται με καλώδιο τροφοδοσίας <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>.
+	  
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -29,9 +29,7 @@
         <point>
 		Προσφέρει ισχύ <textbox value="130" refid="1"/>W, αρκετή για να τροφοδοτήσει και να φορτίσει το φορητό σας υπολογιστή 
         </point>
-        <point>
-		Διατίθεται με καλώδιο τροφοδοσίας <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/>
-        </point>
+        
         <point>
         Περιλαμβάνει ελαστικό λουρί για εύκολη διαχείριση των καλωδίων, καθώς και φωτεινή ένδειξη LED σε σχήμα δακτυλίου στην υποδοχή DC
         </point>
@@ -73,18 +71,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Χαρακτηριστικά">
-	  Περιλαμβάνει βύσμα <textbox value="3" id="2"/> ακίδων
-      </product:techspec>
-      <product:techspec id="2" name="Τύπος συσκευής">
+      
+      <product:techspec id="1" name="Τύπος συσκευής">
       Προσαρμογέας AC
       </product:techspec>
-      <product:techspec id="3" name="Παρεχόμενη ισχύς">
+      <product:techspec id="2" name="Παρεχόμενη ισχύς">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="Καλώδιο που περιλαμβάνεται">
-	  Καλώδιο τροφοδοσίας <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/>
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 
