@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> DellWireless<textbox value="5560" id="1"/> <textbox value="HSPA+" id="2"/>移动宽带迷你卡
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Wireless<textbox value="5560" id="1"/> <textbox value="HSPA+" id="2"/>移动宽带迷你卡
     </product:name>
 
     <product:longdesc>
