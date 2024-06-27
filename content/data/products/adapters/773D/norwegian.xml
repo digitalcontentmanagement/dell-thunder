@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-2" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W <dropdownlist id="barrel-type"/> strømadapter
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Nå trenger du ikke lenger å dra strømadapteren frem og tilbake mellom kontoret og hjemmet. Du kan skaffe en ekstra strømadapter til den bærbare PC-en og ha en hjemme eller på reise.
+	  </para>
+	  <para>
+	  <textbox value="130" refid="1"/>W AC-adapteren fra Dell<tm/> er spesielt utformet for å dekke strømbehovet til din Dell<tm/> bærbare PC. 
+	  Med denne adapteren på <textbox value="130" refid="1"/>W kan du bruke datamaskinen og samtidig lade batteriet fra en stikkontakt. 
+	  
+      </para>
+	</product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Har <textbox value="130" refid="1"/>W nok til å drive og lade en bærbar PC 
+        </point>
+        
+        <point>
+		Med gummistropp for enkel kabelhåndtering og LED-lys på strømkontakten
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Ekte Dell-deler testes grundig av kvalifiserte teknikere for å sikre at de er kompatible og fungerer i Dell-systemer. 
+	  </point>
+	  <point>
+	  I Dells kontinuerlige kvalifiseringsprosess blir den nyeste teknologien testet og sertifisert for Dell-systemer.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell bruker utelukkende deler av OEM-kvalitet.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Ekte Dell-deler betyr at du ikke trenger å bekymre deg for systemets maskinvaregaranti. 
+	  </point>
+	  <point>
+	  Uoriginale deler dekkes ikke, og kan føre til at garantien blir ugyldig. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Våre erfarne ansatte i Dells tekniske støtte svarer på ethvert spørsmål knyttet til oppgradering av ekte Dell-deler. 
+	  </point>
+	  <point>
+	  Deler som kjøpes fra andre kilder, er ikke dekket av Dells støtte.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Enhetstype">
+      Strømadapter
+      </product:techspec>
+      <product:techspec id="2" name="Strømytelse">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

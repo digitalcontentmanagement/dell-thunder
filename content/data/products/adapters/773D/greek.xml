@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-2" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W <dropdownlist id="barrel-type"/> Προσαρμογέας AC
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  Σταματήστε να μεταφέρετε συνεχώς τον προσαρμογέα AC από το σπίτι στο γραφείο και το αντίστροφο. 
+	  Αγοράστε έναν δεύτερο προσαρμογέα AC για το φορητό σας υπολογιστή και κρατήστε τον ένα στο γραφείο και τον άλλο στο σπίτι ή για τα ταξίδια σας.
+	  </para>
+	  <para>
+	  Ο προσαρμογέας AC <textbox value="130" refid="1"/>W από την Dell<tm/> είναι ειδικά σχεδιασμένος, ώστε να καλύπτει τις ανάγκες τροφοδοσίας του δικού σας φορητού υπολογιστή Dell<tm/>. 
+	  Με ισχύ <textbox value="130" refid="1"/>W, αυτός ο προσαρμογέας σάς επιτρέπει να χρησιμοποιείτε το σύστημά σας και ταυτόχρονα να φορτίζετε την μπαταρία του από παροχές ηλεκτρικού ρεύματος. 
+	  
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		Προσφέρει ισχύ <textbox value="130" refid="1"/>W, αρκετή για να τροφοδοτήσει και να φορτίσει το φορητό σας υπολογιστή 
+        </point>
+        
+        <point>
+        Περιλαμβάνει ελαστικό λουρί για εύκολη διαχείριση των καλωδίων, καθώς και φωτεινή ένδειξη LED σε σχήμα δακτυλίου στην υποδοχή DC
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  Τα αυθεντικά ανταλλακτικά Dell υποβάλλονται σε αυστηρές δοκιμές από εξειδικευμένους μηχανικούς για τη διασφάλιση της συμβατότητας και της αξιοπιστίας στο σύστημα Dell που διαθέτετε.  
+	  </point>
+	  <point>
+	  Η σταθερή διαδικασία κάλυψης των προϋποθέσεων επιτρέπει τον έλεγχο και την πιστοποίηση της νεότερης τεχνολογίας στο σύστημα Dell που διαθέτετε.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Η Dell χρησιμοποιεί μόνο εξαρτήματα ποιότητας επιπέδου OEM.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  Τα αυθεντικά ανταλλακτικά Dell διασφαλίζουν ότι δεν θα ανησυχείτε για τυχόν ακύρωση της εγγύησης υλικού του συστήματός σας. 
+	  </point>
+	  <point>
+	  Τα εξαρτήματα που δεν είναι Dell δεν καλύπτονται και ενδέχεται να ακυρώσουν την εγγύηση του συστήματός σας. 
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  Το έμπειρο προσωπικό μας για την τεχνική υποστήριξη είναι πάντοτε έτοιμο να απαντήσει σε τυχόν ερωτήσεις σχετικά με την αναβάθμιση των πιστοποιημένων ανταλλακτικών Dell που διαθέτετε. 
+	  </point>
+	  <point>
+	  Τα εξαρτήματα που έχουν αγοραστεί από άλλες πηγές δεν θα υποστηρίζονται από την Dell.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Τύπος συσκευής">
+      Προσαρμογέας AC
+      </product:techspec>
+      <product:techspec id="2" name="Παρεχόμενη ισχύς">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

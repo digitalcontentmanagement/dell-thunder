@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2025-5-2" />
+    <meta:creator value="Dzulhimi"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> 交流整流器，附 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源線 <textbox value="- UK" id="8"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  不必帶著交流整流器在家與辦公室之間來回奔波。 為筆記型電腦準備第 2 個交流整流器，一個放在辦公室，另一個供居家或旅行使用。
+	  </para>
+	  <para>
+	  這款 Dell<tm/> <textbox value="130" refid="1"/>W 交流整流器是專為 Dell<tm/> 筆記型電腦的電源需求而設計的。 
+	  這款整流器可提供 <textbox value="130" refid="1"/>W 電力，只要插上電源插座，就能一面操作系統，一面為電池充電。
+	   內附 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源線。
+	  </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		提供 <textbox value="130" refid="1"/>W 電力，足以同時為筆記型電腦供電並充電 
+        </point>
+        <point>
+		內附 <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> 電源線 
+        </point>
+        <point>
+        內含方便您管理纜線的橡膠固定帶，直流電源連接器上還附有一個 LED 燈環
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  正版 Dell 品牌零件都通過合格工程師的嚴格測試，以確保零件在 Dell 系統中的相容性和穩定性。 
+	  </point>
+	  <point>
+	  我們的持續性資格審核程序讓最新技術可以在 Dell 系統上進行測試和驗證。
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell 僅使用 OEM 級品質的元件。
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  正版 Dell 品牌零件代表您不需要擔心系統硬體保固失效。 
+	  </point>
+	  <point>
+	  保固不包含非 Dell 零件，且這類零件可能使系統保固失效。  
+	  </point>
+	 </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  經驗豐富的技術支援人員可為您解答任何正版 Dell 品牌零件升級的相關問題。 
+	  </point>
+	  <point>
+	  由其他來源所購買的零件，將無法獲得 Dell 支援。
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="功能">
+	  包含<textbox value="3" id="2"/>插式插頭
+      </product:techspec>
+      <product:techspec id="2" name="裝置類型">
+      交流整流器
+      </product:techspec>
+      <product:techspec id="3" name="供電量">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  <product:techspec id="4" name="隨附纜線">
+      <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> 電源線
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

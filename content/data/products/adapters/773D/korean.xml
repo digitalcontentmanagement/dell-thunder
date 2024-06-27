@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Adapter</meta:title>
+    <meta:date value="2024-5-2" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="130" refid="1"/>W <dropdownlist id="barrel-type"/> AC 어댑터
+    </product:name>
+
+    <product:longdesc>
+      <para>
+	  집과 회사 사이를 오고 갈 때 더 이상 AC 어댑터를 챙길 필요가 없습니다. 노트북용 보조 AC 어댑터를 구입하면 하나는 회사에 두고 사용하면서 다른 하나는 가정에서 또는 여행용으로 사용할 수 있습니다.
+	  </para>
+	  <para>
+	  이 Dell<tm/> <textbox value="130" refid="1"/>W AC 어댑터는 Dell<tm/> 노트북의 전원 요구 사항을 충족하도록 특별히 설계되었습니다. 
+	  전력 공급량이 충분하여 <textbox value="130" refid="1"/>W 전원 콘센트에 어댑터를 연결하면 배터리를 충전하는 동시에 시스템을 사용할 수 있습니다. 
+	  
+      </para>
+    </product:longdesc>
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+	  <points>
+        <point>
+		노트북을 사용하면서 동시에 충전하는 데 충분한 <textbox value="130" refid="1"/>W 성능 제공 
+        </point>
+        
+        <point>
+        간편한 통합 케이블 관리 및 고무 스트랩을 사용하거나 DC 커넥터 LED 표시등이 링
+        </point>
+      </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	  정품 Dell 브랜드 부품은 Dell 시스템에서의 호환성과 안정성을 보장하기 위해 자격을 갖춘 엔지니어의 엄격한 테스트를 거칩니다. 
+	  </point>
+	  <point>
+	  Dell의 지속적인 평가 프로세스를 통해 고객의 Dell 시스템에 항상 최신 기술을 제공할 수 있도록 테스트 및 인증을 받을 수 있습니다.
+	  </point>
+	  </points>
+	  <points title="@string(quality)">
+	  <point>
+	  Dell은 OEM급 품질의 부품만 사용합니다.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3"/>
+	  </point>
+	  <point>
+	  정품 Dell 브랜드 부품은 시스템의 하드웨어 무상수리와 별개로 보장받을 수 있습니다. 
+	  </point>
+	  <point>
+	  타사 부품은 시스템 무상수리가 되지 않을 수 있습니다. 
+	  </point>
+	 </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	  풍부한 경험을 보유한 Dell의 기술 지원 전문가가 정품 Dell 브랜드 부품 업그레이드와 관련된 모든 궁금증을 해결해 드립니다. 
+	  </point>
+	  <point>
+	  타사에서 구입한 부품은 지원되지 않습니다.
+	  </point>
+	  </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+     
+      <product:techspec id="1" name="장치 유형">
+      AC 어댑터
+      </product:techspec>
+      <product:techspec id="2" name="공급 전원">
+	  <textbox value="130" id="1"/>W
+      </product:techspec>
+	  
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
