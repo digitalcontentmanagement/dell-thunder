@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell nätadapter på <textbox value="130" refid="1"/>W <textbox value="7,4" id="9"/><textbox value="mm" id="12"/> <dropdownlist id="barrel-type"/> och <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd <textbox value="- UK" id="8"/>
+	<stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell nätadapter på <textbox value="130" refid="1"/>W <dropdownlist id="barrel-type"/>
     </product:name>
 
     <product:longdesc>
@@ -18,8 +18,8 @@
 	  </para>
 	  <para>
 	  Nätadaptern från Dell<tm/> på <textbox value="130" refid="1"/>W är specialutformad för att uppfylla prestandabehoven på din bärbara Dell<tm/>-dator. 
-	  Med den här nätadaptern på <textbox value="130" refid="1"/>W kan du använda datorn samtidigt som du laddar batteriet från ett eluttag. 
-	  Den levereras med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd.
+	  
+	  
       </para>
     </product:longdesc>
     <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
@@ -27,9 +27,6 @@
 	  <points>
         <point>
 		Ger <textbox value="130" refid="1"/>W, vilket räcker till att köra datorn och ladda batteriet samtidigt
-        </point>
-        <point>
-		Levereras med <textbox value="6" refid="3"/><dropdownlist refid="meter-feet-unit"/> nätsladd 
         </point>
         <point>
         Ett gummiband medföljer så att du lätt kan hålla reda på sladden och det finns även en lysdiodsring på likströmskontakten
@@ -73,18 +70,14 @@
     <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
     <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
     <product:techspecs>
-      <product:techspec id="1" name="Egenskaper">
-	  Kontakt med <textbox value="3" id="2"/> stift
-      </product:techspec>
-      <product:techspec id="2" name="Enhetstyp">
+      
+      <product:techspec id="1" name="Enhetstyp">
       Nätadapter
       </product:techspec>
-      <product:techspec id="3" name="Strömförsörjning">
+      <product:techspec id="2" name="Strömförsörjning">
 	  <textbox value="130" id="1"/>W
       </product:techspec>
-	  <product:techspec id="4" name="Kabel medföljer">
-      <textbox value="6" id="3"/><dropdownlist id="meter-feet-unit"/> nätsladd
-      </product:techspec>
+	  
     </product:techspecs>
     <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
 
