@@ -14,8 +14,9 @@
 
     <product:longdesc>
       <para>
-       借助戴尔提供的 <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 固态硬盘，可充分提高Dell<tm/>系统的存储容量。
-        这款硬盘具有最高可达 <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 的存储容量，可帮助用户存储海量数据。
+       借助戴尔提供的 <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 固态硬盘，可充分提高Dell<tm/>系统的存储容量。 
+       这款硬盘具有最高可达 <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 的存储容量，可帮助用户存储海量数据。
+      </para>
       <para>
         <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
         <points>
