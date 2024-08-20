@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Data center NVME</meta:title>
+    <meta:date value="2024-8-19" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> Data Center <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-728"/> AG Drive <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> Flex Bay with Hybrid Carrier
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Increase the storage capacity of your Dell<tm/> System with <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> Solid State Drive from Dell. 
+        It boasts a storage capacity of up to <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/>, enabling users to store large amounts of data. 
+      </para>
+      <para>
+		<b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+		<points>
+			<point><stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/></point>
+		</points>
+	  </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Offers up to <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> storage capacity
+        </point>
+        <point>
+          Equipped with <dropdownlist refid="hdd-interface-type"/> interface which delivers high data transfer rate
+        </point>
+        <point>
+          Solid State design offers ruggedness and fast data access
+        </point>
+      </points>
+      <points title="Benefits of SSD over spin drives:">
+        <point>
+          More Durable: Feature a non-mechanical design of NAND flash mounted on circuit boards and are more shock resistant.
+        </point>
+        <point>
+          Faster: Faster data access, boot ups, file transfers, and an overall quicker computing experience than hard drives.
+        </point>
+        <point>
+          Quieter: Run at near silent operation unlike loud, whirring hard disc drives.
+        </point>
+        <point>
+          Lighter: Flash-based SSDs weigh considerably less.
+        </point>
+        <point>
+          Cooler: SSDs require little power to operate, resulting in less heat output by your system.
+        </point>
+        <point>
+          More Efficient: Consume less power at peak load.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Device Type">
+        Hard Drive
+      </product:techspec>
+      <product:techspec id="2" name="Formatted Capacity">
+        <textbox value="1.6" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Interface Type">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="4" name="Type">
+        Solid State
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

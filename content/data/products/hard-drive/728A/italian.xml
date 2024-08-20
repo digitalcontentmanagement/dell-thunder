@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Data Center NVME</meta:title>
+    <meta:date value="2024-8-19" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Unità <dropdownlist refid="hdd-interface-type"/>  a <dropdownlist refid="hard-drive-728"/> per data center da <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> AG Drive <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> Flex Bay con supporto ibrido
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Il unità a stato solido <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> consente di aumentare la capacità di storage del sistema Dell<tm/> in uso. 
+        Vanta una capacità di storage massima di <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, consentendo agli utenti di memorizzare grandi quantità di dati. 
+        
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Offre una capacità di storage fino a <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          È dotato di un'interfaccia <dropdownlist refid="hdd-interface-type"/> che fornisce elevate velocità di trasferimento dei dati
+        </point>
+        <point>
+          Grazie al design a stato solido, offre resistenza e rapido accesso ai dati.
+        </point>
+      </points>
+
+      <points title="Vantaggi delle unità SSD rispetto ai dischi rigidi tradizionali:">
+        <point>
+          Più resistenti: hanno una progettazione non meccanica di flash NAND montata su circuiti stampati e sono più resistenti agli urti.
+        </point>
+        <point>
+          Più veloci: accesso ai dati, avvio, trasferimento di file più rapidi e un'esperienza di elaborazione globale più veloce rispetto ai dischi rigidi.
+        </point>
+        <point>
+          Più silenziose: funzionano quasi in totale silenzio, a differenza dei rumorosi e ronzanti dischi rigidi.
+        </point>
+        <point>
+          Più leggere: le unità SSD basate su Flash pesano molto meno.
+        </point>
+        <point>
+          Minore surriscaldamento: le unità SSD comportano un minore consumo energetico, riducendo così il calore emesso dal sistema.
+        </point>
+        <point>
+          Più efficienti: consumano meno energia nei picchi del carico di lavoro.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+     
+      <product:techspec id="1" name="Tipo di dispositivo">
+        Disco rigido
+      </product:techspec>
+      
+      <product:techspec id="2" name="Capacità formattata">
+        <textbox value="1,6" id="3"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Tipo di interfaccia">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="4" name="Tipo">
+        Stato solido
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

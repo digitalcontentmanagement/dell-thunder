@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>DataCenter NVME</meta:title>
+    <meta:date value="2024-8-19" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> Data Center <dropdownlist refid="hdd-interface-type"/> <dropdownlist refid="hard-drive-728"/> AG-disk <textbox value="4" id="11"/>. generasjons <textbox value="U.2" id="10"/> Flex Bay med hybridtransportør
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Øk lagringskapasiteten for Dell<tm/>-systemet med <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> SSD-disk fra Dell. 
+        Lagringskapasiteten er på opptil <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, som gir brukerne plass til store mengder data. 
+        
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Gir opptil <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> lagringskapasitet
+        </point>
+        <point>
+          <dropdownlist refid="hdd-interface-type"/>-grensesnitt gir høy dataoverføringshastighet
+        </point>
+        <point>
+          Solid State-design gjør at den er robust og gir rask tilgang til data.
+        </point>
+      </points>
+
+      <points title="Fordeler med SSD over roterende stasjoner:">
+        <point>
+          Økt holdbarhet: Har ikke-mekanisk utførelse med NAND-flash montert på kretskort og er mer støtsikre.
+        </point>
+        <point>
+          Raskere: Raskere datatilgang, oppstart, filoverføring og generelt raskere følelse enn harddisker.
+        </point>
+        <point>
+          Stillere: Driften er nesten helt stille i motsetning til den høye summingen man får fra harddisker.
+        </point>
+        <point>
+          Lettere: Flash-baserte SSD-disker veier betydelig mindre.
+        </point>
+        <point>
+          Kjøligere: SSD-stasjoner krever lite strøm for å fungere, noe som fører til mindre varmeutstråling fra systemet.
+        </point>
+        <point>
+          Mer effektiv: Bruker mindre strøm ved maksimal belastning.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Enhetstype">
+        Harddisk
+      </product:techspec>
+      
+      <product:techspec id="2" name="Formatert kapasitet">
+        <textbox value="1,6" id="3"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Grensesnittype">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="4" name="Type">
+        SSD
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

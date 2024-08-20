@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>DataCenter NVME</meta:title>
+    <meta:date value="2024-8-19" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 데이터 센터 <dropdownlist refid="hdd-interface-type"/> <dropdownlist refid="hard-drive-728"/> AG 드라이브 <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> Flex Bay Hybrid 캐리어 포함
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Dell <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 솔리드 스테이트 드라이브를 추가하여 Dell<tm/> 시스템의 스토리지 용량을 늘려 보세요. 
+        스토리지 용량이 최대 <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/>까지 증가하므로 대용량 데이터를 저장할 수 있습니다. 
+        
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          최대 <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 스토리지 용량 제공
+        </point>
+        <point>
+          <dropdownlist refid="hdd-interface-type"/> 인터페이스를 탑재하여 높은 데이터 전송 속도 제공
+        </point>
+        <point>
+          솔리드 스테이트 설계로 내구성이 탁월하고 신속하게 데이터에 액세스할 수 있습니다.
+        </point>
+      </points>
+      <points title="회전식 드라이브 대비 SSD의 이점:">
+        <point>
+          향상된 내구성: 비기계적으로 설계된 NAND 플래시가 회로 기판에 장착되어 충격에 더욱 강합니다.
+        </point>
+        <point>
+          빨라진 속도: 하드 드라이브 대비 데이터 액세스, 부팅, 파일 전송 및 전반적인 컴퓨팅 속도가 더 빨라집니다.
+        </point>
+        <point>
+          조용한 실행: 시끄럽게 윙윙거리는 하드 디스크 드라이브와 달리 작동 시 소음이 거의 없습니다.
+        </point>
+        <point>
+          가벼운 무게: 플래시 기반 SSD는 무게가 상당히 가볍습니다.
+        </point>
+        <point>
+          발열량 감소: SSD는 작동에 전력이 거의 필요하지 않아 시스템 발열량이 줄어듭니다.
+        </point>
+        <point>
+          효율성 증가: 최고 작업 로드 시 소비되는 전력량이 감소합니다.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="장치 유형">
+        하드 드라이브
+      </product:techspec>
+      
+      <product:techspec id="2" name="포맷된 용량">
+        <textbox value="1.6" id="3"/><dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="인터페이스 유형">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="4" name="유형">
+        솔리드 스테이트
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
