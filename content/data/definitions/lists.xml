@@ -2912,7 +2912,7 @@
       <item></item>
       <item>Read Intensive</item>
       <item>Write Intensive</item>
-      <item>Mix Use</item>
+      <item>Mixed Use</item>
 	  <item>Read Intensive MLC</item>
       <item>Write Intensive MLC</item>
       <item>Mix Use MLC</item>
@@ -8011,92 +8011,92 @@
 </list>
 
 <!--  Watts Details -->
-  -<list id="watts-detail">
--<items l:source="english">
+<list id="watts-detail">
+<items l:source="english">
 <item></item>
 <item>-Watt</item>
 </items>
--<items l:source="brazilian-portuguese">
+<items l:source="brazilian-portuguese">
 <item></item>
 <item>W</item>
 </items>
--<items l:source="canada-french">
+<items l:source="canada-french">
 <item></item>
 <item>watts</item>
 </items>
--<items l:source="czech-and-slovak">
+<items l:source="czech-and-slovak">
 <item></item>
 <item>W</item>
 </items>
--<items l:source="danish">
+<items l:source="danish">
 <item></item>
 <item>watt</item>
 </items>
--<items l:source="dutch">
+<items l:source="dutch">
 <item></item>
 <item>watt</item>
 </items>
--<items l:source="euro-spanish">
+<items l:source="euro-spanish">
 <item></item>
 <item>vatios</item>
 </items>
--<items l:source="euro-french">
+<items l:source="euro-french">
 <item></item>
 <item>watts</item>
 </items>
--<items l:source="finnish">
+<items l:source="finnish">
 <item></item>
 <item>wattia</item>
 </items>
--<items l:source="german">
+<items l:source="german">
 <item></item>
 <item>Watt</item>
 </items>
--<items l:source="greek">
+<items l:source="greek">
 <item></item>
 <item>Watt</item>
 </items>
--<items l:source="italian">
+<items l:source="italian">
 <item></item>
 <item>Watt</item>
 </items>
--<items l:source="japanese">
+<items l:source="japanese">
 <item></item>
 <item>ワット</item>
 </items>
--<items l:source="korean">
+<items l:source="korean">
 <item></item>
 <item>W</item>
 </items>
--<items l:source="norwegian">
+<items l:source="norwegian">
 <item></item>
 <item>W</item>
 </items>
--<items l:source="polish">
+<items l:source="polish">
 <item></item>
 <item>W</item>
 </items>
--<items l:source="portugal">
+<items l:source="portugal">
 <item></item>
 <item>Watts</item>
 </items>
--<items l:source="russian">
+<items l:source="russian">
 <item></item>
 <item>Вт</item>
 </items>
--<items l:source="simplified-chinese">
+<items l:source="simplified-chinese">
 <item></item>
 <item>瓦</item>
 </items>
--<items l:source="south-american-spanish">
+<items l:source="south-american-spanish">
 <item></item>
 <item>vatios</item>
 </items>
--<items l:source="swedish">
+<items l:source="swedish">
 <item></item>
 <item>W</item>
 </items>
--<items l:source="traditional-chinese">
+<items l:source="traditional-chinese">
 <item></item>
 <item>瓦</item>
 </items>
@@ -8104,47 +8104,47 @@
 
 <!--  Gan  Details -->
   -<list id="gan-detail">
--<items l:source="english">
+<items l:source="english">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="brazilian-portuguese">
+<items l:source="brazilian-portuguese">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="canada-french">
+<items l:source="canada-french">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="czech-and-slovak">
+<items l:source="czech-and-slovak">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="danish">
+<items l:source="danish">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="dutch">
+<items l:source="dutch">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="euro-spanish">
+<items l:source="euro-spanish">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="euro-french">
+<items l:source="euro-french">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="finnish">
+<items l:source="finnish">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
@@ -8154,57 +8154,57 @@
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="greek">
+<items l:source="greek">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="italian">
+<items l:source="italian">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="japanese">
+<items l:source="japanese">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="korean">
+<items l:source="korean">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="norwegian">
+<items l:source="norwegian">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="polish">
+<items l:source="polish">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="portugal">
+<items l:source="portugal">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="russian">
+<items l:source="russian">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="simplified-chinese">
+<items l:source="simplified-chinese">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="south-american-spanish">
+<items l:source="south-american-spanish">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
 </items>
--<items l:source="swedish">
+<items l:source="swedish">
 <item>USFF</item>
 <item>SFF</item>
 <item>GaN</item>
@@ -8215,5 +8215,164 @@
 <item>GaN</item>
 </items>
 </list>
+
+<list id="hard-drive-728">
+    <items l:source="english">
+      <item></item>
+      <item>Read Intensive</item>
+      <item>Write Intensive</item>
+      <item>Mixed Use</item>
+	  </items>
+
+    <items l:source="brazilian-portuguese">
+      <item></item>
+      <item>uso intenso</item>
+      <item>uso Intensivo De Gravação</item>
+      <item>uso misto</item>
+	  </items>
+
+    <items l:source="canada-french">
+      <item></item>
+      <item>lecture intensive</item>
+      <item>Écriture Intensive</item>
+      <item>utilisation mixte</item>
+	  </items>
+
+    <items l:source="czech-and-slovak">
+      <item></item>
+      <item>intenzivní čtení</item>
+      <item>náročný Zápis</item>
+      <item>smíšené použití</item>
+	  </items>
+
+    <items l:source="danish">
+      <item></item>
+      <item>Læseintensivt</item>
+      <item>Skrivekrævende</item>
+      <item>blandet brug</item>
+	  
+    </items>
+    <items l:source="dutch">
+      <item></item>
+      <item>leesintensieve</item>
+      <item>schrijfintensief</item>
+      <item>gemengd gebruik</item>
+	  
+    </items>
+    <items l:source="euro-spanish">
+      <item></item>
+      <item>Lectura Intensiva</item>
+      <item>escritura Intensiva</item>
+      <item>uso combinado</item>
+    </items>
+    <items l:source="euro-french">
+      <item></item>
+      <item>intensif en lecture</item>
+      <item>Écriture Intensive</item>
+      <item>usage mixte</item>
+	  
+    </items>
+    <items l:source="finnish">
+      <item></item>
+      <item>Lukukapasiteettia Vaativa</item>
+      <item>Kirjoituskapasiteettia Vaativa</item>
+      <item>Yhdistetty Käyttö</item>
+	  
+    </items>
+    <items l:source="german">
+      <item></item>
+      <item>leseoptimiert</item>
+      <item>schreibintensiv</item>
+      <item>gemischte Nutzung</item>
+	  
+    </items>
+    <items l:source="greek">
+      <item></item>
+      <item>Με υψηλές απαιτήσεις ανάγνωσης</item>
+      <item>Με υψηλές απαιτήσεις εγγραφής</item>
+      <item>Μεικτή χρήση</item>
+	
+    </items>
+    <items l:source="italian">
+      <item></item>
+      <item>lettura intensiva</item>
+      <item>unità A Scrittura Intensiva</item>
+      <item>utilizzo misto</item>
+	 
+    </items>
+    <items l:source="japanese">
+      <item></item>
+      <item>Read Intensive</item>
+      <item>Write Intensive</item>
+      <item>Mixed Use</item>
+	  
+    </items>
+    <items l:source="korean">
+      <item></item>
+      <item>읽기 집약적</item>
+      <item>쓰기 집약적</item>
+      <item>다용도</item>
+	  
+    </items>
+    <items l:source="norwegian">
+      <item></item>
+      <item>Leseintensiv</item>
+      <item>Skriveintensiv</item>
+      <item>blandet bruk</item>
+	  
+    </items>
+    <items l:source="polish">
+      <item></item>
+      <item>intensywnego odczytu</item>
+      <item>intensywnego Zapisu</item>
+      <item>różnych zastosowań</item>
+	  
+    </items>
+    <items l:source="portugal">
+      <item></item>
+      <item>Leitura Intensiva</item>
+      <item>Escrita Intensiva</item>
+      <item>Utilização Mista</item>
+	  
+    </items>
+    <items l:source="russian">
+      <item></item>
+      <item>С высокой интенсивностью чтения</item>
+      <item>С высокой интенсивностью записи</item>
+      <item>Смешанного назначения</item>
+	  
+    </items>
+    <items l:source="simplified-chinese">
+      <item></item>
+      <item>读密集型</item>
+      <item>写密集型</item>
+      <item>混合使用</item>
+	  
+    </items>
+    <items l:source="south-american-spanish">
+      <item></item>
+      <item>lectura intensiva</item>
+      <item>escritura Intensiva</item>
+      <item>uso Mixto</item>
+	  
+    </items>
+    <items l:source="swedish">
+      <item></item>
+      <item>läsintensiv</item>
+      <item>skrivintensiv</item>
+      <item>blandad användning</item>
+	  
+    </items>
+    <items l:source="traditional-chinese">
+      <item></item>
+      <item>讀取密集型</item>
+      <item>寫入密集型</item>
+      <item>混合使用</item>
+	 
+    </items>
+  </list>
+
+
+
   
 </lists>
