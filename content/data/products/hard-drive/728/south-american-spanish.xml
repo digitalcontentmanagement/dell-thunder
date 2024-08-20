@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, empresarial, <dropdownlist refid="hdd-interface-type"/>, unidad AG de <dropdownlist refid="hard-drive-728"/>, <textbox value="U.2" id="10"/> <textbox value="4" id="11"/>.ª generación, bahía flexible con portaunidades híbrido
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, empresarial, <dropdownlist refid="hdd-interface-type"/>, unidad AG de <dropdownlist refid="hard-drive-728"/>, <textbox value="U.2" id="10"/>, <textbox value="4" id="11"/>.ª generación, bahía flexible con portaunidades híbrido
     </product:name>
 
     <product:longdesc>

@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デル製 <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> Enterprise <dropdownlist refid="hdd-interface-type"/> <dropdownlist refid="hard-drive-728"/> AG ﾄﾞﾗｲﾌﾞ <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> ﾌﾚｯｸｽﾍﾞｲ ﾊｲﾌﾞﾘｯﾄﾞ ｷｬﾘｱ 付
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デル製 <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> ｴﾝﾀｰﾌﾟﾗｲｽ <dropdownlist refid="hdd-interface-type"/> <dropdownlist refid="hard-drive-728"/> AG ﾄﾞﾗｲﾌﾞ <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> ﾌﾚｯｸｽﾍﾞｲ ﾊｲﾌﾞﾘｯﾄﾞ ｷｬﾘｱ 付
     </product:name>
 
     <product:longdesc>

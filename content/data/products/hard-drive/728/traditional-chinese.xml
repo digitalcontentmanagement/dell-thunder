@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 企業版 <dropdownlist refid="hdd-interface-type"/> AG 碟 <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> 托架 含 混合 置物架
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> 企業版 <dropdownlist refid="hdd-interface-type"/> <dropdownlist refid="hard-drive-728"/> AG 碟 <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> 托架 含 混合 置物架
 
     </product:name>
 
