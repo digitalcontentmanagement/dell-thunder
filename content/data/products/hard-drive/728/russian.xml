@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Enterprise NVME</meta:title>
+    <meta:date value="2024-8-19" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Отсек Flex Bay <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> AG Enterprise <dropdownlist refid="hard-drive-728"/> <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> в гибридном корпусе
+
+    </product:name>
+
+    <product:longdesc>
+      <para>
+       Твердотельный накопитель Dell емкостью <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> позволит расширить пространство хранения вашей системы Dell<tm/>. 
+	   Он предоставляет пространство хранения размером до <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, позволяя пользователям сохранять большие объемы данных. 
+	   
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Емкость пространства хранения достигает <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Интерфейс <dropdownlist refid="hdd-interface-type"/> обеспечивает высокую скорость передачи данных
+        </point>
+        <point>
+          Конструкция твердотельных накопителей отличается высокой прочностью и быстрым доступом к данным
+        </point>
+      </points>
+      <points title="Преимущества твердотельных накопителей по сравнению с жесткими дисками:">
+        <point>
+          Повышение надежности: конструкция на основе флэш-памяти NAND встроенной в печатную плату не содержит движущихся частей и поэтому более устойчива к ударам.
+        </point>
+        <point>
+          Увеличение скорости: ускорение доступа к данным, загрузки и передачи файлов; в целом все вычислительные процессы происходят быстрее, чем в жестких дисках.
+        </point>
+        <point>
+          Снижение шума: работают почти бесшумно в отличие от громко жужжащих жестких дисков.
+        </point>
+        <point>
+          Снижение веса: твердотельные накопители на основе флэш-памяти значительно легче.
+        </point>
+        <point>
+          Сокращение тепловыделения: для работы твердотельных накопителей требуется меньше энергии, что снижает тепловыделение в вашей системе.
+        </point>
+        <point>
+          Повышение эффективности: потребляют меньше электроэнергии при максимальной нагрузке.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Тип устройства">
+        Жесткий диск
+      </product:techspec>
+      
+      <product:techspec id="2" name="Форматированная емкость">
+        <textbox value="1,6" id="3"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Интерфейс">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="4" name="Тип">
+        Твердотельный
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
