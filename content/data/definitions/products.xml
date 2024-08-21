@@ -60,6 +60,8 @@
   </product:category>
 
   <product:category id="hard-drive" name="Hard Drive">
+<product:subclass id="728" description="Enterprise NVME AG Drive U.2 Gen4" folder-name="728"/>
+<product:subclass id="728A" description="DataCenter NVME AG Drive U.2 Gen4" folder-name="728A"/>
     <product:subclass id="76" description="IDE 3.5 Hard Drive" folder-name="156-76"/>
     <product:subclass id="80" description="IDE / ATA / SATA" folder-name="32-77-80"/>
     <product:subclass id="156" description="IDE Hard Drive" folder-name="156-76"/>
