@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Disco para Centros de Dados <dropdownlist refid="hdd-interface-type"/> para <dropdownlist refid="hard-drive-728"/> <textbox value="U.2" id="10"/> de Gen<textbox value="4" id="11"/>.ª Geração de <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, Compartimento Flexível com Transportadora Híbrida
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell Disco AG para Centros de Dados <dropdownlist refid="hdd-interface-type"/> para <dropdownlist refid="hard-drive-728"/> <textbox value="U.2" id="10"/> de Gen<textbox value="4" id="11"/>.ª Geração de <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, Compartimento Flexível com Transportadora Híbrida
     </product:name>
 
     <product:longdesc>
