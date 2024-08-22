@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> Enterprise <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-728"/> AG Drive <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> with <dropdownlist refid="hard-drive-277-d"/>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1.6" refid="3"/><dropdownlist refid="unit-byte"/> Enterprise <dropdownlist refid="hdd-interface-type"/> <dropdownlist id="hard-drive-728"/> AG Drive <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/> with <dropdownlist id="hard-drive-277-d"/>
     </product:name>
 
     <product:longdesc>
