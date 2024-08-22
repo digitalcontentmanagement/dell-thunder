@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Enterprise NVME</meta:title>
+    <meta:date value="2024-8-19" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, empresarial, <dropdownlist refid="hdd-interface-type"/>, unidad AG de <dropdownlist refid="hard-drive-728"/>, <textbox value="U.2" id="10"/>, <textbox value="4" id="11"/>.ª generación, con <dropdownlist refid="hard-drive-277-d"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Aumente la capacidad de almacenamiento de su sistema Dell<tm/> con el <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> unidad de estado sólido de Dell. 
+        Ostenta una capacidad de almacenamiento de hasta <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, lo que le permite a los usuarios almacenar grandes volúmenes de datos. 
+        
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Ofrece una capacidad de almacenamiento de hasta <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Equipado con una interfaz <dropdownlist refid="hdd-interface-type"/> que brinda una alta velocidad de transferencia de datos.
+        </point>
+        <point>
+          El diseño de estado sólido ofrece resistencia y rápido acceso a los datos.
+        </point>
+      </points>
+
+      <points title="Beneficios de SSD frente a las unidades giratorias:">
+        <point>
+          Más duración: cuentan con un diseño no mecánico de flash NAND montado en placas de circuitos y son más resistentes a los golpes.
+        </point>
+        <point>
+          Más velocidad: acceso más rápido a los datos, arranques, transferencias de archivos y una experiencia informática general más rápida que las unidades de disco duro.
+        </point>
+        <point>
+          Más silencioso: su funcionamiento es silencioso, a diferencia del molesto zumbido de las unidades de discos duros.
+        </point>
+        <point>
+          Más liviano: las unidades de estado sólido basadas en flash tienen un peso considerablemente menor.
+        </point>
+        <point>
+          Menor temperatura: las unidades de estado sólido requieren muy poca alimentación para funcionar, lo que se traduce en una menor disipación de calor en su sistema.
+        </point>
+        <point>
+          Más eficiente: menor consumo energético durante la carga máxima.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Disco duro
+      </product:techspec>
+      
+      <product:techspec id="2" name="Capacidad con formateo">
+        <textbox value="1,6" id="3"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Tipo de interfaz">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="4" name="Tipo">
+        Estado sólido
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

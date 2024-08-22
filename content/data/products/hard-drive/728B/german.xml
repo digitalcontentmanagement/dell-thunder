@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Enterprise NVME</meta:title>
+    <meta:date value="2024-8-19" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, <dropdownlist refid="hdd-interface-type"/>, Enterprise-Klasse, <dropdownlist refid="hard-drive-728"/>, agnostisches Laufwerk, <textbox value="U.2" id="10"/> Gen<textbox value="4" id="11"/>, mit <dropdownlist refid="hard-drive-277-d"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Steigern Sie mit dieser <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> Solid-State-Laufwerk von Dell die Speicherkapazität Ihres Dell<tm/> Systems. 
+        Sie verfügt über eine sehr hohe Kapazität von bis zu <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> für die Speicherung großer Datenmengen. 
+        
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+
+      <points>
+        <point>
+          Bietet bis zu <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> Storage-Kapazität
+        </point>
+        <point>
+          Mit <dropdownlist refid="hdd-interface-type"/>-Schnittstelle für hohe Datenübertragungsraten
+        </point>
+        <point>
+          Solid-State-Design für Robustheit und schnellen Datenzugriff
+        </point>
+      </points>
+
+
+      <points title="Vorteile von SSD- gegenüber Spin-Laufwerken:">
+        <point>
+          Höhere Haltbarkeit: Mit dem nicht-mechanischen Design von NAND-Flash montiert auf Platinen  und erschütterungsfest.
+        </point>
+        <point>
+          Schneller: Schnellerer Datenzugriff, schnelles Hochfahren, schnelle Datenübertragung und insgesamt schnellere Datenverarbeitung als Festplatten.
+        </point>
+        <point>
+          Leiser: Laufen nahezu geräuschlos im Gegensatz zu lauten, summenden Festplattenlaufwerken.
+        </point>
+        <point>
+          Leichter: Flash-basierte Solid-State-Festplatten wiegen deutlich weniger.
+        </point>
+        <point>
+          Kühler: Solid-State-Festplatten verbrauchen wenig Strom bei Betrieb und so erzeugt ihr System weniger Wärme.
+        </point>
+        <point>
+          Mehr Effizienz: Geringerer Stromverbrauch bei Spitzenauslastung.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Gerätetyp">
+        Festplatte
+      </product:techspec>
+      <product:techspec id="2" name="Insgesamt verfügbare Speicherkapazität">
+        <textbox value="1,6" id="3"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Schnittstellentyp">
+        <dropdownlist id="hdd-interface-type"/>-Festplatten
+      </product:techspec>
+      <product:techspec id="4" name="Typ">
+        Solid-State
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

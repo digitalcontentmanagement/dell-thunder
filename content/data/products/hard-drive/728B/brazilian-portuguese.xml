@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Enterprise NVME</meta:title>
+    <meta:date value="2024-8-19" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="U.2" id="10"/> de <textbox value="4" id="11"/>ª geração Enterprise <dropdownlist refid="hdd-interface-type"/> de <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> para AG de <dropdownlist refid="hard-drive-728"/> com <dropdownlist refid="hard-drive-277-d"/>
+    </product:name>
+
+    <product:longdesc>
+      <para>
+        Aumente a capacidade de armazenamento de seu sistema Dell<tm/> com a unidade de estado sólido da Dell de <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>. 
+        Com capacidade de armazenamento de dados de até <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>, permite que os usuários armazenem grandes quantidades de dados. 
+        
+      </para>
+      <para>
+        <b><stringlookup ref="warrantytitle" filter="'$(sku.type)' $in$ ['spare-parts']"/></b>
+        <points>
+          <point>
+            <stringlookup ref="warrantycontent" filter="'$(sku.type)' $in$ ['spare-parts']"/>
+          </point>
+        </points>
+      </para>
+    </product:longdesc>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <product:highlights>
+      <points>
+        <point>
+          Oferece capacidade de armazenamento de até <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/>
+        </point>
+        <point>
+          Equipado com interface <dropdownlist refid="hdd-interface-type"/>, oferece alta taxa de transferência de dados
+        </point>
+        <point>
+          O design de estado sólido oferece resistência e acesso rápido aos dados
+        </point>
+      </points>
+      <points title="Benefícios do SSD sobre discos rígidos tradicionais:">
+        <point>
+          Mais durável: design imóvel de flash NAND montada em placas de circuitos também é mais resistente a choques.
+        </point>
+        <point>
+          Mais rápido: maior rapidez de acesso a dados, boot, transferência de arquivos e na experiência geral de computação em comparação aos discos rígidos.
+        </point>
+        <point>
+          Mais silencioso: operação praticamente silenciosa ao contrário dos barulhentos discos rígidos.
+        </point>
+        <point>
+          Mais leve: os SSDs com base em flash pesam muito menos.
+        </point>
+        <point>
+          Mais frio: os SSDs exigem pouca energia para operar, o que resulta em menos calor gerado em seu sistema.
+        </point>
+        <point>
+          Mais eficiente: consumo de energia menor em picos de carga.
+        </point>
+      </points>
+    </product:highlights>
+
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      
+      <product:techspec id="1" name="Tipo de dispositivo">
+        Disco rígido
+      </product:techspec>
+      <product:techspec id="2" name="Capacidade formatada">
+        <textbox value="1,6" id="3"/> <dropdownlist id="unit-byte"/>
+      </product:techspec>
+      <product:techspec id="3" name="Tipo de interface">
+        <dropdownlist id="hdd-interface-type"/>
+      </product:techspec>
+      <product:techspec id="4" name="Tipo">
+        Estado sólido
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
