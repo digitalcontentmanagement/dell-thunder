@@ -3160,6 +3160,7 @@
       <item>Cabled</item>
 	  <item>Hot-plug</item>
       <item>Hybrid Carrier</item>
+      <item>Carrier</item>
 	  <item>Internal</item>
     </items>
     <items l:source="brazilian-portuguese">
@@ -3169,6 +3170,7 @@
       <item>Cabo</item>
 	  <item>De Conector Automático</item>
       <item>Portadora Híbrida</item>
+       <item>Portadora</item>
 	  <item>Interno</item>
     </items>
     <items l:source="canada-french">
@@ -3178,6 +3180,7 @@
       <item>Câblé</item>
 	  <item>enfichable à chaud</item>
       <item>Support Hybride</item>
+      <item>Support</item>
 	  <item>Interne</item>
     </items>
     <items l:source="czech-and-slovak">
@@ -3186,7 +3189,8 @@
       <item>Plně Smontováno</item>
       <item>Kabeláží</item>
 	  <item>Připojitelná Za Provozu </item>
-      <item>Hybridní Nosič</item>
+      <item>Hybridním nosičem</item>
+      <item>Nosičem</item>
 	  <item>Interní</item>
     </items>
     <items l:source="danish">
@@ -3195,7 +3199,8 @@
       <item>Færdigmonteret</item>
       <item>Kabelforbundet</item>
 	  <item>Hot-plug</item>
-      <item>Hybrid Carrier</item>
+      <item>Hybridholder</item>
+      <item>Holder</item>
 	  <item>Intern</item>
     </items>
     <items l:source="dutch">
@@ -3204,7 +3209,8 @@
       <item>Volledig Samengesteld</item>
       <item>Bekabelde</item>
 	  <item>Hot-pluggable</item>
-      <item>Hybride Carrier</item>
+      <item>Hybride houder</item>
+       <item>Houder</item>
 	  <item>Intern</item>
     </items>
     <items l:source="euro-spanish">
@@ -3213,7 +3219,8 @@
       <item>Conjunto Completo</item>
       <item>Con Cable</item>
 	  <item>Conectable En Caliente</item>
-      <item>Operador Híbrido</item>
+      <item>Portador híbrido</item>
+      <item>Portador</item>
 	  <item>Interno</item>
     </items>
     <items l:source="euro-french">
@@ -3223,6 +3230,7 @@
       <item>Câblé</item>
 	  <item>Enfichable à Chaud</item>
       <item>Support Hybride</item>
+      <item>Support</item>
 	  <item>Interne</item>
     </items>
     <items l:source="finnish">
@@ -3232,6 +3240,7 @@
       <item>Kaapeloitu</item>
 	  <item>Käytön Aikana Vaihdettava</item>
       <item>Hybridipidike</item>
+      <item>Pidike</item>
 	  <item>Sisäinen</item>
     </items>
     <items l:source="german">
@@ -3240,7 +3249,8 @@
       <item>Vollständig Vormontiert</item>
       <item>Verkabeltes</item>
 	  <item>Hot-plug</item>
-      <item>Hybrid-Träger</item>
+      <item>Hybridträger</item>
+      <item>Träger</item>
 	  <item>Intern</item>
     </items>
     <items l:source="greek">
@@ -3250,6 +3260,7 @@
       <item>Καλωδιωμένη</item>
 	  <item>δίσκου με δυνατότητα σύνδεσης εν ώρα λειτουργίας</item>
       <item>Υβριδική θήκη</item>
+      <item>θήκη</item>
 	  <item>Εσωτερικός </item>
     </items>
     <items l:source="italian">
@@ -3258,7 +3269,8 @@
       <item>Completamente Assemblata</item>
       <item>Cablata</item>
 	  <item>Hot-plug</item>
-      <item>Cassetto Per Unità Ibrida</item>
+      <item>Carrier ibrido</item>
+      <item>Carrier</item>
 	  <item>Interna</item>
     </items>
     <items l:source="japanese">
@@ -3267,7 +3279,8 @@
       <item>フルアセンブリ</item>
       <item>ケーブル</item>
 	  <item>ホットプラグ ハード</item>
-      <item>ハイブリッドキャリア付き</item>
+      <item>ｲ ﾊｲﾌﾞﾘｯﾄﾞ ｷｬﾘｱ</item>
+      <item>ｷｬﾘｱ</item>
 	  <item>内蔵</item>
     </items>
     <items l:source="korean">
@@ -3277,6 +3290,7 @@
       <item>케이블</item>
 	  <item>핫플러그</item>
       <item>하이브리드 캐리어</item>
+      <item>캐리어</item>
 	  <item>내장</item>
     </items>
     <items l:source="norwegian">
@@ -3286,6 +3300,7 @@
       <item>Kablet</item>
 	  <item>Kan Byttes Ut Under Drift</item>
       <item>Hybrid Holder</item>
+      <item>Holder</item>
 	  <item>Intern</item>
     </items>
     <items l:source="polish">
@@ -3294,7 +3309,8 @@
       <item>W Pełni Montowany</item>
       <item>Kablem</item>
 	  <item>Hot-Plug</item>
-      <item>Koszyk Na Dysk Hybrydowy</item>
+      <item>hybrydowym koszykiem</item>
+      <item>koszykiem</item>
 	  <item>Wewnętrzny</item>
     </items>
     <items l:source="portugal">
@@ -3303,7 +3319,8 @@
       <item>Montagem Completa</item>
       <item>Cabo</item>
 	  <item>De Troca Dinâmica</item>
-      <item>Transportador Híbrido</item>
+      <item>Transportadora Híbrida</item>
+      <item>Transportador</item>
 	  <item>Interno</item>
     </items>
     <items l:source="russian">
@@ -3312,7 +3329,8 @@
       <item>Полностью в сборе</item>
       <item>кабельным</item>
 	  <item>возможностью горячей замены</item>
-      <item>В гибридном контейнере</item>
+      <item>гибридном корпусе</item>
+      <item>контейнере</item>
 	  <item>Внутренний</item>
     </items>
     <items l:source="simplified-chinese">
@@ -3322,6 +3340,7 @@
       <item>有线</item>
 	  <item>热插拔</item>
       <item>混合托架</item>
+      <item>托架</item>
 	  <item>内部</item>
     </items>
     <items l:source="south-american-spanish">
@@ -3330,7 +3349,8 @@
       <item>Completamente Ensamblado</item>
       <item>De Conexión Por Cable</item>
 	  <item>De Conexión En Marcha</item>
-      <item>Portadora Híbrida</item>
+      <item>Portaunidades híbrido</item>
+      <item>Portadora</item>
 	  <item>Interno</item>
     </items>
     <items l:source="swedish">
@@ -3340,6 +3360,7 @@
       <item>Kablad</item>
 	  <item>Som Kan Bytas Under drift</item>
       <item>Hybridhållare</item>
+      <item>Hållare</item>
 	  <item>Intern</item>
     </items>
     <items l:source="traditional-chinese">
@@ -3349,6 +3370,7 @@
       <item>纜接</item>
 	  <item>熱插拔</item>
       <item>混合式托架</item>
+      <item>托架</item>
 	  <item>內接</item>
     </items>
   </list>
