@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> podnikový disk <dropdownlist refid="hdd-interface-type"/> pro <dropdownlist refid="hard-drive-728"/>, jednotka AG, <textbox value="U.2" id="10"/>, Gen<textbox value="4" id="11"/>, pozice s <dropdownlist refid="hard-drive-277-d"/>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1,6" refid="3"/> <dropdownlist refid="unit-byte"/> podnikový disk <dropdownlist refid="hdd-interface-type"/> pro <dropdownlist refid="hard-drive-728"/>, jednotka AG, <textbox value="U.2" id="10"/>, Gen<textbox value="4" id="11"/>, s <dropdownlist refid="hard-drive-277-d"/>
     </product:name>
 
     <product:longdesc>
