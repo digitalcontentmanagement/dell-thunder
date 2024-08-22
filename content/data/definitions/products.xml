@@ -60,10 +60,10 @@
   </product:category>
 
   <product:category id="hard-drive" name="Hard Drive">
-<product:subclass id="728" description="Enterprise NVME AG Drive U.2 Gen4 Flex Bay" folder-name="728"/>
-<product:subclass id="728C" description="Data Center NVME AG Drive U.2 Gen4 With Carrier" folder-name="728C"/>
-<product:subclass id="728A" description="Data Center NVME AG Drive U.2 Gen4 Flex Bay" folder-name="728A"/>
- <product:subclass id="728B" description="Enterprise NVME AG Drive U.2 Gen4 With Carrier" folder-name="728B"/>
+<product:subclass id="728" description="Enterprise NVMe AG Drive U.2 Gen4 Flex Bay" folder-name="728"/>
+<product:subclass id="728C" description="Data Center NVMe AG Drive U.2 Gen4 With Carrier" folder-name="728C"/>
+<product:subclass id="728A" description="Data Center NVMe AG Drive U.2 Gen4 Flex Bay" folder-name="728A"/>
+ <product:subclass id="728B" description="Enterprise NVMe AG Drive U.2 Gen4 With Carrier" folder-name="728B"/>
     <product:subclass id="76" description="IDE 3.5 Hard Drive" folder-name="156-76"/>
     <product:subclass id="80" description="IDE / ATA / SATA" folder-name="32-77-80"/>
     <product:subclass id="156" description="IDE Hard Drive" folder-name="156-76"/>
