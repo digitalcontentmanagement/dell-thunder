@@ -113,6 +113,7 @@
 
   <product:category id="notebook-batteries" name="Notebook Batteries">
     <product:subclass id="744" description="Notebook Batteries" folder-name="744"/>
+	  <product:subclass id="744" description="testing" folder-name="744A"/>
   </product:category>
 
   <product:category id="power-cord" name="Power Cord">
