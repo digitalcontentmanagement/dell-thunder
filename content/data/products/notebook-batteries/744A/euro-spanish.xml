@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2015-09-21" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     Batería de sustitución de iones de litio de <textbox value="6" refid="2"/> celdas (<textbox value="65" refid="1"/>W/h) de Dell para determinados portátiles 
+    </product:name>
+    <product:longdesc>
+      <para>
+		¿Se desplaza permanentemente? Ya no debe preocuparse por la duración de la batería. Puede alimentar su portátil con esta batería de iones de litio de <textbox valie="6" refid="2"/> celdas de Dell<tm/>. Con una capacidad de hasta <textbox value="65" refid="1"/> W/h, la batería permite que su portátil funcione sin problemas mientras se desplaza.
+		</para>
+		</product:longdesc>
+	<product:highlights>
+	  <points>
+	  <point>
+	  Proporciona una capacidad de <textbox value="65" refid="1"/>W/h
+	  </point>
+	  <point>
+	  Ofrece una alimentación de confianza para disfrutar de un rendimiento fiable.
+	  </point>
+	  </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	   Ingenieros cualificados someten las piezas originales de la marca Dell a rigurosas pruebas para garantizar la fiabilidad y compatibilidad con su sistema Dell. 
+	  </point>
+	  <point>
+		Nuestro proceso de calificación permite probar y certificar la tecnología más reciente en su sistema Dell.
+	  </point>
+	   </points>
+	  <points title="@string(quality)">
+	  <point>
+	   Dell utiliza solo componentes de la mejor calidad que suministran los OEM.
+	  </point>
+	  </points>
+	 <points title="@string(warranty)">
+	  <point>
+	  <stringlookup ref="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']"/>   
+	  </point>
+	  <point>
+	  Contar con piezas originales de la marca Dell significa que no tendrá que preocuparse por anular la garantía de hardware de su sistema. 
+	  </point>
+	   <point>
+	  Las piezas que no son Dell no están cubiertas y pueden invalidar la garantía del sistema. 
+	  </point>
+
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+		Nuestro experimentado personal del departamento de asistencia técnica está disponible para responder a cualquier pregunta relacionada con la actualización de las piezas originales de la marca Dell. 
+	  </point>
+	  <point>
+	   Dell no cubrirá las piezas adquiridas de otros proveedores.
+	  </point>
+	  </points>
+	
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Alimentación suministrada ">
+      <textbox value="65" id="1"/>W/h
+      </product:techspec>
+      <product:techspec id="2" name="Tipo de producto">
+       Batería
+      </product:techspec>
+	   <product:techspec id="3" name="Tecnología">
+      Batería de iones de litio de <textbox value="6" id="2"/> celdas
+      </product:techspec>
+	   <product:techspec id="4" name="Tipo">
+      <dropdownlist id="battery-type"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

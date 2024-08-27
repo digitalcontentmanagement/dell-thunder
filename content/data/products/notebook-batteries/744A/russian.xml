@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Battery</meta:title>
+    <meta:date value="2015-09-28" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+     литийионный сменный аккумулятор Dell на <textbox value="65" refid="1"/> Вт·ч <textbox value="6" refid="2"/>-элементный отдельных ноутбуков
+    </product:name>
+    <product:longdesc>
+      <para>
+		Вы всегда в пути? Можно больше не волноваться о зарядке аккумулятора! Данный <textbox value="6" refid="2"/>-элементный литий-ионный аккумулятор Dell<tm/> обеспечит питание вашего ноутбука. Благодаря емкости до <textbox value="65" refid="1"/> Вт·ч этот аккумулятор обеспечивает бесперебойную работу ноутбука в поездках.
+		</para>
+	  </product:longdesc>
+	<product:highlights>
+	<points>
+	  <point>
+	  Обеспечивает <textbox value="65" refid="1"/> Вт·ч емкость  
+	  </point>
+	  <point>
+	   Предоставляет надежное питание для надежной производительности
+	  </point>
+	  </points>
+	  <points title="@string(compatibility)">
+	  <point>
+	   Чтобы гарантировать совместимость и высокую надежность подлинных деталей Dell в системах этой компании, квалифицированные инженеры проводят тщательное тестирование этих деталей. 
+	  </point>
+	  <point>
+	  Наш неизменно строгий процесс отбора позволяет осуществлять тестирование и сертификацию новейших технологий для систем Dell.
+	  </point>
+	   </points>
+	   <points title="@string(quality)">
+	  <point>
+	  Корпорация Dell использует только высококачественные компоненты OEM-класса.
+	  </point>
+	  </points>
+	  <points title="@string(warranty)">
+	  <point>
+	   <stringlookup ref="warrantycontent3" filter="'$(sku.type)' $in$ ['customer-kit']"/>  
+	  </point>
+	  <point>
+	  Подлинность деталей Dell означает, что вам не придется беспокоиться о действительности гарантии на оборудование вашей системы. 
+	   </point>
+	   <point>
+	  На детали сторонних изготовителей не распространяется гарантия, и их наличие может привести к аннулированию гарантии на систему.   
+	  </point>
+	  </points>
+	  <points title="@string(technicalsupport)">
+	  <point>
+	   Наши опытные специалисты из службы технической поддержки всегда готовы ответить на любые вопросы, касающиеся модернизации подлинных деталей Dell. 
+	  </point>
+	  <point>
+	   На детали, приобретенные у сторонних изготовителей, не распространяется поддержка Dell.
+	  </point>
+	  </points>
+	 
+    </product:highlights>
+
+    <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+    <!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Обеспечиваемая мощность">
+      <textbox value="65" id="1"/> Вт·ч
+      </product:techspec>
+      <product:techspec id="2" name="Тип продукта">
+       Аккумулятор
+      </product:techspec>
+	   <product:techspec id="3" name="Технологии">
+      <textbox value="6" id="2"/>етырехэлементный литий-ионный аккумулятор
+      </product:techspec>
+	   <product:techspec id="4" name="Тип">
+        <dropdownlist id="battery-type"/>
+      </product:techspec>
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
