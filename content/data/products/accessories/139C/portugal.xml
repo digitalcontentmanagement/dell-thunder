@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2024-9-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="5"/> alto desempenho ventoinha para <textbox value="PowerEdge" id="2"/>, <dropdownlist id="customer-kit"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Os vários componentes de um sistema de computador, como chipset, placa gráfica e disco rígido podem produzir uma grande quantidade de calor durante a operação. 
+       Essa grande quantidade de calor pode ser prejudicial para o funcionamento correto do sistema. 
+       os ventiladores são responsáveis por dissipar o calor e manter limites seguros de temperatura.
+      </para>
+	  <para>
+       O fator mais importante, que determina a seleção do conjunto do é o tipo de processador e sua velocidade. 
+       Diferentes processadores apresentam temperaturas operacionais diferentes. 
+       Quanto maior a velocidade do processador, melhor precisam ser o ventilador. 
+       Da mesma forma, o tipo do processador também determina qual pode acompanhá-lo. 
+       O tipo de chassi também é importante, pois define o invólucro do conjunto a compatibilidade com o sistema.
+      </para>
+	  <para>
+       Para comprar o ventilador ideal para seu sistema, recomendamos que você use o recurso de pesquisa de etiqueta de serviço da ferramenta Parts For Your Dell<tm/>. 
+       Isso permitirá identificar o tipo e a velocidade do processador do seu sistema.
+      </para>
+	  <para>
+       Alguns de nossos produtos sobressalentes são fornecidos como kits ou conjuntos. 
+       Esses kits podem incluir peças adicionais necessárias para a instalação. Essas peças serão listadas separadamente como 'Peças de componentes' na seção Destaques desta página. 
+       No caso de um produto que não é vendido como kit ou conjunto, ele pode precisar de peças complementares para facilitar a instalação.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+
+
+      <points>
+	  
+       <point>
+	   Dissipa o calor do computador
+	   </point>
+	   
+	   <point>
+	   Mantém os limites de temperatura seguros no interior do sistema
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Tipo de dispositivo">
+        ventoinha
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
