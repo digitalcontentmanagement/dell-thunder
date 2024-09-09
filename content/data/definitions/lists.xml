@@ -5005,7 +5005,7 @@
     <items l:source="brazilian-portuguese">
       <item></item>
       <item>Padrão</item>
-      <item>Performance</item>
+      <item>Desempenho</item>
       <item>redundante</item>
     </items>
     <items l:source="canada-french">
@@ -5017,25 +5017,25 @@
     <items l:source="czech-and-slovak">
       <item></item>
       <item>Standard</item>
-      <item>Performance</item>
+      <item>Výkonný</item>
       <item>redundantní</item>
     </items>
     <items l:source="danish">
       <item></item>
       <item>Standard</item>
-      <item>Performance</item>
+      <item>Ydeevne</item>
       <item>overflødig</item>
     </items>
     <items l:source="dutch">
       <item></item>
       <item>Standard</item>
-      <item>Performance</item>
+      <item>prestaties</item>
       <item>overtollig</item>
     </items>
     <items l:source="euro-spanish">
       <item></item>
       <item>estándar</item>
-      <item>Performance</item>
+      <item>rendimiento</item>
       <item>redundante</item>
     </items>
     <items l:source="euro-french">
@@ -5047,19 +5047,19 @@
     <items l:source="finnish">
       <item></item>
       <item>Standardi</item>
-      <item>Performance</item>
+      <item>Suorituskyky</item>
       <item>tarpeeton</item>
     </items>
     <items l:source="german">
       <item></item>
       <item>Standard</item>
-      <item>Performance</item>
+      <item>Leistungs</item>
       <item>Redundant</item>
     </items>
     <items l:source="greek">
       <item></item>
       <item>πρότυπο</item>
-      <item>Performance</item>
+      <item>απόδοσης</item>
       <item>πλεονάζων</item>
     </items>
     <items l:source="italian">
@@ -5071,13 +5071,13 @@
     <items l:source="japanese">
       <item></item>
       <item>標準</item>
-      <item>Performance</item>
+      <item>パフォーマン</item>
       <item>冗長フ</item>
     </items>
     <items l:source="korean">
       <item></item>
       <item>표준</item>
-      <item>Performance</item>
+      <item>성능</item>
       <item>이중화</item>
     </items>
     <items l:source="norwegian">
@@ -5089,13 +5089,13 @@
     <items l:source="polish">
       <item></item>
       <item>Standard</item>
-      <item>Performance</item>
+      <item>wydajne</item>
       <item>zbędny</item>
     </items>
     <items l:source="portugal">
       <item></item>
       <item>padrão</item>
-      <item>Performance</item>
+      <item>desempenho</item>
       <item>redundante</item>
     </items>
     <items l:source="russian">
@@ -5107,13 +5107,13 @@
     <items l:source="simplified-chinese">
       <item></item>
       <item>标准</item>
-      <item>Performance</item>
+      <item>性能</item>
       <item>冗余</item>
     </items>
     <items l:source="south-american-spanish">
       <item></item>
       <item>estándar</item>
-      <item>Performance</item>
+      <item>rendimiento</item>
       <item>redundante</item>
     </items>
     <items l:source="swedish">
@@ -5125,7 +5125,7 @@
     <items l:source="traditional-chinese">
       <item></item>
       <item>標準</item>
-      <item>Performance</item>
+      <item>性能</item>
       <item>冗餘</item>
     </items>
   </list>
