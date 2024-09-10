@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2024-9-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="5"/> Very High Performance Fan for <textbox value="PowerEdge" id="2"/>, <dropdownlist id="customer-kit"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       The various components of a computer system such as the chipset, the graphics card and the hard drive can produce a large amount of heat while operating. 
+       This large amount of heat may be harmful for the proper functioning of the system. The fans are responsible for dissipating this heat and maintaining the safe temperature limits.
+      </para>
+	  <para>
+       Different processors have different operating temperatures. Higher the speed of the processor, the better the fan need to be. 
+       The chassis type is also important as it defines the housing of the assembly and compatibility with the system.
+      </para>
+	  <para>
+       In order to buy the right fan for your system, we recommend that you use the Service Tag look up feature in the Parts For Your Dell<tm/> tool. 
+       This will allow us to identify the processor type and speed of your system and select compatible products for it.
+      </para>
+	  <para>
+       Please note that some of our replacement products are provided as kits or assemblies. 
+       These kits may contain additional parts required for installation; these parts will be listed separately as 'Component Parts' in the Highlights section of this page. 
+       In case a product is not sold as a kit or assembly, it may require complementary parts for ease of installation.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+    <points>
+	  
+       <point>
+	   Dissipates the heat of computer
+	   </point>
+	   
+	   <point>
+	   Maintains the safe temperature limits inside the system
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Device Type">
+        Fan
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

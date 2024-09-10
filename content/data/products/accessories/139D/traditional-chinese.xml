@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2024-9-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="5"/> 非常高性能风扇 對於 <textbox value="PowerEdge" id="2"/>, <dropdownlist id="customer-kit"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       電腦系統的各個元件，例如晶片組、顯示卡及硬碟等，都會在運作期間產生大量的熱能。 這些大量的熱能可能會危害系統正常運作。 風扇必須負責驅散這些熱能，將系統維持在安全的溫度範圍內。
+      </para>
+	  <para>
+       選擇散組件時，最重要的考量因素便是處理器類型與其時脈速度。 不同的處理器有不同的作業溫度。 當處理器時脈越高，就必須使用風扇。 
+       同樣地，處理器類型也決定了適用的。 另外，由於機箱類型決定了組件的外殼及系統相容性，因此也是重點因素之一。
+      </para>
+	  <para>
+       為了替您的系統購買合適的風扇，我們建議您使用「適合您的 Dell<tm/> 產品零件」工具中的「產品服務編號」查詢功能。 
+       這將有助於我們正確識別您的處理器類型與系統速度，然後選擇相容的產品。
+      </para>
+	  <para>
+       請注意，我們的部分替換產品是以套件或組件的形式提供。 這些套件可能包含安裝所需的其他零件，這些零件會在此頁面的「特色」(Highlights) 區段中個別列示為「元件零件」(Component Parts)。 
+       如果產品不採套件或組件形式銷售，可能需要互補零件以簡化安裝。
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+
+
+      <points>
+	  
+       <point>
+	   驅散電腦散發的熱能
+	   </point>
+	   
+	   <point>
+	   將系統維持在安全的溫度範圍內
+	   </point>
+
+     </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="設備類型">
+        風扇
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>

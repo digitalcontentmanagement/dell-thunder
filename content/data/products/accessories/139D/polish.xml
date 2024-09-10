@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<generic:root xmlns="http://www.dell.com/thunder/content" xmlns:meta="http://www.dell.com/thunder/metaproperties" xmlns:generic="http://www.dell.com/thunder/generic" xmlns:product="http://www.dell.com/thunder/product">
+  <generic:properties>
+    <meta:title>Fan products </meta:title>
+    <meta:date value="2024-9-9" />
+    <meta:creator value="Norsyahirah"/>
+    <meta:publisher value="SnP Operations Team" />
+  </generic:properties>
+  <generic:content>
+
+    <product:name>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> Dell <textbox value="1U" id="5"/> bardzo wysokowydajne wentylator do <textbox value="PowerEdge" id="2"/>, <dropdownlist id="customer-kit"/>
+       </product:name>
+	<product:longdesc>
+      <para>
+       Podzespoły systemu komputerowego, takie jak chipset, karta graficzna i dysk twardy, mogą podczas pracy wydzielać duże ilości ciepła. 
+       Może to negatywnie wpływać na prawidłowe działanie całego systemu. wentylatory służą do odprowadzania nadmiaru ciepła i utrzymywania bezpiecznej temperatury.
+      </para>
+	  <para>
+       Najważniejszym czynnikiem decydującym o wyborze jest typ i szybkość procesora. Poszczególne procesory różnią się temperaturą działania. Wyższa częstotliwość taktowania wymaga lepszego wentylatora. 
+       Ponadto typ procesora określa, jaki należy wybrać. Ważny jest również rodzaj obudowy, ponieważ decyduje on o zgodności z systemem.
+      </para>
+	  <para>
+       Aby zakupić odpowiedni wentylator do systemu, zalecamy skorzystanie z funkcji wyszukiwania kodów Service Tag w narzędziu Parts For Your Dell<tm/>. 
+       Umożliwi to zidentyfikowanie typu i szybkości procesora w systemie.
+      </para>
+	  <para>
+       Należy pamiętać, że niektóre podzespoły zamienne są dostarczane w postaci zestawów. 
+       Mogą one zawierać dodatkowe części wymagane podczas instalacji. Części te są uwzględnione na oddzielnej liście podzespołów w sekcji najważniejszych informacji na tej stronie. 
+       Jeżeli produkt nie jest oferowany w postaci zestawu, może wymagać dodatkowych części w celu łatwiejszej instalacji.
+      </para>
+     </product:longdesc>
+
+	 <!-- Start of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+
+
+    <product:highlights>
+    <points>
+	  <point>
+	   Skutecznie odprowadza ciepło z komputera
+	   </point>
+	  <point>
+	   Utrzymuje bezpieczną temperaturę wewnątrz systemu
+	   </point>
+  </points>
+
+</product:highlights>
+
+<!-- End of Name & Value Columns (Harmony - Mass Upload Usage) -->
+
+	
+	<!-- Start of Name & Value Columns (PIM - PRC Upload Usage) -->
+    <product:techspecs>
+      <product:techspec id="1" name="Rodzaj urządzenia">
+        wentylator
+      </product:techspec>
+      
+	    
+    </product:techspecs>
+    <!-- End of Name & Value Columns (PIM - PRC Upload Usage) -->
+
+  </generic:content>
+</generic:root>
