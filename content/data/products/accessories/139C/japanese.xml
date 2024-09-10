@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デル製 <textbox value="1U" id="5"/>  ハイパフォーマンスファン 製 用 <textbox value="PowerEdge" id="2"/>, <dropdownlist id="customer-kit"/>
+      <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デル <textbox value="1U" id="5"/>  ハイパフォーマンスファン 製 用 <textbox value="PowerEdge" id="2"/>, <dropdownlist id="customer-kit"/>
        </product:name>
 	<product:longdesc>
       <para>
