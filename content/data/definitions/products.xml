@@ -6,8 +6,9 @@
 	<product:subclass id="852A" description="Thermal Pad SSD for Alienware" folder-name="852A"/>
     <product:subclass id="413" description="Other Accessories" folder-name="413"/>
     <product:subclass id="139" description="Tape Media Labels" folder-name="139"/>
-    <product:subclass id="139A" description="Fans" folder-name="139A"/>
+    <product:subclass id="139A" description="Fans: Standard/Redundant" folder-name="139A"/>
 	  <product:subclass id="139C" description="Fans: High Performance" folder-name="139C"/>
+	  <product:subclass id="139D" description="Fans: Very High Performance" folder-name="139C"/>
     <product:subclass id="604" description="Cabinet &amp; Rack Accessories" folder-name="604"/>
 	<product:subclass id="139B" description="Riser" folder-name="139B"/>
 	<product:subclass id="465" description="Server Accessories" folder-name="465"/>
