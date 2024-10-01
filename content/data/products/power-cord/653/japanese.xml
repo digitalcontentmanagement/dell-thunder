@@ -9,7 +9,7 @@
   <generic:content>
 
     <product:name>
-	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの <textbox value="125" id="1"/>V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> メートル交換用 <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> 電源コード - <textbox value="North America" id="30"/> 
+	  <stringlookup ref="dellrefurbished" filter="'$(sku.type)' $in$ ['spare-parts']"/> デルの <textbox value="125" id="1"/>V, <textbox value="6" id="2"/> <dropdownlist id="meter-feet-unit"/> 交換用 <dropdownlist id="laptop-pc"/> <textbox value="C13" id="20"/> 電源コード - <textbox value="North America" id="30"/> 
     </product:name>
 
     <product:longdesc>
