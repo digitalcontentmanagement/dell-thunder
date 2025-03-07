@@ -21,7 +21,7 @@
         </b>
       </para>
 	    <para>
-	  La mémoire offerte aujourd’hui peut différer de la mémoire système d’origine quant à la vitesse, mais elle demeure compatible avec le système. Lorsque des modules de mémoire dépareillés sont utilisés, ils fonctionnent à la vitesse du module le plus lent, ou à la vitesse la plus rapide permise par le système. 
+	  A memória oferecida no momento pode apresentar uma diferença de velocidade em relação à memória original do sistema, mas está qualificada para funcionar com ele. Se combinada a alguma outra, a memória funcionará na menor velocidade fornecida ou na maior velocidade permitida pelo sistema.
       </para>
 	   <para><b>XMP</b>-Extreme Memory Profile</para><para>Projetado para Desktops gamer(DT)</para>
       <para filter="'$(locale.region)' $in$ ['us']">
