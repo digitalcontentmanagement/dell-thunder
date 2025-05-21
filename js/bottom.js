@@ -339,7 +339,10 @@ function GenerateGenericContent(id) {
                     case "RangeError":
                         alert("The required content XML files were not found.\n\nPlease contact your tool developer."); break;
                     default:
-                        alert("Generic content editor error encountered. Please contact your tool developer.");
+			{
+				console.log(error);
+                        	alert("Generic content editor error encountered. Please contact your tool developer.");
+			}
                 }
                 return;
             }
