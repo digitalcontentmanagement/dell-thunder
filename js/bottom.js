@@ -340,7 +340,7 @@ function GenerateGenericContent(id) {
                         alert("The required content XML files were not found.\n\nPlease contact your tool developer."); break;
                     default:
 			{
-				console.log(error);
+				console.log(error.message);
                         	alert("Generic content editor error encountered. Please contact your tool developer.");
 			}
                 }
